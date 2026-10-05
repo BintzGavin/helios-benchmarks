@@ -16,7 +16,7 @@ Rendering results, methodology, original receipts and reproducibility material f
 
 The Orb result is the remote CPU study. It is not a fourth engine or an independent GPU experiment. No general fastest-renderer, end-to-end zero-copy, original-product production win, or M5 Max claim is established.
 
-**Large-asset publication is in progress.** The catalog is complete for the local snapshot; release links become available as the evidence release is finalized.
+**Evidence published:** 30,661 catalog paths, 12,581 readable Git evidence files, and 164 release assets (29,421,509,501 bytes). Every asset matches its original size and GitHub server SHA-256. Two bounded public download/restoration checks also pass; the full 29.4 GB was not independently downloaded again. See [publication receipts](data/publication-receipts.json).
 
 ## Explore
 

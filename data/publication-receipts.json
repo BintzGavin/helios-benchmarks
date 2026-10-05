@@ -1,0 +1,1510 @@
+{
+  "repository": "BintzGavin/helios-benchmarks",
+  "releaseTag": "evidence-2026-10-05",
+  "releaseUrl": "https://github.com/BintzGavin/helios-benchmarks/releases/tag/evidence-2026-10-05",
+  "releaseId": 403646647,
+  "assetCount": 164,
+  "assetBytes": 29421509501,
+  "allServerSizesAndDigestsMatch": true,
+  "independentFullRedownload": false,
+  "boundedIndependentPublicRestoreChecks": [
+    {
+      "path": "native/native-gpu-evidence/native-bd92a760-helper",
+      "bytes": 17874976,
+      "sha256": "bd92a7608b5bba6bf8dca48db0b4ee03870bc14e0840302441ca00663e2f0349",
+      "storageKind": "release-asset",
+      "publicDownloadAndRestorationVerified": true,
+      "executed": false
+    },
+    {
+      "path": "gpu-comparison/r-reference-frame138.png",
+      "bytes": 8681,
+      "sha256": "bc17b329a39fdc77b8db61cd72ecf8b8da7a7881e329096c412bce91fc531ab8",
+      "storageKind": "release-bundle",
+      "publicDownloadAndRestorationVerified": true,
+      "executed": false
+    }
+  ],
+  "gitEvidenceFilesVerified": 12581,
+  "catalogPaths": 30661,
+  "cpuMediansRecomputed": 12,
+  "restorationTestsPassed": 9,
+  "assets": [
+    {
+      "name": "0028fed0521231657943e840088db9f84d745b862819c6edac7c09f186ef4419.mp4",
+      "id": 612545750,
+      "bytes": 23674953,
+      "sha256": "0028fed0521231657943e840088db9f84d745b862819c6edac7c09f186ef4419",
+      "serverDigest": "sha256:0028fed0521231657943e840088db9f84d745b862819c6edac7c09f186ef4419",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/0028fed0521231657943e840088db9f84d745b862819c6edac7c09f186ef4419.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "02a9bb016f96d892b9971d81bd5cefcccb1cdf302a0de0507d95377f3dda6dc4.mp4",
+      "id": 612423012,
+      "bytes": 205563148,
+      "sha256": "02a9bb016f96d892b9971d81bd5cefcccb1cdf302a0de0507d95377f3dda6dc4",
+      "serverDigest": "sha256:02a9bb016f96d892b9971d81bd5cefcccb1cdf302a0de0507d95377f3dda6dc4",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/02a9bb016f96d892b9971d81bd5cefcccb1cdf302a0de0507d95377f3dda6dc4.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "02af7e1915cd5ee6aa70e7f5ac644197e59813fa03f8eedd5d787cc41868de67.h264",
+      "id": 612556419,
+      "bytes": 226845658,
+      "sha256": "02af7e1915cd5ee6aa70e7f5ac644197e59813fa03f8eedd5d787cc41868de67",
+      "serverDigest": "sha256:02af7e1915cd5ee6aa70e7f5ac644197e59813fa03f8eedd5d787cc41868de67",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/02af7e1915cd5ee6aa70e7f5ac644197e59813fa03f8eedd5d787cc41868de67.h264",
+      "state": "uploaded"
+    },
+    {
+      "name": "0534222b28513b8ca65be7a0a034037212a54be0832f9b3474c82c04e4c72f52.zip",
+      "id": 612542987,
+      "bytes": 46625332,
+      "sha256": "0534222b28513b8ca65be7a0a034037212a54be0832f9b3474c82c04e4c72f52",
+      "serverDigest": "sha256:0534222b28513b8ca65be7a0a034037212a54be0832f9b3474c82c04e4c72f52",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/0534222b28513b8ca65be7a0a034037212a54be0832f9b3474c82c04e4c72f52.zip",
+      "state": "uploaded"
+    },
+    {
+      "name": "06929711bf841944eeabd0a8ca0fb06735429b6f66c3979b6ade8336ac3b52c8.mkv",
+      "id": 612528010,
+      "bytes": 242612390,
+      "sha256": "06929711bf841944eeabd0a8ca0fb06735429b6f66c3979b6ade8336ac3b52c8",
+      "serverDigest": "sha256:06929711bf841944eeabd0a8ca0fb06735429b6f66c3979b6ade8336ac3b52c8",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/06929711bf841944eeabd0a8ca0fb06735429b6f66c3979b6ade8336ac3b52c8.mkv",
+      "state": "uploaded"
+    },
+    {
+      "name": "0892a34e42a5c0dbc75146c6e855e501eb45cc01d038eaa9af01ada54fe7af8f.mp4",
+      "id": 612556162,
+      "bytes": 226848916,
+      "sha256": "0892a34e42a5c0dbc75146c6e855e501eb45cc01d038eaa9af01ada54fe7af8f",
+      "serverDigest": "sha256:0892a34e42a5c0dbc75146c6e855e501eb45cc01d038eaa9af01ada54fe7af8f",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/0892a34e42a5c0dbc75146c6e855e501eb45cc01d038eaa9af01ada54fe7af8f.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "0b0941964fd5585562ca447a36cfb7e50d663c205500ecf29fa8e8899c3296b9.mp4",
+      "id": 612523904,
+      "bytes": 188222550,
+      "sha256": "0b0941964fd5585562ca447a36cfb7e50d663c205500ecf29fa8e8899c3296b9",
+      "serverDigest": "sha256:0b0941964fd5585562ca447a36cfb7e50d663c205500ecf29fa8e8899c3296b9",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/0b0941964fd5585562ca447a36cfb7e50d663c205500ecf29fa8e8899c3296b9.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "0b7ac0f812f0d25e92b2ddcb1a9991f7c1ef8cc7b75a442bdb4c61208046efbf.mp4",
+      "id": 612425475,
+      "bytes": 376641173,
+      "sha256": "0b7ac0f812f0d25e92b2ddcb1a9991f7c1ef8cc7b75a442bdb4c61208046efbf",
+      "serverDigest": "sha256:0b7ac0f812f0d25e92b2ddcb1a9991f7c1ef8cc7b75a442bdb4c61208046efbf",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/0b7ac0f812f0d25e92b2ddcb1a9991f7c1ef8cc7b75a442bdb4c61208046efbf.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "0ba71d9cca61fc4d4ff9cdbc9ffe273f11460de3c33885d4b17f7bb984085928.mp4",
+      "id": 612538921,
+      "bytes": 136903477,
+      "sha256": "0ba71d9cca61fc4d4ff9cdbc9ffe273f11460de3c33885d4b17f7bb984085928",
+      "serverDigest": "sha256:0ba71d9cca61fc4d4ff9cdbc9ffe273f11460de3c33885d4b17f7bb984085928",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/0ba71d9cca61fc4d4ff9cdbc9ffe273f11460de3c33885d4b17f7bb984085928.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "0db1933531467664ec7e638716316b4ed2e63925cd6f2947dd9b1d9f32765758.mp4",
+      "id": 612435642,
+      "bytes": 377644886,
+      "sha256": "0db1933531467664ec7e638716316b4ed2e63925cd6f2947dd9b1d9f32765758",
+      "serverDigest": "sha256:0db1933531467664ec7e638716316b4ed2e63925cd6f2947dd9b1d9f32765758",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/0db1933531467664ec7e638716316b4ed2e63925cd6f2947dd9b1d9f32765758.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "1010c345f85897a57e14e5053b96dee02cb213eb8954f873455ef58fa74049f3.mp4",
+      "id": 612451186,
+      "bytes": 625363808,
+      "sha256": "1010c345f85897a57e14e5053b96dee02cb213eb8954f873455ef58fa74049f3",
+      "serverDigest": "sha256:1010c345f85897a57e14e5053b96dee02cb213eb8954f873455ef58fa74049f3",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/1010c345f85897a57e14e5053b96dee02cb213eb8954f873455ef58fa74049f3.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "107757e599c608eaecce016ced13c59236130168c6200189b16582e58572e0bb.bin",
+      "id": 612517238,
+      "bytes": 37998000,
+      "sha256": "107757e599c608eaecce016ced13c59236130168c6200189b16582e58572e0bb",
+      "serverDigest": "sha256:107757e599c608eaecce016ced13c59236130168c6200189b16582e58572e0bb",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/107757e599c608eaecce016ced13c59236130168c6200189b16582e58572e0bb.bin",
+      "state": "uploaded"
+    },
+    {
+      "name": "1383da791a588731101f6dd22bea8e911d4bc97243b7f01541214981afc90ecc.bin",
+      "id": 612572892,
+      "bytes": 17914208,
+      "sha256": "1383da791a588731101f6dd22bea8e911d4bc97243b7f01541214981afc90ecc",
+      "serverDigest": "sha256:1383da791a588731101f6dd22bea8e911d4bc97243b7f01541214981afc90ecc",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/1383da791a588731101f6dd22bea8e911d4bc97243b7f01541214981afc90ecc.bin",
+      "state": "uploaded"
+    },
+    {
+      "name": "1529096dfd64f4d33a9fad7c10a1e012881575fa908013296600010c826989b2.mp4",
+      "id": 612400175,
+      "bytes": 226387994,
+      "sha256": "1529096dfd64f4d33a9fad7c10a1e012881575fa908013296600010c826989b2",
+      "serverDigest": "sha256:1529096dfd64f4d33a9fad7c10a1e012881575fa908013296600010c826989b2",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/1529096dfd64f4d33a9fad7c10a1e012881575fa908013296600010c826989b2.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "15f6685d7a1735436f46a31b3913583c10083b77fd11dd34943d3d818a233b7b.mkv",
+      "id": 612563217,
+      "bytes": 248785160,
+      "sha256": "15f6685d7a1735436f46a31b3913583c10083b77fd11dd34943d3d818a233b7b",
+      "serverDigest": "sha256:15f6685d7a1735436f46a31b3913583c10083b77fd11dd34943d3d818a233b7b",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/15f6685d7a1735436f46a31b3913583c10083b77fd11dd34943d3d818a233b7b.mkv",
+      "state": "uploaded"
+    },
+    {
+      "name": "1a9a1041e03039b927966b7bf1dabeff9ce31cc283b37f6fecd4fdfd8841cd46.mp4",
+      "id": 612501954,
+      "bytes": 384897077,
+      "sha256": "1a9a1041e03039b927966b7bf1dabeff9ce31cc283b37f6fecd4fdfd8841cd46",
+      "serverDigest": "sha256:1a9a1041e03039b927966b7bf1dabeff9ce31cc283b37f6fecd4fdfd8841cd46",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/1a9a1041e03039b927966b7bf1dabeff9ce31cc283b37f6fecd4fdfd8841cd46.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "1fd9acc3f5cf90160a3f9aa5f564074185acc87af7a995735056702f88872437.mp4",
+      "id": 612400204,
+      "bytes": 195807073,
+      "sha256": "1fd9acc3f5cf90160a3f9aa5f564074185acc87af7a995735056702f88872437",
+      "serverDigest": "sha256:1fd9acc3f5cf90160a3f9aa5f564074185acc87af7a995735056702f88872437",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/1fd9acc3f5cf90160a3f9aa5f564074185acc87af7a995735056702f88872437.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "207d74a366880dea3ecab92a0e9970365887c1f99a4d08e6b2b381581f7365e1.mp4",
+      "id": 612394034,
+      "bytes": 143109303,
+      "sha256": "207d74a366880dea3ecab92a0e9970365887c1f99a4d08e6b2b381581f7365e1",
+      "serverDigest": "sha256:207d74a366880dea3ecab92a0e9970365887c1f99a4d08e6b2b381581f7365e1",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/207d74a366880dea3ecab92a0e9970365887c1f99a4d08e6b2b381581f7365e1.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "20d90cd5638387f4a5a7bf60028c9af380d1b8f7085612aa4c511177465727b3.mkv",
+      "id": 612477679,
+      "bytes": 515450662,
+      "sha256": "20d90cd5638387f4a5a7bf60028c9af380d1b8f7085612aa4c511177465727b3",
+      "serverDigest": "sha256:20d90cd5638387f4a5a7bf60028c9af380d1b8f7085612aa4c511177465727b3",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/20d90cd5638387f4a5a7bf60028c9af380d1b8f7085612aa4c511177465727b3.mkv",
+      "state": "uploaded"
+    },
+    {
+      "name": "22a31038cadb72e1f0c937e8ba3569a066d296be89f4f66f499ebf981f3d5eba.mp4",
+      "id": 612392596,
+      "bytes": 143111849,
+      "sha256": "22a31038cadb72e1f0c937e8ba3569a066d296be89f4f66f499ebf981f3d5eba",
+      "serverDigest": "sha256:22a31038cadb72e1f0c937e8ba3569a066d296be89f4f66f499ebf981f3d5eba",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/22a31038cadb72e1f0c937e8ba3569a066d296be89f4f66f499ebf981f3d5eba.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "25b36b0c19c6218b689fc1f669fd3bf9c42c95d04bab6b851d24b67a945c5b68.mp4",
+      "id": 612535842,
+      "bytes": 188222550,
+      "sha256": "25b36b0c19c6218b689fc1f669fd3bf9c42c95d04bab6b851d24b67a945c5b68",
+      "serverDigest": "sha256:25b36b0c19c6218b689fc1f669fd3bf9c42c95d04bab6b851d24b67a945c5b68",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/25b36b0c19c6218b689fc1f669fd3bf9c42c95d04bab6b851d24b67a945c5b68.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "355e3c14cb5119ed23d90ddee5d47f2530831427420f4b3ac92604b42d7776a1.bin",
+      "id": 612573721,
+      "bytes": 17816384,
+      "sha256": "355e3c14cb5119ed23d90ddee5d47f2530831427420f4b3ac92604b42d7776a1",
+      "serverDigest": "sha256:355e3c14cb5119ed23d90ddee5d47f2530831427420f4b3ac92604b42d7776a1",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/355e3c14cb5119ed23d90ddee5d47f2530831427420f4b3ac92604b42d7776a1.bin",
+      "state": "uploaded"
+    },
+    {
+      "name": "37834efd4c807df4a69ee16ade5ea015dfe3036284b33c8c80134d9b75fb1864.zip",
+      "id": 612542459,
+      "bytes": 19102598,
+      "sha256": "37834efd4c807df4a69ee16ade5ea015dfe3036284b33c8c80134d9b75fb1864",
+      "serverDigest": "sha256:37834efd4c807df4a69ee16ade5ea015dfe3036284b33c8c80134d9b75fb1864",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/37834efd4c807df4a69ee16ade5ea015dfe3036284b33c8c80134d9b75fb1864.zip",
+      "state": "uploaded"
+    },
+    {
+      "name": "385f060ff170561b8e1bab2bdc160a76341e38716acf142c0feb4dd376f7448d.mp4",
+      "id": 612525933,
+      "bytes": 188222550,
+      "sha256": "385f060ff170561b8e1bab2bdc160a76341e38716acf142c0feb4dd376f7448d",
+      "serverDigest": "sha256:385f060ff170561b8e1bab2bdc160a76341e38716acf142c0feb4dd376f7448d",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/385f060ff170561b8e1bab2bdc160a76341e38716acf142c0feb4dd376f7448d.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "3894116770d7d733eb49724f9fe2dd9cc96b13561f6a2d8cb0c597eea6ebcbc5.mkv",
+      "id": 612461025,
+      "bytes": 513310474,
+      "sha256": "3894116770d7d733eb49724f9fe2dd9cc96b13561f6a2d8cb0c597eea6ebcbc5",
+      "serverDigest": "sha256:3894116770d7d733eb49724f9fe2dd9cc96b13561f6a2d8cb0c597eea6ebcbc5",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/3894116770d7d733eb49724f9fe2dd9cc96b13561f6a2d8cb0c597eea6ebcbc5.mkv",
+      "state": "uploaded"
+    },
+    {
+      "name": "3a6ca3529b3810a651da445074d95acaea5d79eaf2636de2d4ad86f9fe10b046.mkv",
+      "id": 612553101,
+      "bytes": 248785160,
+      "sha256": "3a6ca3529b3810a651da445074d95acaea5d79eaf2636de2d4ad86f9fe10b046",
+      "serverDigest": "sha256:3a6ca3529b3810a651da445074d95acaea5d79eaf2636de2d4ad86f9fe10b046",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/3a6ca3529b3810a651da445074d95acaea5d79eaf2636de2d4ad86f9fe10b046.mkv",
+      "state": "uploaded"
+    },
+    {
+      "name": "3b03be7e8ff58ef55336e7f0f9848412770e3af3c49b3702df00de307ed3eeb6.mp4",
+      "id": 612548962,
+      "bytes": 25168706,
+      "sha256": "3b03be7e8ff58ef55336e7f0f9848412770e3af3c49b3702df00de307ed3eeb6",
+      "serverDigest": "sha256:3b03be7e8ff58ef55336e7f0f9848412770e3af3c49b3702df00de307ed3eeb6",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/3b03be7e8ff58ef55336e7f0f9848412770e3af3c49b3702df00de307ed3eeb6.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "3c760b6c6be15e8594492437f8d6265f2defcdd37e1b2d582b05aed79f837b89.zip",
+      "id": 612543544,
+      "bytes": 31021640,
+      "sha256": "3c760b6c6be15e8594492437f8d6265f2defcdd37e1b2d582b05aed79f837b89",
+      "serverDigest": "sha256:3c760b6c6be15e8594492437f8d6265f2defcdd37e1b2d582b05aed79f837b89",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/3c760b6c6be15e8594492437f8d6265f2defcdd37e1b2d582b05aed79f837b89.zip",
+      "state": "uploaded"
+    },
+    {
+      "name": "3edd295bd2cffaac9d3639dfe12a22319dbeb0d4f0e877e2d0c5ceb8494ad698.mp4",
+      "id": 612408089,
+      "bytes": 226473095,
+      "sha256": "3edd295bd2cffaac9d3639dfe12a22319dbeb0d4f0e877e2d0c5ceb8494ad698",
+      "serverDigest": "sha256:3edd295bd2cffaac9d3639dfe12a22319dbeb0d4f0e877e2d0c5ceb8494ad698",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/3edd295bd2cffaac9d3639dfe12a22319dbeb0d4f0e877e2d0c5ceb8494ad698.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "41e42508bc00fad59667a85bb51ca4f39f9efda496355e9935d94824fed34aad.mp4",
+      "id": 612483247,
+      "bytes": 258231337,
+      "sha256": "41e42508bc00fad59667a85bb51ca4f39f9efda496355e9935d94824fed34aad",
+      "serverDigest": "sha256:41e42508bc00fad59667a85bb51ca4f39f9efda496355e9935d94824fed34aad",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/41e42508bc00fad59667a85bb51ca4f39f9efda496355e9935d94824fed34aad.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "44fc2e80ce304baec0c7eaf9c70c3b86f7779ff556d4f3a52eae451485394108.mp4",
+      "id": 612536932,
+      "bytes": 145756741,
+      "sha256": "44fc2e80ce304baec0c7eaf9c70c3b86f7779ff556d4f3a52eae451485394108",
+      "serverDigest": "sha256:44fc2e80ce304baec0c7eaf9c70c3b86f7779ff556d4f3a52eae451485394108",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/44fc2e80ce304baec0c7eaf9c70c3b86f7779ff556d4f3a52eae451485394108.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "45e3df37f9067411d7a4e61c1df2a82f97373bba50d25d0f6895d8266599d632.mp4",
+      "id": 612441065,
+      "bytes": 376641173,
+      "sha256": "45e3df37f9067411d7a4e61c1df2a82f97373bba50d25d0f6895d8266599d632",
+      "serverDigest": "sha256:45e3df37f9067411d7a4e61c1df2a82f97373bba50d25d0f6895d8266599d632",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/45e3df37f9067411d7a4e61c1df2a82f97373bba50d25d0f6895d8266599d632.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "472e21aed7f62d36b9fa0a1825edd3e2c6d43c842388ad9dc0888736ee47828c.mp4",
+      "id": 612545580,
+      "bytes": 23669164,
+      "sha256": "472e21aed7f62d36b9fa0a1825edd3e2c6d43c842388ad9dc0888736ee47828c",
+      "serverDigest": "sha256:472e21aed7f62d36b9fa0a1825edd3e2c6d43c842388ad9dc0888736ee47828c",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/472e21aed7f62d36b9fa0a1825edd3e2c6d43c842388ad9dc0888736ee47828c.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "496fadac6c4a454584d246dc522304c3f7ade117c929225d08537641337178ec.mp4",
+      "id": 612430585,
+      "bytes": 376641173,
+      "sha256": "496fadac6c4a454584d246dc522304c3f7ade117c929225d08537641337178ec",
+      "serverDigest": "sha256:496fadac6c4a454584d246dc522304c3f7ade117c929225d08537641337178ec",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/496fadac6c4a454584d246dc522304c3f7ade117c929225d08537641337178ec.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "49ff0775438b0c9cb927656b34ace0198cdf9f0a37b667791b40e684578cf2e1.mp4",
+      "id": 612425400,
+      "bytes": 377645125,
+      "sha256": "49ff0775438b0c9cb927656b34ace0198cdf9f0a37b667791b40e684578cf2e1",
+      "serverDigest": "sha256:49ff0775438b0c9cb927656b34ace0198cdf9f0a37b667791b40e684578cf2e1",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/49ff0775438b0c9cb927656b34ace0198cdf9f0a37b667791b40e684578cf2e1.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "4b07df0a91edf704b172548332545331f14182712d1d8a5aa2624573e05b2021.bin",
+      "id": 612508542,
+      "bytes": 37999408,
+      "sha256": "4b07df0a91edf704b172548332545331f14182712d1d8a5aa2624573e05b2021",
+      "serverDigest": "sha256:4b07df0a91edf704b172548332545331f14182712d1d8a5aa2624573e05b2021",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/4b07df0a91edf704b172548332545331f14182712d1d8a5aa2624573e05b2021.bin",
+      "state": "uploaded"
+    },
+    {
+      "name": "4b2b2598a4604be3104e284fec7d5d1cc3368acf1917e3e1e23ce76a1f0ac6ca.bin",
+      "id": 612572126,
+      "bytes": 17895536,
+      "sha256": "4b2b2598a4604be3104e284fec7d5d1cc3368acf1917e3e1e23ce76a1f0ac6ca",
+      "serverDigest": "sha256:4b2b2598a4604be3104e284fec7d5d1cc3368acf1917e3e1e23ce76a1f0ac6ca",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/4b2b2598a4604be3104e284fec7d5d1cc3368acf1917e3e1e23ce76a1f0ac6ca.bin",
+      "state": "uploaded"
+    },
+    {
+      "name": "4c7930813a23cfbfc254d85f937bf4bc17895db07d6dbdd559baa40ad1744fff.mp4",
+      "id": 612410836,
+      "bytes": 196577294,
+      "sha256": "4c7930813a23cfbfc254d85f937bf4bc17895db07d6dbdd559baa40ad1744fff",
+      "serverDigest": "sha256:4c7930813a23cfbfc254d85f937bf4bc17895db07d6dbdd559baa40ad1744fff",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/4c7930813a23cfbfc254d85f937bf4bc17895db07d6dbdd559baa40ad1744fff.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "4cd083c50bb73d0c77f63659a4c17dcfb800d12ceb1ca0d8d2ddd65bb4dd878a.mp4",
+      "id": 612406413,
+      "bytes": 143548525,
+      "sha256": "4cd083c50bb73d0c77f63659a4c17dcfb800d12ceb1ca0d8d2ddd65bb4dd878a",
+      "serverDigest": "sha256:4cd083c50bb73d0c77f63659a4c17dcfb800d12ceb1ca0d8d2ddd65bb4dd878a",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/4cd083c50bb73d0c77f63659a4c17dcfb800d12ceb1ca0d8d2ddd65bb4dd878a.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "4d48ce59c002369acc08588a972017f4e2288627337b9637592bef22220ed6ef.mp4",
+      "id": 612565906,
+      "bytes": 226848916,
+      "sha256": "4d48ce59c002369acc08588a972017f4e2288627337b9637592bef22220ed6ef",
+      "serverDigest": "sha256:4d48ce59c002369acc08588a972017f4e2288627337b9637592bef22220ed6ef",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/4d48ce59c002369acc08588a972017f4e2288627337b9637592bef22220ed6ef.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "4ed0ddeac116f06daed4de03897322b02753c18f85fa45208ddb7efcea0d7155.mp4",
+      "id": 612412772,
+      "bytes": 209023892,
+      "sha256": "4ed0ddeac116f06daed4de03897322b02753c18f85fa45208ddb7efcea0d7155",
+      "serverDigest": "sha256:4ed0ddeac116f06daed4de03897322b02753c18f85fa45208ddb7efcea0d7155",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/4ed0ddeac116f06daed4de03897322b02753c18f85fa45208ddb7efcea0d7155.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "4f42f00b9174d6bbae74d32fdcc98f4215173f46be6be36874d02e2a60ac312e.bin",
+      "id": 612516509,
+      "bytes": 36228000,
+      "sha256": "4f42f00b9174d6bbae74d32fdcc98f4215173f46be6be36874d02e2a60ac312e",
+      "serverDigest": "sha256:4f42f00b9174d6bbae74d32fdcc98f4215173f46be6be36874d02e2a60ac312e",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/4f42f00b9174d6bbae74d32fdcc98f4215173f46be6be36874d02e2a60ac312e.bin",
+      "state": "uploaded"
+    },
+    {
+      "name": "515ab47cfaca92bc3d87c469c3ead365187ac934302285d3deeb7d56dd29bfca.mp4",
+      "id": 612544000,
+      "bytes": 17030379,
+      "sha256": "515ab47cfaca92bc3d87c469c3ead365187ac934302285d3deeb7d56dd29bfca",
+      "serverDigest": "sha256:515ab47cfaca92bc3d87c469c3ead365187ac934302285d3deeb7d56dd29bfca",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/515ab47cfaca92bc3d87c469c3ead365187ac934302285d3deeb7d56dd29bfca.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "5180e73b4d0fa3446dd52a77dfc019a7b6e8b80ea03c777e28b4f6b3927717a1.mkv",
+      "id": 612455509,
+      "bytes": 513310548,
+      "sha256": "5180e73b4d0fa3446dd52a77dfc019a7b6e8b80ea03c777e28b4f6b3927717a1",
+      "serverDigest": "sha256:5180e73b4d0fa3446dd52a77dfc019a7b6e8b80ea03c777e28b4f6b3927717a1",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/5180e73b4d0fa3446dd52a77dfc019a7b6e8b80ea03c777e28b4f6b3927717a1.mkv",
+      "state": "uploaded"
+    },
+    {
+      "name": "526f8731923c4e155b80e54e3d83584cfb7752504e901330778bd23f2ca3cfb3.json",
+      "id": 612527741,
+      "bytes": 31913447,
+      "sha256": "526f8731923c4e155b80e54e3d83584cfb7752504e901330778bd23f2ca3cfb3",
+      "serverDigest": "sha256:526f8731923c4e155b80e54e3d83584cfb7752504e901330778bd23f2ca3cfb3",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/526f8731923c4e155b80e54e3d83584cfb7752504e901330778bd23f2ca3cfb3.json",
+      "state": "uploaded"
+    },
+    {
+      "name": "547e4b56d8365784f0467c8b2180c75429543e7e88277b17aeca772cad60f403.mp4",
+      "id": 612402506,
+      "bytes": 151266025,
+      "sha256": "547e4b56d8365784f0467c8b2180c75429543e7e88277b17aeca772cad60f403",
+      "serverDigest": "sha256:547e4b56d8365784f0467c8b2180c75429543e7e88277b17aeca772cad60f403",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/547e4b56d8365784f0467c8b2180c75429543e7e88277b17aeca772cad60f403.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "54e7d8a469a9fe721f62369d86cb8600ac685453a7a09c54269aa8552c4c0c99.mp4",
+      "id": 612506874,
+      "bytes": 201588784,
+      "sha256": "54e7d8a469a9fe721f62369d86cb8600ac685453a7a09c54269aa8552c4c0c99",
+      "serverDigest": "sha256:54e7d8a469a9fe721f62369d86cb8600ac685453a7a09c54269aa8552c4c0c99",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/54e7d8a469a9fe721f62369d86cb8600ac685453a7a09c54269aa8552c4c0c99.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "553bfc2e24001940bc51725affa8bd1a2201cee8f3c4e150c8755307882d66c1.mp4",
+      "id": 612538151,
+      "bytes": 125539698,
+      "sha256": "553bfc2e24001940bc51725affa8bd1a2201cee8f3c4e150c8755307882d66c1",
+      "serverDigest": "sha256:553bfc2e24001940bc51725affa8bd1a2201cee8f3c4e150c8755307882d66c1",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/553bfc2e24001940bc51725affa8bd1a2201cee8f3c4e150c8755307882d66c1.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "576a72eabf864d7e264d952c3b8c7c3c1deb916da478aab35af8d19ddfeff490.mp4",
+      "id": 612526008,
+      "bytes": 125539698,
+      "sha256": "576a72eabf864d7e264d952c3b8c7c3c1deb916da478aab35af8d19ddfeff490",
+      "serverDigest": "sha256:576a72eabf864d7e264d952c3b8c7c3c1deb916da478aab35af8d19ddfeff490",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/576a72eabf864d7e264d952c3b8c7c3c1deb916da478aab35af8d19ddfeff490.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "581ff0e37ab1bffdc5111909ee4e4a13108e295b38b390fce9d72f5577a6313f.mp4",
+      "id": 612521999,
+      "bytes": 188222550,
+      "sha256": "581ff0e37ab1bffdc5111909ee4e4a13108e295b38b390fce9d72f5577a6313f",
+      "serverDigest": "sha256:581ff0e37ab1bffdc5111909ee4e4a13108e295b38b390fce9d72f5577a6313f",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/581ff0e37ab1bffdc5111909ee4e4a13108e295b38b390fce9d72f5577a6313f.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "58a6dfd54294015cdf444ab1a27c98f0782221b91d3dfe92cce3520e156bd0b8.bin",
+      "id": 612572648,
+      "bytes": 17896560,
+      "sha256": "58a6dfd54294015cdf444ab1a27c98f0782221b91d3dfe92cce3520e156bd0b8",
+      "serverDigest": "sha256:58a6dfd54294015cdf444ab1a27c98f0782221b91d3dfe92cce3520e156bd0b8",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/58a6dfd54294015cdf444ab1a27c98f0782221b91d3dfe92cce3520e156bd0b8.bin",
+      "state": "uploaded"
+    },
+    {
+      "name": "6072e09a4c503ffe2e7c6023274488483a548a41b75dde1abc8e7343dfeeb941.mp4",
+      "id": 612519815,
+      "bytes": 125539698,
+      "sha256": "6072e09a4c503ffe2e7c6023274488483a548a41b75dde1abc8e7343dfeeb941",
+      "serverDigest": "sha256:6072e09a4c503ffe2e7c6023274488483a548a41b75dde1abc8e7343dfeeb941",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/6072e09a4c503ffe2e7c6023274488483a548a41b75dde1abc8e7343dfeeb941.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "60a3d1025d411ed540e0946c843ce8c49e5b4e4cddf574d734e95feb0701a449.mkv",
+      "id": 612545950,
+      "bytes": 248806492,
+      "sha256": "60a3d1025d411ed540e0946c843ce8c49e5b4e4cddf574d734e95feb0701a449",
+      "serverDigest": "sha256:60a3d1025d411ed540e0946c843ce8c49e5b4e4cddf574d734e95feb0701a449",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/60a3d1025d411ed540e0946c843ce8c49e5b4e4cddf574d734e95feb0701a449.mkv",
+      "state": "uploaded"
+    },
+    {
+      "name": "62332234a3b512a7a8388b69a66c7fd5119ebd08076ff26c2a293fc63287a897.mkv",
+      "id": 612531116,
+      "bytes": 247978665,
+      "sha256": "62332234a3b512a7a8388b69a66c7fd5119ebd08076ff26c2a293fc63287a897",
+      "serverDigest": "sha256:62332234a3b512a7a8388b69a66c7fd5119ebd08076ff26c2a293fc63287a897",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/62332234a3b512a7a8388b69a66c7fd5119ebd08076ff26c2a293fc63287a897.mkv",
+      "state": "uploaded"
+    },
+    {
+      "name": "6547a43cce48e039f7d628d385faf3d3948358d0657c80b85df9142c7fcd683f.mkv",
+      "id": 612509200,
+      "bytes": 528812842,
+      "sha256": "6547a43cce48e039f7d628d385faf3d3948358d0657c80b85df9142c7fcd683f",
+      "serverDigest": "sha256:6547a43cce48e039f7d628d385faf3d3948358d0657c80b85df9142c7fcd683f",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/6547a43cce48e039f7d628d385faf3d3948358d0657c80b85df9142c7fcd683f.mkv",
+      "state": "uploaded"
+    },
+    {
+      "name": "665ce943531be9a35d61aa7629e12646e280d0568c1ca6a576816f15963210a8.bin",
+      "id": 612505925,
+      "bytes": 38000704,
+      "sha256": "665ce943531be9a35d61aa7629e12646e280d0568c1ca6a576816f15963210a8",
+      "serverDigest": "sha256:665ce943531be9a35d61aa7629e12646e280d0568c1ca6a576816f15963210a8",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/665ce943531be9a35d61aa7629e12646e280d0568c1ca6a576816f15963210a8.bin",
+      "state": "uploaded"
+    },
+    {
+      "name": "6679452901c6535cc80b4b762cd6c7c13d222e91fb8212a837ca85e60f4af22b.bin",
+      "id": 612573875,
+      "bytes": 17816832,
+      "sha256": "6679452901c6535cc80b4b762cd6c7c13d222e91fb8212a837ca85e60f4af22b",
+      "serverDigest": "sha256:6679452901c6535cc80b4b762cd6c7c13d222e91fb8212a837ca85e60f4af22b",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/6679452901c6535cc80b4b762cd6c7c13d222e91fb8212a837ca85e60f4af22b.bin",
+      "state": "uploaded"
+    },
+    {
+      "name": "67110a23e7d7602d9e003577931b9e6294bef76a6a6afc01077ce3b13f64fb1d.mp4",
+      "id": 612412672,
+      "bytes": 196211916,
+      "sha256": "67110a23e7d7602d9e003577931b9e6294bef76a6a6afc01077ce3b13f64fb1d",
+      "serverDigest": "sha256:67110a23e7d7602d9e003577931b9e6294bef76a6a6afc01077ce3b13f64fb1d",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/67110a23e7d7602d9e003577931b9e6294bef76a6a6afc01077ce3b13f64fb1d.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "676a92dc728c7eef3cfff5bc2e9764bf465e45b2f86b806e982fc7a43d096fde.bin",
+      "id": 612493383,
+      "bytes": 33177920,
+      "sha256": "676a92dc728c7eef3cfff5bc2e9764bf465e45b2f86b806e982fc7a43d096fde",
+      "serverDigest": "sha256:676a92dc728c7eef3cfff5bc2e9764bf465e45b2f86b806e982fc7a43d096fde",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/676a92dc728c7eef3cfff5bc2e9764bf465e45b2f86b806e982fc7a43d096fde.bin",
+      "state": "uploaded"
+    },
+    {
+      "name": "6b7464c99814017d4e2d9db02797eab746bbed6e6e4f09c83e764de696ff30cc.bin",
+      "id": 612572322,
+      "bytes": 17896256,
+      "sha256": "6b7464c99814017d4e2d9db02797eab746bbed6e6e4f09c83e764de696ff30cc",
+      "serverDigest": "sha256:6b7464c99814017d4e2d9db02797eab746bbed6e6e4f09c83e764de696ff30cc",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/6b7464c99814017d4e2d9db02797eab746bbed6e6e4f09c83e764de696ff30cc.bin",
+      "state": "uploaded"
+    },
+    {
+      "name": "6bd1a646c3dcddcc70209bbff7561ab64de3603011296957361ac85bf3947816.mp4",
+      "id": 612469054,
+      "bytes": 625363808,
+      "sha256": "6bd1a646c3dcddcc70209bbff7561ab64de3603011296957361ac85bf3947816",
+      "serverDigest": "sha256:6bd1a646c3dcddcc70209bbff7561ab64de3603011296957361ac85bf3947816",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/6bd1a646c3dcddcc70209bbff7561ab64de3603011296957361ac85bf3947816.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "6cfeb6358a6171b5f50eddf1cfc8c97d1603ff59fcbf59041a658e43fa9e2be6.rgba",
+      "id": 612550164,
+      "bytes": 24883200,
+      "sha256": "6cfeb6358a6171b5f50eddf1cfc8c97d1603ff59fcbf59041a658e43fa9e2be6",
+      "serverDigest": "sha256:6cfeb6358a6171b5f50eddf1cfc8c97d1603ff59fcbf59041a658e43fa9e2be6",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/6cfeb6358a6171b5f50eddf1cfc8c97d1603ff59fcbf59041a658e43fa9e2be6.rgba",
+      "state": "uploaded"
+    },
+    {
+      "name": "6fc24bf0cb665cb32d0582ec6e5588d7e8ddf6078446d36001cd310ce9c910a4.mkv",
+      "id": 612495223,
+      "bytes": 485490688,
+      "sha256": "6fc24bf0cb665cb32d0582ec6e5588d7e8ddf6078446d36001cd310ce9c910a4",
+      "serverDigest": "sha256:6fc24bf0cb665cb32d0582ec6e5588d7e8ddf6078446d36001cd310ce9c910a4",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/6fc24bf0cb665cb32d0582ec6e5588d7e8ddf6078446d36001cd310ce9c910a4.mkv",
+      "state": "uploaded"
+    },
+    {
+      "name": "7003322e873208582f80daaf66f450da613a245bced036e529c1ae477afc1619.mp4",
+      "id": 612539880,
+      "bytes": 136850143,
+      "sha256": "7003322e873208582f80daaf66f450da613a245bced036e529c1ae477afc1619",
+      "serverDigest": "sha256:7003322e873208582f80daaf66f450da613a245bced036e529c1ae477afc1619",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/7003322e873208582f80daaf66f450da613a245bced036e529c1ae477afc1619.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "733a9bf46403c9a4a58220a339b9e7e0f17f48e0230d6c12cf81fda0083ac301.jsonl",
+      "id": 612506726,
+      "bytes": 127744411,
+      "sha256": "733a9bf46403c9a4a58220a339b9e7e0f17f48e0230d6c12cf81fda0083ac301",
+      "serverDigest": "sha256:733a9bf46403c9a4a58220a339b9e7e0f17f48e0230d6c12cf81fda0083ac301",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/733a9bf46403c9a4a58220a339b9e7e0f17f48e0230d6c12cf81fda0083ac301.jsonl",
+      "state": "uploaded"
+    },
+    {
+      "name": "73a556a24d812815d57a2ec404c5f29e2c1201c5fbba41df0010e6b9e9f7219b.mp4",
+      "id": 612435809,
+      "bytes": 376641173,
+      "sha256": "73a556a24d812815d57a2ec404c5f29e2c1201c5fbba41df0010e6b9e9f7219b",
+      "serverDigest": "sha256:73a556a24d812815d57a2ec404c5f29e2c1201c5fbba41df0010e6b9e9f7219b",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/73a556a24d812815d57a2ec404c5f29e2c1201c5fbba41df0010e6b9e9f7219b.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "73e2d1d242ff3ef8ed23e32fd6207e9e7f815c2abdea188f924f5e9c25c222e9.mp4",
+      "id": 612568549,
+      "bytes": 226848916,
+      "sha256": "73e2d1d242ff3ef8ed23e32fd6207e9e7f815c2abdea188f924f5e9c25c222e9",
+      "serverDigest": "sha256:73e2d1d242ff3ef8ed23e32fd6207e9e7f815c2abdea188f924f5e9c25c222e9",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/73e2d1d242ff3ef8ed23e32fd6207e9e7f815c2abdea188f924f5e9c25c222e9.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "764349f2a78d8f72d58a4c9f33e0fb3cd784531a32e05d926d89de8446197f3c.mp4",
+      "id": 612553534,
+      "bytes": 226848916,
+      "sha256": "764349f2a78d8f72d58a4c9f33e0fb3cd784531a32e05d926d89de8446197f3c",
+      "serverDigest": "sha256:764349f2a78d8f72d58a4c9f33e0fb3cd784531a32e05d926d89de8446197f3c",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/764349f2a78d8f72d58a4c9f33e0fb3cd784531a32e05d926d89de8446197f3c.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "7b128c619e9faad84abdd076d9150d3d0c464449b9bd4d3d259ec58faa9a79d1.av1.mp4",
+      "id": 612545642,
+      "bytes": 21851990,
+      "sha256": "7b128c619e9faad84abdd076d9150d3d0c464449b9bd4d3d259ec58faa9a79d1",
+      "serverDigest": "sha256:7b128c619e9faad84abdd076d9150d3d0c464449b9bd4d3d259ec58faa9a79d1",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/7b128c619e9faad84abdd076d9150d3d0c464449b9bd4d3d259ec58faa9a79d1.av1.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "7bdab6a2ea9010d3d745fac7021c1c899d89208f32cf96610bbf7084bfc012b9.nut",
+      "id": 612418879,
+      "bytes": 261892876,
+      "sha256": "7bdab6a2ea9010d3d745fac7021c1c899d89208f32cf96610bbf7084bfc012b9",
+      "serverDigest": "sha256:7bdab6a2ea9010d3d745fac7021c1c899d89208f32cf96610bbf7084bfc012b9",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/7bdab6a2ea9010d3d745fac7021c1c899d89208f32cf96610bbf7084bfc012b9.nut",
+      "state": "uploaded"
+    },
+    {
+      "name": "7c2810399386ccd6ff2f344236d1f5f783455765c452b699e4e292881ab2026d.mp4",
+      "id": 612487836,
+      "bytes": 251822262,
+      "sha256": "7c2810399386ccd6ff2f344236d1f5f783455765c452b699e4e292881ab2026d",
+      "serverDigest": "sha256:7c2810399386ccd6ff2f344236d1f5f783455765c452b699e4e292881ab2026d",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/7c2810399386ccd6ff2f344236d1f5f783455765c452b699e4e292881ab2026d.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "7e2c4b9052bdb83a1425004751f63d84249ad307eb3c83266cd6e0f6dbb89d6b.bin",
+      "id": 612573416,
+      "bytes": 17881712,
+      "sha256": "7e2c4b9052bdb83a1425004751f63d84249ad307eb3c83266cd6e0f6dbb89d6b",
+      "serverDigest": "sha256:7e2c4b9052bdb83a1425004751f63d84249ad307eb3c83266cd6e0f6dbb89d6b",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/7e2c4b9052bdb83a1425004751f63d84249ad307eb3c83266cd6e0f6dbb89d6b.bin",
+      "state": "uploaded"
+    },
+    {
+      "name": "7f6e3441980cf895b44f634468e293f3733ed1a9588c9efe34af171f791b5959.mp4",
+      "id": 612534337,
+      "bytes": 127496268,
+      "sha256": "7f6e3441980cf895b44f634468e293f3733ed1a9588c9efe34af171f791b5959",
+      "serverDigest": "sha256:7f6e3441980cf895b44f634468e293f3733ed1a9588c9efe34af171f791b5959",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/7f6e3441980cf895b44f634468e293f3733ed1a9588c9efe34af171f791b5959.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "81a5cbde08d078d06ff5b2b1b24cbfccd26a90de6118f829152963df25c9aff6.mp4",
+      "id": 612509433,
+      "bytes": 631441424,
+      "sha256": "81a5cbde08d078d06ff5b2b1b24cbfccd26a90de6118f829152963df25c9aff6",
+      "serverDigest": "sha256:81a5cbde08d078d06ff5b2b1b24cbfccd26a90de6118f829152963df25c9aff6",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/81a5cbde08d078d06ff5b2b1b24cbfccd26a90de6118f829152963df25c9aff6.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "82b1cb7729f0155487db44a0102832ede8374859ba75f2d278a0b0819231f35e.bin",
+      "id": 612494062,
+      "bytes": 33177920,
+      "sha256": "82b1cb7729f0155487db44a0102832ede8374859ba75f2d278a0b0819231f35e",
+      "serverDigest": "sha256:82b1cb7729f0155487db44a0102832ede8374859ba75f2d278a0b0819231f35e",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/82b1cb7729f0155487db44a0102832ede8374859ba75f2d278a0b0819231f35e.bin",
+      "state": "uploaded"
+    },
+    {
+      "name": "84e54adf0b05de35df92ebfc04c145219d3cb634408dec01035fc29d6a137ec7.bin",
+      "id": 612424832,
+      "bytes": 33193984,
+      "sha256": "84e54adf0b05de35df92ebfc04c145219d3cb634408dec01035fc29d6a137ec7",
+      "serverDigest": "sha256:84e54adf0b05de35df92ebfc04c145219d3cb634408dec01035fc29d6a137ec7",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/84e54adf0b05de35df92ebfc04c145219d3cb634408dec01035fc29d6a137ec7.bin",
+      "state": "uploaded"
+    },
+    {
+      "name": "86a9eedb88a8117e241fb33384cba02e76229c383b9c63d2f422c0e04b8463ea.mp4",
+      "id": 612547430,
+      "bytes": 125539698,
+      "sha256": "86a9eedb88a8117e241fb33384cba02e76229c383b9c63d2f422c0e04b8463ea",
+      "serverDigest": "sha256:86a9eedb88a8117e241fb33384cba02e76229c383b9c63d2f422c0e04b8463ea",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/86a9eedb88a8117e241fb33384cba02e76229c383b9c63d2f422c0e04b8463ea.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "87285168a8d4e43f871fc984a3f26221b34b75af44abe8982c1150f23af17844.mkv",
+      "id": 612476095,
+      "bytes": 528812810,
+      "sha256": "87285168a8d4e43f871fc984a3f26221b34b75af44abe8982c1150f23af17844",
+      "serverDigest": "sha256:87285168a8d4e43f871fc984a3f26221b34b75af44abe8982c1150f23af17844",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/87285168a8d4e43f871fc984a3f26221b34b75af44abe8982c1150f23af17844.mkv",
+      "state": "uploaded"
+    },
+    {
+      "name": "874774c08164a81e9a8e847c298943c4cfeff5f234eb65803c51ac6ef156cc16.mp4",
+      "id": 612517938,
+      "bytes": 125539698,
+      "sha256": "874774c08164a81e9a8e847c298943c4cfeff5f234eb65803c51ac6ef156cc16",
+      "serverDigest": "sha256:874774c08164a81e9a8e847c298943c4cfeff5f234eb65803c51ac6ef156cc16",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/874774c08164a81e9a8e847c298943c4cfeff5f234eb65803c51ac6ef156cc16.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "87aec3f3d39db8956490942429e6a865741c04515ad6b98753aaf6599c197a90.bin",
+      "id": 612517640,
+      "bytes": 17874976,
+      "sha256": "87aec3f3d39db8956490942429e6a865741c04515ad6b98753aaf6599c197a90",
+      "serverDigest": "sha256:87aec3f3d39db8956490942429e6a865741c04515ad6b98753aaf6599c197a90",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/87aec3f3d39db8956490942429e6a865741c04515ad6b98753aaf6599c197a90.bin",
+      "state": "uploaded"
+    },
+    {
+      "name": "8a5f12ec56f2e28a35bb90676a858ff5ef7ce0ad9e1683d2865c549429f3b1a2.mp4",
+      "id": 612444835,
+      "bytes": 377645277,
+      "sha256": "8a5f12ec56f2e28a35bb90676a858ff5ef7ce0ad9e1683d2865c549429f3b1a2",
+      "serverDigest": "sha256:8a5f12ec56f2e28a35bb90676a858ff5ef7ce0ad9e1683d2865c549429f3b1a2",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/8a5f12ec56f2e28a35bb90676a858ff5ef7ce0ad9e1683d2865c549429f3b1a2.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "8a98270eda0e68655230e49f027df8e3e49840244773e7b2ff5c522629930810.wav",
+      "id": 612544181,
+      "bytes": 45025136,
+      "sha256": "8a98270eda0e68655230e49f027df8e3e49840244773e7b2ff5c522629930810",
+      "serverDigest": "sha256:8a98270eda0e68655230e49f027df8e3e49840244773e7b2ff5c522629930810",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/8a98270eda0e68655230e49f027df8e3e49840244773e7b2ff5c522629930810.wav",
+      "state": "uploaded"
+    },
+    {
+      "name": "8aecac928e00aed02e716adbb1df10fe4a6644371198effae58a193611650ac5.nut",
+      "id": 612414829,
+      "bytes": 247222638,
+      "sha256": "8aecac928e00aed02e716adbb1df10fe4a6644371198effae58a193611650ac5",
+      "serverDigest": "sha256:8aecac928e00aed02e716adbb1df10fe4a6644371198effae58a193611650ac5",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/8aecac928e00aed02e716adbb1df10fe4a6644371198effae58a193611650ac5.nut",
+      "state": "uploaded"
+    },
+    {
+      "name": "8dc1be7acbb121a850654ba3ee0196279192585b766d87ca11ccca7e2a2a7cd1.mp4",
+      "id": 612561787,
+      "bytes": 125539698,
+      "sha256": "8dc1be7acbb121a850654ba3ee0196279192585b766d87ca11ccca7e2a2a7cd1",
+      "serverDigest": "sha256:8dc1be7acbb121a850654ba3ee0196279192585b766d87ca11ccca7e2a2a7cd1",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/8dc1be7acbb121a850654ba3ee0196279192585b766d87ca11ccca7e2a2a7cd1.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "90da7fe7103595990bebd06dae43e507b0cc2a11c7b48cdbdb40645888d1569c.mkv",
+      "id": 612550136,
+      "bytes": 259079411,
+      "sha256": "90da7fe7103595990bebd06dae43e507b0cc2a11c7b48cdbdb40645888d1569c",
+      "serverDigest": "sha256:90da7fe7103595990bebd06dae43e507b0cc2a11c7b48cdbdb40645888d1569c",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/90da7fe7103595990bebd06dae43e507b0cc2a11c7b48cdbdb40645888d1569c.mkv",
+      "state": "uploaded"
+    },
+    {
+      "name": "90decec3ec6ea5d01256b7e398e5721e8afe97acc463e255061d116eb1d1edbd.mp4",
+      "id": 612397446,
+      "bytes": 167810843,
+      "sha256": "90decec3ec6ea5d01256b7e398e5721e8afe97acc463e255061d116eb1d1edbd",
+      "serverDigest": "sha256:90decec3ec6ea5d01256b7e398e5721e8afe97acc463e255061d116eb1d1edbd",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/90decec3ec6ea5d01256b7e398e5721e8afe97acc463e255061d116eb1d1edbd.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "913168c5e7768276831e51671ebe8bcb0a9dfec42a13a44d7fec3c338a06afd0.zip",
+      "id": 612542805,
+      "bytes": 31700371,
+      "sha256": "913168c5e7768276831e51671ebe8bcb0a9dfec42a13a44d7fec3c338a06afd0",
+      "serverDigest": "sha256:913168c5e7768276831e51671ebe8bcb0a9dfec42a13a44d7fec3c338a06afd0",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/913168c5e7768276831e51671ebe8bcb0a9dfec42a13a44d7fec3c338a06afd0.zip",
+      "state": "uploaded"
+    },
+    {
+      "name": "915aa484276d261600354393de8383e8edb339d62caf3c55edb1264be53ccd5c.mp4",
+      "id": 612404323,
+      "bytes": 143606836,
+      "sha256": "915aa484276d261600354393de8383e8edb339d62caf3c55edb1264be53ccd5c",
+      "serverDigest": "sha256:915aa484276d261600354393de8383e8edb339d62caf3c55edb1264be53ccd5c",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/915aa484276d261600354393de8383e8edb339d62caf3c55edb1264be53ccd5c.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "93f7d5e52e8cbe6c1f152e335044926df426514d885e663cb56a70e97b36940b.mp4",
+      "id": 612540398,
+      "bytes": 136844518,
+      "sha256": "93f7d5e52e8cbe6c1f152e335044926df426514d885e663cb56a70e97b36940b",
+      "serverDigest": "sha256:93f7d5e52e8cbe6c1f152e335044926df426514d885e663cb56a70e97b36940b",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/93f7d5e52e8cbe6c1f152e335044926df426514d885e663cb56a70e97b36940b.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "96197d6c420d233b3a0643f8d11db2e639cb73b4a1f9bf3ea360285d9170974d.mp4",
+      "id": 612439841,
+      "bytes": 377644564,
+      "sha256": "96197d6c420d233b3a0643f8d11db2e639cb73b4a1f9bf3ea360285d9170974d",
+      "serverDigest": "sha256:96197d6c420d233b3a0643f8d11db2e639cb73b4a1f9bf3ea360285d9170974d",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/96197d6c420d233b3a0643f8d11db2e639cb73b4a1f9bf3ea360285d9170974d.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "978e82d85fe88d45b044fa0e491dab36c5b64951a6f9d8aeb520db57e6dd2351.mp4",
+      "id": 612558727,
+      "bytes": 125539698,
+      "sha256": "978e82d85fe88d45b044fa0e491dab36c5b64951a6f9d8aeb520db57e6dd2351",
+      "serverDigest": "sha256:978e82d85fe88d45b044fa0e491dab36c5b64951a6f9d8aeb520db57e6dd2351",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/978e82d85fe88d45b044fa0e491dab36c5b64951a6f9d8aeb520db57e6dd2351.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "97c185947d57213e2ca20fe8083f5cecf1f0e18a8fa1dd0c2a38aa0b1b371b4a.mp4",
+      "id": 612467650,
+      "bytes": 629006407,
+      "sha256": "97c185947d57213e2ca20fe8083f5cecf1f0e18a8fa1dd0c2a38aa0b1b371b4a",
+      "serverDigest": "sha256:97c185947d57213e2ca20fe8083f5cecf1f0e18a8fa1dd0c2a38aa0b1b371b4a",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/97c185947d57213e2ca20fe8083f5cecf1f0e18a8fa1dd0c2a38aa0b1b371b4a.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "9bb210afa1762fd0c98f90610fd6c4ddb6234918a0d181fc382524e4d06cd9e9.mp4",
+      "id": 612485349,
+      "bytes": 631443808,
+      "sha256": "9bb210afa1762fd0c98f90610fd6c4ddb6234918a0d181fc382524e4d06cd9e9",
+      "serverDigest": "sha256:9bb210afa1762fd0c98f90610fd6c4ddb6234918a0d181fc382524e4d06cd9e9",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/9bb210afa1762fd0c98f90610fd6c4ddb6234918a0d181fc382524e4d06cd9e9.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "9c2b3654ce681d9764643214a745878b8fecb72ed9fcd69f3aea7f0fa709d9ae.bin",
+      "id": 612573237,
+      "bytes": 17914800,
+      "sha256": "9c2b3654ce681d9764643214a745878b8fecb72ed9fcd69f3aea7f0fa709d9ae",
+      "serverDigest": "sha256:9c2b3654ce681d9764643214a745878b8fecb72ed9fcd69f3aea7f0fa709d9ae",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/9c2b3654ce681d9764643214a745878b8fecb72ed9fcd69f3aea7f0fa709d9ae.bin",
+      "state": "uploaded"
+    },
+    {
+      "name": "a151908cdbfcca78a9487658e6d69d6009a910f4e6d3f9a41dc9ef38576cba5f.mkv",
+      "id": 612530844,
+      "bytes": 233416358,
+      "sha256": "a151908cdbfcca78a9487658e6d69d6009a910f4e6d3f9a41dc9ef38576cba5f",
+      "serverDigest": "sha256:a151908cdbfcca78a9487658e6d69d6009a910f4e6d3f9a41dc9ef38576cba5f",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/a151908cdbfcca78a9487658e6d69d6009a910f4e6d3f9a41dc9ef38576cba5f.mkv",
+      "state": "uploaded"
+    },
+    {
+      "name": "a199fa2c311459bc9068f8c162bf6666c2978ed05605e3cf519d5009fbd8339c.zip",
+      "id": 612543964,
+      "bytes": 18707142,
+      "sha256": "a199fa2c311459bc9068f8c162bf6666c2978ed05605e3cf519d5009fbd8339c",
+      "serverDigest": "sha256:a199fa2c311459bc9068f8c162bf6666c2978ed05605e3cf519d5009fbd8339c",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/a199fa2c311459bc9068f8c162bf6666c2978ed05605e3cf519d5009fbd8339c.zip",
+      "state": "uploaded"
+    },
+    {
+      "name": "a3d677d4be1f7c475f5f7ab85d3ad49fa5bff47d5068a2e18ae312da4f52a61c.mp4",
+      "id": 612463539,
+      "bytes": 377645350,
+      "sha256": "a3d677d4be1f7c475f5f7ab85d3ad49fa5bff47d5068a2e18ae312da4f52a61c",
+      "serverDigest": "sha256:a3d677d4be1f7c475f5f7ab85d3ad49fa5bff47d5068a2e18ae312da4f52a61c",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/a3d677d4be1f7c475f5f7ab85d3ad49fa5bff47d5068a2e18ae312da4f52a61c.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "a576ea028cc9163c48b26a85e4b05722a8091b26174f864c010b3fb65ad02164.mp4",
+      "id": 612565693,
+      "bytes": 226848916,
+      "sha256": "a576ea028cc9163c48b26a85e4b05722a8091b26174f864c010b3fb65ad02164",
+      "serverDigest": "sha256:a576ea028cc9163c48b26a85e4b05722a8091b26174f864c010b3fb65ad02164",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/a576ea028cc9163c48b26a85e4b05722a8091b26174f864c010b3fb65ad02164.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "a77440d7e962d80906ebe97beeb4694829e7db248d302bff4f7e395e7368575d.mp4",
+      "id": 612522225,
+      "bytes": 125539698,
+      "sha256": "a77440d7e962d80906ebe97beeb4694829e7db248d302bff4f7e395e7368575d",
+      "serverDigest": "sha256:a77440d7e962d80906ebe97beeb4694829e7db248d302bff4f7e395e7368575d",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/a77440d7e962d80906ebe97beeb4694829e7db248d302bff4f7e395e7368575d.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "ac96b07ee39f89fdf57fd504415ba6b1512e14e45b43e36bc0793193bc936e65.mp4",
+      "id": 612568803,
+      "bytes": 226848916,
+      "sha256": "ac96b07ee39f89fdf57fd504415ba6b1512e14e45b43e36bc0793193bc936e65",
+      "serverDigest": "sha256:ac96b07ee39f89fdf57fd504415ba6b1512e14e45b43e36bc0793193bc936e65",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/ac96b07ee39f89fdf57fd504415ba6b1512e14e45b43e36bc0793193bc936e65.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "ad3d5d77d78068da779953cee13abfd00a623aac87b5900caae42449f3988114.mp4",
+      "id": 612407042,
+      "bytes": 142131318,
+      "sha256": "ad3d5d77d78068da779953cee13abfd00a623aac87b5900caae42449f3988114",
+      "serverDigest": "sha256:ad3d5d77d78068da779953cee13abfd00a623aac87b5900caae42449f3988114",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/ad3d5d77d78068da779953cee13abfd00a623aac87b5900caae42449f3988114.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "ae5503204e2eeb72ef2d523c05058aee8b87aaa52b8723b855d667dce93147ad.zip",
+      "id": 612517001,
+      "bytes": 18792442,
+      "sha256": "ae5503204e2eeb72ef2d523c05058aee8b87aaa52b8723b855d667dce93147ad",
+      "serverDigest": "sha256:ae5503204e2eeb72ef2d523c05058aee8b87aaa52b8723b855d667dce93147ad",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/ae5503204e2eeb72ef2d523c05058aee8b87aaa52b8723b855d667dce93147ad.zip",
+      "state": "uploaded"
+    },
+    {
+      "name": "afc377d499904f9f85bdf12c65a9e8454014a8838b7330afdaa1d0d42ef6e9d0.mp4",
+      "id": 612546134,
+      "bytes": 136795451,
+      "sha256": "afc377d499904f9f85bdf12c65a9e8454014a8838b7330afdaa1d0d42ef6e9d0",
+      "serverDigest": "sha256:afc377d499904f9f85bdf12c65a9e8454014a8838b7330afdaa1d0d42ef6e9d0",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/afc377d499904f9f85bdf12c65a9e8454014a8838b7330afdaa1d0d42ef6e9d0.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "b0ea4a8cd11ccc8a72658753506507f2630873bec86ab4d5c9a06150af531ae1.mp4",
+      "id": 612560305,
+      "bytes": 125539698,
+      "sha256": "b0ea4a8cd11ccc8a72658753506507f2630873bec86ab4d5c9a06150af531ae1",
+      "serverDigest": "sha256:b0ea4a8cd11ccc8a72658753506507f2630873bec86ab4d5c9a06150af531ae1",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/b0ea4a8cd11ccc8a72658753506507f2630873bec86ab4d5c9a06150af531ae1.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "b4a80ddbbc6a8040841ca810510195e08e9b93c94a2c59a2519a1cbbfee3077f.mp4",
+      "id": 612486559,
+      "bytes": 72066535,
+      "sha256": "b4a80ddbbc6a8040841ca810510195e08e9b93c94a2c59a2519a1cbbfee3077f",
+      "serverDigest": "sha256:b4a80ddbbc6a8040841ca810510195e08e9b93c94a2c59a2519a1cbbfee3077f",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/b4a80ddbbc6a8040841ca810510195e08e9b93c94a2c59a2519a1cbbfee3077f.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "b5e4bc0fbfdb9404dcc237e9052b911da2070051f4e9e4da0cb0d664ad777c5c.mp4",
+      "id": 612544607,
+      "bytes": 57063445,
+      "sha256": "b5e4bc0fbfdb9404dcc237e9052b911da2070051f4e9e4da0cb0d664ad777c5c",
+      "serverDigest": "sha256:b5e4bc0fbfdb9404dcc237e9052b911da2070051f4e9e4da0cb0d664ad777c5c",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/b5e4bc0fbfdb9404dcc237e9052b911da2070051f4e9e4da0cb0d664ad777c5c.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "b617523e0ded80ddb924300afdb37a4e49ebf99a8b32c049fbf49156182ef1a5.mp4",
+      "id": 612492394,
+      "bytes": 68939755,
+      "sha256": "b617523e0ded80ddb924300afdb37a4e49ebf99a8b32c049fbf49156182ef1a5",
+      "serverDigest": "sha256:b617523e0ded80ddb924300afdb37a4e49ebf99a8b32c049fbf49156182ef1a5",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/b617523e0ded80ddb924300afdb37a4e49ebf99a8b32c049fbf49156182ef1a5.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "b74dc77d07dd5994e0d61687798a1983d107cec8c173044ca3290b2eeb342fec.mp4",
+      "id": 612404137,
+      "bytes": 209023892,
+      "sha256": "b74dc77d07dd5994e0d61687798a1983d107cec8c173044ca3290b2eeb342fec",
+      "serverDigest": "sha256:b74dc77d07dd5994e0d61687798a1983d107cec8c173044ca3290b2eeb342fec",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/b74dc77d07dd5994e0d61687798a1983d107cec8c173044ca3290b2eeb342fec.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "bd92a7608b5bba6bf8dca48db0b4ee03870bc14e0840302441ca00663e2f0349.bin",
+      "id": 612561942,
+      "bytes": 17874976,
+      "sha256": "bd92a7608b5bba6bf8dca48db0b4ee03870bc14e0840302441ca00663e2f0349",
+      "serverDigest": "sha256:bd92a7608b5bba6bf8dca48db0b4ee03870bc14e0840302441ca00663e2f0349",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/bd92a7608b5bba6bf8dca48db0b4ee03870bc14e0840302441ca00663e2f0349.bin",
+      "state": "uploaded"
+    },
+    {
+      "name": "bda2bc505a880bbda17e8a01dd1aab0c00d1a75b0db948b859b6f29b681bf6aa.mp4",
+      "id": 612430330,
+      "bytes": 377645119,
+      "sha256": "bda2bc505a880bbda17e8a01dd1aab0c00d1a75b0db948b859b6f29b681bf6aa",
+      "serverDigest": "sha256:bda2bc505a880bbda17e8a01dd1aab0c00d1a75b0db948b859b6f29b681bf6aa",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/bda2bc505a880bbda17e8a01dd1aab0c00d1a75b0db948b859b6f29b681bf6aa.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "bed324a7ea10cd2d0d7d2bfd848b1e1a2f6485ada0a2efec03d48915575b7732.mp4",
+      "id": 612544299,
+      "bytes": 17466948,
+      "sha256": "bed324a7ea10cd2d0d7d2bfd848b1e1a2f6485ada0a2efec03d48915575b7732",
+      "serverDigest": "sha256:bed324a7ea10cd2d0d7d2bfd848b1e1a2f6485ada0a2efec03d48915575b7732",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/bed324a7ea10cd2d0d7d2bfd848b1e1a2f6485ada0a2efec03d48915575b7732.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "bf9597925894f15d5014ecd8b9576a09ac8b895c18460f59303441a5141949fb.mp4",
+      "id": 612517851,
+      "bytes": 188222550,
+      "sha256": "bf9597925894f15d5014ecd8b9576a09ac8b895c18460f59303441a5141949fb",
+      "serverDigest": "sha256:bf9597925894f15d5014ecd8b9576a09ac8b895c18460f59303441a5141949fb",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/bf9597925894f15d5014ecd8b9576a09ac8b895c18460f59303441a5141949fb.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "binary-objects-001.tar.gz",
+      "id": 612573971,
+      "bytes": 76980060,
+      "sha256": "59210826e959a35d87495b68bcd7eab6485927a1a073127c45304d337e25de24",
+      "serverDigest": "sha256:59210826e959a35d87495b68bcd7eab6485927a1a073127c45304d337e25de24",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/binary-objects-001.tar.gz",
+      "state": "uploaded"
+    },
+    {
+      "name": "binary-objects-002.tar.gz",
+      "id": 612574236,
+      "bytes": 32985772,
+      "sha256": "f13e12df3b9edc54b42bc27e76719fb69fd3070cccd2af60c40f95b60c053cec",
+      "serverDigest": "sha256:f13e12df3b9edc54b42bc27e76719fb69fd3070cccd2af60c40f95b60c053cec",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/binary-objects-002.tar.gz",
+      "state": "uploaded"
+    },
+    {
+      "name": "binary-objects-003.tar.gz",
+      "id": 612574426,
+      "bytes": 32994271,
+      "sha256": "a167b847a535b6ad2d5bbaa60365ab7db7a1f7f5b376a8228ef9eb43b9a33093",
+      "serverDigest": "sha256:a167b847a535b6ad2d5bbaa60365ab7db7a1f7f5b376a8228ef9eb43b9a33093",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/binary-objects-003.tar.gz",
+      "state": "uploaded"
+    },
+    {
+      "name": "binary-objects-004.tar.gz",
+      "id": 612574766,
+      "bytes": 97698480,
+      "sha256": "d324abb3861da7c6861ff1ec22e0bdc02a6231dcd108e81e7b92d13b769362f1",
+      "serverDigest": "sha256:d324abb3861da7c6861ff1ec22e0bdc02a6231dcd108e81e7b92d13b769362f1",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/binary-objects-004.tar.gz",
+      "state": "uploaded"
+    },
+    {
+      "name": "binary-objects-005.tar.gz",
+      "id": 612574820,
+      "bytes": 132644658,
+      "sha256": "79540a71273e8f186ac7c4cf5df367b5e1921d6cf6b49d543c397abe016aef72",
+      "serverDigest": "sha256:79540a71273e8f186ac7c4cf5df367b5e1921d6cf6b49d543c397abe016aef72",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/binary-objects-005.tar.gz",
+      "state": "uploaded"
+    },
+    {
+      "name": "binary-objects-006.tar.gz",
+      "id": 612576317,
+      "bytes": 132721313,
+      "sha256": "696c6cc2ae35ac5f2c03975157a68a6f76d0063155d1de70f3cf3c1d9ff5a848",
+      "serverDigest": "sha256:696c6cc2ae35ac5f2c03975157a68a6f76d0063155d1de70f3cf3c1d9ff5a848",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/binary-objects-006.tar.gz",
+      "state": "uploaded"
+    },
+    {
+      "name": "binary-objects-007.tar.gz",
+      "id": 612576588,
+      "bytes": 132603939,
+      "sha256": "e44f9987d0ec3a54036da702e15e57fd1a262bb916c5f30594dced31a24a6307",
+      "serverDigest": "sha256:e44f9987d0ec3a54036da702e15e57fd1a262bb916c5f30594dced31a24a6307",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/binary-objects-007.tar.gz",
+      "state": "uploaded"
+    },
+    {
+      "name": "binary-objects-008.tar.gz",
+      "id": 612578177,
+      "bytes": 130987486,
+      "sha256": "8edbcc5fe5c4a1b31b94eeac4795b81a8187920374a61109289c8ad3e11db911",
+      "serverDigest": "sha256:8edbcc5fe5c4a1b31b94eeac4795b81a8187920374a61109289c8ad3e11db911",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/binary-objects-008.tar.gz",
+      "state": "uploaded"
+    },
+    {
+      "name": "binary-objects-009.tar.gz",
+      "id": 612578676,
+      "bytes": 129682067,
+      "sha256": "4093b2c547092cd90f213d5751f1b9612e04078f6b1ba8e869aea774d5b71019",
+      "serverDigest": "sha256:4093b2c547092cd90f213d5751f1b9612e04078f6b1ba8e869aea774d5b71019",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/binary-objects-009.tar.gz",
+      "state": "uploaded"
+    },
+    {
+      "name": "binary-objects-010.tar.gz",
+      "id": 612579885,
+      "bytes": 129636734,
+      "sha256": "efdae24914deda71b28d26befb5e25806f74240d6741c127e4721cbf3334e509",
+      "serverDigest": "sha256:efdae24914deda71b28d26befb5e25806f74240d6741c127e4721cbf3334e509",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/binary-objects-010.tar.gz",
+      "state": "uploaded"
+    },
+    {
+      "name": "binary-objects-011.tar.gz",
+      "id": 612580543,
+      "bytes": 129843898,
+      "sha256": "9e92ab80928a9b431842dec0e80f0f402c8d64362f73d3893b1ea6a87296b5b1",
+      "serverDigest": "sha256:9e92ab80928a9b431842dec0e80f0f402c8d64362f73d3893b1ea6a87296b5b1",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/binary-objects-011.tar.gz",
+      "state": "uploaded"
+    },
+    {
+      "name": "binary-objects-012.tar.gz",
+      "id": 612581625,
+      "bytes": 129823005,
+      "sha256": "595fc9448a0367784260cb9f1f41b4a88778b58a73b379e92df4458cb69d45eb",
+      "serverDigest": "sha256:595fc9448a0367784260cb9f1f41b4a88778b58a73b379e92df4458cb69d45eb",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/binary-objects-012.tar.gz",
+      "state": "uploaded"
+    },
+    {
+      "name": "binary-objects-013.tar.gz",
+      "id": 612582204,
+      "bytes": 115005049,
+      "sha256": "db3a5167bcbfd0b8080615de9812dc13f47272887f25c1ce810f58b3c2c33f54",
+      "serverDigest": "sha256:db3a5167bcbfd0b8080615de9812dc13f47272887f25c1ce810f58b3c2c33f54",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/binary-objects-013.tar.gz",
+      "state": "uploaded"
+    },
+    {
+      "name": "binary-objects-014.tar.gz",
+      "id": 612583098,
+      "bytes": 126991770,
+      "sha256": "9d3b6c47898bf94fd7cffb805141ddcc25913cd08f9dc9cbcba29eedbd8f3338",
+      "serverDigest": "sha256:9d3b6c47898bf94fd7cffb805141ddcc25913cd08f9dc9cbcba29eedbd8f3338",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/binary-objects-014.tar.gz",
+      "state": "uploaded"
+    },
+    {
+      "name": "binary-objects-015.tar.gz",
+      "id": 612583837,
+      "bytes": 133496810,
+      "sha256": "6023909effcd25a6822e184ed43d7462635ff5ae576e8377b5e67ba5eebc89bc",
+      "serverDigest": "sha256:6023909effcd25a6822e184ed43d7462635ff5ae576e8377b5e67ba5eebc89bc",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/binary-objects-015.tar.gz",
+      "state": "uploaded"
+    },
+    {
+      "name": "binary-objects-016.tar.gz",
+      "id": 612585528,
+      "bytes": 128463122,
+      "sha256": "e4ee24885ce7d2d433dec183bb176f4f9558d5115533892dc78a72f2863fe16b",
+      "serverDigest": "sha256:e4ee24885ce7d2d433dec183bb176f4f9558d5115533892dc78a72f2863fe16b",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/binary-objects-016.tar.gz",
+      "state": "uploaded"
+    },
+    {
+      "name": "binary-objects-017.tar.gz",
+      "id": 612586275,
+      "bytes": 62820914,
+      "sha256": "fda45acf9d94b2b9a1ef7e7277c4c46fc340a56af87053ef30dda6588155e1ef",
+      "serverDigest": "sha256:fda45acf9d94b2b9a1ef7e7277c4c46fc340a56af87053ef30dda6588155e1ef",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/binary-objects-017.tar.gz",
+      "state": "uploaded"
+    },
+    {
+      "name": "binary-objects-018.tar.gz",
+      "id": 612587171,
+      "bytes": 57590236,
+      "sha256": "4435e4886469ddedd26879ed82b205baf71f5ce9e569b9c6284044306989764a",
+      "serverDigest": "sha256:4435e4886469ddedd26879ed82b205baf71f5ce9e569b9c6284044306989764a",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/binary-objects-018.tar.gz",
+      "state": "uploaded"
+    },
+    {
+      "name": "binary-objects-019.tar.gz",
+      "id": 612587236,
+      "bytes": 16946122,
+      "sha256": "2259b0bcaea33291e09e07406a7525709c2c99ca7a20a97b4352baed506a3b0a",
+      "serverDigest": "sha256:2259b0bcaea33291e09e07406a7525709c2c99ca7a20a97b4352baed506a3b0a",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/binary-objects-019.tar.gz",
+      "state": "uploaded"
+    },
+    {
+      "name": "c05f8677fc114c13a90abb54ba4ac4e386c3121656bd7bfd042f2b3e45aaf678.mp4",
+      "id": 612549445,
+      "bytes": 50201051,
+      "sha256": "c05f8677fc114c13a90abb54ba4ac4e386c3121656bd7bfd042f2b3e45aaf678",
+      "serverDigest": "sha256:c05f8677fc114c13a90abb54ba4ac4e386c3121656bd7bfd042f2b3e45aaf678",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/c05f8677fc114c13a90abb54ba4ac4e386c3121656bd7bfd042f2b3e45aaf678.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "c436183b8e5379c2161e765ffe9e3fd000d84f4adea9e6d75f16c72fa4abce95.mp4",
+      "id": 612559040,
+      "bytes": 125539698,
+      "sha256": "c436183b8e5379c2161e765ffe9e3fd000d84f4adea9e6d75f16c72fa4abce95",
+      "serverDigest": "sha256:c436183b8e5379c2161e765ffe9e3fd000d84f4adea9e6d75f16c72fa4abce95",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/c436183b8e5379c2161e765ffe9e3fd000d84f4adea9e6d75f16c72fa4abce95.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "c48c00aefdb645f1978050d2e92d42f43ad52bdf6d4f5d320278108b997ae162.mkv",
+      "id": 612528030,
+      "bytes": 242612390,
+      "sha256": "c48c00aefdb645f1978050d2e92d42f43ad52bdf6d4f5d320278108b997ae162",
+      "serverDigest": "sha256:c48c00aefdb645f1978050d2e92d42f43ad52bdf6d4f5d320278108b997ae162",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/c48c00aefdb645f1978050d2e92d42f43ad52bdf6d4f5d320278108b997ae162.mkv",
+      "state": "uploaded"
+    },
+    {
+      "name": "c577642c3167d9f8d4028884cd08ab27e1952c115d7d783ce77efe36cc9f06fa.mp4",
+      "id": 612395840,
+      "bytes": 167540513,
+      "sha256": "c577642c3167d9f8d4028884cd08ab27e1952c115d7d783ce77efe36cc9f06fa",
+      "serverDigest": "sha256:c577642c3167d9f8d4028884cd08ab27e1952c115d7d783ce77efe36cc9f06fa",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/c577642c3167d9f8d4028884cd08ab27e1952c115d7d783ce77efe36cc9f06fa.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "c578aae7595be5bcd7b490bdea9f51310c852a806bc9988fa06bd45d1ad38a4a.mkv",
+      "id": 612550668,
+      "bytes": 247903473,
+      "sha256": "c578aae7595be5bcd7b490bdea9f51310c852a806bc9988fa06bd45d1ad38a4a",
+      "serverDigest": "sha256:c578aae7595be5bcd7b490bdea9f51310c852a806bc9988fa06bd45d1ad38a4a",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/c578aae7595be5bcd7b490bdea9f51310c852a806bc9988fa06bd45d1ad38a4a.mkv",
+      "state": "uploaded"
+    },
+    {
+      "name": "c611d61e38a756c724df25eda3c446db16d2dd1518be8d5f5d18366aeb9c6958.zip",
+      "id": 612508352,
+      "bytes": 18804500,
+      "sha256": "c611d61e38a756c724df25eda3c446db16d2dd1518be8d5f5d18366aeb9c6958",
+      "serverDigest": "sha256:c611d61e38a756c724df25eda3c446db16d2dd1518be8d5f5d18366aeb9c6958",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/c611d61e38a756c724df25eda3c446db16d2dd1518be8d5f5d18366aeb9c6958.zip",
+      "state": "uploaded"
+    },
+    {
+      "name": "c8d83ce817ca00d039a90312cd5fa9a1ff9a15ebbd290bb645ffab01f2191d56.mp4",
+      "id": 612409291,
+      "bytes": 226473059,
+      "sha256": "c8d83ce817ca00d039a90312cd5fa9a1ff9a15ebbd290bb645ffab01f2191d56",
+      "serverDigest": "sha256:c8d83ce817ca00d039a90312cd5fa9a1ff9a15ebbd290bb645ffab01f2191d56",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/c8d83ce817ca00d039a90312cd5fa9a1ff9a15ebbd290bb645ffab01f2191d56.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "cb6c68beb2a7254f81da977169f020f042ca5502c8027910a7c5044e5ef4323a.mp4",
+      "id": 612571433,
+      "bytes": 199747979,
+      "sha256": "cb6c68beb2a7254f81da977169f020f042ca5502c8027910a7c5044e5ef4323a",
+      "serverDigest": "sha256:cb6c68beb2a7254f81da977169f020f042ca5502c8027910a7c5044e5ef4323a",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/cb6c68beb2a7254f81da977169f020f042ca5502c8027910a7c5044e5ef4323a.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "cf5cb3efa999b07c4e611bcc112ced3bb18cb28b0ed812d058b83ab6ddb01ac3.mp4",
+      "id": 612392609,
+      "bytes": 143112147,
+      "sha256": "cf5cb3efa999b07c4e611bcc112ced3bb18cb28b0ed812d058b83ab6ddb01ac3",
+      "serverDigest": "sha256:cf5cb3efa999b07c4e611bcc112ced3bb18cb28b0ed812d058b83ab6ddb01ac3",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/cf5cb3efa999b07c4e611bcc112ced3bb18cb28b0ed812d058b83ab6ddb01ac3.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "d0db567b7e32140e1c87ce7c4605018d8a48c05cb935ad2e5b95ba8f3a385601.tar",
+      "id": 612517774,
+      "bytes": 18237440,
+      "sha256": "d0db567b7e32140e1c87ce7c4605018d8a48c05cb935ad2e5b95ba8f3a385601",
+      "serverDigest": "sha256:d0db567b7e32140e1c87ce7c4605018d8a48c05cb935ad2e5b95ba8f3a385601",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/d0db567b7e32140e1c87ce7c4605018d8a48c05cb935ad2e5b95ba8f3a385601.tar",
+      "state": "uploaded"
+    },
+    {
+      "name": "d6a40027a95cb4b2a733c1bd32b8cb96d153460e99641b37b80170f3161ab539.nut",
+      "id": 612417843,
+      "bytes": 261439267,
+      "sha256": "d6a40027a95cb4b2a733c1bd32b8cb96d153460e99641b37b80170f3161ab539",
+      "serverDigest": "sha256:d6a40027a95cb4b2a733c1bd32b8cb96d153460e99641b37b80170f3161ab539",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/d6a40027a95cb4b2a733c1bd32b8cb96d153460e99641b37b80170f3161ab539.nut",
+      "state": "uploaded"
+    },
+    {
+      "name": "d6c192deb1b0562cfe5e67229c70d31194b4116192b31b10074f99b0e5eef68e.mkv",
+      "id": 612494577,
+      "bytes": 513310433,
+      "sha256": "d6c192deb1b0562cfe5e67229c70d31194b4116192b31b10074f99b0e5eef68e",
+      "serverDigest": "sha256:d6c192deb1b0562cfe5e67229c70d31194b4116192b31b10074f99b0e5eef68e",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/d6c192deb1b0562cfe5e67229c70d31194b4116192b31b10074f99b0e5eef68e.mkv",
+      "state": "uploaded"
+    },
+    {
+      "name": "d6d857419966db60d114e15a723eb0743f028137615cc0d413936c88130c42f1.mp4",
+      "id": 612560545,
+      "bytes": 125539698,
+      "sha256": "d6d857419966db60d114e15a723eb0743f028137615cc0d413936c88130c42f1",
+      "serverDigest": "sha256:d6d857419966db60d114e15a723eb0743f028137615cc0d413936c88130c42f1",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/d6d857419966db60d114e15a723eb0743f028137615cc0d413936c88130c42f1.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "de721004a3ae0ac67bee7b39aa5a07db56e8d70efc8cf0357416d9ae27f61bc9.mkv",
+      "id": 612533995,
+      "bytes": 248796627,
+      "sha256": "de721004a3ae0ac67bee7b39aa5a07db56e8d70efc8cf0357416d9ae27f61bc9",
+      "serverDigest": "sha256:de721004a3ae0ac67bee7b39aa5a07db56e8d70efc8cf0357416d9ae27f61bc9",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/de721004a3ae0ac67bee7b39aa5a07db56e8d70efc8cf0357416d9ae27f61bc9.mkv",
+      "state": "uploaded"
+    },
+    {
+      "name": "dedfa3e4f1a86f9b5bb2b1b2148a451c3311da31b7072fe56ecdc774bed7da6f.mkv",
+      "id": 612562357,
+      "bytes": 259079411,
+      "sha256": "dedfa3e4f1a86f9b5bb2b1b2148a451c3311da31b7072fe56ecdc774bed7da6f",
+      "serverDigest": "sha256:dedfa3e4f1a86f9b5bb2b1b2148a451c3311da31b7072fe56ecdc774bed7da6f",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/dedfa3e4f1a86f9b5bb2b1b2148a451c3311da31b7072fe56ecdc774bed7da6f.mkv",
+      "state": "uploaded"
+    },
+    {
+      "name": "dfa651fca21ccf2a92124756a56ee46b7a9b1abd2e738913f8b95b40cd2ce70d.mp4",
+      "id": 612524094,
+      "bytes": 125539698,
+      "sha256": "dfa651fca21ccf2a92124756a56ee46b7a9b1abd2e738913f8b95b40cd2ce70d",
+      "serverDigest": "sha256:dfa651fca21ccf2a92124756a56ee46b7a9b1abd2e738913f8b95b40cd2ce70d",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/dfa651fca21ccf2a92124756a56ee46b7a9b1abd2e738913f8b95b40cd2ce70d.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "dfd91c2a0301bbde6be8260534db0a4931a38653fcefb2ef9d28075140dd1444.zip",
+      "id": 612542154,
+      "bytes": 21893818,
+      "sha256": "dfd91c2a0301bbde6be8260534db0a4931a38653fcefb2ef9d28075140dd1444",
+      "serverDigest": "sha256:dfd91c2a0301bbde6be8260534db0a4931a38653fcefb2ef9d28075140dd1444",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/dfd91c2a0301bbde6be8260534db0a4931a38653fcefb2ef9d28075140dd1444.zip",
+      "state": "uploaded"
+    },
+    {
+      "name": "e3a914ea099f34635c63e706829acd59d91805eca0566815aef84b9a6a7a5cf2.mp4",
+      "id": 612421121,
+      "bytes": 179081456,
+      "sha256": "e3a914ea099f34635c63e706829acd59d91805eca0566815aef84b9a6a7a5cf2",
+      "serverDigest": "sha256:e3a914ea099f34635c63e706829acd59d91805eca0566815aef84b9a6a7a5cf2",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/e3a914ea099f34635c63e706829acd59d91805eca0566815aef84b9a6a7a5cf2.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "e5be3c42d3005d53172813c78c4e3ea10f0da3536598bce58c0604d3d7b5cfb7.mp4",
+      "id": 612449638,
+      "bytes": 376641173,
+      "sha256": "e5be3c42d3005d53172813c78c4e3ea10f0da3536598bce58c0604d3d7b5cfb7",
+      "serverDigest": "sha256:e5be3c42d3005d53172813c78c4e3ea10f0da3536598bce58c0604d3d7b5cfb7",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/e5be3c42d3005d53172813c78c4e3ea10f0da3536598bce58c0604d3d7b5cfb7.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "e5eb75231b3dcf2647506287a7aeea1c4bb8755c107e3c58900f5b79c90e5dd9.mp4",
+      "id": 612501611,
+      "bytes": 384897107,
+      "sha256": "e5eb75231b3dcf2647506287a7aeea1c4bb8755c107e3c58900f5b79c90e5dd9",
+      "serverDigest": "sha256:e5eb75231b3dcf2647506287a7aeea1c4bb8755c107e3c58900f5b79c90e5dd9",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/e5eb75231b3dcf2647506287a7aeea1c4bb8755c107e3c58900f5b79c90e5dd9.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "e9da70012f70fe5029b350e924aaebe1f8b03ccc66025237d193309ebb07ac15.zip",
+      "id": 612543493,
+      "bytes": 51758803,
+      "sha256": "e9da70012f70fe5029b350e924aaebe1f8b03ccc66025237d193309ebb07ac15",
+      "serverDigest": "sha256:e9da70012f70fe5029b350e924aaebe1f8b03ccc66025237d193309ebb07ac15",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/e9da70012f70fe5029b350e924aaebe1f8b03ccc66025237d193309ebb07ac15.zip",
+      "state": "uploaded"
+    },
+    {
+      "name": "ea36969d384cfb1de3fe5b02da832cab97003301ab3a7818133c82b942f363f3.bin",
+      "id": 612506361,
+      "bytes": 36228336,
+      "sha256": "ea36969d384cfb1de3fe5b02da832cab97003301ab3a7818133c82b942f363f3",
+      "serverDigest": "sha256:ea36969d384cfb1de3fe5b02da832cab97003301ab3a7818133c82b942f363f3",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/ea36969d384cfb1de3fe5b02da832cab97003301ab3a7818133c82b942f363f3.bin",
+      "state": "uploaded"
+    },
+    {
+      "name": "eb7fab9c15308075acc8736844943c991eb38063c56170bd5ed6c255b9147215.mp4",
+      "id": 612541457,
+      "bytes": 136906887,
+      "sha256": "eb7fab9c15308075acc8736844943c991eb38063c56170bd5ed6c255b9147215",
+      "serverDigest": "sha256:eb7fab9c15308075acc8736844943c991eb38063c56170bd5ed6c255b9147215",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/eb7fab9c15308075acc8736844943c991eb38063c56170bd5ed6c255b9147215.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "ee112c259a24f056152e4f17d346883f594a350a315b21d80f5fcd81e4a8bb37.nut",
+      "id": 612416042,
+      "bytes": 242457066,
+      "sha256": "ee112c259a24f056152e4f17d346883f594a350a315b21d80f5fcd81e4a8bb37",
+      "serverDigest": "sha256:ee112c259a24f056152e4f17d346883f594a350a315b21d80f5fcd81e4a8bb37",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/ee112c259a24f056152e4f17d346883f594a350a315b21d80f5fcd81e4a8bb37.nut",
+      "state": "uploaded"
+    },
+    {
+      "name": "f0bc921fe5b6e03a413ec35dc0f8fb5852b59c7a3afac9b254359b6194de0ffe.mp4",
+      "id": 612397643,
+      "bytes": 226388030,
+      "sha256": "f0bc921fe5b6e03a413ec35dc0f8fb5852b59c7a3afac9b254359b6194de0ffe",
+      "serverDigest": "sha256:f0bc921fe5b6e03a413ec35dc0f8fb5852b59c7a3afac9b254359b6194de0ffe",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/f0bc921fe5b6e03a413ec35dc0f8fb5852b59c7a3afac9b254359b6194de0ffe.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "f3fdb4ce121f81653cf7034606f97c1e951daee118b3b795f9e7a767cbf12d67.mp4",
+      "id": 612446070,
+      "bytes": 376641173,
+      "sha256": "f3fdb4ce121f81653cf7034606f97c1e951daee118b3b795f9e7a767cbf12d67",
+      "serverDigest": "sha256:f3fdb4ce121f81653cf7034606f97c1e951daee118b3b795f9e7a767cbf12d67",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/f3fdb4ce121f81653cf7034606f97c1e951daee118b3b795f9e7a767cbf12d67.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "f6ad6ceb06ff0ff8a3a99209c0e766e7477fa8c3b0d3fd89d4b2d4f514cf8517.av1.mp4",
+      "id": 612545340,
+      "bytes": 22031533,
+      "sha256": "f6ad6ceb06ff0ff8a3a99209c0e766e7477fa8c3b0d3fd89d4b2d4f514cf8517",
+      "serverDigest": "sha256:f6ad6ceb06ff0ff8a3a99209c0e766e7477fa8c3b0d3fd89d4b2d4f514cf8517",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/f6ad6ceb06ff0ff8a3a99209c0e766e7477fa8c3b0d3fd89d4b2d4f514cf8517.av1.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "f760de776a7785d464d61d0cf29b277889ecedbbcc0ae642320b047c7de3742c.mp4",
+      "id": 612519764,
+      "bytes": 188222550,
+      "sha256": "f760de776a7785d464d61d0cf29b277889ecedbbcc0ae642320b047c7de3742c",
+      "serverDigest": "sha256:f760de776a7785d464d61d0cf29b277889ecedbbcc0ae642320b047c7de3742c",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/f760de776a7785d464d61d0cf29b277889ecedbbcc0ae642320b047c7de3742c.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "f91ef955adf9aa590368b8e79ab9889f42a59525099a07e43eadbf576b418c52.mp4",
+      "id": 612548808,
+      "bytes": 175413095,
+      "sha256": "f91ef955adf9aa590368b8e79ab9889f42a59525099a07e43eadbf576b418c52",
+      "serverDigest": "sha256:f91ef955adf9aa590368b8e79ab9889f42a59525099a07e43eadbf576b418c52",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/f91ef955adf9aa590368b8e79ab9889f42a59525099a07e43eadbf576b418c52.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "f935abeffaa6612d6aa6906ff2f3abb7ad5a763a97a526da3705287f0126e29b.mp4",
+      "id": 612422561,
+      "bytes": 148552653,
+      "sha256": "f935abeffaa6612d6aa6906ff2f3abb7ad5a763a97a526da3705287f0126e29b",
+      "serverDigest": "sha256:f935abeffaa6612d6aa6906ff2f3abb7ad5a763a97a526da3705287f0126e29b",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/f935abeffaa6612d6aa6906ff2f3abb7ad5a763a97a526da3705287f0126e29b.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "fbd07db9eed08ced20af69f0649ef954a2c6168115b0dbc6ce4c52f081b61311.mp4",
+      "id": 612394935,
+      "bytes": 168109306,
+      "sha256": "fbd07db9eed08ced20af69f0649ef954a2c6168115b0dbc6ce4c52f081b61311",
+      "serverDigest": "sha256:fbd07db9eed08ced20af69f0649ef954a2c6168115b0dbc6ce4c52f081b61311",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/fbd07db9eed08ced20af69f0649ef954a2c6168115b0dbc6ce4c52f081b61311.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "fbfdf8d1692cb8e78236773f3ecceaca166016e6b3fb9c50005afa455e7b681c.mp4",
+      "id": 612571659,
+      "bytes": 50201051,
+      "sha256": "fbfdf8d1692cb8e78236773f3ecceaca166016e6b3fb9c50005afa455e7b681c",
+      "serverDigest": "sha256:fbfdf8d1692cb8e78236773f3ecceaca166016e6b3fb9c50005afa455e7b681c",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/fbfdf8d1692cb8e78236773f3ecceaca166016e6b3fb9c50005afa455e7b681c.mp4",
+      "state": "uploaded"
+    },
+    {
+      "name": "fdbdd868cb62bff3c01211635b87ce71ba581a23a307e32e23a56fc0b8c95d2b.mp4",
+      "id": 612544897,
+      "bytes": 66716915,
+      "sha256": "fdbdd868cb62bff3c01211635b87ce71ba581a23a307e32e23a56fc0b8c95d2b",
+      "serverDigest": "sha256:fdbdd868cb62bff3c01211635b87ce71ba581a23a307e32e23a56fc0b8c95d2b",
+      "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05/fdbdd868cb62bff3c01211635b87ce71ba581a23a307e32e23a56fc0b8c95d2b.mp4",
+      "state": "uploaded"
+    }
+  ]
+}

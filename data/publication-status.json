@@ -1,8 +1,14 @@
 {
-  "status": "asset-upload-pending",
+  "status": "published-and-verified",
   "gitEvidenceFiles": 12581,
   "catalogPaths": 30661,
   "expectedReleaseAssets": 164,
   "expectedReleaseBytes": 29421509501,
-  "remoteOrbRawMediaIncluded": false
+  "remoteOrbRawMediaIncluded": false,
+  "publishedReleaseAssets": 164,
+  "publishedReleaseBytes": 29421509501,
+  "allServerSizesAndDigestsMatch": true,
+  "independentFullRedownload": false,
+  "boundedPublicRestoreChecks": 2,
+  "releaseUrl": "https://github.com/BintzGavin/helios-benchmarks/releases/tag/evidence-2026-10-05"
 }

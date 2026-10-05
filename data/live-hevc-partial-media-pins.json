@@ -1,0 +1,82 @@
+{
+  "releaseTag": "evidence-2026-10-05-live-hevc-partial",
+  "originalMediaBytes": 5376550202,
+  "full4KQualified": false,
+  "records": [
+    {
+      "logicalPath": "comparison/native-metal-hevc-live-20261005-generation02/4k-reference/reference.mkv",
+      "originalReceiptPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-20261005-generation02/attempts/attempt-5240da9eb0e74a888cdbfd7fc10fb476/reference.mkv",
+      "originalBytes": 515450670,
+      "originalSHA256": "66098aa2b5c66bbc5ada3401f655604114a0fae31b2b28ca0cad5aa8e685b07e",
+      "sourceRehashedBeforePublication": true,
+      "storage": "direct",
+      "asset": {
+        "name": "4k-reference-reference.mkv",
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-20261005-generation02/4k-reference/reference.mkv",
+        "bytes": 515450670,
+        "sha256": "66098aa2b5c66bbc5ada3401f655604114a0fae31b2b28ca0cad5aa8e685b07e",
+        "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05-live-hevc-partial/4k-reference-reference.mkv"
+      }
+    },
+    {
+      "logicalPath": "comparison/native-metal-hevc-live-20261005-generation02/4k-reference/reference.nv12",
+      "originalReceiptPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-20261005-generation02/attempts/attempt-5240da9eb0e74a888cdbfd7fc10fb476/reference.nv12",
+      "originalBytes": 3732480000,
+      "originalSHA256": "f459fe48baabdbcf72f80ea2f8ca6c758157fbfcb985ad26c2185a22d0959192",
+      "sourceRehashedBeforePublication": true,
+      "storage": "gzip",
+      "asset": {
+        "name": "4k-reference.nv12.gz",
+        "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/benchmark-live-hevc-publication-assets/4k-reference.nv12.gz",
+        "bytes": 615221339,
+        "sha256": "0c57b5a2c6955021336347ca27e709c3a9abaaa5c1db1a8b971d90f640468e9f",
+        "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05-live-hevc-partial/4k-reference.nv12.gz"
+      }
+    },
+    {
+      "logicalPath": "comparison/native-metal-hevc-live-20261005-generation02/4k-hardware/original.mp4",
+      "originalReceiptPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-20261005-generation02/attempts/attempt-ecfab73335874acb8480b59b4a92765e/original.mp4",
+      "originalBytes": 376207528,
+      "originalSHA256": "da52dd49ea761d3182b3df845c2dd9f080eefa8afc4bd6b18a398a97b3c91227",
+      "sourceRehashedBeforePublication": true,
+      "storage": "direct",
+      "asset": {
+        "name": "4k-candidate-original.mp4",
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-20261005-generation02/4k-hardware/original.mp4",
+        "bytes": 376207528,
+        "sha256": "da52dd49ea761d3182b3df845c2dd9f080eefa8afc4bd6b18a398a97b3c91227",
+        "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05-live-hevc-partial/4k-candidate-original.mp4"
+      }
+    },
+    {
+      "logicalPath": "comparison/native-metal-hevc-live-20261005-generation02/4k-hardware/center.mp4",
+      "originalReceiptPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-20261005-generation02/attempts/attempt-ecfab73335874acb8480b59b4a92765e/center.mp4",
+      "originalBytes": 376207829,
+      "originalSHA256": "41f263ee4041597ad08d347e042f4a91987e224f6447135ea31138f502421a77",
+      "sourceRehashedBeforePublication": true,
+      "storage": "direct",
+      "asset": {
+        "name": "4k-candidate-center.mp4",
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-20261005-generation02/4k-hardware/center.mp4",
+        "bytes": 376207829,
+        "sha256": "41f263ee4041597ad08d347e042f4a91987e224f6447135ea31138f502421a77",
+        "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05-live-hevc-partial/4k-candidate-center.mp4"
+      }
+    },
+    {
+      "logicalPath": "comparison/native-metal-hevc-live-20261005-generation02/4k-hardware/elementary.h265",
+      "originalReceiptPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-20261005-generation02/attempts/attempt-ecfab73335874acb8480b59b4a92765e/elementary.h265",
+      "originalBytes": 376204175,
+      "originalSHA256": "31cf2b6291daacbfeff39c1da8e62bcc52b37791c7d98ac95379db38bd73d9e2",
+      "sourceRehashedBeforePublication": true,
+      "storage": "direct",
+      "asset": {
+        "name": "4k-candidate-elementary.h265",
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-20261005-generation02/4k-hardware/elementary.h265",
+        "bytes": 376204175,
+        "sha256": "31cf2b6291daacbfeff39c1da8e62bcc52b37791c7d98ac95379db38bd73d9e2",
+        "url": "https://github.com/BintzGavin/helios-benchmarks/releases/download/evidence-2026-10-05-live-hevc-partial/4k-candidate-elementary.h265"
+      }
+    }
+  ]
+}

@@ -24,3 +24,5 @@
 | Independent monitor audits | cross-checks and honest scope | `audits` |
 
 Recent source chats inventoried: **Benchmark fframes rendering optimiz**, **Helios CPU benchmarks on Amp Orbs**, **Compare Helios GPU performance**, **Portable native GPU rendering and benchmarks**, and **Set up helios**. The setup chat supplied background, not an additional qualified rendering benchmark. The original Amp experiment is thread`T-01a0fe75-21f7-744a-9a0b-efb868105967`. Conversation transcripts and unrelated product/promo/credential material are not republished as benchmark receipts.
+
+- [2026-10-05 native Metal HEVC partial live delivery](../studies/native-live-hevc-partial.md): bounded 36-frame acceptance passed; full 4K qualification and timings pending.

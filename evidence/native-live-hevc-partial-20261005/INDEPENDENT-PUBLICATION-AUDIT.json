@@ -1,0 +1,124 @@
+{
+  "status": "independent saved partial-delivery audit passed",
+  "manifest": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-partial-delivery-20261005/RECEIPT-MANIFEST.json",
+    "bytes": 245583,
+    "sha256": "6c953badf45b0aa0b412959c7b7b5a611358e81c26953150748cfe483b25e146"
+  },
+  "finalReport": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-partial-delivery-20261005/FINAL-REPORT.json",
+    "bytes": 5405,
+    "sha256": "afa073bdf421de98694ab1790be62adde14d6b255db12ca39d7dfd694f1843e5"
+  },
+  "reviewArchive": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/live-metal-hevc-partial-source-receipts-20261005.zip",
+    "bytes": 2593640,
+    "sha256": "567014d287a1846402b0bcb2f4c3cfd70feda8863f10906eeb25894e2ba09d41"
+  },
+  "smallFilesVerified": 656,
+  "smallBytesVerified": 13870867,
+  "archiveMembers": 657,
+  "archiveCRCVerified": true,
+  "archiveSmallFileHashesMatched": 656,
+  "rawNV12FrameHashesRecomputed": 39,
+  "quality": [
+    {
+      "mode": "bounded-hardware",
+      "frames": 36,
+      "minimumSSIMY": 0.999989,
+      "minimumPSNRY": 69.47,
+      "minimumPSNRU": 67.92,
+      "minimumPSNRV": 72.35,
+      "savedDecodedYuvHashesEqual": true,
+      "savedCadenceColorGopPassed": true
+    },
+    {
+      "mode": "bounded-profile",
+      "frames": 36,
+      "minimumSSIMY": 0.999989,
+      "minimumPSNRY": 69.47,
+      "minimumPSNRU": 67.92,
+      "minimumPSNRV": 72.35,
+      "savedDecodedYuvHashesEqual": true,
+      "savedCadenceColorGopPassed": true
+    }
+  ],
+  "actualSavedGPUTraces": [
+    {
+      "mode": "bounded-hardware",
+      "rasterSubmissions": 36,
+      "conversionAndOwnershipOrdersChecked": 36,
+      "hookCounts": {
+        "profiler-hooks-installed": 1,
+        "IOSurfaceGetBaseAddress": 3,
+        "MTLBufferContentsAccessIntentUnknown": 84,
+        "MTLBlitBufferToTexture": 22,
+        "IOSurfaceGetBaseAddressOfPlane": 112
+      },
+      "hookedRawDownloads": 0,
+      "zeroCopyProved": false,
+      "opaqueTransfersAndPointerIntent": "unknown"
+    },
+    {
+      "mode": "bounded-profile",
+      "rasterSubmissions": 36,
+      "conversionAndOwnershipOrdersChecked": 36,
+      "hookCounts": {
+        "profiler-hooks-installed": 1,
+        "IOSurfaceGetBaseAddress": 3,
+        "MTLBufferContentsAccessIntentUnknown": 84,
+        "MTLBlitBufferToTexture": 22,
+        "IOSurfaceGetBaseAddressOfPlane": 112
+      },
+      "hookedRawDownloads": 0,
+      "zeroCopyProved": false,
+      "opaqueTransfersAndPointerIntent": "unknown"
+    }
+  ],
+  "positiveControls": [
+    {
+      "mode": "bounded-positive-nv12",
+      "detectedEvent": "CVPixelBufferLockBaseAddress",
+      "count": 3,
+      "extent": "256x128; no 4K inference"
+    },
+    {
+      "mode": "bounded-positive-rgba",
+      "detectedEvent": "MTLBlitTextureToBuffer",
+      "count": 3,
+      "extent": "256x128; no 4K inference"
+    }
+  ],
+  "faultControls": [
+    {
+      "fault": "device",
+      "nativeFailureCodes": [
+        "GPU_INIT_FAILED"
+      ],
+      "savedCauseIdentityVerified": true
+    },
+    {
+      "fault": "encoder",
+      "nativeFailureCodes": [
+        "GPU_INIT_FAILED"
+      ],
+      "savedCauseIdentityVerified": true
+    },
+    {
+      "fault": "format",
+      "nativeFailureCodes": [
+        "GPU_ENCODE_FAILED"
+      ],
+      "savedCauseIdentityVerified": true
+    }
+  ],
+  "large4KMediaPinsRetainedWithoutRehash": 5,
+  "large4KMediaBytesNotRehashed": 5376550202,
+  "full4KQualified": false,
+  "benchmarkTiming": false,
+  "testsRerun": false,
+  "decodeRerun": false,
+  "GPUJobsStarted": false,
+  "historicalHelpersRebuilt": false,
+  "zeroCopyProved": false
+}

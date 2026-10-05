@@ -1,0 +1,119 @@
+{
+  "status": "partial live acceptance delivered; resource-blocked; full comparison active",
+  "boundedMetalHevcAccepted": true,
+  "boundedFrames": 36,
+  "boundedSourceIndices": [
+    3,
+    38
+  ],
+  "boundedPositiveControlsFrames": 3,
+  "boundedFaults": [
+    "device",
+    "encoder",
+    "HEVC parameter set"
+  ],
+  "boundedGate": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-20261005-generation02/BOUNDED-ACCEPTANCE.json",
+    "bytes": 42924,
+    "sha256": "b37e112c89940ffd4a229fb097077db604a31b013f18d0a1e2875d2bbfa613e9"
+  },
+  "boundedIndependentAudit": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-20261005-generation02/INDEPENDENT-BOUNDED-AUDIT.json",
+    "bytes": 4303,
+    "sha256": "0ba935c72203a36e62c2862bd7f9e20e101f9ea1e909a0c42bb32c8df787b414"
+  },
+  "GPUExecutedPreviously": true,
+  "full4KQualificationPassed": false,
+  "full4KConfiguration": {
+    "width": 3840,
+    "height": 2160,
+    "frames": 300,
+    "sourceStart": 3,
+    "fpsNum": 30,
+    "fpsDen": 1,
+    "bitrate": 300000000,
+    "gop": 30,
+    "encoderPool": 3,
+    "codec": "hevc",
+    "backend": "metal",
+    "protocol": 7
+  },
+  "workload": "99,000 circles plus1,000 digits; source3..302; nonuniform3.84/2.16 scale; circles before text; pinned72k DM Sans",
+  "helper": {
+    "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/helper-candidate-01",
+    "bytes": 17914800,
+    "sha256": "9c2b3654ce681d9764643214a745878b8fecb72ed9fcd69f3aea7f0fa709d9ae"
+  },
+  "nativeSourceFeatureCommit": "0f0db15a6d48a65cdf1c7a66250b4f22ead66809",
+  "referenceBinding": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-20261005-generation02/4k-reference/BINDING.json",
+    "bytes": 180735,
+    "sha256": "76a3a2d6dcbe1fbe01a1eafbe2e9c4e28414c0f837886048d87069195d732deb"
+  },
+  "candidateBinding": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-20261005-generation02/4k-hardware/BINDING.json",
+    "bytes": 205196,
+    "sha256": "b9533d398eb7f9b1ba2d3b95a775a81aeec1340c6fd0cf8fcd61cbe24f613656"
+  },
+  "partialAudit": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-partial-delivery-20261005/SAVED-RECEIPT-AUDIT.json",
+    "bytes": 1833,
+    "sha256": "73271514cd04fe46b4d0fa79e37fba837cbacdbf2eb1145d191a0f31b9ed495d"
+  },
+  "resourceGate": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-partial-delivery-20261005/RESOURCE-GATE.json",
+    "bytes": 430,
+    "sha256": "da7f8da5e8d19876403c6e59dd805a169e09ed06c2474195f67ba39fed8729ec"
+  },
+  "retainedLargeArtifacts": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-partial-delivery-20261005/RETAINED-LARGE-ARTIFACTS.json",
+    "bytes": 5377,
+    "sha256": "2e27ddb5181c292d7d188bca9f40a9749786f5e4f139c765c77cea05c346b5c2"
+  },
+  "pending": [
+    "generation03 bounded live watchdog-fix verification",
+    "all300 unchanged-floor quality of saved4K candidate versus saved4K reference",
+    "same-extent4K NV12 and RGBA download positive controls",
+    "final independent4K qualification gate",
+    "remaining H264/modified-F/Vulkan4K lanes",
+    "balanced qualified comparison with15GiB retention gate",
+    "native Library publication through supported route"
+  ],
+  "qualityFloors": {
+    "SSIM-Y": 0.995,
+    "PSNR-Y": 40,
+    "PSNR-U": 35,
+    "PSNR-V": 35
+  },
+  "excludedErrors": {
+    "generation01": "comma-separated DYLD injection failed to load native fault shims; gate invalidated, all original files retained",
+    "generation02": "4K candidate artifacts atomically committed but outer watchdog checked removed attempt path and exited2",
+    "generation03": "fix frozen; CPU atomic-rename red/green/uncommitted-disappearance tests passed; live attempt refused below9GiB"
+  },
+  "watchdogFix": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/live_hevc_runner_v3.py",
+    "bytes": 23254,
+    "sha256": "c55c4f2f64e5cbe1f8579e3b4e78ab9a7d82cce9b946a46561d30245b3bf2450"
+  },
+  "watchdogRegression": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-20261005-generation02/monitorfix-cpu-regression/REPORT.json",
+    "bytes": 2089,
+    "sha256": "befe316338622800823f1a6f8e120a0935125237436dc82d337f6b23494e3303"
+  },
+  "mandatoryConformanceAndMuxIncludedInExportCost": true,
+  "excludedAcceptanceExportSeconds": 24.2709431250114,
+  "benchmarkTiming": false,
+  "timingWindowOpen": false,
+  "balancedTimingStarted": false,
+  "productionWinnerClaimed": false,
+  "publishedM5ClaimReproducedOrBeaten": false,
+  "zeroCopyProved": false,
+  "historicalArtifactsChanged": false,
+  "streaming6GiBGateEnabled": false,
+  "sourceLibraryId": "libfile_19c903c1d7508191ac4881f0e96e4229",
+  "historicalCheckpointLibraryId": "libfile_cd84375e4648819195364136245484c6",
+  "newLibraryIds": [],
+  "LibraryBlocker": "supported generic Library prepare_uploads route unavailable; no substitute used",
+  "nativeVulkanPublicationBlocker": "existing automatic approval review requires explicit repository destination approval; no retry or push in this slice",
+  "noHeavyJobsRunningFromThisTask": true
+}

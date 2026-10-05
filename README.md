@@ -40,3 +40,5 @@ flowchart LR
 ```
 
 The publication snapshot includes available local evidence without rerendering any historical experiment. Original receipt bytes and absolute paths remain unchanged. Read the catalog for their relocated equivalents. Remote Orb raw media was omitted from the compact transfer; its full original index and omission are retained. Work still running when this snapshot was assembled is not promoted to a final result.
+
+New frozen follow-up: [native Metal HEVC live bridge](studies/native-live-hevc-partial.md), with bounded acceptance and separately labeled unfinished 4K evidence.

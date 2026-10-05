@@ -1,0 +1,41 @@
+{
+  "status": "passed saved-receipt partial audit; full4K qualification pending",
+  "sourcePinsRehashed": 209,
+  "sourcePinBytes": 90150636,
+  "sourceFreeze": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-20261005-generation02/LIVE-FREEZE-GENERATION03.json",
+    "bytes": 48328,
+    "sha256": "93aa7fad1b65d37dca7b8395a6fa3ca3b849ff81fb326658f62a2dc50170c687"
+  },
+  "all300SourcePacketsEqualAcrossReferenceCandidate": true,
+  "savedAll300DirectPurePlanarInverseHashesEqual": true,
+  "all300SavedOriginalConformedDecodedHashesEqual": true,
+  "all300ActualGPUCompletionOwnerAndReuseOrdersPassed": true,
+  "hardwareNativeTraceProtocol": 6,
+  "helperCompletionProtocol": 7,
+  "nativeTraceFrames": 300,
+  "nativePeakInFlight": 1,
+  "hookEvents": {
+    "profiler-hooks-installed": 1,
+    "IOSurfaceGetBaseAddress": 3,
+    "MTLBufferContentsAccessIntentUnknown": 305,
+    "MTLBlitBufferToTexture": 5,
+    "IOSurfaceGetBaseAddressOfPlane": 640
+  },
+  "hookedRawDownloadsObserved": 0,
+  "full4KSameExtentPositiveControls": "pending; bounded256x128 controls passed separately",
+  "conformanceSavedPayloadAndSemanticReceiptPassed": true,
+  "actualLargePacketReextractionOrDecodeRepeatedHere": false,
+  "full4KQualityComparedToOwnReference": false,
+  "hardwareQualifiedForFull4K": false,
+  "candidateOuterDeliveryExit": 2,
+  "candidateAtomicArtifactsPresent": true,
+  "wholeCommandTreeMaxResidentBytes": 786087936,
+  "memoryScope": "BSDtime command tree aggregate; includes compiler/driver/helper/decoder, not isolated renderer or total GPU memory",
+  "GPUPhysicalFootprintUnknown": true,
+  "zeroCopyProved": false,
+  "pointerIntentAndOpaqueTransfers": "unknown",
+  "GPUJobsStartedByThisAudit": false,
+  "timingWindowOpen": false,
+  "historicalHelpersReferencesVideosClocksChanged": false
+}

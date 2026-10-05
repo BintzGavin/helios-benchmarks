@@ -1,0 +1,87 @@
+{
+  "artifacts": [
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-20261005-generation02/attempts/attempt-5240da9eb0e74a888cdbfd7fc10fb476/reference.mkv",
+      "bytes": 515450670,
+      "sha256": "66098aa2b5c66bbc5ada3401f655604114a0fae31b2b28ca0cad5aa8e685b07e",
+      "currentPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-20261005-generation02/4k-reference/reference.mkv",
+      "originalReceiptPathRetained": true,
+      "pathResolution": "same basename after atomic attempt-directory rename",
+      "hashProvenance": "original BINDING issuance-time SHA256; not rehashed in resource-blocked freeze",
+      "currentSizeVerified": true,
+      "contentRehashedNow": false,
+      "binding": {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-20261005-generation02/4k-reference/BINDING.json",
+        "bytes": 180735,
+        "sha256": "76a3a2d6dcbe1fbe01a1eafbe2e9c4e28414c0f837886048d87069195d732deb"
+      }
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-20261005-generation02/attempts/attempt-5240da9eb0e74a888cdbfd7fc10fb476/reference.nv12",
+      "bytes": 3732480000,
+      "sha256": "f459fe48baabdbcf72f80ea2f8ca6c758157fbfcb985ad26c2185a22d0959192",
+      "currentPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-20261005-generation02/4k-reference/reference.nv12",
+      "originalReceiptPathRetained": true,
+      "pathResolution": "same basename after atomic attempt-directory rename",
+      "hashProvenance": "original BINDING issuance-time SHA256; not rehashed in resource-blocked freeze",
+      "currentSizeVerified": true,
+      "contentRehashedNow": false,
+      "binding": {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-20261005-generation02/4k-reference/BINDING.json",
+        "bytes": 180735,
+        "sha256": "76a3a2d6dcbe1fbe01a1eafbe2e9c4e28414c0f837886048d87069195d732deb"
+      }
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-20261005-generation02/attempts/attempt-ecfab73335874acb8480b59b4a92765e/original.mp4",
+      "bytes": 376207528,
+      "sha256": "da52dd49ea761d3182b3df845c2dd9f080eefa8afc4bd6b18a398a97b3c91227",
+      "currentPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-20261005-generation02/4k-hardware/original.mp4",
+      "originalReceiptPathRetained": true,
+      "pathResolution": "same basename after atomic attempt-directory rename",
+      "hashProvenance": "original BINDING issuance-time SHA256; not rehashed in resource-blocked freeze",
+      "currentSizeVerified": true,
+      "contentRehashedNow": false,
+      "binding": {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-20261005-generation02/4k-hardware/BINDING.json",
+        "bytes": 205196,
+        "sha256": "b9533d398eb7f9b1ba2d3b95a775a81aeec1340c6fd0cf8fcd61cbe24f613656"
+      }
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-20261005-generation02/attempts/attempt-ecfab73335874acb8480b59b4a92765e/center.mp4",
+      "bytes": 376207829,
+      "sha256": "41f263ee4041597ad08d347e042f4a91987e224f6447135ea31138f502421a77",
+      "currentPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-20261005-generation02/4k-hardware/center.mp4",
+      "originalReceiptPathRetained": true,
+      "pathResolution": "same basename after atomic attempt-directory rename",
+      "hashProvenance": "original BINDING issuance-time SHA256; not rehashed in resource-blocked freeze",
+      "currentSizeVerified": true,
+      "contentRehashedNow": false,
+      "binding": {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-20261005-generation02/4k-hardware/BINDING.json",
+        "bytes": 205196,
+        "sha256": "b9533d398eb7f9b1ba2d3b95a775a81aeec1340c6fd0cf8fcd61cbe24f613656"
+      }
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-20261005-generation02/attempts/attempt-ecfab73335874acb8480b59b4a92765e/elementary.h265",
+      "bytes": 376204175,
+      "sha256": "31cf2b6291daacbfeff39c1da8e62bcc52b37791c7d98ac95379db38bd73d9e2",
+      "currentPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-20261005-generation02/4k-hardware/elementary.h265",
+      "originalReceiptPathRetained": true,
+      "pathResolution": "same basename after atomic attempt-directory rename",
+      "hashProvenance": "original BINDING issuance-time SHA256; not rehashed in resource-blocked freeze",
+      "currentSizeVerified": true,
+      "contentRehashedNow": false,
+      "binding": {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-metal-hevc-live-20261005-generation02/4k-hardware/BINDING.json",
+        "bytes": 205196,
+        "sha256": "b9533d398eb7f9b1ba2d3b95a775a81aeec1340c6fd0cf8fcd61cbe24f613656"
+      }
+    }
+  ],
+  "bytes": 5376550202,
+  "copiedIntoReviewPackage": false,
+  "originalReceiptsChanged": false
+}

@@ -1,0 +1,16 @@
+{
+  "test": "reference-metal-hevc-300",
+  "passed": true,
+  "expectedRefusal": null,
+  "observedError": null,
+  "secondsExcludedFromBenchmark": 0.8282467079989146,
+  "GPUExecuted": false,
+  "sourceUnchanged": true,
+  "publishedFixtureBinding": true,
+  "frames": 300,
+  "pythonMaxRSSBytes": 35258368,
+  "maxPlanarWriterQueuedBytes": 81920,
+  "backpressureObservations": 2,
+  "producerRawForwardDrains": 201,
+  "producerMaxForwardQueue": 131070
+}

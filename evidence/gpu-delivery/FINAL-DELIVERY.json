@@ -1,0 +1,66 @@
+{
+  "status": "local-qualified-results; nativeLibrarySavingBlocked; broaderGoalIncomplete",
+  "textgridReport": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/helios-gpu-textgrid-results-20261003.md",
+  "textgridPackage": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/helios-gpu-textgrid-source-receipts-v2-20261003.zip",
+    "sha256": "e9da70012f70fe5029b350e924aaebe1f8b03ccc66025237d193309ebb07ac15",
+    "bytes": 51758803,
+    "members": 1119,
+    "crcPass": true,
+    "v2Reason": "Remotion source/bundle snapshot, explicit reproduction recipe and corrected claim provenance",
+    "LibraryConfirmed": false
+  },
+  "combinedReport": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/helios-gpu-comparison-results-20261003.md",
+  "circlesPackage": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/helios-gpu-4k-source-receipts-20261003.zip",
+    "bytes": 31700371,
+    "sha256": "913168c5e7768276831e51671ebe8bcb0a9dfec42a13a44d7fec3c338a06afd0",
+    "members": 870,
+    "zipCrcPassed": true,
+    "sourceAndReceiptCount": 869,
+    "librarySaved": false
+  },
+  "circlesRepresentatives": [
+    {
+      "engine": "H",
+      "local_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/helios-metal-videotoolbox-circles-300mbps-20261003.mp4",
+      "bytes": 376641173,
+      "sha256": "0b7ac0f812f0d25e92b2ddcb1a9991f7c1ef8cc7b75a442bdb4c61208046efbf",
+      "qualifiedRun": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-300-balanced/timed-1-H",
+      "quality": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-300-balanced/timed-1-H/quality.json",
+      "frames": 300,
+      "width": 3840,
+      "height": 2160,
+      "fps": "30/1",
+      "sourceFrames": [
+        3,
+        302
+      ],
+      "librarySaved": false
+    },
+    {
+      "engine": "F",
+      "local_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/fframes-common-converter-circles-300mbps-20261003.mp4",
+      "bytes": 377645125,
+      "sha256": "49ff0775438b0c9cb927656b34ace0198cdf9f0a37b667791b40e684578cf2e1",
+      "qualifiedRun": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-300-balanced/timed-1-F",
+      "quality": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-300-balanced/timed-1-F/quality.json",
+      "frames": 300,
+      "width": 3840,
+      "height": 2160,
+      "fps": "30/1",
+      "sourceFrames": [
+        3,
+        302
+      ],
+      "librarySaved": false
+    }
+  ],
+  "newConfirmedLibraryIds": [],
+  "libraryBlocker": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/LIBRARY-BLOCKER.json",
+  "publishedM5ClaimBeaten": false,
+  "zeroCopyProved": false,
+  "timingWindowClosed": true,
+  "activeHeartbeatRetained": true,
+  "independentAudit": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-independent-audit.json"
+}

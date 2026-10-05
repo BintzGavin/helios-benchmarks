@@ -1,0 +1,102 @@
+{
+  "status": "failed",
+  "producerCommand": [
+    "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/nv12_fixture_worker.py",
+    "producer",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/streaming-reference-prep-20261005/cases/encoder-failure/attempt-fbea88337865424c8002b81f028ca18b/SPEC.json"
+  ],
+  "encoderCommand": [
+    "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/nv12_fixture_worker.py",
+    "encoder",
+    "encoder-failure",
+    "[\"/opt/homebrew/Cellar/ffmpeg/9.0.2/bin/ffmpeg\", \"-v\", \"error\", \"-xerror\", \"-n\", \"-f\", \"rawvideo\", \"-pix_fmt\", \"yuv420p\", \"-s\", \"256x128\", \"-r\", \"30000/1001\", \"-color_range\", \"tv\", \"-colorspace\", \"bt709\", \"-color_primaries\", \"bt709\", \"-color_trc\", \"bt709\", \"-chroma_sample_location\", \"center\", \"-i\", \"pipe:0\", \"-c:v\", \"ffv1\", \"-level\", \"3\", \"-threads\", \"2\", \"-pix_fmt\", \"yuv420p\", \"-color_range\", \"tv\", \"-colorspace\", \"bt709\", \"-color_primaries\", \"bt709\", \"-color_trc\", \"bt709\", \"-chroma_sample_location\", \"center\", \"-frames:v\", \"3\", \"/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/streaming-reference-prep-20261005/cases/encoder-failure/attempt-fbea88337865424c8002b81f028ca18b/reference.mkv\"]"
+  ],
+  "actualFFV1Command": [
+    "/opt/homebrew/Cellar/ffmpeg/9.0.2/bin/ffmpeg",
+    "-v",
+    "error",
+    "-xerror",
+    "-n",
+    "-f",
+    "rawvideo",
+    "-pix_fmt",
+    "yuv420p",
+    "-s",
+    "256x128",
+    "-r",
+    "30000/1001",
+    "-color_range",
+    "tv",
+    "-colorspace",
+    "bt709",
+    "-color_primaries",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-chroma_sample_location",
+    "center",
+    "-i",
+    "pipe:0",
+    "-c:v",
+    "ffv1",
+    "-level",
+    "3",
+    "-threads",
+    "2",
+    "-pix_fmt",
+    "yuv420p",
+    "-color_range",
+    "tv",
+    "-colorspace",
+    "bt709",
+    "-color_primaries",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-chroma_sample_location",
+    "center",
+    "-frames:v",
+    "3",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/streaming-reference-prep-20261005/cases/encoder-failure/attempt-fbea88337865424c8002b81f028ca18b/reference.mkv"
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "sourceIndex": 0,
+      "rawNv12Sha256": "6a37c1d3745d16bfddea3589d783391291390cebfe53b50115657e9456afda4f",
+      "planarSha256": "e8a8a49e1fd8e54e66e814e0a456325d994063eb0736ad860364d56a25ade659",
+      "planarMd5": "f49da31327d9cfc0db6268e6e9b6efc8"
+    },
+    {
+      "index": 1,
+      "sourceIndex": 1,
+      "rawNv12Sha256": "2139aca4d59d6833b85b5a0ba00bb8ef4cbde0d5754c8a730ef1a63ec64c6333",
+      "planarSha256": "e6d51490b66c0fec91aaab73296bdf50f2d23ea70667fc95e6a2f935f9b12c5d",
+      "planarMd5": "ecb752ba2fc968d28df56f07be6b5a3f"
+    },
+    {
+      "index": 2,
+      "sourceIndex": 2,
+      "rawNv12Sha256": "b1fb0576579a6d5d399a8ae26462e32f223aaa3fc39372c136e0772c2e064e60",
+      "planarSha256": "35599cc7f69ab30958a6083794306250608d5aa4666626c855f218b135805cbb",
+      "planarMd5": "213d53d16c9bd7ccb03663c19642560d"
+    }
+  ],
+  "explicitReferenceOnlyRawBytes": 147456,
+  "maxWriterQueuedBytes": 81920,
+  "drainCalls": 2,
+  "backpressureObservations": 2,
+  "benchmarkTiming": false,
+  "timingWindowOpen": false,
+  "GPUExecuted": false,
+  "zeroCopyProved": false,
+  "error": "BrokenPipeError: [Errno 32] Broken pipe",
+  "processExits": [
+    -15,
+    8
+  ],
+  "partialArtifactsRetained": true,
+  "publishedBinding": false
+}

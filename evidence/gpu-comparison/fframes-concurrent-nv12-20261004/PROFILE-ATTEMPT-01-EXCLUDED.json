@@ -1,0 +1,9 @@
+{
+  "lanes": [
+    "profile3",
+    "positive3"
+  ],
+  "profilerQualified": false,
+  "reason": "No interposer output: DYLD injection did not survive launching through protected /usr/bin/time. Retry uses explicit assignment after that launcher. No SIP or security settings changed.",
+  "hardwareAndCaptureOutputsRetained": true
+}

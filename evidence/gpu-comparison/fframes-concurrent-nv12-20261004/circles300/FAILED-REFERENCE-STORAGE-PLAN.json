@@ -1,0 +1,25 @@
+{
+  "old": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/circles300/reference-direct-nv12.mkv",
+  "new": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/circles300/reference-direct-nv12-02.mkv",
+  "oldBytes": 485490688,
+  "differentBlocks": [
+    {
+      "offset": 0,
+      "bytes": 32768,
+      "oldSha256": "8b2036fac18cf70e46afa457166001c915f4436f1ad4f4709d1b56db574a1302",
+      "newSha256": "0c51ca4a1826a5a833b8c830bd5b20e2dc42c885a89c21b93f49d9149d605688"
+    }
+  ],
+  "differentBytesUpperBound": 32768,
+  "clocksAndByteIdentityMustRemainUnchanged": true,
+  "applied": true,
+  "oldSha256": "6fc24bf0cb665cb32d0582ec6e5588d7e8ddf6078446d36001cd310ce9c910a4",
+  "baseSha256": "d6c192deb1b0562cfe5e67229c70d31194b4116192b31b10074f99b0e5eef68e",
+  "oldInode": 471153970,
+  "newInode": 471242187,
+  "mtimePreserved": true,
+  "bytesPreserved": true,
+  "freeBefore": 353075200,
+  "freeAfter": 845365248,
+  "storageMethod": "APFS clone of correct reference, truncate, restore differing32KiB; invalid bytes retained exactly; inode/birthtime changed"
+}

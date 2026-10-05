@@ -1,0 +1,156 @@
+{
+  "heartbeat": "2026-10-03T18:19:06.432Z",
+  "comparisonOwner": "01a0ff86-ddbd-7703-92b8-781e18082039",
+  "cursor": "d0c051ad-a3b2-4641-b3cb-7583ae2a6e2e:8",
+  "status": "active qualification; no timing window",
+  "jobsHere": 0,
+  "newBuildsHere": 0,
+  "sourceCheck": {
+    "passed": true,
+    "helperSha256": "1383da791a588731101f6dd22bea8e911d4bc97243b7f01541214981afc90ecc",
+    "receipt": {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/binary-transport-source-check.json",
+      "sha256": "9117acf44f5d1fce70a826a280956e23934b2e9f97515871f6694e8d1bec36d0"
+    }
+  },
+  "recording": {
+    "scope": "excluded CPU preparation probe on one idle host; no GPU render or export; three frames only, not video throughput",
+    "records": [
+      {
+        "frame": 3,
+        "commands": 100061,
+        "jsonBytes": 13809844,
+        "binaryBytes": 5592444,
+        "jsonRecordMs": 106.09083300000003,
+        "jsonStringifyMs": 46.64695800000004,
+        "jsonTotalMs": 152.73779100000007,
+        "binaryRecordMs": 41.35083399999996
+      },
+      {
+        "frame": 4,
+        "commands": 100061,
+        "jsonBytes": 13757073,
+        "binaryBytes": 5592444,
+        "jsonRecordMs": 93.44120800000007,
+        "jsonStringifyMs": 43.650916999999936,
+        "jsonTotalMs": 137.092125,
+        "binaryRecordMs": 33.944458000000054
+      },
+      {
+        "frame": 302,
+        "commands": 100061,
+        "jsonBytes": 13770492,
+        "binaryBytes": 5592444,
+        "jsonRecordMs": 91.95058300000005,
+        "jsonStringifyMs": 44.08937500000002,
+        "jsonTotalMs": 136.03995800000007,
+        "binaryRecordMs": 33.336124999999925
+      }
+    ],
+    "receipt": {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-binary-recording-profile.json",
+      "sha256": "e6014853ed2c99a9063d93ed235850dd1fc10a0d031bf1a5322069c1df4a9209"
+    },
+    "exportSpeedClaim": false
+  },
+  "heliosBinaryAll300Equality": {
+    "status": "passed",
+    "receipt": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-reference-h/direct-byte-binding-binary-helper.json",
+    "receiptSha256": "7745420290867345046c59b9a5bd8d490d9b4fa3b9536ed3c8f2ce8e592c4cb4",
+    "helperSha256": "1383da791a588731101f6dd22bea8e911d4bc97243b7f01541214981afc90ecc",
+    "frames": 300,
+    "mismatches": [],
+    "ownReferenceBindingOnly": true,
+    "fullEncodedQualityAndGPUProfilePending": true,
+    "independentReceiptAuditPassed": true
+  },
+  "fframesSameStreamBinding": {
+    "status": "passed",
+    "frames": 300,
+    "mismatches": [],
+    "executableSha256": "0e788dc176e7577f3736eb335e9b7cf0ce0189f592659abd1afa940619549f4d",
+    "converterSha256": "f560c0f17d7d401defe8dfb6fa14c6b8d49dfbe9b767e1f30079807ef74b9387",
+    "referenceSha256": "3894116770d7d733eb49724f9fe2dd9cc96b13561f6a2d8cb0c597eea6ebcbc5",
+    "rawNv12Bytes": 3732480000,
+    "independentRenderDifferences": [
+      {
+        "frame": 0,
+        "sourceFrame": 3,
+        "differentBytes": 289,
+        "maximumDelta": 47,
+        "firstByteOffsets": [
+          51963,
+          59721,
+          63139,
+          66978,
+          71101,
+          74940,
+          82764,
+          90023,
+          93789,
+          94219,
+          97628,
+          98058
+        ],
+        "oldMd5": "a0074b79b93c45b21828bb8a628bf790",
+        "newMd5": "aab59566e6d357c0d3e43fcefa7ddf06"
+      },
+      {
+        "frame": 220,
+        "sourceFrame": 223,
+        "differentBytes": 1,
+        "maximumDelta": 4,
+        "firstByteOffsets": [
+          4285509
+        ],
+        "oldMd5": "48b8cde4fe151441a23b2cec63689814",
+        "newMd5": "02ff31b96fb378b6713c3e7e315c9514"
+      }
+    ],
+    "receipt": {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-reference-f-v2/direct-byte-binding.json",
+      "sha256": "6dfabc48ea07e1972ab3a97f5ab82cb8758104f926d89bba982f80e14dbf6ca8"
+    },
+    "deterministicSeekingProved": false
+  },
+  "fullComparisonComplete": false,
+  "zeroCopyProved": false,
+  "fframesFenceEvidence": {
+    "receipt": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/common-converter-gpu-attestation-v2.json",
+    "sha256": "d8ece77d2b52d6d8b0f3f89c9154caa0f28fad48f9d507e9fb09ce88dba15e56",
+    "summary": {
+      "passed": true,
+      "zeroCopyProved": false,
+      "scope": "separate excluded three-frame hardware probe; unknown buffer pointer accesses and opaque system/driver copies remain unproved",
+      "phases": {
+        "entries": 3
+      },
+      "gpuImports": 3,
+      "gpuConversions": 3,
+      "encoderCallbacks": 3,
+      "orderedFinish": {
+        "event": "encoder-finish",
+        "frames": 3,
+        "capacity": 3,
+        "peakInFlight": 1,
+        "allCallbacksComplete": true
+      },
+      "configuration": {
+        "event": "surface-create",
+        "surfaceId": 716,
+        "protocol": 4,
+        "bitrate": 500000000,
+        "configuredBitrate": 500000000,
+        "gop": 30,
+        "encoderPool": true,
+        "poolCapacity": 3,
+        "format": "nv12-video-range",
+        "rasterStorage": "private",
+        "rawCpuMapCallsInBridge": 0
+      },
+      "interposerSha256": "ca546d3102a73f3f9c0aa56ab6450211d8dc6f801d1f4240d03b0c32bfd54e5e",
+      "sharedConverterSha256": "f560c0f17d7d401defe8dfb6fa14c6b8d49dfbe9b767e1f30079807ef74b9387",
+      "extraGpuTextureCopy": true
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "test": "process-group-cancellation",
+  "passed": true,
+  "expectedRefusal": "CancelledError",
+  "observedError": "CancelledError:",
+  "secondsExcludedFromBenchmark": 1.2193432909843978,
+  "GPUExecuted": false,
+  "sourceUnchanged": true,
+  "publishedFixtureBinding": false
+}

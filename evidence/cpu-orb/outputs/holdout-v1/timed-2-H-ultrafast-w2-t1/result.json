@@ -1,0 +1,138 @@
+{
+  "id": "H-ultrafast-w2-t1",
+  "engine": "H",
+  "workers": 2,
+  "encoderThreads": 1,
+  "preset": "ultrafast",
+  "jpegQuality": null,
+  "phase": "timed",
+  "index": 2,
+  "directory": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-2-H-ultrafast-w2-t1",
+  "status": "complete",
+  "components": {
+    "engine": {
+      "command": [
+        "/home/user/benchmark-work/node-v24.19.0-linux-x64/bin/node",
+        "/home/user/benchmark-work/repro-linux/helios-worker.mjs",
+        "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-2-H-ultrafast-w2-t1/config.json"
+      ],
+      "exitCode": 0,
+      "wallNs": 20704577597
+    }
+  },
+  "encoderThreadScope": "per segment/worker encoder",
+  "initialAggregateEncoderThreads": 2,
+  "compositionSha256": "9b4110112f7aba61b5eb525830fa2ae6e902f86f28b1d000e092718236532163",
+  "details": {
+    "engine": "H",
+    "node": "v24.19.0",
+    "ffmpegArgv": [],
+    "stats": {
+      "frames": 300,
+      "chunks": 2,
+      "workers": 2,
+      "ranges": [
+        {
+          "frames": 150,
+          "preparationMs": 33.11240799999999,
+          "rasterizeMs": 13013.13986600001,
+          "pixelExtractionMs": 1681.8640960000073,
+          "drawMs": 14696.502631,
+          "encoderWaitMs": 1935.1083160000017,
+          "encodeMs": 16754.592007,
+          "verifyMs": 123.3483899999992
+        },
+        {
+          "frames": 150,
+          "preparationMs": 33.05434200000002,
+          "rasterizeMs": 12937.048510999992,
+          "pixelExtractionMs": 1716.0971170000012,
+          "drawMs": 14654.658425000001,
+          "encoderWaitMs": 1966.8927769999975,
+          "encodeMs": 16754.020267,
+          "verifyMs": 123.13080599999739
+        }
+      ],
+      "renderMs": 17164.400336,
+      "finalizeMs": 3299.283776,
+      "finalVerifyMs": 2674.3700830000016
+    },
+    "apiWallNs": 20514734047
+  },
+  "deliveredWallNs": 20704839205,
+  "encoding": {
+    "rawUserSei": "x264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=1 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=24 keyint_min=2 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=11.0 qcomp=0.60 qpmin=15 qpmax=60 qpstep=4 ip_ratio=1.40 aq=0",
+    "parameters": {
+      "cabac": "0",
+      "ref": "1",
+      "deblock": "0:0:0",
+      "analyse": "0:0",
+      "me": "dia",
+      "subme": "0",
+      "psy": "1",
+      "psy_rd": "1.00:0.00",
+      "mixed_ref": "0",
+      "me_range": "16",
+      "chroma_me": "1",
+      "trellis": "0",
+      "x8dct": "0",
+      "cqm": "0",
+      "deadzone": "21,11",
+      "fast_pskip": "1",
+      "chroma_qp_offset": "0",
+      "threads": "1",
+      "lookahead_threads": "1",
+      "sliced_threads": "0",
+      "nr": "0",
+      "decimate": "1",
+      "interlaced": "0",
+      "bluray_compat": "0",
+      "constrained_intra": "0",
+      "bframes": "0",
+      "weightp": "0",
+      "keyint": "24",
+      "keyint_min": "2",
+      "scenecut": "0",
+      "intra_refresh": "0",
+      "rc": "crf",
+      "mbtree": "0",
+      "crf": "11.0",
+      "qcomp": "0.60",
+      "qpmin": "15",
+      "qpmax": "60",
+      "qpstep": "4",
+      "ip_ratio": "1.40",
+      "aq": "0"
+    },
+    "expected": {
+      "threads": 1,
+      "bframes": 0,
+      "keyint": 24,
+      "crf": 11,
+      "qpmin": 15,
+      "qpmax": 60,
+      "qcomp": 0.6,
+      "qpstep": 4,
+      "scenecut": 0,
+      "cabac": 0,
+      "ref": 1,
+      "subme": 0,
+      "trellis": 0
+    },
+    "presetLiteralAvailable": false
+  },
+  "outputs": [
+    {
+      "path": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-2-H-ultrafast-w2-t1/output.mp4",
+      "bytes": 195226362,
+      "sha256": "ad82e6bc13985f428ea2e527da9efcf776985cfbec50acbec9f8439a3b4c4112"
+    }
+  ],
+  "retainedLogicalMp4Bytes": 4374449718,
+  "physicalMp4Storage": {
+    "uniqueInodeBytes": 1306481244,
+    "reportedAllocatedBytes": 1306501120
+  },
+  "qualityArtifact": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/quality/H-ad82e6bc13985f428ea2e527da9efcf776985cfbec50acbec9f8439a3b4c4112/measurement.json",
+  "eligible": true
+}

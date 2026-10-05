@@ -1,0 +1,31 @@
+{
+  "baselinePassed": true,
+  "controls": [
+    {
+      "fault": "CPU",
+      "rejected": true,
+      "destinationPreserved": true,
+      "librarySha256": "9f75abe590606145af3f0e0af448970d4d21b595a4c1c6be7e5ccf407bbf3105"
+    },
+    {
+      "fault": "IMAGE",
+      "rejected": true,
+      "destinationPreserved": true,
+      "librarySha256": "380de2addc4d3b234307e4e13bfbdf1da5a00d4a121321f9b0b4c24551019f83"
+    },
+    {
+      "fault": "EXTENSION",
+      "rejected": true,
+      "destinationPreserved": true,
+      "librarySha256": "796c03869333cfd934e5a4e3ac7e10e7971ac9357e8cd8778a669167ae2ead0a"
+    },
+    {
+      "fault": "FENCE",
+      "rejected": true,
+      "destinationPreserved": true,
+      "librarySha256": "9659e5f0f4b31ac39f67ac3e930717cd44dc2ab122aa65fd964a9cdb9da86b02"
+    }
+  ],
+  "helperSha256": "6679452901c6535cc80b4b762cd6c7c13d222e91fb8212a837ca85e60f4af22b",
+  "softwareFallback": false
+}

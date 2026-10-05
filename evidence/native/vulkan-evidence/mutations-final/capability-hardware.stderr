@@ -1,0 +1,22 @@
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  packages/portable/tests/gpu-vulkan.test.ts > rejects stale, Metal, software and unshared Vulkan capabilities before encoding
+AssertionError: expected true to be false // Object.is equality
+
+- Expected
++ Received
+
+- false
++ true
+
+ ❯ packages/portable/tests/gpu-vulkan.test.ts:68:35
+     66|       await expect(renderGpuCanvasVideo(scene, output, { backend: 'vul…
+     67|       expect(await readFile(output, 'utf8')).toBe('preserved destinati…
+     68|       expect(existsSync(encoded)).toBe(false);
+       |                                   ^
+     69|     }
+     70|   } finally { await rm(directory, { recursive: true, force: true }); }
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+

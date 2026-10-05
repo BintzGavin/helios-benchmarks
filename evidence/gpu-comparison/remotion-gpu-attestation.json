@@ -1,0 +1,16 @@
+{
+  "engine": "Remotion4.0.529/Chromium154",
+  "trace": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/profile-remotion/chrome-trace.json",
+  "excludedProfile": true,
+  "frames": 3,
+  "actualRasterEvidence": {
+    "GpuRasterBuffer::Playback": 261,
+    "RasterDecoderImpl::DoRasterCHROMIUM": 279,
+    "bool skgpu::graphite::QueueManager::submitToGpu(const SubmitInfo &)": 290
+  },
+  "physicalDevice": "Apple M3 Pro ANGLE Metal",
+  "gpuRasterProvedInProfile": true,
+  "perTimedFrameProof": false,
+  "rawReadback": true,
+  "encoder": "software libx264"
+}

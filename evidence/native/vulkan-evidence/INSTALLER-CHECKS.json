@@ -1,0 +1,40 @@
+{
+  "scriptSha256": "83b945a9ec47d3773c274d1bd7591900c6057078b7cd0e2eca6e8b3b3f7df756",
+  "baselineAndControlsPassed": true,
+  "cases": [
+    {
+      "case": "pinned-existing-baseline",
+      "exitCode": 0,
+      "expectedSuccess": true,
+      "passed": true,
+      "stdout": "Pinned MoltenVK 1.4.2 runtime already installed\n",
+      "stderr": ""
+    },
+    {
+      "case": "altered-header",
+      "exitCode": 1,
+      "expectedSuccess": false,
+      "passed": true,
+      "stdout": "",
+      "stderr": "file:///private/tmp/helios-vulkan-installer-check-dy0c969d/scripts/setup-vulkan.mjs:34\n  if (inventory.digest('hex') !== headersSha) throw new Error('MoltenVK headers differ from the pinned release; preserve the installation');\n                                                    ^\n\nError: MoltenVK headers differ from the pinned release; preserve the installation\n    at verify (file:///private/tmp/helios-vulkan-installer-check-dy0c969d/scripts/setup-vulkan.mjs:34:53)\n    at async file:///private/tmp/helios-vulkan-installer-check-dy0c969d/scripts/setup-vulkan.mjs:39:3\n\nNode.js v22.23.1\n"
+    },
+    {
+      "case": "missing-header",
+      "exitCode": 1,
+      "expectedSuccess": false,
+      "passed": true,
+      "stdout": "",
+      "stderr": "file:///private/tmp/helios-vulkan-installer-check-dy0c969d/scripts/setup-vulkan.mjs:34\n  if (inventory.digest('hex') !== headersSha) throw new Error('MoltenVK headers differ from the pinned release; preserve the installation');\n                                                    ^\n\nError: MoltenVK headers differ from the pinned release; preserve the installation\n    at verify (file:///private/tmp/helios-vulkan-installer-check-dy0c969d/scripts/setup-vulkan.mjs:34:53)\n    at async file:///private/tmp/helios-vulkan-installer-check-dy0c969d/scripts/setup-vulkan.mjs:39:3\n\nNode.js v22.23.1\n"
+    },
+    {
+      "case": "altered-runtime",
+      "exitCode": 1,
+      "expectedSuccess": false,
+      "passed": true,
+      "stdout": "",
+      "stderr": "file:///private/tmp/helios-vulkan-installer-check-dy0c969d/scripts/setup-vulkan.mjs:18\n  if (createHash('sha256').update(library).digest('hex') !== librarySha) throw new Error('Existing MoltenVK runtime differs from the pinned release; preserve it and select a separate installation');\n                                                                               ^\n\nError: Existing MoltenVK runtime differs from the pinned release; preserve it and select a separate installation\n    at verify (file:///private/tmp/helios-vulkan-installer-check-dy0c969d/scripts/setup-vulkan.mjs:18:80)\n    at async file:///private/tmp/helios-vulkan-installer-check-dy0c969d/scripts/setup-vulkan.mjs:39:3\n\nNode.js v22.23.1\n"
+    }
+  ],
+  "freshNetworkInstallExercised": false,
+  "scope": "Existing pinned installation validation and refusal controls only; no native/rendered-scene qualification."
+}

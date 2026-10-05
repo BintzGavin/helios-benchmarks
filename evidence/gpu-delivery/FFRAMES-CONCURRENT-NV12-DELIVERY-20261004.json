@@ -1,0 +1,38 @@
+{
+  "status": "modified production-concurrent NV12 functional/4K quality/full-workload transfer profile qualified; performance not measured",
+  "report": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/FINAL-REPORT.json",
+    "bytes": 11700,
+    "sha256": "d1880f7edbc8f60873874ef3190c3d9a13f04bf72fdc5ae63361e0e012f1946c"
+  },
+  "manifest": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/RECEIPT-MANIFEST.json",
+    "bytes": 1879082,
+    "sha256": "bce814ca8b37547781642d123d6ba4da114862f123af3b3572cf4a64bd46fe17"
+  },
+  "reviewPackage": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/fframes-concurrent-nv12-review-20261004.zip",
+    "bytes": 21893818,
+    "sha256": "dfd91c2a0301bbde6be8260534db0a4931a38653fcefb2ef9d28075140dd1444",
+    "members": 238,
+    "CRCpassed": true
+  },
+  "sourceArchive": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/source.zip",
+    "bytes": 18804500,
+    "sha256": "c611d61e38a756c724df25eda3c446db16d2dd1518be8d5f5d18366aeb9c6958"
+  },
+  "allManifestPinsRechecked": true,
+  "broaderObjectiveComplete": false,
+  "timingWindowOpen": false,
+  "newLibraryIds": [],
+  "remaining": [
+    "balanced matched Helios/modified concurrent fframes exports with mandatory conformance included",
+    "full4K nativeHEVC/Vulkan qualification and matched performance",
+    "original-product chroma quality still fails unchanged floors; no product win",
+    "publishedM5 benchmark not beaten",
+    "Library publication helper blocked",
+    "native Vulkan PR push destination approval remains with native thread"
+  ],
+  "freeBytesAfter": 409014272
+}

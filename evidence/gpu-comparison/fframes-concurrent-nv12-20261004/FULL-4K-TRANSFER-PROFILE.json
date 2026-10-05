@@ -1,0 +1,111 @@
+{
+  "passed": true,
+  "scope": "excluded full300 actual4K circles workload uncaptured, separate3 same4K positive controls",
+  "benchmarkTiming": false,
+  "zeroCopyProved": false,
+  "modifiedPipeline": true,
+  "originalProduct": false,
+  "fullWorkload": {
+    "counts": {
+      "interposer-installed": 1,
+      "IOSurfaceGetBaseAddress": 22,
+      "IOSurfaceGetBaseAddressOfPlane": 38689,
+      "buffer-contents-unknown-intent": 2371563
+    },
+    "rgbaDownloadBytes": 0,
+    "stages": {
+      "passed": true,
+      "frames": 300,
+      "actualConversionContexts": 3,
+      "deviceRegistryId": 4294968434,
+      "directSkiaTextureImport": true,
+      "extraGpuCopy": false,
+      "peakObservedAVBufferOwnersByContext": {
+        "4": 1,
+        "6": 1,
+        "5": 1
+      },
+      "sourceOwnedThroughConversionFence": true,
+      "observedDestinationOwnersAllReleased": true,
+      "opaqueEncoderOwnershipKnown": false,
+      "zeroCopyProved": false,
+      "benchmarkTiming": false,
+      "coreLedgerSha256": "be4f05d890427f0ea85a758e6dcce068f93bd9253875aa103c7852afc1d6eed9",
+      "gpuTraceSha256": "0c3d5f9843bba04781d5a1f1bc97a70ae2c2b74f6b307d91cd6e0d7e79047b55"
+    },
+    "pipeline": {
+      "seq": 2,
+      "thread": "ThreadId(1)",
+      "event": "pipeline",
+      "gpuContexts": 3,
+      "generators": 5,
+      "encoderWorkers": 5,
+      "configuredEncoderThreads": 11,
+      "queueSize": 10
+    },
+    "frames": 300,
+    "binarySha256": "665ce943531be9a35d61aa7629e12646e280d0568c1ca6a576816f15963210a8",
+    "converterSha256": "11522ab92e119b84f9af86b9abf5864263c774a21ac7505b82a6556b6e9e132d",
+    "interposerSha256": "1b3ca8f0189fbc83061006c50446caad18429c179ac6b98dcccc73c184880c87",
+    "ledgerSha256": "be4f05d890427f0ea85a758e6dcce068f93bd9253875aa103c7852afc1d6eed9",
+    "transferSha256": "733a9bf46403c9a4a58220a339b9e7e0f17f48e0230d6c12cf81fda0083ac301",
+    "processSha256": "25a4cb3a3925d3cc3c5616332ec0d7d3044eff1042138dbfa71540ba17dde3bd"
+  },
+  "positiveControls": {
+    "counts": {
+      "interposer-installed": 1,
+      "IOSurfaceGetBaseAddress": 18,
+      "IOSurfaceGetBaseAddressOfPlane": 597,
+      "buffer-contents-unknown-intent": 23722,
+      "texture-to-buffer": 3,
+      "CVPixelBufferLockBaseAddress": 3,
+      "IOSurfaceLock": 3,
+      "CVPixelBufferGetBaseAddressOfPlane": 6
+    },
+    "rgbaDownloadBytes": 99532800,
+    "stages": {
+      "passed": true,
+      "frames": 3,
+      "actualConversionContexts": 3,
+      "deviceRegistryId": 4294968434,
+      "directSkiaTextureImport": true,
+      "extraGpuCopy": false,
+      "peakObservedAVBufferOwnersByContext": {
+        "5": 1,
+        "4": 1,
+        "6": 1
+      },
+      "sourceOwnedThroughConversionFence": true,
+      "observedDestinationOwnersAllReleased": true,
+      "opaqueEncoderOwnershipKnown": false,
+      "zeroCopyProved": false,
+      "benchmarkTiming": false,
+      "coreLedgerSha256": "d3a29e067fe4508a806edcab4519db54f8b7e92da081110fd4df22fe06720875",
+      "gpuTraceSha256": "d9df50397c6fed13ed2cbe59d214b4c4e0e15eeb06ffa4e14f336ad9f171d3bc"
+    },
+    "pipeline": {
+      "seq": 2,
+      "thread": "ThreadId(1)",
+      "event": "pipeline",
+      "gpuContexts": 3,
+      "generators": 5,
+      "encoderWorkers": 5,
+      "configuredEncoderThreads": 11,
+      "queueSize": 10
+    },
+    "frames": 3,
+    "binarySha256": "665ce943531be9a35d61aa7629e12646e280d0568c1ca6a576816f15963210a8",
+    "converterSha256": "11522ab92e119b84f9af86b9abf5864263c774a21ac7505b82a6556b6e9e132d",
+    "interposerSha256": "1b3ca8f0189fbc83061006c50446caad18429c179ac6b98dcccc73c184880c87",
+    "ledgerSha256": "d3a29e067fe4508a806edcab4519db54f8b7e92da081110fd4df22fe06720875",
+    "transferSha256": "154e2e6b79b658c9f4b445350720f0d76175c60f634714af227a76af3d140589",
+    "processSha256": "a8ebaf993ce715509f617d2a8cb1189f14e7f21a7ecdb69feba4b69a8e900ee9"
+  },
+  "captureReadbackOff": true,
+  "hookedRawDownloadsObserved": 0,
+  "opaqueDriverEncoderTransfersUnknown": true,
+  "pointerQueriesAndBufferContentsIntentUnknown": true,
+  "hookScope": "CV/IOSurface lock/pointer APIs and concrete probed Metal getBytes/texture-to-buffer selectors; unhooked paths unknown",
+  "actualMetalCapture": "256x128 capture3 retained and passed; separate4K capture ENOSPC failed/excluded, not counted",
+  "mandatorySPSConformanceRunsAfterProfilingExport": true
+}

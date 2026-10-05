@@ -1,0 +1,4 @@
+{
+  "excluded": true,
+  "reason": "Independent longest-suffix matcher overlapped the flag with replacement final0; checker stopped before control/reference validation. Corrected checker uses independently parsed source flag offset and verifies every remaining RBSP bit, not a fitted edit. Candidates untouched."
+}

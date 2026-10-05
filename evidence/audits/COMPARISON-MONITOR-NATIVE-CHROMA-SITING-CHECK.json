@@ -1,0 +1,21 @@
+{
+  "status": "read-only native chroma-siting contract discrepancy requiring bounded validation before new aligned timings",
+  "auditedAt": "2026-10-04T21:10:15.305533+00:00",
+  "source": {
+    "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native/metal.mm",
+    "sha256": "3d3a8d645fe82b842629cd3625c09c827a1779eec58dc1187bc515f8c13d2fee"
+  },
+  "retainedNativeQuality": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-screen-h-300/quality.json",
+    "sha256": "338695080313a176f1d4570b0ef59987bb37bc4467c890638b8a81c398503477",
+    "numericQualityPassed": true,
+    "candidateChromaLocation": "left",
+    "referenceChromaLocation": null
+  },
+  "observation": "Native shader sums all four pixels of each 2x2 block equally; no explicit CoreVideo chroma-location attachment in native bridge. Saved H stream signals left. Modified concurrent F converter declares centered2x2 and corrects its emitted SPS to center.",
+  "inference": "Native chroma-siting signaling may not match physical sample positions; requires independently specified color/control/SPS audit. No old numerical receipt, byte binding, clock or video changed/relabeled.",
+  "originalProductBugProved": false,
+  "newBuildRenderDecodeOrTiming": false,
+  "requiresComparisonOwnerCoordination": true,
+  "broaderObjectiveComplete": false
+}

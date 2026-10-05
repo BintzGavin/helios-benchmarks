@@ -1,0 +1,17 @@
+{
+  "frames": 300,
+  "psnrFrames": 300,
+  "minSsimY": 0.995917,
+  "minPsnrY": 45.48,
+  "minPsnrU": 45.66,
+  "minPsnrV": 45.67,
+  "mode": "software",
+  "bitrate": 180000000,
+  "crf": 11,
+  "nativeSha256": "87aec3f3d39db8956490942429e6a865741c04515ad6b98753aaf6599c197a90",
+  "fontSha256": "9ae2da663d64342031e59b5fa680dd355171d021b7ebf83774efc7c0330ae7b5",
+  "reference": "/private/tmp/helios-gpu-evidence/final-reference-software/reference.mkv",
+  "video": "/private/tmp/helios-gpu-evidence/round-2-native-software/video.mp4",
+  "deliveryColor": "bt709-limited",
+  "passed": true
+}

@@ -1,0 +1,156 @@
+{
+  "createdUnix": 1791162241.0853078,
+  "status": "bounded streaming and codec/profile preparation saved receipts independently verified",
+  "slices": [
+    {
+      "kind": "STREAMING",
+      "deliveryPins": [
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/streaming-reference-prep-20261005/FINAL-REPORT.json",
+          "bytes": 2016,
+          "sha256": "5c60523b593415da76e93a0f6c3fc1194507010818e8e627708bbcdd44bc8028"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/streaming-reference-prep-20261005/RECEIPT-MANIFEST.json",
+          "bytes": 120211,
+          "sha256": "451ee7df0dead74f14ee13ef86b6b37d78ca8e996e07059bdfe28311810a2a34"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/streaming-bounded-prep-source-receipts-20261005.zip",
+          "bytes": 4997601,
+          "sha256": "8f9b13763ec388aa9ba7a163b946ccc5b559e56c31c8accb20de55ce3cc3e17c"
+        }
+      ],
+      "manifestEntries": 572,
+      "regularFiles": 569,
+      "symlinks": 3,
+      "manifestBytes": 24863600,
+      "sourceCopiesChecked": 6,
+      "archives": [
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/streaming-bounded-prep-source-receipts-20261005.zip",
+          "bytes": 4997601,
+          "sha256": "8f9b13763ec388aa9ba7a163b946ccc5b559e56c31c8accb20de55ce3cc3e17c",
+          "entries": 573,
+          "CRCpassed": true
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/streaming-reference-prep-20261005/source.zip",
+          "bytes": 362057,
+          "sha256": "d80e8109fc8c60dd8ad48bd3ae2637f7de56a633032dbe7e6d2b7ad2e41c9027",
+          "entries": 9,
+          "CRCpassed": true
+        }
+      ],
+      "finalTestCount": 29,
+      "allSavedTestsPass": true,
+      "oldAcceptedManifestPinsUnchanged": true,
+      "finalGeneration": "validation-final-03",
+      "positiveRawBindings": [
+        {
+          "case": "irregular-chunks-300",
+          "frames": 300,
+          "directRawAndPlanarHashesRecomputed": true,
+          "savedIndependentInverseDecodeHashesMatched": true,
+          "actualReferenceSHARechecked": true,
+          "writerPeakQueuedBytes": 98304,
+          "backpressureObservations": 4,
+          "recordedRSSBytes": 35225600
+        },
+        {
+          "case": "slow-consumer-300",
+          "frames": 300,
+          "directRawAndPlanarHashesRecomputed": true,
+          "savedIndependentInverseDecodeHashesMatched": true,
+          "actualReferenceSHARechecked": true,
+          "writerPeakQueuedBytes": 114688,
+          "backpressureObservations": 261,
+          "recordedRSSBytes": 37486592
+        },
+        {
+          "case": "one-byte-chunks",
+          "frames": 1,
+          "directRawAndPlanarHashesRecomputed": true,
+          "savedIndependentInverseDecodeHashesMatched": true,
+          "actualReferenceSHARechecked": true,
+          "writerPeakQueuedBytes": 0,
+          "backpressureObservations": 0,
+          "recordedRSSBytes": 36880384
+        }
+      ],
+      "negativeTests": 26,
+      "independentNewDecodeNotRun": true,
+      "actualNativeStreamBridgeQualified": false,
+      "full4KMemoryMeasured": false
+    },
+    {
+      "kind": "CODEC",
+      "deliveryPins": [
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/codec-orchestration-prep-20261005/FINAL-REPORT.json",
+          "bytes": 1763,
+          "sha256": "e3fa7294ebc21bc3e23ad4154b1a73dfa03dc4c69f7d3a89c2b4adbc8ba884ca"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/codec-orchestration-prep-20261005/RECEIPT-MANIFEST.json",
+          "bytes": 25753,
+          "sha256": "287a4d70f3b1ecc638cdc34b1e94bd0460d29b5e8d5d1ef7eca0371725c86d41"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/codec-bounded-prep-source-receipts-20261005.zip",
+          "bytes": 1527836,
+          "sha256": "2e5f6676a534fc33d4f790ad7af9fd28f2333c41cdffb9962349bb654d69de24"
+        }
+      ],
+      "manifestEntries": 139,
+      "regularFiles": 139,
+      "symlinks": 0,
+      "manifestBytes": 5682507,
+      "sourceCopiesChecked": 10,
+      "archives": [
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/codec-bounded-prep-source-receipts-20261005.zip",
+          "bytes": 1527836,
+          "sha256": "2e5f6676a534fc33d4f790ad7af9fd28f2333c41cdffb9962349bb654d69de24",
+          "entries": 140,
+          "CRCpassed": true
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/codec-orchestration-prep-20261005/source.zip",
+          "bytes": 28492,
+          "sha256": "5ef3c534fbad89294805737a93ceead851341adaaf07f1085b71087920eade00",
+          "entries": 12,
+          "CRCpassed": true
+        }
+      ],
+      "finalTestCount": 69,
+      "allSavedTestsPass": true,
+      "oldAcceptedManifestPinsUnchanged": true,
+      "profileCompileReceipts": [
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/codec-orchestration-prep-20261005/prepared-profiles/H-vulkan-hevc/COMPILE.json",
+          "bytes": 2346,
+          "sha256": "9d44861453a7d0643e739e704798d5d87eb4f388d8afbdea6615250941e50cef"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/codec-orchestration-prep-20261005/prepared-profiles/H-metal-hevc/COMPILE.json",
+          "bytes": 1987,
+          "sha256": "8dfe959af5ce8a2fa714af9eaa331225cd3efa56dbdabc9ee424f0a809517fad"
+        }
+      ],
+      "actualCLINoLaunchVerified": true,
+      "actualGPULaunchQualified": false
+    }
+  ],
+  "allFinalTests": 98,
+  "cpuPreparationOnly": true,
+  "newGpuEncoderExportBuildDecodeTiming": false,
+  "actualNativeBridgeOrGPUOrchestrationQualified": false,
+  "streaming6GiBGateActive": false,
+  "serialGateGiB": 9,
+  "balancedGateGiB": 15,
+  "ownerRetainsHarnessAndConformance": true,
+  "pendingCacheAndDestinationApprovalsUnchanged": true,
+  "libraryRouteBlockedNoNewIDs": true,
+  "broadObjectiveComplete": false
+}

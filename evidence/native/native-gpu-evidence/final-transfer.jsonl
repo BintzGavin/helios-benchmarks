@@ -1,0 +1,16 @@
+{"event":"surface-create","surfaceId":148,"encoderPool":true,"format":"nv12-video-range","rasterStorage":"private","rawCpuMapCallsInBridge":0}
+{"event":"raster-submitted","frame":0}
+{"event":"conversion-complete","frame":0,"surfaceId":148,"sameIOSurfacePlanes":true,"gpuStartSeconds":111639.988628167,"gpuEndSeconds":111639.988823000}
+{"event":"encoder-submit","frame":0,"surfaceId":148}
+{"event":"encoder-callback","frame":0,"status":0,"dropped":false}
+{"event":"surface-recyclable","frame":0,"surfaceId":148}
+{"event":"raster-submitted","frame":1}
+{"event":"conversion-complete","frame":1,"surfaceId":148,"sameIOSurfacePlanes":true,"gpuStartSeconds":111640.058872042,"gpuEndSeconds":111640.059066750}
+{"event":"encoder-submit","frame":1,"surfaceId":148}
+{"event":"encoder-callback","frame":1,"status":0,"dropped":false}
+{"event":"surface-recyclable","frame":1,"surfaceId":148}
+{"event":"raster-submitted","frame":2}
+{"event":"conversion-complete","frame":2,"surfaceId":148,"sameIOSurfacePlanes":true,"gpuStartSeconds":111640.094811500,"gpuEndSeconds":111640.095006792}
+{"event":"encoder-submit","frame":2,"surfaceId":148}
+{"event":"encoder-callback","frame":2,"status":0,"dropped":false}
+{"event":"surface-recyclable","frame":2,"surfaceId":148}

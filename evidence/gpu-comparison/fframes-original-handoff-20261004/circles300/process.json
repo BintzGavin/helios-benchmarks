@@ -1,0 +1,32 @@
+{
+  "status": "completed",
+  "lane": "circles300",
+  "argv": [
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/circles-handoff-capture",
+    "hardware",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/circles300/video.mp4",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/font",
+    "300",
+    "500000000"
+  ],
+  "resourceCommand": [
+    "/usr/bin/time",
+    "-l",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/circles-handoff-capture",
+    "hardware",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/circles300/video.mp4",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/font",
+    "300",
+    "500000000"
+  ],
+  "binarySha256": "4b07df0a91edf704b172548332545331f14182712d1d8a5aa2624573e05b2021",
+  "buildPinsSha256": "bdd7beaeb847831673923a3a3cd21fc042cedfb097b626f9cfd5c471722eda1e",
+  "captureDirectory": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/circles300/capture",
+  "benchmarkTiming": false,
+  "timingWindowOpen": false,
+  "startedUnix": 1791137869.586462,
+  "pid": 83008,
+  "returncode": 0,
+  "finishedUnix": 1791137896.542044,
+  "videoSha256": "81a5cbde08d078d06ff5b2b1b24cbfccd26a90de6118f829152963df25c9aff6"
+}

@@ -1,0 +1,10 @@
+{
+  "test": "fixture-qualification-forgery",
+  "passed": true,
+  "expectedRefusal": "EXECUTION_CLASS_NOT_AUTHORITY",
+  "observedError": "Refusal:EXECUTION_CLASS_NOT_AUTHORITY",
+  "secondsExcludedFromBenchmark": 0.008057416998781264,
+  "GPUExecuted": false,
+  "sourceUnchanged": true,
+  "publishedFixtureBinding": false
+}

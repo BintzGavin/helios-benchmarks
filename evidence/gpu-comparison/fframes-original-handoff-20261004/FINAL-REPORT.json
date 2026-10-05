@@ -1,0 +1,216 @@
+{
+  "status": "bounded_same_stream_original_hardware_capture_complete; original_quality_gate_failed",
+  "broaderObjectiveComplete": false,
+  "owner": "comparison harness",
+  "timingWindowOpen": false,
+  "newBenchmarkTimingAttempts": 0,
+  "fullyEnabledOriginalLaneQualified": false,
+  "productionWinnerClaimAllowed": false,
+  "publishedM5ClaimBeaten": false,
+  "sourceLibraryId": "libfile_19c903c1d7508191ac4881f0e96e4229",
+  "historicalCheckpointLibraryId": "libfile_cd84375e4648819195364136245484c6",
+  "newLibraryDeliverableIds": [],
+  "libraryBlocker": "required Library helper prepare_uploads unavailable; no alternate container used",
+  "protocolSha256": "f1fa29a3caafee3e7cbaa1ce0541432ef69c62297e6c731669974f4e82a15855",
+  "buildPinsSha256": "bdd7beaeb847831673923a3a3cd21fc042cedfb097b626f9cfd5c471722eda1e",
+  "sourceArchiveSha256": "ae5503204e2eeb72ef2d523c05058aee8b87aaa52b8723b855d667dce93147ad",
+  "sourceArchiveCRCpassed": true,
+  "helpers": [
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/circles-handoff-capture",
+      "bytes": 37999408,
+      "sha256": "4b07df0a91edf704b172548332545331f14182712d1d8a5aa2624573e05b2021"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/handoff-color-controls",
+      "bytes": 36228000,
+      "sha256": "4f42f00b9174d6bbae74d32fdcc98f4215173f46be6be36874d02e2a60ac312e"
+    }
+  ],
+  "lanes": [
+    {
+      "lane": "controls",
+      "frames": 36,
+      "sameStreamHandoffAuditPassed": true,
+      "losslessProxyDirectBindingPassed": true,
+      "cadenceColorMetadataGopPassed": true,
+      "structureDecodePassed": true,
+      "qualityPassed": false,
+      "minimum": {
+        "Y": 0.999576,
+        "psnr_y": 48.34,
+        "psnr_u": 16.55,
+        "psnr_v": 14.14
+      },
+      "belowFloorFrameCounts": {
+        "psnr_y": 0,
+        "psnr_u": 36,
+        "psnr_v": 36
+      },
+      "candidateSha256": "6d91d7586bf2e170682f29a44f48d00c644fdf62d2e50c0777ac908c1f95020f",
+      "qualitySha256": "02da5dbba34f80d6a701ff7856a53131189421cce4ecc6e1340dfd93caafb73c",
+      "captureAuditSha256": "e2f8d08c5c0c94a05155a9d8c06f182e548d890d61ac71a1d6ed9d01e79fc904",
+      "referenceBindingSha256": "e3bc70370643b01737a7731c08c21b309063d8d2df0c368495113554e4048ef0",
+      "benchmarkTiming": false
+    },
+    {
+      "lane": "circles300",
+      "frames": 300,
+      "sameStreamHandoffAuditPassed": true,
+      "losslessProxyDirectBindingPassed": true,
+      "cadenceColorMetadataGopPassed": true,
+      "structureDecodePassed": true,
+      "qualityPassed": false,
+      "minimum": {
+        "Y": 0.999168,
+        "psnr_y": 49.0,
+        "psnr_u": 33.36,
+        "psnr_v": 33.1
+      },
+      "belowFloorFrameCounts": {
+        "psnr_y": 0,
+        "psnr_u": 296,
+        "psnr_v": 300
+      },
+      "candidateSha256": "81a5cbde08d078d06ff5b2b1b24cbfccd26a90de6118f829152963df25c9aff6",
+      "qualitySha256": "078077438554ca2ac52a540ba84de78b9ba5b255ebac5a8c69d9b15e3c7e0aaa",
+      "captureAuditSha256": "6ef8de5a3b2dc70f2959d7e688f16922ef1353690aca7007c933a330a7ffe6a1",
+      "referenceBindingSha256": "25c1178c4bb6ffa082bc276254a6e996482391349b62435daf8803c38df39236",
+      "benchmarkTiming": false
+    }
+  ],
+  "controls": {
+    "all36RawBGRAFramesExactlyMatchIndependentOracle": true,
+    "nominalBT601LimitedSolidInteriorsPassed": true,
+    "maximumSolidInteriorCodeValueError": 1,
+    "fineChromaPatternsDisagreeWithFixedProxy": true,
+    "analysisSha256": "5eda8ba7d1ea814f33db27184592ae587f067a509e880db889c7da1cefbb74fd"
+  },
+  "tests": {
+    "rustCaptureUnitTests": 3,
+    "independentAuditTests": 11,
+    "auditMutantsDetected": 10,
+    "actualInitRefusals": 2,
+    "releaseBuildPassed": true,
+    "clippyCompletedWithWarnings": true,
+    "strictWarningsFreeLintClaim": false
+  },
+  "unchangedPriorReadSet": [
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-circles-claim/render-bench/vs-remotion/src/bin/circles-high-quality-adapter.rs",
+      "bytes": 9912,
+      "sha256": "ded34a1546615f35e057d1b44c3b78bacff6b16c1d7266192de36d3d2efb34d6",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-circles-claim/fframes-skia-renderer/src/frame_export/videotoolbox.rs",
+      "bytes": 14433,
+      "sha256": "e0f27b623fcdbbfbb08754c17f1b4a14fad437e781b35d7396a1471431812337",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-circles-claim/fframes-skia-renderer/src/skia_pipeline.rs",
+      "bytes": 17385,
+      "sha256": "f270fd7fb925e35fe5ba3bf454a7dd5f081d803098df5f79e675a676f1ed2875",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-circles-claim/fframes/src/renderer/stream.rs",
+      "bytes": 15898,
+      "sha256": "7b44c6b4fb0ea238dcded25f6aa3885e8cb2301d4f2a51fe2e322b9559e2f6c8",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-circles-claim/fframes/src/renderer/segment_writer.rs",
+      "bytes": 7638,
+      "sha256": "965facec106f58f3033f8fb333f79cbf4557b6652bb11d1767f1c4ad3791c143",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-high-quality-adapter-pins.json",
+      "bytes": 1323,
+      "sha256": "5cbf75b6c55abefc025f4c6ea34891e24a9dd6830ca92e70ff2c9f6f182a3eb3",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-reference-f/adapter.json",
+      "bytes": 2317,
+      "sha256": "3e45bd9669a9735f17e52105d2684c0cfae9160fc7f82692dc995cf7c1fd77c0",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-f-500/adapter.json",
+      "bytes": 2188,
+      "sha256": "a693d19a5dfaee69a0a2ac6a873acb18d09fcbd69b08432070907818e07360e8",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-f-500/quality.json",
+      "bytes": 215758,
+      "sha256": "aa2f8f7069111b6db8137b5d8355930f1edfe7cd81115c3284e7d47ee22ee03f",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-f-chroma-diagnostic-02/diagnostic.json",
+      "bytes": 16455,
+      "sha256": "08abce811d41223695805cd005b7ad3294091f555ccc46f5d021266c9f5e1d60",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-binary-recording-profile.json",
+      "bytes": 999,
+      "sha256": "e6014853ed2c99a9063d93ed235850dd1fc10a0d031bf1a5322069c1df4a9209",
+      "unchanged": true
+    }
+  ],
+  "conclusions": [
+    "Exact candidate source stream removes independent-raster reference ambiguity for this diagnostic.",
+    "Original 4K chroma floors still fail against unchanged BT601 FFmpeg proxy; 296 U and 300 V frames fail.",
+    "Exact source and nominal solid controls place the remaining difference downstream of rasterization: reference subsampling versus opaque VideoToolbox conversion and encoding.",
+    "This does not distinguish conversion-kernel choices from compression distortion and does not prove the original product encoder is incorrect.",
+    "Same-stream BGRA capture is not an actual VideoToolbox pre-compression NV12 oracle.",
+    "All capture clocks/readbacks/resource use are excluded; no balanced timing window opened."
+  ],
+  "actualEncoderNV12OracleProved": false,
+  "opaqueEncoderOwnershipKnown": false,
+  "zeroCopyProved": false,
+  "remainingGate": {
+    "originalLane": "Independently specified/validated original encoder conversion and chroma oracle remains unavailable; no public pre-compression VideoToolbox NV12 exposure identified.",
+    "modifiedPipelineOption": "Separately freeze explicit GPU NV12 conversion with production contexts/concurrency and proper lifetime/fences; qualify all300 before timing. Must be labeled modified pipeline, not original product.",
+    "noFurtherOptimizationSelected": true,
+    "full4KHEVCVulkanPerformanceQualificationPending": true,
+    "vulkanPublication": "Native-thread auto-review push destination approval still pending; no push or workaround here."
+  },
+  "harnessPins": [
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/run-fframes-handoff.py",
+      "bytes": 2250,
+      "sha256": "dedf6bc6e1d196ffdc049f6682bae491bbb32ae8d33f033e8c2cc46266e2e046"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/audit-fframes-handoff.py",
+      "bytes": 6964,
+      "sha256": "6afe161521ac9cb72103ad00208b83a678ab6e84d5a26536d1241e916e7f203d"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/qualify-fframes-handoff.py",
+      "bytes": 5200,
+      "sha256": "d6f3c5952bc24f8a016a85de32f09f223ae01e76d2d4946ba52c112dc72b7ce3"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/test_fframes_handoff.py",
+      "bytes": 2566,
+      "sha256": "d426fd7e8a6ecfba49aef9bd960317e201c159eaf56ae95667ed24fdc51b8cf2"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/analyze-handoff-controls.py",
+      "bytes": 3832,
+      "sha256": "a27970c2612a62132b48a1c739266fafede2b4b3ef5fb9f5ddad007a667e941c"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/finalize-fframes-handoff.py",
+      "bytes": 7918,
+      "sha256": "1bc9ca66590a62e061985dd7a31befed88f044954a8e1484b9b254356b58954e"
+    }
+  ]
+}

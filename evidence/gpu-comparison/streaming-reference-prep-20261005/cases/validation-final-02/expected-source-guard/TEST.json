@@ -1,0 +1,10 @@
+{
+  "case": "expected-source-guard",
+  "passed": true,
+  "expectedRefusal": "SOURCE_HASH",
+  "observedError": "Refusal: SOURCE_HASH",
+  "secondsExcludedFromBenchmarks": 0.012111667019780725,
+  "sourceUnchanged": true,
+  "GPUExecuted": false,
+  "atomicFinalExists": false
+}

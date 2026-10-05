@@ -1,0 +1,1224 @@
+{
+  "codec": "h264",
+  "frames": 36,
+  "width": 256,
+  "height": 128,
+  "fps": "30/1",
+  "inputSha256": "d80a4380d2456734551660ca46363fa7ab11da4fcbf0935523ca54a5ae5a3af6",
+  "outputSha256": "0e3469e06769172b0757647535ee2912d9cafda14c23d8526d66ade9ef27eff1",
+  "SPS": {
+    "oldFlagOffset": 103,
+    "oldLocationEnd": 104,
+    "oldStopBit": 109,
+    "newLocationBits": "1010010",
+    "allRemainingRBSPBitsIdentical": true,
+    "oldSPSsha256": "aacf091098fca29b8b1b82d3e3408c25d2f0ca26b7dbf04274b165a0bdb2d11e",
+    "newSPSsha256": "5efc5f9e81f2313f14ef231956485b48879b2be0e13105c2aa16d4e9ca09ecb6"
+  },
+  "fieldsBefore": [
+    {
+      "offset": 0,
+      "name": "forbidden_zero_bit",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 1,
+      "name": "nal_ref_idc",
+      "bits": "01",
+      "value": 1
+    },
+    {
+      "offset": 3,
+      "name": "nal_unit_type",
+      "bits": "00111",
+      "value": 7
+    },
+    {
+      "offset": 8,
+      "name": "profile_idc",
+      "bits": "01100100",
+      "value": 100
+    },
+    {
+      "offset": 16,
+      "name": "constraint_set0_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 17,
+      "name": "constraint_set1_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 18,
+      "name": "constraint_set2_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 19,
+      "name": "constraint_set3_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 20,
+      "name": "constraint_set4_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 21,
+      "name": "constraint_set5_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 22,
+      "name": "reserved_zero_2bits",
+      "bits": "00",
+      "value": 0
+    },
+    {
+      "offset": 24,
+      "name": "level_idc",
+      "bits": "00110011",
+      "value": 51
+    },
+    {
+      "offset": 32,
+      "name": "seq_parameter_set_id",
+      "bits": "1",
+      "value": 0
+    },
+    {
+      "offset": 33,
+      "name": "chroma_format_idc",
+      "bits": "010",
+      "value": 1
+    },
+    {
+      "offset": 36,
+      "name": "bit_depth_luma_minus8",
+      "bits": "1",
+      "value": 0
+    },
+    {
+      "offset": 37,
+      "name": "bit_depth_chroma_minus8",
+      "bits": "1",
+      "value": 0
+    },
+    {
+      "offset": 38,
+      "name": "qpprime_y_zero_transform_bypass_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 39,
+      "name": "seq_scaling_matrix_present_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 40,
+      "name": "log2_max_frame_num_minus4",
+      "bits": "010",
+      "value": 1
+    },
+    {
+      "offset": 43,
+      "name": "pic_order_cnt_type",
+      "bits": "1",
+      "value": 0
+    },
+    {
+      "offset": 44,
+      "name": "log2_max_pic_order_cnt_lsb_minus4",
+      "bits": "011",
+      "value": 2
+    },
+    {
+      "offset": 47,
+      "name": "max_num_ref_frames",
+      "bits": "010",
+      "value": 1
+    },
+    {
+      "offset": 50,
+      "name": "gaps_in_frame_num_allowed_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 51,
+      "name": "pic_width_in_mbs_minus1",
+      "bits": "000010000",
+      "value": 15
+    },
+    {
+      "offset": 60,
+      "name": "pic_height_in_map_units_minus1",
+      "bits": "0001000",
+      "value": 7
+    },
+    {
+      "offset": 67,
+      "name": "frame_mbs_only_flag",
+      "bits": "1",
+      "value": 1
+    },
+    {
+      "offset": 68,
+      "name": "direct_8x8_inference_flag",
+      "bits": "1",
+      "value": 1
+    },
+    {
+      "offset": 69,
+      "name": "frame_cropping_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 70,
+      "name": "vui_parameters_present_flag",
+      "bits": "1",
+      "value": 1
+    },
+    {
+      "offset": 71,
+      "name": "aspect_ratio_info_present_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 72,
+      "name": "overscan_info_present_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 73,
+      "name": "video_signal_type_present_flag",
+      "bits": "1",
+      "value": 1
+    },
+    {
+      "offset": 74,
+      "name": "video_format",
+      "bits": "101",
+      "value": 5
+    },
+    {
+      "offset": 77,
+      "name": "video_full_range_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 78,
+      "name": "colour_description_present_flag",
+      "bits": "1",
+      "value": 1
+    },
+    {
+      "offset": 79,
+      "name": "colour_primaries",
+      "bits": "00000001",
+      "value": 1
+    },
+    {
+      "offset": 87,
+      "name": "transfer_characteristics",
+      "bits": "00000001",
+      "value": 1
+    },
+    {
+      "offset": 95,
+      "name": "matrix_coefficients",
+      "bits": "00000001",
+      "value": 1
+    },
+    {
+      "offset": 103,
+      "name": "chroma_loc_info_present_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 104,
+      "name": "timing_info_present_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 105,
+      "name": "nal_hrd_parameters_present_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 106,
+      "name": "vcl_hrd_parameters_present_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 107,
+      "name": "pic_struct_present_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 108,
+      "name": "bitstream_restriction_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 109,
+      "name": "rbsp_stop_one_bit",
+      "bits": "1",
+      "value": 1
+    },
+    {
+      "offset": 110,
+      "name": "rbsp_alignment_zero_bit",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 111,
+      "name": "rbsp_alignment_zero_bit",
+      "bits": "0",
+      "value": 0
+    }
+  ],
+  "fieldsAfter": [
+    {
+      "offset": 0,
+      "name": "forbidden_zero_bit",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 1,
+      "name": "nal_ref_idc",
+      "bits": "01",
+      "value": 1
+    },
+    {
+      "offset": 3,
+      "name": "nal_unit_type",
+      "bits": "00111",
+      "value": 7
+    },
+    {
+      "offset": 8,
+      "name": "profile_idc",
+      "bits": "01100100",
+      "value": 100
+    },
+    {
+      "offset": 16,
+      "name": "constraint_set0_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 17,
+      "name": "constraint_set1_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 18,
+      "name": "constraint_set2_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 19,
+      "name": "constraint_set3_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 20,
+      "name": "constraint_set4_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 21,
+      "name": "constraint_set5_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 22,
+      "name": "reserved_zero_2bits",
+      "bits": "00",
+      "value": 0
+    },
+    {
+      "offset": 24,
+      "name": "level_idc",
+      "bits": "00110011",
+      "value": 51
+    },
+    {
+      "offset": 32,
+      "name": "seq_parameter_set_id",
+      "bits": "1",
+      "value": 0
+    },
+    {
+      "offset": 33,
+      "name": "chroma_format_idc",
+      "bits": "010",
+      "value": 1
+    },
+    {
+      "offset": 36,
+      "name": "bit_depth_luma_minus8",
+      "bits": "1",
+      "value": 0
+    },
+    {
+      "offset": 37,
+      "name": "bit_depth_chroma_minus8",
+      "bits": "1",
+      "value": 0
+    },
+    {
+      "offset": 38,
+      "name": "qpprime_y_zero_transform_bypass_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 39,
+      "name": "seq_scaling_matrix_present_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 40,
+      "name": "log2_max_frame_num_minus4",
+      "bits": "010",
+      "value": 1
+    },
+    {
+      "offset": 43,
+      "name": "pic_order_cnt_type",
+      "bits": "1",
+      "value": 0
+    },
+    {
+      "offset": 44,
+      "name": "log2_max_pic_order_cnt_lsb_minus4",
+      "bits": "011",
+      "value": 2
+    },
+    {
+      "offset": 47,
+      "name": "max_num_ref_frames",
+      "bits": "010",
+      "value": 1
+    },
+    {
+      "offset": 50,
+      "name": "gaps_in_frame_num_allowed_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 51,
+      "name": "pic_width_in_mbs_minus1",
+      "bits": "000010000",
+      "value": 15
+    },
+    {
+      "offset": 60,
+      "name": "pic_height_in_map_units_minus1",
+      "bits": "0001000",
+      "value": 7
+    },
+    {
+      "offset": 67,
+      "name": "frame_mbs_only_flag",
+      "bits": "1",
+      "value": 1
+    },
+    {
+      "offset": 68,
+      "name": "direct_8x8_inference_flag",
+      "bits": "1",
+      "value": 1
+    },
+    {
+      "offset": 69,
+      "name": "frame_cropping_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 70,
+      "name": "vui_parameters_present_flag",
+      "bits": "1",
+      "value": 1
+    },
+    {
+      "offset": 71,
+      "name": "aspect_ratio_info_present_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 72,
+      "name": "overscan_info_present_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 73,
+      "name": "video_signal_type_present_flag",
+      "bits": "1",
+      "value": 1
+    },
+    {
+      "offset": 74,
+      "name": "video_format",
+      "bits": "101",
+      "value": 5
+    },
+    {
+      "offset": 77,
+      "name": "video_full_range_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 78,
+      "name": "colour_description_present_flag",
+      "bits": "1",
+      "value": 1
+    },
+    {
+      "offset": 79,
+      "name": "colour_primaries",
+      "bits": "00000001",
+      "value": 1
+    },
+    {
+      "offset": 87,
+      "name": "transfer_characteristics",
+      "bits": "00000001",
+      "value": 1
+    },
+    {
+      "offset": 95,
+      "name": "matrix_coefficients",
+      "bits": "00000001",
+      "value": 1
+    },
+    {
+      "offset": 103,
+      "name": "chroma_loc_info_present_flag",
+      "bits": "1",
+      "value": 1
+    },
+    {
+      "offset": 104,
+      "name": "chroma_sample_loc_type_top_field",
+      "bits": "010",
+      "value": 1
+    },
+    {
+      "offset": 107,
+      "name": "chroma_sample_loc_type_bottom_field",
+      "bits": "010",
+      "value": 1
+    },
+    {
+      "offset": 110,
+      "name": "timing_info_present_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 111,
+      "name": "nal_hrd_parameters_present_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 112,
+      "name": "vcl_hrd_parameters_present_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 113,
+      "name": "pic_struct_present_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 114,
+      "name": "bitstream_restriction_flag",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 115,
+      "name": "rbsp_stop_one_bit",
+      "bits": "1",
+      "value": 1
+    },
+    {
+      "offset": 116,
+      "name": "rbsp_alignment_zero_bit",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 117,
+      "name": "rbsp_alignment_zero_bit",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 118,
+      "name": "rbsp_alignment_zero_bit",
+      "bits": "0",
+      "value": 0
+    },
+    {
+      "offset": 119,
+      "name": "rbsp_alignment_zero_bit",
+      "bits": "0",
+      "value": 0
+    }
+  ],
+  "allNonSPSNALPayloadsExactlyEqual": true,
+  "PPSVPSAndVCLExactlyEqual": true,
+  "codecConfigurationOutsideSPSExactlyEqual": true,
+  "sampleCountOrderCadenceAndTablesPreserved": true,
+  "atomicNoReplace": true,
+  "noRawFrameReadbackOrFullDecodeStageInAdapter": true,
+  "mandatoryExportStageSeconds": 0.1366167910164222,
+  "benchmarkTiming": false,
+  "adapterPreparationOnly": true,
+  "commands": [
+    {
+      "argv": [
+        "/opt/homebrew/bin/ffprobe",
+        "-v",
+        "error",
+        "-show_streams",
+        "-show_packets",
+        "-read_intervals",
+        "%+#30001",
+        "-of",
+        "json",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/original.mp4"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "trace",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/original.mp4",
+        "-map",
+        "0:v:0",
+        "-frames:v",
+        "1",
+        "-c:v",
+        "copy",
+        "-bsf:v",
+        "trace_headers",
+        "-f",
+        "null",
+        "-"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/opt/homebrew/bin/ffprobe",
+        "-v",
+        "error",
+        "-show_streams",
+        "-show_packets",
+        "-read_intervals",
+        "%+#30001",
+        "-of",
+        "json",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/.center.mp4.u8v8qb_p.candidate"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "trace",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/.center.mp4.u8v8qb_p.candidate",
+        "-map",
+        "0:v:0",
+        "-frames:v",
+        "1",
+        "-c:v",
+        "copy",
+        "-bsf:v",
+        "trace_headers",
+        "-f",
+        "null",
+        "-"
+      ],
+      "returncode": 0
+    }
+  ],
+  "packetPayloadsBefore": [
+    [
+      {
+        "type": 6,
+        "bytes": 58,
+        "sha256": "892862b344eb9ded2a101f7d87cc6eb1a9729980a680c9c832a3099022cfbd6c"
+      },
+      {
+        "type": 5,
+        "bytes": 9006,
+        "sha256": "4104f3f576d655e895c2533236e2f71050ab837cdd0d2124c96c348a4fe74c1c"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 98,
+        "sha256": "63fdb04e96bc8368e0936025911daad5a67573df18fcb3c315deb4a2d78a947c"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 98,
+        "sha256": "63a965ec323c2314d02efa75d6fc326070953fc007f4835571ab1ad6be92e405"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 98,
+        "sha256": "3882a9b7a49d388705fa4b7908fbd0a7f5c16faff83f949acc7d031ce1561857"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 107,
+        "sha256": "edb054acb59748d67ad88ab0acc909c18dc53880d073c4803b43a7df92c1d71d"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 88,
+        "sha256": "0d48e5f2bb2f1209afcb0da2c828840cd666f7c5491ea40667f260d96cdd5786"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 88,
+        "sha256": "56459912e842e86581db9529adc9a42660b69deca8ccb4c34f1a46d036e872c4"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 103,
+        "sha256": "10c7db3d5dc31a0441db345aaff865acf8e11af8f7816574454f48a725cbc84f"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 88,
+        "sha256": "fd41fa4f1e7fb8d838fe704f2da02bfe70e85482954f2845f1150056a2699828"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 97,
+        "sha256": "7665cfa85e7cbb2b3d357dbcea51fa2eaa3a9a943c427d24820ded86cf23e031"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 106,
+        "sha256": "5eeaeddda02d8a1c8b7dfbe3273871c736a1dc4da1b5f07b4b2a4b72b5de9504"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 85,
+        "sha256": "49b67796fd1512badb4a6310e4a26a91e814b628f09c900ad316021de9c9cd6a"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 82,
+        "sha256": "48b3f123bea5ad991358e4b3d09bf9bc6a2188bd028b400bc85c1b8c3096437f"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 80,
+        "sha256": "e2cc864cdea93209f088dae4b6d02d3dacad126bad42b590890e75915231d1d7"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 85,
+        "sha256": "e6b9d79cee92a0a0b984fa6c836dfdb1e959bf21cdc6beb92b4cb61f927f51b8"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 79,
+        "sha256": "3b1ba514b50c6fc0591dd2d7134a9ab18def9375a8635121dd3aa3ac4110224e"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 85,
+        "sha256": "ac5002629605624cce9559442308f4224b468e28dbda51367bfa20f9464c35d1"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 84,
+        "sha256": "6d48fcdd0fd73d8ce59e23b8a17e8c74c391a3ba854f23d98c9ce03036f744d9"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 88,
+        "sha256": "cf0b22fb379c10e3418633e561546b7930e8c11fe25093e9595a9aa3a5ec84cb"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 80,
+        "sha256": "4ad2d4352f5e31b746574b74306136b7c2bc3804a35cd8f0cd496f2b1b8c4bd3"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 82,
+        "sha256": "956ad80286bb3aaeb9d8b0f4901879b0d5131df793e1e743236a59829841c45e"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 87,
+        "sha256": "89d5e7155922195e5c07f6a3a1fb7b04b9dd35acb82f96e58ec4287bb247e014"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 85,
+        "sha256": "a74cdc7b72081d46c902b025d7e6325d14a7359bb584c444000810ccbb7a35dc"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 87,
+        "sha256": "ee0e4635404454995f3d053b1ea190d10c2366386e25e6f9ca2cb8e6efad796e"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 80,
+        "sha256": "02970dd7d4b2d9fae7339e891709851b6b48ec05a2221003b124c4b0eb0c5d80"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 86,
+        "sha256": "1f9016ea0b221226e3c73b815e67c4eadf99203c2a5177a2adccf365ecdcda80"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 86,
+        "sha256": "c631d9fd0721a4bdbaf941eeea33e0c664fbc28b8771ce7b3a1e5fdaaadf1052"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 88,
+        "sha256": "9c9f6723919d12d567744cf7b68d92b11a36610a2e397faf73a51a34dabb1d7d"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 85,
+        "sha256": "354b4b60b8a9a41fafee11efdfcb827357c8e4c9455bb0209a8e6335e12877c4"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 82,
+        "sha256": "b371bd4a96c7e86dd62d92cac252b88abb4d9a123f7de5935c4bf56868f1a82b"
+      }
+    ],
+    [
+      {
+        "type": 6,
+        "bytes": 26,
+        "sha256": "a3c83fc077d7bc477e5abb8cc59a0c6f8b5b478d829f63ac969056f88edbcdcb"
+      },
+      {
+        "type": 5,
+        "bytes": 4651,
+        "sha256": "aa29be083362baaaecf5687a5f9b18181dff14b9c8a29969e809a5e4fed13fa7"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 114,
+        "sha256": "8fcde905aee47168dd2e7bbb039e3e8cc78ea1b4fa0a660511218b028ed93843"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 104,
+        "sha256": "005c35fd6ecf1cb8abc335f152e048f18d56b833fcb47163b755e3b0a7293933"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 127,
+        "sha256": "764da17ecb4a47c072724174a943943d3c409deb5ee0909912b8e881adb53f99"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 124,
+        "sha256": "076d0a897a9d7cbe3b923f4fb79c34f0082743267d9549d137c5a16f54a78eb3"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 170,
+        "sha256": "baf315d4f16b3ad638d5f1b47fe5d5810b644562c318584b0960b9d88d8a5e8b"
+      }
+    ]
+  ],
+  "packetPayloadsAfter": [
+    [
+      {
+        "type": 6,
+        "bytes": 58,
+        "sha256": "892862b344eb9ded2a101f7d87cc6eb1a9729980a680c9c832a3099022cfbd6c"
+      },
+      {
+        "type": 5,
+        "bytes": 9006,
+        "sha256": "4104f3f576d655e895c2533236e2f71050ab837cdd0d2124c96c348a4fe74c1c"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 98,
+        "sha256": "63fdb04e96bc8368e0936025911daad5a67573df18fcb3c315deb4a2d78a947c"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 98,
+        "sha256": "63a965ec323c2314d02efa75d6fc326070953fc007f4835571ab1ad6be92e405"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 98,
+        "sha256": "3882a9b7a49d388705fa4b7908fbd0a7f5c16faff83f949acc7d031ce1561857"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 107,
+        "sha256": "edb054acb59748d67ad88ab0acc909c18dc53880d073c4803b43a7df92c1d71d"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 88,
+        "sha256": "0d48e5f2bb2f1209afcb0da2c828840cd666f7c5491ea40667f260d96cdd5786"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 88,
+        "sha256": "56459912e842e86581db9529adc9a42660b69deca8ccb4c34f1a46d036e872c4"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 103,
+        "sha256": "10c7db3d5dc31a0441db345aaff865acf8e11af8f7816574454f48a725cbc84f"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 88,
+        "sha256": "fd41fa4f1e7fb8d838fe704f2da02bfe70e85482954f2845f1150056a2699828"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 97,
+        "sha256": "7665cfa85e7cbb2b3d357dbcea51fa2eaa3a9a943c427d24820ded86cf23e031"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 106,
+        "sha256": "5eeaeddda02d8a1c8b7dfbe3273871c736a1dc4da1b5f07b4b2a4b72b5de9504"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 85,
+        "sha256": "49b67796fd1512badb4a6310e4a26a91e814b628f09c900ad316021de9c9cd6a"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 82,
+        "sha256": "48b3f123bea5ad991358e4b3d09bf9bc6a2188bd028b400bc85c1b8c3096437f"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 80,
+        "sha256": "e2cc864cdea93209f088dae4b6d02d3dacad126bad42b590890e75915231d1d7"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 85,
+        "sha256": "e6b9d79cee92a0a0b984fa6c836dfdb1e959bf21cdc6beb92b4cb61f927f51b8"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 79,
+        "sha256": "3b1ba514b50c6fc0591dd2d7134a9ab18def9375a8635121dd3aa3ac4110224e"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 85,
+        "sha256": "ac5002629605624cce9559442308f4224b468e28dbda51367bfa20f9464c35d1"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 84,
+        "sha256": "6d48fcdd0fd73d8ce59e23b8a17e8c74c391a3ba854f23d98c9ce03036f744d9"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 88,
+        "sha256": "cf0b22fb379c10e3418633e561546b7930e8c11fe25093e9595a9aa3a5ec84cb"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 80,
+        "sha256": "4ad2d4352f5e31b746574b74306136b7c2bc3804a35cd8f0cd496f2b1b8c4bd3"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 82,
+        "sha256": "956ad80286bb3aaeb9d8b0f4901879b0d5131df793e1e743236a59829841c45e"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 87,
+        "sha256": "89d5e7155922195e5c07f6a3a1fb7b04b9dd35acb82f96e58ec4287bb247e014"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 85,
+        "sha256": "a74cdc7b72081d46c902b025d7e6325d14a7359bb584c444000810ccbb7a35dc"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 87,
+        "sha256": "ee0e4635404454995f3d053b1ea190d10c2366386e25e6f9ca2cb8e6efad796e"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 80,
+        "sha256": "02970dd7d4b2d9fae7339e891709851b6b48ec05a2221003b124c4b0eb0c5d80"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 86,
+        "sha256": "1f9016ea0b221226e3c73b815e67c4eadf99203c2a5177a2adccf365ecdcda80"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 86,
+        "sha256": "c631d9fd0721a4bdbaf941eeea33e0c664fbc28b8771ce7b3a1e5fdaaadf1052"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 88,
+        "sha256": "9c9f6723919d12d567744cf7b68d92b11a36610a2e397faf73a51a34dabb1d7d"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 85,
+        "sha256": "354b4b60b8a9a41fafee11efdfcb827357c8e4c9455bb0209a8e6335e12877c4"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 82,
+        "sha256": "b371bd4a96c7e86dd62d92cac252b88abb4d9a123f7de5935c4bf56868f1a82b"
+      }
+    ],
+    [
+      {
+        "type": 6,
+        "bytes": 26,
+        "sha256": "a3c83fc077d7bc477e5abb8cc59a0c6f8b5b478d829f63ac969056f88edbcdcb"
+      },
+      {
+        "type": 5,
+        "bytes": 4651,
+        "sha256": "aa29be083362baaaecf5687a5f9b18181dff14b9c8a29969e809a5e4fed13fa7"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 114,
+        "sha256": "8fcde905aee47168dd2e7bbb039e3e8cc78ea1b4fa0a660511218b028ed93843"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 104,
+        "sha256": "005c35fd6ecf1cb8abc335f152e048f18d56b833fcb47163b755e3b0a7293933"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 127,
+        "sha256": "764da17ecb4a47c072724174a943943d3c409deb5ee0909912b8e881adb53f99"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 124,
+        "sha256": "076d0a897a9d7cbe3b923f4fb79c34f0082743267d9549d137c5a16f54a78eb3"
+      }
+    ],
+    [
+      {
+        "type": 1,
+        "bytes": 170,
+        "sha256": "baf315d4f16b3ad638d5f1b47fe5d5810b644562c318584b0960b9d88d8a5e8b"
+      }
+    ]
+  ],
+  "adapterSha256": "f7dd783e32203fc6ac3be6b105b299eefdcbf7b762441496b5b7b08a4a969681"
+}

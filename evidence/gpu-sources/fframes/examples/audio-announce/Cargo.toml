@@ -1,0 +1,31 @@
+[package]
+name = "audio-announce-example"
+version = "1.0.1"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.3.4", features = ["derive"] }
+fframes = { workspace = true, features = ["h264", "libav-agree-gpl"] }
+
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+fframes_skia_renderer = { workspace = true, features = ["vulkan"] }
+# `preview`: real-time GPU window
+fframes_native_player.workspace = true
+
+[target.'cfg(target_os = "macos")'.dependencies]
+fframes_native_player = { workspace = true, features = ["metal"] }
+
+[features]
+default = ["renderer"]
+renderer = ["fframes/compile-time-svgtree", "fframes/cli"]
+videotoolbox = ["fframes/videotoolbox"]
+
+[lib]
+name = "audio_announce_example"
+path = "src/lib.rs"
+doctest = false
+
+[[bin]]
+name = "audio_announce_example_bin"
+path = "src/main.rs"
+required-features = ["renderer"]

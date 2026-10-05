@@ -1,0 +1,10 @@
+{
+  "test": "software-fallback",
+  "passed": true,
+  "expectedRefusal": "DRIVER_EXIT",
+  "observedError": "Refusal:DRIVER_EXIT",
+  "secondsExcludedFromBenchmark": 0.19668295799056068,
+  "GPUExecuted": false,
+  "sourceUnchanged": true,
+  "publishedFixtureBinding": false
+}

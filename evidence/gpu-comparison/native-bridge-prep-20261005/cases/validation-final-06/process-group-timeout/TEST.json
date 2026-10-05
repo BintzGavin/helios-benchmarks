@@ -1,0 +1,10 @@
+{
+  "test": "process-group-timeout",
+  "passed": true,
+  "expectedRefusal": "TIMEOUT",
+  "observedError": "Refusal:TIMEOUT",
+  "secondsExcludedFromBenchmark": 2.054822249978315,
+  "GPUExecuted": false,
+  "sourceUnchanged": true,
+  "publishedFixtureBinding": false
+}

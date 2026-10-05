@@ -1,0 +1,28 @@
+[package]
+name = "fframes-editor-controller"
+description = "Helper wasm module that provies fframes bindings for the web WASM editor"
+license = "MIT"
+version = "1.0.1"
+authors = ["Dmitriy Kovalenko <dmtr.kovalenko@outlook.com>"]
+edition = "2024"
+homepage = "https://fframes.studio"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+lazy_static = "1.4.0"
+console_error_panic_hook = "0.1.7"
+wasm-bindgen-futures = "0.4.42"
+wasm-bindgen = { workspace = true, features = ["serde-serialize"] }
+js-sys = "0.3.77"
+futures = "0.3.31"
+serde-wasm-bindgen = "0.6.5"
+fframes = { workspace = true }
+getrandom = { version = "0.2.15", features = ["js"] }
+
+
+[lints.rust]
+unexpected_cfgs = { level = "warn", check-cfg = [
+    'cfg(wasm_bindgen_unstable_test_coverage)',
+] }

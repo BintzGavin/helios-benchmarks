@@ -1,0 +1,17 @@
+--- baseline/dist/render.js
++++ candidate/dist/render.js
+@@ -1,4 +1,5 @@
+ import { Resvg } from '@resvg/resvg-js';
++import { availableParallelism } from 'node:os';
+ import { once } from 'node:events';
+ import { readFile, rm, open, stat } from 'node:fs/promises';
+ import { createReadStream } from 'node:fs';
+@@ -322,7 +323,7 @@
+     return probeVideoCount(path, options, true);
+ }
+ async function probeVideoCount(path, options, packets) {
+-    const output = await runProcess(options.ffprobe ?? 'ffprobe', ['-v', 'error', '-threads', '1', packets ? '-count_packets' : '-count_frames', '-show_streams', '-show_format', '-of', 'json', path], { signal: options.signal, timeoutMs: 300000 });
++    const output = await runProcess(options.ffprobe ?? 'ffprobe', ['-v', 'error', '-threads', packets ? '1' : String(Math.min(8, availableParallelism())), packets ? '-count_packets' : '-count_frames', '-show_streams', '-show_format', '-of', 'json', path], { signal: options.signal, timeoutMs: 300000 });
+     const info = JSON.parse(output.toString());
+     const video = info.streams?.find((s) => s.codec_type === 'video');
+     if (!video)

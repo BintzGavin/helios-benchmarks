@@ -1,0 +1,77 @@
+{
+  "helper": "/Users/gavinbintz/.codex/worktrees/gpu-bitrate-budget/helios/packages/portable/native/target/release/helios-gpu",
+  "helperSha256": "58a6dfd54294015cdf444ab1a27c98f0782221b91d3dfe92cce3520e156bd0b8",
+  "protocol": 4,
+  "gop": 30,
+  "frames": 3,
+  "width": 128,
+  "height": 128,
+  "bitrate": 500000000,
+  "encoderPool": 3,
+  "hardware": {
+    "bitrate": 500000000,
+    "configuredBitrate": 500000000,
+    "encoder": "videotoolbox",
+    "encoderPool": 3,
+    "explicitRawReadbackBytes": 0,
+    "frames": 3,
+    "gop": 30,
+    "protocol": 4,
+    "rasterizer": "skia-metal",
+    "zeroCopyProved": false
+  },
+  "hardwareHooks": {
+    "profiler-hooks-installed": 1,
+    "IOSurfaceGetBaseAddress": 3,
+    "MTLBufferContentsAccessIntentUnknown": 6,
+    "MTLBlitBufferToTexture": 3,
+    "IOSurfaceGetBaseAddressOfPlane": 36
+  },
+  "positiveNV12": {
+    "profiler-hooks-installed": 1,
+    "IOSurfaceGetBaseAddress": 1,
+    "MTLBufferContentsAccessIntentUnknown": 6,
+    "MTLBlitBufferToTexture": 3,
+    "IOSurfaceGetBaseAddressOfPlane": 21,
+    "CVPixelBufferLockBaseAddress": 3,
+    "IOSurfaceLock": 3,
+    "CVPixelBufferGetBaseAddressOfPlane": 6
+  },
+  "positiveRGBA": {
+    "profiler-hooks-installed": 1,
+    "MTLBufferContentsAccessIntentUnknown": 9,
+    "MTLBlitBufferToTexture": 3,
+    "MTLBlitTextureToBuffer": 3
+  },
+  "conversion": [
+    {
+      "event": "conversion-complete",
+      "frame": 0,
+      "surfaceId": 218,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 122923.46259525,
+      "gpuEndSeconds": 122923.462610917
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 1,
+      "surfaceId": 307,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 122923.482317875,
+      "gpuEndSeconds": 122923.482332625
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 2,
+      "surfaceId": 311,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 122923.483113792,
+      "gpuEndSeconds": 122923.483129125
+    }
+  ],
+  "actualMetalCapture": true,
+  "captureExcludedFromTimingAndDownloadProof": true,
+  "timingClaim": false,
+  "full4KQualification": false,
+  "zeroCopyProved": false
+}

@@ -1,0 +1,31 @@
+{
+  "scope": "exact task-owned inactive Rust FFmpeg compiler cache archives only",
+  "retainedNewestArchive": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/deps/libffmpeg_sys_fframes-bc952a37d1be5c66.rlib",
+  "frozenHelpersRehashed": true,
+  "prebuiltFFmpegLibrariesSourceCachesEvidenceUnchanged": true,
+  "files": [
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/deps/libffmpeg_sys_fframes-809da1f6171e46cd.rlib",
+      "bytes": 155319848,
+      "sha256": "600bb28a1d5c2703c2f6d1b920180ff4bc3c5487070df4aa38fec7578db612f7",
+      "kind": "Rust compiler rlib cache, statically incorporated into retained executables",
+      "removed": true
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/deps/libffmpeg_sys_fframes-6d9fa0d4895a9223.rlib",
+      "bytes": 157762856,
+      "sha256": "ce91399fbb3609d8938e53a43531d09a0bb601120b981c06f752f9316766ebca",
+      "kind": "Rust compiler rlib cache, statically incorporated into retained executables",
+      "removed": true
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/deps/libffmpeg_sys_fframes-5921db60498273a8.rlib",
+      "bytes": 157762856,
+      "sha256": "404f86b4a9e309d4d0b1e008cb1ebc0571ce9abc1d68f15c37a4813d947b07fc",
+      "kind": "Rust compiler rlib cache, statically incorporated into retained executables",
+      "removed": true
+    }
+  ],
+  "freeBytesAfter": 779821056,
+  "removedBytes": 470845560
+}

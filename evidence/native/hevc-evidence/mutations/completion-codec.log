@@ -1,0 +1,32 @@
+
+ RUN  v4.1.8 /Users/gavinbintz/.codex/worktrees/gpu-hevc/helios
+
+ ❯ packages/portable/tests/gpu-hevc.test.ts (6 tests | 1 failed | 4 skipped) 924ms
+   × refuses stale, wrong-codec and software completion receipts without publishing output 405ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  packages/portable/tests/gpu-hevc.test.ts > refuses stale, wrong-codec and software completion receipts without publishing output
+AssertionError: expected RenderError: Required media executable co… { …(2) } to match object { code: 'INVALID_OUTPUT' }
+(2 matching properties omitted from actual)
+
+- Expected
++ Received
+
+- {
+-   "code": "INVALID_OUTPUT",
++ RenderError {
++   "code": "PROCESS_START",
+  }
+
+ ❯ packages/portable/tests/gpu-hevc.test.ts:51:94
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 1 passed | 4 skipped (6)
+   Start at  13:53:41
+   Duration  1.18s (transform 76ms, setup 0ms, import 166ms, tests 924ms, environment 0ms)
+

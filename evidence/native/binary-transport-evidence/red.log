@@ -1,0 +1,39 @@
+
+ RUN  v4.1.8 /Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios
+
+ ❯ packages/portable/tests/gpu-transport.test.ts (4 tests | 2 failed | 2 skipped) 3ms
+   × admits the public 100k-circle scene without command objects or JSON expansion 2ms
+   × retains command, stack, geometry and text budgets before native submission 0ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  packages/portable/tests/gpu-transport.test.ts > admits the public 100k-circle scene without command objects or JSON expansion
+TypeError: recordGpuCanvasBinary is not a function
+ ❯ packages/portable/tests/gpu-transport.test.ts:13:23
+     11|
+     12| it('admits the public 100k-circle scene without command objects or JSO…
+     13|   const frame = await recordGpuCanvasBinary({ ...scene, draw(ctx) {
+       |                       ^
+     14|     ctx.fillStyle = '#010203';
+     15|     for (let i = 0; i < 100000; i++) { ctx.beginPath(); ctx.arc(i % 10…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+ FAIL  packages/portable/tests/gpu-transport.test.ts > retains command, stack, geometry and text budgets before native submission
+TypeError: recordGpuCanvasBinary is not a function
+ ❯ packages/portable/tests/gpu-transport.test.ts:30:19
+     28|     (ctx: any) => { ctx.font = '12px pinned'; ctx.fillText('x'.repeat(…
+     29|     (ctx: any) => { ctx.font = '12px pinned'; ctx.fillText('\ud800', 0…
+     30|   ]) await expect(recordGpuCanvasBinary({ ...scene, fonts: { pinned: n…
+       |                   ^
+     31|   expect((await recordGpuCanvasBinary({ ...scene, draw(ctx) { for (let…
+     32| });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  2 failed | 2 skipped (4)
+   Start at  19:48:14
+   Duration  322ms (transform 79ms, setup 0ms, import 213ms, tests 3ms, environment 0ms)
+

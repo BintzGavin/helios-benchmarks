@@ -1,0 +1,171 @@
+{
+  "createdUnix": 1791151532.731355,
+  "status": "new owner follow-up independently bound; centered sampling/default-left signaling discrepancy confirmed",
+  "verifiedReadSet": [
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/GPU-COMPARISON-FOLLOWUP-20261004.json",
+      "bytes": 3227,
+      "sha256": "7ba3cf2d8e219c0823d25d35d0acf4204998bebffba25efe8bf7c090d9e5e6ee"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-chroma-contract-20261004/REPORT.json",
+      "bytes": 8269,
+      "sha256": "61f652ef447b6f9e3bc4bf5b2d43501fc62ef96f1862453beba74ff3d3b958c7"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/RECEIPT-MANIFEST.json",
+      "bytes": 1879082,
+      "sha256": "bce814ca8b37547781642d123d6ba4da114862f123af3b3572cf4a64bd46fe17"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/COMPARISON-MONITOR-FFRAMES-CONCURRENT-NV12-FINAL.json",
+      "bytes": 4745,
+      "sha256": "b9fc27c70357a42e9805c9980344b1dbd4a4b6bb4a50e7a46f9d9b307178c28a"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/CONCURRENT-NV12-DISPOSABLE-CACHE-RECLAMATION-20261004.json",
+      "bytes": 337035,
+      "sha256": "1eb384781fe2b079edca34af66f61ef03ba8051f568a5bee953dc461dda089d4"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/LIBRARY-GPU-DELIVERY-STATUS-20261004.json",
+      "bytes": 1662,
+      "sha256": "fe58d8c3424095de1689390f1408dd02e6c2147860120bcd048be49cdf7736a8"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-screen-h-300/quality.json",
+      "bytes": 190167,
+      "sha256": "338695080313a176f1d4570b0ef59987bb37bc4467c890638b8a81c398503477"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-screen-h-300/adapter.json",
+      "bytes": 2346,
+      "sha256": "9466a66ae7d8785daa2101e81a9bf6dfe1e0cc627a5072c01c3a9a39d4832c7a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/native/target/release/helios-gpu",
+      "bytes": 17914208,
+      "sha256": "1383da791a588731101f6dd22bea8e911d4bc97243b7f01541214981afc90ecc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/native/metal.mm",
+      "bytes": 20102,
+      "sha256": "d4ffc5b30b9dd208ee438b1519fb76dee23e33c42ff619b3875eec29afb49ee9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native/metal.mm",
+      "bytes": 20830,
+      "sha256": "3d3a8d645fe82b842629cd3625c09c827a1779eec58dc1187bc515f8c13d2fee"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/library-current-gpu-4ehqzgpq/library_upload.py",
+      "bytes": 44876,
+      "sha256": "5bc473dadefe1f68ee8797baaed19d6662642d0ea4bcba128fa12938faa0d767"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/library-current-gpu-4ehqzgpq/library_hosted_apps.py",
+      "bytes": 12576,
+      "sha256": "97d029b097ace62b744c82dfde20ef6921ed543a33a771ecf6452bd655d11b59"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/library-current-gpu-4ehqzgpq/library_file_transfer.py",
+      "bytes": 11084,
+      "sha256": "5e1557817be17db06e2375f8c34ed83e948d520242e5ee4cb50a30c7a4c83378"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/LIBRARY-GPU-DELIVERY-REQUEST-20261004.json",
+      "bytes": 2704,
+      "sha256": "4b22413817dacc82aa687cddf87ebf8daf9eea03d297fc4b6602ecb621923295"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/LIBRARY-GPU-DELIVERY-STDERR-20261004.log",
+      "bytes": 64,
+      "sha256": "87373a0caa040126db3b83aa18c848d0589b9af64fc2174f1dbbd3f9a4ae840e"
+    }
+  ],
+  "largePreviouslyBoundFilesNotRehashedThisPass": [
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-screen-h-300/video.mp4",
+      "bytes": 376641173,
+      "sha256": "e5be3c42d3005d53172813c78c4e3ea10f0da3536598bce58c0604d3d7b5cfb7"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-reference-h/reference.mkv",
+      "bytes": 515450662,
+      "sha256": "20d90cd5638387f4a5a7bf60028c9af380d1b8f7085612aa4c511177465727b3"
+    }
+  ],
+  "cleanup": {
+    "removedCount": 854,
+    "exactParent": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/deps",
+    "suffixes": [
+      ".rlib",
+      ".rmeta"
+    ],
+    "allRemovedPathsAbsent": true,
+    "nominalBytes": 846792852,
+    "observedFreeGain": 848916480,
+    "protectedRuntime": [
+      {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/circles-concurrent-nv12",
+        "bytes": 38000704,
+        "sha256": "665ce943531be9a35d61aa7629e12646e280d0568c1ca6a576816f15963210a8"
+      },
+      {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/frozen-circles-concurrent-nv12",
+        "bytes": 38000704,
+        "sha256": "665ce943531be9a35d61aa7629e12646e280d0568c1ca6a576816f15963210a8"
+      },
+      {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/nv12-color-controls",
+        "bytes": 36228336,
+        "sha256": "ea36969d384cfb1de3fe5b02da832cab97003301ab3a7818133c82b942f363f3"
+      },
+      {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/frozen-nv12-color-controls",
+        "bytes": 36228336,
+        "sha256": "ea36969d384cfb1de3fe5b02da832cab97003301ab3a7818133c82b942f363f3"
+      },
+      {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/nv12-converter.dylib",
+        "bytes": 76472,
+        "sha256": "11522ab92e119b84f9af86b9abf5864263c774a21ac7505b82a6556b6e9e132d"
+      },
+      {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/frozen-nv12-converter.dylib",
+        "bytes": 76472,
+        "sha256": "11522ab92e119b84f9af86b9abf5864263c774a21ac7505b82a6556b6e9e132d"
+      },
+      {
+        "path": "/opt/homebrew/opt/x264/lib/libx264.165.dylib",
+        "bytes": 1274288,
+        "sha256": "dd765b37f50d44d3ce9593c2c1c2424b48bedac01c7999e93cef87e018bc65b4"
+      }
+    ]
+  },
+  "color": {
+    "physical": "equal 2x2 centered chroma",
+    "SPSChromaLocationPresent": false,
+    "savedCandidateChromaLocation": "left",
+    "referenceChromaLocation": null,
+    "oldNumericQualityInvalidated": false,
+    "nextScope": {
+      "scope": "separate owner harness signaling/reference correction, no native helper rebuild/optimization",
+      "predeterminedControls": "use centered2x2 independent RGB controls and the unchanged sRGB->BT709 limited formula; no fitting to encoded pixels/floors",
+      "candidateCorrection": "new SPS-only conformed H264 outputs in fresh lane with full syntax/allremainingRBSP/PPS/everyVCL/allDecoded invariance; correct lossless reference siting tags with per-frame rawNV12 binding and decoded-byte equality",
+      "HEVCDistinct": "codec-specific SPS/VUI semantic and raw payload/decoded invariance validation required; H264 filter result not extrapolated",
+      "requiredFreshQualification": "all3004K reference binding and same quality/cadence/color/GOP gates; source/helper/adapter/reference pins; frozen old lane preserved",
+      "timedCost": "include mandatory signaling/template/copy mux in new export/delivery clocks; exclude independent decode and reference diagnostics",
+      "nativeConcurrency": "pool3 retained; comparison discloses F64/context and3contexts/5+5workers/queue10",
+      "resourceGate": "enoughspace before new output/reference/quality runs; no timingwindow now"
+    }
+  },
+  "library": {
+    "status": "blocked before Library preparation; no files published",
+    "newConfirmedIds": [],
+    "directFallbackAttempted": false
+  },
+  "comparisonOwnerRetainsHarnessAndConformance": true,
+  "newBuildExportDecodeTiming": false,
+  "broadObjectiveComplete": false
+}

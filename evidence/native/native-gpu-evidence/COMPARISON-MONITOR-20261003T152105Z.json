@@ -1,0 +1,19 @@
+{
+  "automation_id": "finish-native-gpu-rendering-and-comparison",
+  "scheduled_at": "2026-10-03T15:21:05.364Z",
+  "comparison_owner": "01a0ff86-ddbd-7703-92b8-781e18082039",
+  "owner_title": "Compare Helios GPU performance",
+  "owner_status": "active",
+  "owner_cursor": "d0c051ad-a3b2-4641-b3cb-7583ae2a6e2e:4",
+  "observed_saved_qualification": {
+    "fframes_software": {"path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/screen-f-software/quality.json", "passed": true, "candidate_frames": 300, "reference_frames": 300},
+    "fframes_hardware_100Mbps": {"path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/screen-f-hardware/quality.json", "passed": false, "excluded": true},
+    "fframes_hardware_180Mbps": {"path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/screen-f-hardware-180/quality.json", "passed": true, "candidate_frames": 300, "reference_frames": 300, "direct_surface_reference_binding": "not yet independently verified by this monitor"},
+    "remotion_software": {"path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/screen-r-software/quality-02.json", "passed": true, "candidate_frames": 300, "reference_frames": 300, "original_reference": "retained and invalidated due to black frame138"}
+  },
+  "owner_followup": "Owner reports full comparison entering sequential timed window; builds, exports and quality decodes deferred here until owner reports window closed. Owner confirms required HardwareFrames180Mbps continuity adapter passes unchanged floors.",
+  "native_helper_changed": false,
+  "timed_attempts_or_builds_started_here": false,
+  "comparison_complete": false,
+  "automation_remains_active": true
+}

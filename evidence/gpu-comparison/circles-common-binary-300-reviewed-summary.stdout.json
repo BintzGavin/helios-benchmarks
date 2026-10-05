@@ -1,0 +1,71 @@
+{
+  "status": "qualified",
+  "scene": {
+    "width": 3840,
+    "height": 2160,
+    "frames": 300,
+    "fps": 30,
+    "name": "Circles99kText1k",
+    "source_start": 3
+  },
+  "lane": "hardware-common-converter-adapter",
+  "limitations": [
+    "Documented public-scene replication, not exact unrecoverable uncommitted source of the M5Max claim",
+    "Whole export pipeline, not isolated GPU throughput",
+    "F uses optimizedSVG and serial Skia0.153.3 hardware surfaces plus one disclosed additionalGPUcopy into common converter; original product MaxPerformance pipeline is separate",
+    "H uses TS Canvas binary transport and Skia0.91",
+    "Own lossless references permit renderer antialias/text differences; F independent raster variance remains recorded",
+    "No total zero-copy claim; hidden transfers unknown",
+    "Matched300Mbps is lowest tested passing shared setting, not proof of global optimal bitrate; settings differ from separate8Mbps/M5Max single-run claim"
+  ],
+  "zeroCopyProved": false,
+  "warmupsExcluded": true,
+  "engines": {
+    "H": {
+      "exportSeconds": [
+        20.118268542,
+        21.114672917,
+        21.152662708,
+        22.077710834
+      ],
+      "deliveredSeconds": [
+        24.42104525,
+        25.519998209,
+        25.547806166,
+        26.69930025
+      ],
+      "medianExportSeconds": 21.1336678125,
+      "medianDeliveredSeconds": 25.5339021875,
+      "allPass": true,
+      "worstSsimY": 0.996243,
+      "worstPsnr": {
+        "Y": 41.14,
+        "U": 41.11,
+        "V": 41.01
+      }
+    },
+    "F": {
+      "exportSeconds": [
+        80.64284175,
+        81.487102,
+        81.955828666,
+        82.770407208
+      ],
+      "deliveredSeconds": [
+        84.947410708,
+        85.789147875,
+        86.57360425,
+        87.133435208
+      ],
+      "medianExportSeconds": 81.721465333,
+      "medianDeliveredSeconds": 86.1813760625,
+      "allPass": true,
+      "worstSsimY": 0.995262,
+      "worstPsnr": {
+        "Y": 40.27,
+        "U": 40.63,
+        "V": 40.52
+      }
+    }
+  }
+}

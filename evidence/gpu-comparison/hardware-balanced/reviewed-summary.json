@@ -1,0 +1,64 @@
+{
+  "status": "qualified",
+  "scene": {
+    "width": 1920,
+    "height": 1080,
+    "frames": 300,
+    "fps": 30,
+    "name": "TextGrid"
+  },
+  "lane": "hardware-product-pipeline",
+  "limitations": [
+    "Product pipeline comparison: H100Mbps BT709 limited GPU conversion; F180Mbps BT601 attachments with opaque encoder conversion. Same own-reference floors, different color transforms and encoder bitrates. Not isolated GPU throughput."
+  ],
+  "zeroCopyProved": false,
+  "warmupsExcluded": true,
+  "engines": {
+    "H": {
+      "exportSeconds": [
+        6.466908167,
+        6.272888708,
+        5.962092625,
+        6.316005958
+      ],
+      "deliveredSeconds": [
+        8.071935167,
+        7.901390416,
+        7.591339458,
+        7.956618667
+      ],
+      "medianExportSeconds": 6.294447333,
+      "medianDeliveredSeconds": 7.9290045414999994,
+      "allPass": true,
+      "worstSsimY": 0.995232,
+      "worstPsnr": {
+        "Y": 42.48,
+        "U": 42.19,
+        "V": 42.06
+      }
+    },
+    "F": {
+      "exportSeconds": [
+        5.528985834,
+        5.566172792,
+        5.880581875,
+        5.885493834
+      ],
+      "deliveredSeconds": [
+        7.726800625,
+        7.634758917,
+        8.057675875,
+        8.066497167
+      ],
+      "medianExportSeconds": 5.7233773335,
+      "medianDeliveredSeconds": 7.89223825,
+      "allPass": true,
+      "worstSsimY": 0.997387,
+      "worstPsnr": {
+        "Y": 47.54,
+        "U": 35.44,
+        "V": 35.21
+      }
+    }
+  }
+}

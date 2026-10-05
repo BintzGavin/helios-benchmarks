@@ -1,0 +1,42 @@
+{
+  "engine": "fframes",
+  "sourcePin": "f89cbd572524b70a709ba3569fa23b0bbc8a0d9c",
+  "physicalDevice": "Apple M3 Pro",
+  "softwareActivePath": "SkiaMetalCtx::new_with_device -> GPU frame_renderer -> Previewer::render -> CPU RGBA readback",
+  "hardwareActivePath": "SkiaEncoderFrameRenderer HardwareFrames checked in every actual worker; required h264_videotoolbox allow_sw=0",
+  "profile": "fframes-profile.jsonl",
+  "zeroCopyProved": false,
+  "timedPerFrameExternalProof": false,
+  "softwareExcludedProfile": {
+    "frames": 3,
+    "events": {
+      "profiler-hooks-installed": 1,
+      "MTLBufferContentsAccessIntentUnknown": 7,
+      "MTLBlitTextureToBuffer": 3
+    },
+    "rawFrameBytes": 24883200,
+    "profilingScope": "interposed observed calls, not total copy accounting"
+  },
+  "excludedProfiles": [
+    {
+      "mode": "software",
+      "events": {
+        "profiler-hooks-installed": 1,
+        "MTLBufferContentsAccessIntentUnknown": 7,
+        "MTLBlitTextureToBuffer": 3
+      },
+      "frames": 3
+    },
+    {
+      "mode": "hardware",
+      "events": {
+        "profiler-hooks-installed": 1,
+        "IOSurfaceGetBaseAddress": 16,
+        "IOSurfaceGetBaseAddressOfPlane": 111,
+        "MTLBufferContentsAccessIntentUnknown": 6
+      },
+      "frames": 3
+    }
+  ],
+  "profileSha256": "13649377b5586e342c755268854abf5f6be89c8baec483084bd6f0efef96a602"
+}

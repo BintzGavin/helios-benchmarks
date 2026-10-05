@@ -1,0 +1,18 @@
+{
+  "checkedAtUTC": "2026-10-05T08:04:19.814707+00:00",
+  "ownerReportedFreeBytes": 8838561792,
+  "actualFreeBytes": 8835948544,
+  "actualFreeGiB": 8.229118347167969,
+  "activeSerialGateBytes": 9663676416,
+  "activeBalancedGateBytes": 16106127360,
+  "serialGateSatisfied": false,
+  "balancedGateSatisfied": false,
+  "serialShortfallBytes": 827727872,
+  "streaming6GiBGateEnabled": false,
+  "GPUJobsStarted": false,
+  "timingWindowOpen": false,
+  "deletionsPerformed": false,
+  "causeInspectedOrAttributed": false,
+  "frozenContractsChanged": false,
+  "instruction": "Resume pinned live acceptance only after actual resource gate is satisfied; no speculative work or gate reduction."
+}

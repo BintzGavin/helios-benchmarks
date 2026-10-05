@@ -1,0 +1,407 @@
+    Checking cfg-if v1.0.0
+    Checking libc v0.2.189
+    Checking num-traits v0.2.19
+    Checking memchr v2.7.4
+    Checking simd-adler32 v0.3.7
+    Checking arrayvec v0.7.6
+    Checking log v0.4.27
+    Checking crossbeam-utils v0.8.21
+    Checking bytemuck v1.22.0
+    Checking smallvec v1.15.1
+    Checking adler2 v2.0.0
+    Checking crc32fast v1.4.2
+    Checking minimal-lexical v0.2.1
+    Checking miniz_oxide v0.8.8
+    Checking once_cell v1.21.3
+    Checking bitflags v2.13.2
+    Checking either v1.15.0
+    Checking unicode-ident v1.0.18
+    Checking float-cmp v0.9.0
+    Checking aligned-vec v0.5.0
+    Checking weezl v0.1.8
+    Checking proc-macro2 v1.0.95
+    Checking anyhow v1.0.98
+    Checking strict-num v0.1.1
+    Checking fdeflate v0.3.7
+    Checking crossbeam-epoch v0.9.18
+    Checking bitflags v1.3.2
+    Checking allocator-api2 v0.2.21
+    Checking nom v7.1.3
+    Checking foldhash v0.1.5
+    Checking tinyvec_macros v0.1.1
+    Checking ttf-parser v0.20.0
+    Checking arrayref v0.3.9
+    Checking equivalent v1.0.2
+    Checking color_quant v1.1.0
+    Checking flate2 v1.1.1
+    Checking tiny-skia-path v0.11.4
+    Checking getrandom v0.2.15
+    Checking num-integer v0.1.46
+    Checking crossbeam-deque v0.8.6
+    Checking v_frame v0.3.8
+    Checking memmap2 v0.9.5
+    Checking hashbrown v0.15.2
+    Checking tinyvec v1.9.0
+    Checking quote v1.0.40
+    Checking rayon-core v1.12.1
+    Checking thiserror v1.0.69
+    Checking profiling v1.0.16
+    Checking num-bigint v0.4.6
+    Checking slotmap v1.0.7
+    Checking itertools v0.12.1
+    Checking rgb v0.8.50
+    Checking png v0.17.16
+    Checking kurbo v0.8.3
+    Checking rayon v1.10.0
+    Checking unicode-script v0.5.7
+    Checking bitstream-io v2.6.0
+    Checking imgref v1.11.0
+    Checking siphasher v0.3.11
+    Checking unicode-ccc v0.1.2
+    Checking futures-core v0.3.31
+    Checking futures-sink v0.3.31
+    Checking jpeg-decoder v0.3.1
+    Checking unicode-bidi-mirroring v0.1.0
+    Checking quick-error v2.0.1
+    Checking new_debug_unreachable v1.0.6
+    Checking zerocopy v0.7.35
+    Checking unicode-properties v0.1.3
+    Checking futures-channel v0.3.31
+    Checking svgrtypes v0.46.0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgrtypes)
+    Checking loop9 v0.1.5
+    Checking lru v0.14.0
+    Checking slab v0.4.9
+    Checking kurbo v0.11.1
+    Checking ahash v0.8.11
+    Checking avif-serialize v0.8.3
+    Checking simplecss v0.2.2
+    Checking zune-inflate v0.2.54
+    Checking num-rational v0.4.2
+    Checking half v2.6.0
+    Checking unicode-vo v0.1.0
+    Checking bytecount v0.6.8
+    Checking pin-project-lite v0.2.16
+    Checking zune-core v0.4.12
+    Checking scopeguard v1.2.0
+    Checking base64 v0.21.7
+    Checking lebe v0.5.2
+    Checking xmlwriter v0.1.0
+    Checking siphasher v1.0.1
+    Checking unicode-bidi v0.3.18
+    Checking bit_field v0.10.2
+    Checking pico-args v0.5.0
+    Checking av1-grain v0.2.3
+    Checking data-url v0.3.1
+    Checking roxmltree v0.20.0
+    Checking fontdb v0.16.2
+    Checking rustybuzz v0.12.1
+    Checking byteorder-lite v0.1.0
+    Checking futures-task v0.3.31
+    Checking futures-io v0.3.31
+    Checking pin-utils v0.1.0
+    Checking typewit v1.11.0
+    Checking exr v1.73.0
+    Checking futures-util v0.3.31
+    Checking zune-jpeg v0.4.14
+    Checking lock_api v0.4.12
+    Checking nom_locate v4.2.0
+    Checking image-webp v0.2.1
+    Checking tiff v0.9.1
+    Checking parking_lot_core v0.9.10
+   Compiling webvtt-parser v1.1.0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-same-stream-capture/webvtt-parser)
+    Checking serde_core v1.0.228
+    Checking gif v0.13.1
+    Checking num-complex v0.4.6
+    Checking qoi v0.4.1
+    Checking maybe-rayon v0.1.1
+    Checking core-foundation-sys v0.8.7
+    Checking rav1e v0.7.1
+    Checking itoa v1.0.15
+    Checking unicode-width v0.2.2
+   Compiling fframes-media v1.1.0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-same-stream-capture/fframes-media)
+    Checking parking_lot v0.12.3
+    Checking core-foundation v0.10.0
+    Checking konst_kernel v0.3.15
+    Checking console v0.16.6
+    Checking ffmpeg-sys-fframes v9.0.0
+    Checking portable-atomic v1.15.0
+    Checking getrandom v0.3.2
+    Checking tiny-skia v0.11.4
+    Checking num-iter v0.1.45
+    Checking gif v0.12.0
+    Checking malloc_buf v0.0.6
+   Compiling fframes v1.1.0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-same-stream-capture/fframes)
+    Checking mutate_once v0.1.1
+    Checking base64 v0.22.1
+    Checking lazy_static v1.5.0
+    Checking static_assertions v1.1.0
+    Checking unit-prefix v0.5.2
+    Checking foreign-types-shared v0.3.1
+warning: linker stderr: ld: -ld_classic is deprecated and will be removed in a future release
+  |
+  = note: `#[warn(linker_messages)]` on by default
+
+    Checking const_panic v0.2.12
+warning: `fframes` (build script) generated 1 warning
+    Checking ttf-parser v0.25.1
+   Compiling svgr-macro v1.1.0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-same-stream-capture/svgr-macro)
+    Checking indicatif v0.18.6
+    Checking usvgr v0.46.0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr)
+    Checking konst v0.3.16
+    Checking serde v1.0.228
+    Checking foreign-types v0.5.0
+    Checking microfft v0.6.0
+    Checking colored v2.2.0
+    Checking kamadak-exif v0.6.1
+    Checking futures-executor v0.3.31
+    Checking objc v0.2.7
+    Checking futures v0.3.31
+    Checking pin-project v1.1.10
+    Checking num v0.4.3
+   Compiling fframes-media-dir-macro v1.1.0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-same-stream-capture/media-dir-macro)
+    Checking uuid v1.16.0
+    Checking core-graphics-types v0.2.0
+    Checking skia-bindings v0.153.3
+    Checking libm v0.2.11
+    Checking memmap v0.7.0
+    Checking base64 v0.23.1
+    Checking block v0.1.6
+    Checking percent-encoding v2.3.1
+    Checking rangemap v1.5.1
+    Checking metal v0.32.0
+    Checking thingbuf v0.1.6
+warning: `svgr-macro` (lib) generated 1 warning (1 duplicate)
+    Checking ryu v1.0.20
+    Checking serde_json v1.0.140
+    Checking svgr v0.46.0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr)
+warning: a method with this name may be added to the standard library in the future
+  --> /Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/src/filter/iir_blur.rs:62:25
+   |
+62 |     let data = src.data.as_mut_slice();
+   |                         ^^^^^^^^^^^^
+   |
+   = help: call with fully qualified syntax `as_mut_slice(...)` to keep using the current method
+   = warning: once this associated item is added to the standard library, the ambiguity may cause an error or change in behavior!
+   = note: for more information, see issue #48919 <https://github.com/rust-lang/rust/issues/48919>
+   = note: `#[warn(unstable_name_collisions)]` (part of `#[warn(future_incompatible)]`) on by default
+
+warning: `svgr` (lib) generated 1 warning
+warning: linker stderr: ld: -ld_classic is deprecated and will be removed in a future release
+         ld: ignoring file /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks//QTKit.framework/QTKit.tbd, missing required architecture arm64 in file /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks//QTKit.framework/QTKit.tbd
+  |
+  = note: `#[warn(linker_messages)]` on by default
+
+warning: `fframes-media-dir-macro` (lib) generated 1 warning
+    Checking skia-safe v0.153.3
+    Checking ravif v0.11.12
+    Checking image v0.25.6
+warning: item in documentation is missing backticks
+   --> fframes/src/renderer/diagnostic_capture.rs:261:59
+    |
+261 | /// Downloads the exact borrowed input immediately before avcodec_send_frame. The original
+    |                                                           ^^^^^^^^^^^^^^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#doc_markdown
+    = note: `-W clippy::doc-markdown` implied by `-W clippy::pedantic`
+    = help: to override `-W clippy::pedantic` add `#[allow(clippy::doc_markdown)]`
+help: try
+    |
+261 - /// Downloads the exact borrowed input immediately before avcodec_send_frame. The original
+261 + /// Downloads the exact borrowed input immediately before `avcodec_send_frame`. The original
+    |
+
+warning: item in documentation is missing backticks
+   --> fframes/src/renderer/diagnostic_capture.rs:389:27
+    |
+389 | /// Observes the existing AVBuffer final-reference callback, not opaque encoder ownership.
+    |                           ^^^^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#doc_markdown
+help: try
+    |
+389 - /// Observes the existing AVBuffer final-reference callback, not opaque encoder ownership.
+389 + /// Observes the existing `AVBuffer` final-reference callback, not opaque encoder ownership.
+    |
+
+warning: this `if` statement can be collapsed
+   --> fframes/src/renderer/diagnostic_capture.rs:392:5
+    |
+392 | /     if let Some(c) = CAPTURE.get() {
+393 | |         if let Ok(mut l) = c.ledger.lock() {
+394 | |             if let Some(t) = l.owners.remove(&pixel) {
+395 | |                 l.released.insert(t.index);
+...   |
+407 | |     }
+    | |_____^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#collapsible_if
+    = note: `#[warn(clippy::collapsible_if)]` on by default
+help: collapse nested if block
+    |
+392 ~     if let Some(c) = CAPTURE.get()
+393 ~         && let Ok(mut l) = c.ledger.lock() {
+394 |             if let Some(t) = l.owners.remove(&pixel) {
+...
+405 |             }
+406 ~         }
+    |
+
+warning: this `if` statement can be collapsed
+   --> fframes/src/renderer/diagnostic_capture.rs:393:9
+    |
+393 | /         if let Ok(mut l) = c.ledger.lock() {
+394 | |             if let Some(t) = l.owners.remove(&pixel) {
+395 | |                 l.released.insert(t.index);
+396 | |                 if let Err(e) = event(
+...   |
+406 | |         }
+    | |_________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+393 ~         if let Ok(mut l) = c.ledger.lock()
+394 ~             && let Some(t) = l.owners.remove(&pixel) {
+395 |                 l.released.insert(t.index);
+...
+404 |                 }
+405 ~             }
+    |
+
+warning: item in documentation is missing backticks
+   --> fframes/src/renderer/diagnostic_capture.rs:409:46
+    |
+409 | /// Requires all indexed captures, sends and AVBuffer callbacks, with no outstanding ticket.
+    |                                              ^^^^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#doc_markdown
+help: try
+    |
+409 - /// Requires all indexed captures, sends and AVBuffer callbacks, with no outstanding ticket.
+409 + /// Requires all indexed captures, sends and `AVBuffer` callbacks, with no outstanding ticket.
+    |
+
+warning: `fframes` (lib) generated 5 warnings (run `cargo clippy --fix --lib -p fframes -- ` to apply 5 suggestions)
+    Checking fframes_skia_renderer v1.1.0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-same-stream-capture/fframes-skia-renderer)
+warning: reference as raw pointer
+   --> fframes-skia-renderer/src/frame_export/videotoolbox.rs:388:59
+    |
+388 |         fframes::diagnostic_capture::gpu_complete(&frame, self as *const Self as usize)
+    |                                                           ^^^^^^^^^^^^^^^^^^^ help: try: `std::ptr::from_ref::<Self>(self)`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#ref_as_ptr
+    = note: `-W clippy::ref-as-ptr` implied by `-W clippy::pedantic`
+    = help: to override `-W clippy::pedantic` add `#[allow(clippy::ref_as_ptr)]`
+
+warning: `fframes_skia_renderer` (lib) generated 1 warning (run `cargo clippy --fix --lib -p fframes_skia_renderer -- ` to apply 1 suggestion)
+    Checking vs-remotion-bench v1.1.0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-same-stream-capture/render-bench/vs-remotion)
+warning: long literal lacking separators
+  --> render-bench/vs-remotion/src/bin/handoff-color-controls.rs:97:32
+   |
+97 |                 text_capacity: 100000,
+   |                                ^^^^^^ help: consider: `100_000`
+   |
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#unreadable_literal
+   = note: `-W clippy::unreadable-literal` implied by `-W clippy::pedantic`
+   = help: to override `-W clippy::pedantic` add `#[allow(clippy::unreadable_literal)]`
+
+warning: long literal lacking separators
+  --> render-bench/vs-remotion/src/bin/handoff-color-controls.rs:98:36
+   |
+98 |                 geometry_capacity: 100000,
+   |                                    ^^^^^^ help: consider: `100_000`
+   |
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#unreadable_literal
+
+warning: long literal lacking separators
+  --> render-bench/vs-remotion/src/bin/handoff-color-controls.rs:99:33
+   |
+99 |                 geometry_bytes: 100000 * 512,
+   |                                 ^^^^^^ help: consider: `100_000`
+   |
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#unreadable_literal
+
+warning: long literal lacking separators
+   --> render-bench/vs-remotion/src/bin/handoff-color-controls.rs:113:27
+    |
+113 |             bitrate: Some(500000000),
+    |                           ^^^^^^^^^ help: consider: `500_000_000`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#unreadable_literal
+
+warning: long literal lacking separators
+   --> render-bench/vs-remotion/src/bin/handoff-color-controls.rs:135:154
+    |
+135 | ...ce","encoder":"h264_videotoolbox","bitrate":500000000,"gop":30,"zeroCopyProved":false})
+    |                                                ^^^^^^^^^ help: consider: `500_000_000`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#unreadable_literal
+
+warning: unused import: `StaticMediaProvider`
+ --> render-bench/vs-remotion/src/bin/circles-handoff-capture.rs:6:49
+  |
+6 |     FFramesRenderBackend, Frame, RenderOptions, StaticMediaProvider, Svgr, Transform, Video,
+  |                                                 ^^^^^^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `SkiaBackend`
+  --> render-bench/vs-remotion/src/bin/circles-handoff-capture.rs:10:5
+   |
+10 |     SkiaBackend, SkiaCacheConfig, SkiaFFramesRenderer, SkiaPipelineConcurrencyPolicy,
+   |     ^^^^^^^^^^^
+
+warning: item in documentation is missing backticks
+ --> render-bench/vs-remotion/src/bin/handoff-color-controls.rs:1:60
+  |
+1 | //! Excluded predetermined color/chroma controls, original MaxPerformance pipeline.
+  |                                                            ^^^^^^^^^^^^^^
+  |
+  = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#doc_markdown
+  = note: `-W clippy::doc-markdown` implied by `-W clippy::pedantic`
+  = help: to override `-W clippy::pedantic` add `#[allow(clippy::doc_markdown)]`
+help: try
+  |
+1 - //! Excluded predetermined color/chroma controls, original MaxPerformance pipeline.
+1 + //! Excluded predetermined color/chroma controls, original `MaxPerformance` pipeline.
+  |
+
+warning: manual implementation of `.is_multiple_of()`
+  --> render-bench/vs-remotion/src/bin/handoff-color-controls.rs:45:31
+   |
+45 |                 let fill = if ((x / 2 + y / 2 + frame.index) % 2) == 0 {
+   |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: replace with: `(x / 2 + y / 2 + frame.index).is_multiple_of(2)`
+   |
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#manual_is_multiple_of
+   = note: `#[warn(clippy::manual_is_multiple_of)]` on by default
+
+warning: manual implementation of `.is_multiple_of()`
+  --> render-bench/vs-remotion/src/bin/handoff-color-controls.rs:55:31
+   |
+55 |                 let fill = if (x + frame.index) % 2 == 0 {
+   |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^ help: replace with: `(x + frame.index).is_multiple_of(2)`
+   |
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#manual_is_multiple_of
+
+warning: `vs-remotion-bench` (bin "handoff-color-controls") generated 8 warnings (run `cargo clippy --fix --bin "handoff-color-controls" -p vs-remotion-bench -- ` to apply 3 suggestions)
+warning: function `cpu_backend` is never used
+  --> render-bench/vs-remotion/src/bin/circles-handoff-capture.rs:33:4
+   |
+33 | fn cpu_backend() -> CpuRenderingBackend {
+   |    ^^^^^^^^^^^
+   |
+   = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: manual `!RangeInclusive::contains` implementation
+   --> render-bench/vs-remotion/src/bin/circles-handoff-capture.rs:130:8
+    |
+130 |     if bitrate < 100_000 || bitrate > 1_000_000_000 {
+    |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: use: `!(100_000..=1_000_000_000).contains(&bitrate)`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#manual_range_contains
+    = note: `#[warn(clippy::manual_range_contains)]` on by default
+
+warning: `vs-remotion-bench` (bin "circles-handoff-capture") generated 4 warnings (run `cargo clippy --fix --bin "circles-handoff-capture" -p vs-remotion-bench -- ` to apply 3 suggestions)
+    Finished `release` profile [optimized] target(s) in 9.17s
+warning: the following packages contain code that will be rejected by a future version of Rust: block v0.1.6
+note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 1`

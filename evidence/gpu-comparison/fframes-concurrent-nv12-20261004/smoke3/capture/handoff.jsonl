@@ -1,0 +1,38 @@
+{"seq":1,"thread":"ThreadId(1)","event":"initialize","frames":3,"sourceOffset":3,"width":256,"height":128,"benchmarkTiming":false,"zeroCopyProved":false}
+{"seq":2,"thread":"ThreadId(1)","event":"pipeline","gpuContexts":3,"generators":5,"encoderWorkers":5,"configuredEncoderThreads":11,"queueSize":10}
+{"seq":3,"thread":"ThreadId(13)","event":"worker-start","role":"generator"}
+{"seq":4,"thread":"ThreadId(20)","event":"worker-start","role":"gpu"}
+{"seq":5,"thread":"ThreadId(15)","event":"worker-start","role":"generator"}
+{"seq":6,"thread":"ThreadId(16)","event":"worker-start","role":"generator"}
+{"seq":7,"thread":"ThreadId(25)","event":"worker-start","role":"encoder"}
+{"seq":8,"thread":"ThreadId(17)","event":"worker-start","role":"generator"}
+{"seq":9,"thread":"ThreadId(19)","event":"worker-start","role":"gpu"}
+{"seq":10,"thread":"ThreadId(14)","event":"worker-start","role":"generator"}
+{"seq":11,"thread":"ThreadId(21)","event":"worker-start","role":"encoder"}
+{"seq":12,"thread":"ThreadId(22)","event":"worker-start","role":"encoder"}
+{"seq":13,"thread":"ThreadId(23)","event":"worker-start","role":"encoder"}
+{"seq":14,"thread":"ThreadId(24)","event":"worker-start","role":"encoder"}
+{"seq":15,"thread":"ThreadId(18)","event":"worker-start","role":"gpu"}
+{"seq":16,"thread":"ThreadId(19)","event":"raster-complete","index":1,"sourceIndex":4,"segment":0,"avframe":43967489216,"sourcePixelBuffer":43965908224,"avbuffer":43965135488,"sourceTexture":43980029952,"fence":"flush_submit_and_sync_cpu returned"}
+{"seq":17,"thread":"ThreadId(18)","event":"raster-complete","index":2,"sourceIndex":5,"segment":0,"avframe":43967489664,"sourcePixelBuffer":43965907744,"avbuffer":43965136192,"sourceTexture":43980031232,"fence":"flush_submit_and_sync_cpu returned"}
+{"seq":18,"thread":"ThreadId(20)","event":"raster-complete","index":0,"sourceIndex":3,"segment":0,"avframe":43967488768,"sourcePixelBuffer":43965917984,"avbuffer":43965135872,"sourceTexture":43980030592,"fence":"flush_submit_and_sync_cpu returned"}
+{"seq":19,"thread":"ThreadId(19)","event":"gpu-complete","index":1,"sourceIndex":4,"segment":0,"avframe":43967493248,"pixelBuffer":43965917344,"avbuffer":43964439008,"renderer":43964896576,"fence":"Skia raster then Metal conversion completion returned"}
+{"seq":20,"thread":"ThreadId(20)","event":"gpu-complete","index":0,"sourceIndex":3,"segment":0,"avframe":43967495040,"pixelBuffer":43965908224,"avbuffer":43964439104,"renderer":43964896336,"fence":"Skia raster then Metal conversion completion returned"}
+{"seq":21,"thread":"ThreadId(18)","event":"gpu-complete","index":2,"sourceIndex":5,"segment":0,"avframe":43967488768,"pixelBuffer":43965917824,"avbuffer":43964439168,"renderer":43964896176,"fence":"Skia raster then Metal conversion completion returned"}
+{"seq":22,"thread":"ThreadId(21)","event":"capture-begin","index":0,"segment":0,"encoder":43967610880,"avframe":43967495040,"pixelBuffer":43965908224,"avbuffer":43964439104}
+{"seq":23,"thread":"ThreadId(21)","event":"capture-complete","index":0,"sourceIndex":3,"segment":0,"encoder":43967610880,"avframe":43967495040,"pixelBuffer":43965908224,"avbuffer":43964439104,"packedBytes":49152,"compressedBytes":892,"downloadFormat":"nv12","originalIdentityUnchanged":true}
+{"seq":24,"thread":"ThreadId(21)","event":"encoder-send-begin","index":0,"segment":0,"encoder":43967610880,"pts":0}
+{"seq":25,"thread":"ThreadId(21)","event":"encoder-send-return","index":0,"segment":0,"encoder":43967610880,"avframe":43967495040,"pixelBuffer":43965908224,"avbuffer":43964439104,"success":true}
+{"seq":26,"thread":"ThreadId(21)","event":"avbuffer-final-reference-release","index":0,"segment":0,"pixelBuffer":43965908224,"opaqueEncoderOwnershipKnown":false}
+{"seq":27,"thread":"ThreadId(21)","event":"capture-begin","index":1,"segment":0,"encoder":43967610880,"avframe":43967493248,"pixelBuffer":43965917344,"avbuffer":43964439008}
+{"seq":28,"thread":"ThreadId(21)","event":"capture-complete","index":1,"sourceIndex":4,"segment":0,"encoder":43967610880,"avframe":43967493248,"pixelBuffer":43965917344,"avbuffer":43964439008,"packedBytes":49152,"compressedBytes":892,"downloadFormat":"nv12","originalIdentityUnchanged":true}
+{"seq":29,"thread":"ThreadId(21)","event":"encoder-send-begin","index":1,"segment":0,"encoder":43967610880,"pts":1}
+{"seq":30,"thread":"ThreadId(21)","event":"encoder-send-return","index":1,"segment":0,"encoder":43967610880,"avframe":43967493248,"pixelBuffer":43965917344,"avbuffer":43964439008,"success":true}
+{"seq":31,"thread":"ThreadId(22)","event":"capture-begin","index":2,"segment":0,"encoder":43967610880,"avframe":43967488768,"pixelBuffer":43965917824,"avbuffer":43964439168}
+{"seq":32,"thread":"ThreadId(22)","event":"capture-complete","index":2,"sourceIndex":5,"segment":0,"encoder":43967610880,"avframe":43967488768,"pixelBuffer":43965917824,"avbuffer":43964439168,"packedBytes":49152,"compressedBytes":891,"downloadFormat":"nv12","originalIdentityUnchanged":true}
+{"seq":33,"thread":"ThreadId(22)","event":"encoder-send-begin","index":2,"segment":0,"encoder":43967610880,"pts":2}
+{"seq":34,"thread":"ThreadId(22)","event":"encoder-send-return","index":2,"segment":0,"encoder":43967610880,"avframe":43967488768,"pixelBuffer":43965917824,"avbuffer":43964439168,"success":true}
+{"seq":35,"thread":"ThreadId(26)","event":"avbuffer-final-reference-release","index":1,"segment":0,"pixelBuffer":43965917344,"opaqueEncoderOwnershipKnown":false}
+{"seq":36,"thread":"ThreadId(26)","event":"avbuffer-final-reference-release","index":2,"segment":0,"pixelBuffer":43965917824,"opaqueEncoderOwnershipKnown":false}
+{"seq":37,"thread":"ThreadId(22)","event":"encoder-drained","encoder":43967610880}
+{"seq":38,"thread":"ThreadId(1)","event":"finalize","passed":true,"benchmarkTiming":false,"opaqueEncoderOwnershipKnown":false}

@@ -1,0 +1,72 @@
+{
+  "helper": "/Users/gavinbintz/.codex/worktrees/gpu-circles-gop/helios/packages/portable/native/target/release/helios-gpu",
+  "helperSha256": "4b2b2598a4604be3104e284fec7d5d1cc3368acf1917e3e1e23ce76a1f0ac6ca",
+  "protocol": 2,
+  "gop": 30,
+  "frames": 3,
+  "width": 128,
+  "height": 128,
+  "hardware": {
+    "encoder": "videotoolbox",
+    "explicitRawReadbackBytes": 0,
+    "frames": 3,
+    "gop": 30,
+    "protocol": 2,
+    "rasterizer": "skia-metal",
+    "zeroCopyProved": false
+  },
+  "hardwareHooks": {
+    "profiler-hooks-installed": 1,
+    "IOSurfaceGetBaseAddress": 1,
+    "MTLBufferContentsAccessIntentUnknown": 6,
+    "MTLBlitBufferToTexture": 3,
+    "IOSurfaceGetBaseAddressOfPlane": 16
+  },
+  "positiveNV12": {
+    "profiler-hooks-installed": 1,
+    "IOSurfaceGetBaseAddress": 1,
+    "MTLBufferContentsAccessIntentUnknown": 6,
+    "MTLBlitBufferToTexture": 3,
+    "IOSurfaceGetBaseAddressOfPlane": 21,
+    "CVPixelBufferLockBaseAddress": 3,
+    "IOSurfaceLock": 3,
+    "CVPixelBufferGetBaseAddressOfPlane": 6
+  },
+  "positiveRGBA": {
+    "profiler-hooks-installed": 1,
+    "MTLBufferContentsAccessIntentUnknown": 9,
+    "MTLBlitBufferToTexture": 3,
+    "MTLBlitTextureToBuffer": 3
+  },
+  "conversion": [
+    {
+      "event": "conversion-complete",
+      "frame": 0,
+      "surfaceId": 221,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 119369.1002435,
+      "gpuEndSeconds": 119369.100259167
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 1,
+      "surfaceId": 221,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 119369.1224355,
+      "gpuEndSeconds": 119369.12245075
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 2,
+      "surfaceId": 221,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 119369.123997292,
+      "gpuEndSeconds": 119369.124012375
+    }
+  ],
+  "actualMetalCapture": true,
+  "captureExcludedFromTimingAndDownloadProof": true,
+  "timingClaim": false,
+  "full4KQualification": false,
+  "zeroCopyProved": false
+}

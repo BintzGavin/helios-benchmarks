@@ -1,0 +1,31 @@
+{
+  "test": "descendant-TERM-refusal-parent-already-exited",
+  "passed": true,
+  "parentExitedBeforeStop": true,
+  "processes": [
+    {
+      "label": "CPU-parent",
+      "argv": [
+        "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+        "-c",
+        "import subprocess,sys,time;from pathlib import Path;p=subprocess.Popen([sys.executable,\"-c\",'import os,signal,json,time;from pathlib import Path;signal.signal(signal.SIGTERM,signal.SIG_IGN);Path(\\'/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-extra-final-07/exited-parent/CHILD.json\\').write_text(json.dumps({\"pid\":os.getpid(),\"group\":os.getpgrp(),\"CPUOnly\":True}));\\nfor i in range(2000):Path(\\'/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-extra-final-07/exited-parent/CPU-heartbeat.txt\\').write_text(str(i));time.sleep(.03)'],stdin=subprocess.DEVNULL,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL);\nwhile not Path('/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-extra-final-07/exited-parent/CHILD.json').exists():time.sleep(.01)\n"
+      ],
+      "pid": 6704,
+      "processGroup": 6704,
+      "spawnMonotonic": 239501.196430458,
+      "exit": 0
+    }
+  ],
+  "childIdentity": {
+    "pid": 6705,
+    "group": 6704,
+    "CPUOnly": true
+  },
+  "CPUHeartbeatProgressedBeforeStop": true,
+  "CPUHeartbeatUnchangedAfterStopSeconds": 0.4,
+  "independentOSGroupCessationProof": false,
+  "directParentReaped": true,
+  "signal0QueryBlockedBySandbox": true,
+  "GPUExecuted": false,
+  "hardwareQualified": false
+}

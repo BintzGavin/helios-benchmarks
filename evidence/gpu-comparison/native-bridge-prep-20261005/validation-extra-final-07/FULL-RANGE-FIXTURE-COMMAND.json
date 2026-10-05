@@ -1,0 +1,28 @@
+{
+  "argv": [
+    "/opt/homebrew/Cellar/ffmpeg/9.0.2/bin/ffmpeg",
+    "-v",
+    "error",
+    "-xerror",
+    "-n",
+    "-f",
+    "hevc",
+    "-i",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/fixtures/reference.hevc",
+    "-c:v",
+    "copy",
+    "-bsf:v",
+    "hevc_metadata=video_full_range_flag=1",
+    "-f",
+    "hevc",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/fixtures/full-range-elementary.h265"
+  ],
+  "exit": 0,
+  "fixture": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/fixtures/full-range-elementary.h265",
+    "bytes": 257581,
+    "sha256": "3f8fd10c53a654598c888e15c5581569bfb7c9ece388c835c877f60eac0d8d8e"
+  },
+  "CPUOnly": true,
+  "VCLSpeedClaim": false
+}

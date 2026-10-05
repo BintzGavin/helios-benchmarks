@@ -1,0 +1,33 @@
+
+ RUN  v4.1.8 /Users/gavinbintz/.codex/worktrees/gpu-bitrate-budget/helios
+
+ ❯ packages/portable/tests/gpu-bitrate.test.ts (3 tests | 1 failed | 2 skipped) 5ms
+   × admits the bounded higher bitrate targets while rejecting overflow and invalid numbers 4ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  packages/portable/tests/gpu-bitrate.test.ts > admits the bounded higher bitrate targets while rejecting overflow and invalid numbers
+AssertionError: expected [Function] to not throw an error but 'RenderError: Invalid GPU bitrate' was thrown
+
+- Expected:
+undefined
+
++ Received:
+"RenderError: Invalid GPU bitrate"
+
+ ❯ packages/portable/tests/gpu-bitrate.test.ts:12:182
+     10| it('admits the bounded higher bitrate targets while rejecting overflow…
+     11|   for (const bitrate of [0, -1, 99999, 1.5, NaN, Infinity, 1000000001,…
+     12|   if (process.platform === 'darwin' && process.arch === 'arm64') for (…
+       |                                                                                                                                                                                      ^
+     13| });
+     14|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 2 skipped (3)
+   Start at  19:14:36
+   Duration  327ms (transform 78ms, setup 0ms, import 216ms, tests 5ms, environment 0ms)
+

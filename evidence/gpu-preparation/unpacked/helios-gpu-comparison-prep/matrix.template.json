@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "lane": "gpu-raster-software-x264",
+  "scene": {"width":1920,"height":1080,"frames":300,"fps":30,"name":"TextGrid"},
+  "note": "Replace local paths and qualify adapters on one real GPU host before setting ready. These are candidate commands, not validated performance results.",
+  "engines": [
+    {
+      "id":"H",
+      "source_pin":"BintzGavin/helios@507de4c29b5b4f526cf97bd81ad126762b839685; renderer 1.79.0",
+      "backend":"browser Canvas2D, GPU requested, PNG capture, no WebCodecs",
+      "codec":"libx264 CRF18 medium yuv420p",
+      "command":["node","PATH_TO_PACKAGE/render_helios.mjs","PATH_TO_HELIOS/packages/renderer/dist/index.js","http://localhost:8765/textgrid.html","{output}","medium","libx264"],
+      "reference":"PATH_TO_OWN_LOSSLESS_REFERENCES/helios.mkv",
+      "reference_sha256":"REQUIRED",
+      "gpu_evidence":"PATH_TO_EVIDENCE/helios-runtime.json",
+      "runtime_attestation_reviewed":false,
+      "ready":false,
+      "blocker":"No actual GPU host; browser Canvas2D raster path and source-reference quality not yet qualified"
+    },
+    {
+      "id":"F",
+      "source_pin":"dmtrKovalenko/fframes@bacfc3c3212d3d9429468435bfdc1ae2a21c7b3b",
+      "backend":"Skia Metal; replace metal with vulkan only on qualified Linux hardware",
+      "codec":"libx264 CRF18 medium yuv420p",
+      "command":["env","GPU_CONTEXTS=2","PATH_TO_FFRAMES/target/release/vs-remotion-bench","metal","{output}","medium"],
+      "cwd":"PATH_TO_FFRAMES",
+      "reference":"PATH_TO_OWN_LOSSLESS_REFERENCES/fframes-gpu.mkv",
+      "reference_sha256":"REQUIRED",
+      "gpu_evidence":"PATH_TO_EVIDENCE/fframes-runtime.json",
+      "runtime_attestation_reviewed":false,
+      "ready":false,
+      "blocker":"No actual GPU host; selected Skia device and lossless GPU-raster reference required"
+    },
+    {
+      "id":"R",
+      "source_pin":"dmtrKovalenko/fframes@bacfc3c3212d3d9429468435bfdc1ae2a21c7b3b/remotion; Remotion 4.0.529",
+      "backend":"Chromium DOM screenshots; GPU requested/actual stages must be disclosed",
+      "codec":"libx264 CRF18 medium yuv420p, JPEG100 capture",
+      "command":["PATH_TO_FFRAMES/render-bench/vs-remotion/remotion/node_modules/.bin/remotion","render","build","TextGrid","{output}","--codec=h264","--crf=18","--x264-preset=medium","--image-format=jpeg","--jpeg-quality=100","--concurrency=8","--overwrite"],
+      "cwd":"PATH_TO_FFRAMES/render-bench/vs-remotion/remotion",
+      "reference":"PATH_TO_OWN_LOSSLESS_REFERENCES/remotion.mkv",
+      "reference_sha256":"REQUIRED",
+      "gpu_evidence":"PATH_TO_EVIDENCE/remotion-runtime.json",
+      "runtime_attestation_reviewed":false,
+      "ready":false,
+      "blocker":"No actual GPU host; active compositor/raster evidence and lossless reference required"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "status": "preliminary_saved_receipt_audit_passed; owner_finalization_pending",
+  "auditedAt": "2026-10-04T20:00:43.620340+00:00",
+  "sourceFilesVerified": 168,
+  "snapshotPins": [
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/BUILD-READY.json",
+      "bytes": 31270,
+      "sha256": "195d63fb374acb942c7587c68f9c87c5c3a584b77d6aa9ce5a8a9687db05929c"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/ACCEPTANCE-PROTOCOL.json",
+      "bytes": 1769,
+      "sha256": "1c6e223cdecff742ea0ef129c708661dd685d613fd38fcf89000a94dee6d5120"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/frozen-circles-concurrent-nv12",
+      "bytes": 38000704,
+      "sha256": "665ce943531be9a35d61aa7629e12646e280d0568c1ca6a576816f15963210a8"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/frozen-nv12-color-controls",
+      "bytes": 36228336,
+      "sha256": "ea36969d384cfb1de3fe5b02da832cab97003301ab3a7818133c82b942f363f3"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/frozen-nv12-converter.dylib",
+      "bytes": 76472,
+      "sha256": "11522ab92e119b84f9af86b9abf5864263c774a21ac7505b82a6556b6e9e132d"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/audit-concurrent-nv12.py",
+      "bytes": 7468,
+      "sha256": "9fad7ebfcb4f6360eaa1921d5ad5ac1608ba3e7f5b6cee46212bbd6144e811be"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/controls36/quality.json",
+      "bytes": 37720,
+      "sha256": "9b4430c8cdff799f1e3053444f5b04c4cd88606ec26c6b1b0de8564b1b135f89"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/controls36/DIRECT-NV12-REFERENCE-BINDING.json",
+      "bytes": 11745,
+      "sha256": "ee5dd2024df1ac662e92e6d59bd39b4e7b53666f7e2811e9681f0193ef3c4717"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/controls36/CHROMA-CONFORMANCE.json",
+      "bytes": 14469,
+      "sha256": "07180a257be04f4f50f89fda4277e9fd409bb3f675bb432d11289eb7e579adc7"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/controls36/capture/independent-handoff-audit.json",
+      "bytes": 23467,
+      "sha256": "73c835e581138d3e7f297e03f9b5374f4444fb2be35d9cfc7cd4a54715095a90"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/controls36/capture/handoff.jsonl",
+      "bytes": 53855,
+      "sha256": "f2379f06c0ef9edf66797c1d857f8f8783f376cda4d1a011a7bf24e455e7e5a3"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/controls36/gpu-transfer.jsonl",
+      "bytes": 29988,
+      "sha256": "ff1efeae034b72795e25a9ddac5c51f23e82ee32624b4c7282692c02b38ee885"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/circles300/quality.json",
+      "bytes": 191882,
+      "sha256": "609a90e506556d864bcb91cb8849db889a7452683a5e65645d72e07791d2b0cc"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/circles300/DIRECT-NV12-REFERENCE-BINDING.json",
+      "bytes": 85820,
+      "sha256": "92938d4354978614c55e7cf4acb8be9771f4669adf7a0283de0703f6507786d5"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/circles300/CHROMA-CONFORMANCE.json",
+      "bytes": 89029,
+      "sha256": "90bae5620ffd1ea5fc0dd3934f5242199f43ea053834b6c300c9ed83854afa03"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/circles300/capture/independent-handoff-audit.json",
+      "bytes": 141486,
+      "sha256": "1a5470bfb835007a291c573064ce9d8487100f5f7d03b7dde0c894a1f7dec76c"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/circles300/capture/handoff.jsonl",
+      "bytes": 448005,
+      "sha256": "ccf24b5acd31c67ac4961b3288f972a61e79e4a22614e210bff829dd0b64c7aa"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/circles300/gpu-transfer.jsonl",
+      "bytes": 231498,
+      "sha256": "f3831f6793aaebd3320a9096c8c5d4d355ea4ae58a0ec552a3aa376a604f7671"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/BOUNDED-PROFILE-REPORT.json",
+      "bytes": 1050,
+      "sha256": "41522203a62b6f74609fa670628136ba962a4bc97624d45523d342a8310e9ede"
+    }
+  ],
+  "lanes": [
+    {
+      "lane": "controls36",
+      "frames": 36,
+      "indexedQualityAllPassed": true,
+      "minima": {
+        "Y": 0.999851,
+        "psnr_y": 52.49,
+        "psnr_u": 51.27,
+        "psnr_v": 53.66
+      },
+      "directNV12LosslessSavedPairsAllEqual": true,
+      "gpuConversionFenceIdentityOwnerOrdersRechecked": true,
+      "conversionContexts": 3,
+      "peakObservedAVBufferOwnersByContext": {
+        "4": 8,
+        "5": 7,
+        "3": 8
+      },
+      "savedConformanceVCLAndDecodedPairsAllEqual": true,
+      "conformanceIncludedInFutureTiming": true
+    },
+    {
+      "lane": "circles300",
+      "frames": 300,
+      "indexedQualityAllPassed": true,
+      "minima": {
+        "Y": 0.995261,
+        "psnr_y": 40.23,
+        "psnr_u": 40.54,
+        "psnr_v": 40.48
+      },
+      "directNV12LosslessSavedPairsAllEqual": true,
+      "gpuConversionFenceIdentityOwnerOrdersRechecked": true,
+      "conversionContexts": 3,
+      "peakObservedAVBufferOwnersByContext": {
+        "5": 2,
+        "6": 2,
+        "4": 2
+      },
+      "savedConformanceVCLAndDecodedPairsAllEqual": true,
+      "conformanceIncludedInFutureTiming": true
+    }
+  ],
+  "modifiedPipeline": true,
+  "originalProduct": false,
+  "fullyEnabledOriginalProductQualified": false,
+  "productionWinnerClaimAllowed": false,
+  "publishedM5Reproduction": false,
+  "benchmarkTiming": false,
+  "zeroCopyProved": false,
+  "poolThresholdPerContext": 64,
+  "nativeHeliosPool3IsDifferentContract": true,
+  "profileScope": "separate excluded 3-frame actual GPU profile, not 4K profile yet",
+  "full4KUncapturedTransferProfileNotYetAudited": true,
+  "finalReceiptManifestNotYetAvailable": true,
+  "semanticSPSConformanceNotYetIndependentlyParsed": true,
+  "auditScope": "Lightweight saved arrays/ledgers, source and immutable helper pins, recomputed small control NV12 oracle; no new4K capture/export/decode/timing and no writes to owner files. Large4K source/video/reference hashes and actual VCL extraction await final frozen manifest/conformance audit.",
+  "independentSPSBitEditChecks": [
+    {
+      "lane": "controls36",
+      "commonPrefixBits": 95,
+      "oldBit": "0",
+      "newBits": "1010010",
+      "allRemainingRBSPBitsEqual": true,
+      "rbspStopBitPreserved": true,
+      "fullSemanticParserRun": false
+    },
+    {
+      "lane": "circles300",
+      "commonPrefixBits": 109,
+      "oldBit": "0",
+      "newBits": "1010010",
+      "allRemainingRBSPBitsEqual": true,
+      "rbspStopBitPreserved": true,
+      "fullSemanticParserRun": false
+    }
+  ],
+  "bothCandidateAndReferenceCenteredBT709MetadataChecked": true
+}

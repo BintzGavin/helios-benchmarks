@@ -1,0 +1,33 @@
+
+ RUN  v4.1.8 /Users/gavinbintz/.codex/worktrees/gpu-encoder-pool/helios
+
+ ❯ packages/portable/tests/gpu-pool.test.ts (1 test | 1 failed) 3ms
+   × validates explicit fixed encoder-pool cells without changing the omitted serial default 3ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  packages/portable/tests/gpu-pool.test.ts > validates explicit fixed encoder-pool cells without changing the omitted serial default
+AssertionError: expected [Function] to throw an error
+
+- Expected:
+null
+
++ Received:
+undefined
+
+ ❯ packages/portable/tests/gpu-pool.test.ts:5:111
+      3|
+      4| it('validates explicit fixed encoder-pool cells without changing the o…
+      5|   for (const encoderPool of [0, 2, 4, -1, 1.5, NaN]) expect(() => vali…
+       |                                                                                                               ^
+      6|   if (process.platform === 'darwin' && process.arch === 'arm64') for (…
+      7| });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed (1)
+   Start at  18:33:43
+   Duration  316ms (transform 73ms, setup 0ms, import 207ms, tests 3ms, environment 0ms)
+

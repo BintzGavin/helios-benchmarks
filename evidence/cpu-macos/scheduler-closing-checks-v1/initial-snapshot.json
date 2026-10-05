@@ -1,0 +1,32 @@
+{
+  "files": [
+    "src/index.ts",
+    "src/tools/memory.ts",
+    "src/tools/sandbox.ts",
+    "src/tools/render-readiness.ts",
+    "test/media-streaming.test.ts",
+    "test/sandbox-audio.test.ts",
+    "test/render-readiness.test.ts",
+    "test-node/render-readiness-bundle.check.mjs"
+  ],
+  "hash_match": {
+    "src/index.ts": true,
+    "src/tools/memory.ts": true,
+    "src/tools/sandbox.ts": true,
+    "src/tools/render-readiness.ts": true,
+    "test/media-streaming.test.ts": true,
+    "test/sandbox-audio.test.ts": true,
+    "test/render-readiness.test.ts": true,
+    "test-node/render-readiness-bundle.check.mjs": true
+  },
+  "target_status": {
+    "exit_code": 0,
+    "stdout": " M src/index.ts\n M src/tools/memory.ts\n M src/tools/sandbox.ts\n?? src/tools/render-readiness.ts\n?? test-node/\n?? test/media-streaming.test.ts\n?? test/render-readiness.test.ts\n?? test/sandbox-audio.test.ts\n",
+    "stderr": "git: warning: confstr() failed with code 5: couldn't get path of DARWIN_USER_TEMP_DIR; using /tmp instead\n"
+  },
+  "source_status": {
+    "exit_code": 0,
+    "stdout": " M src/index.ts\n M src/tools/memory.ts\n M src/tools/sandbox.ts\n M test/browse.test.ts\n M test/github.test.ts\n D test/index.spec.ts\n M test/model-router.test.ts\n M test/reddit.test.ts\n M test/swirlbot.test.ts\n?? .DS_Store\n?? promptops/\n?? src/tools/render-readiness.ts\n?? test-node/\n?? test/media-streaming.test.ts\n?? test/render-readiness.test.ts\n?? test/sandbox-audio.test.ts\n",
+    "stderr": "git: warning: confstr() failed with code 5: couldn't get path of DARWIN_USER_TEMP_DIR; using /tmp instead\n"
+  }
+}

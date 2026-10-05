@@ -1,0 +1,16 @@
+{
+  "test": "encoded-h264-300",
+  "passed": true,
+  "expectedRefusal": null,
+  "observedError": null,
+  "secondsExcludedFromBenchmark": 0.506874833983602,
+  "GPUExecuted": false,
+  "sourceUnchanged": true,
+  "publishedFixtureBinding": true,
+  "frames": 300,
+  "pythonMaxRSSBytes": 36274176,
+  "maxPlanarWriterQueuedBytes": 0,
+  "backpressureObservations": 0,
+  "producerRawForwardDrains": 0,
+  "producerMaxForwardQueue": 0
+}

@@ -1,0 +1,13 @@
+{
+  "test": "Node-direct-fixture-module-refusal",
+  "passed": true,
+  "argv": [
+    "/opt/homebrew/Cellar/node@22/22.23.1/bin/node",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_stdout_bridge.mjs",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-extra-final-07/direct-node-module/ISSUED-SPEC.json"
+  ],
+  "exit": 1,
+  "stderr": "Error: PINNED_CPU_MODULES_ONLY\n",
+  "helperNeverStarted": true,
+  "GPUExecuted": false
+}

@@ -1,0 +1,89 @@
+{
+  "owner": "01a0ff86-ddbd-7703-92b8-781e18082039",
+  "evidence": [
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-binary-gpu-attestation.json",
+      "sha256": "cccb87378c39bc1b65e0f357df367e8e530f232081d3b00aeef73a6f7cb96dd5"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-screen-h-500/adapter.json",
+      "sha256": "99f6368d44f2b8c7461e5ba51d719eead3fd3e9d049df8db885747f92b7ac346"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-screen-h-500/quality.json",
+      "sha256": "c52503d365ed8bb9a0ba3d812a6b129b7fb035321ae6202b3cafde9bac159c94"
+    }
+  ],
+  "h500": {
+    "adapterStatus": "complete",
+    "helperSha256": "1383da791a588731101f6dd22bea8e911d4bc97243b7f01541214981afc90ecc",
+    "frames": 300,
+    "bitrate": 500000000,
+    "gop": 30,
+    "nativeReceipt": {
+      "bitrate": 500000000,
+      "configuredBitrate": 500000000,
+      "encoder": "videotoolbox",
+      "encoderPool": 3,
+      "explicitRawReadbackBytes": 0,
+      "frames": 300,
+      "gop": 30,
+      "protocol": 5,
+      "rasterizer": "skia-metal",
+      "transport": "binary",
+      "zeroCopyProved": false
+    },
+    "qualityPassed": true,
+    "structureDecodePassed": true,
+    "encodedQualityPassed": true,
+    "candidateDecodedFrames": 300,
+    "candidateStream": {
+      "codec_name": "h264",
+      "width": 3840,
+      "height": 2160,
+      "pix_fmt": "yuv420p",
+      "color_range": "tv",
+      "color_space": "bt709",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "chroma_location": "left",
+      "r_frame_rate": "30/1",
+      "avg_frame_rate": "30/1",
+      "time_base": "1/30",
+      "nb_frames": "300"
+    },
+    "ssim": {
+      "passed": true,
+      "frameCount": 300,
+      "thresholds": {
+        "Y": 0.995
+      },
+      "minimum": {
+        "Y": 0.999285
+      }
+    },
+    "psnr": {
+      "passed": true,
+      "frameCount": 300,
+      "thresholds": {
+        "psnr_y": 40,
+        "psnr_u": 35,
+        "psnr_v": 35
+      },
+      "minimum": {
+        "psnr_y": 48.73,
+        "psnr_u": 48.15,
+        "psnr_v": 48.1
+      }
+    },
+    "errors": []
+  },
+  "newShared300MbpsQualificationPending": true,
+  "timingWindowOpen": false,
+  "speedClaim": false,
+  "zeroCopyProved": false,
+  "independentAllFrameMetricReceiptAuditPassed": true,
+  "independentThreeFrameHookReceiptAuditPassed": true,
+  "profileScopeFrames": 3,
+  "fullComparisonComplete": false
+}

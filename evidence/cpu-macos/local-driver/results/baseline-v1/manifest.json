@@ -1,0 +1,160 @@
+{
+  "createdUtc": "20261001T174619307919Z",
+  "python": "3.9.6 (default, Dec  2 2025, 07:27:58) \n[Clang 17.0.0 (clang-1700.6.3.2)]",
+  "platform": "macOS-26.3-arm64-arm-64bit",
+  "machine": "arm64",
+  "logicalCpuCount": 11,
+  "node": "v24.19.0",
+  "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers\nbuilt with Apple clang version 21.0.0 (clang-2100.3.34.2)\nconfiguration: --prefix=/opt/homebrew/Cellar/ffmpeg/9.0.2 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gpl --enable-libsvtav1 --enable-libopus --enable-libx264 --enable-libmp3lame --enable-libdav1d --enable-libvmaf --enable-libvpx --enable-libx265 --enable-openssl --enable-videotoolbox --enable-audiotoolbox --enable-neon\nlibavutil      61.  1.102 / 61.  1.102\nlibavcodec     63.  1.102 / 63.  1.102\nlibavformat    63.  1.102 / 63.  1.102\nlibavdevice    63.  1.102 / 63.  1.102\nlibavfilter    12.  1.102 / 12.  1.102\nlibswscale     10.  1.102 / 10.  1.102\nlibswresample   7.  1.102 /  7.  1.102\n\nExiting with exit code 0",
+  "ffprobe": "ffprobe version 9.0.2 Copyright (c) 2007-2026 the FFmpeg developers\nbuilt with Apple clang version 21.0.0 (clang-2100.3.34.2)\nconfiguration: --prefix=/opt/homebrew/Cellar/ffmpeg/9.0.2 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gpl --enable-libsvtav1 --enable-libopus --enable-libx264 --enable-libmp3lame --enable-libdav1d --enable-libvmaf --enable-libvpx --enable-libx265 --enable-openssl --enable-videotoolbox --enable-audiotoolbox --enable-neon\nlibavutil      61.  1.102 / 61.  1.102\nlibavcodec     63.  1.102 / 63.  1.102\nlibavformat    63.  1.102 / 63.  1.102\nlibavdevice    63.  1.102 / 63.  1.102\nlibavfilter    12.  1.102 / 12.  1.102\nlibswscale     10.  1.102 / 10.  1.102\nlibswresample   7.  1.102 /  7.  1.102",
+  "sourceSha256": {
+    "/Users/gavinbintz/Developer/helios/packages/portable/dist/auth.js": "5036664a0b4c6336c36e7a3b73afbee353e6394b95f4a806b737c0b76a46b6d3",
+    "/Users/gavinbintz/Developer/helios/packages/portable/dist/backend.js": "43a4dec50101eb767dbd1ec2e4324a668deea3f7b8b65e6c34fe384d202aad76",
+    "/Users/gavinbintz/Developer/helios/packages/portable/dist/canvas-pool.js": "76faca79a66fdae5832337c317af6798e3c4d62d9f25ad2533d88d833a1837d0",
+    "/Users/gavinbintz/Developer/helios/packages/portable/dist/canvas-worker.js": "b1b9c3ae4359a41c5194b45e5cbb49591babaf4e3e9ff08d03929c0304fa8001",
+    "/Users/gavinbintz/Developer/helios/packages/portable/dist/canvas.js": "4e7a3e38b67bf6761ab6b42de95a90e17b87f8c26346221b47a5fc2ea96e83fb",
+    "/Users/gavinbintz/Developer/helios/packages/portable/dist/cli.js": "d9edb48715e9146f221b6b903482346f68420f688a8ebebbeebeea438866be8b",
+    "/Users/gavinbintz/Developer/helios/packages/portable/dist/client.js": "c32458c091ff63874a58e38d2991044179485d89c856db0de17e2cc617200e90",
+    "/Users/gavinbintz/Developer/helios/packages/portable/dist/index.js": "491b0a63973fd11a2502e8b3748b6d3c14690088d7f47b74dccb24ef4c253520",
+    "/Users/gavinbintz/Developer/helios/packages/portable/dist/jobs.js": "c90739169e9150adda16f45b10d7f4e77711843f3cd6661749e33e3664abd2d7",
+    "/Users/gavinbintz/Developer/helios/packages/portable/dist/media.js": "67993f258fef048892a954ab2282a31a9e1ac2637ebe7b7bbd6c14e413ffdba7",
+    "/Users/gavinbintz/Developer/helios/packages/portable/dist/plan.js": "9552b7c36b54c3272d75e243d8ab4b53ebce7b860b88e5103af95e280cf471c6",
+    "/Users/gavinbintz/Developer/helios/packages/portable/dist/process.js": "9d448754cb40062e372746283e13ae245924a800e9938473b769e55b66761d7e",
+    "/Users/gavinbintz/Developer/helios/packages/portable/dist/render.js": "cf26f45fd7d2eac69aefbd1104eca857b02c747d012d66f1294123ae5befab7b",
+    "/Users/gavinbintz/Developer/helios/packages/portable/dist/s3-storage.js": "0a62ef2fb0111ae5e9ad163c0d55400de9e71fecf8df5387bade65d85e9adbeb",
+    "/Users/gavinbintz/Developer/helios/packages/portable/dist/server.js": "ebc970e016af47dc501114c9e1d3202655613327b9d033c5cea2b69bbadeda03",
+    "/Users/gavinbintz/Developer/helios/packages/portable/dist/skia-binding.js": "8eeb285f6ce96c36dc32e854e1cd55731eb25bdcc287a99784c30569ce2d7262",
+    "/Users/gavinbintz/Developer/helios/packages/portable/dist/skia.js": "a5cd349fe76a9cbaca782d75d79b0382be46764a21f32673e73cfaa50c8149b6",
+    "/Users/gavinbintz/Developer/helios/packages/portable/dist/storage.js": "e3112525447391b24bd58e7241339e70bdb48d9cfcc971eda6e2c5ce40970fcf",
+    "/Users/gavinbintz/Developer/helios/packages/portable/dist/text.js": "dbfd047b6d8d6b2f9d1f7faa154947c8fa15ba11be2e08da20a6675bca4263d5",
+    "/Users/gavinbintz/Developer/helios/packages/portable/benchmarks/fframes-textgrid.mjs": "e3bc82a2cd5461136a1ee388e2a2e27eaf03937b5f65169c18630bbf9fe8df67",
+    "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/source/fframes/render-bench/vs-remotion/fframes/media/DMSans-Regular.ttf": "9ae2da663d64342031e59b5fa680dd355171d021b7ebf83774efc7c0330ae7b5",
+    "/Users/gavinbintz/Developer/helios/packages/portable/package.json": "99d9ffb016e43a012be1791c8aadab433a7d076b8c20b1f1315b9365733e0d18",
+    "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/local-driver/run.py": "d0e3b583e1811283fb5c37c636ebecf6577f49b18d4c2a928d758a347a3d8723",
+    "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/local-driver/worker.mjs": "9f539f1f67503b8c9f83c215d90b0564a29dcb96f22717fbff70dcdeb71ca272",
+    "/Users/gavinbintz/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node": "27db838bb204ef7c21df2931f5656e4c8fb32e6e947f363a402b49714d32b5b1",
+    "/opt/homebrew/bin/ffmpeg": "1ede5c7fd4e97d832ec69c97c78231875de7d69c55423158f5f4a4d923227dd5",
+    "/opt/homebrew/bin/ffprobe": "258fa480850eec6cf7b6831b2d3edd164cdd2f9ddb7a14965dc9fdaf9d175ff7"
+  },
+  "sourcePolicy": "live files hashed before and after each export; no frozen snapshot",
+  "fixture": {
+    "frames": 300,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "labels": 3334
+  },
+  "warmupsPerProfile": 1,
+  "timedPerProfile": 2,
+  "maxRetainedOutputBytes": 3221225472,
+  "records": [
+    {
+      "profile": "medium",
+      "phase": "warmup",
+      "index": 1,
+      "command": [
+        "/Users/gavinbintz/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/local-driver/worker.mjs",
+        "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/local-driver/results/baseline-v1/medium-warmup-1/config.json"
+      ],
+      "exitCode": 0,
+      "directory": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/local-driver/results/baseline-v1/medium-warmup-1",
+      "compositionSha256": "e88ad691295417502c0ee6f5690d894f05154f38d66da4f7c609f118ff85a43d",
+      "externalProcessWallNs": 45521450916,
+      "externalProcessWallMs": 45521.450916,
+      "outputBytes": 143109303,
+      "retainedOutputBytes": 143109303,
+      "sourceUnchanged": true
+    },
+    {
+      "profile": "medium",
+      "phase": "timed",
+      "index": 1,
+      "command": [
+        "/Users/gavinbintz/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/local-driver/worker.mjs",
+        "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/local-driver/results/baseline-v1/medium-timed-1/config.json"
+      ],
+      "exitCode": 0,
+      "directory": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/local-driver/results/baseline-v1/medium-timed-1",
+      "compositionSha256": "e88ad691295417502c0ee6f5690d894f05154f38d66da4f7c609f118ff85a43d",
+      "externalProcessWallNs": 51462110208,
+      "externalProcessWallMs": 51462.110208,
+      "outputBytes": 143109303,
+      "retainedOutputBytes": 286218606,
+      "sourceUnchanged": true
+    },
+    {
+      "profile": "medium",
+      "phase": "timed",
+      "index": 2,
+      "command": [
+        "/Users/gavinbintz/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/local-driver/worker.mjs",
+        "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/local-driver/results/baseline-v1/medium-timed-2/config.json"
+      ],
+      "exitCode": 0,
+      "directory": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/local-driver/results/baseline-v1/medium-timed-2",
+      "compositionSha256": "e88ad691295417502c0ee6f5690d894f05154f38d66da4f7c609f118ff85a43d",
+      "externalProcessWallNs": 53469913083,
+      "externalProcessWallMs": 53469.913083,
+      "outputBytes": 143109303,
+      "retainedOutputBytes": 429327909,
+      "sourceUnchanged": true
+    },
+    {
+      "profile": "ultrafast",
+      "phase": "warmup",
+      "index": 1,
+      "command": [
+        "/Users/gavinbintz/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/local-driver/worker.mjs",
+        "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/local-driver/results/baseline-v1/ultrafast-warmup-1/config.json"
+      ],
+      "exitCode": 0,
+      "directory": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/local-driver/results/baseline-v1/ultrafast-warmup-1",
+      "compositionSha256": "e88ad691295417502c0ee6f5690d894f05154f38d66da4f7c609f118ff85a43d",
+      "externalProcessWallNs": 24422779625,
+      "externalProcessWallMs": 24422.779625,
+      "outputBytes": 196211916,
+      "retainedOutputBytes": 625539825,
+      "sourceUnchanged": true
+    },
+    {
+      "profile": "ultrafast",
+      "phase": "timed",
+      "index": 1,
+      "command": [
+        "/Users/gavinbintz/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/local-driver/worker.mjs",
+        "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/local-driver/results/baseline-v1/ultrafast-timed-1/config.json"
+      ],
+      "exitCode": 0,
+      "directory": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/local-driver/results/baseline-v1/ultrafast-timed-1",
+      "compositionSha256": "e88ad691295417502c0ee6f5690d894f05154f38d66da4f7c609f118ff85a43d",
+      "externalProcessWallNs": 18969420666,
+      "externalProcessWallMs": 18969.420666,
+      "outputBytes": 196211916,
+      "retainedOutputBytes": 821751741,
+      "sourceUnchanged": true
+    },
+    {
+      "profile": "ultrafast",
+      "phase": "timed",
+      "index": 2,
+      "command": [
+        "/Users/gavinbintz/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/local-driver/worker.mjs",
+        "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/local-driver/results/baseline-v1/ultrafast-timed-2/config.json"
+      ],
+      "exitCode": 0,
+      "directory": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/local-driver/results/baseline-v1/ultrafast-timed-2",
+      "compositionSha256": "e88ad691295417502c0ee6f5690d894f05154f38d66da4f7c609f118ff85a43d",
+      "externalProcessWallNs": 11352480541,
+      "externalProcessWallMs": 11352.480541,
+      "outputBytes": 196211916,
+      "retainedOutputBytes": 1017963657,
+      "sourceUnchanged": true
+    }
+  ]
+}

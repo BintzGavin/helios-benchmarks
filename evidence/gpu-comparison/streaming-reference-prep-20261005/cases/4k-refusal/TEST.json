@@ -1,0 +1,10 @@
+{
+  "case": "4k-refusal",
+  "passed": true,
+  "expectedRefusal": "SMALL_ENVELOPE",
+  "observedError": "Refusal: SMALL_ENVELOPE",
+  "secondsExcludedFromBenchmarks": 8.542003342881799e-06,
+  "sourceUnchanged": true,
+  "GPUExecuted": false,
+  "atomicFinalExists": false
+}

@@ -1,0 +1,37 @@
+{
+  "owner": "01a0ff86-ddbd-7703-92b8-781e18082039",
+  "purpose": "excluded full-scene quality screen, not timing",
+  "sourceHelper": "58a6dfd54294015cdf444ab1a27c98f0782221b91d3dfe92cce3520e156bd0b8",
+  "scene": "Circles99kText1k",
+  "frames": 300,
+  "bitrate": 500000000,
+  "gop": 30,
+  "nativeProtocol": 4,
+  "qualityPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-h-500/quality.json",
+  "qualitySha256": "6285e571f52cd54d275e2b1b09551bd29d55b24b223d84d86fbc3b3f8d286744",
+  "adapterPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-h-500/adapter.json",
+  "adapterSha256": "bb97c08375a19e9a086249b3af2434e2598a92514cf06114e0024eb3942cadd9",
+  "passed": true,
+  "structureDecodePassed": true,
+  "qualityPassed": true,
+  "ssim": {
+    "Y": 0.999285
+  },
+  "psnr": {
+    "psnr_y": 48.73,
+    "psnr_u": 48.15,
+    "psnr_v": 48.1
+  },
+  "thresholds": {
+    "ssim": {
+      "Y": 0.995
+    },
+    "psnr": {
+      "psnr_y": 40,
+      "psnr_u": 35,
+      "psnr_v": 35
+    }
+  },
+  "newBinaryQualified": false,
+  "timingWindowOpen": false
+}

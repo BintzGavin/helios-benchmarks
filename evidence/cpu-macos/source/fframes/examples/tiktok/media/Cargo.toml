@@ -1,0 +1,15 @@
+[package]
+name = "tiktok-media"
+version = "1.0.1"
+authors = ["Dmitriy Kovalenko <dmtr.kovalenko@outlook.com>"]
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+path = "./lib.rs"
+doctest = false
+
+[dependencies]
+fframes.workspace = true
+
+

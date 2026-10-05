@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/direct-common-fframes-binding.py", line 29, in <module>
+    (out/'direct-byte-binding-v2.json').write_text(json.dumps(receipt,indent=2));print(json.dumps({'status':receipt['status'],'frames':len(hashes),'mismatches':len(mismatches)}));assert receipt['status']=='passed'
+                                                                                                                                                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,5 @@
+{
+  "excluded": true,
+  "reason": "Two keyframe VCL payloads shortened by direct FFmpeg h264_metadata filter; strict full-payload gate failed. Original and altered output retained.",
+  "newRoute": "One-frame SPS template + original direct AVCC sample payloads + copy mux; all VCL and decoded equality required."
+}

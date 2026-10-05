@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_chroma_conformance.py", line 248, in <module>
+    args=parser.parse_args();require(not args.receipt.exists() and not args.receipt.is_symlink(),'receipt exists');require(args.receipt.resolve() not in {args.source.resolve(),args.destination.resolve()},'receipt/source/output collision');result=conform(args.source,args.destination,args.codec)
+                                                                                                                                                                                                                                                      ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_chroma_conformance.py", line 156, in conform
+    stream,packets,probe=inspect(source);codec=stream['codec_name'];require(expected_codec is None or codec==expected_codec,'codec mismatch')
+                         ~~~~~~~^^^^^^^^
+  File "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_chroma_conformance.py", line 130, in inspect
+    require(s.get('has_b_frames')==0 and s['pix_fmt']=='yuv420p','requires native Main8bit420/no B frames')
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_chroma_conformance.py", line 10, in require
+    if not ok:raise Refused(message)
+              ^^^^^^^^^^^^^^^^^^^^^^
+Refused: requires native Main8bit420/no B frames

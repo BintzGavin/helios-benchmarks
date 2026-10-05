@@ -1,0 +1,13 @@
+
+> @helios-project/portable@0.0.0 test
+> tsc -p tsconfig.json && vitest run --no-file-parallelism
+
+
+ RUN  v4.1.8 /Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable
+
+
+ Test Files  33 passed (33)
+      Tests  189 passed (189)
+   Start at  17:07:32
+   Duration  65.28s (transform 318ms, setup 0ms, import 2.94s, tests 60.05s, environment 1ms)
+

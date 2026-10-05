@@ -1,0 +1,356 @@
+{
+  "scene": {
+    "width": 3840,
+    "height": 2160,
+    "frames": 300,
+    "fps": 30,
+    "name": "Circles99kText1k",
+    "source_start": 3
+  },
+  "lane": "hardware-common-converter-adapter",
+  "shared_encoder": {
+    "codec": "required-videotoolbox-h264",
+    "color": "srgb-bt709-limited-nv12",
+    "pool": 3,
+    "gop": 30,
+    "bitrate": 300000000
+  },
+  "four_balanced_rounds": true,
+  "hardware_contract_gate": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/check-common-output.py",
+  "reclaim_mux_intermediates": true,
+  "mux_reclaimer": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/reclaim-single-mux.py",
+  "quality_floors": {
+    "ssimY": 0.995,
+    "psnrY": 40,
+    "psnrU": 35,
+    "psnrV": 35
+  },
+  "timingContract": "fresh adapter process startup through font/media setup, scene construction, raster, conversion, command transport, hardware encode, drain, mux and write; delivered adds exactly one full decode; all quality/GOP/color/ledger/reconstruction checks excluded",
+  "engines": [
+    {
+      "id": "H",
+      "command": [
+        "/opt/homebrew/bin/node",
+        "--import",
+        "/Users/gavinbintz/.codex/worktrees/native-gpu-rendering/helios/node_modules/tsx/dist/loader.mjs",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/export-circles-common-binary.mts",
+        "H",
+        "hardware",
+        "{output}",
+        "300",
+        "300000000"
+      ],
+      "cwd": "/Users/gavinbintz/Documents/Codex/2026-10-02/task",
+      "source_pin": "449933aec6516697457a3163a2cf6b1b68a57a96",
+      "backend": "Metal/Skia",
+      "codec": "required VideoToolboxH264",
+      "ready": true,
+      "reference": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-reference-h/reference.mkv",
+      "reference_sha256": "20d90cd5638387f4a5a7bf60028c9af380d1b8f7085612aa4c511177465727b3",
+      "gpu_evidence": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-binary-gpu-attestation.json",
+      "runtime_attestation_reviewed": true,
+      "screen_quality": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-screen-h-300/quality.json",
+      "screen_quality_sha256": "338695080313a176f1d4570b0ef59987bb37bc4467c890638b8a81c398503477",
+      "screen_quality_passed": true,
+      "encoding": {
+        "codec": "required-videotoolbox-h264",
+        "color": "srgb-bt709-limited-nv12",
+        "pool": 3,
+        "gop": 30,
+        "bitrate": 300000000
+      },
+      "serial_rasterizer": true,
+      "file_bindings": [
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/export-circles-common-binary.mts",
+          "sha256": "3709bc741735802679bba70a3c320431ef2aa870b65a61303fa4556936a34f49"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/circles-scene.mts",
+          "sha256": "4d6cd76f513a233d28e9546310ac927b479f180d57c4cce5a56435accfbb54f7"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/check-common-output.py",
+          "sha256": "bf55df54125a1b5f3632a3d54b8821fa3c54b596c923fe553eb57123ff3ad5f8"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/reclaim-single-mux.py",
+          "sha256": "fcefa264abf02620dd0a1fe21b2781bff490fcd83ffeea52abf0c538e8ef4274"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/preparation/unpacked/helios-gpu-comparison-prep/run_matrix.py",
+          "sha256": "b8615e2978febbbf70b91241468ec6cc1054a0acc34974ef6fa07f042c147d54"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/preparation/unpacked/helios-gpu-comparison-prep/validate_video.py",
+          "sha256": "f5fbf7c131ca8b7c73daa7cd16fbbd50f1f0c102aa7c7d167462f3898830cf6b"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/preparation/unpacked/helios-gpu-comparison-prep/DM-Sans.ttf",
+          "sha256": "9ae2da663d64342031e59b5fa680dd355171d021b7ebf83774efc7c0330ae7b5"
+        },
+        {
+          "path": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/src/gpu.ts",
+          "sha256": "8c6dbb20e23e4fc4b8751371f2ae16ef7480d2eec7af4d901a612ac9f7aea882"
+        },
+        {
+          "path": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/src/gpu-commands.ts",
+          "sha256": "bfca2d2211e84cea382fd4895227dbb5dc2772d33737e29b61fa0667119d3b6e"
+        },
+        {
+          "path": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/src/plan.ts",
+          "sha256": "9c63cf0cbd592d2dfdb15cefb70d697fe3f4ff1297b75d1100d34d46f6d58285"
+        },
+        {
+          "path": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/src/render.ts",
+          "sha256": "9515947614a68352082527c259a134ad99c8810459175632cc8579b2118d41f8"
+        },
+        {
+          "path": "/opt/homebrew/bin/node",
+          "sha256": "d9d8b2f7b67c73ef75d90ec7a981be82f2242fc5a1a26c217e250b00ed97c849"
+        },
+        {
+          "path": "/opt/homebrew/bin/ffmpeg",
+          "sha256": "1ede5c7fd4e97d832ec69c97c78231875de7d69c55423158f5f4a4d923227dd5"
+        },
+        {
+          "path": "/opt/homebrew/bin/ffprobe",
+          "sha256": "258fa480850eec6cf7b6831b2d3edd164cdd2f9ddb7a14965dc9fdaf9d175ff7"
+        },
+        {
+          "path": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/native/target/release/helios-gpu",
+          "sha256": "1383da791a588731101f6dd22bea8e911d4bc97243b7f01541214981afc90ecc"
+        },
+        {
+          "path": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/src/gpu.ts",
+          "sha256": "8c6dbb20e23e4fc4b8751371f2ae16ef7480d2eec7af4d901a612ac9f7aea882"
+        },
+        {
+          "path": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/src/gpu-commands.ts",
+          "sha256": "bfca2d2211e84cea382fd4895227dbb5dc2772d33737e29b61fa0667119d3b6e"
+        },
+        {
+          "path": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/native/src/main.rs",
+          "sha256": "9d43b8da06f97121b6b998caebc1c9062b3c69afc115a1e2b6dc4433b523be3c"
+        },
+        {
+          "path": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/native/src/binary.rs",
+          "sha256": "87521b21b9370d9a1d4067d3310bc30c80d77d089132cd331b3e42a730d06d43"
+        },
+        {
+          "path": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/native/metal.mm",
+          "sha256": "d4ffc5b30b9dd208ee438b1519fb76dee23e33c42ff619b3875eec29afb49ee9"
+        },
+        {
+          "path": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/native/encoder-flight.hpp",
+          "sha256": "e621ea35a3006cf687b50cb5c859b4610c76a0068c0cc0fb09e30985c4c3b02a"
+        },
+        {
+          "path": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/native/build.rs",
+          "sha256": "4316755700b94781f9f9425cf5af3ce4330bdfaf862051e451d34b5d1991d1e6"
+        },
+        {
+          "path": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/native/Cargo.toml",
+          "sha256": "24a3232ef28a9556bd44c0e87aa8c460dda7e8b2be74141246e1bed4b3c933ec"
+        },
+        {
+          "path": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/native/Cargo.lock",
+          "sha256": "46fe52b24821ea898032b88a13cf768d70d2ccea006f18f1843d53f866fd99a4"
+        },
+        {
+          "path": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/benchmarks/gpu.ts",
+          "sha256": "880b2385cacfb6984c2de93353f7b60cb71fc60f77e69ab5aa10bc4367769954"
+        },
+        {
+          "path": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/benchmarks/gpu-quality.ts",
+          "sha256": "6c7450272e2c5901eb3a7492e2926194dc8fe4611f5ddd8850cc072c9ae4dad0"
+        },
+        {
+          "path": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/tests/gpu-transport.test.ts",
+          "sha256": "853287bacbea37dc8aac6eda892adaf336144c603ab8e181de29d2f4c9701e24"
+        },
+        {
+          "path": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/tests/fixtures/fonts/NotoSans-Regular.ttf",
+          "sha256": "b85c38ecea8a7cfb39c24e395a4007474fa5a4fc864f6ee33309eb4948d232d5"
+        },
+        {
+          "path": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/src/render.ts",
+          "sha256": "9515947614a68352082527c259a134ad99c8810459175632cc8579b2118d41f8"
+        },
+        {
+          "path": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/src/plan.ts",
+          "sha256": "9c63cf0cbd592d2dfdb15cefb70d697fe3f4ff1297b75d1100d34d46f6d58285"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/binary-transport-source-check.json",
+          "sha256": "9117acf44f5d1fce70a826a280956e23934b2e9f97515871f6694e8d1bec36d0"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-binary-gpu-attestation.json",
+          "sha256": "9c45aceee934fcc62815c7fb753830d68786cbb35c25642a760f18a9b42037e8"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-reference-h/direct-byte-binding-binary-helper.json",
+          "sha256": "7745420290867345046c59b9a5bd8d490d9b4fa3b9536ed3c8f2ce8e592c4cb4"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-screen-h-300/hardware-contract.json",
+          "sha256": "2ad089ab20c2c9f39f35a5a343902e24c1b13419bdf31d6aed1d920fe6a3843a"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-screen-h-300/adapter.json",
+          "sha256": "9466a66ae7d8785daa2101e81a9bf6dfe1e0cc627a5072c01c3a9a39d4832c7a"
+        }
+      ]
+    },
+    {
+      "id": "F",
+      "command": [
+        "/opt/homebrew/bin/node",
+        "--import",
+        "/Users/gavinbintz/.codex/worktrees/native-gpu-rendering/helios/node_modules/tsx/dist/loader.mjs",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/export-circles-common-binary.mts",
+        "F",
+        "hardware",
+        "{output}",
+        "300",
+        "300000000"
+      ],
+      "cwd": "/Users/gavinbintz/Documents/Codex/2026-10-02/task",
+      "source_pin": "fframesf89cbd572524b70a709ba3569fa23b0bbc8a0d9c + svgr1c2a088217eb3365e965fd8dbd62acf265a07d33 + separately labeled task common converter adapter",
+      "backend": "Metal/Skia",
+      "codec": "required VideoToolboxH264",
+      "ready": true,
+      "reference": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-reference-f-v2/reference.mkv",
+      "reference_sha256": "3894116770d7d733eb49724f9fe2dd9cc96b13561f6a2d8cb0c597eea6ebcbc5",
+      "gpu_evidence": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/common-converter-gpu-attestation-v2.json",
+      "runtime_attestation_reviewed": true,
+      "screen_quality": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-300/quality.json",
+      "screen_quality_sha256": "e0d671439b0df0defda776fb2b2f343af1e84de724b2747d5442850b74e33b6b",
+      "screen_quality_passed": true,
+      "encoding": {
+        "codec": "required-videotoolbox-h264",
+        "color": "srgb-bt709-limited-nv12",
+        "pool": 3,
+        "gop": 30,
+        "bitrate": 300000000
+      },
+      "serial_rasterizer": true,
+      "file_bindings": [
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/export-circles-common-binary.mts",
+          "sha256": "3709bc741735802679bba70a3c320431ef2aa870b65a61303fa4556936a34f49"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/circles-scene.mts",
+          "sha256": "4d6cd76f513a233d28e9546310ac927b479f180d57c4cce5a56435accfbb54f7"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/check-common-output.py",
+          "sha256": "bf55df54125a1b5f3632a3d54b8821fa3c54b596c923fe553eb57123ff3ad5f8"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/reclaim-single-mux.py",
+          "sha256": "fcefa264abf02620dd0a1fe21b2781bff490fcd83ffeea52abf0c538e8ef4274"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/preparation/unpacked/helios-gpu-comparison-prep/run_matrix.py",
+          "sha256": "b8615e2978febbbf70b91241468ec6cc1054a0acc34974ef6fa07f042c147d54"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/preparation/unpacked/helios-gpu-comparison-prep/validate_video.py",
+          "sha256": "f5fbf7c131ca8b7c73daa7cd16fbbd50f1f0c102aa7c7d167462f3898830cf6b"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/preparation/unpacked/helios-gpu-comparison-prep/DM-Sans.ttf",
+          "sha256": "9ae2da663d64342031e59b5fa680dd355171d021b7ebf83774efc7c0330ae7b5"
+        },
+        {
+          "path": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/src/gpu.ts",
+          "sha256": "8c6dbb20e23e4fc4b8751371f2ae16ef7480d2eec7af4d901a612ac9f7aea882"
+        },
+        {
+          "path": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/src/gpu-commands.ts",
+          "sha256": "bfca2d2211e84cea382fd4895227dbb5dc2772d33737e29b61fa0667119d3b6e"
+        },
+        {
+          "path": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/src/plan.ts",
+          "sha256": "9c63cf0cbd592d2dfdb15cefb70d697fe3f4ff1297b75d1100d34d46f6d58285"
+        },
+        {
+          "path": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/src/render.ts",
+          "sha256": "9515947614a68352082527c259a134ad99c8810459175632cc8579b2118d41f8"
+        },
+        {
+          "path": "/opt/homebrew/bin/node",
+          "sha256": "d9d8b2f7b67c73ef75d90ec7a981be82f2242fc5a1a26c217e250b00ed97c849"
+        },
+        {
+          "path": "/opt/homebrew/bin/ffmpeg",
+          "sha256": "1ede5c7fd4e97d832ec69c97c78231875de7d69c55423158f5f4a4d923227dd5"
+        },
+        {
+          "path": "/opt/homebrew/bin/ffprobe",
+          "sha256": "258fa480850eec6cf7b6831b2d3edd164cdd2f9ddb7a14965dc9fdaf9d175ff7"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/circles-common-gpu-adapter",
+          "sha256": "0e788dc176e7577f3736eb335e9b7cf0ce0189f592659abd1afa940619549f4d"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-common-gpu/common-converter.dylib",
+          "sha256": "f560c0f17d7d401defe8dfb6fa14c6b8d49dfbe9b767e1f30079807ef74b9387"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-common-gpu/common-converter.mm",
+          "sha256": "03f7b287c328a11d68b913e987f4e774f18293635e4bba962de86bd0a61ef8ce"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-common-gpu/encoder-flight.hpp",
+          "sha256": "e621ea35a3006cf687b50cb5c859b4610c76a0068c0cc0fb09e30985c4c3b02a"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-circles-claim/render-bench/vs-remotion/src/bin/circles-common-gpu-adapter.rs",
+          "sha256": "d85514f0b037db32c25806ed62853d97237a306513a1b19e9c2ef5460de87906"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-circles-claim/Cargo.toml",
+          "sha256": "ddb76fbbee637e933fdfdb388f28ce04b439ef5e6df309b94518db07fae83448"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-circles-claim/Cargo.lock",
+          "sha256": "b94f508dc66fa339eecffa793f2ef9e5782b63a8b2506c9b9d65d98c07347441"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-source-pins.json",
+          "sha256": "723d73569a05a6ecde5b7241a120d8b4a57d615ad74884789f0eb241fa79b497"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/common-converter-gpu-attestation-v2.json",
+          "sha256": "d8ece77d2b52d6d8b0f3f89c9154caa0f28fad48f9d507e9fb09ce88dba15e56"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-reference-f-v2/direct-byte-binding.json",
+          "sha256": "6dfabc48ea07e1972ab3a97f5ab82cb8758104f926d89bba982f80e14dbf6ca8"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-300/hardware-contract.json",
+          "sha256": "4f87a9330d0ccf0f1144dece108de24f0af974b435175bacfa652f54210847b3"
+        },
+        {
+          "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-300/adapter.json",
+          "sha256": "2f155b3d9eb92ebb8b0093fc9dfe736ff068046e4b83bdc8a7aeeda8fd90346d"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Documented public-scene replication, not exact unrecoverable uncommitted source of the M5Max claim",
+    "Whole export pipeline, not isolated GPU throughput",
+    "F uses optimizedSVG and serial Skia0.153.3 hardware surfaces plus one disclosed additionalGPUcopy into common converter; original product MaxPerformance pipeline is separate",
+    "H uses TS Canvas binary transport and Skia0.91",
+    "Own lossless references permit renderer antialias/text differences; F independent raster variance remains recorded",
+    "No total zero-copy claim; hidden transfers unknown",
+    "Matched300Mbps is lowest tested passing shared setting, not proof of global optimal bitrate; settings differ from separate8Mbps/M5Max single-run claim"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "frozenUtc": "2026-10-02T21:43:21Z",
+  "study": "cpu-only Linux TextGrid holdout",
+  "machineBudget": {
+    "availableParallelism": 2,
+    "logicalCpus": 2,
+    "physicalCoresDiscoverable": 1,
+    "cpuset": "0-1",
+    "cpuQuota": "max 100000",
+    "workloadMemoryBytes": 3221225472
+  },
+  "selectionMethod": "Resource-derived without timing-based tuning: two workers and one x264 thread per worker/active encoder, matching the two-CPU cpuset. No candidate timing screen was run.",
+  "qualification": {
+    "manifest": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/qualification-v1/manifest.json",
+    "sha256": "cdcec6039168bdd56266b67becffa5f689b9cd121ccb0e88794fb2177952f632",
+    "allThreeMediumProfilesEligible": true,
+    "excludedFromHoldoutMedians": true
+  },
+  "profiles": [
+    {"id": "H-medium-w2-t1", "engine": "H", "preset": "medium", "workers": 2, "encoderThreads": 1},
+    {"id": "F-medium-w2-t1", "engine": "F", "preset": "medium", "workers": 2, "encoderThreads": 1},
+    {"id": "R-medium-w2-t1", "engine": "R", "preset": "medium", "workers": 2, "encoderThreads": 1, "jpegQuality": 100},
+    {"id": "H-ultrafast-w2-t1", "engine": "H", "preset": "ultrafast", "workers": 2, "encoderThreads": 1},
+    {"id": "F-ultrafast-w2-t1", "engine": "F", "preset": "ultrafast", "workers": 2, "encoderThreads": 1},
+    {"id": "R-ultrafast-w2-t1", "engine": "R", "preset": "ultrafast", "workers": 2, "encoderThreads": 1, "jpegQuality": 100}
+  ],
+  "concurrencySemantics": {
+    "H": "Two concurrently active segment encoders, one x264 thread each: initial aggregate encoder budget two threads.",
+    "F": "Two concurrently active segment encoders, one x264 thread each: initial aggregate encoder budget two threads.",
+    "R": "Two renderer workers; one x264 thread per active encoder. Qualification emitted one non-copy stitcher encoder, so observed active encoding budget was one x264 thread; renderer workers consumed the two-CPU raster budget. Renderer concurrency does not imply two simultaneous encoders."
+  },
+  "clock": "Fresh process through drawing/rasterization, encoding, required fframes ultrafast edit-list repair, and one final two-thread full-decode validation. Hashing, encoder inspection, cadence, references, and quality are outside the delivered clock.",
+  "warmups": "One excluded warmup per profile.",
+  "timedOrdersPerPreset": [["H", "F", "R"], ["F", "R", "H"], ["R", "H", "F"]],
+  "qualityFloor": {"ssimY": 0.995, "psnrYDb": 40, "psnrUDb": 35, "psnrVDb": 35},
+  "codec": {"codec": "software libx264", "crf": 11, "gop": 24, "pixelFormat": "yuv420p", "colorSpace": "BT.601 limited range"},
+  "runnerSha256": "50be4d42861d234f396c86afe22a580601d524d48b3515a11c810406220257f4",
+  "qualityOperatorSha256": "4509b9f78431974971da8fcfbfa73d61c6e2cfaa947193e7a76849d83b24ddb2"
+}

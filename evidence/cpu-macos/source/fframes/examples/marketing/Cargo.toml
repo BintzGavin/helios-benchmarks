@@ -1,0 +1,15 @@
+[package]
+name = "marketing-example"
+version = "1.0.1"
+edition = "2024"
+
+[dependencies]
+fframes = { workspace = true, features = ["h265", "libav-agree-gpl"] }
+
+[dev-dependencies]
+fframes_test_utils = { path = "../../fframes-test-utils" }
+futures = "0.3.17"
+
+[features]
+default=["renderer"]
+renderer = ["fframes/compile-time-svgtree", "fframes/cli"]

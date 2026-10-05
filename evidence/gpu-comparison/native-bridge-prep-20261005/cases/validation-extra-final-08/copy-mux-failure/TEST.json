@@ -1,0 +1,55 @@
+{
+  "test": "copy-mux-failure",
+  "passed": true,
+  "refusal": "Refusal:COPY-MUX_EXIT:234",
+  "fixturePin": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/fixtures/broken-elementary.h265",
+    "bytes": 24,
+    "sha256": "303d00df6e182723bc1a2f7ecc2b8d50a1c20e52ff170a3f174dbbbfb55e23f8"
+  },
+  "processes": [
+    {
+      "label": "native-stdout-driver",
+      "argv": [
+        "/opt/homebrew/Cellar/node@22/22.23.1/bin/node",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_stdout_bridge.mjs",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-extra-final-08/copy-mux-failure/attempt-7ce3f3a8cc15405187d23e22c7706026/ISSUED-SPEC.json"
+      ],
+      "pid": 6818,
+      "processGroup": 6818,
+      "spawnMonotonic": 239575.750590125,
+      "exit": 0
+    },
+    {
+      "label": "copy-mux",
+      "argv": [
+        "/opt/homebrew/Cellar/ffmpeg/9.0.2/bin/ffmpeg",
+        "-v",
+        "error",
+        "-xerror",
+        "-n",
+        "-r",
+        "30000/1001",
+        "-f",
+        "hevc",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-extra-final-08/copy-mux-failure/attempt-7ce3f3a8cc15405187d23e22c7706026/elementary.h265",
+        "-c:v",
+        "copy",
+        "-an",
+        "-video_track_timescale",
+        "30000",
+        "-movflags",
+        "+faststart",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-extra-final-08/copy-mux-failure/attempt-7ce3f3a8cc15405187d23e22c7706026/original.mp4"
+      ],
+      "pid": 6820,
+      "processGroup": 6820,
+      "spawnMonotonic": 239575.970710208,
+      "exit": 234
+    }
+  ],
+  "directProcessesReaped": true,
+  "GPUExecuted": false,
+  "hardwareQualified": false
+}

@@ -1,0 +1,79 @@
+{
+  "engine": "H",
+  "mode": "hardware",
+  "frames": 300,
+  "bitrate": 8000000,
+  "sourceFrameRange": [
+    3,
+    303
+  ],
+  "gop": 30,
+  "scene": "Circles99kText1k",
+  "fontSha256": "9ae2da663d64342031e59b5fa680dd355171d021b7ebf83774efc7c0330ae7b5",
+  "executableSha256": "4b2b2598a4604be3104e284fec7d5d1cc3368acf1917e3e1e23ce76a1f0ac6ca",
+  "commands": [
+    {
+      "command": "/Users/gavinbintz/.codex/worktrees/gpu-circles-gop/helios/packages/portable/native/target/release/helios-gpu",
+      "args": [
+        "encode",
+        "3840",
+        "2160",
+        "30",
+        "1",
+        "8000000",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-h-8/elementary.h264",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-h-8/transfer.jsonl",
+        "",
+        "30"
+      ]
+    },
+    {
+      "command": "/opt/homebrew/bin/ffmpeg",
+      "args": [
+        "-v",
+        "error",
+        "-y",
+        "-r",
+        "30",
+        "-f",
+        "h264",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-h-8/elementary.h264",
+        "-c:v",
+        "copy",
+        "-an",
+        "-video_track_timescale",
+        "30",
+        "-movflags",
+        "+faststart",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-h-8/video.mp4"
+      ]
+    }
+  ],
+  "status": "complete",
+  "zeroCopyProved": false,
+  "rawReadback": false,
+  "verificationOwner": "run_matrix.py; one full post-export decode plus independent cadence/fidelity gates",
+  "startedAt": "2026-10-03T16:50:31.524Z",
+  "producer": {
+    "code": 0,
+    "signal": null,
+    "stderr": ""
+  },
+  "nativeReceipt": {
+    "encoder": "videotoolbox",
+    "explicitRawReadbackBytes": 0,
+    "frames": 300,
+    "gop": 30,
+    "protocol": 2,
+    "rasterizer": "skia-metal",
+    "zeroCopyProved": false
+  },
+  "mux": {
+    "code": 0,
+    "signal": null,
+    "stderr": ""
+  },
+  "exportMs": 59112.392042,
+  "finishedAt": "2026-10-03T16:51:30.640Z"
+}

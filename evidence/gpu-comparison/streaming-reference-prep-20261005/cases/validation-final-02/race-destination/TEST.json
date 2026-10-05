@@ -1,0 +1,10 @@
+{
+  "case": "race-destination",
+  "passed": true,
+  "expectedRefusal": "File exists",
+  "observedError": "FileExistsError: [Errno 17] File exists: '/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/streaming-reference-prep-20261005/cases/validation-final-02/race-destination/result'",
+  "secondsExcludedFromBenchmarks": 0.11431841700687073,
+  "sourceUnchanged": true,
+  "GPUExecuted": false,
+  "atomicFinalExists": false
+}

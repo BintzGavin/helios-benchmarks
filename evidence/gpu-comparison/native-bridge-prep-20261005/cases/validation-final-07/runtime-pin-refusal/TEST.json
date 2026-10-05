@@ -1,0 +1,10 @@
+{
+  "test": "runtime-pin-refusal",
+  "passed": true,
+  "expectedRefusal": "PIN_MISMATCH",
+  "observedError": "Refusal:PIN_MISMATCH:/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_stdout_bridge.mjs",
+  "secondsExcludedFromBenchmark": 0.006101417005993426,
+  "GPUExecuted": false,
+  "sourceUnchanged": true,
+  "publishedFixtureBinding": false
+}

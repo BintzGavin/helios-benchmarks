@@ -1,0 +1,28 @@
+{
+  "sourceCommit": "f89cbd572524b70a709ba3569fa23b0bbc8a0d9c",
+  "argv": [
+    "/opt/homebrew/bin/cargo",
+    "rustc",
+    "--release",
+    "--locked",
+    "-p",
+    "vs-remotion-bench",
+    "--bin",
+    "circles-common-gpu-adapter",
+    "--target-dir",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current",
+    "--",
+    "-C",
+    "link-arg=/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-common-gpu/common-converter.dylib"
+  ],
+  "cwd": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-circles-claim",
+  "optimizedUsvgr": "1c2a088217eb3365e965fd8dbd62acf265a07d33",
+  "exactOriginalClaimSource": false,
+  "benchmarkTiming": false,
+  "status": "completed",
+  "startedUnix": 1791048640.0220249,
+  "pid": 982,
+  "returncode": 0,
+  "finishedUnix": 1791048643.698167,
+  "wallSeconds": 3.6761422157287598
+}

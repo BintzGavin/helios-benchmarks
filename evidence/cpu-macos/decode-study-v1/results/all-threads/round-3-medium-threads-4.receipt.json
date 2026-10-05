@@ -1,0 +1,29 @@
+{
+  "round": 3,
+  "profile": "medium",
+  "threads": 4,
+  "command": [
+    "/opt/homebrew/bin/ffprobe",
+    "-v",
+    "error",
+    "-threads",
+    "4",
+    "-count_frames",
+    "-show_streams",
+    "-show_format",
+    "-of",
+    "json",
+    "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/local-driver/results/baseline-v1/medium-timed-1/output.mp4"
+  ],
+  "command_shell": "/opt/homebrew/bin/ffprobe -v error -threads 4 -count_frames -show_streams -show_format -of json /Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/local-driver/results/baseline-v1/medium-timed-1/output.mp4",
+  "elapsed_ns": 5101404125,
+  "exit_code": 0,
+  "metadata": {
+    "codec_name": "h264",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "30/1",
+    "nb_read_frames": "300",
+    "duration": "10"
+  }
+}

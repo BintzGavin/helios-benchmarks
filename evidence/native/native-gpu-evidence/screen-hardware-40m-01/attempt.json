@@ -1,0 +1,27 @@
+{
+  "status": "complete",
+  "purpose": "screen",
+  "mode": "hardware",
+  "timingQualified": false,
+  "frames": 300,
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "nodes": 3334,
+  "fontSha256": "9ae2da663d64342031e59b5fa680dd355171d021b7ebf83774efc7c0330ae7b5",
+  "nativeSha256": "bd92a7608b5bba6bf8dca48db0b4ee03870bc14e0840302441ca00663e2f0349",
+  "bitrate": 40000000,
+  "software": {
+    "preset": "medium",
+    "crf": 11,
+    "threads": 2,
+    "colorConversion": "srgb-bt709"
+  },
+  "rawReadback": false,
+  "zeroCopyProved": false,
+  "startedAt": "2026-10-03T13:20:37.127Z",
+  "renderingMs": 5121.4562909999995,
+  "verificationMs": 4980.470459000001,
+  "output": "/private/tmp/helios-gpu-evidence/screen-hardware-40m-01/video.mp4",
+  "finishedAt": "2026-10-03T13:20:47.232Z"
+}

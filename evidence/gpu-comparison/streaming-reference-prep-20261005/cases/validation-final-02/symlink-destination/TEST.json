@@ -1,0 +1,10 @@
+{
+  "case": "symlink-destination",
+  "passed": true,
+  "expectedRefusal": "EXISTING_DESTINATION",
+  "observedError": "Refusal: EXISTING_DESTINATION",
+  "secondsExcludedFromBenchmarks": 0.011830165982246399,
+  "sourceUnchanged": true,
+  "GPUExecuted": false,
+  "atomicFinalExists": false
+}

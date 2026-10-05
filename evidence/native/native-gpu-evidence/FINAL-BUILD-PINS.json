@@ -1,0 +1,59 @@
+{
+  "sources": [
+    {
+      "path": "packages/portable/native/src/main.rs",
+      "sha256": "a2e7c537fb0a696aa6b0407d768a753016e00f07195cba376f790d3142b129a3"
+    },
+    {
+      "path": "packages/portable/native/metal.mm",
+      "sha256": "fe9b025aa88411f5c64e73aa2e40d1e6d552a8e422ca512f7e8eb7e55cc76d63"
+    },
+    {
+      "path": "packages/portable/native/Cargo.lock",
+      "sha256": "46fe52b24821ea898032b88a13cf768d70d2ccea006f18f1843d53f866fd99a4"
+    },
+    {
+      "path": "packages/portable/native/Cargo.toml",
+      "sha256": "24a3232ef28a9556bd44c0e87aa8c460dda7e8b2be74141246e1bed4b3c933ec"
+    },
+    {
+      "path": "packages/portable/native/build.rs",
+      "sha256": "968e1e6b10a2d33f9cbad56e9339a307bed862aa98ebfc14272415d15f04ae3d"
+    },
+    {
+      "path": "packages/portable/src/gpu.ts",
+      "sha256": "cdd2de59073569bb6aacc3b7d87be25b01b5be7ae0fe2e829c825fa70a247437"
+    },
+    {
+      "path": "packages/portable/benchmarks/gpu.ts",
+      "sha256": "d2bb892ca354369cd3e5580572c968028c9a40fa5175a61d394efd2971e672d6"
+    },
+    {
+      "path": "packages/portable/benchmarks/gpu-reference.ts",
+      "sha256": "31e425a02933c957da72bce5682e7efc9e61f0ba2900ed7c7a6a40e62cd42eeb"
+    },
+    {
+      "path": "packages/portable/benchmarks/gpu-quality.ts",
+      "sha256": "531bc802baf508703eaa14969148645a0d66b200e237bc3053396e61bc6d9f89"
+    },
+    {
+      "path": "packages/portable/benchmarks/gpu-chromium.ts",
+      "sha256": "ffdc2126d32de30f1499d99b505dc9dcd11835ff44f335f317826bf0b192a2c8"
+    },
+    {
+      "path": "packages/portable/benchmarks/fframes-textgrid.mjs",
+      "sha256": "e3bc82a2cd5461136a1ee388e2a2e27eaf03937b5f65169c18630bbf9fe8df67"
+    },
+    {
+      "path": "packages/portable/benchmarks/profile-gpu.mm",
+      "sha256": "6ed403ae9f17384fb2ac47a6323b7f71a129410a380b7ff573eaef86dadfd4be"
+    }
+  ],
+  "chromeVersion": "154.0.8037.97",
+  "chromeFrameworkSha256": "30597be367d698d01ea4b18e0fbe27f023a8f078bac180f0d1766ceda9b4fe86",
+  "nativeExecutable": "/Users/gavinbintz/.codex/worktrees/native-gpu-rendering/helios/packages/portable/native/target/release/helios-gpu",
+  "skiaPrebuiltUrl": "https://github.com/rust-skia/skia-binaries/releases/download/0.91.0/skia-binaries-fab0a5adad3361364d3e-aarch64-apple-darwin-metal-pdf-svg-textlayout-webpd-webpe.tar.gz",
+  "skiaMilestone": 143,
+  "cargoHome": "/private/tmp/helios-gpu-cargo",
+  "note": "Official skia-safe/skia-bindings0.91.0, locked Cargo dependency checksums; prebuilt download succeeded. This archive is not ABI-compatible evidence for upstream fframes skia-safe0.153.3."
+}

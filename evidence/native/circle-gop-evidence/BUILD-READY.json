@@ -1,0 +1,79 @@
+{
+  "status": "circle-gop-build-ready-small-host-qualification",
+  "commit": "ed0cc7575cb4ce2d2e19be943ca5b4e54363ba39",
+  "branch": "gavin/feat-gpu-circles-gop",
+  "pr": "https://github.com/BintzGavin/helios/pull/5011",
+  "worktree": "/Users/gavinbintz/.codex/worktrees/gpu-circles-gop/helios",
+  "helper": "/Users/gavinbintz/.codex/worktrees/gpu-circles-gop/helios/packages/portable/native/target/release/helios-gpu",
+  "helperSha256": "4b2b2598a4604be3104e284fec7d5d1cc3368acf1917e3e1e23ce76a1f0ac6ca",
+  "frozenBaselineSha256": "87aec3f3d39db8956490942429e6a865741c04515ad6b98753aaf6599c197a90",
+  "protocol": 2,
+  "defaultGop": 90,
+  "explicitClaimGop": 30,
+  "build": "cargo build --release --locked --offline, copied independent build cache",
+  "rust": "1.97.1",
+  "node": "v22.23.1",
+  "skiaSafe": "0.91.0",
+  "skia": "143",
+  "host": "Apple M3 Pro macOS26.3 arm64",
+  "sources": [
+    {
+      "path": "packages/portable/src/gpu.ts",
+      "sha256": "7c048d888928423e8409b104a025cab881717174365d950b11018a480754b089"
+    },
+    {
+      "path": "packages/portable/native/src/main.rs",
+      "sha256": "df6476b5fce2b5a7744405b622742b7306c91b59792d71e0990ec870b77e5715"
+    },
+    {
+      "path": "packages/portable/native/metal.mm",
+      "sha256": "bc6c8f0fbf6572e40b4d8429737f77b1617cfca137854a8799155a5c793a4f80"
+    },
+    {
+      "path": "packages/portable/native/build.rs",
+      "sha256": "968e1e6b10a2d33f9cbad56e9339a307bed862aa98ebfc14272415d15f04ae3d"
+    },
+    {
+      "path": "packages/portable/native/Cargo.toml",
+      "sha256": "24a3232ef28a9556bd44c0e87aa8c460dda7e8b2be74141246e1bed4b3c933ec"
+    },
+    {
+      "path": "packages/portable/native/Cargo.lock",
+      "sha256": "46fe52b24821ea898032b88a13cf768d70d2ccea006f18f1843d53f866fd99a4"
+    },
+    {
+      "path": "packages/portable/benchmarks/gpu.ts",
+      "sha256": "173801bd44041022592678155a2bb0619e2ed7b6e2018cb659ff3fa256cf5778"
+    },
+    {
+      "path": "packages/portable/benchmarks/gpu-quality.ts",
+      "sha256": "b726d68a095b77f848b6702b9b0b3471d9c8eb42a3680370896d2bbdd6ad5993"
+    },
+    {
+      "path": "packages/portable/benchmarks/profile-gpu.mm",
+      "sha256": "6ed403ae9f17384fb2ac47a6323b7f71a129410a380b7ff573eaef86dadfd4be"
+    },
+    {
+      "path": "packages/portable/tests/gpu-circle.test.ts",
+      "sha256": "2fd543ed4be2ea38c8bfd4e2a41d0803596a6371fa23dd7a1fefc3be4188b5ae"
+    },
+    {
+      "path": "packages/portable/tests/gpu-native.test.ts",
+      "sha256": "31451656ab5e94b5c2fe33312f7485f4519a5ff2c8a0725178f0057d23dcf5d8"
+    }
+  ],
+  "verification": {
+    "portable": "212 tests across37 files",
+    "nativeBoundary": "2 passed",
+    "focusedMutations": "6/6 killed; native FFI/concurrency excluded",
+    "initFaults": "device and encoder fail closed",
+    "actualGPU": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/circle-gop-evidence/smoke-01/REPORT.json",
+    "keyframeSpacing": "95 changing frames at GOP30, every gap <=30",
+    "typeAndBuild": "passed"
+  },
+  "full4K300Qualified": false,
+  "speedClaim": false,
+  "zeroCopyProved": false,
+  "comparisonOwner": "01a0ff86-ddbd-7703-92b8-781e18082039",
+  "archiveSha256": "7d919480c49c3e1c53243942e02613ee6c5985793c8f09004d0e1c70a6c33a29"
+}

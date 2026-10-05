@@ -1,0 +1,63 @@
+{
+  "status": "two bounded harness slices frozen; broad comparison active and blocked",
+  "deliveries": [
+    {
+      "status": "bounded copied-fixture streaming storage tests passed",
+      "report": {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/streaming-reference-prep-20261005/FINAL-REPORT.json",
+        "bytes": 2016,
+        "sha256": "5c60523b593415da76e93a0f6c3fc1194507010818e8e627708bbcdd44bc8028"
+      },
+      "manifest": {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/streaming-reference-prep-20261005/RECEIPT-MANIFEST.json",
+        "bytes": 120211,
+        "sha256": "451ee7df0dead74f14ee13ef86b6b37d78ca8e996e07059bdfe28311810a2a34"
+      },
+      "package": {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/streaming-bounded-prep-source-receipts-20261005.zip",
+        "bytes": 4997601,
+        "sha256": "8f9b13763ec388aa9ba7a163b946ccc5b559e56c31c8accb20de55ce3cc3e17c",
+        "entries": 573,
+        "crcPassed": true
+      },
+      "confirmedLibraryIds": [],
+      "broaderObjectiveComplete": false,
+      "timingWindowOpen": false
+    },
+    {
+      "status": "CPU orchestration/profile preparation passed; actual GPU execution unqualified",
+      "report": {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/codec-orchestration-prep-20261005/FINAL-REPORT.json",
+        "bytes": 1763,
+        "sha256": "e3fa7294ebc21bc3e23ad4154b1a73dfa03dc4c69f7d3a89c2b4adbc8ba884ca"
+      },
+      "manifest": {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/codec-orchestration-prep-20261005/RECEIPT-MANIFEST.json",
+        "bytes": 25753,
+        "sha256": "287a4d70f3b1ecc638cdc34b1e94bd0460d29b5e8d5d1ef7eca0371725c86d41"
+      },
+      "package": {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/codec-bounded-prep-source-receipts-20261005.zip",
+        "bytes": 1527836,
+        "sha256": "2e5f6676a534fc33d4f790ad7af9fd28f2333c41cdffb9962349bb654d69de24",
+        "entries": 140,
+        "crcPassed": true
+      },
+      "confirmedLibraryIds": [],
+      "broaderObjectiveComplete": false,
+      "timingWindowOpen": false
+    }
+  ],
+  "totalFinalTestsPassed": 98,
+  "newGPUExports": 0,
+  "profileLibrariesCompiledNeverLoaded": 2,
+  "noCargoBuild": true,
+  "activeSerialGateBytes": 9663676416,
+  "activeBalancedGateBytes": 16106127360,
+  "streaming6GiBGateProposedOnly": true,
+  "currentFreeBytes": 1077665792,
+  "timingWindowOpen": false,
+  "next": "independent bounded audits, actual native stream/GPU stage-runner integration and hardware controls after gate; fresh all3004K gates before timing",
+  "LibraryIds": [],
+  "nativePublicationApprovalStillPending": true
+}

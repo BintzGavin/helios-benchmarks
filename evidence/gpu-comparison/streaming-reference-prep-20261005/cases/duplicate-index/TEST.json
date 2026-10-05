@@ -1,0 +1,10 @@
+{
+  "case": "duplicate-index",
+  "passed": true,
+  "expectedRefusal": "PRODUCER_SOURCE_ORDER",
+  "observedError": "Refusal: PRODUCER_SOURCE_ORDER",
+  "secondsExcludedFromBenchmarks": 0.0718245420139283,
+  "sourceUnchanged": true,
+  "GPUExecuted": false,
+  "atomicFinalExists": false
+}

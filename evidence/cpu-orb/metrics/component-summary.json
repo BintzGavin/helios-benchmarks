@@ -1,0 +1,110 @@
+{
+  "profiles": {
+    "H-medium-w2-t1": {
+      "timedDeliveredWallNs": [
+        69156139448,
+        69059951412,
+        69426166154
+      ],
+      "medianDeliveredWallNs": 69156139448,
+      "medianEngineProcessWallNs": 69154874464,
+      "medianRepairWallNs": 0,
+      "medianFinalDecodeWallNs": 7981524045.999999,
+      "finalDecodeShareOfMedianDelivered": 0.11541309433562988,
+      "medianRenderMs": 60500.272472000004,
+      "medianFinalizeMs": 8467.986664999997,
+      "medianFinalVerifyMs": 7981.524045999999,
+      "medianMaxWorkerDrawMs": 20708.243980999963,
+      "medianMaxWorkerEncoderWaitMs": 31817.06828500001
+    },
+    "F-medium-w2-t1": {
+      "timedDeliveredWallNs": [
+        92045448392,
+        91910993266,
+        92201298828
+      ],
+      "medianDeliveredWallNs": 92045448392,
+      "medianEngineProcessWallNs": 83056281057,
+      "medianRepairWallNs": 0,
+      "medianFinalDecodeWallNs": 8988382919,
+      "finalDecodeShareOfMedianDelivered": 0.09765157404329851
+    },
+    "R-medium-w2-t1": {
+      "timedDeliveredWallNs": [
+        151413629799,
+        152851689415,
+        152316073808
+      ],
+      "medianDeliveredWallNs": 152316073808,
+      "medianEngineProcessWallNs": 144404000337,
+      "medianRepairWallNs": 0,
+      "medianFinalDecodeWallNs": 7911584625,
+      "finalDecodeShareOfMedianDelivered": 0.051941889172989336,
+      "medianBrowserOpenNs": 103018614,
+      "medianSelectCompositionNs": 195703556,
+      "medianRenderMediaNs": 143762085978,
+      "medianRasterFramesDoneNs": 40700067097,
+      "medianPostRasterRenderMediaNs": 103186536000,
+      "medianBrowserCloseNs": 97300459
+    },
+    "H-ultrafast-w2-t1": {
+      "timedDeliveredWallNs": [
+        21163641221,
+        20704839205,
+        20679705204
+      ],
+      "medianDeliveredWallNs": 20704839205,
+      "medianEngineProcessWallNs": 20704577597,
+      "medianRepairWallNs": 0,
+      "medianFinalDecodeWallNs": 2674370083.0000014,
+      "finalDecodeShareOfMedianDelivered": 0.12916642609589402,
+      "medianRenderMs": 17164.400336,
+      "medianFinalizeMs": 3299.283776,
+      "medianFinalVerifyMs": 2674.3700830000016,
+      "medianMaxWorkerDrawMs": 14696.502631,
+      "medianMaxWorkerEncoderWaitMs": 1971.5754779999966
+    },
+    "F-ultrafast-w2-t1": {
+      "timedDeliveredWallNs": [
+        39733311374,
+        39229473920,
+        39251199575
+      ],
+      "medianDeliveredWallNs": 39251199575,
+      "medianEngineProcessWallNs": 35865024557,
+      "medianRepairWallNs": 460634610,
+      "medianFinalDecodeWallNs": 2945432244,
+      "finalDecodeShareOfMedianDelivered": 0.0750405662984123
+    },
+    "R-ultrafast-w2-t1": {
+      "timedDeliveredWallNs": [
+        60125442549,
+        60012809861,
+        59564471586
+      ],
+      "medianDeliveredWallNs": 60012809861,
+      "medianEngineProcessWallNs": 57302655017,
+      "medianRepairWallNs": 0,
+      "medianFinalDecodeWallNs": 2709634009,
+      "finalDecodeShareOfMedianDelivered": 0.04515092719830947,
+      "medianBrowserOpenNs": 119238729,
+      "medianSelectCompositionNs": 192637863,
+      "medianRenderMediaNs": 56662246752,
+      "medianRasterFramesDoneNs": 41213284400,
+      "medianPostRasterRenderMediaNs": 15359947061,
+      "medianBrowserCloseNs": 103172659
+    }
+  },
+  "ratiosOfMedians": {
+    "medium": {
+      "F_over_H": 1.3309801432917026,
+      "R_over_H": 2.202495324692463,
+      "R_over_F": 1.6547920236025309
+    },
+    "ultrafast": {
+      "F_over_H": 1.895750031496079,
+      "R_over_H": 2.898491954794198,
+      "R_over_F": 1.5289420580975963
+    }
+  }
+}

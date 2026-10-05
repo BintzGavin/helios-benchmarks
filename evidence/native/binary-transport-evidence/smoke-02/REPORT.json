@@ -1,0 +1,82 @@
+{
+  "helper": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/native/target/release/helios-gpu",
+  "helperSha256": "1383da791a588731101f6dd22bea8e911d4bc97243b7f01541214981afc90ecc",
+  "protocol": 5,
+  "transport": "binary",
+  "jsonControlProtocol": 4,
+  "rgbaByteEquality": true,
+  "nv12ByteEquality": true,
+  "gop": 30,
+  "frames": 3,
+  "width": 128,
+  "height": 128,
+  "bitrate": 500000000,
+  "encoderPool": 3,
+  "hardware": {
+    "bitrate": 500000000,
+    "configuredBitrate": 500000000,
+    "encoder": "videotoolbox",
+    "encoderPool": 3,
+    "explicitRawReadbackBytes": 0,
+    "frames": 3,
+    "gop": 30,
+    "protocol": 5,
+    "rasterizer": "skia-metal",
+    "transport": "binary",
+    "zeroCopyProved": false
+  },
+  "hardwareHooks": {
+    "profiler-hooks-installed": 1,
+    "IOSurfaceGetBaseAddress": 3,
+    "MTLBufferContentsAccessIntentUnknown": 6,
+    "MTLBlitBufferToTexture": 3,
+    "IOSurfaceGetBaseAddressOfPlane": 36
+  },
+  "positiveNV12": {
+    "profiler-hooks-installed": 1,
+    "IOSurfaceGetBaseAddress": 1,
+    "MTLBufferContentsAccessIntentUnknown": 6,
+    "MTLBlitBufferToTexture": 3,
+    "IOSurfaceGetBaseAddressOfPlane": 21,
+    "CVPixelBufferLockBaseAddress": 3,
+    "IOSurfaceLock": 3,
+    "CVPixelBufferGetBaseAddressOfPlane": 6
+  },
+  "positiveRGBA": {
+    "profiler-hooks-installed": 1,
+    "MTLBufferContentsAccessIntentUnknown": 9,
+    "MTLBlitBufferToTexture": 3,
+    "MTLBlitTextureToBuffer": 3
+  },
+  "conversion": [
+    {
+      "event": "conversion-complete",
+      "frame": 0,
+      "surfaceId": 968,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 125676.737003917,
+      "gpuEndSeconds": 125676.73702
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 1,
+      "surfaceId": 983,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 125676.75269325,
+      "gpuEndSeconds": 125676.752708625
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 2,
+      "surfaceId": 984,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 125676.753698625,
+      "gpuEndSeconds": 125676.753713875
+    }
+  ],
+  "actualMetalCapture": true,
+  "captureExcludedFromTimingAndDownloadProof": true,
+  "timingClaim": false,
+  "full4KQualification": false,
+  "zeroCopyProved": false
+}

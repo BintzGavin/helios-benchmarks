@@ -1,0 +1,4 @@
+sources/fframes-concurrent-nv12/nv12-converter.mm:113:63: error: no member named 'contains' in 'std::unordered_map<void *, Owner>'
+  113 |         {std::lock_guard<std::mutex> lock(logMutex);if(owners.contains(dest)){CVPixelBufferRelease(dest);return nullptr;}owners[dest]=Owner{c->id,index,IOSurfaceGetID(surface)};}
+      |                                                        ~~~~~~ ^
+1 error generated.

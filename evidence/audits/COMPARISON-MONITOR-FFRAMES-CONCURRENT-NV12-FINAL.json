@@ -1,0 +1,129 @@
+{
+  "status": "final_independent_saved_evidence_audit_passed; modified_concurrent_4K_lane_qualified; no_performance_result",
+  "auditedAt": "2026-10-04T21:05:58.369858+00:00",
+  "ownerCursor": "d0c051ad-a3b2-4641-b3cb-7583ae2a6e2e:26",
+  "rawManifest": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/RECEIPT-MANIFEST.json",
+    "bytes": 1879082,
+    "sha256": "bce814ca8b37547781642d123d6ba4da114862f123af3b3572cf4a64bd46fe17"
+  },
+  "rawManifestFilesVerified": 10025,
+  "rawBytesVerified": 3282332692,
+  "preliminaryToFinalHarnessChanges": [
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/audit-concurrent-nv12.py",
+      "preliminarySha256": "9fad7ebfcb4f6360eaa1921d5ad5ac1608ba3e7f5b6cee46212bbd6144e811be",
+      "finalSha256": "19edc739fe61983742b6226c9315affeff9c3ae8412a1ef6a44ecbd674a78d93",
+      "currentFinalHarnessPinVerified": true
+    }
+  ],
+  "sourcePinsVerified": 168,
+  "dependencySourcePinsVerified": 278,
+  "helperCopiesVerified": 6,
+  "harnessPinsVerified": 14,
+  "reviewPackage": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/fframes-concurrent-nv12-review-20261004.zip",
+    "bytes": 21893818,
+    "sha256": "dfd91c2a0301bbde6be8260534db0a4931a38653fcefb2ef9d28075140dd1444",
+    "members": 238,
+    "CRCpassed": true
+  },
+  "allThreeArchiveCRCpassed": true,
+  "SPSAndCadenceAudits": [
+    {
+      "lane": "controls36",
+      "frames": 36,
+      "allOtherParsedSPSFieldsEqual": true,
+      "onlyCenterChromaSignalingFieldsChanged": true,
+      "allActualVCLBytesIndependentlyRehashedEqual": true,
+      "allSavedDecodedFramePairsEqual": true,
+      "cadenceColorGopPassed": true
+    },
+    {
+      "lane": "circles300",
+      "frames": 300,
+      "allOtherParsedSPSFieldsEqual": true,
+      "onlyCenterChromaSignalingFieldsChanged": true,
+      "allActualVCLBytesIndependentlyRehashedEqual": true,
+      "allSavedDecodedFramePairsEqual": true,
+      "cadenceColorGopPassed": true
+    }
+  ],
+  "full4KProfile": {
+    "frames": 300,
+    "allIndexedGpuFenceIdentityOwnerChecksPass": true,
+    "counts": {
+      "interposer-installed": 1,
+      "IOSurfaceGetBaseAddress": 22,
+      "IOSurfaceGetBaseAddressOfPlane": 38689,
+      "buffer-contents-unknown-intent": 2371563
+    },
+    "rgbaDownloadBytes": 0,
+    "peakOwners": {
+      "4": 1,
+      "6": 1,
+      "5": 1
+    }
+  },
+  "same4KPositiveControls": {
+    "frames": 3,
+    "allIndexedGpuFenceIdentityOwnerChecksPass": true,
+    "counts": {
+      "interposer-installed": 1,
+      "IOSurfaceGetBaseAddress": 18,
+      "IOSurfaceGetBaseAddressOfPlane": 597,
+      "buffer-contents-unknown-intent": 23722,
+      "texture-to-buffer": 3,
+      "CVPixelBufferLockBaseAddress": 3,
+      "IOSurfaceLock": 3,
+      "CVPixelBufferGetBaseAddressOfPlane": 6
+    },
+    "rgbaDownloadBytes": 99532800,
+    "peakOwners": {
+      "5": 1,
+      "4": 1,
+      "6": 1
+    }
+  },
+  "qualityMinima": {
+    "psnr_y": 40.23,
+    "psnr_u": 40.54,
+    "psnr_v": 40.48
+  },
+  "SSIMYminimum": {
+    "Y": 0.995261
+  },
+  "floors": {
+    "ssimY": 0.995,
+    "psnrY": 40,
+    "psnrU": 35,
+    "psnrV": 35
+  },
+  "actualOpaqueDriverCopiesUnknown": true,
+  "zeroCopyProved": false,
+  "modifiedPipeline": true,
+  "originalProductQualified": false,
+  "publishedM5Reproduction": false,
+  "matchedNativeContractIdentical": false,
+  "mandatoryConformanceIncludedInFutureTiming": true,
+  "NV12PoolThresholdPerContext": 64,
+  "nativeComparisonPoolThreshold": 3,
+  "newBalancedTimingAttempts": 0,
+  "broaderObjectiveComplete": false,
+  "storageBlocked": true,
+  "lastFreeBytesObserved": 404037632,
+  "finalReport": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/FINAL-REPORT.json",
+    "bytes": 11700,
+    "sha256": "d1880f7edbc8f60873874ef3190c3d9a13f04bf72fdc5ae63361e0e012f1946c"
+  },
+  "remaining": [
+    "balanced matched Helios/modified concurrent fframes exports with mandatory conformance included",
+    "full4K nativeHEVC/Vulkan qualification and matched performance",
+    "original-product chroma quality still fails unchanged floors; no product win",
+    "publishedM5 benchmark not beaten",
+    "Library publication helper blocked",
+    "native Vulkan PR push destination approval remains with native thread"
+  ],
+  "auditScope": "All frozen file hashes/sizes and archives, source/dependency/helper/runtime/harness pins, parsed SPS differences, independently re-extracted actual VCL packet payloads without decoding, saved full decoded equality and quality/cadence, full4K interposer event counts and all300 GPU fence/lifetime evidence. No new build/render/decode/benchmark or owner artifact modification."
+}

@@ -1,0 +1,10 @@
+{
+  "case": "fail-before-commit",
+  "passed": true,
+  "expectedRefusal": "INJECTED_BEFORE_COMMIT",
+  "observedError": "Refusal: INJECTED_BEFORE_COMMIT",
+  "secondsExcludedFromBenchmarks": 0.11254591698525473,
+  "sourceUnchanged": true,
+  "GPUExecuted": false,
+  "atomicFinalExists": false
+}

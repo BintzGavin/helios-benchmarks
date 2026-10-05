@@ -1,0 +1,21 @@
+{
+  "status": "local_review_package_validated_original_quality_failed",
+  "package": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/fframes-original-handoff-review-20261004.zip",
+    "bytes": 19102598,
+    "sha256": "37834efd4c807df4a69ee16ade5ea015dfe3036284b33c8c80134d9b75fb1864",
+    "entries": 96,
+    "CRCpassed": true
+  },
+  "rawEvidence": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004",
+  "manifest": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/RECEIPT-MANIFEST.json",
+    "entries": 422,
+    "sha256": "523dc3231b666803daaf0420956fafe450c60ea002e8eec1fb9df6d6c001c8a4"
+  },
+  "timingWindowOpen": false,
+  "broaderObjectiveComplete": false,
+  "newLibraryIds": [],
+  "libraryBlockerUnchanged": true,
+  "noPushMergeOrProvisioning": true
+}

@@ -1,0 +1,426 @@
+{
+  "status": "CPU orchestration/profile preparation passed; actual GPU execution unqualified",
+  "testCount": 69,
+  "tests": [
+    {
+      "test": "dispatch-H-metal-hevc-hardware",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "dispatch-H-metal-hevc-reference",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "dispatch-H-metal-hevc-profile",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "dispatch-H-metal-hevc-positive-nv12",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "dispatch-H-metal-hevc-positive-rgba",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "dispatch-H-metal-h264-hardware",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "dispatch-H-metal-h264-reference",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "dispatch-H-metal-h264-profile",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "dispatch-H-metal-h264-positive-nv12",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "dispatch-H-metal-h264-positive-rgba",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "dispatch-F-modified-concurrent-h264-hardware",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "dispatch-F-modified-concurrent-h264-reference",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "dispatch-F-modified-concurrent-h264-profile",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "dispatch-F-modified-concurrent-h264-positive-nv12",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "dispatch-F-modified-concurrent-h264-positive-rgba",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "dispatch-H-vulkan-h264-hardware",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "dispatch-H-vulkan-h264-reference",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "dispatch-H-vulkan-h264-profile",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "dispatch-H-vulkan-h264-positive-nv12",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "dispatch-H-vulkan-h264-positive-rgba",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "dispatch-H-vulkan-hevc-hardware",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "dispatch-H-vulkan-hevc-reference",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "dispatch-H-vulkan-hevc-profile",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "dispatch-H-vulkan-hevc-positive-nv12",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "dispatch-H-vulkan-hevc-positive-rgba",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "guard-codec",
+      "passed": true,
+      "GPUExecuted": false,
+      "expectedReason": "CONTRACT_codec",
+      "observedReason": "CONTRACT_codec"
+    },
+    {
+      "test": "guard-binaryProtocol",
+      "passed": true,
+      "GPUExecuted": false,
+      "expectedReason": "CONTRACT_binaryProtocol",
+      "observedReason": "CONTRACT_binaryProtocol"
+    },
+    {
+      "test": "guard-encoderPool",
+      "passed": true,
+      "GPUExecuted": false,
+      "expectedReason": "CONTRACT_encoderPool",
+      "observedReason": "CONTRACT_encoderPool"
+    },
+    {
+      "test": "guard-gop",
+      "passed": true,
+      "GPUExecuted": false,
+      "expectedReason": "CONTRACT_gop",
+      "observedReason": "CONTRACT_gop"
+    },
+    {
+      "test": "guard-width",
+      "passed": true,
+      "GPUExecuted": false,
+      "expectedReason": "CONTRACT_width",
+      "observedReason": "CONTRACT_width"
+    },
+    {
+      "test": "guard-bitrate",
+      "passed": true,
+      "GPUExecuted": false,
+      "expectedReason": "CONTRACT_bitrate",
+      "observedReason": "CONTRACT_bitrate"
+    },
+    {
+      "test": "guard-liveGPUQualified",
+      "passed": true,
+      "GPUExecuted": false,
+      "expectedReason": "QUALIFICATION_FLAG_OVERRIDE",
+      "observedReason": "QUALIFICATION_FLAG_OVERRIDE"
+    },
+    {
+      "test": "guard-helper",
+      "passed": true,
+      "GPUExecuted": false,
+      "expectedReason": "CONTRACT_helper",
+      "observedReason": "CONTRACT_helper"
+    },
+    {
+      "test": "guard-pins",
+      "passed": true,
+      "GPUExecuted": false,
+      "expectedReason": "CONTRACT_ENVELOPE",
+      "observedReason": "CONTRACT_ENVELOPE"
+    },
+    {
+      "test": "guard-driver-replacement",
+      "passed": true,
+      "GPUExecuted": false,
+      "expectedReason": "CONTRACT_ENVELOPE",
+      "observedReason": "CONTRACT_ENVELOPE"
+    },
+    {
+      "test": "guard-historical-profile-log",
+      "passed": true,
+      "GPUExecuted": false,
+      "expectedReason": "PROFILE_SCOPE_OR_SOURCE",
+      "observedReason": "PROFILE_SCOPE_OR_SOURCE"
+    },
+    {
+      "test": "disk-guard",
+      "passed": true,
+      "GPUExecuted": false,
+      "expectedReason": "DISK_GATE_9GIB",
+      "observedReason": "DISK_GATE_9GIB"
+    },
+    {
+      "test": "cap-guard",
+      "passed": true,
+      "GPUExecuted": false,
+      "expectedReason": "STAGE_CAP",
+      "observedReason": "STAGE_CAP"
+    },
+    {
+      "test": "unknown-cap-guard",
+      "passed": true,
+      "GPUExecuted": false,
+      "expectedReason": "STAGE_CAP",
+      "observedReason": "STAGE_CAP"
+    },
+    {
+      "test": "mode-guard",
+      "passed": true,
+      "GPUExecuted": false,
+      "expectedReason": "MODE",
+      "observedReason": "MODE"
+    },
+    {
+      "test": "lane-guard",
+      "passed": true,
+      "GPUExecuted": false,
+      "expectedReason": "LANE",
+      "observedReason": "LANE"
+    },
+    {
+      "test": "outside-output-guard",
+      "passed": true,
+      "GPUExecuted": false,
+      "expectedReason": "OUTPUT_SCOPE",
+      "observedReason": "OUTPUT_SCOPE"
+    },
+    {
+      "test": "existing-output",
+      "passed": true,
+      "GPUExecuted": false,
+      "expectedReason": "EXISTING_OUTPUT",
+      "observedReason": "EXISTING_OUTPUT"
+    },
+    {
+      "test": "actual-cli-no-launch",
+      "passed": true,
+      "GPUExecuted": false,
+      "reason": "DISK_GATE_9GIB"
+    },
+    {
+      "test": "fresh-profile-compile-H-metal-hevc",
+      "passed": true,
+      "GPUExecuted": false,
+      "libraryPin": {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/codec-orchestration-prep-20261005/prepared-profiles/H-metal-hevc/transfer-interposer.dylib",
+        "bytes": 54888,
+        "sha256": "c2db658279d0fe755ebb910fb3374237a42b8211e27212c949e011cc34d14d13"
+      },
+      "libraryNeverLoaded": true
+    },
+    {
+      "test": "fresh-profile-compile-H-vulkan-hevc",
+      "passed": true,
+      "GPUExecuted": false,
+      "libraryPin": {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/codec-orchestration-prep-20261005/prepared-profiles/H-vulkan-hevc/transfer-interposer.dylib",
+        "bytes": 56760,
+        "sha256": "721157dd9afaa6b40c818ac1b552cae798cb8a06500344dab1fc211a1e5b2a10"
+      },
+      "libraryNeverLoaded": true
+    },
+    {
+      "test": "cpu-feed-metal-h264-encode-binary",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "cpu-feed-metal-h264-reference-binary",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "cpu-feed-metal-h264-raster-binary",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "cpu-feed-metal-hevc-encode-binary",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "cpu-feed-metal-hevc-reference-binary",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "cpu-feed-metal-hevc-raster-binary",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "cpu-feed-vulkan-h264-encode-binary",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "cpu-feed-vulkan-h264-reference-binary",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "cpu-feed-vulkan-h264-raster-binary",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "cpu-feed-vulkan-hevc-encode-binary",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "cpu-feed-vulkan-hevc-reference-binary",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "cpu-feed-vulkan-hevc-raster-binary",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "cpu-receipt-refusal-wrong-protocol",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "cpu-receipt-refusal-wrong-codec",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "cpu-receipt-refusal-software-fallback",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "cpu-receipt-refusal-wrong-pool",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "cpu-receipt-refusal-wrong-gop",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "cpu-receipt-refusal-wrong-bitrate",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "cpu-receipt-refusal-raw-download",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "cpu-receipt-refusal-wrong-frame-count",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "cpu-receipt-refusal-early-exit",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "retained-h264-shared-conformance",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "retained-hevc-shared-conformance",
+      "passed": true,
+      "GPUExecuted": false
+    }
+  ],
+  "allOriginalInputPinsVerified": 187,
+  "codecProtocols": [
+    5,
+    7,
+    9
+  ],
+  "newProfileLibrariesCompiled": 2,
+  "profileLibrariesNeverLoaded": true,
+  "retainedCodecsConformed": [
+    "h264",
+    "hevc"
+  ],
+  "GPUExports": 0,
+  "newCargoBuild": false,
+  "timingWindowOpen": false,
+  "benchmarkTiming": false,
+  "activeSerialGateBytes": 9663676416,
+  "streamingGateUnchanged": true,
+  "noFrozenHelperOrSourceChanges": true,
+  "actualGPULaunchIntegrationQualified": false,
+  "remaining": [
+    "actual3-frame native codec/CPU-fallback refusal and profile-hooks controls onhardware",
+    "full3004K independent stage/ownership/reference/quality gates",
+    "native4K streaming bridge/resource acceptance",
+    "space and timing notification before benchmarks"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "lane": "modified production-concurrent explicitGPU NV12",
+  "benchmarkTiming": false,
+  "timingWindowOpen": false,
+  "gpuContexts": 3,
+  "generators": 5,
+  "encoderWorkers": 5,
+  "queueSize": 10,
+  "maximumNv12PoolAllocationsPerGpuContext": 64,
+  "onPoolExhaustion": "fail closed; no manual reuse or unbounded wait",
+  "sourceRasterCompletion": "unchanged Skia flush_submit_and_sync_cpu",
+  "conversionCompletion": "Metal command wait completed before original frame release or encoder handoff",
+  "color": "sRGB EOTF to BT709 OETF, 709 limited range, 2x2 box averaged centered chroma",
+  "originalProduct": false,
+  "M5Reproduction": false,
+  "floors": {
+    "ssimY": 0.995,
+    "psnrY": 40,
+    "psnrU": 35,
+    "psnrV": 35
+  },
+  "stages": [
+    "bounded3frame GPU/identity/lifetime controls",
+    "predetermined36frame independentNV12 controls",
+    "all300 same-streamNV12 lossless binding + encodedquality/cadence/color/GOP",
+    "separate3frame uncapturedinterposer + actualMetalcapture + positivecontrols"
+  ],
+  "bitrate": 300000000,
+  "gop": 30,
+  "controlsNominalToleranceCodeValues": 1,
+  "noPrivateEncoderOracleSearch": true
+}

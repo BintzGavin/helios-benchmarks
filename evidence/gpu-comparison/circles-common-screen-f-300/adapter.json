@@ -1,0 +1,89 @@
+{
+  "engine": "F",
+  "mode": "hardware",
+  "frames": 300,
+  "bitrate": 300000000,
+  "sourceFrameRange": [
+    3,
+    303
+  ],
+  "gop": 30,
+  "scene": "Circles99kText1k",
+  "fontSha256": "9ae2da663d64342031e59b5fa680dd355171d021b7ebf83774efc7c0330ae7b5",
+  "executableSha256": "0e788dc176e7577f3736eb335e9b7cf0ce0189f592659abd1afa940619549f4d",
+  "commands": [
+    {
+      "command": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/circles-common-gpu-adapter",
+      "args": [
+        "hardware",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-300/video.mp4",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/font",
+        "300",
+        "300000000"
+      ]
+    },
+    {
+      "command": "/opt/homebrew/bin/ffmpeg",
+      "args": [
+        "-v",
+        "error",
+        "-y",
+        "-r",
+        "30",
+        "-f",
+        "h264",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-300/video.h264",
+        "-c:v",
+        "copy",
+        "-an",
+        "-video_track_timescale",
+        "30",
+        "-movflags",
+        "+faststart",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-300/video.mp4"
+      ]
+    }
+  ],
+  "status": "complete",
+  "zeroCopyProved": false,
+  "rawReadback": false,
+  "commonConverterLane": true,
+  "extraGpuTextureCopy": true,
+  "serialRasterizer": true,
+  "verificationOwner": "run_matrix.py; one full post-export decode plus independent cadence/fidelity gates",
+  "startedAt": "2026-10-03T18:31:23.095Z",
+  "producer": {
+    "code": 0,
+    "signal": null,
+    "stderr": "[h264_videotoolbox @ 0xa08d8c000] This device does not support the qmax option. Value ignored.\n[h264_videotoolbox @ 0xa08d8c000] This device does not support the qmax option. Value ignored.\nCOMPARISON_ACTUAL_EXPORT_PATH=HardwareFrames\n"
+  },
+  "nativeReceipt": {
+    "bitrate": 300000000,
+    "converter": "taskcommonGPU BGRAcopy + explicitBT709NV12",
+    "device": "Apple M3 Pro",
+    "elementary": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-300/video.h264",
+    "encoder": "requiredVideoToolboxH264",
+    "explicitRawReadbackBytes": 0,
+    "extraGpuTextureCopy": true,
+    "frames": 300,
+    "gop": 30,
+    "mode": "hardware",
+    "pool": 3,
+    "rasterizer": "fframesSkia0.153.3MetalHardwareFrames",
+    "renderingMs": 79936.680458,
+    "serialRenderer": true,
+    "sourceFrames": [
+      3,
+      302
+    ],
+    "zeroCopyProved": false
+  },
+  "mux": {
+    "code": 0,
+    "signal": null,
+    "stderr": ""
+  },
+  "exportMs": 81338.503084,
+  "finishedAt": "2026-10-03T18:32:44.435Z"
+}

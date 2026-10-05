@@ -1,0 +1,10 @@
+{
+  "test": "symlink-destination",
+  "passed": true,
+  "expectedRefusal": "OUTPUT_SCOPE",
+  "observedError": "Refusal:OUTPUT_SCOPE",
+  "secondsExcludedFromBenchmark": 0.006119541998486966,
+  "GPUExecuted": false,
+  "sourceUnchanged": true,
+  "publishedFixtureBinding": false
+}

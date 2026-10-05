@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "frames": 1,
+  "pairs": [
+    {
+      "index": 0,
+      "sourceIndex": 0,
+      "directFixtureNv12Sha256": "6a37c1d3745d16bfddea3589d783391291390cebfe53b50115657e9456afda4f",
+      "independentlyReconstructedNv12Sha256": "6a37c1d3745d16bfddea3589d783391291390cebfe53b50115657e9456afda4f",
+      "independentDecodedPlanarMd5": "f49da31327d9cfc0db6268e6e9b6efc8",
+      "equal": true
+    }
+  ],
+  "referenceSha256": "66795b5284ef50d65b0248c263fbcce6a9206603d1bae3f39c763d36fe843372",
+  "copiedSourcePin": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/streaming-reference-prep-20261005/fixtures/reference.nv12",
+    "bytes": 14745600,
+    "sha256": "4f8429472e98618a18b8a46a1aa8f0430e5df9cba63359cb4050408e516d918a"
+  },
+  "decodeCommand": [
+    "/opt/homebrew/Cellar/ffmpeg/9.0.2/bin/ffmpeg",
+    "-v",
+    "error",
+    "-xerror",
+    "-i",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/streaming-reference-prep-20261005/cases/validation-final/one-byte-chunks/result/reference.mkv",
+    "-pix_fmt",
+    "yuv420p",
+    "-fps_mode",
+    "passthrough",
+    "-f",
+    "rawvideo",
+    "-"
+  ],
+  "decodeExit": 0,
+  "noColorArithmetic": true,
+  "GPUExecuted": false,
+  "benchmarkTiming": false
+}

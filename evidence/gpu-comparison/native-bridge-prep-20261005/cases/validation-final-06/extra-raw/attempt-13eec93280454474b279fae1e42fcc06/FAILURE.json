@@ -1,0 +1,110 @@
+{
+  "status": "failed-subprocess-fixture",
+  "executionClass": "subprocess-fixture",
+  "hardwareQualified": false,
+  "realDeviceAccepted": false,
+  "GPUExecuted": false,
+  "benchmarkTiming": false,
+  "timingWindowOpen": false,
+  "mode": "reference",
+  "codec": "hevc",
+  "backend": "metal",
+  "sourceIndices": [
+    3,
+    5
+  ],
+  "rows": [
+    {
+      "index": 0,
+      "sourceIndex": 3,
+      "retainedRawFixtureOrdinal": 0,
+      "rawNv12Sha256": "6a37c1d3745d16bfddea3589d783391291390cebfe53b50115657e9456afda4f",
+      "planarMd5": "f49da31327d9cfc0db6268e6e9b6efc8"
+    },
+    {
+      "index": 1,
+      "sourceIndex": 4,
+      "retainedRawFixtureOrdinal": 1,
+      "rawNv12Sha256": "2139aca4d59d6833b85b5a0ba00bb8ef4cbde0d5754c8a730ef1a63ec64c6333",
+      "planarMd5": "ecb752ba2fc968d28df56f07be6b5a3f"
+    }
+  ],
+  "maxPlanarWriterQueuedBytes": 0,
+  "backpressureObservations": 0,
+  "drainCalls": 2,
+  "referenceOnlyReadbackBytes": 98304,
+  "nativeProducerBridgeRealDeviceQualified": false,
+  "error": "Refusal:RAW_SHORT_FRAME:2:32764",
+  "processes": [
+    {
+      "label": "native-stdout-driver",
+      "argv": [
+        "/opt/homebrew/Cellar/node@22/22.23.1/bin/node",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_stdout_bridge.mjs",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-final-06/extra-raw/attempt-13eec93280454474b279fae1e42fcc06/ISSUED-SPEC.json"
+      ],
+      "pid": 6322,
+      "processGroup": 6322,
+      "spawnMonotonic": 239247.414572333,
+      "exit": 1
+    },
+    {
+      "label": "ffv1-encoder",
+      "argv": [
+        "/opt/homebrew/Cellar/ffmpeg/9.0.2/bin/ffmpeg",
+        "-v",
+        "error",
+        "-xerror",
+        "-n",
+        "-f",
+        "rawvideo",
+        "-pix_fmt",
+        "yuv420p",
+        "-s",
+        "256x128",
+        "-r",
+        "30000/1001",
+        "-color_range",
+        "tv",
+        "-colorspace",
+        "bt709",
+        "-color_primaries",
+        "bt709",
+        "-color_trc",
+        "bt709",
+        "-chroma_sample_location",
+        "center",
+        "-i",
+        "pipe:0",
+        "-c:v",
+        "ffv1",
+        "-level",
+        "3",
+        "-threads",
+        "2",
+        "-pix_fmt",
+        "yuv420p",
+        "-color_range",
+        "tv",
+        "-colorspace",
+        "bt709",
+        "-color_primaries",
+        "bt709",
+        "-color_trc",
+        "bt709",
+        "-chroma_sample_location",
+        "center",
+        "-frames:v",
+        "3",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-final-06/extra-raw/attempt-13eec93280454474b279fae1e42fcc06/reference.mkv"
+      ],
+      "pid": 6323,
+      "processGroup": 6323,
+      "spawnMonotonic": 239247.416465583,
+      "exit": -9
+    }
+  ],
+  "allChildrenReaped": true,
+  "publishedBinding": false,
+  "partialFilesRetained": true
+}

@@ -1,0 +1,528 @@
+{
+  "templateCommand": [
+    "/opt/homebrew/bin/ffmpeg",
+    "-v",
+    "error",
+    "-xerror",
+    "-i",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/controls36/video.mp4",
+    "-map",
+    "0:v:0",
+    "-an",
+    "-frames:v",
+    "1",
+    "-c:v",
+    "copy",
+    "-bsf:v",
+    "h264_metadata=chroma_sample_loc_type=1",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/controls36/center-parameter-template.mp4"
+  ],
+  "templateReturncode": 0,
+  "muxCommand": [
+    "/opt/homebrew/bin/ffmpeg",
+    "-v",
+    "error",
+    "-xerror",
+    "-f",
+    "h264",
+    "-r",
+    "30",
+    "-i",
+    "pipe:0",
+    "-map",
+    "0:v:0",
+    "-an",
+    "-c:v",
+    "copy",
+    "-movflags",
+    "+faststart",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/controls36/video-center.mp4"
+  ],
+  "muxReturncode": 0,
+  "sourceParameterCommand": [
+    "/opt/homebrew/bin/ffprobe",
+    "-v",
+    "error",
+    "-select_streams",
+    "v:0",
+    "-show_streams",
+    "-show_data",
+    "-show_entries",
+    "stream=extradata,nal_length_size,is_avc",
+    "-of",
+    "json",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/controls36/video.mp4"
+  ],
+  "templateParameterCommand": [
+    "/opt/homebrew/bin/ffprobe",
+    "-v",
+    "error",
+    "-select_streams",
+    "v:0",
+    "-show_streams",
+    "-show_data",
+    "-show_entries",
+    "stream=extradata,nal_length_size,is_avc",
+    "-of",
+    "json",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/controls36/center-parameter-template.mp4"
+  ],
+  "sourcePacketCommand": [
+    "/opt/homebrew/bin/ffprobe",
+    "-v",
+    "error",
+    "-select_streams",
+    "v:0",
+    "-show_packets",
+    "-show_entries",
+    "packet=pos,size,pts,duration",
+    "-of",
+    "json",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/controls36/video.mp4"
+  ],
+  "originalPacketCommand": [
+    "/opt/homebrew/bin/ffprobe",
+    "-v",
+    "error",
+    "-select_streams",
+    "v:0",
+    "-show_packets",
+    "-show_entries",
+    "packet=pos,size,pts,duration",
+    "-of",
+    "json",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/controls36/video.mp4"
+  ],
+  "normalizedPacketCommand": [
+    "/opt/homebrew/bin/ffprobe",
+    "-v",
+    "error",
+    "-select_streams",
+    "v:0",
+    "-show_packets",
+    "-show_entries",
+    "packet=pos,size,pts,duration",
+    "-of",
+    "json",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/controls36/video-center.mp4"
+  ],
+  "allVCLPayloadsExactlyEqual": true,
+  "vclPayloads": [
+    {
+      "nalType": 5,
+      "bytes": 9006,
+      "sha256": "4104f3f576d655e895c2533236e2f71050ab837cdd0d2124c96c348a4fe74c1c"
+    },
+    {
+      "nalType": 1,
+      "bytes": 98,
+      "sha256": "63fdb04e96bc8368e0936025911daad5a67573df18fcb3c315deb4a2d78a947c"
+    },
+    {
+      "nalType": 1,
+      "bytes": 98,
+      "sha256": "63a965ec323c2314d02efa75d6fc326070953fc007f4835571ab1ad6be92e405"
+    },
+    {
+      "nalType": 1,
+      "bytes": 98,
+      "sha256": "3882a9b7a49d388705fa4b7908fbd0a7f5c16faff83f949acc7d031ce1561857"
+    },
+    {
+      "nalType": 1,
+      "bytes": 107,
+      "sha256": "edb054acb59748d67ad88ab0acc909c18dc53880d073c4803b43a7df92c1d71d"
+    },
+    {
+      "nalType": 1,
+      "bytes": 88,
+      "sha256": "0d48e5f2bb2f1209afcb0da2c828840cd666f7c5491ea40667f260d96cdd5786"
+    },
+    {
+      "nalType": 1,
+      "bytes": 88,
+      "sha256": "56459912e842e86581db9529adc9a42660b69deca8ccb4c34f1a46d036e872c4"
+    },
+    {
+      "nalType": 1,
+      "bytes": 103,
+      "sha256": "10c7db3d5dc31a0441db345aaff865acf8e11af8f7816574454f48a725cbc84f"
+    },
+    {
+      "nalType": 1,
+      "bytes": 88,
+      "sha256": "fd41fa4f1e7fb8d838fe704f2da02bfe70e85482954f2845f1150056a2699828"
+    },
+    {
+      "nalType": 1,
+      "bytes": 97,
+      "sha256": "7665cfa85e7cbb2b3d357dbcea51fa2eaa3a9a943c427d24820ded86cf23e031"
+    },
+    {
+      "nalType": 1,
+      "bytes": 106,
+      "sha256": "5eeaeddda02d8a1c8b7dfbe3273871c736a1dc4da1b5f07b4b2a4b72b5de9504"
+    },
+    {
+      "nalType": 1,
+      "bytes": 85,
+      "sha256": "49b67796fd1512badb4a6310e4a26a91e814b628f09c900ad316021de9c9cd6a"
+    },
+    {
+      "nalType": 1,
+      "bytes": 82,
+      "sha256": "48b3f123bea5ad991358e4b3d09bf9bc6a2188bd028b400bc85c1b8c3096437f"
+    },
+    {
+      "nalType": 1,
+      "bytes": 80,
+      "sha256": "e2cc864cdea93209f088dae4b6d02d3dacad126bad42b590890e75915231d1d7"
+    },
+    {
+      "nalType": 1,
+      "bytes": 85,
+      "sha256": "e6b9d79cee92a0a0b984fa6c836dfdb1e959bf21cdc6beb92b4cb61f927f51b8"
+    },
+    {
+      "nalType": 1,
+      "bytes": 79,
+      "sha256": "3b1ba514b50c6fc0591dd2d7134a9ab18def9375a8635121dd3aa3ac4110224e"
+    },
+    {
+      "nalType": 1,
+      "bytes": 85,
+      "sha256": "ac5002629605624cce9559442308f4224b468e28dbda51367bfa20f9464c35d1"
+    },
+    {
+      "nalType": 1,
+      "bytes": 84,
+      "sha256": "6d48fcdd0fd73d8ce59e23b8a17e8c74c391a3ba854f23d98c9ce03036f744d9"
+    },
+    {
+      "nalType": 1,
+      "bytes": 88,
+      "sha256": "cf0b22fb379c10e3418633e561546b7930e8c11fe25093e9595a9aa3a5ec84cb"
+    },
+    {
+      "nalType": 1,
+      "bytes": 80,
+      "sha256": "4ad2d4352f5e31b746574b74306136b7c2bc3804a35cd8f0cd496f2b1b8c4bd3"
+    },
+    {
+      "nalType": 1,
+      "bytes": 82,
+      "sha256": "956ad80286bb3aaeb9d8b0f4901879b0d5131df793e1e743236a59829841c45e"
+    },
+    {
+      "nalType": 1,
+      "bytes": 87,
+      "sha256": "89d5e7155922195e5c07f6a3a1fb7b04b9dd35acb82f96e58ec4287bb247e014"
+    },
+    {
+      "nalType": 1,
+      "bytes": 85,
+      "sha256": "a74cdc7b72081d46c902b025d7e6325d14a7359bb584c444000810ccbb7a35dc"
+    },
+    {
+      "nalType": 1,
+      "bytes": 87,
+      "sha256": "ee0e4635404454995f3d053b1ea190d10c2366386e25e6f9ca2cb8e6efad796e"
+    },
+    {
+      "nalType": 1,
+      "bytes": 80,
+      "sha256": "02970dd7d4b2d9fae7339e891709851b6b48ec05a2221003b124c4b0eb0c5d80"
+    },
+    {
+      "nalType": 1,
+      "bytes": 86,
+      "sha256": "1f9016ea0b221226e3c73b815e67c4eadf99203c2a5177a2adccf365ecdcda80"
+    },
+    {
+      "nalType": 1,
+      "bytes": 86,
+      "sha256": "c631d9fd0721a4bdbaf941eeea33e0c664fbc28b8771ce7b3a1e5fdaaadf1052"
+    },
+    {
+      "nalType": 1,
+      "bytes": 88,
+      "sha256": "9c9f6723919d12d567744cf7b68d92b11a36610a2e397faf73a51a34dabb1d7d"
+    },
+    {
+      "nalType": 1,
+      "bytes": 85,
+      "sha256": "354b4b60b8a9a41fafee11efdfcb827357c8e4c9455bb0209a8e6335e12877c4"
+    },
+    {
+      "nalType": 1,
+      "bytes": 82,
+      "sha256": "b371bd4a96c7e86dd62d92cac252b88abb4d9a123f7de5935c4bf56868f1a82b"
+    },
+    {
+      "nalType": 5,
+      "bytes": 4651,
+      "sha256": "aa29be083362baaaecf5687a5f9b18181dff14b9c8a29969e809a5e4fed13fa7"
+    },
+    {
+      "nalType": 1,
+      "bytes": 114,
+      "sha256": "8fcde905aee47168dd2e7bbb039e3e8cc78ea1b4fa0a660511218b028ed93843"
+    },
+    {
+      "nalType": 1,
+      "bytes": 104,
+      "sha256": "005c35fd6ecf1cb8abc335f152e048f18d56b833fcb47163b755e3b0a7293933"
+    },
+    {
+      "nalType": 1,
+      "bytes": 127,
+      "sha256": "764da17ecb4a47c072724174a943943d3c409deb5ee0909912b8e881adb53f99"
+    },
+    {
+      "nalType": 1,
+      "bytes": 124,
+      "sha256": "076d0a897a9d7cbe3b923f4fb79c34f0082743267d9549d137c5a16f54a78eb3"
+    },
+    {
+      "nalType": 1,
+      "bytes": 170,
+      "sha256": "baf315d4f16b3ad638d5f1b47fe5d5810b644562c318584b0960b9d88d8a5e8b"
+    }
+  ],
+  "oldSPShex": [
+    "27640033ac5681011a6a02020204"
+  ],
+  "newSPShex": [
+    "27640033ac5681011a6a0202034810"
+  ],
+  "PPSbytesUnchanged": true,
+  "mandatoryExportConformanceStage": true,
+  "benchmarkTiming": false,
+  "startedUnix": 1791142504.754587,
+  "finishedUnix": 1791142504.9704661,
+  "originalVideoSha256": "d80a4380d2456734551660ca46363fa7ab11da4fcbf0935523ca54a5ae5a3af6",
+  "normalizedVideoSha256": "cc7a3d3da3533d61bfe25ccde5a8a7debb7786a1a629d7ffa95cff60e7620bb0",
+  "reason": "Signal actual centered 2x2 box samples; preserve every original VCL payload.",
+  "futureExportTimesMustIncludeThisStage": true,
+  "allDecodedFrameBytesExactlyEqual": true,
+  "decodedPairs": [
+    {
+      "index": 0,
+      "original": "7179f7f459fa04c4d83e7cd831db3245",
+      "normalized": "7179f7f459fa04c4d83e7cd831db3245"
+    },
+    {
+      "index": 1,
+      "original": "fdcce7f77804cdad023c1e91577eee94",
+      "normalized": "fdcce7f77804cdad023c1e91577eee94"
+    },
+    {
+      "index": 2,
+      "original": "752a1bbba9be5c318c4d784aadc67fc8",
+      "normalized": "752a1bbba9be5c318c4d784aadc67fc8"
+    },
+    {
+      "index": 3,
+      "original": "789657551ccdcb301715f13bdce1de8b",
+      "normalized": "789657551ccdcb301715f13bdce1de8b"
+    },
+    {
+      "index": 4,
+      "original": "0a5402809d89245f8a28a87791ce7777",
+      "normalized": "0a5402809d89245f8a28a87791ce7777"
+    },
+    {
+      "index": 5,
+      "original": "7e04b24d3eba7f864da94a1d6efd40e1",
+      "normalized": "7e04b24d3eba7f864da94a1d6efd40e1"
+    },
+    {
+      "index": 6,
+      "original": "47f3f3646d52a95420537f8f38b566ad",
+      "normalized": "47f3f3646d52a95420537f8f38b566ad"
+    },
+    {
+      "index": 7,
+      "original": "198e28631f36a72b3b46dd4fe312a803",
+      "normalized": "198e28631f36a72b3b46dd4fe312a803"
+    },
+    {
+      "index": 8,
+      "original": "00c9be9229f171fbda918a6874733163",
+      "normalized": "00c9be9229f171fbda918a6874733163"
+    },
+    {
+      "index": 9,
+      "original": "361fbe81c46ea8d313a71d5045f52ef3",
+      "normalized": "361fbe81c46ea8d313a71d5045f52ef3"
+    },
+    {
+      "index": 10,
+      "original": "b08ef94aa2a9659ff06e7ce16855c166",
+      "normalized": "b08ef94aa2a9659ff06e7ce16855c166"
+    },
+    {
+      "index": 11,
+      "original": "ec08ad1dfbe871e61bee482bdea95085",
+      "normalized": "ec08ad1dfbe871e61bee482bdea95085"
+    },
+    {
+      "index": 12,
+      "original": "a6b08ceac880a3f3c33984fb2d6c3493",
+      "normalized": "a6b08ceac880a3f3c33984fb2d6c3493"
+    },
+    {
+      "index": 13,
+      "original": "9b4a245a9bc823d965fcac9306df92ef",
+      "normalized": "9b4a245a9bc823d965fcac9306df92ef"
+    },
+    {
+      "index": 14,
+      "original": "e3795cfbf2e647c265984cc7559a7e83",
+      "normalized": "e3795cfbf2e647c265984cc7559a7e83"
+    },
+    {
+      "index": 15,
+      "original": "15c6aa8eac83dddf102eb71a23887b99",
+      "normalized": "15c6aa8eac83dddf102eb71a23887b99"
+    },
+    {
+      "index": 16,
+      "original": "3578b22fe7fb91d4175f690a1580cae9",
+      "normalized": "3578b22fe7fb91d4175f690a1580cae9"
+    },
+    {
+      "index": 17,
+      "original": "9cc146e0be4a3ad0c24b2ce92dc9c2cc",
+      "normalized": "9cc146e0be4a3ad0c24b2ce92dc9c2cc"
+    },
+    {
+      "index": 18,
+      "original": "132c94ba0d93540abdadb6136179ecfd",
+      "normalized": "132c94ba0d93540abdadb6136179ecfd"
+    },
+    {
+      "index": 19,
+      "original": "c0ca90918fc144100f143e3081efc6f5",
+      "normalized": "c0ca90918fc144100f143e3081efc6f5"
+    },
+    {
+      "index": 20,
+      "original": "d782cb829bf66f1fdd0601a4c184e9be",
+      "normalized": "d782cb829bf66f1fdd0601a4c184e9be"
+    },
+    {
+      "index": 21,
+      "original": "b8ea771d3c74d876d148834ecb43e449",
+      "normalized": "b8ea771d3c74d876d148834ecb43e449"
+    },
+    {
+      "index": 22,
+      "original": "4a7d3bfd5b583cf6a35ae8a5dd383abe",
+      "normalized": "4a7d3bfd5b583cf6a35ae8a5dd383abe"
+    },
+    {
+      "index": 23,
+      "original": "7654d8d45154095c75a8b03050da73ba",
+      "normalized": "7654d8d45154095c75a8b03050da73ba"
+    },
+    {
+      "index": 24,
+      "original": "aa0ca9f27c364193d29053d9fabf8dda",
+      "normalized": "aa0ca9f27c364193d29053d9fabf8dda"
+    },
+    {
+      "index": 25,
+      "original": "a9c0e17fc5c179290c1f5a01980dc2bf",
+      "normalized": "a9c0e17fc5c179290c1f5a01980dc2bf"
+    },
+    {
+      "index": 26,
+      "original": "c44b16842a2c1911e85ca226c393c010",
+      "normalized": "c44b16842a2c1911e85ca226c393c010"
+    },
+    {
+      "index": 27,
+      "original": "7c0b585c42d08af24116d724ceb6e343",
+      "normalized": "7c0b585c42d08af24116d724ceb6e343"
+    },
+    {
+      "index": 28,
+      "original": "1de1046c83df7a680a074d1717169223",
+      "normalized": "1de1046c83df7a680a074d1717169223"
+    },
+    {
+      "index": 29,
+      "original": "6835adeefeb2ce6c72758b85f5020d03",
+      "normalized": "6835adeefeb2ce6c72758b85f5020d03"
+    },
+    {
+      "index": 30,
+      "original": "94b2e3bed51c0fc369ed66eea0db1756",
+      "normalized": "94b2e3bed51c0fc369ed66eea0db1756"
+    },
+    {
+      "index": 31,
+      "original": "d1f22813bab7a95e8dbbd24010b00d58",
+      "normalized": "d1f22813bab7a95e8dbbd24010b00d58"
+    },
+    {
+      "index": 32,
+      "original": "799f189daf055a491701f3ed70e3d8af",
+      "normalized": "799f189daf055a491701f3ed70e3d8af"
+    },
+    {
+      "index": 33,
+      "original": "f7ffcc86595e96e54ee92464be007dcf",
+      "normalized": "f7ffcc86595e96e54ee92464be007dcf"
+    },
+    {
+      "index": 34,
+      "original": "55801e9fdd4fe772e1da86e77cb64b48",
+      "normalized": "55801e9fdd4fe772e1da86e77cb64b48"
+    },
+    {
+      "index": 35,
+      "original": "c3cc7de3b64b4dbe6d2f7b2a5662f2f4",
+      "normalized": "c3cc7de3b64b4dbe6d2f7b2a5662f2f4"
+    }
+  ],
+  "originalDecode": [
+    "/opt/homebrew/bin/ffmpeg",
+    "-v",
+    "error",
+    "-xerror",
+    "-i",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/controls36/video.mp4",
+    "-map",
+    "0:v:0",
+    "-threads",
+    "1",
+    "-c:v",
+    "rawvideo",
+    "-pix_fmt",
+    "yuv420p",
+    "-f",
+    "framemd5",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/controls36/candidate-original.framemd5"
+  ],
+  "normalizedDecode": [
+    "/opt/homebrew/bin/ffmpeg",
+    "-v",
+    "error",
+    "-xerror",
+    "-i",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/controls36/video-center.mp4",
+    "-map",
+    "0:v:0",
+    "-threads",
+    "1",
+    "-c:v",
+    "rawvideo",
+    "-pix_fmt",
+    "yuv420p",
+    "-f",
+    "framemd5",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/controls36/candidate-center.framemd5"
+  ]
+}

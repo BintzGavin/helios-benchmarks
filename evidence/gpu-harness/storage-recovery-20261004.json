@@ -1,0 +1,144 @@
+{
+  "method": "APFS clone, independently restore differing blocks, exact SHA validation before atomic replacement",
+  "files": [
+    {
+      "base": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-h-500/video.mp4",
+      "target": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-screen-h-500/video.mp4",
+      "originalSha256": "1010c345f85897a57e14e5053b96dee02cb213eb8954f873455ef58fa74049f3",
+      "baseSha256": "6bd1a646c3dcddcc70209bbff7561ab64de3603011296957361ac85bf3947816",
+      "bytes": 625363808,
+      "originalInode": 465402281,
+      "originalMtimeNs": 1791051876921914147,
+      "originalBirthtime": 1791051874.178079,
+      "differingBlocks": [
+        {
+          "offset": 0,
+          "bytes": 65536
+        }
+      ],
+      "status": "exact-bytes-preserved",
+      "restoredSha256": "1010c345f85897a57e14e5053b96dee02cb213eb8954f873455ef58fa74049f3",
+      "finalSha256": "1010c345f85897a57e14e5053b96dee02cb213eb8954f873455ef58fa74049f3",
+      "newInode": 469747574,
+      "xattrsPreserved": true,
+      "mtimePreserved": true
+    },
+    {
+      "base": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/helios-metal-videotoolbox-circles-300mbps-20261003.mp4",
+      "target": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-300-balanced/timed-2-H/output.mp4",
+      "originalSha256": "496fadac6c4a454584d246dc522304c3f7ade117c929225d08537641337178ec",
+      "baseSha256": "0b7ac0f812f0d25e92b2ddcb1a9991f7c1ef8cc7b75a442bdb4c61208046efbf",
+      "bytes": 376641173,
+      "originalInode": 465515555,
+      "originalMtimeNs": 1791053660926103310,
+      "originalBirthtime": 1791053658.593459,
+      "differingBlocks": [
+        {
+          "offset": 0,
+          "bytes": 65536
+        }
+      ],
+      "status": "exact-bytes-preserved",
+      "restoredSha256": "496fadac6c4a454584d246dc522304c3f7ade117c929225d08537641337178ec",
+      "finalSha256": "496fadac6c4a454584d246dc522304c3f7ade117c929225d08537641337178ec",
+      "newInode": 469747903,
+      "xattrsPreserved": true,
+      "mtimePreserved": true
+    },
+    {
+      "base": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/helios-metal-videotoolbox-circles-300mbps-20261003.mp4",
+      "target": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-300-balanced/timed-3-H/output.mp4",
+      "originalSha256": "73a556a24d812815d57a2ec404c5f29e2c1201c5fbba41df0010e6b9e9f7219b",
+      "baseSha256": "0b7ac0f812f0d25e92b2ddcb1a9991f7c1ef8cc7b75a442bdb4c61208046efbf",
+      "bytes": 376641173,
+      "originalInode": 465534295,
+      "originalMtimeNs": 1791053966782213361,
+      "originalBirthtime": 1791053964.3500104,
+      "differingBlocks": [
+        {
+          "offset": 0,
+          "bytes": 65536
+        }
+      ],
+      "status": "exact-bytes-preserved",
+      "restoredSha256": "73a556a24d812815d57a2ec404c5f29e2c1201c5fbba41df0010e6b9e9f7219b",
+      "finalSha256": "73a556a24d812815d57a2ec404c5f29e2c1201c5fbba41df0010e6b9e9f7219b",
+      "newInode": 469748076,
+      "xattrsPreserved": true,
+      "mtimePreserved": true
+    },
+    {
+      "base": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/helios-metal-videotoolbox-circles-300mbps-20261003.mp4",
+      "target": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-300-balanced/timed-4-H/output.mp4",
+      "originalSha256": "45e3df37f9067411d7a4e61c1df2a82f97373bba50d25d0f6895d8266599d632",
+      "baseSha256": "0b7ac0f812f0d25e92b2ddcb1a9991f7c1ef8cc7b75a442bdb4c61208046efbf",
+      "bytes": 376641173,
+      "originalInode": 465541811,
+      "originalMtimeNs": 1791054091162948345,
+      "originalBirthtime": 1791054087.7917674,
+      "differingBlocks": [
+        {
+          "offset": 0,
+          "bytes": 65536
+        }
+      ],
+      "status": "exact-bytes-preserved",
+      "restoredSha256": "45e3df37f9067411d7a4e61c1df2a82f97373bba50d25d0f6895d8266599d632",
+      "finalSha256": "45e3df37f9067411d7a4e61c1df2a82f97373bba50d25d0f6895d8266599d632",
+      "newInode": 469748398,
+      "xattrsPreserved": true,
+      "mtimePreserved": true
+    },
+    {
+      "base": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/helios-metal-videotoolbox-circles-300mbps-20261003.mp4",
+      "target": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-300-balanced/warmup-0-H/output.mp4",
+      "originalSha256": "f3fdb4ce121f81653cf7034606f97c1e951daee118b3b795f9e7a767cbf12d67",
+      "baseSha256": "0b7ac0f812f0d25e92b2ddcb1a9991f7c1ef8cc7b75a442bdb4c61208046efbf",
+      "bytes": 376641173,
+      "originalInode": 465465212,
+      "originalMtimeNs": 1791052870535717720,
+      "originalBirthtime": 1791052869.3886735,
+      "differingBlocks": [
+        {
+          "offset": 0,
+          "bytes": 65536
+        }
+      ],
+      "status": "exact-bytes-preserved",
+      "restoredSha256": "f3fdb4ce121f81653cf7034606f97c1e951daee118b3b795f9e7a767cbf12d67",
+      "finalSha256": "f3fdb4ce121f81653cf7034606f97c1e951daee118b3b795f9e7a767cbf12d67",
+      "newInode": 469750018,
+      "xattrsPreserved": true,
+      "mtimePreserved": true
+    },
+    {
+      "base": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/helios-metal-videotoolbox-circles-300mbps-20261003.mp4",
+      "target": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-screen-h-300/video.mp4",
+      "originalSha256": "e5be3c42d3005d53172813c78c4e3ea10f0da3536598bce58c0604d3d7b5cfb7",
+      "baseSha256": "0b7ac0f812f0d25e92b2ddcb1a9991f7c1ef8cc7b75a442bdb4c61208046efbf",
+      "bytes": 376641173,
+      "originalInode": 465415205,
+      "originalMtimeNs": 1791052093385859905,
+      "originalBirthtime": 1791052090.8093696,
+      "differingBlocks": [
+        {
+          "offset": 0,
+          "bytes": 65536
+        }
+      ],
+      "status": "exact-bytes-preserved",
+      "restoredSha256": "e5be3c42d3005d53172813c78c4e3ea10f0da3536598bce58c0604d3d7b5cfb7",
+      "finalSha256": "e5be3c42d3005d53172813c78c4e3ea10f0da3536598bce58c0604d3d7b5cfb7",
+      "newInode": 469750365,
+      "xattrsPreserved": true,
+      "mtimePreserved": true
+    }
+  ],
+  "freeBytesBefore": 331993088,
+  "originalPathsAndBytesPreserved": true,
+  "newBenchmarks": false,
+  "freeBytesAfter": 2842243072,
+  "measuredFreeBytesGain": 2510249984,
+  "allExact": true,
+  "minimumTwoGiBFreeSatisfied": true
+}

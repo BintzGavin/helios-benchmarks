@@ -1,0 +1,81 @@
+{
+  "kind": "actual-work-trace",
+  "tracePath": "/private/tmp/helios-gpu-evidence/chromium-profile-02/chrome-trace.json",
+  "traceSha256": "73d15363fbcd7de8bee4872aa77234761bfc58b67b9addb3cc260a1e9615cb0c",
+  "events": [
+    {
+      "name": "CanvasRenderingContext2D::FinalizeFrame",
+      "count": 3,
+      "examples": [
+        {
+          "pid": 67741,
+          "tid": 3580596,
+          "args": {}
+        },
+        {
+          "pid": 67741,
+          "tid": 3580596,
+          "args": {}
+        },
+        {
+          "pid": 67741,
+          "tid": 3580596,
+          "args": {}
+        }
+      ]
+    },
+    {
+      "name": "bool skgpu::graphite::QueueManager::submitToGpu(const SubmitInfo &)",
+      "count": 47,
+      "examples": [
+        {
+          "pid": 67735,
+          "tid": 3580498,
+          "args": {}
+        },
+        {
+          "pid": 67735,
+          "tid": 3580498,
+          "args": {}
+        },
+        {
+          "pid": 67735,
+          "tid": 3580498,
+          "args": {}
+        }
+      ]
+    },
+    {
+      "name": "void skgpu::graphite::Context::asyncReadPixels(std::unique_ptr<Recorder>, const AsyncParams<SkImage> &)",
+      "count": 3,
+      "examples": [
+        {
+          "pid": 67735,
+          "tid": 3580498,
+          "args": {
+            "height": 1080,
+            "width": 1920
+          }
+        },
+        {
+          "pid": 67735,
+          "tid": 3580498,
+          "args": {
+            "height": 1080,
+            "width": 1920
+          }
+        },
+        {
+          "pid": 67735,
+          "tid": 3580498,
+          "args": {
+            "height": 1080,
+            "width": 1920
+          }
+        }
+      ]
+    }
+  ],
+  "claim": "The three-frame exact fixture submits Graphite GPU work and downloads three full-size frames. Capability flags alone are excluded as proof.",
+  "scope": "This is a separate profile smoke, not an attestation of every timed frame; GPU device, binary pin and isolated launch settings are retained for each run."
+}

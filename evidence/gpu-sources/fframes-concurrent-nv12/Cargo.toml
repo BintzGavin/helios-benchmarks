@@ -1,0 +1,120 @@
+[workspace]
+resolver = "2"
+members = [
+    "e2e",
+    "svgr-macro",
+    "webvtt-parser",
+    "fframes",
+    "fframes-editor-controller",
+    "fframes-test-utils",
+    "fframes-media",
+    "fframes-skia-renderer",
+    "fframes-native-player",
+    "media-dir-macro",
+    "render-bench",
+    "render-bench/vs-remotion",
+    "cargo-fframes",
+    # Examples
+    "examples/podcast",
+    "examples/podcast/editor/editor-bridge",
+    "examples/audio-announce",
+    "examples/audio-announce/editor/editor-bridge",
+    "examples/hello-world",
+    "examples/hello-world/editor/editor-bridge",
+    "examples/marketing",
+    "examples/marketing/editor/editor-bridge",
+    "examples/tiktok",
+    "examples/tiktok/media",
+    "examples/tiktok/editor/editor-bridge",
+    "examples/marketing/editor/editor-bridge",
+    "examples/low-poly-art",
+    "examples/low-poly-art/editor/editor-bridge",
+    "examples/beta",
+    "examples/beta/editor/editor-bridge",
+    "examples/conference-splash-screen",
+    "examples/conference-splash-screen/editor/editor-bridge",
+    "examples/teej-podcast",
+    "examples/teej-podcast/editor/editor-bridge",
+    "examples/pixel-memory",
+    "examples/pixel-memory/editor/editor-bridge",
+    "examples/motion-graphics",
+    "examples/motion-graphics/editor/editor-bridge",
+    "examples/shaders",
+    "examples/shaders/editor/editor-bridge",
+    "examples/neon-triangle",
+    "examples/neon-triangle/editor/editor-bridge",
+
+    # maybe clean this up?
+    # "fframes-lyon-renderer",
+    "examples/signal-lab",
+    "examples/fframes-intro",
+]
+
+[workspace.lints.rust]
+unexpected_cfgs = { level = "warn", check-cfg = [
+    'cfg(wasm_bindgen_unstable_test_coverage)',
+    'cfg(fframes_docsrs)',
+] }
+
+# `just clippy` and CI run `cargo clippy -- -D warnings` on top of this table.
+[workspace.lints.clippy]
+pedantic = { level = "warn", priority = -1 }
+option_map_unit_fn = "allow"
+module_inception = "allow"
+single_match = "allow"
+single_range_in_vec_init = "allow"
+# Pedantic lints that do not fit this code base.
+# Frames, samples, pixels and seconds are converted with `as` on purpose all over the
+# renderer; the value ranges are known and a checked conversion per cast would hide the math.
+cast_precision_loss = "allow"
+cast_possible_truncation = "allow"
+cast_sign_loss = "allow"
+cast_possible_wrap = "allow"
+# Signature changes on public items are breaking changes.
+needless_pass_by_value = "allow"
+unused_self = "allow"
+ref_option = "allow"
+trivially_copy_pass_by_ref = "allow"
+must_use_candidate = "allow"
+return_self_not_must_use = "allow"
+struct_field_names = "allow"
+# Documentation burden with no reader benefit for an internal error and panic surface.
+missing_errors_doc = "allow"
+missing_panics_doc = "allow"
+# Geometry and DSP code uses short names and long functions.
+similar_names = "allow"
+many_single_char_names = "allow"
+too_many_lines = "allow"
+struct_excessive_bools = "allow"
+inline_always = "allow"
+# `use fframes::prelude::*` and `AudioTimestamp::*` are the documented way to use the API.
+wildcard_imports = "allow"
+enum_glob_use = "allow"
+# Exact float comparisons against sentinel values (1.0 gain, 0.0 offset) are intended.
+float_cmp = "allow"
+
+[workspace.dependencies]
+# If you are working locally on renderer, just clone https://github.com/dmtrKovalenko/svgr
+# into the parent directory of fframes (as a sibling) and uncomment the following lines:
+# svgr = { path = "../svgr/crates/svgr" }
+# usvgr = { path = "../svgr/crates/usvgr" }
+svgr = { path = "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr" }
+usvgr = { path = "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr" }
+# ffmpeg-sys-next with prebuilt FFmpeg binaries: https://github.com/dmtrKovalenko/rust-ffmpeg-sys
+ffmpeg-sys-fframes = "9.0.0"
+wasm-bindgen = "0.2.100"
+kamadak-exif = "0.6.1"
+
+# fframes internal deps
+fframes_renderer = { path = "fframes-renderer", version = "1.0.0-beta.6.rc-3.2" }
+fframes-media = { path = "fframes-media", version = "1.1.0" }
+svgr-macro = { path = "svgr-macro", version = "1.1.0" }
+fframes-media-dir-macro = { path = "media-dir-macro", version = "1.1.0" }
+fframes = { path = "fframes", version = "1.1.0" }
+webvtt-parser = { path = "webvtt-parser", version = "1.1.0" }
+fframes_skia_renderer = { path = "fframes-skia-renderer", version = "1.1.0" }
+fframes_native_player = { path = "fframes-native-player", version = "1.1.0" }
+
+[patch.crates-io]
+svgr = { path = "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr" }
+usvgr = { path = "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr" }

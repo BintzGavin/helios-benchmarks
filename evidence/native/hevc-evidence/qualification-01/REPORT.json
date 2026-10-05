@@ -1,0 +1,552 @@
+{
+  "status": "all300 HEVC functional qualification passed; not a benchmark",
+  "helperSha256": "9c2b3654ce681d9764643214a745878b8fecb72ed9fcd69f3aea7f0fa709d9ae",
+  "sourcePins": {
+    "src/gpu.ts": "1c19891fe3e9db7c56bbbea4d69e9e7e30dc4228bef551a374177370320352b8",
+    "src/gpu-commands.ts": "bfca2d2211e84cea382fd4895227dbb5dc2772d33737e29b61fa0667119d3b6e",
+    "native/metal.mm": "3d3a8d645fe82b842629cd3625c09c827a1779eec58dc1187bc515f8c13d2fee",
+    "native/src/main.rs": "0be313172050825b56f2388f0cea417046195c2f66920d5a290ea44d9596c867",
+    "native/src/binary.rs": "87521b21b9370d9a1d4067d3310bc30c80d77d089132cd331b3e42a730d06d43",
+    "native/encoder-flight.hpp": "e621ea35a3006cf687b50cb5c859b4610c76a0068c0cc0fb09e30985c4c3b02a",
+    "native/build.rs": "4316755700b94781f9f9425cf5af3ce4330bdfaf862051e451d34b5d1991d1e6",
+    "native/Cargo.toml": "24a3232ef28a9556bd44c0e87aa8c460dda7e8b2be74141246e1bed4b3c933ec",
+    "native/Cargo.lock": "46fe52b24821ea898032b88a13cf768d70d2ccea006f18f1843d53f866fd99a4",
+    "benchmarks/profile-gpu.mm": "6ed403ae9f17384fb2ac47a6323b7f71a129410a380b7ff573eaef86dadfd4be"
+  },
+  "config": {
+    "scene": "HEVC-color-text-circle-contract",
+    "width": 256,
+    "height": 128,
+    "fps": {
+      "num": 30000,
+      "den": 1001
+    },
+    "frames": 300,
+    "sourceFrames": "0..299",
+    "codec": "hevc",
+    "bitrate": 20000000,
+    "gop": 30,
+    "encoderPool": 3,
+    "transport": "binary",
+    "fontSha256": "b85c38ecea8a7cfb39c24e395a4007474fa5a4fc864f6ee33309eb4948d232d5",
+    "floors": {
+      "ssimY": 0.995,
+      "psnrY": 40,
+      "psnrU": 35,
+      "psnrV": 35
+    },
+    "benchmarkTiming": false,
+    "zeroCopyProved": false
+  },
+  "frames": 300,
+  "allDirectLosslessReferenceFramesExact": true,
+  "fullDecodedCadenceColorCodecPassed": true,
+  "everyFrameUnchangedFloorsPassed": true,
+  "minimumSsimY": 0.99998,
+  "minimumPsnrY": 69.38,
+  "minimumPsnrU": 68.29,
+  "minimumPsnrV": 68.94,
+  "keyframeIndices": [
+    0,
+    30,
+    60,
+    90,
+    120,
+    150,
+    180,
+    210,
+    240,
+    270
+  ],
+  "actualHardwareHevc": {
+    "event": "surface-create",
+    "surfaceId": 230,
+    "protocol": 6,
+    "codec": "hevc",
+    "hardwareRequired": true,
+    "hardwareUsed": true,
+    "bitrate": 20000000,
+    "configuredBitrate": 20000000,
+    "gop": 30,
+    "encoderPool": true,
+    "poolCapacity": 3,
+    "format": "nv12-video-range",
+    "rasterStorage": "private",
+    "rawCpuMapCallsInBridge": 0
+  },
+  "all300GpuConversionCallbacksPassed": true,
+  "profiles": {
+    "hardware": {
+      "events": {
+        "IOSurfaceGetBaseAddress": 5,
+        "IOSurfaceGetBaseAddressOfPlane": 655,
+        "MTLBlitBufferToTexture": 19,
+        "MTLBufferContentsAccessIntentUnknown": 541,
+        "profiler-hooks-installed": 2
+      },
+      "hookedRawDownloadCalls": 0,
+      "interposerSha256": "0d22b87514955c9c20fc8a2a27ad50d0ed67f5a2591ec6bdb5697e1931b3bdd2",
+      "traceSha256": "aa007e044848991d3dcc1ab2bbbb4d20290bede2eaa6b3bf9431cba99095a01d"
+    },
+    "nv12-control": {
+      "events": {
+        "CVPixelBufferGetBaseAddressOfPlane": 6,
+        "CVPixelBufferLockBaseAddress": 3,
+        "IOSurfaceGetBaseAddress": 1,
+        "IOSurfaceGetBaseAddressOfPlane": 21,
+        "IOSurfaceLock": 3,
+        "MTLBlitBufferToTexture": 3,
+        "MTLBufferContentsAccessIntentUnknown": 7,
+        "profiler-hooks-installed": 1
+      },
+      "hookedRawDownloadCalls": 6,
+      "interposerSha256": "3a421057d4653cd282de447a0d1c23340806248d555c5dd2c6b7df74f17ed747",
+      "traceSha256": "f6b66e3cb36060d5c76593ca42b616c0d3834ffd3594d2975aa9ffb8349dc266"
+    },
+    "rgba-control": {
+      "events": {
+        "MTLBlitBufferToTexture": 3,
+        "MTLBlitTextureToBuffer": 3,
+        "MTLBufferContentsAccessIntentUnknown": 10,
+        "profiler-hooks-installed": 1
+      },
+      "hookedRawDownloadCalls": 3,
+      "interposerSha256": "88d959458bd0a1e05f09538149131e7acc6c15d65f04ef49d2ae1d2d35c79d74",
+      "traceSha256": "e3a92fb0a0b9585b1af4f570f0b0addbf6e9c75ad752bd10164154e7643bdf35"
+    }
+  },
+  "faults": [
+    "device",
+    "encoder",
+    "bitrate",
+    "hevc-format atomic publication"
+  ],
+  "separateActualMetalCaptureFrames": 3,
+  "captureExcludedFromDownloadProof": true,
+  "applicationRawDownloadsObservedWithinHooks": false,
+  "opaqueDriverEncoderTransfers": "unknown",
+  "pointerAndBufferAccessIntent": "unknown",
+  "zeroCopyProved": false,
+  "videoSha256": "217a190f6b27dd034452afaeab114875c6e10701c89b0335add1f5c4d3aca4d7",
+  "referenceSha256": "674d5787af0ed59fb9cc2a3a89661e292e13bcde1a90c51740ff9fd8c95a721d",
+  "executions": [
+    {
+      "name": "prepare",
+      "args": [
+        "/opt/homebrew/bin/node",
+        "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/prepare-qualification.mjs",
+        "prepare"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "compile-hardware",
+      "args": [
+        "/usr/bin/xcrun",
+        "clang++",
+        "-dynamiclib",
+        "-fobjc-arc",
+        "-isysroot",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-DHELIOS_PROFILE_PATH=\"/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/hardware-profile.jsonl\"",
+        "/Users/gavinbintz/.codex/worktrees/gpu-hevc/helios/packages/portable/benchmarks/profile-gpu.mm",
+        "-framework",
+        "Foundation",
+        "-framework",
+        "Metal",
+        "-framework",
+        "CoreVideo",
+        "-framework",
+        "IOSurface",
+        "-o",
+        "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/hardware.dylib"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "compile-nv12-control",
+      "args": [
+        "/usr/bin/xcrun",
+        "clang++",
+        "-dynamiclib",
+        "-fobjc-arc",
+        "-isysroot",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-DHELIOS_PROFILE_PATH=\"/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/nv12-control-profile.jsonl\"",
+        "/Users/gavinbintz/.codex/worktrees/gpu-hevc/helios/packages/portable/benchmarks/profile-gpu.mm",
+        "-framework",
+        "Foundation",
+        "-framework",
+        "Metal",
+        "-framework",
+        "CoreVideo",
+        "-framework",
+        "IOSurface",
+        "-o",
+        "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/nv12-control.dylib"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "compile-rgba-control",
+      "args": [
+        "/usr/bin/xcrun",
+        "clang++",
+        "-dynamiclib",
+        "-fobjc-arc",
+        "-isysroot",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-DHELIOS_PROFILE_PATH=\"/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/rgba-control-profile.jsonl\"",
+        "/Users/gavinbintz/.codex/worktrees/gpu-hevc/helios/packages/portable/benchmarks/profile-gpu.mm",
+        "-framework",
+        "Foundation",
+        "-framework",
+        "Metal",
+        "-framework",
+        "CoreVideo",
+        "-framework",
+        "IOSurface",
+        "-o",
+        "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/rgba-control.dylib"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "api-encode-profiled",
+      "args": [
+        "/opt/homebrew/bin/node",
+        "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/prepare-qualification.mjs",
+        "encode"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "direct-reference",
+      "args": [
+        "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/helper-candidate-01",
+        "reference-binary",
+        "256",
+        "128",
+        "30000",
+        "1001",
+        "20000000",
+        "/unused",
+        "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/reference-trace.jsonl",
+        "",
+        "30",
+        "3",
+        "hevc"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "lossless-reference",
+      "args": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-v",
+        "error",
+        "-y",
+        "-f",
+        "rawvideo",
+        "-pixel_format",
+        "nv12",
+        "-video_size",
+        "256x128",
+        "-framerate",
+        "30000/1001",
+        "-i",
+        "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/reference.nv12",
+        "-vf",
+        "setparams=range=limited:color_primaries=bt709:color_trc=bt709:colorspace=bt709,format=yuv420p",
+        "-c:v",
+        "ffv1",
+        "-level",
+        "3",
+        "-pix_fmt",
+        "yuv420p",
+        "-color_range",
+        "tv",
+        "-color_primaries",
+        "bt709",
+        "-color_trc",
+        "bt709",
+        "-colorspace",
+        "bt709",
+        "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/reference.mkv"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "lossless-direct-binding",
+      "args": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-v",
+        "error",
+        "-i",
+        "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/reference.mkv",
+        "-f",
+        "framemd5",
+        "-"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "decoded-cadence",
+      "args": [
+        "/opt/homebrew/bin/ffprobe",
+        "-v",
+        "error",
+        "-threads",
+        "1",
+        "-select_streams",
+        "v:0",
+        "-show_streams",
+        "-show_frames",
+        "-show_entries",
+        "frame=best_effort_timestamp,key_frame:stream=codec_name,codec_tag_string,profile,width,height,pix_fmt,color_range,color_space,color_transfer,color_primaries,avg_frame_rate,time_base",
+        "-of",
+        "json",
+        "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/video.mp4"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "every-frame-quality",
+      "args": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-v",
+        "error",
+        "-filter_complex_threads",
+        "1",
+        "-threads",
+        "1",
+        "-i",
+        "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/video.mp4",
+        "-threads",
+        "1",
+        "-i",
+        "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/reference.mkv",
+        "-filter_complex",
+        "[0:v]settb=1001/30000,setpts=N,split=2[a][b];[1:v]settb=1001/30000,setpts=N,split=2[c][d];[a][c]ssim=shortest=1:repeatlast=0:stats_file=/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/ssim.txt[s];[b][d]psnr=shortest=1:repeatlast=0:stats_file=/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/psnr.txt[p]",
+        "-map",
+        "[s]",
+        "-map",
+        "[p]",
+        "-f",
+        "null",
+        "-"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "nv12-positive-control",
+      "args": [
+        "/usr/bin/env",
+        "DYLD_INSERT_LIBRARIES=/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/nv12-control.dylib",
+        "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/helper-candidate-01",
+        "reference-binary",
+        "256",
+        "128",
+        "30000",
+        "1001",
+        "20000000",
+        "/unused",
+        "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/nv12-control-trace.jsonl",
+        "",
+        "30",
+        "3",
+        "hevc"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "rgba-positive-control",
+      "args": [
+        "/usr/bin/env",
+        "DYLD_INSERT_LIBRARIES=/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/rgba-control.dylib",
+        "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/helper-candidate-01",
+        "raster-binary",
+        "256",
+        "128",
+        "30000",
+        "1001",
+        "20000000",
+        "/unused",
+        "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/rgba-control-trace.jsonl",
+        "",
+        "30",
+        "3",
+        "hevc"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "compile-fault-DEVICE",
+      "args": [
+        "/usr/bin/xcrun",
+        "clang++",
+        "-dynamiclib",
+        "-fobjc-arc",
+        "-isysroot",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-DHELIOS_FAIL_DEVICE",
+        "/Users/gavinbintz/.codex/worktrees/gpu-hevc/helios/packages/portable/native/fault-init.mm",
+        "-framework",
+        "Metal",
+        "-framework",
+        "VideoToolbox",
+        "-framework",
+        "CoreMedia",
+        "-o",
+        "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/fault-device.dylib"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "fault-DEVICE",
+      "args": [
+        "/usr/bin/env",
+        "DYLD_INSERT_LIBRARIES=/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/fault-device.dylib",
+        "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/helper-candidate-01",
+        "probe",
+        "hevc"
+      ],
+      "exit": 1
+    },
+    {
+      "name": "compile-fault-ENCODER",
+      "args": [
+        "/usr/bin/xcrun",
+        "clang++",
+        "-dynamiclib",
+        "-fobjc-arc",
+        "-isysroot",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-DHELIOS_FAIL_ENCODER",
+        "/Users/gavinbintz/.codex/worktrees/gpu-hevc/helios/packages/portable/native/fault-init.mm",
+        "-framework",
+        "Metal",
+        "-framework",
+        "VideoToolbox",
+        "-framework",
+        "CoreMedia",
+        "-o",
+        "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/fault-encoder.dylib"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "fault-ENCODER",
+      "args": [
+        "/usr/bin/env",
+        "DYLD_INSERT_LIBRARIES=/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/fault-encoder.dylib",
+        "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/helper-candidate-01",
+        "probe",
+        "hevc"
+      ],
+      "exit": 1
+    },
+    {
+      "name": "compile-fault-BITRATE",
+      "args": [
+        "/usr/bin/xcrun",
+        "clang++",
+        "-dynamiclib",
+        "-fobjc-arc",
+        "-isysroot",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-DHELIOS_FAIL_BITRATE",
+        "/Users/gavinbintz/.codex/worktrees/gpu-hevc/helios/packages/portable/native/fault-init.mm",
+        "-framework",
+        "Metal",
+        "-framework",
+        "VideoToolbox",
+        "-framework",
+        "CoreMedia",
+        "-o",
+        "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/fault-bitrate.dylib"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "fault-BITRATE",
+      "args": [
+        "/usr/bin/env",
+        "DYLD_INSERT_LIBRARIES=/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/fault-bitrate.dylib",
+        "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/helper-candidate-01",
+        "probe",
+        "hevc"
+      ],
+      "exit": 1
+    },
+    {
+      "name": "compile-fault-HEVC_FORMAT",
+      "args": [
+        "/usr/bin/xcrun",
+        "clang++",
+        "-dynamiclib",
+        "-fobjc-arc",
+        "-isysroot",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-DHELIOS_FAIL_HEVC_FORMAT",
+        "/Users/gavinbintz/.codex/worktrees/gpu-hevc/helios/packages/portable/native/fault-init.mm",
+        "-framework",
+        "Metal",
+        "-framework",
+        "VideoToolbox",
+        "-framework",
+        "CoreMedia",
+        "-o",
+        "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/fault-hevc_format.dylib"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "format-fault-public-api",
+      "args": [
+        "/opt/homebrew/bin/node",
+        "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/prepare-qualification.mjs",
+        "format-fault"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "metal-capture-3-excluded",
+      "args": [
+        "/usr/bin/env",
+        "MTL_CAPTURE_ENABLED=1",
+        "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/helper-candidate-01",
+        "encode-binary",
+        "256",
+        "128",
+        "30000",
+        "1001",
+        "20000000",
+        "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/capture-3.hevc",
+        "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/capture-3-trace.jsonl",
+        "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/capture-3.gputrace",
+        "30",
+        "3",
+        "hevc"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "review-image",
+      "args": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-v",
+        "error",
+        "-y",
+        "-i",
+        "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/video.mp4",
+        "-vf",
+        "select=eq(n\\,0)+eq(n\\,150)+eq(n\\,299),tile=3x1",
+        "-frames:v",
+        "1",
+        "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/review.png"
+      ],
+      "exit": 0
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "frames": 300,
+  "psnrFrames": 300,
+  "minSsimY": 0.995935,
+  "minPsnrY": 45.5,
+  "minPsnrU": 45.7,
+  "minPsnrV": 45.72,
+  "mode": "software",
+  "engine": "chromium-canvas",
+  "enginePin": "5c336c15b01b400bf971ee4539506692a075292b8dde3e90f3b735815ac97a38",
+  "crf": 11,
+  "fontSha256": "9ae2da663d64342031e59b5fa680dd355171d021b7ebf83774efc7c0330ae7b5",
+  "reference": "/private/tmp/helios-gpu-evidence/chromium-reference-software-01/reference.mkv",
+  "video": "/private/tmp/helios-gpu-evidence/chromium-screen-software-11-01/video.mp4",
+  "deliveryColor": "bt709-limited",
+  "passed": true
+}

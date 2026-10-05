@@ -1,0 +1,32 @@
+{
+  "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/helper-candidate-02",
+  "sha256": "355e3c14cb5119ed23d90ddee5d47f2530831427420f4b3ac92604b42d7776a1",
+  "bytes": 17816384,
+  "qualified": false,
+  "buildLog": "build-09.log",
+  "buildExit": 0,
+  "sourcePins": {
+    "vulkan.mm": "cff1924b5f15cad5b1643d7c2f61696e5c13a4c508ccbdcca96b1af06413811c",
+    "metal.mm": "3d3a8d645fe82b842629cd3625c09c827a1779eec58dc1187bc515f8c13d2fee",
+    "encoder-flight.hpp": "e621ea35a3006cf687b50cb5c859b4610c76a0068c0cc0fb09e30985c4c3b02a",
+    "src/main.rs": "1fbd7188f0abb2ea786793e87d29251ff1fabdb50af1aad265adf6b3a87b6b75",
+    "src/binary.rs": "87521b21b9370d9a1d4067d3310bc30c80d77d089132cd331b3e42a730d06d43",
+    "Cargo.toml": "09ce80c8a975de4646f657e73e516fe668f34aa7145e14540ff2adc2f89f7d73",
+    "Cargo.lock": "46fe52b24821ea898032b88a13cf768d70d2ccea006f18f1843d53f866fd99a4",
+    "build.rs": "4359acfabcbcb038ba3ece4b33a6ad7466c80c0447e55abc1516b8e8d2ce0038"
+  },
+  "releaseLto": false,
+  "deploymentTarget": "12.0",
+  "codegenUnits": 1,
+  "buildOverrideOptLevel": 1,
+  "jobs": 1,
+  "cargoFeatures": [
+    "vulkan"
+  ],
+  "defaultFeatures": false,
+  "offline": true,
+  "cargoExecutable": "/opt/homebrew/bin/cargo",
+  "runtimeReceiptSha256": "9a68f242fbea1409d1b64abca597646a1e8c597d51828e031df12c5c2d3454d1",
+  "sourceBase": "0f0db15a6d48a65cdf1c7a66250b4f22ead66809",
+  "uncommittedSource": true
+}

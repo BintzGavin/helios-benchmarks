@@ -1,0 +1,31 @@
+{
+  "requested": 30,
+  "decodedFrames": 300,
+  "keyframeIndices": [
+    0,
+    30,
+    60,
+    90,
+    120,
+    150,
+    180,
+    210,
+    240,
+    270
+  ],
+  "maximumSpacing": 30,
+  "passed": true,
+  "command": [
+    "/opt/homebrew/bin/ffprobe",
+    "-v",
+    "error",
+    "-select_streams",
+    "v:0",
+    "-show_frames",
+    "-show_entries",
+    "frame=key_frame,best_effort_timestamp_time",
+    "-of",
+    "json",
+    "comparison/circles-screen-h-8/video.mp4"
+  ]
+}

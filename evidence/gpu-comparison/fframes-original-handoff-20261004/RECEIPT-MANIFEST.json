@@ -1,0 +1,2119 @@
+{
+  "files": [
+    {
+      "path": "BUILD-PINS.json",
+      "bytes": 28863,
+      "sha256": "bdd7beaeb847831673923a3a3cd21fc042cedfb097b626f9cfd5c471722eda1e"
+    },
+    {
+      "path": "DIAGNOSTIC-PROTOCOL.json",
+      "bytes": 4507,
+      "sha256": "f1fa29a3caafee3e7cbaa1ce0541432ef69c62297e6c731669974f4e82a15855"
+    },
+    {
+      "path": "FINAL-REPORT.json",
+      "bytes": 9785,
+      "sha256": "cb093e47ee623820e236b58597907ba86ddc70c78c181ae9103c35ef3aac3dfd"
+    },
+    {
+      "path": "LINKED-RUNTIME-PINS.json",
+      "bytes": 17766,
+      "sha256": "4229da494951d90f233541edd2694f42c0a3e9cc5e949401ded95f58273a9a86"
+    },
+    {
+      "path": "REPRODUCE.md",
+      "bytes": 3680,
+      "sha256": "53a1f3988a2cc019665cce3b068c2fa8fca4c4f138cea273f5c10a3cefd4d8c9"
+    },
+    {
+      "path": "SOURCE-REVIEW.json",
+      "bytes": 1289,
+      "sha256": "d212fe00d7b1bb2fb860e80a5cb65e1b994e477457b610e7685f6d25520df293"
+    },
+    {
+      "path": "audit-tests.log",
+      "bytes": 110,
+      "sha256": "c79ad62473431f49ba140466f08eefd8e61f605077aa65be57bab74e6626ebe1"
+    },
+    {
+      "path": "capture-adapter.patch",
+      "bytes": 38650,
+      "sha256": "fcd13138a30ebe06fd2b8904f6be4b0a85b654e61c4fdac7cd774942c55d3697"
+    },
+    {
+      "path": "circles-handoff-capture",
+      "bytes": 37999408,
+      "sha256": "4b07df0a91edf704b172548332545331f14182712d1d8a5aa2624573e05b2021"
+    },
+    {
+      "path": "circles300/cadence-color-gop-audit.json",
+      "bytes": 66733,
+      "sha256": "58912223285b40315a077da939040c09444f54ef9aeb86abb650d9e1cd03a31f"
+    },
+    {
+      "path": "circles300/capture/000000.bgra.zlib",
+      "bytes": 2228460,
+      "sha256": "614c8f37d97c51e89325f6bf2ee68e345d1d705f81c0ad445ac7446e73fa173d"
+    },
+    {
+      "path": "circles300/capture/000001.bgra.zlib",
+      "bytes": 2146437,
+      "sha256": "abc7faf7e9d515f54d7cf1abb9a8faa072d560235976f1ead02ceaad3e1ec597"
+    },
+    {
+      "path": "circles300/capture/000002.bgra.zlib",
+      "bytes": 2245096,
+      "sha256": "81f494e76b37d77ef76c7f877dcb00836c8210c77e877fc175f31dced2a149b0"
+    },
+    {
+      "path": "circles300/capture/000003.bgra.zlib",
+      "bytes": 2294834,
+      "sha256": "d62a65efc823f977b68fa8bfc41992f5a9f2c06aca7d69c6453f1d9832459b9d"
+    },
+    {
+      "path": "circles300/capture/000004.bgra.zlib",
+      "bytes": 2358972,
+      "sha256": "cb6b55e9e18da2d5cd3b02cb1f779d96dda1854272de47e111d3c2bc278a0e0e"
+    },
+    {
+      "path": "circles300/capture/000005.bgra.zlib",
+      "bytes": 2158798,
+      "sha256": "67a5cd7e33c3fe580b099d6ee2bb7121259a18dabc71df7f3e47b9f01f9592a7"
+    },
+    {
+      "path": "circles300/capture/000006.bgra.zlib",
+      "bytes": 2169145,
+      "sha256": "dedfb51ae1d2a433f1e0f3d7b61b320ce94956140d6c697fda5af2aab6388dcb"
+    },
+    {
+      "path": "circles300/capture/000007.bgra.zlib",
+      "bytes": 2284476,
+      "sha256": "fcb1046438b524f9ddedc2d745182694717e986c578e497c9407bc9c079cf227"
+    },
+    {
+      "path": "circles300/capture/000008.bgra.zlib",
+      "bytes": 2348596,
+      "sha256": "a7871af661290d996f139e82235feec2722e8d36ac896ca15a8e6dfc1d1726e5"
+    },
+    {
+      "path": "circles300/capture/000009.bgra.zlib",
+      "bytes": 2273596,
+      "sha256": "be32e1633c4d7f312f0d2c8b3fd0104cf798fe6da1180270433c138dce30604c"
+    },
+    {
+      "path": "circles300/capture/000010.bgra.zlib",
+      "bytes": 2159867,
+      "sha256": "cc3d6b36322f40d0abc229f4809211b72b821108ff88fa1bfbc6b8a6c866d11c"
+    },
+    {
+      "path": "circles300/capture/000011.bgra.zlib",
+      "bytes": 2185260,
+      "sha256": "f72a5b6c578064897c73c973a33354db817a97e2620b992c4aa0f561f71d806b"
+    },
+    {
+      "path": "circles300/capture/000012.bgra.zlib",
+      "bytes": 2332264,
+      "sha256": "f5b8e27b2955f2b654a404c237a52089179cbbcd313e6153db07e30ad628be4e"
+    },
+    {
+      "path": "circles300/capture/000013.bgra.zlib",
+      "bytes": 2265831,
+      "sha256": "5d8b597c9221285f52af8fc34ee4e22ac0e3d6f5f5306b7b22ef28df9774488e"
+    },
+    {
+      "path": "circles300/capture/000014.bgra.zlib",
+      "bytes": 2257712,
+      "sha256": "579be290dc8a5ff390394d28903f91c2e180fd4607034dffb4dbe5bfca3b2eb0"
+    },
+    {
+      "path": "circles300/capture/000015.bgra.zlib",
+      "bytes": 2168629,
+      "sha256": "b63b9c4edd6489f5e21b4084dda3750973f9202f1754b50765d45fccedd5a244"
+    },
+    {
+      "path": "circles300/capture/000016.bgra.zlib",
+      "bytes": 2203328,
+      "sha256": "85090bb3c15ad5cceb5369eeca0e7433ec30419c1cba30f5fc919f87c0a64127"
+    },
+    {
+      "path": "circles300/capture/000017.bgra.zlib",
+      "bytes": 2238989,
+      "sha256": "b31b40f048833a3c64f5dbd1009dce949c2798fc12c9e5da9f83580aa5e906ff"
+    },
+    {
+      "path": "circles300/capture/000018.bgra.zlib",
+      "bytes": 2253710,
+      "sha256": "b3a60aa9acef2c53e7ef9d398851c854a11b0268337a06ac3ac19526b732b317"
+    },
+    {
+      "path": "circles300/capture/000019.bgra.zlib",
+      "bytes": 2303706,
+      "sha256": "71ed78b6dcfcc9baadfd6106f071c3a9861d73e6888af79be40cb77a47b272c7"
+    },
+    {
+      "path": "circles300/capture/000020.bgra.zlib",
+      "bytes": 2245682,
+      "sha256": "2d82da069b1d10629745e6528a5e1b56b83297909c1007e5c61ee55fd9da4d70"
+    },
+    {
+      "path": "circles300/capture/000021.bgra.zlib",
+      "bytes": 2145427,
+      "sha256": "e668caa37e5adf52556c96910ec2893ce37cbdcd6257ba6d8946be2342dc3a43"
+    },
+    {
+      "path": "circles300/capture/000022.bgra.zlib",
+      "bytes": 2252922,
+      "sha256": "6c73244470c7e09a6e141d9621932e29b0d05ff7a48301732c76c544c3463abe"
+    },
+    {
+      "path": "circles300/capture/000023.bgra.zlib",
+      "bytes": 2306862,
+      "sha256": "5aadb855ca93a2c116ac6245607964afd77e1e3928a6be72764f9a14f4b53cca"
+    },
+    {
+      "path": "circles300/capture/000024.bgra.zlib",
+      "bytes": 2371101,
+      "sha256": "cf9a7617dbf1e905fc15683e92f948568b0560dd0028b371fa13e9b18d030072"
+    },
+    {
+      "path": "circles300/capture/000025.bgra.zlib",
+      "bytes": 2167574,
+      "sha256": "c813cdf23bb7d9389616f0b8c740fce6b3d843d8317a82911681dcba8b80e85b"
+    },
+    {
+      "path": "circles300/capture/000026.bgra.zlib",
+      "bytes": 2158196,
+      "sha256": "0f5278c628361792189dda335f46f7981df220f000ba2b1098822e1d7ad3d476"
+    },
+    {
+      "path": "circles300/capture/000027.bgra.zlib",
+      "bytes": 2283973,
+      "sha256": "207e636a8fea2d2f6877ef6cbfb2cce86d01b2a6ebd221c3b7a9b0ada80a53ac"
+    },
+    {
+      "path": "circles300/capture/000028.bgra.zlib",
+      "bytes": 2355532,
+      "sha256": "4a242f98b2fd1647b184f2454a198070571a58e0c74765e88b8cabad9aa0efbf"
+    },
+    {
+      "path": "circles300/capture/000029.bgra.zlib",
+      "bytes": 2275068,
+      "sha256": "a41d3e1771e028efca992487a89cef6117cc377eb4816aff12f1ee54057b4e4c"
+    },
+    {
+      "path": "circles300/capture/000030.bgra.zlib",
+      "bytes": 2161367,
+      "sha256": "a425b27e7e533b4a8e27c24d176eabb078ecc9a0d303728e6156a371f4683118"
+    },
+    {
+      "path": "circles300/capture/000031.bgra.zlib",
+      "bytes": 2175795,
+      "sha256": "805989b927fdcfad2a9368328c67d62a090d9d8a6135662cb3561dce4e7a5b0b"
+    },
+    {
+      "path": "circles300/capture/000032.bgra.zlib",
+      "bytes": 2322774,
+      "sha256": "3f21688c443aecc415c1411e64548da45ab83b270d9172491bee12ac01f4bdda"
+    },
+    {
+      "path": "circles300/capture/000033.bgra.zlib",
+      "bytes": 2263256,
+      "sha256": "95d39186409c65e57faa5f41b7b2e0a60278d4cfd6409b841f9984af9ef54163"
+    },
+    {
+      "path": "circles300/capture/000034.bgra.zlib",
+      "bytes": 2263247,
+      "sha256": "f0d27b08bbc5713f7951d611d63a2946d37e72cb7967335afc1daf796b86a6c8"
+    },
+    {
+      "path": "circles300/capture/000035.bgra.zlib",
+      "bytes": 2171946,
+      "sha256": "06f50e4a880b3ab594082fda466578263635c450121f639651c686dcbcc6321b"
+    },
+    {
+      "path": "circles300/capture/000036.bgra.zlib",
+      "bytes": 2201366,
+      "sha256": "5063ed141ebb4c8954dca40d1f2b5a11caad82c6c51e30a8996d5eec37a57117"
+    },
+    {
+      "path": "circles300/capture/000037.bgra.zlib",
+      "bytes": 2233601,
+      "sha256": "21c06106c42c3090eb16d0db7fb1b108d80824e91f8ebebef7dd1ece162de696"
+    },
+    {
+      "path": "circles300/capture/000038.bgra.zlib",
+      "bytes": 2248236,
+      "sha256": "585305a6139161358b42463d5b2f7e14ebf11997069866bdd5c27f4a0c19d836"
+    },
+    {
+      "path": "circles300/capture/000039.bgra.zlib",
+      "bytes": 2302113,
+      "sha256": "c75a2b00633c1614ac03aad61eea939518d58b0397410f6e0b1310a1fcb7baf0"
+    },
+    {
+      "path": "circles300/capture/000040.bgra.zlib",
+      "bytes": 2232994,
+      "sha256": "8868b67fcff50caf681f9089594cb3ae1aac49c0b8694d846e0de81ab68083ea"
+    },
+    {
+      "path": "circles300/capture/000041.bgra.zlib",
+      "bytes": 2141964,
+      "sha256": "36736d39967193232f44eee67179ba2426db63312d3e2b2ae10c3d434af90960"
+    },
+    {
+      "path": "circles300/capture/000042.bgra.zlib",
+      "bytes": 2242233,
+      "sha256": "3fe9d0220d0a8811d3e79f8b26f9a33c3a194c6dd22a665bbda4b4f5485bfe3b"
+    },
+    {
+      "path": "circles300/capture/000043.bgra.zlib",
+      "bytes": 2303434,
+      "sha256": "09d91f560bd162cb66f45d3649dee3c69d35bed9c06b272d8e1e09797f7228cb"
+    },
+    {
+      "path": "circles300/capture/000044.bgra.zlib",
+      "bytes": 2363624,
+      "sha256": "bc80feeb6e1c86d264bb9551ab460288fd6c9f3421938977e23cffc0573d491c"
+    },
+    {
+      "path": "circles300/capture/000045.bgra.zlib",
+      "bytes": 2158764,
+      "sha256": "5f7b4f2d64e49842011059651756d5a206f3360b691d2e3f66458463f4f0930a"
+    },
+    {
+      "path": "circles300/capture/000046.bgra.zlib",
+      "bytes": 2159205,
+      "sha256": "12962077de2131cf169ed1bb71c66f792d1851fb634dd6fd6d618bcaf771148b"
+    },
+    {
+      "path": "circles300/capture/000047.bgra.zlib",
+      "bytes": 2281865,
+      "sha256": "e6ddd681d30648d456d04be6cb5cf604d8a31848dfa05bbbf0b87f0273142c06"
+    },
+    {
+      "path": "circles300/capture/000048.bgra.zlib",
+      "bytes": 2360209,
+      "sha256": "2c74b6de1dcdbabcdd3b6a4dde140cb0bf75aa7b352f55b3d237ec51949d54ef"
+    },
+    {
+      "path": "circles300/capture/000049.bgra.zlib",
+      "bytes": 2289036,
+      "sha256": "eef3e634ab0aa2292ec46c0dbf81ac73c5e1aae0774d742e2372b03b9e82ebb8"
+    },
+    {
+      "path": "circles300/capture/000050.bgra.zlib",
+      "bytes": 2180176,
+      "sha256": "aba0a47152edf6d74fb307728d76cc0d9690d995decc70a7ac80258b542c6266"
+    },
+    {
+      "path": "circles300/capture/000051.bgra.zlib",
+      "bytes": 2189775,
+      "sha256": "4262f6dfb5a6f31e9f623e1db2cb45e1d18888000624e11f7f5695796b8e4719"
+    },
+    {
+      "path": "circles300/capture/000052.bgra.zlib",
+      "bytes": 2322340,
+      "sha256": "bd72c7102832e1d14ef7c7985708e3f327a4c04a1b934cada1cf9d12bf0a1e6a"
+    },
+    {
+      "path": "circles300/capture/000053.bgra.zlib",
+      "bytes": 2260566,
+      "sha256": "e581f97ee1f6d41936902541a656bd9c813588abd06972bd8384fade78e7dcaf"
+    },
+    {
+      "path": "circles300/capture/000054.bgra.zlib",
+      "bytes": 2261822,
+      "sha256": "d5be00e8f6680ff049c2a958d6995804fa5a78de2981a5462b8ba5d1f98ad402"
+    },
+    {
+      "path": "circles300/capture/000055.bgra.zlib",
+      "bytes": 2180819,
+      "sha256": "713035f91bb2e6f6de047395c829c024fbbdbea111826f9b947fa78f666be447"
+    },
+    {
+      "path": "circles300/capture/000056.bgra.zlib",
+      "bytes": 2205006,
+      "sha256": "77bc8d85a16ebb7065dc3439e1f11e9f3f97bc78041cab1f4fe852336bc8fb07"
+    },
+    {
+      "path": "circles300/capture/000057.bgra.zlib",
+      "bytes": 2242404,
+      "sha256": "f23b2e21bb8f34d3d428c330cd39675bac08e935bb356aa940b7f85073c63e16"
+    },
+    {
+      "path": "circles300/capture/000058.bgra.zlib",
+      "bytes": 2262025,
+      "sha256": "16cc008b0445aa6b93180783e4b6f93b3a92055df9bbe3ae2ca5de702a8c356d"
+    },
+    {
+      "path": "circles300/capture/000059.bgra.zlib",
+      "bytes": 2304991,
+      "sha256": "b908cf3ae0323e9b9d2f43a58dcb2ceec5f97d8806ba2b51523722d2b7ea8b33"
+    },
+    {
+      "path": "circles300/capture/000060.bgra.zlib",
+      "bytes": 2247519,
+      "sha256": "ad476bf7b0ca7fd8f41507ba80ace900b7e63ef23e45468d30d185059f1c5a81"
+    },
+    {
+      "path": "circles300/capture/000061.bgra.zlib",
+      "bytes": 2153732,
+      "sha256": "370d5c5be5e422974291a8c474c25bdfe796db1115df975214cb364307f3d364"
+    },
+    {
+      "path": "circles300/capture/000062.bgra.zlib",
+      "bytes": 2248658,
+      "sha256": "f803b832353e912b4ac437d517f363cca070fd6509efd85928af4709e796a30c"
+    },
+    {
+      "path": "circles300/capture/000063.bgra.zlib",
+      "bytes": 2305330,
+      "sha256": "6b2c276f7f1564a1e4406d1c08d10bce528d8e4e4c6c0a7fd49d7c0ad8f0cf7e"
+    },
+    {
+      "path": "circles300/capture/000064.bgra.zlib",
+      "bytes": 2371581,
+      "sha256": "5b6e2025329a4e4219e144140a0190fee775e0cab2bfe672b1dfa1ebabf2df39"
+    },
+    {
+      "path": "circles300/capture/000065.bgra.zlib",
+      "bytes": 2165643,
+      "sha256": "040ef643bb0f20f898439290268e34b8fa157992e4532d051691718e73870a73"
+    },
+    {
+      "path": "circles300/capture/000066.bgra.zlib",
+      "bytes": 2165140,
+      "sha256": "9ef5c8a686f10e51e80108a1352cf9209db958af35b7199cca2b0f390338a392"
+    },
+    {
+      "path": "circles300/capture/000067.bgra.zlib",
+      "bytes": 2285963,
+      "sha256": "fbf1e8f86a352a3883d86e795d32b7af8be201154b73360c88137dfdcf7745e1"
+    },
+    {
+      "path": "circles300/capture/000068.bgra.zlib",
+      "bytes": 2359474,
+      "sha256": "90aabba126a0e63d174ed093e3d39d47eb10861ade3b42fd23bdb147de4636e1"
+    },
+    {
+      "path": "circles300/capture/000069.bgra.zlib",
+      "bytes": 2279175,
+      "sha256": "02f292d447a337382852334d0707d661e754017537308f39e42ef490eb963f6c"
+    },
+    {
+      "path": "circles300/capture/000070.bgra.zlib",
+      "bytes": 2162810,
+      "sha256": "03ada8d710b57ad3c74b282d6c832b5394ac8fd7bb09580b93d3cef93913a148"
+    },
+    {
+      "path": "circles300/capture/000071.bgra.zlib",
+      "bytes": 2173225,
+      "sha256": "c42ab950b372d43e57798aa880c510f319a3a9d8c10c095bdda8dc39cabd9aea"
+    },
+    {
+      "path": "circles300/capture/000072.bgra.zlib",
+      "bytes": 2331156,
+      "sha256": "d4c7cf2a4712cde53ccf0b3436a43b4b4612b7b9183bb02836ccc93fa41536a9"
+    },
+    {
+      "path": "circles300/capture/000073.bgra.zlib",
+      "bytes": 2263967,
+      "sha256": "835503e152088a89c6c2fa088eef3d8907c310c0fccd47e3824f9fa4ea803d56"
+    },
+    {
+      "path": "circles300/capture/000074.bgra.zlib",
+      "bytes": 2264567,
+      "sha256": "dae69319cb6300ac608a75d3f9a99b46837ccacb2fbe1e15b6825e3d712f827b"
+    },
+    {
+      "path": "circles300/capture/000075.bgra.zlib",
+      "bytes": 2170322,
+      "sha256": "04216e1304ef98b8b7fb9e149251b5d58c53a59bca3c4a36d8249c714d25a005"
+    },
+    {
+      "path": "circles300/capture/000076.bgra.zlib",
+      "bytes": 2197295,
+      "sha256": "73f97abdd32fb113e3d311ed8a966926fea7668a56ae8d787e78e0dcf63a7bec"
+    },
+    {
+      "path": "circles300/capture/000077.bgra.zlib",
+      "bytes": 2221606,
+      "sha256": "db5b92ac2bb84bcbc47a5b92ba1d2a45906421f0ec3ec835c1732c94ebe69cc4"
+    },
+    {
+      "path": "circles300/capture/000078.bgra.zlib",
+      "bytes": 2239542,
+      "sha256": "9f99148c4e7072d81bb9d42d52ce6f955760c917ff53578964072daec554d482"
+    },
+    {
+      "path": "circles300/capture/000079.bgra.zlib",
+      "bytes": 2294739,
+      "sha256": "0059da55ec1d7ae3e3b007282837e64162a8c7026cac59f343da0d93948b4cc6"
+    },
+    {
+      "path": "circles300/capture/000080.bgra.zlib",
+      "bytes": 2243732,
+      "sha256": "4219efc245cd0abf3ccba21cea3c67aa868979f114c13abcade631215be76669"
+    },
+    {
+      "path": "circles300/capture/000081.bgra.zlib",
+      "bytes": 2145950,
+      "sha256": "46e5dcd28ebd4bd04ce48ff7ebb1e905516295d8c41c84ee0a580f499b2efcfe"
+    },
+    {
+      "path": "circles300/capture/000082.bgra.zlib",
+      "bytes": 2239749,
+      "sha256": "ed12bd926786706e60fb9b4349c1005a6f44faa340e970262f26763e57da2c19"
+    },
+    {
+      "path": "circles300/capture/000083.bgra.zlib",
+      "bytes": 2297681,
+      "sha256": "8914aad2b0ec8ec496337795fc419c54eb101741056891ae7cbfc976deebb29f"
+    },
+    {
+      "path": "circles300/capture/000084.bgra.zlib",
+      "bytes": 2368111,
+      "sha256": "7780c265018d1578038d1028088d0855335ffc41bf22f4c7e59f026b6fce19fd"
+    },
+    {
+      "path": "circles300/capture/000085.bgra.zlib",
+      "bytes": 2159554,
+      "sha256": "800315ddc99172a7cdb6103584e61eee15ede6c67e9cdbe1a459118dd30777fe"
+    },
+    {
+      "path": "circles300/capture/000086.bgra.zlib",
+      "bytes": 2154608,
+      "sha256": "354999e43828810f739e822ef34ea9e4f9374f65ebea5804aaa23f3861848bdf"
+    },
+    {
+      "path": "circles300/capture/000087.bgra.zlib",
+      "bytes": 2279669,
+      "sha256": "30003f9a20723f5559c3c850af2e7306950c6be1c9add9ff471fd87dbb51949e"
+    },
+    {
+      "path": "circles300/capture/000088.bgra.zlib",
+      "bytes": 2362853,
+      "sha256": "630f6f118fec2a5998ac99829f4d83343ea5214fcbacb74da50d66153bba0174"
+    },
+    {
+      "path": "circles300/capture/000089.bgra.zlib",
+      "bytes": 2285578,
+      "sha256": "a9b4e9533478e8d16b1e4330b3113fe4e06ce06a8344cb2723d4b567a87a7722"
+    },
+    {
+      "path": "circles300/capture/000090.bgra.zlib",
+      "bytes": 2175845,
+      "sha256": "5f689bd17bafd890ed1cf4716f3eea804a84b78a72041f7c8b83ac47a6d1c0cd"
+    },
+    {
+      "path": "circles300/capture/000091.bgra.zlib",
+      "bytes": 2183077,
+      "sha256": "0a5cab9c82736626836d24f5ec24982b0b658c8e67b9194639adf7717fbc8cdb"
+    },
+    {
+      "path": "circles300/capture/000092.bgra.zlib",
+      "bytes": 2325089,
+      "sha256": "d4e774c47afd3367861494f12785364c62f8e4f9a73ce15a613a51deeb9d39eb"
+    },
+    {
+      "path": "circles300/capture/000093.bgra.zlib",
+      "bytes": 2266313,
+      "sha256": "84412f5bb9f6050dff593157c812948570e425a9f1b092d9880e3732db68da98"
+    },
+    {
+      "path": "circles300/capture/000094.bgra.zlib",
+      "bytes": 2265349,
+      "sha256": "688d08eb22b01f234d4adca5d99a7565f1027c5094fd701d4ebac72707552348"
+    },
+    {
+      "path": "circles300/capture/000095.bgra.zlib",
+      "bytes": 2180545,
+      "sha256": "4cd53c0fd1d50138dc2bf4e3e922b31f900434813863bfd06b653ca5ef6f71fe"
+    },
+    {
+      "path": "circles300/capture/000096.bgra.zlib",
+      "bytes": 2199384,
+      "sha256": "97f106e81cfeb518c335ed8e43f7cddc30cf1a6dfc44620553bd082cb1627b04"
+    },
+    {
+      "path": "circles300/capture/000097.bgra.zlib",
+      "bytes": 2240137,
+      "sha256": "b57de26f6a25dd821b044c1846493b85eefe5eea1bf18aebf697ad00dbe3e860"
+    },
+    {
+      "path": "circles300/capture/000098.bgra.zlib",
+      "bytes": 2257761,
+      "sha256": "8247ceca2f813812fccd28ba4e71bcb589d8c7869470a20bc6ab0666a5ad3a20"
+    },
+    {
+      "path": "circles300/capture/000099.bgra.zlib",
+      "bytes": 2308405,
+      "sha256": "07e89419fd66ca380408504f785d209117c393ccf876d4804a0992b43d9817f0"
+    },
+    {
+      "path": "circles300/capture/000100.bgra.zlib",
+      "bytes": 2254328,
+      "sha256": "92968b1ddb7dcd1fe16a03291afb01d8e3b8bda6ebcb5d86e46cdef327c69111"
+    },
+    {
+      "path": "circles300/capture/000101.bgra.zlib",
+      "bytes": 2163815,
+      "sha256": "5ad0f3f203fca2df92376ba60426cb3336a509fbb7e966fd3f97e85b3f4e6855"
+    },
+    {
+      "path": "circles300/capture/000102.bgra.zlib",
+      "bytes": 2250043,
+      "sha256": "38b29206f01c03fd27081333e87b2b3ee4cb0f97ef7db87f8331eae497b15f72"
+    },
+    {
+      "path": "circles300/capture/000103.bgra.zlib",
+      "bytes": 2303649,
+      "sha256": "5ee7a36830eb1c6809b06fd4c3f78ad3a49755063b2020fa35ce8ebda8814f2c"
+    },
+    {
+      "path": "circles300/capture/000104.bgra.zlib",
+      "bytes": 2372846,
+      "sha256": "25a315e36fb06dd5b5cfb5c3dd6ed0be4548495c91635de9d00c4060571b064f"
+    },
+    {
+      "path": "circles300/capture/000105.bgra.zlib",
+      "bytes": 2167469,
+      "sha256": "608bf5462cc098b3182014b5d3689859f16a5759862d62a426e0c9588beaae53"
+    },
+    {
+      "path": "circles300/capture/000106.bgra.zlib",
+      "bytes": 2171188,
+      "sha256": "ff76a8e9da7722956a97874319868c5ad2d50cd02e409a9e113c3e86e6ce191c"
+    },
+    {
+      "path": "circles300/capture/000107.bgra.zlib",
+      "bytes": 2284693,
+      "sha256": "a633084baaa902d8acabbe774d6a3a616fdc85f09c68ce5db8639c93142361a3"
+    },
+    {
+      "path": "circles300/capture/000108.bgra.zlib",
+      "bytes": 2350921,
+      "sha256": "75906f8b2ed49452ac1115b742e21585fc94df46606cf0aed1d0d7e4019cb6d2"
+    },
+    {
+      "path": "circles300/capture/000109.bgra.zlib",
+      "bytes": 2274684,
+      "sha256": "0d4ae6d752417c26f4bfe178f1bbf2cec9be3499cd9b7e3079f947c41644cbb8"
+    },
+    {
+      "path": "circles300/capture/000110.bgra.zlib",
+      "bytes": 2174204,
+      "sha256": "523ce1cf31328e490114e3ed47b91d7ac3cc996d1a271deb6b16efe56af29cf6"
+    },
+    {
+      "path": "circles300/capture/000111.bgra.zlib",
+      "bytes": 2176581,
+      "sha256": "37fb6fe92872972eaeb71c827f5f0e4613f6f06566964ddddda85a08a2e74b8f"
+    },
+    {
+      "path": "circles300/capture/000112.bgra.zlib",
+      "bytes": 2323521,
+      "sha256": "419a7ab9627a1b818742b48dd371c970c936b7c4062ec41974364537d5a31ec2"
+    },
+    {
+      "path": "circles300/capture/000113.bgra.zlib",
+      "bytes": 2261572,
+      "sha256": "ea8dd4ae35554cdd3b289a35b0a141ee7d0fc0f0720a106d2a0f7ea9d56ee1fa"
+    },
+    {
+      "path": "circles300/capture/000114.bgra.zlib",
+      "bytes": 2261915,
+      "sha256": "2786479eb03505eab8fae0244a9ae007182ba9a4ca22223409e366c57128606e"
+    },
+    {
+      "path": "circles300/capture/000115.bgra.zlib",
+      "bytes": 2164421,
+      "sha256": "ba6d814748224d1f160ed24b0166a52627b42ac07d1b7db26cf455488fadae81"
+    },
+    {
+      "path": "circles300/capture/000116.bgra.zlib",
+      "bytes": 2199305,
+      "sha256": "ab6fd688398b84ffade6debc386d3d1e4be50d0dd7746019e68a184343f3e9f3"
+    },
+    {
+      "path": "circles300/capture/000117.bgra.zlib",
+      "bytes": 2232567,
+      "sha256": "e9b9d0ee21c796af88e4f13d6cbc184b514f302f643526108b74b3e8c6492cbb"
+    },
+    {
+      "path": "circles300/capture/000118.bgra.zlib",
+      "bytes": 2246674,
+      "sha256": "6dd5f9a49972cd3745b061166560a3c23162e99486f2901d0b0ad1bd9df51b57"
+    },
+    {
+      "path": "circles300/capture/000119.bgra.zlib",
+      "bytes": 2287747,
+      "sha256": "218e71c3ae1c7dca7ecdbad7a44055b0e777a2283e1b14c54648593552804256"
+    },
+    {
+      "path": "circles300/capture/000120.bgra.zlib",
+      "bytes": 2234050,
+      "sha256": "c17a0b2deaacd40c3aa1d2788373bd6ba5bd65ac6d7bcf602e5fb7dd2109e613"
+    },
+    {
+      "path": "circles300/capture/000121.bgra.zlib",
+      "bytes": 2143267,
+      "sha256": "064dc372a89ba18048c1f5a6ad545892667d89e54c2ba0a7e92864aa9ea3bc96"
+    },
+    {
+      "path": "circles300/capture/000122.bgra.zlib",
+      "bytes": 2230730,
+      "sha256": "6349ca58d29f9e149ebec700c12727c824c7a6f69b79b1d262ee6926676e2a37"
+    },
+    {
+      "path": "circles300/capture/000123.bgra.zlib",
+      "bytes": 2291404,
+      "sha256": "58a81ba096c0994363e069cba7c058df49c4aef399bb7b67ec46e050868d7f2c"
+    },
+    {
+      "path": "circles300/capture/000124.bgra.zlib",
+      "bytes": 2363275,
+      "sha256": "8c8e0832296246fdfca79b1c63cc72c2ec427f5a3e4529c39205ec20eff6af62"
+    },
+    {
+      "path": "circles300/capture/000125.bgra.zlib",
+      "bytes": 2159862,
+      "sha256": "3c063d7220c69393fcd32830c134064076c75c0dee903927c10fa4ce56c4860d"
+    },
+    {
+      "path": "circles300/capture/000126.bgra.zlib",
+      "bytes": 2166416,
+      "sha256": "f2c957746424545eb8599ffa308518752ad2f766dae619606829f2b062adfb9b"
+    },
+    {
+      "path": "circles300/capture/000127.bgra.zlib",
+      "bytes": 2274078,
+      "sha256": "2cd6a6d99136b2abdd35c555d80d6c0324fcf0648fcf507c3200552ce1f20b74"
+    },
+    {
+      "path": "circles300/capture/000128.bgra.zlib",
+      "bytes": 2350439,
+      "sha256": "360bf8583d6ded06420c70f2dcbb780ff399f54eaf956c2eb39c5357b042861e"
+    },
+    {
+      "path": "circles300/capture/000129.bgra.zlib",
+      "bytes": 2270830,
+      "sha256": "65839a4e495b23b1cb5bf32905814532c364dc1bf3e676ac765e8ce20ef82475"
+    },
+    {
+      "path": "circles300/capture/000130.bgra.zlib",
+      "bytes": 2173157,
+      "sha256": "f8181f62cfed697daa28d32c80f04dca7bf010df365bf37813bad48192370f43"
+    },
+    {
+      "path": "circles300/capture/000131.bgra.zlib",
+      "bytes": 2183547,
+      "sha256": "af8480be0a236ca91d3a2a87b901e66e4f0a28c937df30dd96c09a838f8afc4c"
+    },
+    {
+      "path": "circles300/capture/000132.bgra.zlib",
+      "bytes": 2327227,
+      "sha256": "a5a12a3cd46675807fb84d8c9b420a5e221731e6510b7b280086a0a4a7cea56a"
+    },
+    {
+      "path": "circles300/capture/000133.bgra.zlib",
+      "bytes": 2263403,
+      "sha256": "63ed2ceaa89991d898ac50a841bcebe58243d57bc474ac296a51ca52eb032101"
+    },
+    {
+      "path": "circles300/capture/000134.bgra.zlib",
+      "bytes": 2261609,
+      "sha256": "d6b27379f496f2ebd302785612db70f98f0de19e9ed355c1af3934bb4582527a"
+    },
+    {
+      "path": "circles300/capture/000135.bgra.zlib",
+      "bytes": 2179692,
+      "sha256": "80f57eee7ccb278519d63633a10ac52f516885aa9d1482e7eb10a3a822c927e4"
+    },
+    {
+      "path": "circles300/capture/000136.bgra.zlib",
+      "bytes": 2204024,
+      "sha256": "23436731d28303234071aeafd9e2f8b4a99866d5528c91aef6b3e5a75eb4d866"
+    },
+    {
+      "path": "circles300/capture/000137.bgra.zlib",
+      "bytes": 2237586,
+      "sha256": "4790ca766f24c161e36597aa6be71771ff69b7ccfb01af1e8bf66a11faca719a"
+    },
+    {
+      "path": "circles300/capture/000138.bgra.zlib",
+      "bytes": 2250779,
+      "sha256": "0cde07db74fd26a7c14b209c177b1b5d87a36baed62559b65d09c042d070efbc"
+    },
+    {
+      "path": "circles300/capture/000139.bgra.zlib",
+      "bytes": 2303304,
+      "sha256": "fa532cf529a046fa434436e3fd54a4ad7f6299493eb0d6129b617bef57eb2ef2"
+    },
+    {
+      "path": "circles300/capture/000140.bgra.zlib",
+      "bytes": 2257527,
+      "sha256": "82db7b4b4517fbf1428543158a6e4e3cf0d5246875e8c1abbdac2c6adbdd32dd"
+    },
+    {
+      "path": "circles300/capture/000141.bgra.zlib",
+      "bytes": 2167072,
+      "sha256": "a96f0bc58485160dcce09e088d7361f3c68a59c6d2cd0e76016f123fbdfc7887"
+    },
+    {
+      "path": "circles300/capture/000142.bgra.zlib",
+      "bytes": 2255207,
+      "sha256": "fd228112503f0331a70c8738ff7d65e9feaf3c660a097681f3ecb9b8cc4fefb0"
+    },
+    {
+      "path": "circles300/capture/000143.bgra.zlib",
+      "bytes": 2305021,
+      "sha256": "9b6bab39cf2941e6de8f91b5cbbc3412ad090b746f276853bdd84ac78d19aa63"
+    },
+    {
+      "path": "circles300/capture/000144.bgra.zlib",
+      "bytes": 2367683,
+      "sha256": "a56b2cb91a10c78edfb09868a9a2243f409256f63b1c16c05701de6ac6539e64"
+    },
+    {
+      "path": "circles300/capture/000145.bgra.zlib",
+      "bytes": 2172365,
+      "sha256": "91e54a6b2f3a13074159395b4f353daa8cac6b950e75432939324b186620a4ad"
+    },
+    {
+      "path": "circles300/capture/000146.bgra.zlib",
+      "bytes": 2171427,
+      "sha256": "0c5851f71c1b8bc2d888325c8463c35ac674b8c00c528b54de7ed7116546fdb8"
+    },
+    {
+      "path": "circles300/capture/000147.bgra.zlib",
+      "bytes": 2284873,
+      "sha256": "9bc440b115fbbae15ab251b85b6abe895661c6910dcac17871dec6ce49e2ad76"
+    },
+    {
+      "path": "circles300/capture/000148.bgra.zlib",
+      "bytes": 2356290,
+      "sha256": "8c5da6dde9a31419747c8b5052631956237ec1e3a7bb478059f01c30f1235d01"
+    },
+    {
+      "path": "circles300/capture/000149.bgra.zlib",
+      "bytes": 2279618,
+      "sha256": "ea167ac883c6fa235ad4cfe7ed9845a5ef8a41bb76cdf4fbd3d54f2b7f07ab6f"
+    },
+    {
+      "path": "circles300/capture/000150.bgra.zlib",
+      "bytes": 2172203,
+      "sha256": "48aac58d3e7be1b2b4a4e67abf97a7e7ba7ac56ee3c2c150769e5ed233c4619e"
+    },
+    {
+      "path": "circles300/capture/000151.bgra.zlib",
+      "bytes": 2182755,
+      "sha256": "6d8c17c1a6a09c56a6e41bf466e721314ebbc3fa35696cc9676b0f496db1bda4"
+    },
+    {
+      "path": "circles300/capture/000152.bgra.zlib",
+      "bytes": 2324609,
+      "sha256": "cc29084a94efeebb5da97d2cd19109842acfd7ff2ded0ec88ab4a7d5ceb35daf"
+    },
+    {
+      "path": "circles300/capture/000153.bgra.zlib",
+      "bytes": 2263935,
+      "sha256": "efc14c84e95b2792c7b7b0d0239dcb15f33b5309fef55732f0066fc2ae7a0191"
+    },
+    {
+      "path": "circles300/capture/000154.bgra.zlib",
+      "bytes": 2259698,
+      "sha256": "72f1a072f963041b4401d1a213aeb320f0c6e4ef0b05a797f0dbda58582c5722"
+    },
+    {
+      "path": "circles300/capture/000155.bgra.zlib",
+      "bytes": 2175565,
+      "sha256": "feb251733a7d42ad6bad6e45117aa1b3a05fb77af86c63b60460044d5ba8c3c3"
+    },
+    {
+      "path": "circles300/capture/000156.bgra.zlib",
+      "bytes": 2212674,
+      "sha256": "4c4e58c637576ff163ef7e77efd43b03405d644d391cfcea4ef729100ed14ec4"
+    },
+    {
+      "path": "circles300/capture/000157.bgra.zlib",
+      "bytes": 2242061,
+      "sha256": "59abfad8def1ba5ad1d3236304833f51661470c7609cfea9c851f35dbe54da5d"
+    },
+    {
+      "path": "circles300/capture/000158.bgra.zlib",
+      "bytes": 2250425,
+      "sha256": "d958545b350bf5be288ffad8bcbab2e2cd4ced944e9ad444f66a02fbccefc429"
+    },
+    {
+      "path": "circles300/capture/000159.bgra.zlib",
+      "bytes": 2301347,
+      "sha256": "3c28f8cac7e288162fcf0abbe181d1f4576c9287f4e8285bde5a57369a9d2ba0"
+    },
+    {
+      "path": "circles300/capture/000160.bgra.zlib",
+      "bytes": 2239723,
+      "sha256": "afdd7fa4d2e01ef628112882b101d26413d15d397420bb6cb3070efbccb92e77"
+    },
+    {
+      "path": "circles300/capture/000161.bgra.zlib",
+      "bytes": 2150122,
+      "sha256": "fda0dab1415efcb674c34a58373cff03dba799607bc9a789b1ec4100cde0a9b5"
+    },
+    {
+      "path": "circles300/capture/000162.bgra.zlib",
+      "bytes": 2247443,
+      "sha256": "c9ac4d4c1fe1949bb41245a1211f95ee96b79d67bc0d60a8ef921a1c84d83489"
+    },
+    {
+      "path": "circles300/capture/000163.bgra.zlib",
+      "bytes": 2302198,
+      "sha256": "cf811e6a2f0afa06277a38f0f895a1477d32bc3ae87746c9d024766c92fc5282"
+    },
+    {
+      "path": "circles300/capture/000164.bgra.zlib",
+      "bytes": 2357755,
+      "sha256": "4f45c1f7fcf8b23aadc2fc728c7d4285e6ae4ba132d0432a9ffaa86d6ea44957"
+    },
+    {
+      "path": "circles300/capture/000165.bgra.zlib",
+      "bytes": 2150731,
+      "sha256": "d20d07c64c26b4f38fd1870a3d9353288ac202eb30b60370e68ed6b323f1b831"
+    },
+    {
+      "path": "circles300/capture/000166.bgra.zlib",
+      "bytes": 2163802,
+      "sha256": "b2fdb5f60dd9af7cca5eb9e8c23c1955d97030579892aa1f9cf97225b36ac9fa"
+    },
+    {
+      "path": "circles300/capture/000167.bgra.zlib",
+      "bytes": 2281200,
+      "sha256": "5ed5bfbc31f5f418a109694b305a26bc1bd45aa1bfe6745da067100d10deea2a"
+    },
+    {
+      "path": "circles300/capture/000168.bgra.zlib",
+      "bytes": 2360125,
+      "sha256": "9e5a87611eb1d53a54b49fe78c405adb29b231f0a2d59fa4faf1b1c668e5ff2b"
+    },
+    {
+      "path": "circles300/capture/000169.bgra.zlib",
+      "bytes": 2280687,
+      "sha256": "a68224292aa4f4a7fa058f11d88e8d20e1527c9dea03f78fb996d32afcdfdef4"
+    },
+    {
+      "path": "circles300/capture/000170.bgra.zlib",
+      "bytes": 2172179,
+      "sha256": "a6bdc272ddee8fd35fc64ad51081898e798ff88a8dd497325ec55edde8f05786"
+    },
+    {
+      "path": "circles300/capture/000171.bgra.zlib",
+      "bytes": 2181042,
+      "sha256": "72de27de76af47b287200084d4c2672c9d9cec9d6b814794ac0b5c7175feaabb"
+    },
+    {
+      "path": "circles300/capture/000172.bgra.zlib",
+      "bytes": 2327099,
+      "sha256": "9ca6743140053b01db60c5728c382c0b130c1c64c4bb717efb18eee5f9280df6"
+    },
+    {
+      "path": "circles300/capture/000173.bgra.zlib",
+      "bytes": 2262547,
+      "sha256": "784163733c995dc63718a287c816610b975ebb60245d0a00c7aa4b329fe26c11"
+    },
+    {
+      "path": "circles300/capture/000174.bgra.zlib",
+      "bytes": 2259253,
+      "sha256": "d32fecf2a85acb8d1e2e6841f94c6bbd91ecb3a27cf9880f296542884beafa17"
+    },
+    {
+      "path": "circles300/capture/000175.bgra.zlib",
+      "bytes": 2175171,
+      "sha256": "dd6ad1d647fbfd5850d9e523290cb18769fc355e710fa34d94b1719b8dc51b2d"
+    },
+    {
+      "path": "circles300/capture/000176.bgra.zlib",
+      "bytes": 2208066,
+      "sha256": "10ed873d64bc60d5ec31a6902966fad120550c53af46a56131059a5fc288906d"
+    },
+    {
+      "path": "circles300/capture/000177.bgra.zlib",
+      "bytes": 2242319,
+      "sha256": "21cdf018091d029eeef9cd74f7ce2a243dc2fd14c56eac3c8d66ffe331ce8864"
+    },
+    {
+      "path": "circles300/capture/000178.bgra.zlib",
+      "bytes": 2260610,
+      "sha256": "db221cf3942a55b4238a840d8c138372cdc6f33c3e1b0613f841fdbe9555e3c2"
+    },
+    {
+      "path": "circles300/capture/000179.bgra.zlib",
+      "bytes": 2304344,
+      "sha256": "d74505722dd507408a1c05f42ca076805c525521dc39f3e276e5f88a46ea95e4"
+    },
+    {
+      "path": "circles300/capture/000180.bgra.zlib",
+      "bytes": 2242156,
+      "sha256": "8d0854928d4298ddfcbac6ce41bb9b09555c71524868180e7fa6cfd97f508ab9"
+    },
+    {
+      "path": "circles300/capture/000181.bgra.zlib",
+      "bytes": 2153655,
+      "sha256": "b7ebe2bbcd0ac4802b69b0dda1fb9a67f896e4afce24ea3f4b291822634f2cee"
+    },
+    {
+      "path": "circles300/capture/000182.bgra.zlib",
+      "bytes": 2252370,
+      "sha256": "9a308ca8ba6d35c03a8b2eab5145fbe83960219e4d5097fd73d3702a6002fc01"
+    },
+    {
+      "path": "circles300/capture/000183.bgra.zlib",
+      "bytes": 2315871,
+      "sha256": "b12f4b5a087469662b0c50dc36cf8d4143ff41ab97f2ccd1cc9661f4092be9b1"
+    },
+    {
+      "path": "circles300/capture/000184.bgra.zlib",
+      "bytes": 2361569,
+      "sha256": "66364281c93b8b7a3e6dd749e6ae6819a2341ccd60ab4bbcb28e021d5e4a40cf"
+    },
+    {
+      "path": "circles300/capture/000185.bgra.zlib",
+      "bytes": 2161943,
+      "sha256": "675525988b0a9821403865ba0e43a664a9e6a31f128f07cdf374be68c53dd3f0"
+    },
+    {
+      "path": "circles300/capture/000186.bgra.zlib",
+      "bytes": 2170128,
+      "sha256": "007a4a911da14a8c53c9014d505d88cbb551943fde9e04563b6b2bcbf443fdba"
+    },
+    {
+      "path": "circles300/capture/000187.bgra.zlib",
+      "bytes": 2286821,
+      "sha256": "92a5a1ea23c4a9a2a89b2a4c3e7e77ca292441468a6c82c889dfbfc4eab27301"
+    },
+    {
+      "path": "circles300/capture/000188.bgra.zlib",
+      "bytes": 2355837,
+      "sha256": "da60187f13d632e403e5df587c0b1c9fa8ba87ec80505e76cbf844367e4575dc"
+    },
+    {
+      "path": "circles300/capture/000189.bgra.zlib",
+      "bytes": 2278634,
+      "sha256": "553e6235a3f5b94623ae554c6594dc095356d215e0314c67365eb986b29d8696"
+    },
+    {
+      "path": "circles300/capture/000190.bgra.zlib",
+      "bytes": 2165859,
+      "sha256": "85a194e255235ed093c28675b146894ecac535817a489db8e0eac6ff46f77f0f"
+    },
+    {
+      "path": "circles300/capture/000191.bgra.zlib",
+      "bytes": 2175607,
+      "sha256": "a337024391e50054a9c525d2852816053e958a3dd3bc62c7073732526133a57c"
+    },
+    {
+      "path": "circles300/capture/000192.bgra.zlib",
+      "bytes": 2332165,
+      "sha256": "adbb75c6a5faa8de19c8f800655e08b6632ef832fa75e85e9de51812c13e72bc"
+    },
+    {
+      "path": "circles300/capture/000193.bgra.zlib",
+      "bytes": 2271805,
+      "sha256": "5f515e289916001325cb12424af30f62c03bab8a59a94879afab41f8d8fbeb88"
+    },
+    {
+      "path": "circles300/capture/000194.bgra.zlib",
+      "bytes": 2269321,
+      "sha256": "09715fe0bb0d8d78e705c71f0563047ecfac111c017f420b4ae2cbee3e8a828b"
+    },
+    {
+      "path": "circles300/capture/000195.bgra.zlib",
+      "bytes": 2180787,
+      "sha256": "d05480eeda326de83da478ab043e3829d2199c2ffbcdcfab872c1a31b00c1c96"
+    },
+    {
+      "path": "circles300/capture/000196.bgra.zlib",
+      "bytes": 2205498,
+      "sha256": "91c094632630e479d8e5cd8edcdfdea48feb64df17b23f19e236fd11eb4b4a3d"
+    },
+    {
+      "path": "circles300/capture/000197.bgra.zlib",
+      "bytes": 2231947,
+      "sha256": "1cfe2350d7d3d34ad965b85bec53ae6df7a2743c007c405a82a2eaf8e5f1f832"
+    },
+    {
+      "path": "circles300/capture/000198.bgra.zlib",
+      "bytes": 2246757,
+      "sha256": "cfa12cbd55bd12486873ea78ac342d08011bbdc62323c3120a0dbc02ab9c47b5"
+    },
+    {
+      "path": "circles300/capture/000199.bgra.zlib",
+      "bytes": 2302331,
+      "sha256": "e000074afa1b5e0f87b9f6460e22f25f783b63377f2fe6588cfee084cf11ed30"
+    },
+    {
+      "path": "circles300/capture/000200.bgra.zlib",
+      "bytes": 2250820,
+      "sha256": "0e1f2192001f9004c101cf9a0bf4cd0a1374ad79fd7968a2d0fd54ad75bd5466"
+    },
+    {
+      "path": "circles300/capture/000201.bgra.zlib",
+      "bytes": 2155688,
+      "sha256": "41c75650a5198c2393cc6bc25acb3d9c3383d72f5efc55176b7c295c24a3be06"
+    },
+    {
+      "path": "circles300/capture/000202.bgra.zlib",
+      "bytes": 2243803,
+      "sha256": "bf2b5ffb745d4bd4bcf5d004c41d4371dbbb221c3a1c71245c8f322c35f06b56"
+    },
+    {
+      "path": "circles300/capture/000203.bgra.zlib",
+      "bytes": 2300380,
+      "sha256": "1ceaf631d50eb1d24856bf6f1a352c76886451e501a907cd8ffcc4b6991c9ab5"
+    },
+    {
+      "path": "circles300/capture/000204.bgra.zlib",
+      "bytes": 2364087,
+      "sha256": "10a413ffc24d4e5ba9ce16e44c46afd7d2ef5a4d1389a2dadd2237267890f250"
+    },
+    {
+      "path": "circles300/capture/000205.bgra.zlib",
+      "bytes": 2157884,
+      "sha256": "a93fc2d5d1aa6b68d01f36748ff2059473759bf14dd9ad80f05234551df1aa15"
+    },
+    {
+      "path": "circles300/capture/000206.bgra.zlib",
+      "bytes": 2158831,
+      "sha256": "98558bbfe0bac740525637d494c7f23f653792c4bc322005f5144daea9555128"
+    },
+    {
+      "path": "circles300/capture/000207.bgra.zlib",
+      "bytes": 2281574,
+      "sha256": "146c725e0435f6b0daa5b9a090bcb5a686b41a2794a5cbd5752c44dc9fcf9a7b"
+    },
+    {
+      "path": "circles300/capture/000208.bgra.zlib",
+      "bytes": 2360201,
+      "sha256": "1df6aa60c9bd793c83b94f497f726aef6fa4bd19337327958318fa3e3925b8e7"
+    },
+    {
+      "path": "circles300/capture/000209.bgra.zlib",
+      "bytes": 2281625,
+      "sha256": "22b7e09e943d973315e13749ff969835ce9f9101850ca34a35c49aba5d99cb8a"
+    },
+    {
+      "path": "circles300/capture/000210.bgra.zlib",
+      "bytes": 2167953,
+      "sha256": "8dbf8e454d721f1c0a905d3b45c91fdac2b6c94cd5882e449ca90e0effa15c0f"
+    },
+    {
+      "path": "circles300/capture/000211.bgra.zlib",
+      "bytes": 2187814,
+      "sha256": "33dabbfc7bec7d62670c2da608d4c42801feaab6badf9d54ed5a4f573d4667fe"
+    },
+    {
+      "path": "circles300/capture/000212.bgra.zlib",
+      "bytes": 2334525,
+      "sha256": "be0610da0b9772594e91c5edd6ea4162a87b32930edf101c9567a757f005109e"
+    },
+    {
+      "path": "circles300/capture/000213.bgra.zlib",
+      "bytes": 2267144,
+      "sha256": "bf148d57befade2bceaf21ddf7d874ea7faa2e3da58a84cb16337da470e36349"
+    },
+    {
+      "path": "circles300/capture/000214.bgra.zlib",
+      "bytes": 2257459,
+      "sha256": "aacb8b57aa0edb753eb193b2076f062e287f4a7944cd364616f1f2cba1d28f7d"
+    },
+    {
+      "path": "circles300/capture/000215.bgra.zlib",
+      "bytes": 2172711,
+      "sha256": "d1dc00a14ec0d41b14a5b2d69637dd5f755ec121b6cb02e84d5f02fa1f6b05bc"
+    },
+    {
+      "path": "circles300/capture/000216.bgra.zlib",
+      "bytes": 2207568,
+      "sha256": "4bd15081a92cfe3ef56e6d57b157648772559a3c6f9dcd18e6013ee5bba64b7a"
+    },
+    {
+      "path": "circles300/capture/000217.bgra.zlib",
+      "bytes": 2236202,
+      "sha256": "4aea6702a6ddc502de3a083e5f4caf632aa5bce31cb4a8b4da78f79bb274431c"
+    },
+    {
+      "path": "circles300/capture/000218.bgra.zlib",
+      "bytes": 2258205,
+      "sha256": "8463bedd63eab127c638cf8e24b628f2512092267adadfd190c26d633b56d51e"
+    },
+    {
+      "path": "circles300/capture/000219.bgra.zlib",
+      "bytes": 2303639,
+      "sha256": "78cbfc5b5b4c9df74f2e8712f36fa712efb7af1e62445f89f5454b6838e97083"
+    },
+    {
+      "path": "circles300/capture/000220.bgra.zlib",
+      "bytes": 2242045,
+      "sha256": "12583c9c27d999d8d8648390041f88e5486e33ba4b3af38ff4f9f70a332a5f17"
+    },
+    {
+      "path": "circles300/capture/000221.bgra.zlib",
+      "bytes": 2152579,
+      "sha256": "da74dc087510067368230f92d432e0e31236aaae313b59841938317ab6d537ca"
+    },
+    {
+      "path": "circles300/capture/000222.bgra.zlib",
+      "bytes": 2255410,
+      "sha256": "3410d80d05a1837eb786959f4ef8e6f3017f2049602813a41ae6c3205f61361c"
+    },
+    {
+      "path": "circles300/capture/000223.bgra.zlib",
+      "bytes": 2309735,
+      "sha256": "f3acbc3f6ea5e7790a2761989c4a55cfc638a010a6356c090d24e3055abbef63"
+    },
+    {
+      "path": "circles300/capture/000224.bgra.zlib",
+      "bytes": 2370799,
+      "sha256": "8a641e1ca266aa577ddbd100b56abee8494d042013c5cb31a771001e985cebc4"
+    },
+    {
+      "path": "circles300/capture/000225.bgra.zlib",
+      "bytes": 2165576,
+      "sha256": "3747a6a033dd940dab746a58d1aea246ab6ee5cd1a7e77b39019185c52374356"
+    },
+    {
+      "path": "circles300/capture/000226.bgra.zlib",
+      "bytes": 2166605,
+      "sha256": "3209b18fefc8dddfe0f992ae53c53a58d53ec078809035236a5df592c0da6d12"
+    },
+    {
+      "path": "circles300/capture/000227.bgra.zlib",
+      "bytes": 2287731,
+      "sha256": "e4199aeb7e8880218b00e64b61155eb541f23f1f9b7e542016583f5507903842"
+    },
+    {
+      "path": "circles300/capture/000228.bgra.zlib",
+      "bytes": 2363598,
+      "sha256": "5dbfde2948fbcf3ee5e56b6300a47f55a3e57beb5311e9b976fc7fbd73cc98fd"
+    },
+    {
+      "path": "circles300/capture/000229.bgra.zlib",
+      "bytes": 2283270,
+      "sha256": "8f472d3cc0ddb00d3316e558eff29ec8b82cb610c785ee4954eea4e9bf194cd8"
+    },
+    {
+      "path": "circles300/capture/000230.bgra.zlib",
+      "bytes": 2170693,
+      "sha256": "0aa54f8a5ec26d0b706438611f2a4f68520706ba4747af76eabcd50434a9b178"
+    },
+    {
+      "path": "circles300/capture/000231.bgra.zlib",
+      "bytes": 2178729,
+      "sha256": "4428774d58c27e8090e722a3add423a9af7abf7de0a098c69c6831e1208a016c"
+    },
+    {
+      "path": "circles300/capture/000232.bgra.zlib",
+      "bytes": 2327607,
+      "sha256": "4997fd9e9756fc4eb9e18a1bf2d6d31a7808cd1f6f10d3e60e0724c46c92048f"
+    },
+    {
+      "path": "circles300/capture/000233.bgra.zlib",
+      "bytes": 2270073,
+      "sha256": "27a692262126daf295924906e753541a5432d342f32520e5b5dc09c87c5e9a8e"
+    },
+    {
+      "path": "circles300/capture/000234.bgra.zlib",
+      "bytes": 2273471,
+      "sha256": "cc40bb124d8653007bdf921edcc5703c3d54ba4075e6ccf742e60cf2745a031a"
+    },
+    {
+      "path": "circles300/capture/000235.bgra.zlib",
+      "bytes": 2174771,
+      "sha256": "0ab86ad5cbbad9628528ef0c7c611ead5d59c25476aca33f4e3b5a032f0ba9c7"
+    },
+    {
+      "path": "circles300/capture/000236.bgra.zlib",
+      "bytes": 2202677,
+      "sha256": "a97cc6a9821619d3ce99fc156a36bf6fce2680bad2e6b64c26df4d1fe3ece27a"
+    },
+    {
+      "path": "circles300/capture/000237.bgra.zlib",
+      "bytes": 2240843,
+      "sha256": "00d85af651883f7551dfb38fc27d6b75743c5276b0f882d4f58b024446029c26"
+    },
+    {
+      "path": "circles300/capture/000238.bgra.zlib",
+      "bytes": 2261994,
+      "sha256": "aeb193a98fdfd903963c5c4e015c05870759575f73dca602e6af0c11237b87b7"
+    },
+    {
+      "path": "circles300/capture/000239.bgra.zlib",
+      "bytes": 2308264,
+      "sha256": "b7a9ef8597a0ecb71ded337654d699ae0fd7071a03e944f6e4799d8393abf5cd"
+    },
+    {
+      "path": "circles300/capture/000240.bgra.zlib",
+      "bytes": 2239487,
+      "sha256": "1d905a789dd5ec9afd908d558c48baf387fa2f61237aef736bd0583524168c2c"
+    },
+    {
+      "path": "circles300/capture/000241.bgra.zlib",
+      "bytes": 2146193,
+      "sha256": "f7289e3612dc6d31c920d17a8c909136c555c05083d51aab19f2a40ce42753eb"
+    },
+    {
+      "path": "circles300/capture/000242.bgra.zlib",
+      "bytes": 2242762,
+      "sha256": "d0db0bdef3bfecb9b5ae80f1cb90e9c0073a2e08480142e9bb6331cb74cfcf7c"
+    },
+    {
+      "path": "circles300/capture/000243.bgra.zlib",
+      "bytes": 2305081,
+      "sha256": "4ca595df06c193059930fd60c9e82592b6dad1f8df4b5e618163f4a9f85f1a3e"
+    },
+    {
+      "path": "circles300/capture/000244.bgra.zlib",
+      "bytes": 2365804,
+      "sha256": "5a25811abe1e4028ea97cc59dec151ee2692a4b07eea48335cd33ae4ce57597b"
+    },
+    {
+      "path": "circles300/capture/000245.bgra.zlib",
+      "bytes": 2168877,
+      "sha256": "176325f44e406f48b89abf72c4eaa57248a685c48be4fa721ec29dbf2370e753"
+    },
+    {
+      "path": "circles300/capture/000246.bgra.zlib",
+      "bytes": 2165746,
+      "sha256": "6e722409795c884dbb298d00f704a3c6e4e66aa64011165ca26dbb10bcb0c150"
+    },
+    {
+      "path": "circles300/capture/000247.bgra.zlib",
+      "bytes": 2279209,
+      "sha256": "d7e90d79f670944bb008f6c359d8b32a6a8f38bb677224cec47a1324e54fec7c"
+    },
+    {
+      "path": "circles300/capture/000248.bgra.zlib",
+      "bytes": 2355823,
+      "sha256": "944a7795b2edec1e48640e3a8e4d3bb20ad14a554e7cb111837d7184d11fa6b9"
+    },
+    {
+      "path": "circles300/capture/000249.bgra.zlib",
+      "bytes": 2274939,
+      "sha256": "09ea9ede8ce523663face32dee15cbef9aa489965bcd57a9d6815449ce52e0c7"
+    },
+    {
+      "path": "circles300/capture/000250.bgra.zlib",
+      "bytes": 2165887,
+      "sha256": "0835803a7808ba29ff6560ffc7375e6317cccae2a25d9c209338edd9d3b2bbec"
+    },
+    {
+      "path": "circles300/capture/000251.bgra.zlib",
+      "bytes": 2180389,
+      "sha256": "ba3ea4ab8ad394271330c85f4899e5cd266e5060913fb8a8bff204ab2d33db07"
+    },
+    {
+      "path": "circles300/capture/000252.bgra.zlib",
+      "bytes": 2326856,
+      "sha256": "88fb41cb3c632b0dfd3f7be501490aefbcb5fa3e73cf8ecb3ac31382726b3019"
+    },
+    {
+      "path": "circles300/capture/000253.bgra.zlib",
+      "bytes": 2255925,
+      "sha256": "7ba17bc56c4b34ad60bab121925b86b6526dde1a16a8c83a00500c16dd53711e"
+    },
+    {
+      "path": "circles300/capture/000254.bgra.zlib",
+      "bytes": 2257951,
+      "sha256": "613949cebc383bf4d981527d366015251e15cace36b7d84904d0c5a68e0ecf96"
+    },
+    {
+      "path": "circles300/capture/000255.bgra.zlib",
+      "bytes": 2168192,
+      "sha256": "770f0ec41686b01976a3904631bed8f136fc9a2b3a383c224a6509960aef6336"
+    },
+    {
+      "path": "circles300/capture/000256.bgra.zlib",
+      "bytes": 2203136,
+      "sha256": "243701eff4dd24ab58efaa55cf42ba61d52e1d86477001de6ebc8a426de99f33"
+    },
+    {
+      "path": "circles300/capture/000257.bgra.zlib",
+      "bytes": 2235038,
+      "sha256": "f82e5e51757444544071481020afa5ba715d20aaaab17c54662f3b7839e000ae"
+    },
+    {
+      "path": "circles300/capture/000258.bgra.zlib",
+      "bytes": 2249537,
+      "sha256": "1cedfccbbd474aa59669b6820fa3a5807c470c88e873dcf693608fcdfb1459df"
+    },
+    {
+      "path": "circles300/capture/000259.bgra.zlib",
+      "bytes": 2302409,
+      "sha256": "a7de98d2e17bfb075b589e2215181946ac49e0fcfb7970d96768e88681dc8613"
+    },
+    {
+      "path": "circles300/capture/000260.bgra.zlib",
+      "bytes": 2247699,
+      "sha256": "006cc63f8bd77a6e62074701392939b2bb9d767fcaeda03f559741f2b590588f"
+    },
+    {
+      "path": "circles300/capture/000261.bgra.zlib",
+      "bytes": 2153450,
+      "sha256": "d070b7df285a95c940d93fabe67bbeb7068f76c2e5fea674e9bdd48e8e0ec2e3"
+    },
+    {
+      "path": "circles300/capture/000262.bgra.zlib",
+      "bytes": 2246529,
+      "sha256": "ff8e8250e767d9f28fc57ae632d7ba6fb5573266baa314da5d44b2f13b3e2dfd"
+    },
+    {
+      "path": "circles300/capture/000263.bgra.zlib",
+      "bytes": 2301718,
+      "sha256": "bf6a964b6a330be8bb6b8439e5a5d0767a79b5efa6b37374729b7ab072e519ae"
+    },
+    {
+      "path": "circles300/capture/000264.bgra.zlib",
+      "bytes": 2372696,
+      "sha256": "8a0773293faadb0caef0093fcfdf7ce5d7c765111621dc1003253917d7aaf057"
+    },
+    {
+      "path": "circles300/capture/000265.bgra.zlib",
+      "bytes": 2172127,
+      "sha256": "571ee72570c36d91203e3a66baacd84cbe68b9ef81a10fb0e14925e79a83321c"
+    },
+    {
+      "path": "circles300/capture/000266.bgra.zlib",
+      "bytes": 2164874,
+      "sha256": "4c916a10d633a5e79ce69a81301e1aa6d7da52e3530a017ae98ee195f2d87fc9"
+    },
+    {
+      "path": "circles300/capture/000267.bgra.zlib",
+      "bytes": 2278024,
+      "sha256": "51c05d664838232690f28d9f44ce5e009838339ab7091cf3a1009e5a0dbd16e7"
+    },
+    {
+      "path": "circles300/capture/000268.bgra.zlib",
+      "bytes": 2363044,
+      "sha256": "2f878787c6f11b0895f4218bd5c8e981aecc07e6402d04118fbcd2a0b126b450"
+    },
+    {
+      "path": "circles300/capture/000269.bgra.zlib",
+      "bytes": 2285765,
+      "sha256": "74b4b1855c21026b50d5b59a41c6d9adf159621c0848104132ecdd085dba23ca"
+    },
+    {
+      "path": "circles300/capture/000270.bgra.zlib",
+      "bytes": 2176831,
+      "sha256": "ad8a94b0e5903c219021140183d37725f21e09afb7d4bfc094fdd5352261a486"
+    },
+    {
+      "path": "circles300/capture/000271.bgra.zlib",
+      "bytes": 2183730,
+      "sha256": "57e585bab058df00bb983bf1fbf1b084152d8a185ccc1bd4bdd1bd784428eb3b"
+    },
+    {
+      "path": "circles300/capture/000272.bgra.zlib",
+      "bytes": 2330999,
+      "sha256": "c6681ad49d7bccb0c954abe37c11cae209bc95b25ddd1e51cef0a2ef05c9961d"
+    },
+    {
+      "path": "circles300/capture/000273.bgra.zlib",
+      "bytes": 2270415,
+      "sha256": "460da2b9cb9e76441f4fbce9eb0cb2b9ac8476b70027121ad8e3dffd3d23ca28"
+    },
+    {
+      "path": "circles300/capture/000274.bgra.zlib",
+      "bytes": 2272485,
+      "sha256": "c4a4a17287ed49fa797788a71f139a85d87523de948bd53a83c37797ddcb0c29"
+    },
+    {
+      "path": "circles300/capture/000275.bgra.zlib",
+      "bytes": 2185615,
+      "sha256": "5f41c44821573ae0814007940082f2477a003afb202fbfe676958dd1370f04b2"
+    },
+    {
+      "path": "circles300/capture/000276.bgra.zlib",
+      "bytes": 2215874,
+      "sha256": "288c4a8be9dd4a860db408f5c90dbbe735827f41029bc30aee28bd093a83c36f"
+    },
+    {
+      "path": "circles300/capture/000277.bgra.zlib",
+      "bytes": 2240514,
+      "sha256": "ad6b7c389114b1c6eb30de2bcad7c0f9e33bae0141bab4c2b8265bae9b27f4b4"
+    },
+    {
+      "path": "circles300/capture/000278.bgra.zlib",
+      "bytes": 2256013,
+      "sha256": "f25929fe641264a4f066e32e523b572ada459d3421770cbcd8a0e9d0f72eed4d"
+    },
+    {
+      "path": "circles300/capture/000279.bgra.zlib",
+      "bytes": 2309103,
+      "sha256": "900f606907c2eb0a6df8416bf1f52822a0aa3bec57b472436f463118f58113df"
+    },
+    {
+      "path": "circles300/capture/000280.bgra.zlib",
+      "bytes": 2253015,
+      "sha256": "177d2b716e813a2bbabdcdee91537677e1002de40ab220dddac9bdf16040d9d1"
+    },
+    {
+      "path": "circles300/capture/000281.bgra.zlib",
+      "bytes": 2157754,
+      "sha256": "e28a2d333d7c331cbb917cf50680d1962090377b89597223dde52e56d1d51fdb"
+    },
+    {
+      "path": "circles300/capture/000282.bgra.zlib",
+      "bytes": 2246074,
+      "sha256": "706a6c6f6c990ebc5457757a134d3c6f98e600bd7f74152eb648e77f7eb0903a"
+    },
+    {
+      "path": "circles300/capture/000283.bgra.zlib",
+      "bytes": 2303691,
+      "sha256": "8915ecbcd5aa2e4d7666278c707128ebeaaceb1eeac98867e89d3ca5e1accfdd"
+    },
+    {
+      "path": "circles300/capture/000284.bgra.zlib",
+      "bytes": 2373127,
+      "sha256": "b549680a6325d891fe0edead2ee712c38f746e836db70fcbe7766f5883fe9b35"
+    },
+    {
+      "path": "circles300/capture/000285.bgra.zlib",
+      "bytes": 2167298,
+      "sha256": "da29ff3e5d5d2d0e795a5f7e3e7d5445263c9558a74e40bd0ca2b48352f531ba"
+    },
+    {
+      "path": "circles300/capture/000286.bgra.zlib",
+      "bytes": 2167417,
+      "sha256": "8a30b8ea47f73048022dd435f597d4c0df4052b2ecc39dd94d4dbb06277d6b62"
+    },
+    {
+      "path": "circles300/capture/000287.bgra.zlib",
+      "bytes": 2278833,
+      "sha256": "a6d28520be9651906ad83b53c5acea2f6eab48d049c5059767ceb3496feae606"
+    },
+    {
+      "path": "circles300/capture/000288.bgra.zlib",
+      "bytes": 2354229,
+      "sha256": "901d3d65782b08cc0e4b4ccaf02af287edf0a11e4452f6b9e831e39de2a9a16c"
+    },
+    {
+      "path": "circles300/capture/000289.bgra.zlib",
+      "bytes": 2282640,
+      "sha256": "473fa7693a68964dc01a2418d4d4c041fbee268a54439c7c07fefea7953e178c"
+    },
+    {
+      "path": "circles300/capture/000290.bgra.zlib",
+      "bytes": 2174895,
+      "sha256": "97178185ebd2633abea7a288a2c14a0204004cf4b2637faa919e695cad2efd38"
+    },
+    {
+      "path": "circles300/capture/000291.bgra.zlib",
+      "bytes": 2176822,
+      "sha256": "a0c18c58b00e3812b36c784d7a703fd901beeacb8c0d4eb57e0e266688744dcb"
+    },
+    {
+      "path": "circles300/capture/000292.bgra.zlib",
+      "bytes": 2323849,
+      "sha256": "ad8e2dd25cc4052b69380f676ba313a01d3b3c0de1cb7606dcbbd30dcd9123ba"
+    },
+    {
+      "path": "circles300/capture/000293.bgra.zlib",
+      "bytes": 2253269,
+      "sha256": "b913b8f1679624c15a1f1aaf9581c50e23eb7ec1e2af62ef58a49df5521cee25"
+    },
+    {
+      "path": "circles300/capture/000294.bgra.zlib",
+      "bytes": 2254816,
+      "sha256": "8c44b244dc86874e55d44cbf695eaff5f5e3ac6a0715946fa71155a4e6eb4555"
+    },
+    {
+      "path": "circles300/capture/000295.bgra.zlib",
+      "bytes": 2167566,
+      "sha256": "d3e9f1dda1cb305240d04b43d4964bc673191328ba0b4e53029246a6b553c10c"
+    },
+    {
+      "path": "circles300/capture/000296.bgra.zlib",
+      "bytes": 2206742,
+      "sha256": "fd055a9a2da666a8740bb79bd30fe08787f4984361c7d9f4c28f622045cb9760"
+    },
+    {
+      "path": "circles300/capture/000297.bgra.zlib",
+      "bytes": 2233810,
+      "sha256": "3a5a94efc9e52bf6d7859f05d47af79d0868e0660c294cbef028883b5051dc0c"
+    },
+    {
+      "path": "circles300/capture/000298.bgra.zlib",
+      "bytes": 2248899,
+      "sha256": "f6628434898e1ae01e2538fdc324b1482bf582596bfe9647e8af711a4e012c3e"
+    },
+    {
+      "path": "circles300/capture/000299.bgra.zlib",
+      "bytes": 2296710,
+      "sha256": "2ba155e7a250add7967ad79482850446dc9302a0bf7e534e3e615bac4226f632"
+    },
+    {
+      "path": "circles300/capture/handoff.jsonl",
+      "bytes": 365599,
+      "sha256": "0560c5bad34d4497703256b3f5305f7190b35439503c7d609cb2c5569d19959c"
+    },
+    {
+      "path": "circles300/capture/independent-handoff-audit.json",
+      "bytes": 141479,
+      "sha256": "6ef8de5a3b2dc70f2959d7e688f16922ef1353690aca7007c933a330a7ffe6a1"
+    },
+    {
+      "path": "circles300/decoded-frames.json",
+      "bytes": 290744,
+      "sha256": "c57a1b1845d19e6a1387481042d16c3571e7eeb332b58a962adb2f51042c1f6f"
+    },
+    {
+      "path": "circles300/process.json",
+      "bytes": 1422,
+      "sha256": "506fd23302eafbd6747b917fe2bb19b4fce01f98f7514a4c0a859604c8955471"
+    },
+    {
+      "path": "circles300/proxy-decoded.framemd5",
+      "bytes": 24216,
+      "sha256": "efc31241558b7f083362a3a6a905e284f8ee5aa92c3395388ff0e4d8f3b5f24e"
+    },
+    {
+      "path": "circles300/proxy-direct.framemd5",
+      "bytes": 24216,
+      "sha256": "efc31241558b7f083362a3a6a905e284f8ee5aa92c3395388ff0e4d8f3b5f24e"
+    },
+    {
+      "path": "circles300/qualification.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "circles300/qualification.stdout.log",
+      "bytes": 114604,
+      "sha256": "f70d061a078ccae119315c483e41bead8f9ed13a3b247a47bf4a6f23b9335be9"
+    },
+    {
+      "path": "circles300/quality-process.json",
+      "bytes": 1474,
+      "sha256": "d7627a84893722e03db7192a71ec8f178a1232e6db23be926f549d509f03d64a"
+    },
+    {
+      "path": "circles300/quality-process.log",
+      "bytes": 200,
+      "sha256": "89c850e79a4731ba44ee05a01203b08002e42aeceed695036a2fc0bcd76900cb"
+    },
+    {
+      "path": "circles300/quality.evidence/candidate_decode.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "circles300/quality.evidence/candidate_decode.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "circles300/quality.evidence/candidate_probe.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "circles300/quality.evidence/candidate_probe.stdout.txt",
+      "bytes": 33337,
+      "sha256": "15517a81c82fad22cec8af84001b8495d877a98fdf45e958bc031f6b5081a172"
+    },
+    {
+      "path": "circles300/quality.evidence/ffmpeg_version.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "circles300/quality.evidence/ffmpeg_version.stdout.txt",
+      "bytes": 821,
+      "sha256": "78352a6983ade79cdaf6744ad453c2d9f86cbd2277086a6a1fa87036e4ba89c4"
+    },
+    {
+      "path": "circles300/quality.evidence/ffprobe_version.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "circles300/quality.evidence/ffprobe_version.stdout.txt",
+      "bytes": 796,
+      "sha256": "77d70151c217e31ea81b22abeea5e5d09718d2a36c99691cc75bbf1aec705976"
+    },
+    {
+      "path": "circles300/quality.evidence/psnr.log",
+      "bytes": 32678,
+      "sha256": "d974d0508ea049422384bdea4dd995e7789d60dd175784723f2ec385c6538f9b"
+    },
+    {
+      "path": "circles300/quality.evidence/quality.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "circles300/quality.evidence/quality.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "circles300/quality.evidence/reference_decode.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "circles300/quality.evidence/reference_decode.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "circles300/quality.evidence/reference_probe.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "circles300/quality.evidence/reference_probe.stdout.txt",
+      "bytes": 31196,
+      "sha256": "e11e6a6ce1d5a6d29ddd5d1ad45f8431fd11baeb55c99dbc676ee9306d0dbd8c"
+    },
+    {
+      "path": "circles300/quality.evidence/ssim.log",
+      "bytes": 19092,
+      "sha256": "94c761a8a4ee6c743e1b15b7136c36929a55f7018da876a8641d6701563103c3"
+    },
+    {
+      "path": "circles300/quality.json",
+      "bytes": 217095,
+      "sha256": "078077438554ca2ac52a540ba84de78b9ba5b255ebac5a8c69d9b15e3c7e0aaa"
+    },
+    {
+      "path": "circles300/reference-binding-decode.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "circles300/reference-binding.json",
+      "bytes": 52153,
+      "sha256": "25c1178c4bb6ffa082bc276254a6e996482391349b62435daf8803c38df39236"
+    },
+    {
+      "path": "circles300/reference-process.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "circles300/reference-same-stream-bt601-proxy.mkv",
+      "bytes": 528812842,
+      "sha256": "6547a43cce48e039f7d628d385faf3d3948358d0657c80b85df9142c7fcd683f"
+    },
+    {
+      "path": "circles300/stderr-time-l.log",
+      "bytes": 1157,
+      "sha256": "8fb7480330a4719a63e1b6bb02065f580c6c9ad5e4452d622937ebe7488ca5d2"
+    },
+    {
+      "path": "circles300/stdout.log",
+      "bytes": 419,
+      "sha256": "c8303c74b93d8ca6ee981a5b7ef495b3bb6d8a13c1f3d49fa1d3a9301323e2ba"
+    },
+    {
+      "path": "circles300/video.mp4",
+      "bytes": 631441424,
+      "sha256": "81a5cbde08d078d06ff5b2b1b24cbfccd26a90de6118f829152963df25c9aff6"
+    },
+    {
+      "path": "clippy.log",
+      "bytes": 18356,
+      "sha256": "45bcd75f8ab560dcd08709dd0d0aa91e9d2fe96e2744fc3b0fa85b5e7a785c96"
+    },
+    {
+      "path": "controls/analysis-summary-error.json",
+      "bytes": 185,
+      "sha256": "e0e5511dbb866619cee4266ec7f292c60910c24b3b6a5892de53618f230f231a"
+    },
+    {
+      "path": "controls/cadence-color-gop-audit.json",
+      "bytes": 8321,
+      "sha256": "cadc54fc9e6fe13035fa8de6d8ac1a0e78f1a7c5d6a8d662ab5517c61213a4dd"
+    },
+    {
+      "path": "controls/capture/000000.bgra.zlib",
+      "bytes": 2364,
+      "sha256": "8cf5eeb24f6bf06cc36056ea0f91b89ce6dbda31d271189faf0a577d35bc8b74"
+    },
+    {
+      "path": "controls/capture/000001.bgra.zlib",
+      "bytes": 2372,
+      "sha256": "38a274a0c7b30de745d2009d29f217fef367a69c009a6a8c38f415720fd466a5"
+    },
+    {
+      "path": "controls/capture/000002.bgra.zlib",
+      "bytes": 2364,
+      "sha256": "bd0ce2420c8518f591e959a0fa2b8d5799aaa8b1997842bc15b3369fd11f70ba"
+    },
+    {
+      "path": "controls/capture/000003.bgra.zlib",
+      "bytes": 2372,
+      "sha256": "308efffd0a8ff13946bf4d83a5e1b8c0a610f28b276063154db94052a877606a"
+    },
+    {
+      "path": "controls/capture/000004.bgra.zlib",
+      "bytes": 2364,
+      "sha256": "fee92178bd1e9260d7e1c74ede4ac08f70ab2dfa42e0fa2e8317084452f521b5"
+    },
+    {
+      "path": "controls/capture/000005.bgra.zlib",
+      "bytes": 2372,
+      "sha256": "95a226692378bc10c96a5630b64bde521d278f3541f6dde898d57f897817d98d"
+    },
+    {
+      "path": "controls/capture/000006.bgra.zlib",
+      "bytes": 2364,
+      "sha256": "1dfaf77e8f8e2d164f35371df95cc3a7689bb712b80e2727990e0a54690deb8f"
+    },
+    {
+      "path": "controls/capture/000007.bgra.zlib",
+      "bytes": 2372,
+      "sha256": "1fa47d1b7ee0fd307a6ca1259b58f5ffc9bb7049f4cac0d30c8616c9f586f36a"
+    },
+    {
+      "path": "controls/capture/000008.bgra.zlib",
+      "bytes": 2364,
+      "sha256": "ea6f977921fa104f74abc2deb5805b5748862b12337ee107f7fde6a0027c29eb"
+    },
+    {
+      "path": "controls/capture/000009.bgra.zlib",
+      "bytes": 2372,
+      "sha256": "da28042f69ede071ddce59e57cdeedf6322c1865a54e2bec6d6c44ae82541473"
+    },
+    {
+      "path": "controls/capture/000010.bgra.zlib",
+      "bytes": 2364,
+      "sha256": "19fa5a5b06a154bb1306cab5bea2ae27154dfdb1dbd729e6a1b6448c02b934ef"
+    },
+    {
+      "path": "controls/capture/000011.bgra.zlib",
+      "bytes": 2372,
+      "sha256": "ea061d5737abde32a669b492e11c654611618afcfe4fd472cbef9d2fde59b299"
+    },
+    {
+      "path": "controls/capture/000012.bgra.zlib",
+      "bytes": 2364,
+      "sha256": "b0c88f8e48206c383db51dbe788659b124210777f276a335121fde65f063b7a4"
+    },
+    {
+      "path": "controls/capture/000013.bgra.zlib",
+      "bytes": 2372,
+      "sha256": "f00e124c8012caa4f0d7685601fd5b336837cabc781d9dc55b9dc088447fc369"
+    },
+    {
+      "path": "controls/capture/000014.bgra.zlib",
+      "bytes": 2364,
+      "sha256": "cdfa2f8267d545eab940d47dfa0c55e50206b814caa3c1b2df7bc6b730dfc49b"
+    },
+    {
+      "path": "controls/capture/000015.bgra.zlib",
+      "bytes": 2372,
+      "sha256": "61667b64cfef1c023b03c5b8a93fab3ca12353fca6a0c1c1f9d4dcb7db8f72ce"
+    },
+    {
+      "path": "controls/capture/000016.bgra.zlib",
+      "bytes": 2364,
+      "sha256": "bc4cc9c628b4eac581bbf49f91c73b9855ca1625af740833caccf58b8c52c9a1"
+    },
+    {
+      "path": "controls/capture/000017.bgra.zlib",
+      "bytes": 2372,
+      "sha256": "79fa83d8eede1a017d6f1fbf920767f34eb000e1b4c9d72b1f42542b78ff93fe"
+    },
+    {
+      "path": "controls/capture/000018.bgra.zlib",
+      "bytes": 2364,
+      "sha256": "244b62f35aedafccb3eafcec13e09a9517c2e0cc3048def25c22e8791f22dc93"
+    },
+    {
+      "path": "controls/capture/000019.bgra.zlib",
+      "bytes": 2372,
+      "sha256": "6b0f9109fba897d86993a1731e85209ad3dba7baf7d889912305a9c81f7eb0a8"
+    },
+    {
+      "path": "controls/capture/000020.bgra.zlib",
+      "bytes": 2364,
+      "sha256": "6958bf1f00255242043f5646bd82d167ce775a3a7b2c1baeab5bc8340915a4a3"
+    },
+    {
+      "path": "controls/capture/000021.bgra.zlib",
+      "bytes": 2372,
+      "sha256": "0ad65c6c045acc2bfcbe46f279faaa1150b473ed2a94bcc4f963caac989c895a"
+    },
+    {
+      "path": "controls/capture/000022.bgra.zlib",
+      "bytes": 2364,
+      "sha256": "b24c6ed154efa9373f7cd97f2856d6699c754060c21b3f0c1a04d5fa0bfc2871"
+    },
+    {
+      "path": "controls/capture/000023.bgra.zlib",
+      "bytes": 2372,
+      "sha256": "fcd89b7b57e3c4e143ca7f3e995cdd8d6bb5870517bcdcf205080a925fd0cd66"
+    },
+    {
+      "path": "controls/capture/000024.bgra.zlib",
+      "bytes": 2364,
+      "sha256": "a882eec97a50d9e828bbb1c47eefe5d4bd1fa3359611a0d44de76d8ca60c39c8"
+    },
+    {
+      "path": "controls/capture/000025.bgra.zlib",
+      "bytes": 2372,
+      "sha256": "9079ae2a41ce6a698124392e30dbf9f620e737230d2411066492b264aa9a5a3c"
+    },
+    {
+      "path": "controls/capture/000026.bgra.zlib",
+      "bytes": 2364,
+      "sha256": "d4cce5352f0a973488ae4f11833bb575093642ee96114cedc1fa0874fddda1ae"
+    },
+    {
+      "path": "controls/capture/000027.bgra.zlib",
+      "bytes": 2372,
+      "sha256": "6a325a78bf908c05c74a723c4f1c1900bcac57004923325952c068988f66d6f6"
+    },
+    {
+      "path": "controls/capture/000028.bgra.zlib",
+      "bytes": 2364,
+      "sha256": "a68a0dfbb1cf32dfafc2716875a783f2aa0325fefd6063d13a370ab00cc1ab2f"
+    },
+    {
+      "path": "controls/capture/000029.bgra.zlib",
+      "bytes": 2372,
+      "sha256": "9e3620f044189e2e624a6c525e42144bfdb9f76169b9a447016bf4f5f1ad6034"
+    },
+    {
+      "path": "controls/capture/000030.bgra.zlib",
+      "bytes": 2364,
+      "sha256": "f091daf96cf1b5c3ae29e0753bd58bd290a7a7f5a9175e4afd93dc65eb2955f2"
+    },
+    {
+      "path": "controls/capture/000031.bgra.zlib",
+      "bytes": 2372,
+      "sha256": "ee7b9718147af2fe3872fd3bb9c7be3c0e1d64d9c867fac0c8d0fb3223190110"
+    },
+    {
+      "path": "controls/capture/000032.bgra.zlib",
+      "bytes": 2364,
+      "sha256": "977362226f4863cbf67588d80f21e6c0b3a37a4202d02b06bb8d8669a529afc6"
+    },
+    {
+      "path": "controls/capture/000033.bgra.zlib",
+      "bytes": 2372,
+      "sha256": "286351707a2898456c86d5e4e948bb7b33b147a694c3b75672d64fbd4fc11bde"
+    },
+    {
+      "path": "controls/capture/000034.bgra.zlib",
+      "bytes": 2364,
+      "sha256": "b0731aad1ff0bb6db40345eccdad2c4284f9ab9717389344294c1f112d91d390"
+    },
+    {
+      "path": "controls/capture/000035.bgra.zlib",
+      "bytes": 2372,
+      "sha256": "9cd4650c4aae928f1e613b5aefc15b4c1968d03269877ea97c65c78005671104"
+    },
+    {
+      "path": "controls/capture/handoff.jsonl",
+      "bytes": 44188,
+      "sha256": "a2c07731690af5be7a9c02891b53affa0c04cf961a03c6500af6b08048b8249e"
+    },
+    {
+      "path": "controls/capture/independent-handoff-audit.json",
+      "bytes": 22056,
+      "sha256": "e2f8d08c5c0c94a05155a9d8c06f182e548d890d61ac71a1d6ed9d01e79fc904"
+    },
+    {
+      "path": "controls/decoded-frames.json",
+      "bytes": 36393,
+      "sha256": "aef8e2fe515e14fba68ed945db48cc1fc044f3796e1530e1783199ea07df1540"
+    },
+    {
+      "path": "controls/independent-color-chroma-analysis.json",
+      "bytes": 129446,
+      "sha256": "5eda8ba7d1ea814f33db27184592ae587f067a509e880db889c7da1cefbb74fd"
+    },
+    {
+      "path": "controls/process.json",
+      "bytes": 1417,
+      "sha256": "3b778618567d1c6348f2d5e0ade082031bad2262efffc8c8cf46546e67415e75"
+    },
+    {
+      "path": "controls/proxy-decoded.framemd5",
+      "bytes": 3094,
+      "sha256": "70ce37fc2ddcdb99f004903d78c199e172f4c15e2a5acc2ba85849124e529b11"
+    },
+    {
+      "path": "controls/proxy-direct.framemd5",
+      "bytes": 3094,
+      "sha256": "70ce37fc2ddcdb99f004903d78c199e172f4c15e2a5acc2ba85849124e529b11"
+    },
+    {
+      "path": "controls/qualification.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "controls/qualification.stdout.log",
+      "bytes": 15459,
+      "sha256": "8f754f3b1ed066be432956d1494a3b1fc553378a6e575abed019defaddb4208f"
+    },
+    {
+      "path": "controls/quality-process.json",
+      "bytes": 1473,
+      "sha256": "f89c6336d0fea35fefae824d29315ec5160d490951a5778ad07f88e516409bd2"
+    },
+    {
+      "path": "controls/quality-process.log",
+      "bytes": 198,
+      "sha256": "31a2734a6a21c38940baae3b43dc75ae94155dcbe666f811a01e49b3d5d630af"
+    },
+    {
+      "path": "controls/quality.evidence/candidate_decode.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "controls/quality.evidence/candidate_decode.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "controls/quality.evidence/candidate_probe.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "controls/quality.evidence/candidate_probe.stdout.txt",
+      "bytes": 5158,
+      "sha256": "3a8d295ac0032bd68dfe080992a6e1c7232a98f04d5f114d96b30dd99540ef38"
+    },
+    {
+      "path": "controls/quality.evidence/ffmpeg_version.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "controls/quality.evidence/ffmpeg_version.stdout.txt",
+      "bytes": 821,
+      "sha256": "78352a6983ade79cdaf6744ad453c2d9f86cbd2277086a6a1fa87036e4ba89c4"
+    },
+    {
+      "path": "controls/quality.evidence/ffprobe_version.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "controls/quality.evidence/ffprobe_version.stdout.txt",
+      "bytes": 796,
+      "sha256": "77d70151c217e31ea81b22abeea5e5d09718d2a36c99691cc75bbf1aec705976"
+    },
+    {
+      "path": "controls/quality.evidence/psnr.log",
+      "bytes": 4179,
+      "sha256": "b8fe177739e1988a283d1f4d5d44eb8d01470b65c3fee0196ea5a040d996aa99"
+    },
+    {
+      "path": "controls/quality.evidence/quality.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "controls/quality.evidence/quality.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "controls/quality.evidence/reference_decode.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "controls/quality.evidence/reference_decode.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "controls/quality.evidence/reference_probe.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "controls/quality.evidence/reference_probe.stdout.txt",
+      "bytes": 4722,
+      "sha256": "07d91496c33544058be30c021dfb18f6a3c92a6f7790b0cfd39fa17acddc8cab"
+    },
+    {
+      "path": "controls/quality.evidence/ssim.log",
+      "bytes": 2259,
+      "sha256": "3e90a8bceb6cd78eb807efcc4855fc3d86024d96af8115881272bfcc3d159cb0"
+    },
+    {
+      "path": "controls/quality.json",
+      "bytes": 40872,
+      "sha256": "02da5dbba34f80d6a701ff7856a53131189421cce4ecc6e1340dfd93caafb73c"
+    },
+    {
+      "path": "controls/reference-binding-decode.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "controls/reference-binding.json",
+      "bytes": 8171,
+      "sha256": "e3bc70370643b01737a7731c08c21b309063d8d2df0c368495113554e4048ef0"
+    },
+    {
+      "path": "controls/reference-process.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "controls/reference-same-stream-bt601-proxy.mkv",
+      "bytes": 252221,
+      "sha256": "30c9b43f3f97a3c3fbab4ba07b357cbd5b758c7872acaec5b7f15b0fad5ac257"
+    },
+    {
+      "path": "controls/stderr-time-l.log",
+      "bytes": 1157,
+      "sha256": "a2722073fc9ea68c942438eca4f9f4c5a42b5a01b0e0d30d0f6e8f1157ed9cd8"
+    },
+    {
+      "path": "controls/stdout.log",
+      "bytes": 170,
+      "sha256": "28c1dae9bc973ea5f4f8bc8a588fac95e0ee3dae679073327e968faec7dd2c83"
+    },
+    {
+      "path": "controls/video.mp4",
+      "bytes": 22911,
+      "sha256": "6d91d7586bf2e170682f29a44f48d00c644fdf62d2e50c0777ac908c1f95020f"
+    },
+    {
+      "path": "handoff-color-controls",
+      "bytes": 36228000,
+      "sha256": "4f42f00b9174d6bbae74d32fdcc98f4215173f46be6be36874d02e2a60ac312e"
+    },
+    {
+      "path": "init-refusal-controls.json",
+      "bytes": 1114,
+      "sha256": "8a1aeff7a3899911212cedfce6f16b84ec6d1238b5de119bbd63d935cefc0895"
+    },
+    {
+      "path": "rust-tests.log",
+      "bytes": 5571,
+      "sha256": "ab6b5ff82b64f1d9461fc801de1ef874d5da987fd813de8dce4515461ccfd722"
+    },
+    {
+      "path": "source.zip",
+      "bytes": 18792442,
+      "sha256": "ae5503204e2eeb72ef2d523c05058aee8b87aaa52b8723b855d667dce93147ad"
+    }
+  ],
+  "entries": 422,
+  "benchmarkTiming": false,
+  "timingWindowOpen": false,
+  "allFilesReadable": true,
+  "manifestExcludesItself": true
+}

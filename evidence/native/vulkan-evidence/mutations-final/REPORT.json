@@ -1,0 +1,33 @@
+{
+  "baselinePassed": true,
+  "mutations": [
+    {
+      "mutation": "backend-field",
+      "testExit": 1,
+      "killed": true
+    },
+    {
+      "mutation": "shared-texture",
+      "testExit": 1,
+      "killed": true
+    },
+    {
+      "mutation": "interop",
+      "testExit": 1,
+      "killed": true
+    },
+    {
+      "mutation": "vulkan-protocol",
+      "testExit": 1,
+      "killed": true
+    },
+    {
+      "mutation": "capability-hardware",
+      "testExit": 1,
+      "killed": true
+    }
+  ],
+  "allKilled": true,
+  "sourceRestoredSha256": "e5185a345d72cd6a5652c74ca663658e6b0e5fe23bb31df916ead14dd5b475d1",
+  "scope": "Critical Vulkan backend/sharing/interop/protocol/hardware receipt guards only"
+}

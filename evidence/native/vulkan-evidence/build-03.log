@@ -1,0 +1,125 @@
+   Compiling skia-bindings v0.91.0
+warning: helios-gpu@0.1.0: vulkan.mm:29:108: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    29 |         VkExportMetalObjectCreateInfoEXT exportDevice{VK_STRUCTURE_TYPE_EXPORT_METAL_OBJECT_CREATE_INFO_EXT};
+warning: helios-gpu@0.1.0:       |                                                                                                            ^
+warning: helios-gpu@0.1.0: vulkan.mm:31:65: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    31 |         VkApplicationInfo app{VK_STRUCTURE_TYPE_APPLICATION_INFO}; app.pApplicationName="helios-vulkan-interop-probe"; app.apiVersion=VK_API_VERSION_1_1;
+warning: helios-gpu@0.1.0:       |                                                                 ^
+warning: helios-gpu@0.1.0: vulkan.mm:32:71: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    32 |         VkInstanceCreateInfo ic{VK_STRUCTURE_TYPE_INSTANCE_CREATE_INFO}; ic.pNext=&exportDevice; ic.pApplicationInfo=&app; ic.enabledExtensionCount=1; ic.ppEnabledExtensionNames=instExt;
+warning: helios-gpu@0.1.0:       |                                                                       ^
+warning: helios-gpu@0.1.0: vulkan.mm:48:96: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    48 |         float priority=1; VkDeviceQueueCreateInfo qc{VK_STRUCTURE_TYPE_DEVICE_QUEUE_CREATE_INFO}; qc.queueFamilyIndex=family; qc.queueCount=1; qc.pQueuePriorities=&priority;
+warning: helios-gpu@0.1.0:       |                                                                                                ^
+warning: helios-gpu@0.1.0: vulkan.mm:51:67: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    51 |         VkDeviceCreateInfo dc{VK_STRUCTURE_TYPE_DEVICE_CREATE_INFO}; dc.pEnabledFeatures=&features; dc.queueCreateInfoCount=1; dc.pQueueCreateInfos=&qc; dc.enabledExtensionCount=2; dc.ppEnabledExtensionNames=devExt;
+warning: helios-gpu@0.1.0:       |                                                                   ^
+warning: helios-gpu@0.1.0: vulkan.mm:56:109: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    56 |         VkExportMetalObjectCreateInfoEXT exportTexture{VK_STRUCTURE_TYPE_EXPORT_METAL_OBJECT_CREATE_INFO_EXT}; exportTexture.exportObjectType=VK_EXPORT_METAL_OBJECT_TYPE_METAL_TEXTURE_BIT_EXT;
+warning: helios-gpu@0.1.0:       |                                                                                                             ^
+warning: helios-gpu@0.1.0: vulkan.mm:57:91: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    57 |         VkImportMetalTextureInfoEXT import{VK_STRUCTURE_TYPE_IMPORT_METAL_TEXTURE_INFO_EXT}; import.pNext=&exportTexture; import.plane=VK_IMAGE_ASPECT_COLOR_BIT; import.mtlTexture=texture;
+warning: helios-gpu@0.1.0:       |                                                                                           ^
+warning: helios-gpu@0.1.0: vulkan.mm:58:66: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    58 |         VkImageCreateInfo img{VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO}; img.pNext=&import; img.imageType=VK_IMAGE_TYPE_2D; img.format=VK_FORMAT_R8G8B8A8_UNORM; img.extent={uint32_t(texture.width),uint32_t(texture.height),1}; img.mipLevels=1; img.arrayLayers=1; img.samples=VK_SAMPLE_COUNT_1_BIT; img.tiling=VK_IMAGE_TILING_OPTIMAL; img.usage=VK_IMAGE_USAGE_TRANSFER_DST_BIT|VK_IMAGE_USAGE_COLOR_ATTACHMENT_BIT|VK_IMAGE_USAGE_SAMPLED_BIT; img.sharingMode=VK_SHARING_MODE_EXCLUSIVE; img.initialLayout=VK_IMAGE_LAYOUT_UNDEFINED;
+warning: helios-gpu@0.1.0:       |                                                                  ^
+warning: helios-gpu@0.1.0: vulkan.mm:62:93: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    62 |         VkExportMetalTextureInfoEXT exported{VK_STRUCTURE_TYPE_EXPORT_METAL_TEXTURE_INFO_EXT}; exported.image=image; exported.plane=VK_IMAGE_ASPECT_COLOR_BIT;
+warning: helios-gpu@0.1.0:       |                                                                                             ^
+warning: helios-gpu@0.1.0: vulkan.mm:63:87: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    63 |         VkExportMetalObjectsInfoEXT ei{VK_STRUCTURE_TYPE_EXPORT_METAL_OBJECTS_INFO_EXT}; ei.pNext=&exported; exportObjects(device,&ei);
+warning: helios-gpu@0.1.0:       |                                                                                       ^
+warning: helios-gpu@0.1.0: vulkan.mm:66:86: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    66 |         VkExportMetalDeviceInfoEXT gpu{VK_STRUCTURE_TYPE_EXPORT_METAL_DEVICE_INFO_EXT}; ei.pNext=&gpu; exportObjects(device,&ei);
+warning: helios-gpu@0.1.0:       |                                                                                      ^
+warning: helios-gpu@0.1.0: vulkan.mm:68:65: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    68 |         VkFenceCreateInfo fc{VK_STRUCTURE_TYPE_FENCE_CREATE_INFO}; require(vkCreateFence(device,&fc,nullptr,&owner->fence),"fence");
+warning: helios-gpu@0.1.0:       |                                                                 ^
+warning: helios-gpu@0.1.0: 12 warnings generated.
+   Compiling skia-safe v0.91.0
+   Compiling helios-gpu v0.1.0 (/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native)
+warning: unnecessary `unsafe` block
+   --> src/main.rs:445:23
+    |
+445 |     let mut context = unsafe { gpu::direct_contexts::make_vulkan(&backend, None) }.ok_or("SKIA_VULKAN_INIT_FAILED")?;
+    |                       ^^^^^^ unnecessary `unsafe` block
+    |
+    = note: `#[warn(unused_unsafe)]` (part of `#[warn(unused)]`) on by default
+
+warning: unnecessary `unsafe` block
+   --> src/main.rs:450:9
+    |
+450 |         unsafe { gpu::backend_render_targets::make_vk((width as i32, height as i32), &info) }
+    |         ^^^^^^ unnecessary `unsafe` block
+
+warning: function `helios_device` is never used
+  --> src/main.rs:63:8
+   |
+63 |     fn helios_device(ctx: *mut c_void) -> *mut c_void;
+   |        ^^^^^^^^^^^^^
+   |
+   = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: function `helios_queue` is never used
+  --> src/main.rs:64:8
+   |
+64 |     fn helios_queue(ctx: *mut c_void) -> *mut c_void;
+   |        ^^^^^^^^^^^^
+
+warning: function `helios_texture` is never used
+  --> src/main.rs:65:8
+   |
+65 |     fn helios_texture(ctx: *mut c_void) -> *mut c_void;
+   |        ^^^^^^^^^^^^^^
+
+error: linking with `cc` failed: exit status: 1
+  |
+  = note:  "cc" "<98 object files omitted>" "-lhelios_metal" "-framework" "Foundation" "-framework" "Metal" "-framework" "CoreVideo" "-framework" "CoreMedia" "-framework" "VideoToolbox" "-framework" "IOSurface" "-lhelios_vulkan" "-lc++" "-lMoltenVK" "/private/tmp/helios-gpu-next-target-01a101cb/release/deps/rustcZIsTkD/libskia_bindings-2d0592e9f4a4eb5d.rlib" "<sysroot>/lib/rustlib/aarch64-apple-darwin/lib/libcompiler_builtins-*.rlib" "-lc++" "-framework" "ApplicationServices" "-framework" "OpenGL" "-lSystem" "-lc" "-lm" "-arch" "arm64" "-mmacosx-version-min=11.0.0" "-L" "/private/tmp/helios-gpu-next-target-01a101cb/release/build/helios-gpu-305e1767153be4eb/out" "-L" "/private/tmp/helios-gpu-next-target-01a101cb/release/build/skia-bindings-750a7edfb41f8c55/out/skia" "-L" "/private/tmp/helios-vulkan-runtime-01a101cb/MoltenVK/MoltenVK/dynamic/dylib/macOS" "-o" "/private/tmp/helios-gpu-next-target-01a101cb/release/deps/helios_gpu-203dcc51684d4c11" "-Wl,-dead_strip" "-nodefaultlibs" "-Wl,-rpath,/private/tmp/helios-vulkan-runtime-01a101cb/MoltenVK/MoltenVK/dynamic/dylib/macOS"
+  = note: some arguments are omitted. use `--verbose` to show all linker arguments
+  = note: ld: warning: ignoring duplicate libraries: '-lc++'
+          ld: warning: object file (/private/tmp/helios-gpu-next-target-01a101cb/release/build/helios-gpu-305e1767153be4eb/out/libhelios_metal.a[2](a038b291f736c35e-metal.o)) was built for newer 'macOS' version (26.2) than being linked (11.0)
+          ld: warning: object file (/private/tmp/helios-gpu-next-target-01a101cb/release/build/helios-gpu-305e1767153be4eb/out/libhelios_vulkan.a[2](a038b291f736c35e-vulkan.o)) was built for newer 'macOS' version (26.2) than being linked (11.0)
+          ld: warning: building for macOS-11.0, but linking with dylib '@rpath/libMoltenVK.dylib' which was built for newer version 12.0
+          ld: write() failed, errno=28
+          clang: error: linker command failed with exit code 1 (use -v to see invocation)
+          
+
+warning: `helios-gpu` (bin "helios-gpu") generated 5 warnings
+warning: helios-gpu@0.1.0: vulkan.mm:29:108: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    29 |         VkExportMetalObjectCreateInfoEXT exportDevice{VK_STRUCTURE_TYPE_EXPORT_METAL_OBJECT_CREATE_INFO_EXT};
+warning: helios-gpu@0.1.0:       |                                                                                                            ^
+warning: helios-gpu@0.1.0: vulkan.mm:31:65: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    31 |         VkApplicationInfo app{VK_STRUCTURE_TYPE_APPLICATION_INFO}; app.pApplicationName="helios-vulkan-interop-probe"; app.apiVersion=VK_API_VERSION_1_1;
+warning: helios-gpu@0.1.0:       |                                                                 ^
+warning: helios-gpu@0.1.0: vulkan.mm:32:71: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    32 |         VkInstanceCreateInfo ic{VK_STRUCTURE_TYPE_INSTANCE_CREATE_INFO}; ic.pNext=&exportDevice; ic.pApplicationInfo=&app; ic.enabledExtensionCount=1; ic.ppEnabledExtensionNames=instExt;
+warning: helios-gpu@0.1.0:       |                                                                       ^
+warning: helios-gpu@0.1.0: vulkan.mm:48:96: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    48 |         float priority=1; VkDeviceQueueCreateInfo qc{VK_STRUCTURE_TYPE_DEVICE_QUEUE_CREATE_INFO}; qc.queueFamilyIndex=family; qc.queueCount=1; qc.pQueuePriorities=&priority;
+warning: helios-gpu@0.1.0:       |                                                                                                ^
+warning: helios-gpu@0.1.0: vulkan.mm:51:67: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    51 |         VkDeviceCreateInfo dc{VK_STRUCTURE_TYPE_DEVICE_CREATE_INFO}; dc.pEnabledFeatures=&features; dc.queueCreateInfoCount=1; dc.pQueueCreateInfos=&qc; dc.enabledExtensionCount=2; dc.ppEnabledExtensionNames=devExt;
+warning: helios-gpu@0.1.0:       |                                                                   ^
+warning: helios-gpu@0.1.0: vulkan.mm:56:109: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    56 |         VkExportMetalObjectCreateInfoEXT exportTexture{VK_STRUCTURE_TYPE_EXPORT_METAL_OBJECT_CREATE_INFO_EXT}; exportTexture.exportObjectType=VK_EXPORT_METAL_OBJECT_TYPE_METAL_TEXTURE_BIT_EXT;
+warning: helios-gpu@0.1.0:       |                                                                                                             ^
+warning: helios-gpu@0.1.0: vulkan.mm:57:91: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    57 |         VkImportMetalTextureInfoEXT import{VK_STRUCTURE_TYPE_IMPORT_METAL_TEXTURE_INFO_EXT}; import.pNext=&exportTexture; import.plane=VK_IMAGE_ASPECT_COLOR_BIT; import.mtlTexture=texture;
+warning: helios-gpu@0.1.0:       |                                                                                           ^
+warning: helios-gpu@0.1.0: vulkan.mm:58:66: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    58 |         VkImageCreateInfo img{VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO}; img.pNext=&import; img.imageType=VK_IMAGE_TYPE_2D; img.format=VK_FORMAT_R8G8B8A8_UNORM; img.extent={uint32_t(texture.width),uint32_t(texture.height),1}; img.mipLevels=1; img.arrayLayers=1; img.samples=VK_SAMPLE_COUNT_1_BIT; img.tiling=VK_IMAGE_TILING_OPTIMAL; img.usage=VK_IMAGE_USAGE_TRANSFER_DST_BIT|VK_IMAGE_USAGE_COLOR_ATTACHMENT_BIT|VK_IMAGE_USAGE_SAMPLED_BIT; img.sharingMode=VK_SHARING_MODE_EXCLUSIVE; img.initialLayout=VK_IMAGE_LAYOUT_UNDEFINED;
+warning: helios-gpu@0.1.0:       |                                                                  ^
+warning: helios-gpu@0.1.0: vulkan.mm:62:93: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    62 |         VkExportMetalTextureInfoEXT exported{VK_STRUCTURE_TYPE_EXPORT_METAL_TEXTURE_INFO_EXT}; exported.image=image; exported.plane=VK_IMAGE_ASPECT_COLOR_BIT;
+warning: helios-gpu@0.1.0:       |                                                                                             ^
+warning: helios-gpu@0.1.0: vulkan.mm:63:87: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    63 |         VkExportMetalObjectsInfoEXT ei{VK_STRUCTURE_TYPE_EXPORT_METAL_OBJECTS_INFO_EXT}; ei.pNext=&exported; exportObjects(device,&ei);
+warning: helios-gpu@0.1.0:       |                                                                                       ^
+warning: helios-gpu@0.1.0: vulkan.mm:66:86: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    66 |         VkExportMetalDeviceInfoEXT gpu{VK_STRUCTURE_TYPE_EXPORT_METAL_DEVICE_INFO_EXT}; ei.pNext=&gpu; exportObjects(device,&ei);
+warning: helios-gpu@0.1.0:       |                                                                                      ^
+warning: helios-gpu@0.1.0: vulkan.mm:68:65: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    68 |         VkFenceCreateInfo fc{VK_STRUCTURE_TYPE_FENCE_CREATE_INFO}; require(vkCreateFence(device,&fc,nullptr,&owner->fence),"fence");
+warning: helios-gpu@0.1.0:       |                                                                 ^
+warning: helios-gpu@0.1.0: 12 warnings generated.
+error: could not compile `helios-gpu` (bin "helios-gpu") due to 1 previous error; 5 warnings emitted

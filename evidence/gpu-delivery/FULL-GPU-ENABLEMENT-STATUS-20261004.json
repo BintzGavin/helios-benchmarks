@@ -1,0 +1,51 @@
+{
+  "status": "original fully enabled 4K product screens executed but quality qualification unresolved; serial common-converter result is separate",
+  "heliosSupported": "macOS arm64, native Skia Metal raster, explicit GPU BT709 NV12 conversion, VideoToolbox H264, optional encoderPool3, binary Canvas transport",
+  "heliosUnsupported": [
+    "HEVC",
+    "Vulkan encoder interoperability",
+    "documented broader GPU drawing/image/video paths"
+  ],
+  "nativeValidationSource": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/src/gpu.ts",
+  "nativeValidationSourceSha256": "8c6dbb20e23e4fc4b8751371f2ae16ef7480d2eec7af4d901a612ac9f7aea882",
+  "fframesMaxPerformanceScreens": [
+    {
+      "receipt": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-f-8/adapter.json",
+      "quality": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-f-8/quality.json",
+      "bitrate": 8000000,
+      "exportSeconds": 25.713300583,
+      "pipeline": "MaxPerformance",
+      "requiredPath": "HardwareFrames",
+      "qualityPassed": false,
+      "eligibleForQualifiedSummary": false
+    },
+    {
+      "receipt": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-f-200/adapter.json",
+      "quality": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-f-200/quality.json",
+      "bitrate": 200000000,
+      "exportSeconds": 25.048320292,
+      "pipeline": "MaxPerformance",
+      "requiredPath": "HardwareFrames",
+      "qualityPassed": false,
+      "eligibleForQualifiedSummary": false
+    },
+    {
+      "receipt": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-f-500/adapter.json",
+      "quality": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-f-500/quality.json",
+      "bitrate": 500000000,
+      "exportSeconds": 27.400868292,
+      "pipeline": "MaxPerformance",
+      "requiredPath": "HardwareFrames",
+      "qualityPassed": false,
+      "eligibleForQualifiedSummary": false
+    }
+  ],
+  "qualifiedSerialLaneExportMediansSeconds": {
+    "Helios": 21.1336678125,
+    "fframes": 81.721465333
+  },
+  "serialLaneIsProductionMaxPerformance": false,
+  "publishedM5ClaimBeaten": false,
+  "newProductEditsBuildsOrBenchmarks": false,
+  "fullEnabledScopeClarificationPending": true
+}

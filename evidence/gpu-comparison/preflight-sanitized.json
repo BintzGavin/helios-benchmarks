@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "created_utc": "2026-10-03T02:14:30.245575+00:00",
+  "system": "Darwin",
+  "devices": [],
+  "physical_gpu_observed": true,
+  "encoder_probes": [
+    {
+      "codec": "h264_videotoolbox",
+      "encode_succeeded": true,
+      "hardware_qualified": true,
+      "process": {
+        "argv": [
+          "ffmpeg",
+          "-hide_banner",
+          "-loglevel",
+          "error",
+          "-y",
+          "-f",
+          "lavfi",
+          "-i",
+          "testsrc2=size=128x128:rate=30",
+          "-frames:v",
+          "2",
+          "-c:v",
+          "h264_videotoolbox",
+          "-allow_sw",
+          "0",
+          "/tmp/helios-gpu-probe-kzrww436/h264_videotoolbox.mp4"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    },
+    {
+      "codec": "hevc_videotoolbox",
+      "encode_succeeded": true,
+      "hardware_qualified": true,
+      "process": {
+        "argv": [
+          "ffmpeg",
+          "-hide_banner",
+          "-loglevel",
+          "error",
+          "-y",
+          "-f",
+          "lavfi",
+          "-i",
+          "testsrc2=size=128x128:rate=30",
+          "-frames:v",
+          "2",
+          "-c:v",
+          "hevc_videotoolbox",
+          "-allow_sw",
+          "0",
+          "/tmp/helios-gpu-probe-kzrww436/hevc_videotoolbox.mp4"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    }
+  ],
+  "hardware_encoder_available": true,
+  "browser_gpu_attested": false,
+  "notes": [
+    "Encoder registration is not hardware availability.",
+    "Browser renderer GPU use requires separate browser/scene attestation.",
+    "An encode probe validates a backend, not benchmark speed, fidelity, or another engine's use of that backend.",
+    "No software rasterizer or software encoder fallback counts as a GPU result."
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "case": "extra-byte",
+  "passed": true,
+  "expectedRefusal": "EXTRA_BYTES",
+  "observedError": "Refusal: EXTRA_BYTES",
+  "secondsExcludedFromBenchmarks": 1.0626233749790117,
+  "sourceUnchanged": true,
+  "GPUExecuted": false,
+  "atomicFinalExists": false
+}

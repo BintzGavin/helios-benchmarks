@@ -1,0 +1,14 @@
+{
+  "case": "broken-pipe",
+  "passed": true,
+  "expectedRefusal": [
+    "Pipe",
+    "ENCODER_EXIT",
+    "ConnectionResetError"
+  ],
+  "observedError": "BrokenPipeError: [Errno 32] Broken pipe",
+  "secondsExcludedFromBenchmarks": 0.052689542004372925,
+  "sourceUnchanged": true,
+  "GPUExecuted": false,
+  "atomicFinalExists": false
+}

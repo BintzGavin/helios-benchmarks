@@ -1,0 +1,64 @@
+{
+  "status": "passed extended Vulkan and Metal transfer profile",
+  "helperSha256": "355e3c14cb5119ed23d90ddee5d47f2530831427420f4b3ac92604b42d7776a1",
+  "profileSourceSha256": "104c683e4b1249f6454a989c35f55440d26e638bb91819a075d837800708a3e6",
+  "hardwareFrames": 300,
+  "positiveControlFrames": 3,
+  "profiles": {
+    "hardware": {
+      "events": {
+        "profiler-hooks-installed": 1,
+        "vulkan-profiler-hooks-installed": 1,
+        "IOSurfaceGetBaseAddress": 4,
+        "MTLBufferContentsAccessIntentUnknown": 2,
+        "VulkanMapMemoryAccessIntentUnknown": 1,
+        "VulkanQueueSubmitCommands": 300,
+        "VulkanQueueSubmitFence": 300,
+        "VulkanFenceWaitComplete": 300,
+        "IOSurfaceGetBaseAddressOfPlane": 655
+      },
+      "hookedRawDownloadTransfers": 0,
+      "profileSha256": "a4aebe2d066d42c1894fab8f64560a134d871fcdfa15fca26cb3dd1dc727c382",
+      "interposerSha256": "2a97ded5c16e4a5d9f8052b74cbb81cfa506984c7b1dc2fd12401f99cf831151"
+    },
+    "nv12-control": {
+      "events": {
+        "profiler-hooks-installed": 1,
+        "vulkan-profiler-hooks-installed": 1,
+        "IOSurfaceGetBaseAddress": 1,
+        "MTLBufferContentsAccessIntentUnknown": 2,
+        "VulkanMapMemoryAccessIntentUnknown": 1,
+        "VulkanQueueSubmitCommands": 3,
+        "VulkanQueueSubmitFence": 3,
+        "VulkanFenceWaitComplete": 3,
+        "IOSurfaceGetBaseAddressOfPlane": 16,
+        "CVPixelBufferLockBaseAddress": 3,
+        "IOSurfaceLock": 3,
+        "CVPixelBufferGetBaseAddressOfPlane": 6
+      },
+      "hookedRawDownloadTransfers": 6,
+      "profileSha256": "538e0e376aff674ba52fc478751fb26ca98fb7709077ef44820f8af7d7861a25",
+      "interposerSha256": "8df74773da64294a23a80e7d5ecaf54b9bc6e5a405c603ef3750d564114fe199"
+    },
+    "rgba-control": {
+      "events": {
+        "profiler-hooks-installed": 1,
+        "vulkan-profiler-hooks-installed": 1,
+        "MTLBufferContentsAccessIntentUnknown": 2,
+        "VulkanMapMemoryAccessIntentUnknown": 1,
+        "VulkanQueueSubmitCommands": 6,
+        "VulkanQueueSubmitFence": 3,
+        "VulkanFenceWaitComplete": 6,
+        "VulkanCopyImageToBuffer": 3
+      },
+      "hookedRawDownloadTransfers": 3,
+      "profileSha256": "49f9482a9b126f2f025d7013d124602a617bdadf3fbb1bc5478a9ce4df3887e5",
+      "interposerSha256": "3f2b604da32891f73d2f272ff0b4bab547ac2eed46d6c4f9ed5041684b942f80"
+    }
+  },
+  "pointerAndMappedMemoryAccessIntent": "unknown",
+  "opaqueDriverEncoderTransfers": "unknown",
+  "zeroCopyProved": false,
+  "profiledElementarySha256": "48cd39fee762c6642f6943fe9a4bf3757485ea39d7643ad33b40375983aef6e3",
+  "profiledOutputExcludedFromPerformance": true
+}

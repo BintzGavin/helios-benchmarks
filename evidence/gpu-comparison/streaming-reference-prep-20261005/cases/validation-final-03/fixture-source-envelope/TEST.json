@@ -1,0 +1,10 @@
+{
+  "case": "fixture-source-envelope",
+  "passed": true,
+  "expectedRefusal": "SMALL_ENVELOPE",
+  "observedError": "Refusal: SMALL_ENVELOPE",
+  "secondsExcludedFromBenchmarks": 1.3250013580545783e-05,
+  "sourceUnchanged": true,
+  "GPUExecuted": false,
+  "atomicFinalExists": false
+}

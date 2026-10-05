@@ -1,0 +1,5 @@
+{
+  "status": "excluded",
+  "reason": "CPU fixture composition had frameCount300 while actual feed uses3..302; recording source300 aborted feed, raw consumers correctly rejected truncated output; stdin EPIPE was not handled explicitly",
+  "GPUExecuted": false
+}

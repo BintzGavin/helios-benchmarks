@@ -1,0 +1,15 @@
+{
+  "case": "slow-consumer-300",
+  "passed": true,
+  "expectedRefusal": null,
+  "observedError": null,
+  "secondsExcludedFromBenchmarks": 11.0844605830207,
+  "sourceUnchanged": true,
+  "GPUExecuted": false,
+  "atomicFinalExists": true,
+  "frames": 300,
+  "maxWriterQueuedBytes": 114688,
+  "drainCalls": 300,
+  "backpressureObservations": 261,
+  "selfMaxRSSBytes": 37486592
+}

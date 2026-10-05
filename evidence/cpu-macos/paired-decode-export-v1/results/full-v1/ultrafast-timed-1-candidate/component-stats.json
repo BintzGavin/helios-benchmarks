@@ -1,0 +1,73 @@
+{
+  "stats": {
+    "frames": 300,
+    "chunks": 6,
+    "workers": 6,
+    "ranges": [
+      {
+        "frames": 50,
+        "preparationMs": 107.22175,
+        "rasterizeMs": 1987.290915000001,
+        "pixelExtractionMs": 331.19662400000084,
+        "drawMs": 2319.103751,
+        "encoderWaitMs": 558.0591250000011,
+        "encodeMs": 2926.1944160000003,
+        "verifyMs": 59.938792000000376
+      },
+      {
+        "frames": 50,
+        "preparationMs": 105.63970900000001,
+        "rasterizeMs": 1970.786751000001,
+        "pixelExtractionMs": 328.2727069999996,
+        "drawMs": 2299.657171000001,
+        "encoderWaitMs": 614.861460000001,
+        "encodeMs": 2965.644291,
+        "verifyMs": 50.88050000000021
+      },
+      {
+        "frames": 50,
+        "preparationMs": 108.55595799999999,
+        "rasterizeMs": 2028.76625,
+        "pixelExtractionMs": 403.6231229999991,
+        "drawMs": 2433.127873,
+        "encoderWaitMs": 516.577912999999,
+        "encodeMs": 3001.820875,
+        "verifyMs": 39.972499999999854
+      },
+      {
+        "frames": 50,
+        "preparationMs": 104.25016699999999,
+        "rasterizeMs": 1963.9395779999988,
+        "pixelExtractionMs": 348.04429100000067,
+        "drawMs": 2312.6822909999987,
+        "encoderWaitMs": 633.094293999999,
+        "encodeMs": 2993.46875,
+        "verifyMs": 45.73195799999985
+      },
+      {
+        "frames": 50,
+        "preparationMs": 107.30620900000001,
+        "rasterizeMs": 2100.1604149999985,
+        "pixelExtractionMs": 352.7696670000001,
+        "drawMs": 2453.652128999999,
+        "encoderWaitMs": 539.3491249999993,
+        "encodeMs": 3031.467541,
+        "verifyMs": 39.07445900000039
+      },
+      {
+        "frames": 50,
+        "preparationMs": 96.47941599999999,
+        "rasterizeMs": 2148.601415999999,
+        "pixelExtractionMs": 360.47728700000084,
+        "drawMs": 2509.7072030000013,
+        "encoderWaitMs": 537.2697930000011,
+        "encodeMs": 3078.9136670000003,
+        "verifyMs": 37.34345799999983
+      }
+    ],
+    "renderMs": 3371.762458,
+    "finalizeMs": 862.5861670000004,
+    "finalVerifyMs": 615.4976670000001
+  },
+  "node": "v24.19.0"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "R-ultrafast-w11-t1",
+  "engine": "R",
+  "workers": 11,
+  "encoderThreads": 1,
+  "preset": "ultrafast",
+  "jpegQuality": 100,
+  "output": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/final-cpu-studies-v1/results/ul-screen/full-v1/timed-1-R-ultrafast-w11-t1/output.mp4",
+  "details": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/final-cpu-studies-v1/results/ul-screen/full-v1/timed-1-R-ultrafast-w11-t1/details.json",
+  "project": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/remotion-setup/project",
+  "bundle": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/remotion-setup/bundle",
+  "browser": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/remotion-cpu-jpeg-study-v1/chrome-cpu.sh",
+  "binariesDirectory": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/three-engine-v1/results/full-v1/binaries"
+}

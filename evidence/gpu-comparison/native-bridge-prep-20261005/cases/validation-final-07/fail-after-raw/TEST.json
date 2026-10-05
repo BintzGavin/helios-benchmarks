@@ -1,0 +1,10 @@
+{
+  "test": "fail-after-raw",
+  "passed": true,
+  "expectedRefusal": "DRIVER_EXIT",
+  "observedError": "Refusal:DRIVER_EXIT",
+  "secondsExcludedFromBenchmark": 1.220005790994037,
+  "GPUExecuted": false,
+  "sourceUnchanged": true,
+  "publishedFixtureBinding": false
+}

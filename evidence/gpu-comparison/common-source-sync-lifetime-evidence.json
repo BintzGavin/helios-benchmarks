@@ -1,0 +1,30 @@
+{
+  "sourceReviewed": true,
+  "boundaryCheck": "comparison/common-import-test.json",
+  "actualTrace": "comparison/common-converter-gpu-attestation-v2.json",
+  "scope": "source GPU flush+CPU completion precedes import; VideoFrame retained through cross-queue GPU-copy completion wait; converter fence precedes encoder submission; reference variance separately retained",
+  "crossQueueSynchronization": "source flush_submit_and_sync_cpu and import command waitUntilCompleted; no shared CPU raw-frame staging",
+  "zeroCopyProved": false,
+  "sourceBindings": [
+    {
+      "purpose": "fframes hardware source completion",
+      "path": "sources/fframes-current/fframes-skia-renderer/src/frame_export/videotoolbox.rs",
+      "sha256": "e0f27b623fcdbbfbb08754c17f1b4a14fad437e781b35d7396a1471431812337"
+    },
+    {
+      "purpose": "common GPU copy/conversion fences",
+      "path": "sources/fframes-common-gpu/common-converter.mm",
+      "sha256": "03f7b287c328a11d68b913e987f4e774f18293635e4bba962de86bd0a61ef8ce"
+    },
+    {
+      "purpose": "source VideoFrame lifetime across import",
+      "path": "sources/fframes-circles-claim/render-bench/vs-remotion/src/bin/circles-common-gpu-adapter.rs",
+      "sha256": "d85514f0b037db32c25806ed62853d97237a306513a1b19e9c2ef5460de87906"
+    },
+    {
+      "purpose": "independent channel/lifetime boundary driver",
+      "path": "sources/fframes-common-gpu/test-import.mm",
+      "sha256": "de9bf7155833e35aa6fe72e9fb9a62b42809f7f1bdd6d7567f264e336be870ed"
+    }
+  ]
+}

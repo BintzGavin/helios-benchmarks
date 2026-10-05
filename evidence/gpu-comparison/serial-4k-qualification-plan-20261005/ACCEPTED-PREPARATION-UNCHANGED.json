@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "acceptedNativePreparationEntries": 446,
+  "acceptedNativePreparationBytes": 50753953,
+  "mismatches": [],
+  "acceptedRootPins": [
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/FINAL-REPORT.json",
+      "bytes": 5158,
+      "sha256": "c986462b129dd0a239bbee84f08a56e31ffdf76654ff9a80c7ff689e4c34a1f0"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/EXACT-PINS.json",
+      "bytes": 81089,
+      "sha256": "1b946dc6901e630df65e5ccc1c661ea874479ff9ee93549040b03a78c6418c04"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/RECEIPT-MANIFEST.json",
+      "bytes": 80626,
+      "sha256": "351293f76777cc35b114ffa7e31c4de55fca600adefde431d2a37ff810b90633"
+    }
+  ],
+  "newDecodeRenderBuildOrTiming": false,
+  "method": "read-only size/SHA verification, no tools touching old outputs"
+}

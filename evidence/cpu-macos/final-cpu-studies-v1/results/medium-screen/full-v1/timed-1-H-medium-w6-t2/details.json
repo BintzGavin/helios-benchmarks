@@ -1,0 +1,76 @@
+{
+  "engine": "H",
+  "node": "v24.19.0",
+  "ffmpegArgv": [],
+  "stats": {
+    "frames": 300,
+    "chunks": 6,
+    "workers": 6,
+    "ranges": [
+      {
+        "frames": 50,
+        "preparationMs": 147.84175000000002,
+        "rasterizeMs": 3301.5968350000003,
+        "pixelExtractionMs": 402.69437700000066,
+        "drawMs": 3705.0165410000013,
+        "encoderWaitMs": 502.79225199999865,
+        "encodeMs": 11189.249709,
+        "verifyMs": 94.19479200000023
+      },
+      {
+        "frames": 50,
+        "preparationMs": 153.322333,
+        "rasterizeMs": 3417.0348360000003,
+        "pixelExtractionMs": 594.8294600000017,
+        "drawMs": 4012.5718339999985,
+        "encoderWaitMs": 465.75937700000065,
+        "encodeMs": 11333.167791,
+        "verifyMs": 83.41579199999978
+      },
+      {
+        "frames": 50,
+        "preparationMs": 145.74987500000003,
+        "rasterizeMs": 3401.3958330000014,
+        "pixelExtractionMs": 604.1129570000011,
+        "drawMs": 4006.2381229999983,
+        "encoderWaitMs": 513.729165999999,
+        "encodeMs": 11375.334917,
+        "verifyMs": 79.55574999999953
+      },
+      {
+        "frames": 50,
+        "preparationMs": 146.701875,
+        "rasterizeMs": 3223.659000999999,
+        "pixelExtractionMs": 537.8358330000019,
+        "drawMs": 3762.1549179999997,
+        "encoderWaitMs": 443.4923330000004,
+        "encodeMs": 11385.528167,
+        "verifyMs": 77.41366599999856
+      },
+      {
+        "frames": 50,
+        "preparationMs": 152.091458,
+        "rasterizeMs": 3419.9319139999975,
+        "pixelExtractionMs": 566.3473750000002,
+        "drawMs": 3987.0281689999997,
+        "encoderWaitMs": 455.7097500000014,
+        "encodeMs": 11403.091875,
+        "verifyMs": 76.95583299999998
+      },
+      {
+        "frames": 50,
+        "preparationMs": 145.20004099999997,
+        "rasterizeMs": 3361.4891690000018,
+        "pixelExtractionMs": 632.8090890000005,
+        "drawMs": 3995.0243320000004,
+        "encoderWaitMs": 453.82020599999896,
+        "encodeMs": 11414.1165,
+        "verifyMs": 77.21870899999885
+      }
+    ],
+    "renderMs": 11813.17575,
+    "finalizeMs": 2241.8737920000003,
+    "finalVerifyMs": 1772.9912919999988
+  },
+  "apiWallNs": 14169785916
+}

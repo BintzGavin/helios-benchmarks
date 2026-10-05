@@ -1,0 +1,8 @@
+--- /home/user/evidence/helios-cpu-linux-2026-10-02/inputs/reproduction/public-reproduction-v1/fframes-cpu/Cargo.toml	2026-10-01 17:20:46.000000000 +0000
++++ Cargo.toml	2026-10-02 21:15:52.451443648 +0000
+@@ -4,4 +4,4 @@
+ edition = "2024"
+ [workspace]
+ [dependencies]
+-fframes = { path = "../../fframes/fframes", features = ["h264", "libav-agree-gpl", "compile-time-svgtree"] }
++fframes = { path = "../fframes/fframes", features = ["h264", "libav-agree-gpl", "compile-time-svgtree"] }

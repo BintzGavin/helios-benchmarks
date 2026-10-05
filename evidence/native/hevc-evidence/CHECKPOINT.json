@@ -1,0 +1,30 @@
+{
+  "status": "HEVC slice delivered and externally merged; broader objective incomplete",
+  "worktree": "/Users/gavinbintz/.codex/worktrees/gpu-hevc/helios",
+  "branch": "gavin/feat-gpu-hevc",
+  "base": "449933aec6516697457a3163a2cf6b1b68a57a96",
+  "redAcceptance": {
+    "failed": 2,
+    "skippedUnbuiltNative": 3
+  },
+  "greenApiAcceptance": {
+    "passed": 8,
+    "skippedUnbuiltNative": 3
+  },
+  "frozenOriginalAndBinaryHelpersRehashedUnchanged": true,
+  "ownerCursor": "d0c051ad-a3b2-4641-b3cb-7583ae2a6e2e:12",
+  "timingWindowClosed": true,
+  "comparisonOwnership": "01a0ff86-ddbd-7703-92b8-781e18082039",
+  "plannedQualification": "new HEVC small scene all300 direct-reference/decoded quality/cadence, hardware attestation and actual GPU transfer profile; no benchmark speed claim",
+  "zeroCopyProved": false,
+  "commit": "0f0db15a6d48a65cdf1c7a66250b4f22ead66809",
+  "externalMerge": "079356491449178e66ab8bbaac700684668c8951",
+  "pr": "https://github.com/BintzGavin/helios/pull/5015",
+  "helperSha256": "9c2b3654ce681d9764643214a745878b8fecb72ed9fcd69f3aea7f0fa709d9ae",
+  "qualifiedAll300SmallScene": true,
+  "full4KHevcQualified": false,
+  "fullProductionComparisonWinProved": false,
+  "noLocalJobs": true,
+  "diskFailure": "two final receipt fixtures hit ENOSPC, retained/excluded; both affected retests pass",
+  "cleanup": "verified independent helpers then removed only task-owned release build/deps/.fingerprint intermediates"
+}

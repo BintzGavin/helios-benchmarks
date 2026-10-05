@@ -1,0 +1,30 @@
+{
+  "lane": "positive3",
+  "benchmarkTiming": false,
+  "timingWindowOpen": false,
+  "modifiedPipeline": true,
+  "originalProduct": false,
+  "argv": [
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/nv12-color-controls",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/positive3/video.mp4",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/positive3/capture",
+    "3"
+  ],
+  "taskSettings": {
+    "FFRAMES_EXPLICIT_NV12": "1",
+    "FFRAMES_HANDOFF_CAPTURE": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/positive3/capture",
+    "FFRAMES_NV12_TRACE": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/positive3/gpu-transfer.jsonl",
+    "COMPARISON_REQUIRE_HARDWARE_FRAMES": "1",
+    "FFRAMES_NV12_POSITIVE_RGBA": "1",
+    "DYLD_INSERT_LIBRARIES": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/transfer-interposer.dylib",
+    "FFRAMES_EXTERNAL_TRANSFER_LOG": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/positive3/interposer.jsonl"
+  },
+  "binarySha256": "ea36969d384cfb1de3fe5b02da832cab97003301ab3a7818133c82b942f363f3",
+  "converterSha256": "11522ab92e119b84f9af86b9abf5864263c774a21ac7505b82a6556b6e9e132d",
+  "startedUnix": 1791141858.73563,
+  "pid": 85952,
+  "returncode": 0,
+  "status": "completed",
+  "finishedUnix": 1791141859.0225742,
+  "videoSha256": "47bccf2044271fcf57b91266185a6adf55fe211eef25f853a7888aa78c4289fa"
+}

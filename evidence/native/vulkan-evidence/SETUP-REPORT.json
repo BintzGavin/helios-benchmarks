@@ -1,0 +1,123 @@
+{
+  "status": "passed-local-shared-texture-setup-only",
+  "receipt": {
+    "device": "Apple M3 Pro",
+    "deviceType": 1,
+    "apiVersion": 4198757,
+    "metalObjects": true,
+    "sameImportedTexture": true,
+    "hardwareUsed": true,
+    "vulkanSubmissions": 3,
+    "completedFences": 3,
+    "encoderFrames": 3,
+    "zeroCopyProved": false
+  },
+  "frames": [
+    {
+      "frame": 0,
+      "orderedStages": [
+        "raster-submitted",
+        "surface-acquire",
+        "conversion-complete",
+        "encoder-submit",
+        "encoder-callback",
+        "callback-owner-release"
+      ],
+      "surfaceId": 180,
+      "gpuTimestampPositive": true,
+      "applicationReferenceReleasedAfterSubmission": true,
+      "callbackOwnerReleasedAfterCallback": true
+    },
+    {
+      "frame": 1,
+      "orderedStages": [
+        "raster-submitted",
+        "surface-acquire",
+        "conversion-complete",
+        "encoder-submit",
+        "encoder-callback",
+        "callback-owner-release"
+      ],
+      "surfaceId": 224,
+      "gpuTimestampPositive": true,
+      "applicationReferenceReleasedAfterSubmission": true,
+      "callbackOwnerReleasedAfterCallback": true
+    },
+    {
+      "frame": 2,
+      "orderedStages": [
+        "raster-submitted",
+        "surface-acquire",
+        "conversion-complete",
+        "encoder-submit",
+        "encoder-callback",
+        "callback-owner-release"
+      ],
+      "surfaceId": 230,
+      "gpuTimestampPositive": true,
+      "applicationReferenceReleasedAfterSubmission": true,
+      "callbackOwnerReleasedAfterCallback": true
+    }
+  ],
+  "bindings": [
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/interop-probe",
+      "bytes": 128448,
+      "sha256": "fc29ff7b88dfc972eb364fbdf17f277d76cc799290fa4679daa5468c8464c60d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/interop-probe.mm",
+      "bytes": 8916,
+      "sha256": "11614e8bb430df86af65c50e61547b889d1d187a8b974764ff594db551dd171e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/check-setup.py",
+      "bytes": 1017,
+      "sha256": "492d8d2f4c3e3c3f48aaedb7ca68d3cb2f9a9cc97bea81c40dde580555598aeb"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/probe.stdout",
+      "bytes": 212,
+      "sha256": "ac7da310d96421d04e80f9bbd8c8470c9480b4773ac3055b084f0ab2acd7ed49"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/probe.stderr",
+      "bytes": 6061,
+      "sha256": "72cef09225a75f4973d25a65803cd1fb4bcb74bdf0c697a819865701445ab14b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/probe-trace.jsonl",
+      "bytes": 2050,
+      "sha256": "12ac39f9dabbc05e934ab41b5ece7af423d86399fa9d287788aed306303588d6"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/probe.h264",
+      "bytes": 383,
+      "sha256": "773e61c7d12bcf2404ecc87d92a565473610405be11fa5964d24b46e353fe392"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/probe.mp4",
+      "bytes": 1246,
+      "sha256": "0b428e3107ef0faf5fa0dba1485ef92e4ac76c37dc2a3b754313c3523e8be38f"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/RUNTIME.json",
+      "bytes": 10629,
+      "sha256": "9a68f242fbea1409d1b64abca597646a1e8c597d51828e031df12c5c2d3454d1"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native/metal.mm",
+      "bytes": 20830,
+      "sha256": "3d3a8d645fe82b842629cd3625c09c827a1779eec58dc1187bc515f8c13d2fee"
+    }
+  ],
+  "compileFlagsReceiptAvailable": false,
+  "runtimeVerification": "All extracted runtime/header files retained and SHA-pinned in RUNTIME.json; installer baseline and three refusal controls passed.",
+  "limitations": [
+    "Vulkan clear commands only; no Skia scene rendered by this passing setup probe.",
+    "No independent lossless/reference comparison or interposed transfer attestation for this probe.",
+    "Vulkan fences reported by bounded probe source; converter/encoder ordering independently audited from saved trace.",
+    "No speed result; no Vulkan Video encoder claim; zeroCopyProved=false."
+  ],
+  "skiaQualificationComplete": false
+}

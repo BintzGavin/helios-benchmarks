@@ -1,0 +1,102 @@
+{
+  "status": "transport-build-ready-small-host-qualification",
+  "pr": "https://github.com/BintzGavin/helios/pull/5014",
+  "commit": "449933aec6516697457a3163a2cf6b1b68a57a96",
+  "base": "3b812b9ff6b1d7ce1df2f2a0decab97ef186c2e7",
+  "branch": "gavin/perf-gpu-binary-transport",
+  "worktree": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios",
+  "helper": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/native/target/release/helios-gpu",
+  "helperSha256": "1383da791a588731101f6dd22bea8e911d4bc97243b7f01541214981afc90ecc",
+  "binaryProtocol": 5,
+  "jsonControlProtocol": 4,
+  "metalSurfaceTraceProtocol": 4,
+  "canvasDefaultTransport": "binary",
+  "planTransport": "json",
+  "bitrateMin": 100000,
+  "bitrateMax": 1000000000,
+  "bitrateDefault": 20000000,
+  "gopDefault": 90,
+  "encoderPoolDefault": 1,
+  "encoderPoolOptIn": 3,
+  "frameBytes": 33554432,
+  "commandCount": 120000,
+  "stack": 64,
+  "textUtf16": 20000,
+  "fontHeaderBytes": 50331648,
+  "fontDecodedBytes": 33554432,
+  "build": "cargo build --release --locked --offline; shared disposable target then independent frozen helper copy",
+  "rust": "rustc 1.97.1 (8bab26f4f 2026-07-14) (Homebrew)",
+  "node": "v22.23.1",
+  "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "skiaSafe": "0.91.0",
+  "skia": "143",
+  "host": "Apple M3 Pro macOS26.3 arm64",
+  "sources": [
+    {
+      "path": "packages/portable/src/gpu.ts",
+      "sha256": "8c6dbb20e23e4fc4b8751371f2ae16ef7480d2eec7af4d901a612ac9f7aea882"
+    },
+    {
+      "path": "packages/portable/src/gpu-commands.ts",
+      "sha256": "bfca2d2211e84cea382fd4895227dbb5dc2772d33737e29b61fa0667119d3b6e"
+    },
+    {
+      "path": "packages/portable/native/src/main.rs",
+      "sha256": "9d43b8da06f97121b6b998caebc1c9062b3c69afc115a1e2b6dc4433b523be3c"
+    },
+    {
+      "path": "packages/portable/native/src/binary.rs",
+      "sha256": "87521b21b9370d9a1d4067d3310bc30c80d77d089132cd331b3e42a730d06d43"
+    },
+    {
+      "path": "packages/portable/native/metal.mm",
+      "sha256": "d4ffc5b30b9dd208ee438b1519fb76dee23e33c42ff619b3875eec29afb49ee9"
+    },
+    {
+      "path": "packages/portable/native/encoder-flight.hpp",
+      "sha256": "e621ea35a3006cf687b50cb5c859b4610c76a0068c0cc0fb09e30985c4c3b02a"
+    },
+    {
+      "path": "packages/portable/native/build.rs",
+      "sha256": "4316755700b94781f9f9425cf5af3ce4330bdfaf862051e451d34b5d1991d1e6"
+    },
+    {
+      "path": "packages/portable/native/Cargo.toml",
+      "sha256": "24a3232ef28a9556bd44c0e87aa8c460dda7e8b2be74141246e1bed4b3c933ec"
+    },
+    {
+      "path": "packages/portable/native/Cargo.lock",
+      "sha256": "46fe52b24821ea898032b88a13cf768d70d2ccea006f18f1843d53f866fd99a4"
+    },
+    {
+      "path": "packages/portable/benchmarks/gpu.ts",
+      "sha256": "880b2385cacfb6984c2de93353f7b60cb71fc60f77e69ab5aa10bc4367769954"
+    },
+    {
+      "path": "packages/portable/benchmarks/gpu-quality.ts",
+      "sha256": "6c7450272e2c5901eb3a7492e2926194dc8fe4611f5ddd8850cc072c9ae4dad0"
+    },
+    {
+      "path": "packages/portable/tests/gpu-transport.test.ts",
+      "sha256": "853287bacbea37dc8aac6eda892adaf336144c603ab8e181de29d2f4c9701e24"
+    },
+    {
+      "path": "packages/portable/tests/fixtures/fonts/NotoSans-Regular.ttf",
+      "sha256": "b85c38ecea8a7cfb39c24e395a4007474fa5a4fc864f6ee33309eb4948d232d5"
+    }
+  ],
+  "verification": {
+    "fullPortable": "222 checks passed before final test-only/indentation changes; five final transport checks passed",
+    "nativeBoundary": "three focused packet tests passed plus existing two boundary tests",
+    "mutations": "9 native and 5 TS killed; passing TS host baseline; initial sandbox GPU-init failures excluded",
+    "faults": "device,encoder,changed configured bitrate refused",
+    "actualGPU": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/binary-transport-evidence/smoke-02/REPORT.json",
+    "byteEquality": "JSON/binary RGBA and NV12 exact for pinned text, path/fill/transform state and shuffled frames; DM Sans smoke also exact"
+  },
+  "full4K300Qualified": false,
+  "speedClaim": false,
+  "zeroCopyProved": false,
+  "comparisonOwner": "01a0ff86-ddbd-7703-92b8-781e18082039",
+  "frozenHelpersUnchanged": true,
+  "archiveSha256": "e554bcacd013e4ef65cbf839d80543f1322e645fe8a9face9cbf158621b17ae2"
+}

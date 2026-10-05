@@ -1,0 +1,37 @@
+{
+  "verification": "syntax + focused source/receipt diffs + read-only preflight only",
+  "preflight": {
+    "passed": true,
+    "inputs": 747,
+    "host": "Apple M3 Pro,11 available CPUs,macOS arm64",
+    "node": "24.19.0",
+    "ffmpeg": "9.0",
+    "browser": "149.0.7790.0"
+  },
+  "directHelpersUnchanged": [
+    "sha",
+    "save",
+    "validate_probe",
+    "encoder_info",
+    "execute",
+    "stream_reference",
+    "probe",
+    "cadence"
+  ],
+  "adaptations": [
+    "explicit CLI/runtime paths",
+    "Rust media argument6",
+    "Cargo relative upstream path",
+    "CPU browser executable placeholder",
+    "shared exact integer metric clock"
+  ],
+  "originalTimersMetricRowsPtsPreserved": true,
+  "homePathsInBundle": false,
+  "buildsExportsReferencesTestsInstallsPublished": false,
+  "limits": [
+    "Rust path adaptation not rebuilt",
+    "public exports and fresh reference generation not exercised",
+    "preflight used existing historical Rust crate/binary; launch requires bundled adapted Rust source",
+    "native tool linkage and fresh prerequisites require local validation"
+  ]
+}

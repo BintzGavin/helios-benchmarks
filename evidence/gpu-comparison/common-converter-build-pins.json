@@ -1,0 +1,41 @@
+{
+  "status": "smoke-and3frame-profile-qualified; fullreference/screen pending",
+  "bindings": [
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/circles-common-gpu-adapter",
+      "sha256": "0e788dc176e7577f3736eb335e9b7cf0ce0189f592659abd1afa940619549f4d",
+      "bytes": 37479184
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-common-gpu/common-converter.dylib",
+      "sha256": "84019c0fe1eb3306475bbc3f2babe7df2a45da00792ef15a83c2b2d513c7cc51",
+      "bytes": 77400
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-common-gpu/common-converter.mm",
+      "sha256": "d1471d68bdfe0a5f8b43a3140d5f783cce946b7b73e37f251bc319bdf048807a",
+      "bytes": 21979
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-common-gpu/encoder-flight.hpp",
+      "sha256": "e621ea35a3006cf687b50cb5c859b4610c76a0068c0cc0fb09e30985c4c3b02a",
+      "bytes": 2181
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-circles-claim/render-bench/vs-remotion/src/bin/circles-common-gpu-adapter.rs",
+      "sha256": "d85514f0b037db32c25806ed62853d97237a306513a1b19e9c2ef5460de87906",
+      "bytes": 9671
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/export-circles-common.mts",
+      "sha256": "eb0417ea0d46d540863d2a4599a4490a92a6a2fa99ed57942fe68adf4379d5c2",
+      "bytes": 6831
+    }
+  ],
+  "sourceSkia": "fframes0.153.3 Metal, optimizedSVG1c2a088",
+  "sharedCodeOrigin": "Helios pool17b175 C++ standardframeworks only; noSkia ABIsharing",
+  "color": "explicit sRGB-to-limitedBT709/NV12",
+  "extraGpuTextureCopy": true,
+  "encoder": "required VT H264, pool3,GOP30",
+  "zeroCopyProved": false
+}

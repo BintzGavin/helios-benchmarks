@@ -1,0 +1,950 @@
+{
+  "worktree": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios",
+  "branch": "gavin/feat-gpu-vulkan-interop",
+  "base": "0f0db15a6d48a65cdf1c7a66250b4f22ead66809",
+  "uncommitted": true,
+  "files": [
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/package-lock.json",
+      "bytes": 480090,
+      "sha256": "1feaea6114ab3cf307ec7b8df87211fd4798468ad19f94b7b77e8dc2074c58cb",
+      "relativePath": "package-lock.json"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/package.json",
+      "bytes": 2260,
+      "sha256": "d4d5110438c6c35a304942e777b332fad32ee8946bdf4e115871fdcfd765467a",
+      "relativePath": "package.json"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/GPU-SPEC.md",
+      "bytes": 15316,
+      "sha256": "43909d156fd70fec0622af13f0da13ee2e8c069df0b18ef73cb841d58816df7c",
+      "relativePath": "packages/portable/GPU-SPEC.md"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/README.md",
+      "bytes": 22811,
+      "sha256": "c529a099cd57eed2039535c16318bd219e4cc1fb2ff16d6900265a05479cd5cb",
+      "relativePath": "packages/portable/README.md"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/SPEC.md",
+      "bytes": 3594,
+      "sha256": "a740565273c61249fe6a60aa1cbd1adaaedb6f64d41bec91f80beba0741f1be1",
+      "relativePath": "packages/portable/SPEC.md"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/GPU-HEVC-RESULTS.md",
+      "bytes": 3338,
+      "sha256": "eefada2d5a6f7e5d5131c361c5df2f860a28191926b3c3d542c081be88305642",
+      "relativePath": "packages/portable/benchmarks/GPU-HEVC-RESULTS.md"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/GPU-PROTOCOL.md",
+      "bytes": 13818,
+      "sha256": "9e47d7c0fe1629cbb806dc10906f3ccc744088af7e8c7f987ee5a8a00c634cea",
+      "relativePath": "packages/portable/benchmarks/GPU-PROTOCOL.md"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/GPU-RESULTS.md",
+      "bytes": 9780,
+      "sha256": "dfc17ce80a5face1bd468ee46e35a811d1afe79132a91c98495d62b6c5a6eea8",
+      "relativePath": "packages/portable/benchmarks/GPU-RESULTS.md"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/LICENSE.fframes.txt",
+      "bytes": 1079,
+      "sha256": "648577feb8515d23cb9c762aafcb295397bc2f3a88f0dc3358c9eafc64c48d33",
+      "relativePath": "packages/portable/benchmarks/LICENSE.fframes.txt"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/PERFORMANCE.md",
+      "bytes": 11145,
+      "sha256": "52cfc851cc7d573922ec5cd6e4fbcf6a4a05322c3dbb6f397202a0f350f21955",
+      "relativePath": "packages/portable/benchmarks/PERFORMANCE.md"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cases.json",
+      "bytes": 2590,
+      "sha256": "f04398aa8344353d0ef7321eaa2a0e1da6ed1df28bc99e14db75329aca14dc0c",
+      "relativePath": "packages/portable/benchmarks/cases.json"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/chromium-entry.ts",
+      "bytes": 2308,
+      "sha256": "491941da0a305ab5eb9adcc3f23302319b8eabdad5534394934e82160ddf67ec",
+      "relativePath": "packages/portable/benchmarks/chromium-entry.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/chromium.ts",
+      "bytes": 6653,
+      "sha256": "fbe10630611c3e9063c7d5a79ce1c74bcf8dd37681b68832e379de47a7458473",
+      "relativePath": "packages/portable/benchmarks/chromium.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/PROTOCOL.md",
+      "bytes": 11145,
+      "sha256": "550cc6bf2961fa4b5e2b0acc8ac3a9713b9ccad50d9f363b395167326a26ce08",
+      "relativePath": "packages/portable/benchmarks/cloudflare/PROTOCOL.md"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/build-capsule.py",
+      "bytes": 1922,
+      "sha256": "0db104f47a99690baab7835fe52d8b4c976947a5493e69f648f0275d67b9b758",
+      "relativePath": "packages/portable/benchmarks/cloudflare/build-capsule.py"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/common.py",
+      "bytes": 1866,
+      "sha256": "5fde13e0c71561cd0638184c0c924c818c15f1759626d44f524769e5ae12628c",
+      "relativePath": "packages/portable/benchmarks/cloudflare/common.py"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/compare.py",
+      "bytes": 2478,
+      "sha256": "45f279ad519c77c97c4e25f4efc1462a2a89d1284ed415a708ab93c98aa26b7a",
+      "relativePath": "packages/portable/benchmarks/cloudflare/compare.py"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/diagnostics.mjs",
+      "bytes": 3057,
+      "sha256": "ccf87d7b56feb5b45302b5a3b20fc7ee6f91df6e63e3f9c32374d1701c7cf142",
+      "relativePath": "packages/portable/benchmarks/cloudflare/diagnostics.mjs"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/fixtures/scheduler-square.html",
+      "bytes": 1084,
+      "sha256": "e24332e35e5e10e1e2f37f23a010226a3dc047e44274164c6e17064e3779b58e",
+      "relativePath": "packages/portable/benchmarks/cloudflare/fixtures/scheduler-square.html"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/lifecycle.mjs",
+      "bytes": 393,
+      "sha256": "30a73275b8535c09a9b0c92e1605347690709c41c8855a17fc6c8bf75794c791",
+      "relativePath": "packages/portable/benchmarks/cloudflare/lifecycle.mjs"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/observe.mjs",
+      "bytes": 1077,
+      "sha256": "2c2a6ffed72e9cfbd9de9319be53ceb52ed5cad2d567cf913291e1adffb5f25b",
+      "relativePath": "packages/portable/benchmarks/cloudflare/observe.mjs"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/prepare.py",
+      "bytes": 2908,
+      "sha256": "4b5fce0e566bc3de5a9a3c173120a8a2b0f4ac5de62b78b35702d2ac0c188c88",
+      "relativePath": "packages/portable/benchmarks/cloudflare/prepare.py"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/probe.mjs",
+      "bytes": 2540,
+      "sha256": "937be07714dcc9de1985988c4834d7d378238fa982bc92f42ebff7b6cdee8294",
+      "relativePath": "packages/portable/benchmarks/cloudflare/probe.mjs"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/qualification.py",
+      "bytes": 3392,
+      "sha256": "35b849f849be7de2096d3419271582253517b03cd41faabb7adaeb036aed5c05",
+      "relativePath": "packages/portable/benchmarks/cloudflare/qualification.py"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/qualify.py",
+      "bytes": 2624,
+      "sha256": "255e24c12cf9f12b3c47b8400634aecd3bef5ea36c4cdf0cf4e9f08633a4d576",
+      "relativePath": "packages/portable/benchmarks/cloudflare/qualify.py"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/readiness-container.cjs.txt",
+      "bytes": 8209,
+      "sha256": "73a2058c35decc37bbae1ed6630a213c18acbcf22c96bfb63ca0bc5716c05580",
+      "relativePath": "packages/portable/benchmarks/cloudflare/readiness-container.cjs.txt"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/readiness-probe.mjs",
+      "bytes": 4443,
+      "sha256": "55b3df3aec96b6fc0bf328bdbc5827b61d98b52c5c4274e3fcc5306d28e78c39",
+      "relativePath": "packages/portable/benchmarks/cloudflare/readiness-probe.mjs"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/recover.mjs",
+      "bytes": 1701,
+      "sha256": "a8547f78c55d55152dc697136cc1ff0ec4ffac219c1d15c8f6435832bdafbba8",
+      "relativePath": "packages/portable/benchmarks/cloudflare/recover.mjs"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/recovery-inspect.py",
+      "bytes": 2399,
+      "sha256": "746a8642ce020a653380603880c87e2aad42e511f12f192ebc2b6ba819fa3d53",
+      "relativePath": "packages/portable/benchmarks/cloudflare/recovery-inspect.py"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/resume-check.py",
+      "bytes": 2040,
+      "sha256": "277dc4793be05e2445bbeef9e78b8fc1391b854049929198ea748ce3c6cafee5",
+      "relativePath": "packages/portable/benchmarks/cloudflare/resume-check.py"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/resume.mjs",
+      "bytes": 1236,
+      "sha256": "ac7ef7bfb15e5f9f3c797a1f0737a5c8eb259f9031f9ee24eed536b6d7a832a1",
+      "relativePath": "packages/portable/benchmarks/cloudflare/resume.mjs"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/retention.py",
+      "bytes": 1362,
+      "sha256": "e78dc43bd50274caa8646f430bc1addad871856a8de1486c34110e400d8b42c5",
+      "relativePath": "packages/portable/benchmarks/cloudflare/retention.py"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/run-remote.mjs",
+      "bytes": 10305,
+      "sha256": "0eda722bc8e075a855c5ebf49562b20bfcdce00ea808ba6592004b4973b01b8d",
+      "relativePath": "packages/portable/benchmarks/cloudflare/run-remote.mjs"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/transfer.mjs",
+      "bytes": 1334,
+      "sha256": "5139985a450d58292060beb9cc12f3116e9aeb3d3eb288f8bdd9e66cb6956ade",
+      "relativePath": "packages/portable/benchmarks/cloudflare/transfer.mjs"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/worker.mjs",
+      "bytes": 17403,
+      "sha256": "b87b44627a7ff2e468096341b85b877891913d1b72074cc10fa08806640f6cc5",
+      "relativePath": "packages/portable/benchmarks/cloudflare/worker.mjs"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/compare.ts",
+      "bytes": 8547,
+      "sha256": "81a841e2dc453e27b8f3070bb2cb590668198164d3f3c3a2cd07c1dc4e945da0",
+      "relativePath": "packages/portable/benchmarks/compare.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/corpus.ts",
+      "bytes": 10203,
+      "sha256": "47de245933967c13a153cbeab92a5972e116606c20049ca276cc4592a288897d",
+      "relativePath": "packages/portable/benchmarks/corpus.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/fframes-quality.ts",
+      "bytes": 4301,
+      "sha256": "b26c0a0c0b36475f1000521c649c2c816dd4fbd87ff29f0ab204595acdfe09a8",
+      "relativePath": "packages/portable/benchmarks/fframes-quality.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/fframes-textgrid.mjs",
+      "bytes": 1655,
+      "sha256": "e3bc82a2cd5461136a1ee388e2a2e27eaf03937b5f65169c18630bbf9fe8df67",
+      "relativePath": "packages/portable/benchmarks/fframes-textgrid.mjs"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/fframes.ts",
+      "bytes": 15164,
+      "sha256": "057ac419f12abf6ccb5741990089c6c8a463457330d415c7243f492d44ea6d8c",
+      "relativePath": "packages/portable/benchmarks/fframes.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/gpu-chromium.ts",
+      "bytes": 8167,
+      "sha256": "ffdc2126d32de30f1499d99b505dc9dcd11835ff44f335f317826bf0b192a2c8",
+      "relativePath": "packages/portable/benchmarks/gpu-chromium.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/gpu-quality.ts",
+      "bytes": 5383,
+      "sha256": "6c7450272e2c5901eb3a7492e2926194dc8fe4611f5ddd8850cc072c9ae4dad0",
+      "relativePath": "packages/portable/benchmarks/gpu-quality.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/gpu-reference.ts",
+      "bytes": 211,
+      "sha256": "31e425a02933c957da72bce5682e7efc9e61f0ba2900ed7c7a6a40e62cd42eeb",
+      "relativePath": "packages/portable/benchmarks/gpu-reference.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/gpu.ts",
+      "bytes": 8314,
+      "sha256": "880b2385cacfb6984c2de93353f7b60cb71fc60f77e69ab5aa10bc4367769954",
+      "relativePath": "packages/portable/benchmarks/gpu.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/opacity.ts",
+      "bytes": 3832,
+      "sha256": "8f44dce6137a224c9906052b54a45421d1ca7c5ec8d3ec6798e0125528ed3139",
+      "relativePath": "packages/portable/benchmarks/opacity.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/profile-gpu.mm",
+      "bytes": 6282,
+      "sha256": "6ed403ae9f17384fb2ac47a6323b7f71a129410a380b7ff573eaef86dadfd4be",
+      "relativePath": "packages/portable/benchmarks/profile-gpu.mm"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/profile.ts",
+      "bytes": 5986,
+      "sha256": "6926fd924d921149634f796342ea45a637e0a0671370717b6ac72296c0f61af8",
+      "relativePath": "packages/portable/benchmarks/profile.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/quality.ts",
+      "bytes": 7278,
+      "sha256": "e3d735900d44401f9e4c8d3981840412e0b6652252cf55bafe4feb4651e12583",
+      "relativePath": "packages/portable/benchmarks/quality.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/run.ts",
+      "bytes": 7544,
+      "sha256": "8aeb3640e8e221229e6c3c22bbf04878b25932b1c69c56b6c1abdc5ab59e081c",
+      "relativePath": "packages/portable/benchmarks/run.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/deploy/Dockerfile",
+      "bytes": 1268,
+      "sha256": "6974eaf6dd849e35d72aa44379704206309f5d3445e8da726d90f4efe023f67a",
+      "relativePath": "packages/portable/deploy/Dockerfile"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/deploy/Dockerfile.full",
+      "bytes": 493,
+      "sha256": "c35f8d523234f56c0e603db215cd2e0b202346e432bde60ad67729bc2897f519",
+      "relativePath": "packages/portable/deploy/Dockerfile.full"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/deploy/vercel-function.mjs",
+      "bytes": 1961,
+      "sha256": "2ffb73585372b3ec15fd8e3573e3119fb5bc13292c9bcb1dd0724a8be40d330a",
+      "relativePath": "packages/portable/deploy/vercel-function.mjs"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/deploy/vercel.json",
+      "bytes": 887,
+      "sha256": "869238f9f7299edc7eb88315f947ccdd0353184c3b68da4f13ee1d22c5926baa",
+      "relativePath": "packages/portable/deploy/vercel.json"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/deploy/verify-runtime.mjs",
+      "bytes": 1953,
+      "sha256": "760e659f4c0ef7e887bfa49f2bb2382a46809574d85fb5c8d89760f94a854cc8",
+      "relativePath": "packages/portable/deploy/verify-runtime.mjs"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/examples/vercel-caller.mjs",
+      "bytes": 656,
+      "sha256": "1a4069e64c7a2ec96052aa18ac2a6cab3c57c7403288c30dc7c470f483fd4487",
+      "relativePath": "packages/portable/examples/vercel-caller.mjs"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/examples/workflow.ts",
+      "bytes": 890,
+      "sha256": "588fa4f1357b03681853043665793272f88d1f599f4ced7be6eaec929647f6ad",
+      "relativePath": "packages/portable/examples/workflow.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native/.gitignore",
+      "bytes": 41,
+      "sha256": "516d2356678f6e80b3ccd842cb76f209ff8bca8778c04bb57a2b77f87679b32d",
+      "relativePath": "packages/portable/native/.gitignore"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native/Cargo.lock",
+      "bytes": 17301,
+      "sha256": "46fe52b24821ea898032b88a13cf768d70d2ccea006f18f1843d53f866fd99a4",
+      "relativePath": "packages/portable/native/Cargo.lock"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native/Cargo.toml",
+      "bytes": 455,
+      "sha256": "09ce80c8a975de4646f657e73e516fe668f34aa7145e14540ff2adc2f89f7d73",
+      "relativePath": "packages/portable/native/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native/build.rs",
+      "bytes": 1175,
+      "sha256": "4359acfabcbcb038ba3ece4b33a6ad7466c80c0447e55abc1516b8e8d2ce0038",
+      "relativePath": "packages/portable/native/build.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native/encoder-flight.hpp",
+      "bytes": 2181,
+      "sha256": "e621ea35a3006cf687b50cb5c859b4610c76a0068c0cc0fb09e30985c4c3b02a",
+      "relativePath": "packages/portable/native/encoder-flight.hpp"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native/fault-init.mm",
+      "bytes": 2705,
+      "sha256": "5fa615fffc967d107bb76fa0634814dbc707f2453338395c272a3a77baf83086",
+      "relativePath": "packages/portable/native/fault-init.mm"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native/fault-pool.mm",
+      "bytes": 2520,
+      "sha256": "0dbf0156696565815e3fc2e749b3b6a1434965fbb698150b1df32d503ee1bfe7",
+      "relativePath": "packages/portable/native/fault-pool.mm"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native/metal.mm",
+      "bytes": 20830,
+      "sha256": "3d3a8d645fe82b842629cd3625c09c827a1779eec58dc1187bc515f8c13d2fee",
+      "relativePath": "packages/portable/native/metal.mm"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native/src/binary.rs",
+      "bytes": 8575,
+      "sha256": "87521b21b9370d9a1d4067d3310bc30c80d77d089132cd331b3e42a730d06d43",
+      "relativePath": "packages/portable/native/src/binary.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native/src/main.rs",
+      "bytes": 24941,
+      "sha256": "1fbd7188f0abb2ea786793e87d29251ff1fabdb50af1aad265adf6b3a87b6b75",
+      "relativePath": "packages/portable/native/src/main.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native/tests/encoder-flight.cpp",
+      "bytes": 2143,
+      "sha256": "e3a13fcdaaeffbc552d374b9b1cab6b63bafb1ed767cf0e6363807aaaae1611b",
+      "relativePath": "packages/portable/native/tests/encoder-flight.cpp"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native/vulkan.mm",
+      "bytes": 9597,
+      "sha256": "cff1924b5f15cad5b1643d7c2f61696e5c13a4c508ccbdcca96b1af06413811c",
+      "relativePath": "packages/portable/native/vulkan.mm"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/package.json",
+      "bytes": 1155,
+      "sha256": "d825b4c802bd431058ef56fc7eb20fd1ae1a75f50c3913d5882fc9f41254d2f6",
+      "relativePath": "packages/portable/package.json"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/scripts/build-codecs.sh",
+      "bytes": 1311,
+      "sha256": "a93ee457d9d67b7daaa01ebd766a9d1d806c188903ad43ab0ff096bed6936b8a",
+      "relativePath": "packages/portable/scripts/build-codecs.sh"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/scripts/build-gpu.mjs",
+      "bytes": 1357,
+      "sha256": "2a154ab2caf8ea525ca0d7ace010ffe0b58b4168af77bb8710c154c162e6f8b0",
+      "relativePath": "packages/portable/scripts/build-gpu.mjs"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/scripts/check-gpu-faults.mjs",
+      "bytes": 1683,
+      "sha256": "30342cbccc138f2ad224bcc533350f4ea9dd6198d64ad40dca219e41e47d8df9",
+      "relativePath": "packages/portable/scripts/check-gpu-faults.mjs"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/scripts/check-gpu-pool.mjs",
+      "bytes": 2916,
+      "sha256": "24de2237a23f61e4d56e1616ff2373bdf42c543a56e6c2ce957f8cde86285f97",
+      "relativePath": "packages/portable/scripts/check-gpu-pool.mjs"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/scripts/prepare-deployment.mjs",
+      "bytes": 1919,
+      "sha256": "c64053d1f014809b2d5d1f55fe6659c44d5a869a85ed38a6bcd7a98ec9bb4fa0",
+      "relativePath": "packages/portable/scripts/prepare-deployment.mjs"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/scripts/qualify-service.mjs",
+      "bytes": 1998,
+      "sha256": "1696ba4c474b6b56303aef95395c1478ea5d4029fcd9a5a6e5e28fc7ee1fea49",
+      "relativePath": "packages/portable/scripts/qualify-service.mjs"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/scripts/setup-private-vm.sh",
+      "bytes": 12057,
+      "sha256": "fd3a754e5ada7a345eca8bfc1cb86464d805ffc01e11ac0530c1f305fc4304ec",
+      "relativePath": "packages/portable/scripts/setup-private-vm.sh"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/scripts/setup-vercel-s3.sh",
+      "bytes": 14493,
+      "sha256": "7c93227ce0e3121c9e63ec7bcef53a133debcb93c6e333e508af4e2cbc716883",
+      "relativePath": "packages/portable/scripts/setup-vercel-s3.sh"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/scripts/setup-vulkan.mjs",
+      "bytes": 3748,
+      "sha256": "83b945a9ec47d3773c274d1bd7591900c6057078b7cd0e2eca6e8b3b3f7df756",
+      "relativePath": "packages/portable/scripts/setup-vulkan.mjs"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/auth.ts",
+      "bytes": 1279,
+      "sha256": "80d8759f74f9f6b620c21c9537a73719d943d2b94760366c80dba747737ccafa",
+      "relativePath": "packages/portable/src/auth.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/backend.ts",
+      "bytes": 7194,
+      "sha256": "277c332df93a2ee7ca90e5366f3e883eebbef403f87ed474cd514b28f1e44f6a",
+      "relativePath": "packages/portable/src/backend.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/canvas-pool.ts",
+      "bytes": 7709,
+      "sha256": "da4acad0b9c84f5a758fa5150ce6e01ce106fabee3062fe617d82affd00967be",
+      "relativePath": "packages/portable/src/canvas-pool.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/canvas-worker.ts",
+      "bytes": 2028,
+      "sha256": "ea1c95d033617882ed503cd744538d5021df4eeb12359858f28c4f1bc2b591ca",
+      "relativePath": "packages/portable/src/canvas-worker.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/canvas.ts",
+      "bytes": 8898,
+      "sha256": "a6659795c1ca7f9af47eb3632caca292d7d6278fc88e044b57ed9eba6c08a30c",
+      "relativePath": "packages/portable/src/canvas.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/cli.ts",
+      "bytes": 6086,
+      "sha256": "c1548ca7719c5af837ab46e28098723bcd1d38a8374d81d5e9421b4593088475",
+      "relativePath": "packages/portable/src/cli.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/client.ts",
+      "bytes": 7108,
+      "sha256": "5ad708e914f677bc35395eca489240eeca41e14eb6984fbd56eed346a7c91b8c",
+      "relativePath": "packages/portable/src/client.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/gpu-commands.ts",
+      "bytes": 4885,
+      "sha256": "bfca2d2211e84cea382fd4895227dbb5dc2772d33737e29b61fa0667119d3b6e",
+      "relativePath": "packages/portable/src/gpu-commands.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/gpu.ts",
+      "bytes": 20701,
+      "sha256": "e5185a345d72cd6a5652c74ca663658e6b0e5fe23bb31df916ead14dd5b475d1",
+      "relativePath": "packages/portable/src/gpu.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/index.ts",
+      "bytes": 1066,
+      "sha256": "cd4c3028a544e1bea9f698b7dcb34b61b15a37647d77d919d7a4f1def48ea107",
+      "relativePath": "packages/portable/src/index.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/jobs.ts",
+      "bytes": 17753,
+      "sha256": "6b70b50a646e729cae5a406c1c91b649fd8b4d7835a211613ce14fad74a1ea7b",
+      "relativePath": "packages/portable/src/jobs.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/media.ts",
+      "bytes": 12024,
+      "sha256": "0f3bd3cc9d388b8078bdb73406a92c272968defc17ceb14198f87e4884255cd0",
+      "relativePath": "packages/portable/src/media.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/plan.ts",
+      "bytes": 13893,
+      "sha256": "9c63cf0cbd592d2dfdb15cefb70d697fe3f4ff1297b75d1100d34d46f6d58285",
+      "relativePath": "packages/portable/src/plan.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/process.ts",
+      "bytes": 2736,
+      "sha256": "88ab0d09098ab6fa0b4d1357c22f5fe23330c39489fd42a92f1481b30d88d583",
+      "relativePath": "packages/portable/src/process.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/render.ts",
+      "bytes": 21387,
+      "sha256": "9515947614a68352082527c259a134ad99c8810459175632cc8579b2118d41f8",
+      "relativePath": "packages/portable/src/render.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/s3-storage.ts",
+      "bytes": 3681,
+      "sha256": "34782e50da73d494251bca13673d3692a9faa6636f4164fcc7d2c1e4b1b62887",
+      "relativePath": "packages/portable/src/s3-storage.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/server.ts",
+      "bytes": 8831,
+      "sha256": "5ba8a7343f706dea6cc58ceb3b25bc2aa169a96895c2b70c7c234bf18306ecd4",
+      "relativePath": "packages/portable/src/server.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/skia-binding.ts",
+      "bytes": 1135,
+      "sha256": "1520b1c6860332e6aa867819ed66e1cc44d169ed0d81f1759c95ec1e09eb06f7",
+      "relativePath": "packages/portable/src/skia-binding.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/skia.ts",
+      "bytes": 12975,
+      "sha256": "8bd81d20827a676ff3a2f1c6773d360d5eb2fba866d6c3e090b9eac841cc6905",
+      "relativePath": "packages/portable/src/skia.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/storage.ts",
+      "bytes": 5321,
+      "sha256": "f9ec97672f6b9fcf12bc033c16d5556d12c796f70f5544fb3da34e74a0c1c88b",
+      "relativePath": "packages/portable/src/storage.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/text.ts",
+      "bytes": 5765,
+      "sha256": "cb0f73a7abc5f5fa20dfcd3a6a7da26659d5f1636892ef664d3324aab4bea21e",
+      "relativePath": "packages/portable/src/text.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/vendor.d.ts",
+      "bytes": 867,
+      "sha256": "42af5c8db19c759b3d69040a1b5359cf86623366303a03fc9d716941273cfd27",
+      "relativePath": "packages/portable/src/vendor.d.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/api.test.ts",
+      "bytes": 3759,
+      "sha256": "1eb24c13c7e9c29a36741ab2e1fc9fdfba161236c9108337135734803f89bdae",
+      "relativePath": "packages/portable/tests/api.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/auth.test.ts",
+      "bytes": 2420,
+      "sha256": "09a995d6af1dacd2ee7f35a5736a4b0bfd24a768eb6c5772ec9cf52dfd08585a",
+      "relativePath": "packages/portable/tests/auth.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/canvas-pool.test.ts",
+      "bytes": 4550,
+      "sha256": "a65d0edab4b9d6cafa1868a4e57eaa9f17ad44b7fcbf83425c9fc3aa10c3232a",
+      "relativePath": "packages/portable/tests/canvas-pool.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/canvas.test.ts",
+      "bytes": 7780,
+      "sha256": "4e89d1530a002e1072bb04557246c2ea693b7563cfdd6c9063b421f95ba1a058",
+      "relativePath": "packages/portable/tests/canvas.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/cli.test.ts",
+      "bytes": 1247,
+      "sha256": "c7684546ff7f594c4a3770e62ec231fb5c04c3f70bda08954de9e0be50b78c04",
+      "relativePath": "packages/portable/tests/cli.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/client.test.ts",
+      "bytes": 1922,
+      "sha256": "67a455315b64cfcdabcfd86d5bc985d903ad3e0e9ab7a5c4b4f1ddf229899c78",
+      "relativePath": "packages/portable/tests/client.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/cloudflare-benchmark.test.ts",
+      "bytes": 12196,
+      "sha256": "6516fb112f64ddd8da05f7f42fd175645757c713cde4c81cf6dbe8ce8d85156b",
+      "relativePath": "packages/portable/tests/cloudflare-benchmark.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/cloudflare-diagnostics.test.ts",
+      "bytes": 3546,
+      "sha256": "e07ae016f048311d3c68574c4d5cca663fcc9d5a0f64235930fb2d39fb67c115",
+      "relativePath": "packages/portable/tests/cloudflare-diagnostics.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/cloudflare-lifecycle.test.ts",
+      "bytes": 912,
+      "sha256": "a2db5113d4931e6b5187785bcc6333997ac09454030d13961230c16f5601d09b",
+      "relativePath": "packages/portable/tests/cloudflare-lifecycle.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/cloudflare-observer.test.ts",
+      "bytes": 2814,
+      "sha256": "f927509937779ac2b76c73b69917901b6ca3031ccd5f5041a2538ec462afe9fb",
+      "relativePath": "packages/portable/tests/cloudflare-observer.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/cloudflare-probe.test.ts",
+      "bytes": 1774,
+      "sha256": "b3332225bddfdd2a38716d7d230f405cfc8a8d77d5958ece314bc34b527e8205",
+      "relativePath": "packages/portable/tests/cloudflare-probe.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/cloudflare-qualification.test.ts",
+      "bytes": 3179,
+      "sha256": "36ba61e16c1cd2e79366990b8c827fbb6c795b6eefac96c1ecc706320fbc8fb4",
+      "relativePath": "packages/portable/tests/cloudflare-qualification.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/cloudflare-readiness.test.ts",
+      "bytes": 7394,
+      "sha256": "c1aaee72fce74b5e26aaccf27d13a1bb99afd7712b1bac4bbb06c1b8d47d10ed",
+      "relativePath": "packages/portable/tests/cloudflare-readiness.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/cloudflare-recovery.test.ts",
+      "bytes": 1868,
+      "sha256": "ed355782252f033883c046fee4882ada20a505ef908bd8d35aafa21cffb67e57",
+      "relativePath": "packages/portable/tests/cloudflare-recovery.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/cloudflare-resume.test.ts",
+      "bytes": 2144,
+      "sha256": "2c493c06a28bec4b21add8605f19d0568a19b4ceb9186f65961b39105a327096",
+      "relativePath": "packages/portable/tests/cloudflare-resume.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/cloudflare-retention.test.ts",
+      "bytes": 7583,
+      "sha256": "ec229bf6f8e718fd20459b438ffbd9909c6bb4e17d92222e602ff5156d1ffedc",
+      "relativePath": "packages/portable/tests/cloudflare-retention.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/cloudflare-rounds.test.ts",
+      "bytes": 3278,
+      "sha256": "94dd8c3b79d825f1d88670da28ac5bd2b7a0aa62a19d52afbd10e37e33fc9840",
+      "relativePath": "packages/portable/tests/cloudflare-rounds.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/cloudflare-transfer.test.ts",
+      "bytes": 2594,
+      "sha256": "c2193bdf1fce28f270bbe09812f9170ab96f0ff147522a9df5f53041ca07947b",
+      "relativePath": "packages/portable/tests/cloudflare-transfer.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/color.test.ts",
+      "bytes": 1127,
+      "sha256": "6819e548498361ddd74a35b4d5a48c682fe58924bc2742b92c22861b3060836c",
+      "relativePath": "packages/portable/tests/color.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/features.test.ts",
+      "bytes": 3432,
+      "sha256": "67d52c24cc7776cb5846383f2d2090522a67491c664dd8acb9cd6a089a3913c6",
+      "relativePath": "packages/portable/tests/features.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/fframes-fixture.test.ts",
+      "bytes": 1596,
+      "sha256": "9f9f96167d448d5dd948b23f07eba06da4368e34b4e00735f2ac14daa6ac977c",
+      "relativePath": "packages/portable/tests/fframes-fixture.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/fixtures/canvas-composition.mjs",
+      "bytes": 199,
+      "sha256": "7bac8b19c395186537a1769329c3b7e2507d4a2b75fd029685b0f3d4f8508891",
+      "relativePath": "packages/portable/tests/fixtures/canvas-composition.mjs"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/fixtures/fault-worker.ts",
+      "bytes": 1666,
+      "sha256": "7fb597e2da3ec03bb2503916ff5988f9ff7a10d1c863c3fe9201f1cd0faecdca",
+      "relativePath": "packages/portable/tests/fixtures/fault-worker.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/fixtures/fonts/NotoSans-Regular.ttf",
+      "bytes": 569208,
+      "sha256": "b85c38ecea8a7cfb39c24e395a4007474fa5a4fc864f6ee33309eb4948d232d5",
+      "relativePath": "packages/portable/tests/fixtures/fonts/NotoSans-Regular.ttf"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/fixtures/fonts/NotoSansArabic-Regular.ttf",
+      "bytes": 240456,
+      "sha256": "ceea25b464a656dc3b26849bab9356740401af62aedf1bfa8b7f0d9b75925b1b",
+      "relativePath": "packages/portable/tests/fixtures/fonts/NotoSansArabic-Regular.ttf"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/fixtures/fonts/NotoSansCJKsc-Regular.otf",
+      "bytes": 16437364,
+      "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "relativePath": "packages/portable/tests/fixtures/fonts/NotoSansCJKsc-Regular.otf"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/fixtures/fonts/NotoSansDevanagari-Regular.ttf",
+      "bytes": 219212,
+      "sha256": "385e78e6359a9d88a0f243d53b1209d7548361ba2194e2b9ec779bcaa7e8949d",
+      "relativePath": "packages/portable/tests/fixtures/fonts/NotoSansDevanagari-Regular.ttf"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/fixtures/fonts/OFL-CJK.txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "relativePath": "packages/portable/tests/fixtures/fonts/OFL-CJK.txt"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/fixtures/fonts/OFL-Noto.txt",
+      "bytes": 4377,
+      "sha256": "0dab92d0544f7b233403f14b84a663bdbfa746982eda629e7f4f9ffe1b036feb",
+      "relativePath": "packages/portable/tests/fixtures/fonts/OFL-Noto.txt"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/fixtures/fonts/PROVENANCE.md",
+      "bytes": 1410,
+      "sha256": "a38c958a18261dbef0700316c1438a58f57d7d00ae2cde959ffea5a099d251b8",
+      "relativePath": "packages/portable/tests/fixtures/fonts/PROVENANCE.md"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/fixtures/harfbuzz-oracles.json",
+      "bytes": 3922,
+      "sha256": "410d194b94096a170ee4f3ae7e7ef72448f58d9fc0252f2e26e581ca81a26e4d",
+      "relativePath": "packages/portable/tests/fixtures/harfbuzz-oracles.json"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/gpu-bitrate.test.ts",
+      "bytes": 2559,
+      "sha256": "bd55a748806e68c170ed837859451f5ec0afd0fef4d02287f496123fe0f1c4d3",
+      "relativePath": "packages/portable/tests/gpu-bitrate.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/gpu-circle.test.ts",
+      "bytes": 4123,
+      "sha256": "2fd543ed4be2ea38c8bfd4e2a41d0803596a6371fa23dd7a1fefc3be4188b5ae",
+      "relativePath": "packages/portable/tests/gpu-circle.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/gpu-hevc.test.ts",
+      "bytes": 7386,
+      "sha256": "4e9a491d7e21fe439a9000b8833ea3861ecdb14390f3c14afe68084e861ab54f",
+      "relativePath": "packages/portable/tests/gpu-hevc.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/gpu-native.test.ts",
+      "bytes": 12349,
+      "sha256": "a450e19b2393cf158abf0ff0c24cda9d43bab66d217b3a024416506645b11de7",
+      "relativePath": "packages/portable/tests/gpu-native.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/gpu-pool-native.test.ts",
+      "bytes": 5366,
+      "sha256": "0349a652b49d2f119e837c92a241784ca40f1ce147c47c24fbf2e56133856bd2",
+      "relativePath": "packages/portable/tests/gpu-pool-native.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/gpu-pool.test.ts",
+      "bytes": 505,
+      "sha256": "e3d14d34e33ddc9939fc06d5a53d4c682f54d3b6517b1e320d69fec3302477c4",
+      "relativePath": "packages/portable/tests/gpu-pool.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/gpu-reference.test.ts",
+      "bytes": 1637,
+      "sha256": "deeabe4c6d3b323df589ccacbe573dcce381c520e6997dacbf674cb73b271140",
+      "relativePath": "packages/portable/tests/gpu-reference.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/gpu-transport.test.ts",
+      "bytes": 6431,
+      "sha256": "853287bacbea37dc8aac6eda892adaf336144c603ab8e181de29d2f4c9701e24",
+      "relativePath": "packages/portable/tests/gpu-transport.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/gpu-vulkan.test.ts",
+      "bytes": 7374,
+      "sha256": "43e7d45a958d9e0bb276640119585d93d25384c1fa4a4fdd99c6712e43d69b66",
+      "relativePath": "packages/portable/tests/gpu-vulkan.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/gpu.test.ts",
+      "bytes": 3618,
+      "sha256": "628b134f2c31f30fef5eca26016c03596849ca61b7ceb23cc05fb6dcd6508b77",
+      "relativePath": "packages/portable/tests/gpu.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/http.test.ts",
+      "bytes": 1951,
+      "sha256": "4e42525bfdf3c1830f491651fe28a499b5ad828fd5b92348236deea4f2b47aea",
+      "relativePath": "packages/portable/tests/http.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/jobs.test.ts",
+      "bytes": 4213,
+      "sha256": "9caa9df0e44f8f185240dfa2fa7e28719b0e115548132ea8a588a956c4d4e90a",
+      "relativePath": "packages/portable/tests/jobs.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/media.test.ts",
+      "bytes": 5176,
+      "sha256": "6debe75e8b2cbefa7a88243d15ee8dea00e25874c7fdad7e1d48fea1909331fc",
+      "relativePath": "packages/portable/tests/media.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/path.test.ts",
+      "bytes": 528,
+      "sha256": "21ba462beadd607151e60c2df98226f86aa36511c7f65e42d5087cee3d53382d",
+      "relativePath": "packages/portable/tests/path.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/plan.test.ts",
+      "bytes": 2576,
+      "sha256": "874a8bb056f115950762a0fe92a19a0ded3ce21ddc183ea0c4048d7f8cf2ac10",
+      "relativePath": "packages/portable/tests/plan.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/process-recovery.test.ts",
+      "bytes": 4824,
+      "sha256": "6f5263e160ba727a32de4b6a6ee435e732402c48b7cd5c86e7c013a8351fea6f",
+      "relativePath": "packages/portable/tests/process-recovery.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/recovery.test.ts",
+      "bytes": 7648,
+      "sha256": "a64c262353440f58d2987e78ad5ff2d81d53f21b1c0fbe1bde74b336283f469b",
+      "relativePath": "packages/portable/tests/recovery.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/render.test.ts",
+      "bytes": 1945,
+      "sha256": "346df8ecd948bc1f62925f8c98421d74460809452227b8cab532df283da56e48",
+      "relativePath": "packages/portable/tests/render.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/s3.test.ts",
+      "bytes": 3139,
+      "sha256": "1a52e09be38bf6d8c1c937889a8d17390d1aa4153e289059b3ce30d0d9ae0807",
+      "relativePath": "packages/portable/tests/s3.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/skia.test.ts",
+      "bytes": 7756,
+      "sha256": "15b1d81c72c3f8a1ea2f149008b047c02980820a7ae76a400dda1dac0738764f",
+      "relativePath": "packages/portable/tests/skia.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/text-oracle.test.ts",
+      "bytes": 1247,
+      "sha256": "d7f05be8b80ed0e8022b2de2791b44ccdd7e24d2c3434a0039b6a0cd5f221c7d",
+      "relativePath": "packages/portable/tests/text-oracle.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/text.test.ts",
+      "bytes": 2885,
+      "sha256": "65f24ce5b049256024644278fd071d9913a768e962aee287b763a0a90c35592b",
+      "relativePath": "packages/portable/tests/text.test.ts"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tsconfig.json",
+      "bytes": 261,
+      "sha256": "2a5909066c2078f1ca4029888d727defe99d34e1e38fe990a4e1131b4608befc",
+      "relativePath": "packages/portable/tsconfig.json"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/tsconfig.json",
+      "bytes": 428,
+      "sha256": "20cf73ffb087e1aabf599f6e03c2e6865186018c63a5a256470909e8824b80e3",
+      "relativePath": "tsconfig.json"
+    }
+  ],
+  "archive": {
+    "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/source-checkpoint-01.zip",
+    "bytes": 14474117,
+    "sha256": "f2a58d389dd57bbb6ba4535beee74f30d0b8b7002b342aaa9037be989b680ee6"
+  },
+  "trackedDiff": {
+    "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/source-checkpoint-01.patch",
+    "bytes": 27404,
+    "sha256": "c2f2f6f3d21a6d777c6316b664a0c4b4e28a3f7b2fd1ad8197ac01cf66a15ac7"
+  },
+  "archiveIncludesNewFiles": true,
+  "nativeBuildSucceededForCurrentSource": false
+}

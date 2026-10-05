@@ -1,0 +1,34 @@
+{
+  "status": "independent final-helper bounded qualification audit passed",
+  "helperSha256": "6679452901c6535cc80b4b762cd6c7c13d222e91fb8212a837ca85e60f4af22b",
+  "codecs": {
+    "hevc": {
+      "all300IndexedQuality": true,
+      "all300DirectReferenceFramesExact": true,
+      "all300ActualVulkanSubmissionFenceTriplesOrdered": true,
+      "all300TimestampedConversionCallbackOwnerSequence": true,
+      "noEarlySurfaceReuse": true,
+      "profileSha256": "b8ae1be18ae7e351530bf0108e8ce995e491d8697e08a558cc6c2312476ef539",
+      "traceSha256": "7988fb0eb9873e92eab5e925caf9a6500c76c6587a22e600cb6d692012f6f292",
+      "vulkanTraceSha256": "928503d9de7e21c7bf786ac547877387159f3f03f0eb87b1ebb0a503a3f76beb"
+    },
+    "h264": {
+      "all300IndexedQuality": true,
+      "all300DirectReferenceFramesExact": true,
+      "all300ActualVulkanSubmissionFenceTriplesOrdered": true,
+      "all300TimestampedConversionCallbackOwnerSequence": true,
+      "noEarlySurfaceReuse": true,
+      "profileSha256": "1e8b41b88c21006b2ce19227799ebd4c7504f81ca9302023bdd7bd76d7eceae0",
+      "traceSha256": "7249f11b25041e4146b66299855ec3362c3863f00b395c9c3e67eb06986fc808",
+      "vulkanTraceSha256": "928503d9de7e21c7bf786ac547877387159f3f03f0eb87b1ebb0a503a3f76beb"
+    }
+  },
+  "referenceCadenceColorPassed": true,
+  "referenceContainerCadence": "Nearest rational timestamp within half the Matroska time-base tick",
+  "all300LosslessFramesByteBound": true,
+  "vulkanFaultControlsPassed": true,
+  "runtimeFrozenFiles": 58,
+  "runtimeFrozenPath": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final",
+  "zeroCopyProved": false,
+  "full4KOrPerformanceQualified": false
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "name": "relative-path",
+    "argv": [
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/handoff-color-controls",
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/unused-fault-output.mp4",
+      "relative-capture"
+    ],
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Error: \"invalid excluded capture bounds\"\n",
+    "passed": true,
+    "beforeHardwareInitialization": true
+  },
+  {
+    "name": "existing-log",
+    "argv": [
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/handoff-color-controls",
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/unused-fault-output.mp4",
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/capture"
+    ],
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Error: \"excluded capture IO: File exists (os error 17)\"\n",
+    "passed": true,
+    "beforeHardwareInitialization": true
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "status": "failed-subprocess-fixture",
+  "executionClass": "subprocess-fixture",
+  "hardwareQualified": false,
+  "realDeviceAccepted": false,
+  "GPUExecuted": false,
+  "benchmarkTiming": false,
+  "timingWindowOpen": false,
+  "mode": "hardware",
+  "codec": "hevc",
+  "backend": "metal",
+  "sourceIndices": [
+    3,
+    302
+  ],
+  "rows": [],
+  "maxPlanarWriterQueuedBytes": 0,
+  "backpressureObservations": 0,
+  "drainCalls": 0,
+  "referenceOnlyReadbackBytes": 0,
+  "nativeProducerBridgeRealDeviceQualified": false,
+  "error": "Refusal:DRIVER_EXIT",
+  "processes": [
+    {
+      "label": "native-stdout-driver",
+      "argv": [
+        "/opt/homebrew/Cellar/node@22/22.23.1/bin/node",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_stdout_bridge.mjs",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-final-06/software-fallback/attempt-d76d63b8971d4c9e9ba8d43d5f07fa56/ISSUED-SPEC.json"
+      ],
+      "pid": 6373,
+      "processGroup": 6373,
+      "spawnMonotonic": 239258.102134333,
+      "exit": 1
+    }
+  ],
+  "allChildrenReaped": true,
+  "publishedBinding": false,
+  "partialFilesRetained": true
+}

@@ -1,0 +1,18 @@
+{
+  "profile": "medium",
+  "phase": "timed",
+  "index": 1,
+  "command": [
+    "/Users/gavinbintz/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+    "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/local-driver/worker.mjs",
+    "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/local-driver/results/baseline-v1/medium-timed-1/config.json"
+  ],
+  "exitCode": 0,
+  "directory": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/local-driver/results/baseline-v1/medium-timed-1",
+  "compositionSha256": "e88ad691295417502c0ee6f5690d894f05154f38d66da4f7c609f118ff85a43d",
+  "externalProcessWallNs": 51462110208,
+  "externalProcessWallMs": 51462.110208,
+  "outputBytes": 143109303,
+  "retainedOutputBytes": 286218606,
+  "sourceUnchanged": true
+}

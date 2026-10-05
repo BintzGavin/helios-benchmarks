@@ -1,0 +1,47 @@
+{
+  "status": "HEVC small-fixture handoff independently verified; full4K comparison pending",
+  "helperSha256": "9c2b3654ce681d9764643214a745878b8fecb72ed9fcd69f3aea7f0fa709d9ae",
+  "sourcePinsPassed": 149,
+  "distPinsPassed": 42,
+  "qualityRowsEach": 300,
+  "qualityIndicesExact": true,
+  "minimumSsimY": 0.99998,
+  "minimumPsnrYUV": [
+    69.38,
+    68.29,
+    68.94
+  ],
+  "candidateReferenceShaBindingsPassed": true,
+  "directNv12ToLosslessBinding": {
+    "rawBytes": 14745600,
+    "frames": 300,
+    "exactExpectedBytes": true,
+    "allMatched": true,
+    "mismatches": 0,
+    "conversion": "independent planar split without color arithmetic"
+  },
+  "qualifiedDimensions": [
+    256,
+    128
+  ],
+  "fps": "30000/1001",
+  "codec": "HEVC Main8bit",
+  "bitrate": 20000000,
+  "gop": 30,
+  "encoderPool": 3,
+  "zeroCopyProved": false,
+  "buildReceipt": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/BUILD-READY.json",
+  "qualificationReport": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/REPORT.json",
+  "orderingAudit": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/INDEPENDENT-AUDIT.json",
+  "referenceCadenceAudit": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/hevc-evidence/qualification-01/REFERENCE-CADENCE-AUDIT.json",
+  "pr": "https://github.com/BintzGavin/helios/pull/5015",
+  "noNewExportsOrTimings": true,
+  "originalComparisonArtifactsUnmodified": true,
+  "remaining": [
+    "4K HEVC qualification",
+    "fully enabled production comparison",
+    "Vulkan encoder interop and hardware host",
+    "published M5 claim target",
+    "native Library delivery"
+  ]
+}

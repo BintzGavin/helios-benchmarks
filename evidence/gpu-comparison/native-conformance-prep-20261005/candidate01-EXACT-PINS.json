@@ -1,0 +1,1490 @@
+{
+  "adapter": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_chroma_conformance.py",
+    "bytes": 19169,
+    "sha256": "f7dd783e32203fc6ac3be6b105b299eefdcbf7b762441496b5b7b08a4a969681"
+  },
+  "harnessAndTests": [
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_chroma_conformance.py",
+      "bytes": 19169,
+      "sha256": "f7dd783e32203fc6ac3be6b105b299eefdcbf7b762441496b5b7b08a4a969681"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/validate-native-conformance-prep.py",
+      "bytes": 9138,
+      "sha256": "b12886fa7b0c57476180a0dafc43be200156bcfd482038caca0d4b628c49f375"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/test_native_chroma_conformance.py",
+      "bytes": 5213,
+      "sha256": "ea0f73298ea50d637f7f001b3137976d87232c035101e7a95153359d6d0e002b"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/run-native-conformance-prep-final.py",
+      "bytes": 3460,
+      "sha256": "46a2a44e596c24acf4520dcdfcbed772543db9f2ec9e09cb4486653ec34146eb"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/qualify-shared-conformance-small.py",
+      "bytes": 2497,
+      "sha256": "5768e36dbb1e8b3da42b131f80e5a9536008ab9267590a0b2c533cc5c40e4667"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/finalize-native-conformance-prep.py",
+      "bytes": 14143,
+      "sha256": "abcdb08980bd7cfdae9e19496694e004d8fabee713f82bd3bded824a4e1656cf"
+    }
+  ],
+  "retainedReadSet": [
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-video.mp4",
+      "bytes": 281246,
+      "sha256": "f65e6ecee56dd723354aa213b73deaaed1d7967a5893adf4d723a1a04447b0eb"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/video.mp4",
+      "bytes": 258926,
+      "sha256": "4c088d17edceeca6c3cf23b72b8d73c2546f038e40cf676ffa3d519361b86d16"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/reference.nv12",
+      "bytes": 14745600,
+      "sha256": "4f8429472e98618a18b8a46a1aa8f0430e5df9cba63359cb4050408e516d918a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-reference.nv12",
+      "bytes": 14745600,
+      "sha256": "4f8429472e98618a18b8a46a1aa8f0430e5df9cba63359cb4050408e516d918a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/rgba-control.raw",
+      "bytes": 393216,
+      "sha256": "d187d5cb02eca0939761004e379e2652004250c82156e4c783d6806f6924dbf7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/nv12-control.raw",
+      "bytes": 147456,
+      "sha256": "081866005fe852de68b40d3251fd8689bb86c00315a185c4b1c38ac6584aa1b7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/CONFIG.json",
+      "bytes": 511,
+      "sha256": "67742b99b0366675b5154fef91064288f44b3fa49626f094a43dc6e0a3c785bb"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/REPORT.json",
+      "bytes": 24849,
+      "sha256": "2487392d8834b5d36fd5056729fae2681dae81d8e80234eea5e24d8443d80ef9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/H264-REPORT.json",
+      "bytes": 1636,
+      "sha256": "2c92ad3ba66db9db53e6fff52f0882c6a4186a482feb74b7c91e5fcd3970cb90"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/executions.json",
+      "bytes": 18118,
+      "sha256": "eb57e5254b21176d8bbbe9e4570bbfd01c097107029fc2bdb28259161cda2f59"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-executions.json",
+      "bytes": 3681,
+      "sha256": "fd557b8d53c0710afa356d81550cd9f74a29baff956e2389bf4de467ca06e2ab"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/prepare-qualification-executed.mjs",
+      "bytes": 3416,
+      "sha256": "1fe985349229ccb20953751fbdf91a70183474ea1d80f00d0ea18c5be50c31ea"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/profiled-helper",
+      "bytes": 315,
+      "sha256": "0a63c59a99e14f4a66e009c2b206223c9be1a612d30a64bc0bd54dcf5d7fd8f9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-profiled-helper",
+      "bytes": 319,
+      "sha256": "78d662e2046f283008513eaed622e7789b7fb7f4d64bf45851cc133523c7d317"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/hardware.dylib",
+      "bytes": 56752,
+      "sha256": "2bfbf2dd7382b4469d931a0f8cc79538502e8d222df75fa0ffdf361f73e78a05"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-profile.dylib",
+      "bytes": 56752,
+      "sha256": "6d0fc0cbb650527745c65d85fdd54f78e8c666dde276416ab079ee566bd71c5f"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/BUILD-READY.json",
+      "bytes": 41051,
+      "sha256": "8c0e05826224ca254875f37c7de6244fc899e0e07b94a2cd85818a0028374bee"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/helper-candidate-03",
+      "bytes": 17816832,
+      "sha256": "6679452901c6535cc80b4b762cd6c7c13d222e91fb8212a837ca85e60f4af22b"
+    }
+  ],
+  "retainedNativeHelperPinnedNotExecuted": {
+    "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/helper-candidate-03",
+    "bytes": 17816832,
+    "sha256": "6679452901c6535cc80b4b762cd6c7c13d222e91fb8212a837ca85e60f4af22b"
+  },
+  "nativeSourceCommit": "63869ba529c89fc1a27f7f55057e4d876c42d26e",
+  "nativeSource": [
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/package-lock.json",
+      "bytes": 480090,
+      "sha256": "1feaea6114ab3cf307ec7b8df87211fd4798468ad19f94b7b77e8dc2074c58cb"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/package.json",
+      "bytes": 2260,
+      "sha256": "d4d5110438c6c35a304942e777b332fad32ee8946bdf4e115871fdcfd765467a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/GPU-SPEC.md",
+      "bytes": 15316,
+      "sha256": "43909d156fd70fec0622af13f0da13ee2e8c069df0b18ef73cb841d58816df7c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/README.md",
+      "bytes": 22899,
+      "sha256": "2dfd9725e3209e94c4b6e253159154df97cf950d0a014a370a4fe8722f2dff80"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/SPEC.md",
+      "bytes": 3594,
+      "sha256": "a740565273c61249fe6a60aa1cbd1adaaedb6f64d41bec91f80beba0741f1be1"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/GPU-HEVC-RESULTS.md",
+      "bytes": 3338,
+      "sha256": "eefada2d5a6f7e5d5131c361c5df2f860a28191926b3c3d542c081be88305642"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/GPU-PROTOCOL.md",
+      "bytes": 16031,
+      "sha256": "91c56f4cb6ee457f97a7e4bafb6f1958752d07347226f0f0e85d335434c4d187"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/GPU-RESULTS.md",
+      "bytes": 9780,
+      "sha256": "dfc17ce80a5face1bd468ee46e35a811d1afe79132a91c98495d62b6c5a6eea8"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/GPU-VULKAN-RESULTS.md",
+      "bytes": 4024,
+      "sha256": "c19f7edca14760c80604be86afe6bbab41dce4edb18af9ee448af24d766ba93f"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/LICENSE.fframes.txt",
+      "bytes": 1079,
+      "sha256": "648577feb8515d23cb9c762aafcb295397bc2f3a88f0dc3358c9eafc64c48d33"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/PERFORMANCE.md",
+      "bytes": 11145,
+      "sha256": "52cfc851cc7d573922ec5cd6e4fbcf6a4a05322c3dbb6f397202a0f350f21955"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cases.json",
+      "bytes": 2590,
+      "sha256": "f04398aa8344353d0ef7321eaa2a0e1da6ed1df28bc99e14db75329aca14dc0c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/chromium-entry.ts",
+      "bytes": 2308,
+      "sha256": "491941da0a305ab5eb9adcc3f23302319b8eabdad5534394934e82160ddf67ec"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/chromium.ts",
+      "bytes": 6653,
+      "sha256": "fbe10630611c3e9063c7d5a79ce1c74bcf8dd37681b68832e379de47a7458473"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/PROTOCOL.md",
+      "bytes": 11145,
+      "sha256": "550cc6bf2961fa4b5e2b0acc8ac3a9713b9ccad50d9f363b395167326a26ce08"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/build-capsule.py",
+      "bytes": 1922,
+      "sha256": "0db104f47a99690baab7835fe52d8b4c976947a5493e69f648f0275d67b9b758"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/common.py",
+      "bytes": 1866,
+      "sha256": "5fde13e0c71561cd0638184c0c924c818c15f1759626d44f524769e5ae12628c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/compare.py",
+      "bytes": 2478,
+      "sha256": "45f279ad519c77c97c4e25f4efc1462a2a89d1284ed415a708ab93c98aa26b7a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/diagnostics.mjs",
+      "bytes": 3057,
+      "sha256": "ccf87d7b56feb5b45302b5a3b20fc7ee6f91df6e63e3f9c32374d1701c7cf142"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/fixtures/scheduler-square.html",
+      "bytes": 1084,
+      "sha256": "e24332e35e5e10e1e2f37f23a010226a3dc047e44274164c6e17064e3779b58e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/lifecycle.mjs",
+      "bytes": 393,
+      "sha256": "30a73275b8535c09a9b0c92e1605347690709c41c8855a17fc6c8bf75794c791"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/observe.mjs",
+      "bytes": 1077,
+      "sha256": "2c2a6ffed72e9cfbd9de9319be53ceb52ed5cad2d567cf913291e1adffb5f25b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/prepare.py",
+      "bytes": 2908,
+      "sha256": "4b5fce0e566bc3de5a9a3c173120a8a2b0f4ac5de62b78b35702d2ac0c188c88"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/probe.mjs",
+      "bytes": 2540,
+      "sha256": "937be07714dcc9de1985988c4834d7d378238fa982bc92f42ebff7b6cdee8294"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/qualification.py",
+      "bytes": 3392,
+      "sha256": "35b849f849be7de2096d3419271582253517b03cd41faabb7adaeb036aed5c05"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/qualify.py",
+      "bytes": 2624,
+      "sha256": "255e24c12cf9f12b3c47b8400634aecd3bef5ea36c4cdf0cf4e9f08633a4d576"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/readiness-container.cjs.txt",
+      "bytes": 8209,
+      "sha256": "73a2058c35decc37bbae1ed6630a213c18acbcf22c96bfb63ca0bc5716c05580"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/readiness-probe.mjs",
+      "bytes": 4443,
+      "sha256": "55b3df3aec96b6fc0bf328bdbc5827b61d98b52c5c4274e3fcc5306d28e78c39"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/recover.mjs",
+      "bytes": 1701,
+      "sha256": "a8547f78c55d55152dc697136cc1ff0ec4ffac219c1d15c8f6435832bdafbba8"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/recovery-inspect.py",
+      "bytes": 2399,
+      "sha256": "746a8642ce020a653380603880c87e2aad42e511f12f192ebc2b6ba819fa3d53"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/resume-check.py",
+      "bytes": 2040,
+      "sha256": "277dc4793be05e2445bbeef9e78b8fc1391b854049929198ea748ce3c6cafee5"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/resume.mjs",
+      "bytes": 1236,
+      "sha256": "ac7ef7bfb15e5f9f3c797a1f0737a5c8eb259f9031f9ee24eed536b6d7a832a1"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/retention.py",
+      "bytes": 1362,
+      "sha256": "e78dc43bd50274caa8646f430bc1addad871856a8de1486c34110e400d8b42c5"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/run-remote.mjs",
+      "bytes": 10305,
+      "sha256": "0eda722bc8e075a855c5ebf49562b20bfcdce00ea808ba6592004b4973b01b8d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/transfer.mjs",
+      "bytes": 1334,
+      "sha256": "5139985a450d58292060beb9cc12f3116e9aeb3d3eb288f8bdd9e66cb6956ade"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/cloudflare/worker.mjs",
+      "bytes": 17403,
+      "sha256": "b87b44627a7ff2e468096341b85b877891913d1b72074cc10fa08806640f6cc5"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/compare.ts",
+      "bytes": 8547,
+      "sha256": "81a841e2dc453e27b8f3070bb2cb590668198164d3f3c3a2cd07c1dc4e945da0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/corpus.ts",
+      "bytes": 10203,
+      "sha256": "47de245933967c13a153cbeab92a5972e116606c20049ca276cc4592a288897d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/fframes-quality.ts",
+      "bytes": 4301,
+      "sha256": "b26c0a0c0b36475f1000521c649c2c816dd4fbd87ff29f0ab204595acdfe09a8"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/fframes-textgrid.mjs",
+      "bytes": 1655,
+      "sha256": "e3bc82a2cd5461136a1ee388e2a2e27eaf03937b5f65169c18630bbf9fe8df67"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/fframes.ts",
+      "bytes": 15164,
+      "sha256": "057ac419f12abf6ccb5741990089c6c8a463457330d415c7243f492d44ea6d8c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/gpu-chromium.ts",
+      "bytes": 8167,
+      "sha256": "ffdc2126d32de30f1499d99b505dc9dcd11835ff44f335f317826bf0b192a2c8"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/gpu-quality.ts",
+      "bytes": 5383,
+      "sha256": "6c7450272e2c5901eb3a7492e2926194dc8fe4611f5ddd8850cc072c9ae4dad0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/gpu-reference.ts",
+      "bytes": 211,
+      "sha256": "31e425a02933c957da72bce5682e7efc9e61f0ba2900ed7c7a6a40e62cd42eeb"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/gpu.ts",
+      "bytes": 8314,
+      "sha256": "880b2385cacfb6984c2de93353f7b60cb71fc60f77e69ab5aa10bc4367769954"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/opacity.ts",
+      "bytes": 3832,
+      "sha256": "8f44dce6137a224c9906052b54a45421d1ca7c5ec8d3ec6798e0125528ed3139"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/profile-gpu.mm",
+      "bytes": 9771,
+      "sha256": "104c683e4b1249f6454a989c35f55440d26e638bb91819a075d837800708a3e6"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/profile.ts",
+      "bytes": 5986,
+      "sha256": "6926fd924d921149634f796342ea45a637e0a0671370717b6ac72296c0f61af8"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/quality.ts",
+      "bytes": 7278,
+      "sha256": "e3d735900d44401f9e4c8d3981840412e0b6652252cf55bafe4feb4651e12583"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/run.ts",
+      "bytes": 7544,
+      "sha256": "8aeb3640e8e221229e6c3c22bbf04878b25932b1c69c56b6c1abdc5ab59e081c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/deploy/Dockerfile",
+      "bytes": 1268,
+      "sha256": "6974eaf6dd849e35d72aa44379704206309f5d3445e8da726d90f4efe023f67a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/deploy/Dockerfile.full",
+      "bytes": 493,
+      "sha256": "c35f8d523234f56c0e603db215cd2e0b202346e432bde60ad67729bc2897f519"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/deploy/vercel-function.mjs",
+      "bytes": 1961,
+      "sha256": "2ffb73585372b3ec15fd8e3573e3119fb5bc13292c9bcb1dd0724a8be40d330a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/deploy/vercel.json",
+      "bytes": 887,
+      "sha256": "869238f9f7299edc7eb88315f947ccdd0353184c3b68da4f13ee1d22c5926baa"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/deploy/verify-runtime.mjs",
+      "bytes": 1953,
+      "sha256": "760e659f4c0ef7e887bfa49f2bb2382a46809574d85fb5c8d89760f94a854cc8"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/examples/vercel-caller.mjs",
+      "bytes": 656,
+      "sha256": "1a4069e64c7a2ec96052aa18ac2a6cab3c57c7403288c30dc7c470f483fd4487"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/examples/workflow.ts",
+      "bytes": 890,
+      "sha256": "588fa4f1357b03681853043665793272f88d1f599f4ced7be6eaec929647f6ad"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native/.gitignore",
+      "bytes": 41,
+      "sha256": "516d2356678f6e80b3ccd842cb76f209ff8bca8778c04bb57a2b77f87679b32d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native/Cargo.lock",
+      "bytes": 17301,
+      "sha256": "46fe52b24821ea898032b88a13cf768d70d2ccea006f18f1843d53f866fd99a4"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native/Cargo.toml",
+      "bytes": 455,
+      "sha256": "09ce80c8a975de4646f657e73e516fe668f34aa7145e14540ff2adc2f89f7d73"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native/build.rs",
+      "bytes": 1175,
+      "sha256": "4359acfabcbcb038ba3ece4b33a6ad7466c80c0447e55abc1516b8e8d2ce0038"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native/encoder-flight.hpp",
+      "bytes": 2181,
+      "sha256": "e621ea35a3006cf687b50cb5c859b4610c76a0068c0cc0fb09e30985c4c3b02a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native/fault-init.mm",
+      "bytes": 2705,
+      "sha256": "5fa615fffc967d107bb76fa0634814dbc707f2453338395c272a3a77baf83086"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native/fault-pool.mm",
+      "bytes": 2520,
+      "sha256": "0dbf0156696565815e3fc2e749b3b6a1434965fbb698150b1df32d503ee1bfe7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native/metal.mm",
+      "bytes": 20830,
+      "sha256": "3d3a8d645fe82b842629cd3625c09c827a1779eec58dc1187bc515f8c13d2fee"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native/src/binary.rs",
+      "bytes": 8575,
+      "sha256": "87521b21b9370d9a1d4067d3310bc30c80d77d089132cd331b3e42a730d06d43"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native/src/main.rs",
+      "bytes": 24941,
+      "sha256": "1fbd7188f0abb2ea786793e87d29251ff1fabdb50af1aad265adf6b3a87b6b75"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native/tests/encoder-flight.cpp",
+      "bytes": 2143,
+      "sha256": "e3a13fcdaaeffbc552d374b9b1cab6b63bafb1ed767cf0e6363807aaaae1611b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native/vulkan.mm",
+      "bytes": 9479,
+      "sha256": "1251290b7fb8871823156b4bbf61bf0d537391873a9d089f96a1a5db67d5f7e4"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/package.json",
+      "bytes": 1155,
+      "sha256": "d825b4c802bd431058ef56fc7eb20fd1ae1a75f50c3913d5882fc9f41254d2f6"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/scripts/build-codecs.sh",
+      "bytes": 1311,
+      "sha256": "a93ee457d9d67b7daaa01ebd766a9d1d806c188903ad43ab0ff096bed6936b8a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/scripts/build-gpu.mjs",
+      "bytes": 1357,
+      "sha256": "2a154ab2caf8ea525ca0d7ace010ffe0b58b4168af77bb8710c154c162e6f8b0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/scripts/check-gpu-faults.mjs",
+      "bytes": 1683,
+      "sha256": "30342cbccc138f2ad224bcc533350f4ea9dd6198d64ad40dca219e41e47d8df9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/scripts/check-gpu-pool.mjs",
+      "bytes": 2916,
+      "sha256": "24de2237a23f61e4d56e1616ff2373bdf42c543a56e6c2ce957f8cde86285f97"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/scripts/prepare-deployment.mjs",
+      "bytes": 1919,
+      "sha256": "c64053d1f014809b2d5d1f55fe6659c44d5a869a85ed38a6bcd7a98ec9bb4fa0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/scripts/qualify-service.mjs",
+      "bytes": 1998,
+      "sha256": "1696ba4c474b6b56303aef95395c1478ea5d4029fcd9a5a6e5e28fc7ee1fea49"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/scripts/setup-private-vm.sh",
+      "bytes": 12057,
+      "sha256": "fd3a754e5ada7a345eca8bfc1cb86464d805ffc01e11ac0530c1f305fc4304ec"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/scripts/setup-vercel-s3.sh",
+      "bytes": 14493,
+      "sha256": "7c93227ce0e3121c9e63ec7bcef53a133debcb93c6e333e508af4e2cbc716883"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/scripts/setup-vulkan.mjs",
+      "bytes": 3748,
+      "sha256": "83b945a9ec47d3773c274d1bd7591900c6057078b7cd0e2eca6e8b3b3f7df756"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/auth.ts",
+      "bytes": 1279,
+      "sha256": "80d8759f74f9f6b620c21c9537a73719d943d2b94760366c80dba747737ccafa"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/backend.ts",
+      "bytes": 7194,
+      "sha256": "277c332df93a2ee7ca90e5366f3e883eebbef403f87ed474cd514b28f1e44f6a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/canvas-pool.ts",
+      "bytes": 7709,
+      "sha256": "da4acad0b9c84f5a758fa5150ce6e01ce106fabee3062fe617d82affd00967be"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/canvas-worker.ts",
+      "bytes": 2028,
+      "sha256": "ea1c95d033617882ed503cd744538d5021df4eeb12359858f28c4f1bc2b591ca"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/canvas.ts",
+      "bytes": 8898,
+      "sha256": "a6659795c1ca7f9af47eb3632caca292d7d6278fc88e044b57ed9eba6c08a30c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/cli.ts",
+      "bytes": 6086,
+      "sha256": "c1548ca7719c5af837ab46e28098723bcd1d38a8374d81d5e9421b4593088475"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/client.ts",
+      "bytes": 7108,
+      "sha256": "5ad708e914f677bc35395eca489240eeca41e14eb6984fbd56eed346a7c91b8c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/gpu-commands.ts",
+      "bytes": 4885,
+      "sha256": "bfca2d2211e84cea382fd4895227dbb5dc2772d33737e29b61fa0667119d3b6e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/gpu.ts",
+      "bytes": 20701,
+      "sha256": "e5185a345d72cd6a5652c74ca663658e6b0e5fe23bb31df916ead14dd5b475d1"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/index.ts",
+      "bytes": 1066,
+      "sha256": "cd4c3028a544e1bea9f698b7dcb34b61b15a37647d77d919d7a4f1def48ea107"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/jobs.ts",
+      "bytes": 17753,
+      "sha256": "6b70b50a646e729cae5a406c1c91b649fd8b4d7835a211613ce14fad74a1ea7b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/media.ts",
+      "bytes": 12024,
+      "sha256": "0f3bd3cc9d388b8078bdb73406a92c272968defc17ceb14198f87e4884255cd0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/plan.ts",
+      "bytes": 13893,
+      "sha256": "9c63cf0cbd592d2dfdb15cefb70d697fe3f4ff1297b75d1100d34d46f6d58285"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/process.ts",
+      "bytes": 2736,
+      "sha256": "88ab0d09098ab6fa0b4d1357c22f5fe23330c39489fd42a92f1481b30d88d583"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/render.ts",
+      "bytes": 21387,
+      "sha256": "9515947614a68352082527c259a134ad99c8810459175632cc8579b2118d41f8"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/s3-storage.ts",
+      "bytes": 3681,
+      "sha256": "34782e50da73d494251bca13673d3692a9faa6636f4164fcc7d2c1e4b1b62887"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/server.ts",
+      "bytes": 8831,
+      "sha256": "5ba8a7343f706dea6cc58ceb3b25bc2aa169a96895c2b70c7c234bf18306ecd4"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/skia-binding.ts",
+      "bytes": 1135,
+      "sha256": "1520b1c6860332e6aa867819ed66e1cc44d169ed0d81f1759c95ec1e09eb06f7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/skia.ts",
+      "bytes": 12975,
+      "sha256": "8bd81d20827a676ff3a2f1c6773d360d5eb2fba866d6c3e090b9eac841cc6905"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/storage.ts",
+      "bytes": 5321,
+      "sha256": "f9ec97672f6b9fcf12bc033c16d5556d12c796f70f5544fb3da34e74a0c1c88b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/text.ts",
+      "bytes": 5765,
+      "sha256": "cb0f73a7abc5f5fa20dfcd3a6a7da26659d5f1636892ef664d3324aab4bea21e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/src/vendor.d.ts",
+      "bytes": 867,
+      "sha256": "42af5c8db19c759b3d69040a1b5359cf86623366303a03fc9d716941273cfd27"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/api.test.ts",
+      "bytes": 3759,
+      "sha256": "1eb24c13c7e9c29a36741ab2e1fc9fdfba161236c9108337135734803f89bdae"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/auth.test.ts",
+      "bytes": 2420,
+      "sha256": "09a995d6af1dacd2ee7f35a5736a4b0bfd24a768eb6c5772ec9cf52dfd08585a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/canvas-pool.test.ts",
+      "bytes": 4550,
+      "sha256": "a65d0edab4b9d6cafa1868a4e57eaa9f17ad44b7fcbf83425c9fc3aa10c3232a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/canvas.test.ts",
+      "bytes": 7780,
+      "sha256": "4e89d1530a002e1072bb04557246c2ea693b7563cfdd6c9063b421f95ba1a058"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/cli.test.ts",
+      "bytes": 1247,
+      "sha256": "c7684546ff7f594c4a3770e62ec231fb5c04c3f70bda08954de9e0be50b78c04"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/client.test.ts",
+      "bytes": 1922,
+      "sha256": "67a455315b64cfcdabcfd86d5bc985d903ad3e0e9ab7a5c4b4f1ddf229899c78"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/cloudflare-benchmark.test.ts",
+      "bytes": 12196,
+      "sha256": "6516fb112f64ddd8da05f7f42fd175645757c713cde4c81cf6dbe8ce8d85156b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/cloudflare-diagnostics.test.ts",
+      "bytes": 3546,
+      "sha256": "e07ae016f048311d3c68574c4d5cca663fcc9d5a0f64235930fb2d39fb67c115"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/cloudflare-lifecycle.test.ts",
+      "bytes": 912,
+      "sha256": "a2db5113d4931e6b5187785bcc6333997ac09454030d13961230c16f5601d09b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/cloudflare-observer.test.ts",
+      "bytes": 2814,
+      "sha256": "f927509937779ac2b76c73b69917901b6ca3031ccd5f5041a2538ec462afe9fb"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/cloudflare-probe.test.ts",
+      "bytes": 1774,
+      "sha256": "b3332225bddfdd2a38716d7d230f405cfc8a8d77d5958ece314bc34b527e8205"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/cloudflare-qualification.test.ts",
+      "bytes": 3179,
+      "sha256": "36ba61e16c1cd2e79366990b8c827fbb6c795b6eefac96c1ecc706320fbc8fb4"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/cloudflare-readiness.test.ts",
+      "bytes": 7394,
+      "sha256": "c1aaee72fce74b5e26aaccf27d13a1bb99afd7712b1bac4bbb06c1b8d47d10ed"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/cloudflare-recovery.test.ts",
+      "bytes": 1868,
+      "sha256": "ed355782252f033883c046fee4882ada20a505ef908bd8d35aafa21cffb67e57"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/cloudflare-resume.test.ts",
+      "bytes": 2144,
+      "sha256": "2c493c06a28bec4b21add8605f19d0568a19b4ceb9186f65961b39105a327096"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/cloudflare-retention.test.ts",
+      "bytes": 7583,
+      "sha256": "ec229bf6f8e718fd20459b438ffbd9909c6bb4e17d92222e602ff5156d1ffedc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/cloudflare-rounds.test.ts",
+      "bytes": 3278,
+      "sha256": "94dd8c3b79d825f1d88670da28ac5bd2b7a0aa62a19d52afbd10e37e33fc9840"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/cloudflare-transfer.test.ts",
+      "bytes": 2594,
+      "sha256": "c2193bdf1fce28f270bbe09812f9170ab96f0ff147522a9df5f53041ca07947b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/color.test.ts",
+      "bytes": 1127,
+      "sha256": "6819e548498361ddd74a35b4d5a48c682fe58924bc2742b92c22861b3060836c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/features.test.ts",
+      "bytes": 3432,
+      "sha256": "67d52c24cc7776cb5846383f2d2090522a67491c664dd8acb9cd6a089a3913c6"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/fframes-fixture.test.ts",
+      "bytes": 1596,
+      "sha256": "9f9f96167d448d5dd948b23f07eba06da4368e34b4e00735f2ac14daa6ac977c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/fixtures/canvas-composition.mjs",
+      "bytes": 199,
+      "sha256": "7bac8b19c395186537a1769329c3b7e2507d4a2b75fd029685b0f3d4f8508891"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/fixtures/fault-worker.ts",
+      "bytes": 1666,
+      "sha256": "7fb597e2da3ec03bb2503916ff5988f9ff7a10d1c863c3fe9201f1cd0faecdca"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/fixtures/fonts/NotoSans-Regular.ttf",
+      "bytes": 569208,
+      "sha256": "b85c38ecea8a7cfb39c24e395a4007474fa5a4fc864f6ee33309eb4948d232d5"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/fixtures/fonts/NotoSansArabic-Regular.ttf",
+      "bytes": 240456,
+      "sha256": "ceea25b464a656dc3b26849bab9356740401af62aedf1bfa8b7f0d9b75925b1b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/fixtures/fonts/NotoSansCJKsc-Regular.otf",
+      "bytes": 16437364,
+      "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/fixtures/fonts/NotoSansDevanagari-Regular.ttf",
+      "bytes": 219212,
+      "sha256": "385e78e6359a9d88a0f243d53b1209d7548361ba2194e2b9ec779bcaa7e8949d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/fixtures/fonts/OFL-CJK.txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/fixtures/fonts/OFL-Noto.txt",
+      "bytes": 4377,
+      "sha256": "0dab92d0544f7b233403f14b84a663bdbfa746982eda629e7f4f9ffe1b036feb"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/fixtures/fonts/PROVENANCE.md",
+      "bytes": 1410,
+      "sha256": "a38c958a18261dbef0700316c1438a58f57d7d00ae2cde959ffea5a099d251b8"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/fixtures/harfbuzz-oracles.json",
+      "bytes": 3922,
+      "sha256": "410d194b94096a170ee4f3ae7e7ef72448f58d9fc0252f2e26e581ca81a26e4d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/gpu-bitrate.test.ts",
+      "bytes": 2559,
+      "sha256": "bd55a748806e68c170ed837859451f5ec0afd0fef4d02287f496123fe0f1c4d3"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/gpu-circle.test.ts",
+      "bytes": 4123,
+      "sha256": "2fd543ed4be2ea38c8bfd4e2a41d0803596a6371fa23dd7a1fefc3be4188b5ae"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/gpu-hevc.test.ts",
+      "bytes": 7386,
+      "sha256": "4e9a491d7e21fe439a9000b8833ea3861ecdb14390f3c14afe68084e861ab54f"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/gpu-native.test.ts",
+      "bytes": 12349,
+      "sha256": "a450e19b2393cf158abf0ff0c24cda9d43bab66d217b3a024416506645b11de7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/gpu-pool-native.test.ts",
+      "bytes": 5366,
+      "sha256": "0349a652b49d2f119e837c92a241784ca40f1ce147c47c24fbf2e56133856bd2"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/gpu-pool.test.ts",
+      "bytes": 505,
+      "sha256": "e3d14d34e33ddc9939fc06d5a53d4c682f54d3b6517b1e320d69fec3302477c4"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/gpu-reference.test.ts",
+      "bytes": 1637,
+      "sha256": "deeabe4c6d3b323df589ccacbe573dcce381c520e6997dacbf674cb73b271140"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/gpu-transport.test.ts",
+      "bytes": 6431,
+      "sha256": "853287bacbea37dc8aac6eda892adaf336144c603ab8e181de29d2f4c9701e24"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/gpu-vulkan.test.ts",
+      "bytes": 8671,
+      "sha256": "39819b70d3ab9611ec54bae7c9f09489494c71a7804b5262b1a259879c782c1e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/gpu.test.ts",
+      "bytes": 3618,
+      "sha256": "628b134f2c31f30fef5eca26016c03596849ca61b7ceb23cc05fb6dcd6508b77"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/http.test.ts",
+      "bytes": 1951,
+      "sha256": "4e42525bfdf3c1830f491651fe28a499b5ad828fd5b92348236deea4f2b47aea"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/jobs.test.ts",
+      "bytes": 4213,
+      "sha256": "9caa9df0e44f8f185240dfa2fa7e28719b0e115548132ea8a588a956c4d4e90a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/media.test.ts",
+      "bytes": 5176,
+      "sha256": "6debe75e8b2cbefa7a88243d15ee8dea00e25874c7fdad7e1d48fea1909331fc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/path.test.ts",
+      "bytes": 528,
+      "sha256": "21ba462beadd607151e60c2df98226f86aa36511c7f65e42d5087cee3d53382d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/plan.test.ts",
+      "bytes": 2576,
+      "sha256": "874a8bb056f115950762a0fe92a19a0ded3ce21ddc183ea0c4048d7f8cf2ac10"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/process-recovery.test.ts",
+      "bytes": 4824,
+      "sha256": "6f5263e160ba727a32de4b6a6ee435e732402c48b7cd5c86e7c013a8351fea6f"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/recovery.test.ts",
+      "bytes": 7648,
+      "sha256": "a64c262353440f58d2987e78ad5ff2d81d53f21b1c0fbe1bde74b336283f469b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/render.test.ts",
+      "bytes": 1945,
+      "sha256": "346df8ecd948bc1f62925f8c98421d74460809452227b8cab532df283da56e48"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/s3.test.ts",
+      "bytes": 3139,
+      "sha256": "1a52e09be38bf6d8c1c937889a8d17390d1aa4153e289059b3ce30d0d9ae0807"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/skia.test.ts",
+      "bytes": 7756,
+      "sha256": "15b1d81c72c3f8a1ea2f149008b047c02980820a7ae76a400dda1dac0738764f"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/text-oracle.test.ts",
+      "bytes": 1247,
+      "sha256": "d7f05be8b80ed0e8022b2de2791b44ccdd7e24d2c3434a0039b6a0cd5f221c7d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tests/text.test.ts",
+      "bytes": 2885,
+      "sha256": "65f24ce5b049256024644278fd071d9913a768e962aee287b763a0a90c35592b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/tsconfig.json",
+      "bytes": 261,
+      "sha256": "2a5909066c2078f1ca4029888d727defe99d34e1e38fe990a4e1131b4608befc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/tsconfig.json",
+      "bytes": 428,
+      "sha256": "20cf73ffb087e1aabf599f6e03c2e6865186018c63a5a256470909e8824b80e3"
+    }
+  ],
+  "runtime": [
+    {
+      "executable": {
+        "path": "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+        "bytes": 34640,
+        "sha256": "4f00ea2ad53d62437a6a3946b73c73614a97e8accdc5b96dc095ea1a0d9c6a56"
+      },
+      "versionCommand": [
+        "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+        "--version"
+      ],
+      "versionStdout": "Python 3.14.6\n",
+      "versionStderr": "",
+      "linkedLibraries": [
+        {
+          "installName": "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/Python",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/Python",
+            "bytes": 5468672,
+            "sha256": "15436055aa2c02ed0218ac0e02b3a27a92102f88cd59ab5094896b9306317336"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/usr/lib/libSystem.B.dylib",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        }
+      ],
+      "otoolStdout": "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/bin/python3.14:\n\t/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/Python (compatibility version 3.14.0, current version 3.14.0)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1356.0.0)\n"
+    },
+    {
+      "executable": {
+        "path": "/opt/homebrew/Cellar/ffmpeg/9.0.2/bin/ffmpeg",
+        "bytes": 426512,
+        "sha256": "1ede5c7fd4e97d832ec69c97c78231875de7d69c55423158f5f4a4d923227dd5"
+      },
+      "versionCommand": [
+        "/opt/homebrew/Cellar/ffmpeg/9.0.2/bin/ffmpeg",
+        "-version"
+      ],
+      "versionStdout": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers\nbuilt with Apple clang version 21.0.0 (clang-2100.3.34.2)\nconfiguration: --prefix=/opt/homebrew/Cellar/ffmpeg/9.0.2 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gpl --enable-libsvtav1 --enable-libopus --enable-libx264 --enable-libmp3lame --enable-libdav1d --enable-libvmaf --enable-libvpx --enable-libx265 --enable-openssl --enable-videotoolbox --enable-audiotoolbox --enable-neon\nlibavutil      61.  1.102 / 61.  1.102\nlibavcodec     63.  1.102 / 63.  1.102\nlibavformat    63.  1.102 / 63.  1.102\nlibavdevice    63.  1.102 / 63.  1.102\nlibavfilter    12.  1.102 / 12.  1.102\nlibswscale     10.  1.102 / 10.  1.102\nlibswresample   7.  1.102 /  7.  1.102\n\nExiting with exit code 0\n",
+      "versionStderr": "",
+      "linkedLibraries": [
+        {
+          "installName": "/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavdevice.63.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavdevice.63.1.102.dylib",
+            "bytes": 131632,
+            "sha256": "0c67c6e5c9abe90af71987d3497d22f6a11e9918f188195fb9c7d386ca190e1d"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavfilter.12.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavfilter.12.1.102.dylib",
+            "bytes": 2947728,
+            "sha256": "72bc05566b584faa564859815c50ae95abcc5c177812d0fe84e4b5b60014fce0"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavformat.63.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavformat.63.1.102.dylib",
+            "bytes": 2373376,
+            "sha256": "282e63f30f3fd0c8bf5dd41493d0764f67a5140683cc74134912816fa51efbae"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavcodec.63.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavcodec.63.1.102.dylib",
+            "bytes": 9748848,
+            "sha256": "9ce2e6d93ef08a6674ff50a9ab329694c398e8280779c43e7eaffc6fe067db9a"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libswresample.7.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libswresample.7.1.102.dylib",
+            "bytes": 87104,
+            "sha256": "08f4884a5b93a0e9fca2656c4eba8d967c94c329274291d73bbaddf226b470a9"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libswscale.10.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libswscale.10.1.102.dylib",
+            "bytes": 688752,
+            "sha256": "5aa9795516bd448166c6301df93fb0a3123e58d10db0bb694a248b092b39069c"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavutil.61.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavutil.61.1.102.dylib",
+            "bytes": 643584,
+            "sha256": "fece27810ff85c21b2eab640428c737cddcbf09105bac16c3f4856ec721d8818"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/usr/lib/libSystem.B.dylib",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/usr/lib/libz.1.dylib",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/opt/homebrew/opt/libvmaf/lib/libvmaf.3.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/libvmaf/3.2.1/lib/libvmaf.3.dylib",
+            "bytes": 901856,
+            "sha256": "f9ca4510cb08cca61ecd571fc417f2b4440c25555fbeefdb4b5477a35891de1c"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/VideoToolbox.framework/Versions/A/VideoToolbox",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/usr/lib/libbz2.1.0.dylib",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/opt/homebrew/opt/openssl@3/lib/libssl.3.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/openssl@3/3.6.4/lib/libssl.3.dylib",
+            "bytes": 888928,
+            "sha256": "c6ee373222087cf31bc2f3817537d268b3c23e56b7fadd44bbf5c2317caed349"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/opt/homebrew/opt/openssl@3/lib/libcrypto.3.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/openssl@3/3.6.4/lib/libcrypto.3.dylib",
+            "bytes": 4872736,
+            "sha256": "bae675614cd791d37ec35416ea9f87edcc85407d020810504cf458119b63522c"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/opt/homebrew/opt/libvpx/lib/libvpx.12.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/libvpx/1.17.0/lib/libvpx.12.dylib",
+            "bytes": 1747904,
+            "sha256": "b434dc31541ec72a484c209b412579dd1be79f31ed7a5667724a5f0eec20450a"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/usr/lib/libiconv.2.dylib",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/opt/homebrew/opt/xz/lib/liblzma.5.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/xz/5.8.4/lib/liblzma.5.dylib",
+            "bytes": 167520,
+            "sha256": "41cdf225f3e10fb54f952c8eca11c8a847d095470540dc42736ae7bd761beaa4"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/opt/homebrew/opt/dav1d/lib/libdav1d.7.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/dav1d/1.5.4/lib/libdav1d.7.dylib",
+            "bytes": 830176,
+            "sha256": "60c3a42a79582241ac77bbbba4c0137c2209204aecbc59e5d6392c2dc0a5b439"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/opt/homebrew/opt/lame/lib/libmp3lame.0.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/lame/4.0/lib/libmp3lame.0.dylib",
+            "bytes": 215872,
+            "sha256": "5150d16a2b09a8f6f3475dcc837fdf5435d4f97e817ca12306fec8da5614647c"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/opt/homebrew/opt/opus/lib/libopus.0.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/opus/1.6.1/lib/libopus.0.dylib",
+            "bytes": 373744,
+            "sha256": "98dcd3cc62c6cf913b789051536ab246c56cc163c74bd8b4968ac467ec74b68b"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/opt/homebrew/opt/svt-av1/lib/libSvtAv1Enc.4.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/svt-av1/4.2.0/lib/libSvtAv1Enc.4.2.0.dylib",
+            "bytes": 3057440,
+            "sha256": "bac7066bcd47c31971f61e57cdd0eccabb2ec2ef3ca5aa1e08bd5ca51cd54608"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/opt/homebrew/opt/x264/lib/libx264.165.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/x264/r3222/lib/libx264.165.dylib",
+            "bytes": 1274288,
+            "sha256": "dd765b37f50d44d3ce9593c2c1c2424b48bedac01c7999e93cef87e018bc65b4"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/opt/homebrew/opt/x265/lib/libx265.217.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/x265/4.3/lib/libx265.217.dylib",
+            "bytes": 7637808,
+            "sha256": "2e25cd9a70616daf5c3aec2979bad071d577e2150c0493ddc5fd369c174d0b0f"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        }
+      ],
+      "otoolStdout": "/opt/homebrew/Cellar/ffmpeg/9.0.2/bin/ffmpeg:\n\t/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavdevice.63.dylib (compatibility version 63.0.0, current version 63.1.102)\n\t/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavfilter.12.dylib (compatibility version 12.0.0, current version 12.1.102)\n\t/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavformat.63.dylib (compatibility version 63.0.0, current version 63.1.102)\n\t/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavcodec.63.dylib (compatibility version 63.0.0, current version 63.1.102)\n\t/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libswresample.7.dylib (compatibility version 7.0.0, current version 7.1.102)\n\t/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libswscale.10.dylib (compatibility version 10.0.0, current version 10.1.102)\n\t/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavutil.61.dylib (compatibility version 61.0.0, current version 61.1.102)\n\t/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (compatibility version 300.0.0, current version 5026.5.4)\n\t/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox (compatibility version 1.0.0, current version 1000.0.0)\n\t/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio (compatibility version 1.0.0, current version 1.0.0)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1356.0.0)\n\t/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation (compatibility version 1.0.0, current version 2.0.0)\n\t/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo (compatibility version 1.2.0, current version 734.4.0)\n\t/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia (compatibility version 1.0.0, current version 3320.8.5)\n\t/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics (compatibility version 64.0.0, current version 1965.5.1)\n\t/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL (compatibility version 1.0.0, current version 1.0.0)\n\t/usr/lib/libz.1.dylib (compatibility version 1.0.0, current version 1.2.12)\n\t/opt/homebrew/opt/libvmaf/lib/libvmaf.3.dylib (compatibility version 3.0.0, current version 3.0.0)\n\t/System/Library/Frameworks/Metal.framework/Versions/A/Metal (compatibility version 1.0.0, current version 373.2.0)\n\t/System/Library/Frameworks/VideoToolbox.framework/Versions/A/VideoToolbox (compatibility version 1.0.0, current version 3320.8.5)\n\t/System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage (compatibility version 1.0.1, current version 7.0.0)\n\t/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit (compatibility version 45.0.0, current version 2685.60.104)\n\t/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (compatibility version 150.0.0, current version 5026.5.4)\n\t/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices (compatibility version 1.0.0, current version 1226.0.0)\n\t/usr/lib/libbz2.1.0.dylib (compatibility version 1.0.0, current version 1.0.8)\n\t/opt/homebrew/opt/openssl@3/lib/libssl.3.dylib (compatibility version 3.0.0, current version 3.0.0)\n\t/opt/homebrew/opt/openssl@3/lib/libcrypto.3.dylib (compatibility version 3.0.0, current version 3.0.0)\n\t/opt/homebrew/opt/libvpx/lib/libvpx.12.dylib (compatibility version 1.0.0, current version 1.0.0)\n\t/usr/lib/libiconv.2.dylib (compatibility version 7.0.0, current version 7.0.0)\n\t/opt/homebrew/opt/xz/lib/liblzma.5.dylib (compatibility version 14.0.0, current version 14.4.0)\n\t/opt/homebrew/opt/dav1d/lib/libdav1d.7.dylib (compatibility version 7.0.0, current version 7.0.0)\n\t/opt/homebrew/opt/lame/lib/libmp3lame.0.dylib (compatibility version 1.0.0, current version 1.0.0)\n\t/opt/homebrew/opt/opus/lib/libopus.0.dylib (compatibility version 12.0.0, current version 12.1.0)\n\t/opt/homebrew/opt/svt-av1/lib/libSvtAv1Enc.4.dylib (compatibility version 4.0.0, current version 4.2.0)\n\t/opt/homebrew/opt/x264/lib/libx264.165.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/opt/homebrew/opt/x265/lib/libx265.217.dylib (compatibility version 217.0.0, current version 217.0.0)\n"
+    },
+    {
+      "executable": {
+        "path": "/opt/homebrew/Cellar/ffmpeg/9.0.2/bin/ffprobe",
+        "bytes": 253488,
+        "sha256": "258fa480850eec6cf7b6831b2d3edd164cdd2f9ddb7a14965dc9fdaf9d175ff7"
+      },
+      "versionCommand": [
+        "/opt/homebrew/Cellar/ffmpeg/9.0.2/bin/ffprobe",
+        "-version"
+      ],
+      "versionStdout": "ffprobe version 9.0.2 Copyright (c) 2007-2026 the FFmpeg developers\nbuilt with Apple clang version 21.0.0 (clang-2100.3.34.2)\nconfiguration: --prefix=/opt/homebrew/Cellar/ffmpeg/9.0.2 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gpl --enable-libsvtav1 --enable-libopus --enable-libx264 --enable-libmp3lame --enable-libdav1d --enable-libvmaf --enable-libvpx --enable-libx265 --enable-openssl --enable-videotoolbox --enable-audiotoolbox --enable-neon\nlibavutil      61.  1.102 / 61.  1.102\nlibavcodec     63.  1.102 / 63.  1.102\nlibavformat    63.  1.102 / 63.  1.102\nlibavdevice    63.  1.102 / 63.  1.102\nlibavfilter    12.  1.102 / 12.  1.102\nlibswscale     10.  1.102 / 10.  1.102\nlibswresample   7.  1.102 /  7.  1.102\n",
+      "versionStderr": "",
+      "linkedLibraries": [
+        {
+          "installName": "/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavdevice.63.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavdevice.63.1.102.dylib",
+            "bytes": 131632,
+            "sha256": "0c67c6e5c9abe90af71987d3497d22f6a11e9918f188195fb9c7d386ca190e1d"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavfilter.12.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavfilter.12.1.102.dylib",
+            "bytes": 2947728,
+            "sha256": "72bc05566b584faa564859815c50ae95abcc5c177812d0fe84e4b5b60014fce0"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavformat.63.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavformat.63.1.102.dylib",
+            "bytes": 2373376,
+            "sha256": "282e63f30f3fd0c8bf5dd41493d0764f67a5140683cc74134912816fa51efbae"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavcodec.63.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavcodec.63.1.102.dylib",
+            "bytes": 9748848,
+            "sha256": "9ce2e6d93ef08a6674ff50a9ab329694c398e8280779c43e7eaffc6fe067db9a"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libswresample.7.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libswresample.7.1.102.dylib",
+            "bytes": 87104,
+            "sha256": "08f4884a5b93a0e9fca2656c4eba8d967c94c329274291d73bbaddf226b470a9"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libswscale.10.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libswscale.10.1.102.dylib",
+            "bytes": 688752,
+            "sha256": "5aa9795516bd448166c6301df93fb0a3123e58d10db0bb694a248b092b39069c"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavutil.61.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavutil.61.1.102.dylib",
+            "bytes": 643584,
+            "sha256": "fece27810ff85c21b2eab640428c737cddcbf09105bac16c3f4856ec721d8818"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/usr/lib/libSystem.B.dylib",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/usr/lib/libz.1.dylib",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/opt/homebrew/opt/libvmaf/lib/libvmaf.3.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/libvmaf/3.2.1/lib/libvmaf.3.dylib",
+            "bytes": 901856,
+            "sha256": "f9ca4510cb08cca61ecd571fc417f2b4440c25555fbeefdb4b5477a35891de1c"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/VideoToolbox.framework/Versions/A/VideoToolbox",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/usr/lib/libbz2.1.0.dylib",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/opt/homebrew/opt/openssl@3/lib/libssl.3.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/openssl@3/3.6.4/lib/libssl.3.dylib",
+            "bytes": 888928,
+            "sha256": "c6ee373222087cf31bc2f3817537d268b3c23e56b7fadd44bbf5c2317caed349"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/opt/homebrew/opt/openssl@3/lib/libcrypto.3.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/openssl@3/3.6.4/lib/libcrypto.3.dylib",
+            "bytes": 4872736,
+            "sha256": "bae675614cd791d37ec35416ea9f87edcc85407d020810504cf458119b63522c"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/opt/homebrew/opt/libvpx/lib/libvpx.12.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/libvpx/1.17.0/lib/libvpx.12.dylib",
+            "bytes": 1747904,
+            "sha256": "b434dc31541ec72a484c209b412579dd1be79f31ed7a5667724a5f0eec20450a"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/usr/lib/libiconv.2.dylib",
+          "pin": null,
+          "sharedCacheOrLoaderPathNotMaterialized": true
+        },
+        {
+          "installName": "/opt/homebrew/opt/xz/lib/liblzma.5.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/xz/5.8.4/lib/liblzma.5.dylib",
+            "bytes": 167520,
+            "sha256": "41cdf225f3e10fb54f952c8eca11c8a847d095470540dc42736ae7bd761beaa4"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/opt/homebrew/opt/dav1d/lib/libdav1d.7.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/dav1d/1.5.4/lib/libdav1d.7.dylib",
+            "bytes": 830176,
+            "sha256": "60c3a42a79582241ac77bbbba4c0137c2209204aecbc59e5d6392c2dc0a5b439"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/opt/homebrew/opt/lame/lib/libmp3lame.0.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/lame/4.0/lib/libmp3lame.0.dylib",
+            "bytes": 215872,
+            "sha256": "5150d16a2b09a8f6f3475dcc837fdf5435d4f97e817ca12306fec8da5614647c"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/opt/homebrew/opt/opus/lib/libopus.0.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/opus/1.6.1/lib/libopus.0.dylib",
+            "bytes": 373744,
+            "sha256": "98dcd3cc62c6cf913b789051536ab246c56cc163c74bd8b4968ac467ec74b68b"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/opt/homebrew/opt/svt-av1/lib/libSvtAv1Enc.4.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/svt-av1/4.2.0/lib/libSvtAv1Enc.4.2.0.dylib",
+            "bytes": 3057440,
+            "sha256": "bac7066bcd47c31971f61e57cdd0eccabb2ec2ef3ca5aa1e08bd5ca51cd54608"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/opt/homebrew/opt/x264/lib/libx264.165.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/x264/r3222/lib/libx264.165.dylib",
+            "bytes": 1274288,
+            "sha256": "dd765b37f50d44d3ce9593c2c1c2424b48bedac01c7999e93cef87e018bc65b4"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        },
+        {
+          "installName": "/opt/homebrew/opt/x265/lib/libx265.217.dylib",
+          "pin": {
+            "path": "/opt/homebrew/Cellar/x265/4.3/lib/libx265.217.dylib",
+            "bytes": 7637808,
+            "sha256": "2e25cd9a70616daf5c3aec2979bad071d577e2150c0493ddc5fd369c174d0b0f"
+          },
+          "sharedCacheOrLoaderPathNotMaterialized": false
+        }
+      ],
+      "otoolStdout": "/opt/homebrew/Cellar/ffmpeg/9.0.2/bin/ffprobe:\n\t/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavdevice.63.dylib (compatibility version 63.0.0, current version 63.1.102)\n\t/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavfilter.12.dylib (compatibility version 12.0.0, current version 12.1.102)\n\t/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavformat.63.dylib (compatibility version 63.0.0, current version 63.1.102)\n\t/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavcodec.63.dylib (compatibility version 63.0.0, current version 63.1.102)\n\t/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libswresample.7.dylib (compatibility version 7.0.0, current version 7.1.102)\n\t/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libswscale.10.dylib (compatibility version 10.0.0, current version 10.1.102)\n\t/opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavutil.61.dylib (compatibility version 61.0.0, current version 61.1.102)\n\t/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (compatibility version 300.0.0, current version 5026.5.4)\n\t/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox (compatibility version 1.0.0, current version 1000.0.0)\n\t/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio (compatibility version 1.0.0, current version 1.0.0)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1356.0.0)\n\t/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation (compatibility version 1.0.0, current version 2.0.0)\n\t/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo (compatibility version 1.2.0, current version 734.4.0)\n\t/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia (compatibility version 1.0.0, current version 3320.8.5)\n\t/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics (compatibility version 64.0.0, current version 1965.5.1)\n\t/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL (compatibility version 1.0.0, current version 1.0.0)\n\t/usr/lib/libz.1.dylib (compatibility version 1.0.0, current version 1.2.12)\n\t/opt/homebrew/opt/libvmaf/lib/libvmaf.3.dylib (compatibility version 3.0.0, current version 3.0.0)\n\t/System/Library/Frameworks/Metal.framework/Versions/A/Metal (compatibility version 1.0.0, current version 373.2.0)\n\t/System/Library/Frameworks/VideoToolbox.framework/Versions/A/VideoToolbox (compatibility version 1.0.0, current version 3320.8.5)\n\t/System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage (compatibility version 1.0.1, current version 7.0.0)\n\t/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit (compatibility version 45.0.0, current version 2685.60.104)\n\t/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (compatibility version 150.0.0, current version 5026.5.4)\n\t/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices (compatibility version 1.0.0, current version 1226.0.0)\n\t/usr/lib/libbz2.1.0.dylib (compatibility version 1.0.0, current version 1.0.8)\n\t/opt/homebrew/opt/openssl@3/lib/libssl.3.dylib (compatibility version 3.0.0, current version 3.0.0)\n\t/opt/homebrew/opt/openssl@3/lib/libcrypto.3.dylib (compatibility version 3.0.0, current version 3.0.0)\n\t/opt/homebrew/opt/libvpx/lib/libvpx.12.dylib (compatibility version 1.0.0, current version 1.0.0)\n\t/usr/lib/libiconv.2.dylib (compatibility version 7.0.0, current version 7.0.0)\n\t/opt/homebrew/opt/xz/lib/liblzma.5.dylib (compatibility version 14.0.0, current version 14.4.0)\n\t/opt/homebrew/opt/dav1d/lib/libdav1d.7.dylib (compatibility version 7.0.0, current version 7.0.0)\n\t/opt/homebrew/opt/lame/lib/libmp3lame.0.dylib (compatibility version 1.0.0, current version 1.0.0)\n\t/opt/homebrew/opt/opus/lib/libopus.0.dylib (compatibility version 12.0.0, current version 12.1.0)\n\t/opt/homebrew/opt/svt-av1/lib/libSvtAv1Enc.4.dylib (compatibility version 4.0.0, current version 4.2.0)\n\t/opt/homebrew/opt/x264/lib/libx264.165.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/opt/homebrew/opt/x265/lib/libx265.217.dylib (compatibility version 217.0.0, current version 217.0.0)\n"
+    }
+  ],
+  "osVersion": "ProductName:\t\tmacOS\nProductVersion:\t\t26.3\nBuildVersion:\t\t25D125\n",
+  "workdir": "/Users/gavinbintz/Documents/Codex/2026-10-02/task",
+  "noNewNativeHelperBuildOrExecution": true
+}

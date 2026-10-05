@@ -1,0 +1,10 @@
+{
+  "case": "short-midframe",
+  "passed": true,
+  "expectedRefusal": "SHORT_FRAME",
+  "observedError": "Refusal: SHORT_FRAME:2:49151",
+  "secondsExcludedFromBenchmarks": 1.0728055000072345,
+  "sourceUnchanged": true,
+  "GPUExecuted": false,
+  "atomicFinalExists": false
+}

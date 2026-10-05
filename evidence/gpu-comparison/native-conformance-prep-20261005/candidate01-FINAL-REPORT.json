@@ -1,0 +1,114 @@
+{
+  "status": "bounded native H264/HEVC signaling/reference conformance adapter preparation passed",
+  "adapter": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_chroma_conformance.py",
+    "bytes": 19169,
+    "sha256": "f7dd783e32203fc6ac3be6b105b299eefdcbf7b762441496b5b7b08a4a969681"
+  },
+  "sourcePackage": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/adapter-source.zip",
+    "bytes": 28922,
+    "sha256": "9d2a24b2b2c92e3b22d08028bb5651374150766f204e87d41b7e5de7490b577e"
+  },
+  "exactPins": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/EXACT-PINS.json",
+    "bytes": 77446,
+    "sha256": "c09cab8e982e4d722e4926b6c75b86b35b1ded34b14a7e5fc227040b4b73e7a7"
+  },
+  "preparationOnly": true,
+  "new4KQualification": false,
+  "newGPUVideoToolboxExport": false,
+  "newCargoBuild": false,
+  "timingWindowOpen": false,
+  "benchmarkTiming": false,
+  "broaderObjectiveComplete": false,
+  "method": "preserve original MP4 boxes/sample timing; stream-copy original compressed NALs; replace only SPS VUI chroma flag/1/1; update only mandatory configuration lengths, box sizes, sample sizes and chunk offsets; atomic no-replace publication after guards",
+  "fullSPSIndependentBitsAndSyntaxValidated": true,
+  "codecConfigOtherBytesPPSVPSAndEveryNonSPSNALExactlyEqual": true,
+  "allDecodedYUV420pBytesInvariant": true,
+  "decodedRGBDisplayInvarianceClaimed": false,
+  "smallScenes": {
+    "dimensions": [
+      256,
+      128
+    ],
+    "framesEach": 300,
+    "fps": "30000/1001",
+    "fixtures": "retained independently qualified MoltenVK/VTH264+HEVC scene, no new GPU qualification",
+    "quality": {
+      "h264": {
+        "ssim": {
+          "Y": 0.999984
+        },
+        "psnr": {
+          "psnr_y": 67.1,
+          "psnr_u": 71.95,
+          "psnr_v": 71.7
+        }
+      },
+      "hevc": {
+        "ssim": {
+          "Y": 0.999978
+        },
+        "psnr": {
+          "psnr_y": 69.22,
+          "psnr_u": 67.4,
+          "psnr_v": 69.34
+        }
+      }
+    },
+    "newLosslessReference": "retained NV12 pure planar split, explicit centered limitedBT709 FFV1; all300 MD5s direct byte exact; CPU lossless encoding only",
+    "predeterminedControls": "all3 retained RGBA/NV12 color+text+circle-edge frames CPU709 formula, tolerance1 declared; zero byte differences observed, separate control-render limitation retained"
+  },
+  "sharedModifiedFSmallPreparation": {
+    "frames": 36,
+    "passed": true,
+    "sameAdapter": true,
+    "new4KModifiedFQualification": false,
+    "originalProduct": false
+  },
+  "tests": {
+    "rejectedNegativeCases": 26,
+    "idempotentPositiveCases": 2,
+    "existingAndRacingDestinationPreserved": true,
+    "SPSOtherFieldPPSAndConfigMutationsRejected": true,
+    "postValidationCorruptionAndFailureRefused": true,
+    "noTemporaryCandidatesLeaked": true
+  },
+  "unsupported": [
+    "multi-track/audio/encrypted/fragmented MP4",
+    "Bframes, reordered or variable/offset cadence",
+    "fixed-size stsz tables, unsupported metadata/codec config and dynamic/multipleSPS",
+    "nonfour-byte length prefix",
+    "nonMain8bitYUV420p or nonlimited709 color contract",
+    "metadata>16MiB, compressedpacket>64MiB, >30000frames"
+  ],
+  "mandatoryTimedCost": "entire conform() including source/candidate probing, encoded payload checks/hash, copy/mux-equivalent table rewrite/fsync and signaling; full decode/quality/reference excluded fromexport and reported separately in delivered time",
+  "nativePool": 3,
+  "FModifiedAllocationThresholdPerContext": 64,
+  "FProductionPolicy": "3contexts/5+5workers/queue10",
+  "zeroCopyProved": false,
+  "noNativeOptimizationSelected": true,
+  "previousArtifactsPreserved": true,
+  "resourceGate": {
+    "currentFreeBytes": 1204518912,
+    "full4KNV12Per300FrameReferenceBytes": 3732480000,
+    "full4kRawReferenceGiB": 3.4761428833007812,
+    "minimumRecommendedFreeGiBBeforeOneSerial4KQualification": 6,
+    "recommendedFreeGiBBeforeRetainedBalancedBatch": 12,
+    "estimateBasis": "3.732GB NV12 raw reference per active qualification, ~0.5GB FFV1, ~0.4GB original +0.4GB conformed candidate, profiling/logs and >=1GB spare; balanced8 originals+8conformed roughly6GB plus refs/scratch. Estimates, recalculate against exactnext lane.",
+    "noFullRunsBelowHeadroom": true,
+    "cacheAndDestinationApprovalsRemainPending": true
+  },
+  "remaining": [
+    "fresh all3004K per-codec source/reference/quality/cadence/color/GOP qualification and GPU/fault controls",
+    "fresh shared-adapter modified-F4K qualification; no reuse ofearlier adapter clocks asnew source",
+    "balanced H/F timing afterspace and allgates; includeconformance costs and notify native thread",
+    "full4K HEVC/Vulkan comparisons",
+    "Library publication currentlyblocked12itemattempt; no newIDs orsubstitute",
+    "native Vulkan destination approval remainspending; no pushretry"
+  ],
+  "sourceLibraryId": "libfile_19c903c1d7508191ac4881f0e96e4229",
+  "historicalCheckpointLibraryId": "libfile_cd84375e4648819195364136245484c6",
+  "newLibraryIds": []
+}

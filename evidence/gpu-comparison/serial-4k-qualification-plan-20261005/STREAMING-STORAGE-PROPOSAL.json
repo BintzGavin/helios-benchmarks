@@ -1,0 +1,24 @@
+{
+  "status": "design evaluated from native stdout contract only; unimplemented and unqualified; cannot lower resource gate",
+  "savingBytesPerNative300Reference": 3732480000,
+  "appliesTo": "native reference-binary stdout; not automatically F concurrent captured files",
+  "dataPath": "producer stdout -> bounded exact-frame reader -> rawNV12 SHA256 then pure planar Y + evenUV(U) + oddUV(V), planar SHA256+MD5 -> FFV1 stdin; no color arithmetic",
+  "memory": "one12,441,600-byte raw frame and one12,441,600-byte planar frame plus bounded pipe buffers; asynchronous writer must await backpressure; no accumulating raw frames",
+  "endToEndBinding": "predeclare300frames source3..302; producer success + exact3,732,480,000bytes + no trailing/partial frames +300 raw/planar hashes + FFV1 success + all300 independently decoded planarMD5 equality; bind actual producer argv/helper/feed/scene/font/protocol/stderr/raw-readback count,reference SHA and encoder argv/runtime. Publish final binding only if all gates pass.",
+  "recoverability": "lossless centered reference reconstructs planar samples exactly; reconstruct interleaved NV12 and rehash every raw SHA256 independently; raw stream not persisted, this limitation and producer provenance remain explicit",
+  "referenceTags": "pure planar input carries centered limitedBT709 metadata BEFORE input and AFTER output; use CONFIG referenceCommand; no implicit NV12 sampling conversion",
+  "requiredBoundedTests": [
+    "copied retained small raw only, noGPU: irregular chunk boundaries including1byte",
+    "truncated input atframe boundary and midframe rejected",
+    "extra complete frame/trailing byte rejected",
+    "nonzero producer exit after completebytes rejected",
+    "FFV1 failure/broken pipe early exit kills feed withoutdeadlock",
+    "corrupted reference/hashes rejects atomic binding",
+    "source/hash mismatch,duplicateindex,sourceorder faults rejected",
+    "backpressure slowconsumer fixed memory and everyframe preserved",
+    "inverse planar-to-NV12 hash reconstruction equals every direct SHA"
+  ],
+  "retention": "never delete existing direct raw/reference evidence; new streaming lane retains source/feed/hash manifest, lossless file, exact commands+stdout/stderr+process results+all failure receipts. No substitution for prior all300 raw reference gates.",
+  "qualification": "after bounded tests, resource-specific storage pilot separately frozen; fresh actual4K GPU reference and encode/profile still required; no benchmarking this reader as GPU performance",
+  "F": "production contexts must not be serialized or capture buffers reused early. Current frozenF writes ordered compressed capture files; retain that route until an independently frozen streaming handoff reader exists."
+}

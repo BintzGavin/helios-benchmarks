@@ -1,0 +1,706 @@
+{
+  "files": [
+    {
+      "path": "ACCEPTED-EVIDENCE-UNCHANGED.json",
+      "bytes": 1068,
+      "sha256": "b0bc3bbf94d3ac490eff57d6237e5c63ec17c73b2e4060f20f2dfe3424ed2aa9"
+    },
+    {
+      "path": "ACTUAL-CLI-REFUSAL.json",
+      "bytes": 502,
+      "sha256": "05dd928cff51fee4ef3bb53ec1ceae17b45ebb0d484cd0ef3e3f6b2eb36cf967"
+    },
+    {
+      "path": "EXACT-SOURCE-PINS.json",
+      "bytes": 2443,
+      "sha256": "58394e6fe2d64392aa53e33f1f3edd061f18bb8f22dd5745973e478b87cdf7bf"
+    },
+    {
+      "path": "FINAL-REPORT.json",
+      "bytes": 1763,
+      "sha256": "e3fa7294ebc21bc3e23ad4154b1a73dfa03dc4c69f7d3a89c2b4adbc8ba884ca"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2572,
+      "sha256": "aa26868deef32271576c5d186b158f07938e78444f92e7f1a7ad15e057a0b424"
+    },
+    {
+      "path": "TEST-REPORT.json",
+      "bytes": 10699,
+      "sha256": "b717ede0c13af3772cc6ed9dc99e59fbaec124b99bece6515aabee6f5a6656f1"
+    },
+    {
+      "path": "already-exists/sentinel",
+      "bytes": 9,
+      "sha256": "0d8da7dc169a0c12f0a6f121b819ca38b055b6e2440830f3453bb6c17d3c3106"
+    },
+    {
+      "path": "cpu-feed-controls/early-exit/SPEC.json",
+      "bytes": 2906,
+      "sha256": "33150fef4cd0d7f624731f1ad00bcc7c3a732dec4b7622f2755e4cfa8b40e212"
+    },
+    {
+      "path": "cpu-feed-controls/early-exit/stderr.log",
+      "bytes": 28,
+      "sha256": "2dfc9f6e92672ce7dfafe0d80aba695a91d3bdd4703c7b717bde09753874b847"
+    },
+    {
+      "path": "cpu-feed-controls/early-exit/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cpu-feed-controls/metal-h264-encode-binary/DRIVER.json",
+      "bytes": 1481,
+      "sha256": "ea6aefe8d11b3f56d0c1684a8b543825e1cb68d60698ff274a0445c5d3f81235"
+    },
+    {
+      "path": "cpu-feed-controls/metal-h264-encode-binary/SPEC.json",
+      "bytes": 2877,
+      "sha256": "4501790775e5f2ddeed02951608f9ffe8b752769036c932fe463ab30121b176d"
+    },
+    {
+      "path": "cpu-feed-controls/metal-h264-encode-binary/driver.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cpu-feed-controls/metal-h264-encode-binary/raw-or-receipt.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cpu-feed-controls/metal-h264-raster-binary/DRIVER.json",
+      "bytes": 1476,
+      "sha256": "53666556083dc0494beb193147fceaa864c806cb0b5757aba0072e71cc809d44"
+    },
+    {
+      "path": "cpu-feed-controls/metal-h264-raster-binary/SPEC.json",
+      "bytes": 2877,
+      "sha256": "9d44a225a6ebbd71e048870046e8a3f91ddf053b9842d981a931046d4a959818"
+    },
+    {
+      "path": "cpu-feed-controls/metal-h264-raster-binary/driver.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cpu-feed-controls/metal-h264-raster-binary/raw-or-receipt.stdout",
+      "bytes": 393216,
+      "sha256": "a6619f482fee91a315f76cdcd8705d39b6ce11077c435ccc696142e130c27762"
+    },
+    {
+      "path": "cpu-feed-controls/metal-h264-reference-binary/DRIVER.json",
+      "bytes": 1476,
+      "sha256": "841e41f59332cc8c228ed7647061c4313f5bd057963c6529b37f1993bb9bea1c"
+    },
+    {
+      "path": "cpu-feed-controls/metal-h264-reference-binary/SPEC.json",
+      "bytes": 2883,
+      "sha256": "919a640bde82477959a863dbd987be8345c634d2c7f28fa280a6a95a22b74a10"
+    },
+    {
+      "path": "cpu-feed-controls/metal-h264-reference-binary/driver.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cpu-feed-controls/metal-h264-reference-binary/raw-or-receipt.stdout",
+      "bytes": 147456,
+      "sha256": "8123c216413f82bbaa0339c27a43d9822c2a043e20662b27c97874429b996e9a"
+    },
+    {
+      "path": "cpu-feed-controls/metal-hevc-encode-binary/DRIVER.json",
+      "bytes": 1481,
+      "sha256": "de7f806cb3cb762985e9857fe62681eecb8815ca931904cf5524f412c600381f"
+    },
+    {
+      "path": "cpu-feed-controls/metal-hevc-encode-binary/SPEC.json",
+      "bytes": 2877,
+      "sha256": "a26f2c63803512ebcaa620efac5d7f36f586472baa73c28b59fefe30213db0ba"
+    },
+    {
+      "path": "cpu-feed-controls/metal-hevc-encode-binary/driver.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cpu-feed-controls/metal-hevc-encode-binary/raw-or-receipt.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cpu-feed-controls/metal-hevc-raster-binary/DRIVER.json",
+      "bytes": 1476,
+      "sha256": "0abfe7c4af648ff9529c501c70da63107808a2da180a4c33ba384f1da44dac14"
+    },
+    {
+      "path": "cpu-feed-controls/metal-hevc-raster-binary/SPEC.json",
+      "bytes": 2877,
+      "sha256": "eeb9a9b5a3630638b9e0f61f4bc30fec46c6468bad493b61863436c37b3953a9"
+    },
+    {
+      "path": "cpu-feed-controls/metal-hevc-raster-binary/driver.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cpu-feed-controls/metal-hevc-raster-binary/raw-or-receipt.stdout",
+      "bytes": 393216,
+      "sha256": "a6619f482fee91a315f76cdcd8705d39b6ce11077c435ccc696142e130c27762"
+    },
+    {
+      "path": "cpu-feed-controls/metal-hevc-reference-binary/DRIVER.json",
+      "bytes": 1476,
+      "sha256": "38ef77ad60a1edf91b544741de74582eccaad69f0af029626d46aa3c6d844d01"
+    },
+    {
+      "path": "cpu-feed-controls/metal-hevc-reference-binary/SPEC.json",
+      "bytes": 2883,
+      "sha256": "ab3c4bebed4797ab7c16936010ff937f9813b743db39eb157c4b95fb46b04c3a"
+    },
+    {
+      "path": "cpu-feed-controls/metal-hevc-reference-binary/driver.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cpu-feed-controls/metal-hevc-reference-binary/raw-or-receipt.stdout",
+      "bytes": 147456,
+      "sha256": "8123c216413f82bbaa0339c27a43d9822c2a043e20662b27c97874429b996e9a"
+    },
+    {
+      "path": "cpu-feed-controls/raw-download/SPEC.json",
+      "bytes": 2910,
+      "sha256": "2dbaea802afa7e3ba736ba01e18edea13b554ae77cb925c65f07e3231267b83b"
+    },
+    {
+      "path": "cpu-feed-controls/raw-download/stderr.log",
+      "bytes": 25,
+      "sha256": "3cae1311c9abe4ef61deabd42e8fd593cbe8ff3bb68b3e28156cbac9b121eaec"
+    },
+    {
+      "path": "cpu-feed-controls/raw-download/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cpu-feed-controls/software-fallback/SPEC.json",
+      "bytes": 2920,
+      "sha256": "603eeaf514df197c866032a0e853fa545c77d9cf2ee7d2a1f04326dbd384f5f1"
+    },
+    {
+      "path": "cpu-feed-controls/software-fallback/stderr.log",
+      "bytes": 25,
+      "sha256": "3cae1311c9abe4ef61deabd42e8fd593cbe8ff3bb68b3e28156cbac9b121eaec"
+    },
+    {
+      "path": "cpu-feed-controls/software-fallback/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cpu-feed-controls/vulkan-h264-encode-binary/DRIVER.json",
+      "bytes": 1482,
+      "sha256": "73b0e41a60004b001dc5d28ab109e8ee38fdb5f59b0c20eb3f6ec93160cbc0dc"
+    },
+    {
+      "path": "cpu-feed-controls/vulkan-h264-encode-binary/SPEC.json",
+      "bytes": 2900,
+      "sha256": "d34370f45251de2defb25261389a06d1fca22f8d4b915f14872692d4c3b0ce8e"
+    },
+    {
+      "path": "cpu-feed-controls/vulkan-h264-encode-binary/driver.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cpu-feed-controls/vulkan-h264-encode-binary/raw-or-receipt.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cpu-feed-controls/vulkan-h264-raster-binary/DRIVER.json",
+      "bytes": 1477,
+      "sha256": "0c03836de0c84897ba6c9424414945b8e311739449d63301ebc81fa7a75fb761"
+    },
+    {
+      "path": "cpu-feed-controls/vulkan-h264-raster-binary/SPEC.json",
+      "bytes": 2900,
+      "sha256": "f3a418104ce7f86481e6369b7ac405cbd3f398cb112e7fd979d49f0d3ea439c7"
+    },
+    {
+      "path": "cpu-feed-controls/vulkan-h264-raster-binary/driver.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cpu-feed-controls/vulkan-h264-raster-binary/raw-or-receipt.stdout",
+      "bytes": 393216,
+      "sha256": "a6619f482fee91a315f76cdcd8705d39b6ce11077c435ccc696142e130c27762"
+    },
+    {
+      "path": "cpu-feed-controls/vulkan-h264-reference-binary/DRIVER.json",
+      "bytes": 1477,
+      "sha256": "3937176316cbaee23ab9455607d78c7f39a858865cf8778c9a8487b3e4c1a799"
+    },
+    {
+      "path": "cpu-feed-controls/vulkan-h264-reference-binary/SPEC.json",
+      "bytes": 2906,
+      "sha256": "834afdc0a97b8bbdb0d37597f53765424b8e012f0a4652cf220c59731c632fb6"
+    },
+    {
+      "path": "cpu-feed-controls/vulkan-h264-reference-binary/driver.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cpu-feed-controls/vulkan-h264-reference-binary/raw-or-receipt.stdout",
+      "bytes": 147456,
+      "sha256": "8123c216413f82bbaa0339c27a43d9822c2a043e20662b27c97874429b996e9a"
+    },
+    {
+      "path": "cpu-feed-controls/vulkan-hevc-encode-binary/DRIVER.json",
+      "bytes": 1482,
+      "sha256": "55638f927ece8f76d2da6e2d74416c3117b266d65b845344bd4b7f64e5485845"
+    },
+    {
+      "path": "cpu-feed-controls/vulkan-hevc-encode-binary/SPEC.json",
+      "bytes": 2900,
+      "sha256": "22d9836f27c76348fdb34dde5a978378b6147515870940b0a7555ec7c5f2ff54"
+    },
+    {
+      "path": "cpu-feed-controls/vulkan-hevc-encode-binary/driver.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cpu-feed-controls/vulkan-hevc-encode-binary/raw-or-receipt.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cpu-feed-controls/vulkan-hevc-raster-binary/DRIVER.json",
+      "bytes": 1477,
+      "sha256": "cea9b88c0d77720b39f07343aaf30ed1190e1a03583da99bc0cfb01fc21079be"
+    },
+    {
+      "path": "cpu-feed-controls/vulkan-hevc-raster-binary/SPEC.json",
+      "bytes": 2900,
+      "sha256": "87700ead6e1a57d2b3e1d8a81dae5d6c6ea589e625a44f00ccd63f5b89cee75c"
+    },
+    {
+      "path": "cpu-feed-controls/vulkan-hevc-raster-binary/driver.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cpu-feed-controls/vulkan-hevc-raster-binary/raw-or-receipt.stdout",
+      "bytes": 393216,
+      "sha256": "a6619f482fee91a315f76cdcd8705d39b6ce11077c435ccc696142e130c27762"
+    },
+    {
+      "path": "cpu-feed-controls/vulkan-hevc-reference-binary/DRIVER.json",
+      "bytes": 1477,
+      "sha256": "ecbdc68edf8b153268d2d5174f6862884da3ea9190373fa7bedc5f1d33eef1ab"
+    },
+    {
+      "path": "cpu-feed-controls/vulkan-hevc-reference-binary/SPEC.json",
+      "bytes": 2906,
+      "sha256": "dd5a59be7eae5607091224684ed63143979cc8b808a12c483e35149adb028b68"
+    },
+    {
+      "path": "cpu-feed-controls/vulkan-hevc-reference-binary/driver.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cpu-feed-controls/vulkan-hevc-reference-binary/raw-or-receipt.stdout",
+      "bytes": 147456,
+      "sha256": "8123c216413f82bbaa0339c27a43d9822c2a043e20662b27c97874429b996e9a"
+    },
+    {
+      "path": "cpu-feed-controls/wrong-bitrate/SPEC.json",
+      "bytes": 2912,
+      "sha256": "c3a738fffc7376c320d182f899dd801ca000951ed3d1ebdb6762a1deab42a670"
+    },
+    {
+      "path": "cpu-feed-controls/wrong-bitrate/stderr.log",
+      "bytes": 25,
+      "sha256": "3cae1311c9abe4ef61deabd42e8fd593cbe8ff3bb68b3e28156cbac9b121eaec"
+    },
+    {
+      "path": "cpu-feed-controls/wrong-bitrate/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cpu-feed-controls/wrong-codec/SPEC.json",
+      "bytes": 2908,
+      "sha256": "34081eec15728c31dec6ebb3627cc4a0575c5734350b181765ad0009b070676c"
+    },
+    {
+      "path": "cpu-feed-controls/wrong-codec/stderr.log",
+      "bytes": 23,
+      "sha256": "e28699aa80105742b77e21024e95630c1fbe65c805917290d87acc4210866a50"
+    },
+    {
+      "path": "cpu-feed-controls/wrong-codec/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cpu-feed-controls/wrong-frame-count/SPEC.json",
+      "bytes": 2920,
+      "sha256": "7d6aa4ca4325406b1022efee008e7676deb432c32256255052a7d9b5729f4066"
+    },
+    {
+      "path": "cpu-feed-controls/wrong-frame-count/stderr.log",
+      "bytes": 23,
+      "sha256": "e28699aa80105742b77e21024e95630c1fbe65c805917290d87acc4210866a50"
+    },
+    {
+      "path": "cpu-feed-controls/wrong-frame-count/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cpu-feed-controls/wrong-gop/SPEC.json",
+      "bytes": 2904,
+      "sha256": "253cf2fb5866adf84ddab9a493a70b90f8f0ee1e529785af1dd65a92ebc4988d"
+    },
+    {
+      "path": "cpu-feed-controls/wrong-gop/stderr.log",
+      "bytes": 23,
+      "sha256": "e28699aa80105742b77e21024e95630c1fbe65c805917290d87acc4210866a50"
+    },
+    {
+      "path": "cpu-feed-controls/wrong-gop/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cpu-feed-controls/wrong-pool/SPEC.json",
+      "bytes": 2906,
+      "sha256": "a61b1326368779faaa7273e0ad3c5f935ac7ebdd49c1a7b4da1eca9e81ae92da"
+    },
+    {
+      "path": "cpu-feed-controls/wrong-pool/stderr.log",
+      "bytes": 23,
+      "sha256": "e28699aa80105742b77e21024e95630c1fbe65c805917290d87acc4210866a50"
+    },
+    {
+      "path": "cpu-feed-controls/wrong-pool/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cpu-feed-controls/wrong-protocol/SPEC.json",
+      "bytes": 2914,
+      "sha256": "d1da40e59fb7383dbb4c105200bbc2bd08d6ad0233d04b5c086f95469ae33071"
+    },
+    {
+      "path": "cpu-feed-controls/wrong-protocol/stderr.log",
+      "bytes": 23,
+      "sha256": "e28699aa80105742b77e21024e95630c1fbe65c805917290d87acc4210866a50"
+    },
+    {
+      "path": "cpu-feed-controls/wrong-protocol/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "prepared-profiles/H-metal-hevc/COMPILE.json",
+      "bytes": 1987,
+      "sha256": "8dfe959af5ce8a2fa714af9eaa331225cd3efa56dbdabc9ee424f0a809517fad"
+    },
+    {
+      "path": "prepared-profiles/H-metal-hevc/PREPARED-SPEC.json",
+      "bytes": 51216,
+      "sha256": "e3eb7779641bf43d738c107501209be537bed173cee1d76f47d231c6435626d8"
+    },
+    {
+      "path": "prepared-profiles/H-metal-hevc/compile.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "prepared-profiles/H-metal-hevc/compile.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "prepared-profiles/H-metal-hevc/transfer-interposer.dylib",
+      "bytes": 54888,
+      "sha256": "c2db658279d0fe755ebb910fb3374237a42b8211e27212c949e011cc34d14d13"
+    },
+    {
+      "path": "prepared-profiles/H-vulkan-hevc/COMPILE.json",
+      "bytes": 2346,
+      "sha256": "9d44861453a7d0643e739e704798d5d87eb4f388d8afbdea6615250941e50cef"
+    },
+    {
+      "path": "prepared-profiles/H-vulkan-hevc/PREPARED-SPEC.json",
+      "bytes": 51619,
+      "sha256": "34f6cd3b05bfe389047f7f5af7b9f5ffe8049633590d80b7cfc0601ec3b6cb42"
+    },
+    {
+      "path": "prepared-profiles/H-vulkan-hevc/compile.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "prepared-profiles/H-vulkan-hevc/compile.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "prepared-profiles/H-vulkan-hevc/transfer-interposer.dylib",
+      "bytes": 56760,
+      "sha256": "721157dd9afaa6b40c818ac1b552cae798cb8a06500344dab1fc211a1e5b2a10"
+    },
+    {
+      "path": "refusal-controls/SPEC-F-modified-concurrent-h264-hardware.json",
+      "bytes": 49600,
+      "sha256": "804489cdb00de2ffe2ddcfc8589895d830d9c8fe8c4f8c76bd694c9a323ce478"
+    },
+    {
+      "path": "refusal-controls/SPEC-F-modified-concurrent-h264-positive-nv12.json",
+      "bytes": 50774,
+      "sha256": "1679c85701e1961c97112868d996af1e5e1cde2b1e7854a214c56ce5aa015415"
+    },
+    {
+      "path": "refusal-controls/SPEC-F-modified-concurrent-h264-positive-rgba.json",
+      "bytes": 50774,
+      "sha256": "d8f7b0e9c49f3e11cda751b0825eab3166fe6d8d6ae22c8c250c83bee0533d6e"
+    },
+    {
+      "path": "refusal-controls/SPEC-F-modified-concurrent-h264-profile.json",
+      "bytes": 50702,
+      "sha256": "cbf181cc9272692afd62f0e2c1fb38fcc639ad9eadf297aed773a79172c434f3"
+    },
+    {
+      "path": "refusal-controls/SPEC-F-modified-concurrent-h264-reference.json",
+      "bytes": 49570,
+      "sha256": "3ee69c306ee9fcef440fb22108071bfbf72ac2f0ace08e1e67b041e3276c437b"
+    },
+    {
+      "path": "refusal-controls/SPEC-H-metal-h264-hardware.json",
+      "bytes": 49512,
+      "sha256": "791096d15960228e03049ca44c24115948f2c0aae9f350f80897afb7c9204804"
+    },
+    {
+      "path": "refusal-controls/SPEC-H-metal-h264-positive-nv12.json",
+      "bytes": 51221,
+      "sha256": "b97cc4b620556c7e3352e17b4e8271458cd21d09728763d508b7cfe0ec3de43f"
+    },
+    {
+      "path": "refusal-controls/SPEC-H-metal-h264-positive-rgba.json",
+      "bytes": 51218,
+      "sha256": "7f3dbfd7c7fa68841200631125ef4af87c8790dc936fcf47bfe593f55a7d2d17"
+    },
+    {
+      "path": "refusal-controls/SPEC-H-metal-h264-profile.json",
+      "bytes": 51264,
+      "sha256": "da9f414ad4f709f3dbf75d08b45adbb7a8be0e3a4b5c77ab33adc6cdba3618c3"
+    },
+    {
+      "path": "refusal-controls/SPEC-H-metal-h264-reference.json",
+      "bytes": 49387,
+      "sha256": "cc13f55e1aa5f00ee0221c6bdac7a8178b60763641b5c4ce74a44d336b56260a"
+    },
+    {
+      "path": "refusal-controls/SPEC-H-metal-hevc-hardware.json",
+      "bytes": 49512,
+      "sha256": "b841373e648667b556d0b3b524c182919011ee3c40ece0b22e0f0dd6a0b02a76"
+    },
+    {
+      "path": "refusal-controls/SPEC-H-metal-hevc-positive-nv12.json",
+      "bytes": 51221,
+      "sha256": "cc847529d53924a91fd98b3fa339db81d3e8e68a23b539d1855cf64b8bf68c98"
+    },
+    {
+      "path": "refusal-controls/SPEC-H-metal-hevc-positive-rgba.json",
+      "bytes": 51218,
+      "sha256": "fa1febe3ef17670ccde108e8ca4fb9e15323487a11da480198c58d2d185a8cfb"
+    },
+    {
+      "path": "refusal-controls/SPEC-H-metal-hevc-profile.json",
+      "bytes": 51264,
+      "sha256": "2dfc5eaea29f71e4cb12dd00dd18580497d48025f1d575aaa7d5ef060a335383"
+    },
+    {
+      "path": "refusal-controls/SPEC-H-metal-hevc-reference.json",
+      "bytes": 49387,
+      "sha256": "04f6897b39abd40c271145837d4fdc3501f93f91794eb4f46e9a9e9dc68d2a22"
+    },
+    {
+      "path": "refusal-controls/SPEC-H-vulkan-h264-hardware.json",
+      "bytes": 49541,
+      "sha256": "96dfd25ee7014ef1628c5c90c28b82a3c3f5cb5c3c9704b3635258028ce03e67"
+    },
+    {
+      "path": "refusal-controls/SPEC-H-vulkan-h264-positive-nv12.json",
+      "bytes": 51623,
+      "sha256": "170e3e2d7208a77c2c25bc8f80885a1bc5534c5ccf646beebea9bdb65618ee44"
+    },
+    {
+      "path": "refusal-controls/SPEC-H-vulkan-h264-positive-rgba.json",
+      "bytes": 51620,
+      "sha256": "977feadcac70888b169355e10adee6fb14a74f55dcf9bb3101c769c2ff4de598"
+    },
+    {
+      "path": "refusal-controls/SPEC-H-vulkan-h264-profile.json",
+      "bytes": 51667,
+      "sha256": "7c5a81528d731b0a4988be15b8152e58c52a7031f615cb1cd5e505f365059bbc"
+    },
+    {
+      "path": "refusal-controls/SPEC-H-vulkan-h264-reference.json",
+      "bytes": 49415,
+      "sha256": "5d0ba103d40a53dbe2cb00d264601bd10657b3977f6e3d630b42daa662538797"
+    },
+    {
+      "path": "refusal-controls/SPEC-H-vulkan-hevc-hardware.json",
+      "bytes": 49541,
+      "sha256": "8717a5e088cb816064f96638b393ee8f0fd25d7cfc1a32392594f5cd88b80e16"
+    },
+    {
+      "path": "refusal-controls/SPEC-H-vulkan-hevc-positive-nv12.json",
+      "bytes": 51623,
+      "sha256": "1456145c539a9c03837c9852d79a8e3cd47f164ca2b5e0d9db3bbd93072e2efa"
+    },
+    {
+      "path": "refusal-controls/SPEC-H-vulkan-hevc-positive-rgba.json",
+      "bytes": 51620,
+      "sha256": "4737f73339336e29d4a7124b344d9fd9f4d557fb240761286b00887a4456bfc9"
+    },
+    {
+      "path": "refusal-controls/SPEC-H-vulkan-hevc-profile.json",
+      "bytes": 51667,
+      "sha256": "53f19256bec138937ba827ab53b1c58b54bd7d95356f08dfdfabeaff09751d38"
+    },
+    {
+      "path": "refusal-controls/SPEC-H-vulkan-hevc-reference.json",
+      "bytes": 49415,
+      "sha256": "571c166b3c67a8220cd5b9304c3c21d737dc30bf860ff98d6e8db662c9801ac3"
+    },
+    {
+      "path": "retained-codec-controls/h264/CONFORMANCE.json",
+      "bytes": 279645,
+      "sha256": "7326def855d7d301b90449ae3486a36084b3e3b70cfdd02b11d0821614b79231"
+    },
+    {
+      "path": "retained-codec-controls/h264/CONFORMANCE.json.destinationTrace.log",
+      "bytes": 92641,
+      "sha256": "825f8a882b254346ebd716b63ec570af6d6132baf6affed823bc426c58ce88a0"
+    },
+    {
+      "path": "retained-codec-controls/h264/CONFORMANCE.json.sourceTrace.log",
+      "bytes": 92022,
+      "sha256": "1a52239a8cdba3532ac2dbb042ace269c379846d16b2c8da76a02f95282effca"
+    },
+    {
+      "path": "retained-codec-controls/h264/PROCESS.json",
+      "bytes": 1276,
+      "sha256": "7d5add0f8d53d4a1dbbf3a39fc0088bcd9b0ebef631915ba4afc921fb12a2663"
+    },
+    {
+      "path": "retained-codec-controls/h264/center.mp4",
+      "bytes": 281547,
+      "sha256": "7b8d0e559c5c37f82e1f954a7c05ba2c4791abc44d18d30196f29d2e0f305c9a"
+    },
+    {
+      "path": "retained-codec-controls/h264/original.mp4",
+      "bytes": 281246,
+      "sha256": "f65e6ecee56dd723354aa213b73deaaed1d7967a5893adf4d723a1a04447b0eb"
+    },
+    {
+      "path": "retained-codec-controls/h264/process.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "retained-codec-controls/h264/process.stdout.log",
+      "bytes": 175,
+      "sha256": "fcb6a64969714844af4185dd40f2f1d7fc23f295094699705230f72323dfc2bd"
+    },
+    {
+      "path": "retained-codec-controls/hevc/CONFORMANCE.json",
+      "bytes": 130121,
+      "sha256": "f329b096355ad2352197d3c9c06d67fc6798e77afdd683ed1fe91a36c0fa908c"
+    },
+    {
+      "path": "retained-codec-controls/hevc/CONFORMANCE.json.destinationTrace.log",
+      "bytes": 102311,
+      "sha256": "94cc9f9665ffbbe6f1d479daf8ed10bed37a31417d0fd669120769cc31362996"
+    },
+    {
+      "path": "retained-codec-controls/hevc/CONFORMANCE.json.sourceTrace.log",
+      "bytes": 101767,
+      "sha256": "507bfbb191b69dd183c7847fa3fb81b6c240682510a3da9728552f4109e413d2"
+    },
+    {
+      "path": "retained-codec-controls/hevc/PROCESS.json",
+      "bytes": 1271,
+      "sha256": "9b9be59d1fb71525108185c0e233b95ead5b172fe22f24fcb62fdb7498e1cda3"
+    },
+    {
+      "path": "retained-codec-controls/hevc/center.mp4",
+      "bytes": 258927,
+      "sha256": "f136e9c92d1767a62a2cf2b29277d8eb75168b11d192f11e8764b6ef80c90e62"
+    },
+    {
+      "path": "retained-codec-controls/hevc/original.mp4",
+      "bytes": 258926,
+      "sha256": "4c088d17edceeca6c3cf23b72b8d73c2546f038e40cf676ffa3d519361b86d16"
+    },
+    {
+      "path": "retained-codec-controls/hevc/process.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "retained-codec-controls/hevc/process.stdout.log",
+      "bytes": 175,
+      "sha256": "b7a9d0295e627564a6e0836055ac03ae7e13efd65ac5f1f327fcce88d3c6a368"
+    },
+    {
+      "path": "source/codec_fixture_helper.py",
+      "bytes": 2159,
+      "sha256": "31429901e0efa75fd264a7c1d4d4b2948205320022208ab76d5b2f2a1faf8219"
+    },
+    {
+      "path": "source/codec_fixture_scene.mjs",
+      "bytes": 688,
+      "sha256": "c6c8cfe062d6d86c13525867d33650ccbfa194b24fb34012bf57b1c00818efd8"
+    },
+    {
+      "path": "source/codec_orchestration.py",
+      "bytes": 11610,
+      "sha256": "2e68574f43f95d3bc875594bda562e3f61a9e671e8c271bae33eafa8fa6993ee"
+    },
+    {
+      "path": "source/native_codec_feed.mjs",
+      "bytes": 5620,
+      "sha256": "225457a9b51d3c8924d3c73dbaa42353b4ae13052bea126d633076ff2d0fa1d0"
+    },
+    {
+      "path": "source/test_codec_orchestration.py",
+      "bytes": 8130,
+      "sha256": "def11436bf85bd253128158b52b2b0ce1ead0117e0f610739fa776fd865f8ce3"
+    },
+    {
+      "path": "source.zip",
+      "bytes": 28492,
+      "sha256": "5ef3c534fbad89294805737a93ceead851341adaaf07f1085b71087920eade00"
+    }
+  ],
+  "entries": 139,
+  "bytes": 5682507,
+  "excludesItself": true,
+  "allFilesReadable": true,
+  "symlinksExplicit": true,
+  "noGPUExport": true,
+  "benchmarkTiming": false
+}

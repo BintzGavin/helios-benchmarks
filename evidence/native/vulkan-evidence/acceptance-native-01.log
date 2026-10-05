@@ -1,0 +1,32 @@
+
+ RUN  v4.1.8 /Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios
+
+ ❯ packages/portable/tests/gpu-vulkan.test.ts (7 tests | 4 failed) 3261ms
+   × exports actual Skia Vulkan hardware h264 with decoded cadence/color and fence drain (json) 1517ms
+   × exports actual Skia Vulkan hardware h264 with decoded cadence/color and fence drain (binary) 96ms
+   × exports actual Skia Vulkan hardware hevc with decoded cadence/color and fence drain (json) 107ms
+   × exports actual Skia Vulkan hardware hevc with decoded cadence/color and fence drain (binary) 109ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 4 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  packages/portable/tests/gpu-vulkan.test.ts > exports actual Skia Vulkan hardware h264 with decoded cadence/color and fence drain (json)
+ FAIL  packages/portable/tests/gpu-vulkan.test.ts > exports actual Skia Vulkan hardware h264 with decoded cadence/color and fence drain (binary)
+ FAIL  packages/portable/tests/gpu-vulkan.test.ts > exports actual Skia Vulkan hardware hevc with decoded cadence/color and fence drain (json)
+ FAIL  packages/portable/tests/gpu-vulkan.test.ts > exports actual Skia Vulkan hardware hevc with decoded cadence/color and fence drain (binary)
+RenderError: Media process failed (1)
+ ❯ ChildProcess.<anonymous> packages/portable/src/process.ts:19:35
+     17|       if (options.signal?.aborted) reject(options.signal.reason instan…
+     18|       else if (timedOut) reject(new RenderError('PROCESS_TIMEOUT', 'Me…
+     19|       else if (code !== 0) reject(new RenderError('MEDIA_PROCESS', `Me…
+       |                                   ^
+     20|       else resolve();
+     21|     });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/4]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  4 failed | 3 passed (7)
+   Start at  15:15:42
+   Duration  3.59s (transform 86ms, setup 0ms, import 219ms, tests 3.26s, environment 0ms)
+

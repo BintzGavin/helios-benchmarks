@@ -1,0 +1,179 @@
+
+ RUN  v4.1.8 /Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios
+
+ ❯ packages/portable/tests/process-recovery.test.ts (8 tests | 8 failed) 46ms
+   × recovers after a real SIGKILL at the 'render' boundary with 'native' 16ms
+   × recovers after a real SIGKILL at the 'upload' boundary with 'native' 9ms
+   × recovers after a real SIGKILL at the 'commit' boundary with 'native' 9ms
+   × recovers after a real SIGKILL at the 'finalize' boundary with 'native' 9ms
+   × recovers after a real SIGKILL at the 'render' boundary with 'skia' 1ms
+   × recovers after a real SIGKILL at the 'upload' boundary with 'skia' 1ms
+   × recovers after a real SIGKILL at the 'commit' boundary with 'skia' 1ms
+   × recovers after a real SIGKILL at the 'finalize' boundary with 'skia' 0ms
+ ❯ packages/portable/tests/media.test.ts (7 tests | 7 failed) 10ms
+     × streams raw RGBA frames identical to the existing PNG decode path 4ms
+     × seeks video independently and composites a still image with native 2ms
+     × seeks video independently and composites a still image with skia 1ms
+     × mixes exactly the rational timeline sample count with deterministic fades 1ms
+     × exports real H.264 + AAC with video, an image and timed audio with native 1ms
+     × exports real H.264 + AAC with video, an image and timed audio with skia 0ms
+     × rejects mislabeled media and source trims beyond the available duration 0ms
+ ❯ packages/portable/tests/recovery.test.ts (7 tests | 7 failed) 69ms
+     × rejects a corrupted immutable artifact collision instead of publishing a second false success 15ms
+     × allows one of many competing workers to own the next step 10ms
+     × persists cancellation in another process and fences the old executor 9ms
+     × recovers an expired lease and rejects a late completion from its former owner 9ms
+     × reattaches after a manifest commit fails and reuses verified state 9ms
+     × rejects corrupted committed chunks and never publishes false success 8ms
+     × bounds retries and rejects engine changes on an in-flight job 8ms
+ ❯ packages/portable/tests/canvas.test.ts (17 tests | 4 failed) 426ms
+   × retains the combined draw timer while reporting separate frame stages 6ms
+   × renders a complete nonzero range with software encoding and exact frame indices 2ms
+   × preserves its explicit color conversion with srgb-bt709 2ms
+   × preserves its explicit color conversion with rgb-bt601 1ms
+ ❯ packages/portable/tests/canvas-pool.test.ts (5 tests | 2 failed) 620ms
+   × stitches concurrent ranges in timeline order without replaying earlier frames 156ms
+   × refuses delivery when the final decode count disagrees with complete internal packets 158ms
+ ❯ packages/portable/tests/jobs.test.ts (5 tests | 4 failed) 183ms
+     × enforces declared host duration and scratch admission without publishing output 18ms
+     × reattaches duplicate submissions, rejects changed inputs, and isolates tenants 46ms
+     × renders real chunks across fresh service instances and publishes only a verified video 9ms
+     × persists cancellation and never starts canceled work or exposes an output 9ms
+ ❯ packages/portable/tests/api.test.ts (4 tests | 2 failed) 1584ms
+     × submits, advances and downloads a verified MP4 using the same handler a function calls 775ms
+     × supports range requests on completed artifacts and rejects invalid ranges 774ms
+ ❯ packages/portable/tests/http.test.ts (1 test | 1 failed) 855ms
+   × serves real HTTP, reassembles bounded asset uploads and completes a background workflow 854ms
+ ❯ packages/portable/tests/cli.test.ts (3 tests | 2 failed) 18ms
+     × renders a plan from disk to a verified video with native and no Chromium 10ms
+     × renders a plan from disk to a verified video with skia and no Chromium 7ms
+ ❯ packages/portable/tests/color.test.ts (2 tests | 2 failed) 15ms
+   × converts sRGB mid-gray to BT.709 luminance with native 8ms
+   × converts sRGB mid-gray to BT.709 luminance with skia 7ms
+ ❯ packages/portable/tests/render.test.ts (2 tests | 1 failed) 75ms
+     × renders a playable MP4 with an exact frame count and cadence 6ms
+ ❯ packages/portable/tests/gpu-reference.test.ts (1 test | 1 failed) 5ms
+   × preserves GPU NV12 values byte for byte in the tagged lossless oracle 5ms
+
+⎯⎯⎯⎯⎯⎯ Failed Tests 41 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  packages/portable/tests/api.test.ts > render API and workflow SDK > submits, advances and downloads a verified MP4 using the same handler a function calls
+Error: Required media executable could not start
+ ❯ RenderClient.request packages/portable/src/client.ts:19:15
+     17|         if (response.ok) return response;
+     18|         const body = await response.json().catch(() => ({})) as { erro…
+     19|         throw new RenderClientError(body.error?.code ?? 'HTTP_ERROR', …
+       |               ^
+     20|       } catch (error) {
+     21|         if (init.signal?.aborted) throw init.signal.reason;
+ ❯ RenderClient.submit packages/portable/src/client.ts:37:105
+ ❯ RenderClient.render packages/portable/src/client.ts:79:17
+ ❯ packages/portable/tests/api.test.ts:32:17
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/41]⎯
+
+ FAIL  packages/portable/tests/api.test.ts > render API and workflow SDK > supports range requests on completed artifacts and rejects invalid ranges
+Error: Required media executable could not start
+ ❯ RenderClient.request packages/portable/src/client.ts:19:15
+     17|         if (response.ok) return response;
+     18|         const body = await response.json().catch(() => ({})) as { erro…
+     19|         throw new RenderClientError(body.error?.code ?? 'HTTP_ERROR', …
+       |               ^
+     20|       } catch (error) {
+     21|         if (init.signal?.aborted) throw init.signal.reason;
+ ❯ RenderClient.submit packages/portable/src/client.ts:37:105
+ ❯ RenderClient.render packages/portable/src/client.ts:79:17
+ ❯ packages/portable/tests/api.test.ts:48:17
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/41]⎯
+
+ FAIL  packages/portable/tests/canvas-pool.test.ts > stitches concurrent ranges in timeline order without replaying earlier frames
+RenderError: CPU canvas worker failed
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/41]⎯
+
+ FAIL  packages/portable/tests/canvas-pool.test.ts > refuses delivery when the final decode count disagrees with complete internal packets
+AssertionError: expected RenderError: CPU canvas worker failed { …(2) } to match object { code: 'INVALID_OUTPUT' }
+(2 matching properties omitted from actual)
+
+- Expected
++ Received
+
+- {
+-   "code": "INVALID_OUTPUT",
++ RenderError {
++   "code": "CANVAS_WORKER",
+  }
+
+ ❯ packages/portable/tests/canvas-pool.test.ts:62:159
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/41]⎯
+
+ FAIL  packages/portable/tests/canvas.test.ts > retains the combined draw timer while reporting separate frame stages
+ FAIL  packages/portable/tests/canvas.test.ts > renders a complete nonzero range with software encoding and exact frame indices
+ FAIL  packages/portable/tests/canvas.test.ts > preserves its explicit color conversion with srgb-bt709
+ FAIL  packages/portable/tests/canvas.test.ts > preserves its explicit color conversion with rgb-bt601
+ FAIL  packages/portable/tests/cli.test.ts > portable CLI > renders a plan from disk to a verified video with native and no Chromium
+ FAIL  packages/portable/tests/cli.test.ts > portable CLI > renders a plan from disk to a verified video with skia and no Chromium
+ FAIL  packages/portable/tests/color.test.ts > converts sRGB mid-gray to BT.709 luminance with native
+ FAIL  packages/portable/tests/color.test.ts > converts sRGB mid-gray to BT.709 luminance with skia
+ FAIL  packages/portable/tests/gpu-reference.test.ts > preserves GPU NV12 values byte for byte in the tagged lossless oracle
+ FAIL  packages/portable/tests/jobs.test.ts > durable render jobs > enforces declared host duration and scratch admission without publishing output
+ FAIL  packages/portable/tests/jobs.test.ts > durable render jobs > reattaches duplicate submissions, rejects changed inputs, and isolates tenants
+ FAIL  packages/portable/tests/jobs.test.ts > durable render jobs > renders real chunks across fresh service instances and publishes only a verified video
+ FAIL  packages/portable/tests/jobs.test.ts > durable render jobs > persists cancellation and never starts canceled work or exposes an output
+ FAIL  packages/portable/tests/media.test.ts > complete media pipeline > streams raw RGBA frames identical to the existing PNG decode path
+ FAIL  packages/portable/tests/media.test.ts > complete media pipeline > seeks video independently and composites a still image with native
+ FAIL  packages/portable/tests/media.test.ts > complete media pipeline > seeks video independently and composites a still image with skia
+ FAIL  packages/portable/tests/media.test.ts > complete media pipeline > mixes exactly the rational timeline sample count with deterministic fades
+ FAIL  packages/portable/tests/media.test.ts > complete media pipeline > exports real H.264 + AAC with video, an image and timed audio with native
+ FAIL  packages/portable/tests/media.test.ts > complete media pipeline > exports real H.264 + AAC with video, an image and timed audio with skia
+ FAIL  packages/portable/tests/media.test.ts > complete media pipeline > rejects mislabeled media and source trims beyond the available duration
+ FAIL  packages/portable/tests/process-recovery.test.ts > recovers after a real SIGKILL at the 'render' boundary with 'native'
+ FAIL  packages/portable/tests/process-recovery.test.ts > recovers after a real SIGKILL at the 'upload' boundary with 'native'
+ FAIL  packages/portable/tests/process-recovery.test.ts > recovers after a real SIGKILL at the 'commit' boundary with 'native'
+ FAIL  packages/portable/tests/process-recovery.test.ts > recovers after a real SIGKILL at the 'finalize' boundary with 'native'
+ FAIL  packages/portable/tests/process-recovery.test.ts > recovers after a real SIGKILL at the 'render' boundary with 'skia'
+ FAIL  packages/portable/tests/process-recovery.test.ts > recovers after a real SIGKILL at the 'upload' boundary with 'skia'
+ FAIL  packages/portable/tests/process-recovery.test.ts > recovers after a real SIGKILL at the 'commit' boundary with 'skia'
+ FAIL  packages/portable/tests/process-recovery.test.ts > recovers after a real SIGKILL at the 'finalize' boundary with 'skia'
+ FAIL  packages/portable/tests/recovery.test.ts > render recovery and fencing > rejects a corrupted immutable artifact collision instead of publishing a second false success
+ FAIL  packages/portable/tests/recovery.test.ts > render recovery and fencing > allows one of many competing workers to own the next step
+ FAIL  packages/portable/tests/recovery.test.ts > render recovery and fencing > persists cancellation in another process and fences the old executor
+ FAIL  packages/portable/tests/recovery.test.ts > render recovery and fencing > recovers an expired lease and rejects a late completion from its former owner
+ FAIL  packages/portable/tests/recovery.test.ts > render recovery and fencing > reattaches after a manifest commit fails and reuses verified state
+ FAIL  packages/portable/tests/recovery.test.ts > render recovery and fencing > rejects corrupted committed chunks and never publishes false success
+ FAIL  packages/portable/tests/recovery.test.ts > render recovery and fencing > bounds retries and rejects engine changes on an in-flight job
+ FAIL  packages/portable/tests/render.test.ts > real browser-free rendering > renders a playable MP4 with an exact frame count and cadence
+RenderError: Required media executable could not start
+ ❯ ChildProcess.<anonymous> packages/portable/src/process.ts:15:38
+     13|   const kill = () => { if (killTimer) return; child.kill('SIGTERM'); k…
+     14|   const done = new Promise<void>((resolve, reject) => {
+     15|     child.once('error', () => reject(new RenderError('PROCESS_START', …
+       |                                      ^
+     16|     child.once('close', code => {
+     17|       if (options.signal?.aborted) reject(options.signal.reason instan…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/41]⎯
+
+ FAIL  packages/portable/tests/http.test.ts > serves real HTTP, reassembles bounded asset uploads and completes a background workflow
+Error: Required media executable could not start
+ ❯ RenderClient.request packages/portable/src/client.ts:19:15
+     17|         if (response.ok) return response;
+     18|         const body = await response.json().catch(() => ({})) as { erro…
+     19|         throw new RenderClientError(body.error?.code ?? 'HTTP_ERROR', …
+       |               ^
+     20|       } catch (error) {
+     21|         if (init.signal?.aborted) throw init.signal.reason;
+ ❯ RenderClient.submit packages/portable/src/client.ts:37:105
+ ❯ RenderClient.render packages/portable/src/client.ts:79:17
+ ❯ packages/portable/tests/http.test.ts:23:17
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/41]⎯
+
+
+ Test Files  12 failed | 29 passed | 2 skipped (43)
+      Tests  41 failed | 178 passed | 20 skipped (239)
+   Start at  17:16:58
+   Duration  38.45s (transform 316ms, setup 0ms, import 2.57s, tests 31.90s, environment 2ms)
+

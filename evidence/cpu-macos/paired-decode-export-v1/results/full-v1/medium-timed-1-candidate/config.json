@@ -1,0 +1,25 @@
+{
+  "poolModule": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/paired-decode-export-v1/candidate/dist/canvas-pool.js",
+  "composition": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/paired-decode-export-v1/results/full-v1/medium-timed-1-candidate/composition.mjs",
+  "output": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/paired-decode-export-v1/results/full-v1/medium-timed-1-candidate/output.mp4",
+  "stats": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/paired-decode-export-v1/results/full-v1/medium-timed-1-candidate/component-stats.json",
+  "options": {
+    "ffmpeg": "/opt/homebrew/bin/ffmpeg",
+    "ffprobe": "/opt/homebrew/bin/ffprobe",
+    "concurrency": 4,
+    "chunkFrames": 75,
+    "encoder": {
+      "preset": "medium",
+      "crf": 11,
+      "threads": 8,
+      "gop": 24,
+      "bframes": 3,
+      "sceneCut": true,
+      "qmin": 15,
+      "qmax": 60,
+      "qcompress": 0.6,
+      "maxQdiff": 4,
+      "colorConversion": "rgb-bt601"
+    }
+  }
+}

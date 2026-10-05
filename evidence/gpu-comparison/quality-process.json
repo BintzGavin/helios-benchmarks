@@ -1,0 +1,80 @@
+[
+  {
+    "name": "f-software",
+    "argv": [
+      "/opt/homebrew/bin/python3",
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/preparation/unpacked/helios-gpu-comparison-prep/validate_video.py",
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/screen-f-software/video.mp4",
+      "--reference",
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/reference-f-software/reference.mkv",
+      "--engine",
+      "F",
+      "--reference-engine",
+      "F",
+      "--ssim-y",
+      "0.995",
+      "--psnr-y",
+      "40",
+      "--psnr-uv",
+      "35",
+      "--output",
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/screen-f-software/quality.json"
+    ],
+    "returncode": 0,
+    "startedUnix": 1791040070.387258,
+    "finishedUnix": 1791040090.654111,
+    "benchmarkTiming": false
+  },
+  {
+    "name": "f-hardware",
+    "argv": [
+      "/opt/homebrew/bin/python3",
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/preparation/unpacked/helios-gpu-comparison-prep/validate_video.py",
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/screen-f-hardware/video.mp4",
+      "--reference",
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/reference-f-hardware/reference.mkv",
+      "--engine",
+      "F",
+      "--reference-engine",
+      "F",
+      "--ssim-y",
+      "0.995",
+      "--psnr-y",
+      "40",
+      "--psnr-uv",
+      "35",
+      "--output",
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/screen-f-hardware/quality.json"
+    ],
+    "returncode": 1,
+    "startedUnix": 1791040090.654621,
+    "finishedUnix": 1791040111.142485,
+    "benchmarkTiming": false
+  },
+  {
+    "name": "r-software",
+    "argv": [
+      "/opt/homebrew/bin/python3",
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/preparation/unpacked/helios-gpu-comparison-prep/validate_video.py",
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/screen-r-software/video.mp4",
+      "--reference",
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/reference-r-software/reference.mkv",
+      "--engine",
+      "R",
+      "--reference-engine",
+      "R",
+      "--ssim-y",
+      "0.995",
+      "--psnr-y",
+      "40",
+      "--psnr-uv",
+      "35",
+      "--output",
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/screen-r-software/quality.json"
+    ],
+    "returncode": 1,
+    "startedUnix": 1791040111.142884,
+    "finishedUnix": 1791040132.352132,
+    "benchmarkTiming": false
+  }
+]

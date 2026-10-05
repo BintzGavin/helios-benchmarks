@@ -1,0 +1,10 @@
+import type * as CanvasTypes from '@napi-rs/canvas';
+export declare const GlobalFonts: typeof CanvasTypes.GlobalFonts;
+export declare const Path2D: typeof CanvasTypes.Path2D;
+export type Path2D = CanvasTypes.Path2D;
+export declare const ImageData: typeof CanvasTypes.ImageData;
+export type Canvas = CanvasTypes.Canvas;
+export type Image = CanvasTypes.Image;
+export type SKRSContext2D = CanvasTypes.SKRSContext2D;
+export declare function createCanvas(width: number, height: number): Canvas;
+export declare function loadImage(bytes: Uint8Array): Promise<Image>;

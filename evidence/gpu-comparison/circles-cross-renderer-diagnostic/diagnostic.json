@@ -1,0 +1,86 @@
+{
+  "scope": "same scene/source-frame3, two lossless renderer references; Skia versions/AA/text may differ; not an encoding quality gate or pixel identity assertion",
+  "planes": [
+    {
+      "plane": "Y",
+      "meanAbsoluteDelta": 1.3899065634645063,
+      "differentBytes": 586234,
+      "greaterThan4Bytes": 366234,
+      "maximumDelta": 217
+    },
+    {
+      "plane": "U",
+      "meanAbsoluteDelta": 0.4671137152777778,
+      "differentBytes": 213726,
+      "greaterThan4Bytes": 63073,
+      "maximumDelta": 67
+    },
+    {
+      "plane": "V",
+      "meanAbsoluteDelta": 0.5049763695987655,
+      "differentBytes": 222856,
+      "greaterThan4Bytes": 69630,
+      "maximumDelta": 62
+    }
+  ],
+  "commands": [
+    [
+      "/opt/homebrew/bin/ffmpeg",
+      "-v",
+      "error",
+      "-threads",
+      "2",
+      "-i",
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-reference-h/reference.mkv",
+      "-frames:v",
+      "1",
+      "-pix_fmt",
+      "yuv420p",
+      "-f",
+      "rawvideo",
+      "-"
+    ],
+    [
+      "/opt/homebrew/bin/ffmpeg",
+      "-v",
+      "error",
+      "-y",
+      "-threads",
+      "2",
+      "-i",
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-reference-h/reference.mkv",
+      "-frames:v",
+      "1",
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-cross-renderer-diagnostic/H-source-frame-3.png"
+    ],
+    [
+      "/opt/homebrew/bin/ffmpeg",
+      "-v",
+      "error",
+      "-threads",
+      "2",
+      "-i",
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-reference-f-v2/reference.mkv",
+      "-frames:v",
+      "1",
+      "-pix_fmt",
+      "yuv420p",
+      "-f",
+      "rawvideo",
+      "-"
+    ],
+    [
+      "/opt/homebrew/bin/ffmpeg",
+      "-v",
+      "error",
+      "-y",
+      "-threads",
+      "2",
+      "-i",
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-reference-f-v2/reference.mkv",
+      "-frames:v",
+      "1",
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-cross-renderer-diagnostic/F-source-frame-3.png"
+    ]
+  ]
+}

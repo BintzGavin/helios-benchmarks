@@ -1,0 +1,230 @@
+{
+  "status": "complete",
+  "failure": null,
+  "mode": "holdout",
+  "selection": [
+    {
+      "settings": "resource-derived two-CPU budget: two workers, one encoder thread per worker/active encoder; no timing-based tuning screen",
+      "qualificationManifest": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/qualification-v1/manifest.json",
+      "qualificationManifestSha256": "cdcec6039168bdd56266b67becffa5f689b9cd121ccb0e88794fb2177952f632"
+    }
+  ],
+  "host": {
+    "availableParallelism": 2,
+    "cpu": "Intel(R) Xeon(R) Processor @ 2.60GHz",
+    "node": "v24.19.0",
+    "platform": "linux",
+    "arch": "x64"
+  },
+  "profiles": [
+    {
+      "id": "H-medium-w2-t1",
+      "engine": "H",
+      "workers": 2,
+      "encoderThreads": 1,
+      "preset": "medium",
+      "jpegQuality": null
+    },
+    {
+      "id": "F-medium-w2-t1",
+      "engine": "F",
+      "workers": 2,
+      "encoderThreads": 1,
+      "preset": "medium",
+      "jpegQuality": null
+    },
+    {
+      "id": "R-medium-w2-t1",
+      "engine": "R",
+      "workers": 2,
+      "encoderThreads": 1,
+      "preset": "medium",
+      "jpegQuality": 100
+    },
+    {
+      "id": "H-ultrafast-w2-t1",
+      "engine": "H",
+      "workers": 2,
+      "encoderThreads": 1,
+      "preset": "ultrafast",
+      "jpegQuality": null
+    },
+    {
+      "id": "F-ultrafast-w2-t1",
+      "engine": "F",
+      "workers": 2,
+      "encoderThreads": 1,
+      "preset": "ultrafast",
+      "jpegQuality": null
+    },
+    {
+      "id": "R-ultrafast-w2-t1",
+      "engine": "R",
+      "workers": 2,
+      "encoderThreads": 1,
+      "preset": "ultrafast",
+      "jpegQuality": 100
+    }
+  ],
+  "groups": [
+    [
+      [
+        "H-medium-w2-t1",
+        "F-medium-w2-t1",
+        "R-medium-w2-t1"
+      ],
+      [
+        [
+          "H-medium-w2-t1",
+          "F-medium-w2-t1",
+          "R-medium-w2-t1"
+        ],
+        [
+          "F-medium-w2-t1",
+          "R-medium-w2-t1",
+          "H-medium-w2-t1"
+        ],
+        [
+          "R-medium-w2-t1",
+          "H-medium-w2-t1",
+          "F-medium-w2-t1"
+        ]
+      ]
+    ],
+    [
+      [
+        "H-ultrafast-w2-t1",
+        "F-ultrafast-w2-t1",
+        "R-ultrafast-w2-t1"
+      ],
+      [
+        [
+          "H-ultrafast-w2-t1",
+          "F-ultrafast-w2-t1",
+          "R-ultrafast-w2-t1"
+        ],
+        [
+          "F-ultrafast-w2-t1",
+          "R-ultrafast-w2-t1",
+          "H-ultrafast-w2-t1"
+        ],
+        [
+          "R-ultrafast-w2-t1",
+          "H-ultrafast-w2-t1",
+          "F-ultrafast-w2-t1"
+        ]
+      ]
+    ]
+  ],
+  "profileSummary": [
+    {
+      "profile": {
+        "id": "H-medium-w2-t1",
+        "engine": "H",
+        "workers": 2,
+        "encoderThreads": 1,
+        "preset": "medium",
+        "jpegQuality": null
+      },
+      "eligible": true,
+      "timedDeliveredWallNs": [
+        69156139448,
+        69059951412,
+        69426166154
+      ],
+      "medianDeliveredWallNs": 69156139448
+    },
+    {
+      "profile": {
+        "id": "F-medium-w2-t1",
+        "engine": "F",
+        "workers": 2,
+        "encoderThreads": 1,
+        "preset": "medium",
+        "jpegQuality": null
+      },
+      "eligible": true,
+      "timedDeliveredWallNs": [
+        92045448392,
+        91910993266,
+        92201298828
+      ],
+      "medianDeliveredWallNs": 92045448392
+    },
+    {
+      "profile": {
+        "id": "R-medium-w2-t1",
+        "engine": "R",
+        "workers": 2,
+        "encoderThreads": 1,
+        "preset": "medium",
+        "jpegQuality": 100
+      },
+      "eligible": true,
+      "timedDeliveredWallNs": [
+        151413629799,
+        152851689415,
+        152316073808
+      ],
+      "medianDeliveredWallNs": 152316073808
+    },
+    {
+      "profile": {
+        "id": "H-ultrafast-w2-t1",
+        "engine": "H",
+        "workers": 2,
+        "encoderThreads": 1,
+        "preset": "ultrafast",
+        "jpegQuality": null
+      },
+      "eligible": true,
+      "timedDeliveredWallNs": [
+        21163641221,
+        20704839205,
+        20679705204
+      ],
+      "medianDeliveredWallNs": 20704839205
+    },
+    {
+      "profile": {
+        "id": "F-ultrafast-w2-t1",
+        "engine": "F",
+        "workers": 2,
+        "encoderThreads": 1,
+        "preset": "ultrafast",
+        "jpegQuality": null
+      },
+      "eligible": true,
+      "timedDeliveredWallNs": [
+        39733311374,
+        39229473920,
+        39251199575
+      ],
+      "medianDeliveredWallNs": 39251199575
+    },
+    {
+      "profile": {
+        "id": "R-ultrafast-w2-t1",
+        "engine": "R",
+        "workers": 2,
+        "encoderThreads": 1,
+        "preset": "ultrafast",
+        "jpegQuality": 100
+      },
+      "eligible": true,
+      "timedDeliveredWallNs": [
+        60125442549,
+        60012809861,
+        59564471586
+      ],
+      "medianDeliveredWallNs": 60012809861
+    }
+  ],
+  "recordCount": 24,
+  "eligibleCount": 24,
+  "qualityArtifactCount": 6,
+  "qualityPassCount": 6,
+  "qualityFailures": [],
+  "retainedLogicalMp4Bytes": 5225924976,
+  "newPhysicalMp4Bytes": 1306481244
+}

@@ -1,0 +1,83 @@
+{
+  "matches": [
+    {
+      "file": "auth.js",
+      "sha256": "5036664a0b4c6336c36e7a3b73afbee353e6394b95f4a806b737c0b76a46b6d3"
+    },
+    {
+      "file": "backend.js",
+      "sha256": "43a4dec50101eb767dbd1ec2e4324a668deea3f7b8b65e6c34fe384d202aad76"
+    },
+    {
+      "file": "canvas-pool.js",
+      "sha256": "76faca79a66fdae5832337c317af6798e3c4d62d9f25ad2533d88d833a1837d0"
+    },
+    {
+      "file": "canvas-worker.js",
+      "sha256": "b1b9c3ae4359a41c5194b45e5cbb49591babaf4e3e9ff08d03929c0304fa8001"
+    },
+    {
+      "file": "canvas.js",
+      "sha256": "4e7a3e38b67bf6761ab6b42de95a90e17b87f8c26346221b47a5fc2ea96e83fb"
+    },
+    {
+      "file": "cli.js",
+      "sha256": "d9edb48715e9146f221b6b903482346f68420f688a8ebebbeebeea438866be8b"
+    },
+    {
+      "file": "client.js",
+      "sha256": "c32458c091ff63874a58e38d2991044179485d89c856db0de17e2cc617200e90"
+    },
+    {
+      "file": "index.js",
+      "sha256": "491b0a63973fd11a2502e8b3748b6d3c14690088d7f47b74dccb24ef4c253520"
+    },
+    {
+      "file": "jobs.js",
+      "sha256": "c90739169e9150adda16f45b10d7f4e77711843f3cd6661749e33e3664abd2d7"
+    },
+    {
+      "file": "media.js",
+      "sha256": "67993f258fef048892a954ab2282a31a9e1ac2637ebe7b7bbd6c14e413ffdba7"
+    },
+    {
+      "file": "plan.js",
+      "sha256": "9552b7c36b54c3272d75e243d8ab4b53ebce7b860b88e5103af95e280cf471c6"
+    },
+    {
+      "file": "process.js",
+      "sha256": "9d448754cb40062e372746283e13ae245924a800e9938473b769e55b66761d7e"
+    },
+    {
+      "file": "render.js",
+      "sha256": "00f4f847c4e02e9dd28a6189504b28b695393e37a00c651f1b88000146392ed2"
+    },
+    {
+      "file": "s3-storage.js",
+      "sha256": "0a62ef2fb0111ae5e9ad163c0d55400de9e71fecf8df5387bade65d85e9adbeb"
+    },
+    {
+      "file": "server.js",
+      "sha256": "ebc970e016af47dc501114c9e1d3202655613327b9d033c5cea2b69bbadeda03"
+    },
+    {
+      "file": "skia-binding.js",
+      "sha256": "8eeb285f6ce96c36dc32e854e1cd55731eb25bdcc287a99784c30569ce2d7262"
+    },
+    {
+      "file": "skia.js",
+      "sha256": "a5cd349fe76a9cbaca782d75d79b0382be46764a21f32673e73cfaa50c8149b6"
+    },
+    {
+      "file": "storage.js",
+      "sha256": "e3112525447391b24bd58e7241339e70bdb48d9cfcc971eda6e2c5ce40970fcf"
+    },
+    {
+      "file": "text.js",
+      "sha256": "dbfd047b6d8d6b2f9d1f7faa154947c8fa15ba11be2e08da20a6675bca4263d5"
+    }
+  ],
+  "mismatches": [],
+  "missing": [],
+  "extra": []
+}

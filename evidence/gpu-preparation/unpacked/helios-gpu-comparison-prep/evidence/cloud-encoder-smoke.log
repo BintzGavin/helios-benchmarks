@@ -1,0 +1,17 @@
+HEVC NVIDIA actual encode smoke
+[hevc_nvenc @ 0x56499f26c0c0] Cannot load libcuda.so.1
+[vost#0:0/hevc_nvenc @ 0x56499f275340] Error while opening encoder - maybe incorrect parameters such as bit_rate, rate, width or height.
+[vf#0:0 @ 0x56499f2902c0] Error sending frames to consumers: Operation not permitted
+[vf#0:0 @ 0x56499f2902c0] Task finished with error code: -1 (Operation not permitted)
+[vf#0:0 @ 0x56499f2902c0] Terminating thread with return code -1 (Operation not permitted)
+[vost#0:0/hevc_nvenc @ 0x56499f275340] Could not open encoder before EOF
+[vost#0:0/hevc_nvenc @ 0x56499f275340] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/hevc_nvenc @ 0x56499f275340] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 0x56499f274ac0] Nothing was written into output file, because at least one of its streams received no packets.
+exit=255
+HEVC Vulkan actual encode smoke
+[AVHWDeviceContext @ 0x55a86f761140] Instance creation failure: VK_ERROR_INCOMPATIBLE_DRIVER
+Device creation failed: -542398533.
+Failed to set value 'vulkan=vk' for option 'init_hw_device': Generic error in an external library
+Error parsing global options: Generic error in an external library
+exit=187

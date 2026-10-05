@@ -1,0 +1,7 @@
+{
+  "status": "retained incomplete test harness attempt; excluded",
+  "error": "encoder-failure control returned Refusal: ENCODER_EXIT while its harness expected Pipe",
+  "reason": "both BrokenPipe/ConnectionReset and explicit nonzero encoder exit are legitimate pipeline refusals; final harness enumerates these outcomes",
+  "allAttemptFilesRetained": true,
+  "GPUExecuted": false
+}

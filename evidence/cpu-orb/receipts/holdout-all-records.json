@@ -1,0 +1,2526 @@
+[
+  {
+    "id": "H-medium-w2-t1",
+    "engine": "H",
+    "preset": "medium",
+    "phase": "warmup",
+    "index": 1,
+    "status": "complete",
+    "eligible": true,
+    "deliveredWallNs": 69710696959,
+    "deliveredWallSeconds": 69.710696959,
+    "components": {
+      "engine": {
+        "command": [
+          "/home/user/benchmark-work/node-v24.19.0-linux-x64/bin/node",
+          "/home/user/benchmark-work/repro-linux/helios-worker.mjs",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/warmup-1-H-medium-w2-t1/config.json"
+        ],
+        "exitCode": 0,
+        "wallNs": 69710417937
+      }
+    },
+    "outputs": [
+      {
+        "path": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/warmup-1-H-medium-w2-t1/output.mp4",
+        "bytes": 142217777,
+        "sha256": "47ed717af6c671c2574a716540ce846d1eade6089bb438a0be923c62cba2f569"
+      }
+    ],
+    "encoding": {
+      "rawUserSei": "x264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=1 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=24 keyint_min=2 scenecut=40 intra_refresh=0 rc_lookahead=24 rc=crf mbtree=1 crf=11.0 qcomp=0.60 qpmin=15 qpmax=60 qpstep=4 ip_ratio=1.40 aq=1:1.00",
+      "expected": {
+        "threads": 1,
+        "bframes": 3,
+        "keyint": 24,
+        "crf": 11,
+        "qpmin": 15,
+        "qpmax": 60,
+        "qcomp": 0.6,
+        "qpstep": 4,
+        "scenecut": 40,
+        "cabac": 1,
+        "ref": 3,
+        "subme": 7,
+        "trellis": 1
+      }
+    },
+    "heliosStats": {
+      "frames": 300,
+      "chunks": 2,
+      "workers": 2,
+      "ranges": [
+        {
+          "frames": 150,
+          "preparationMs": 33.62073699999999,
+          "rasterizeMs": 17664.95528199999,
+          "pixelExtractionMs": 2923.3309890000155,
+          "drawMs": 20590.407356999996,
+          "encoderWaitMs": 31815.225552000007,
+          "encodeMs": 60284.473924000005,
+          "verifyMs": 243.2488000000012
+        },
+        {
+          "frames": 150,
+          "preparationMs": 33.659839000000005,
+          "rasterizeMs": 17783.788082000014,
+          "pixelExtractionMs": 3066.760228999976,
+          "drawMs": 20852.654726000022,
+          "encoderWaitMs": 31830.34894199998,
+          "encodeMs": 60412.881461000004,
+          "verifyMs": 154.02634100000432
+        }
+      ],
+      "renderMs": 60840.564364,
+      "finalizeMs": 8501.637123999993,
+      "finalVerifyMs": 7984.194657999993
+    },
+    "remotion": null
+  },
+  {
+    "id": "F-medium-w2-t1",
+    "engine": "F",
+    "preset": "medium",
+    "phase": "warmup",
+    "index": 1,
+    "status": "complete",
+    "eligible": true,
+    "deliveredWallNs": 92335255667,
+    "deliveredWallSeconds": 92.335255667,
+    "components": {
+      "engine": {
+        "command": [
+          "/home/user/benchmark-work/fframes-cpu/target/release/helios-fframes-cpu-comparison",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/warmup-1-F-medium-w2-t1/output.mp4",
+          "medium",
+          "11",
+          "2",
+          "1",
+          "/home/user/benchmark-work/fframes/render-bench/vs-remotion/fframes/media"
+        ],
+        "exitCode": 0,
+        "wallNs": 83507675961
+      },
+      "verify": {
+        "command": [
+          "/usr/bin/ffprobe",
+          "-v",
+          "error",
+          "-threads",
+          "2",
+          "-count_frames",
+          "-show_streams",
+          "-show_format",
+          "-of",
+          "json",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/warmup-1-F-medium-w2-t1/output.mp4"
+        ],
+        "exitCode": 0,
+        "wallNs": 8827025758
+      }
+    },
+    "outputs": [
+      {
+        "path": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/warmup-1-F-medium-w2-t1/output.mp4",
+        "bytes": 167468939,
+        "sha256": "c20fd2a82fcf1803101de04504536e17ae77d49e4b1e7230760cee5bb1b616bc"
+      }
+    ],
+    "encoding": {
+      "rawUserSei": "x264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=1 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=24 keyint_min=2 scenecut=40 intra_refresh=0 rc_lookahead=24 rc=crf mbtree=1 crf=11.0 qcomp=0.60 qpmin=15 qpmax=60 qpstep=4 ip_ratio=1.40 aq=1:1.00",
+      "expected": {
+        "threads": 1,
+        "bframes": 3,
+        "keyint": 24,
+        "crf": 11,
+        "qpmin": 15,
+        "qpmax": 60,
+        "qcomp": 0.6,
+        "qpstep": 4,
+        "scenecut": 40,
+        "cabac": 1,
+        "ref": 3,
+        "subme": 7,
+        "trellis": 1
+      }
+    },
+    "heliosStats": null,
+    "remotion": null
+  },
+  {
+    "id": "R-medium-w2-t1",
+    "engine": "R",
+    "preset": "medium",
+    "phase": "warmup",
+    "index": 1,
+    "status": "complete",
+    "eligible": true,
+    "deliveredWallNs": 153350877287,
+    "deliveredWallSeconds": 153.350877287,
+    "components": {
+      "engine": {
+        "command": [
+          "/home/user/benchmark-work/node-v24.19.0-linux-x64/bin/node",
+          "/home/user/benchmark-work/repro-linux/worker.mjs",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/warmup-1-R-medium-w2-t1/config.json"
+        ],
+        "exitCode": 0,
+        "wallNs": 145371381743
+      },
+      "verify": {
+        "command": [
+          "/usr/bin/ffprobe",
+          "-v",
+          "error",
+          "-threads",
+          "2",
+          "-count_frames",
+          "-show_streams",
+          "-show_format",
+          "-of",
+          "json",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/warmup-1-R-medium-w2-t1/output.mp4"
+        ],
+        "exitCode": 0,
+        "wallNs": 7976735914
+      }
+    },
+    "outputs": [
+      {
+        "path": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/warmup-1-R-medium-w2-t1/output.mp4",
+        "bytes": 145319270,
+        "sha256": "932c100213ffa16888bad4dea143b17442266715c67534f6e37c405ca6059825"
+      }
+    ],
+    "encoding": {
+      "rawUserSei": "x264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=1 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=24 keyint_min=2 scenecut=40 intra_refresh=0 rc_lookahead=24 rc=crf mbtree=1 crf=11.0 qcomp=0.60 qpmin=15 qpmax=60 qpstep=4 ip_ratio=1.40 aq=1:1.00",
+      "expected": {
+        "threads": 1,
+        "bframes": 3,
+        "keyint": 24,
+        "crf": 11,
+        "qpmin": 15,
+        "qpmax": 60,
+        "qcomp": 0.6,
+        "qpstep": 4,
+        "scenecut": 40,
+        "cabac": 1,
+        "ref": 3,
+        "subme": 7,
+        "trellis": 1
+      }
+    },
+    "heliosStats": null,
+    "remotion": {
+      "browserOpenNs": 141575064,
+      "selectCompositionNs": 197962680,
+      "renderMediaNs": 144478315411,
+      "browserCloseNs": 84345056,
+      "gpuEvidence": {
+        "expectedGpuFlags": [
+          "--disable-gpu",
+          "--disable-gpu-compositing",
+          "--disable-gpu-rasterization"
+        ],
+        "featureStatus": {
+          "gpu_compositing": "disabled_software",
+          "rasterization": "disabled_software",
+          "2d_canvas": "enabled",
+          "webgl": "enabled_readback",
+          "webgpu": "unavailable_software",
+          "video_decode": "enabled",
+          "video_encode": "disabled_software",
+          "vulkan": "disabled_off",
+          "skia_graphite": "disabled_off"
+        },
+        "glRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver-5.0.0)",
+        "glVendor": "Google Inc. (Google)",
+        "admissionPassed": true,
+        "missingFlags": [],
+        "invalidRequiredStages": []
+      },
+      "ffmpegArgv": [
+        {
+          "type": "stitcher",
+          "copying": false,
+          "executable": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/binaries/ffmpeg",
+          "args": [
+            "-r",
+            "30",
+            "-f",
+            "image2",
+            "-s",
+            "1920x1080",
+            "-start_number",
+            "0",
+            "-i",
+            "/tmp/react-motion-renderWP61as/element-%03d.jpeg",
+            "-an",
+            "-c:v",
+            "libx264",
+            "-pix_fmt",
+            "yuv420p",
+            "-preset",
+            "medium",
+            "-g",
+            "24",
+            "-video_track_timescale",
+            "90000",
+            "-crf",
+            "11",
+            "-map_metadata",
+            "-1",
+            "-metadata",
+            "comment=Made with Remotion 4.0.529",
+            "-y",
+            "-f",
+            "mp4",
+            "-threads:v",
+            "1",
+            "-bf",
+            "3",
+            "-sc_threshold",
+            "40",
+            "-qmin",
+            "15",
+            "-qmax",
+            "60",
+            "-qcomp",
+            "0.6",
+            "-qdiff",
+            "4",
+            "-vf",
+            "scale=out_color_matrix=bt601:out_range=tv,format=yuv420p",
+            "-colorspace:v",
+            "smpte170m",
+            "-color_range",
+            "tv",
+            "/tmp/remotion-v4.0.529-assetsbthj177bad/remotion-stitch-temp-dir/fast-start-intermediate.remotion-in-progress"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "H-medium-w2-t1",
+    "engine": "H",
+    "preset": "medium",
+    "phase": "timed",
+    "index": 1,
+    "status": "complete",
+    "eligible": true,
+    "deliveredWallNs": 69156139448,
+    "deliveredWallSeconds": 69.156139448,
+    "components": {
+      "engine": {
+        "command": [
+          "/home/user/benchmark-work/node-v24.19.0-linux-x64/bin/node",
+          "/home/user/benchmark-work/repro-linux/helios-worker.mjs",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-1-H-medium-w2-t1/config.json"
+        ],
+        "exitCode": 0,
+        "wallNs": 69154874464
+      }
+    },
+    "outputs": [
+      {
+        "path": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-1-H-medium-w2-t1/output.mp4",
+        "bytes": 142217777,
+        "sha256": "47ed717af6c671c2574a716540ce846d1eade6089bb438a0be923c62cba2f569"
+      }
+    ],
+    "encoding": {
+      "rawUserSei": "x264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=1 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=24 keyint_min=2 scenecut=40 intra_refresh=0 rc_lookahead=24 rc=crf mbtree=1 crf=11.0 qcomp=0.60 qpmin=15 qpmax=60 qpstep=4 ip_ratio=1.40 aq=1:1.00",
+      "expected": {
+        "threads": 1,
+        "bframes": 3,
+        "keyint": 24,
+        "crf": 11,
+        "qpmin": 15,
+        "qpmax": 60,
+        "qcomp": 0.6,
+        "qpstep": 4,
+        "scenecut": 40,
+        "cabac": 1,
+        "ref": 3,
+        "subme": 7,
+        "trellis": 1
+      }
+    },
+    "heliosStats": {
+      "frames": 300,
+      "chunks": 2,
+      "workers": 2,
+      "ranges": [
+        {
+          "frames": 150,
+          "preparationMs": 41.21701199999998,
+          "rasterizeMs": 17513.34079600001,
+          "pixelExtractionMs": 2995.8436219999903,
+          "drawMs": 20511.19826600005,
+          "encoderWaitMs": 31518.798828999985,
+          "encodeMs": 59664.523825,
+          "verifyMs": 185.05176499999652
+        },
+        {
+          "frames": 150,
+          "preparationMs": 35.74422000000001,
+          "rasterizeMs": 17329.361096000048,
+          "pixelExtractionMs": 2973.265126999973,
+          "drawMs": 20304.599208000025,
+          "encoderWaitMs": 31984.53264199998,
+          "encodeMs": 59833.303302,
+          "verifyMs": 149.20264899999893
+        }
+      ],
+      "renderMs": 60267.289292,
+      "finalizeMs": 8475.910977,
+      "finalVerifyMs": 8012.719773999997
+    },
+    "remotion": null
+  },
+  {
+    "id": "F-medium-w2-t1",
+    "engine": "F",
+    "preset": "medium",
+    "phase": "timed",
+    "index": 1,
+    "status": "complete",
+    "eligible": true,
+    "deliveredWallNs": 92045448392,
+    "deliveredWallSeconds": 92.045448392,
+    "components": {
+      "engine": {
+        "command": [
+          "/home/user/benchmark-work/fframes-cpu/target/release/helios-fframes-cpu-comparison",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-1-F-medium-w2-t1/output.mp4",
+          "medium",
+          "11",
+          "2",
+          "1",
+          "/home/user/benchmark-work/fframes/render-bench/vs-remotion/fframes/media"
+        ],
+        "exitCode": 0,
+        "wallNs": 83056281057
+      },
+      "verify": {
+        "command": [
+          "/usr/bin/ffprobe",
+          "-v",
+          "error",
+          "-threads",
+          "2",
+          "-count_frames",
+          "-show_streams",
+          "-show_format",
+          "-of",
+          "json",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-1-F-medium-w2-t1/output.mp4"
+        ],
+        "exitCode": 0,
+        "wallNs": 8988382919
+      }
+    },
+    "outputs": [
+      {
+        "path": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-1-F-medium-w2-t1/output.mp4",
+        "bytes": 167468939,
+        "sha256": "c20fd2a82fcf1803101de04504536e17ae77d49e4b1e7230760cee5bb1b616bc"
+      }
+    ],
+    "encoding": {
+      "rawUserSei": "x264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=1 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=24 keyint_min=2 scenecut=40 intra_refresh=0 rc_lookahead=24 rc=crf mbtree=1 crf=11.0 qcomp=0.60 qpmin=15 qpmax=60 qpstep=4 ip_ratio=1.40 aq=1:1.00",
+      "expected": {
+        "threads": 1,
+        "bframes": 3,
+        "keyint": 24,
+        "crf": 11,
+        "qpmin": 15,
+        "qpmax": 60,
+        "qcomp": 0.6,
+        "qpstep": 4,
+        "scenecut": 40,
+        "cabac": 1,
+        "ref": 3,
+        "subme": 7,
+        "trellis": 1
+      }
+    },
+    "heliosStats": null,
+    "remotion": null
+  },
+  {
+    "id": "R-medium-w2-t1",
+    "engine": "R",
+    "preset": "medium",
+    "phase": "timed",
+    "index": 1,
+    "status": "complete",
+    "eligible": true,
+    "deliveredWallNs": 151413629799,
+    "deliveredWallSeconds": 151.413629799,
+    "components": {
+      "engine": {
+        "command": [
+          "/home/user/benchmark-work/node-v24.19.0-linux-x64/bin/node",
+          "/home/user/benchmark-work/repro-linux/worker.mjs",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-1-R-medium-w2-t1/config.json"
+        ],
+        "exitCode": 0,
+        "wallNs": 143523438538
+      },
+      "verify": {
+        "command": [
+          "/usr/bin/ffprobe",
+          "-v",
+          "error",
+          "-threads",
+          "2",
+          "-count_frames",
+          "-show_streams",
+          "-show_format",
+          "-of",
+          "json",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-1-R-medium-w2-t1/output.mp4"
+        ],
+        "exitCode": 0,
+        "wallNs": 7889476259
+      }
+    },
+    "outputs": [
+      {
+        "path": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-1-R-medium-w2-t1/output.mp4",
+        "bytes": 145319270,
+        "sha256": "932c100213ffa16888bad4dea143b17442266715c67534f6e37c405ca6059825"
+      }
+    ],
+    "encoding": {
+      "rawUserSei": "x264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=1 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=24 keyint_min=2 scenecut=40 intra_refresh=0 rc_lookahead=24 rc=crf mbtree=1 crf=11.0 qcomp=0.60 qpmin=15 qpmax=60 qpstep=4 ip_ratio=1.40 aq=1:1.00",
+      "expected": {
+        "threads": 1,
+        "bframes": 3,
+        "keyint": 24,
+        "crf": 11,
+        "qpmin": 15,
+        "qpmax": 60,
+        "qcomp": 0.6,
+        "qpstep": 4,
+        "scenecut": 40,
+        "cabac": 1,
+        "ref": 3,
+        "subme": 7,
+        "trellis": 1
+      }
+    },
+    "heliosStats": null,
+    "remotion": {
+      "browserOpenNs": 103018614,
+      "selectCompositionNs": 196613956,
+      "renderMediaNs": 142870740406,
+      "browserCloseNs": 99337476,
+      "gpuEvidence": {
+        "expectedGpuFlags": [
+          "--disable-gpu",
+          "--disable-gpu-compositing",
+          "--disable-gpu-rasterization"
+        ],
+        "featureStatus": {
+          "gpu_compositing": "disabled_software",
+          "rasterization": "disabled_software",
+          "2d_canvas": "enabled",
+          "webgl": "enabled_readback",
+          "webgpu": "unavailable_software",
+          "video_decode": "enabled",
+          "video_encode": "disabled_software",
+          "vulkan": "disabled_off",
+          "skia_graphite": "disabled_off"
+        },
+        "glRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver-5.0.0)",
+        "glVendor": "Google Inc. (Google)",
+        "admissionPassed": true,
+        "missingFlags": [],
+        "invalidRequiredStages": []
+      },
+      "ffmpegArgv": [
+        {
+          "type": "stitcher",
+          "copying": false,
+          "executable": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/binaries/ffmpeg",
+          "args": [
+            "-r",
+            "30",
+            "-f",
+            "image2",
+            "-s",
+            "1920x1080",
+            "-start_number",
+            "0",
+            "-i",
+            "/tmp/react-motion-render5HubGi/element-%03d.jpeg",
+            "-an",
+            "-c:v",
+            "libx264",
+            "-pix_fmt",
+            "yuv420p",
+            "-preset",
+            "medium",
+            "-g",
+            "24",
+            "-video_track_timescale",
+            "90000",
+            "-crf",
+            "11",
+            "-map_metadata",
+            "-1",
+            "-metadata",
+            "comment=Made with Remotion 4.0.529",
+            "-y",
+            "-f",
+            "mp4",
+            "-threads:v",
+            "1",
+            "-bf",
+            "3",
+            "-sc_threshold",
+            "40",
+            "-qmin",
+            "15",
+            "-qmax",
+            "60",
+            "-qcomp",
+            "0.6",
+            "-qdiff",
+            "4",
+            "-vf",
+            "scale=out_color_matrix=bt601:out_range=tv,format=yuv420p",
+            "-colorspace:v",
+            "smpte170m",
+            "-color_range",
+            "tv",
+            "/tmp/remotion-v4.0.529-assets3zztyy5hqm/remotion-stitch-temp-dir/fast-start-intermediate.remotion-in-progress"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "F-medium-w2-t1",
+    "engine": "F",
+    "preset": "medium",
+    "phase": "timed",
+    "index": 2,
+    "status": "complete",
+    "eligible": true,
+    "deliveredWallNs": 91910993266,
+    "deliveredWallSeconds": 91.910993266,
+    "components": {
+      "engine": {
+        "command": [
+          "/home/user/benchmark-work/fframes-cpu/target/release/helios-fframes-cpu-comparison",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-2-F-medium-w2-t1/output.mp4",
+          "medium",
+          "11",
+          "2",
+          "1",
+          "/home/user/benchmark-work/fframes/render-bench/vs-remotion/fframes/media"
+        ],
+        "exitCode": 0,
+        "wallNs": 82919162524
+      },
+      "verify": {
+        "command": [
+          "/usr/bin/ffprobe",
+          "-v",
+          "error",
+          "-threads",
+          "2",
+          "-count_frames",
+          "-show_streams",
+          "-show_format",
+          "-of",
+          "json",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-2-F-medium-w2-t1/output.mp4"
+        ],
+        "exitCode": 0,
+        "wallNs": 8991248165
+      }
+    },
+    "outputs": [
+      {
+        "path": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-2-F-medium-w2-t1/output.mp4",
+        "bytes": 167468939,
+        "sha256": "c20fd2a82fcf1803101de04504536e17ae77d49e4b1e7230760cee5bb1b616bc"
+      }
+    ],
+    "encoding": {
+      "rawUserSei": "x264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=1 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=24 keyint_min=2 scenecut=40 intra_refresh=0 rc_lookahead=24 rc=crf mbtree=1 crf=11.0 qcomp=0.60 qpmin=15 qpmax=60 qpstep=4 ip_ratio=1.40 aq=1:1.00",
+      "expected": {
+        "threads": 1,
+        "bframes": 3,
+        "keyint": 24,
+        "crf": 11,
+        "qpmin": 15,
+        "qpmax": 60,
+        "qcomp": 0.6,
+        "qpstep": 4,
+        "scenecut": 40,
+        "cabac": 1,
+        "ref": 3,
+        "subme": 7,
+        "trellis": 1
+      }
+    },
+    "heliosStats": null,
+    "remotion": null
+  },
+  {
+    "id": "R-medium-w2-t1",
+    "engine": "R",
+    "preset": "medium",
+    "phase": "timed",
+    "index": 2,
+    "status": "complete",
+    "eligible": true,
+    "deliveredWallNs": 152851689415,
+    "deliveredWallSeconds": 152.851689415,
+    "components": {
+      "engine": {
+        "command": [
+          "/home/user/benchmark-work/node-v24.19.0-linux-x64/bin/node",
+          "/home/user/benchmark-work/repro-linux/worker.mjs",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-2-R-medium-w2-t1/config.json"
+        ],
+        "exitCode": 0,
+        "wallNs": 144918795200
+      },
+      "verify": {
+        "command": [
+          "/usr/bin/ffprobe",
+          "-v",
+          "error",
+          "-threads",
+          "2",
+          "-count_frames",
+          "-show_streams",
+          "-show_format",
+          "-of",
+          "json",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-2-R-medium-w2-t1/output.mp4"
+        ],
+        "exitCode": 0,
+        "wallNs": 7932439895
+      }
+    },
+    "outputs": [
+      {
+        "path": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-2-R-medium-w2-t1/output.mp4",
+        "bytes": 145319270,
+        "sha256": "932c100213ffa16888bad4dea143b17442266715c67534f6e37c405ca6059825"
+      }
+    ],
+    "encoding": {
+      "rawUserSei": "x264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=1 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=24 keyint_min=2 scenecut=40 intra_refresh=0 rc_lookahead=24 rc=crf mbtree=1 crf=11.0 qcomp=0.60 qpmin=15 qpmax=60 qpstep=4 ip_ratio=1.40 aq=1:1.00",
+      "expected": {
+        "threads": 1,
+        "bframes": 3,
+        "keyint": 24,
+        "crf": 11,
+        "qpmin": 15,
+        "qpmax": 60,
+        "qcomp": 0.6,
+        "qpstep": 4,
+        "scenecut": 40,
+        "cabac": 1,
+        "ref": 3,
+        "subme": 7,
+        "trellis": 1
+      }
+    },
+    "heliosStats": null,
+    "remotion": {
+      "browserOpenNs": 97669814,
+      "selectCompositionNs": 193507068,
+      "renderMediaNs": 144300023853,
+      "browserCloseNs": 96473645,
+      "gpuEvidence": {
+        "expectedGpuFlags": [
+          "--disable-gpu",
+          "--disable-gpu-compositing",
+          "--disable-gpu-rasterization"
+        ],
+        "featureStatus": {
+          "gpu_compositing": "disabled_software",
+          "rasterization": "disabled_software",
+          "2d_canvas": "enabled",
+          "webgl": "enabled_readback",
+          "webgpu": "unavailable_software",
+          "video_decode": "enabled",
+          "video_encode": "disabled_software",
+          "vulkan": "disabled_off",
+          "skia_graphite": "disabled_off"
+        },
+        "glRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver-5.0.0)",
+        "glVendor": "Google Inc. (Google)",
+        "admissionPassed": true,
+        "missingFlags": [],
+        "invalidRequiredStages": []
+      },
+      "ffmpegArgv": [
+        {
+          "type": "stitcher",
+          "copying": false,
+          "executable": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/binaries/ffmpeg",
+          "args": [
+            "-r",
+            "30",
+            "-f",
+            "image2",
+            "-s",
+            "1920x1080",
+            "-start_number",
+            "0",
+            "-i",
+            "/tmp/react-motion-renderHNRXvZ/element-%03d.jpeg",
+            "-an",
+            "-c:v",
+            "libx264",
+            "-pix_fmt",
+            "yuv420p",
+            "-preset",
+            "medium",
+            "-g",
+            "24",
+            "-video_track_timescale",
+            "90000",
+            "-crf",
+            "11",
+            "-map_metadata",
+            "-1",
+            "-metadata",
+            "comment=Made with Remotion 4.0.529",
+            "-y",
+            "-f",
+            "mp4",
+            "-threads:v",
+            "1",
+            "-bf",
+            "3",
+            "-sc_threshold",
+            "40",
+            "-qmin",
+            "15",
+            "-qmax",
+            "60",
+            "-qcomp",
+            "0.6",
+            "-qdiff",
+            "4",
+            "-vf",
+            "scale=out_color_matrix=bt601:out_range=tv,format=yuv420p",
+            "-colorspace:v",
+            "smpte170m",
+            "-color_range",
+            "tv",
+            "/tmp/remotion-v4.0.529-assetsbchpq4d44z/remotion-stitch-temp-dir/fast-start-intermediate.remotion-in-progress"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "H-medium-w2-t1",
+    "engine": "H",
+    "preset": "medium",
+    "phase": "timed",
+    "index": 2,
+    "status": "complete",
+    "eligible": true,
+    "deliveredWallNs": 69059951412,
+    "deliveredWallSeconds": 69.059951412,
+    "components": {
+      "engine": {
+        "command": [
+          "/home/user/benchmark-work/node-v24.19.0-linux-x64/bin/node",
+          "/home/user/benchmark-work/repro-linux/helios-worker.mjs",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-2-H-medium-w2-t1/config.json"
+        ],
+        "exitCode": 0,
+        "wallNs": 69059717654
+      }
+    },
+    "outputs": [
+      {
+        "path": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-2-H-medium-w2-t1/output.mp4",
+        "bytes": 142217777,
+        "sha256": "47ed717af6c671c2574a716540ce846d1eade6089bb438a0be923c62cba2f569"
+      }
+    ],
+    "encoding": {
+      "rawUserSei": "x264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=1 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=24 keyint_min=2 scenecut=40 intra_refresh=0 rc_lookahead=24 rc=crf mbtree=1 crf=11.0 qcomp=0.60 qpmin=15 qpmax=60 qpstep=4 ip_ratio=1.40 aq=1:1.00",
+      "expected": {
+        "threads": 1,
+        "bframes": 3,
+        "keyint": 24,
+        "crf": 11,
+        "qpmin": 15,
+        "qpmax": 60,
+        "qcomp": 0.6,
+        "qpstep": 4,
+        "scenecut": 40,
+        "cabac": 1,
+        "ref": 3,
+        "subme": 7,
+        "trellis": 1
+      }
+    },
+    "heliosStats": {
+      "frames": 300,
+      "chunks": 2,
+      "workers": 2,
+      "ranges": [
+        {
+          "frames": 150,
+          "preparationMs": 35.31751700000001,
+          "rasterizeMs": 17740.294456,
+          "pixelExtractionMs": 2965.9829620000064,
+          "drawMs": 20708.243980999963,
+          "encoderWaitMs": 31113.25353900001,
+          "encodeMs": 59397.984166,
+          "verifyMs": 151.2270040000003
+        },
+        {
+          "frames": 150,
+          "preparationMs": 33.25623300000001,
+          "rasterizeMs": 17782.16558100002,
+          "pixelExtractionMs": 2873.0581439999996,
+          "drawMs": 20657.213351000013,
+          "encoderWaitMs": 31817.06828500001,
+          "encodeMs": 60075.489632,
+          "verifyMs": 148.32143399999768
+        }
+      ],
+      "renderMs": 60500.272472000004,
+      "finalizeMs": 8323.038818999994,
+      "finalVerifyMs": 7861.107874000001
+    },
+    "remotion": null
+  },
+  {
+    "id": "R-medium-w2-t1",
+    "engine": "R",
+    "preset": "medium",
+    "phase": "timed",
+    "index": 3,
+    "status": "complete",
+    "eligible": true,
+    "deliveredWallNs": 152316073808,
+    "deliveredWallSeconds": 152.316073808,
+    "components": {
+      "engine": {
+        "command": [
+          "/home/user/benchmark-work/node-v24.19.0-linux-x64/bin/node",
+          "/home/user/benchmark-work/repro-linux/worker.mjs",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-3-R-medium-w2-t1/config.json"
+        ],
+        "exitCode": 0,
+        "wallNs": 144404000337
+      },
+      "verify": {
+        "command": [
+          "/usr/bin/ffprobe",
+          "-v",
+          "error",
+          "-threads",
+          "2",
+          "-count_frames",
+          "-show_streams",
+          "-show_format",
+          "-of",
+          "json",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-3-R-medium-w2-t1/output.mp4"
+        ],
+        "exitCode": 0,
+        "wallNs": 7911584625
+      }
+    },
+    "outputs": [
+      {
+        "path": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-3-R-medium-w2-t1/output.mp4",
+        "bytes": 145319270,
+        "sha256": "932c100213ffa16888bad4dea143b17442266715c67534f6e37c405ca6059825"
+      }
+    ],
+    "encoding": {
+      "rawUserSei": "x264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=1 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=24 keyint_min=2 scenecut=40 intra_refresh=0 rc_lookahead=24 rc=crf mbtree=1 crf=11.0 qcomp=0.60 qpmin=15 qpmax=60 qpstep=4 ip_ratio=1.40 aq=1:1.00",
+      "expected": {
+        "threads": 1,
+        "bframes": 3,
+        "keyint": 24,
+        "crf": 11,
+        "qpmin": 15,
+        "qpmax": 60,
+        "qcomp": 0.6,
+        "qpstep": 4,
+        "scenecut": 40,
+        "cabac": 1,
+        "ref": 3,
+        "subme": 7,
+        "trellis": 1
+      }
+    },
+    "heliosStats": null,
+    "remotion": {
+      "browserOpenNs": 147586930,
+      "selectCompositionNs": 195703556,
+      "renderMediaNs": 143762085978,
+      "browserCloseNs": 97300459,
+      "gpuEvidence": {
+        "expectedGpuFlags": [
+          "--disable-gpu",
+          "--disable-gpu-compositing",
+          "--disable-gpu-rasterization"
+        ],
+        "featureStatus": {
+          "gpu_compositing": "disabled_software",
+          "rasterization": "disabled_software",
+          "2d_canvas": "enabled",
+          "webgl": "enabled_readback",
+          "webgpu": "unavailable_software",
+          "video_decode": "enabled",
+          "video_encode": "disabled_software",
+          "vulkan": "disabled_off",
+          "skia_graphite": "disabled_off"
+        },
+        "glRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver-5.0.0)",
+        "glVendor": "Google Inc. (Google)",
+        "admissionPassed": true,
+        "missingFlags": [],
+        "invalidRequiredStages": []
+      },
+      "ffmpegArgv": [
+        {
+          "type": "stitcher",
+          "copying": false,
+          "executable": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/binaries/ffmpeg",
+          "args": [
+            "-r",
+            "30",
+            "-f",
+            "image2",
+            "-s",
+            "1920x1080",
+            "-start_number",
+            "0",
+            "-i",
+            "/tmp/react-motion-renderQD81se/element-%03d.jpeg",
+            "-an",
+            "-c:v",
+            "libx264",
+            "-pix_fmt",
+            "yuv420p",
+            "-preset",
+            "medium",
+            "-g",
+            "24",
+            "-video_track_timescale",
+            "90000",
+            "-crf",
+            "11",
+            "-map_metadata",
+            "-1",
+            "-metadata",
+            "comment=Made with Remotion 4.0.529",
+            "-y",
+            "-f",
+            "mp4",
+            "-threads:v",
+            "1",
+            "-bf",
+            "3",
+            "-sc_threshold",
+            "40",
+            "-qmin",
+            "15",
+            "-qmax",
+            "60",
+            "-qcomp",
+            "0.6",
+            "-qdiff",
+            "4",
+            "-vf",
+            "scale=out_color_matrix=bt601:out_range=tv,format=yuv420p",
+            "-colorspace:v",
+            "smpte170m",
+            "-color_range",
+            "tv",
+            "/tmp/remotion-v4.0.529-assetshvg7o5qefi/remotion-stitch-temp-dir/fast-start-intermediate.remotion-in-progress"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "H-medium-w2-t1",
+    "engine": "H",
+    "preset": "medium",
+    "phase": "timed",
+    "index": 3,
+    "status": "complete",
+    "eligible": true,
+    "deliveredWallNs": 69426166154,
+    "deliveredWallSeconds": 69.426166154,
+    "components": {
+      "engine": {
+        "command": [
+          "/home/user/benchmark-work/node-v24.19.0-linux-x64/bin/node",
+          "/home/user/benchmark-work/repro-linux/helios-worker.mjs",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-3-H-medium-w2-t1/config.json"
+        ],
+        "exitCode": 0,
+        "wallNs": 69425913155
+      }
+    },
+    "outputs": [
+      {
+        "path": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-3-H-medium-w2-t1/output.mp4",
+        "bytes": 142217777,
+        "sha256": "47ed717af6c671c2574a716540ce846d1eade6089bb438a0be923c62cba2f569"
+      }
+    ],
+    "encoding": {
+      "rawUserSei": "x264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=1 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=24 keyint_min=2 scenecut=40 intra_refresh=0 rc_lookahead=24 rc=crf mbtree=1 crf=11.0 qcomp=0.60 qpmin=15 qpmax=60 qpstep=4 ip_ratio=1.40 aq=1:1.00",
+      "expected": {
+        "threads": 1,
+        "bframes": 3,
+        "keyint": 24,
+        "crf": 11,
+        "qpmin": 15,
+        "qpmax": 60,
+        "qcomp": 0.6,
+        "qpstep": 4,
+        "scenecut": 40,
+        "cabac": 1,
+        "ref": 3,
+        "subme": 7,
+        "trellis": 1
+      }
+    },
+    "heliosStats": {
+      "frames": 300,
+      "chunks": 2,
+      "workers": 2,
+      "ranges": [
+        {
+          "frames": 150,
+          "preparationMs": 36.475367000000006,
+          "rasterizeMs": 17793.571687000025,
+          "pixelExtractionMs": 2826.1974919999743,
+          "drawMs": 20621.752488999988,
+          "encoderWaitMs": 31609.330570000016,
+          "encodeMs": 59900.358840999994,
+          "verifyMs": 148.59000399999786
+        },
+        {
+          "frames": 150,
+          "preparationMs": 32.965569000000016,
+          "rasterizeMs": 18034.387359000015,
+          "pixelExtractionMs": 2839.327175000004,
+          "drawMs": 20875.65752500001,
+          "encoderWaitMs": 31792.351587999983,
+          "encodeMs": 60298.276323,
+          "verifyMs": 147.72714899999846
+        }
+      ],
+      "renderMs": 60722.317654,
+      "finalizeMs": 8467.986664999997,
+      "finalVerifyMs": 7981.524045999999
+    },
+    "remotion": null
+  },
+  {
+    "id": "F-medium-w2-t1",
+    "engine": "F",
+    "preset": "medium",
+    "phase": "timed",
+    "index": 3,
+    "status": "complete",
+    "eligible": true,
+    "deliveredWallNs": 92201298828,
+    "deliveredWallSeconds": 92.201298828,
+    "components": {
+      "engine": {
+        "command": [
+          "/home/user/benchmark-work/fframes-cpu/target/release/helios-fframes-cpu-comparison",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-3-F-medium-w2-t1/output.mp4",
+          "medium",
+          "11",
+          "2",
+          "1",
+          "/home/user/benchmark-work/fframes/render-bench/vs-remotion/fframes/media"
+        ],
+        "exitCode": 0,
+        "wallNs": 83326127793
+      },
+      "verify": {
+        "command": [
+          "/usr/bin/ffprobe",
+          "-v",
+          "error",
+          "-threads",
+          "2",
+          "-count_frames",
+          "-show_streams",
+          "-show_format",
+          "-of",
+          "json",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-3-F-medium-w2-t1/output.mp4"
+        ],
+        "exitCode": 0,
+        "wallNs": 8874580976
+      }
+    },
+    "outputs": [
+      {
+        "path": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-3-F-medium-w2-t1/output.mp4",
+        "bytes": 167468939,
+        "sha256": "c20fd2a82fcf1803101de04504536e17ae77d49e4b1e7230760cee5bb1b616bc"
+      }
+    ],
+    "encoding": {
+      "rawUserSei": "x264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=1 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=24 keyint_min=2 scenecut=40 intra_refresh=0 rc_lookahead=24 rc=crf mbtree=1 crf=11.0 qcomp=0.60 qpmin=15 qpmax=60 qpstep=4 ip_ratio=1.40 aq=1:1.00",
+      "expected": {
+        "threads": 1,
+        "bframes": 3,
+        "keyint": 24,
+        "crf": 11,
+        "qpmin": 15,
+        "qpmax": 60,
+        "qcomp": 0.6,
+        "qpstep": 4,
+        "scenecut": 40,
+        "cabac": 1,
+        "ref": 3,
+        "subme": 7,
+        "trellis": 1
+      }
+    },
+    "heliosStats": null,
+    "remotion": null
+  },
+  {
+    "id": "H-ultrafast-w2-t1",
+    "engine": "H",
+    "preset": "ultrafast",
+    "phase": "warmup",
+    "index": 1,
+    "status": "complete",
+    "eligible": true,
+    "deliveredWallNs": 20533185911,
+    "deliveredWallSeconds": 20.533185911,
+    "components": {
+      "engine": {
+        "command": [
+          "/home/user/benchmark-work/node-v24.19.0-linux-x64/bin/node",
+          "/home/user/benchmark-work/repro-linux/helios-worker.mjs",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/warmup-1-H-ultrafast-w2-t1/config.json"
+        ],
+        "exitCode": 0,
+        "wallNs": 20532957416
+      }
+    },
+    "outputs": [
+      {
+        "path": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/warmup-1-H-ultrafast-w2-t1/output.mp4",
+        "bytes": 195226362,
+        "sha256": "ad82e6bc13985f428ea2e527da9efcf776985cfbec50acbec9f8439a3b4c4112"
+      }
+    ],
+    "encoding": {
+      "rawUserSei": "x264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=1 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=24 keyint_min=2 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=11.0 qcomp=0.60 qpmin=15 qpmax=60 qpstep=4 ip_ratio=1.40 aq=0",
+      "expected": {
+        "threads": 1,
+        "bframes": 0,
+        "keyint": 24,
+        "crf": 11,
+        "qpmin": 15,
+        "qpmax": 60,
+        "qcomp": 0.6,
+        "qpstep": 4,
+        "scenecut": 0,
+        "cabac": 0,
+        "ref": 1,
+        "subme": 0,
+        "trellis": 0
+      }
+    },
+    "heliosStats": {
+      "frames": 300,
+      "chunks": 2,
+      "workers": 2,
+      "ranges": [
+        {
+          "frames": 150,
+          "preparationMs": 32.59650500000001,
+          "rasterizeMs": 12900.772672999987,
+          "pixelExtractionMs": 1662.254172000012,
+          "drawMs": 14564.573001,
+          "encoderWaitMs": 1888.5626320000033,
+          "encodeMs": 16555.698204,
+          "verifyMs": 112.48334199999954
+        },
+        {
+          "frames": 150,
+          "preparationMs": 33.426761,
+          "rasterizeMs": 12926.113733,
+          "pixelExtractionMs": 1653.9127839999987,
+          "drawMs": 14581.605673,
+          "encoderWaitMs": 2007.4067789999926,
+          "encodeMs": 16683.303197,
+          "verifyMs": 109.94241500000135
+        }
+      ],
+      "renderMs": 17064.618145,
+      "finalizeMs": 3231.1972459999997,
+      "finalVerifyMs": 2610.563958999999
+    },
+    "remotion": null
+  },
+  {
+    "id": "F-ultrafast-w2-t1",
+    "engine": "F",
+    "preset": "ultrafast",
+    "phase": "warmup",
+    "index": 1,
+    "status": "complete",
+    "eligible": true,
+    "deliveredWallNs": 39099349173,
+    "deliveredWallSeconds": 39.099349173,
+    "components": {
+      "engine": {
+        "command": [
+          "/home/user/benchmark-work/fframes-cpu/target/release/helios-fframes-cpu-comparison",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/warmup-1-F-ultrafast-w2-t1/output.mp4",
+          "ultrafast",
+          "11",
+          "2",
+          "1",
+          "/home/user/benchmark-work/fframes/render-bench/vs-remotion/fframes/media"
+        ],
+        "exitCode": 0,
+        "wallNs": 35894123797
+      },
+      "repair": {
+        "command": [
+          "/usr/bin/ffmpeg",
+          "-v",
+          "error",
+          "-y",
+          "-ignore_editlist",
+          "1",
+          "-i",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/warmup-1-F-ultrafast-w2-t1/original.mp4",
+          "-map",
+          "0:v:0",
+          "-c:v",
+          "copy",
+          "-an",
+          "-use_editlist",
+          "0",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/warmup-1-F-ultrafast-w2-t1/output.mp4"
+        ],
+        "exitCode": 0,
+        "wallNs": 317796361
+      },
+      "verify": {
+        "command": [
+          "/usr/bin/ffprobe",
+          "-v",
+          "error",
+          "-threads",
+          "2",
+          "-count_frames",
+          "-show_streams",
+          "-show_format",
+          "-of",
+          "json",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/warmup-1-F-ultrafast-w2-t1/output.mp4"
+        ],
+        "exitCode": 0,
+        "wallNs": 2886712088
+      }
+    },
+    "outputs": [
+      {
+        "path": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/warmup-1-F-ultrafast-w2-t1/original.mp4",
+        "bytes": 226106622,
+        "sha256": "218b09581f98c992039362e4d98715e0d5e98595fcc31ba9ad72eb1cdc32d7ee"
+      },
+      {
+        "path": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/warmup-1-F-ultrafast-w2-t1/output.mp4",
+        "bytes": 226106587,
+        "sha256": "760dbd4bd588f8c244d2c486e39cc10e8d2d1cf6676e64d0efa23cd85a320706"
+      }
+    ],
+    "encoding": {
+      "rawUserSei": "x264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=1 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=24 keyint_min=2 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=11.0 qcomp=0.60 qpmin=15 qpmax=60 qpstep=4 ip_ratio=1.40 aq=0",
+      "expected": {
+        "threads": 1,
+        "bframes": 0,
+        "keyint": 24,
+        "crf": 11,
+        "qpmin": 15,
+        "qpmax": 60,
+        "qcomp": 0.6,
+        "qpstep": 4,
+        "scenecut": 0,
+        "cabac": 0,
+        "ref": 1,
+        "subme": 0,
+        "trellis": 0
+      }
+    },
+    "heliosStats": null,
+    "remotion": null
+  },
+  {
+    "id": "R-ultrafast-w2-t1",
+    "engine": "R",
+    "preset": "ultrafast",
+    "phase": "warmup",
+    "index": 1,
+    "status": "complete",
+    "eligible": true,
+    "deliveredWallNs": 60778124735,
+    "deliveredWallSeconds": 60.778124735,
+    "components": {
+      "engine": {
+        "command": [
+          "/home/user/benchmark-work/node-v24.19.0-linux-x64/bin/node",
+          "/home/user/benchmark-work/repro-linux/worker.mjs",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/warmup-1-R-ultrafast-w2-t1/config.json"
+        ],
+        "exitCode": 0,
+        "wallNs": 58107188972
+      },
+      "verify": {
+        "command": [
+          "/usr/bin/ffprobe",
+          "-v",
+          "error",
+          "-threads",
+          "2",
+          "-count_frames",
+          "-show_streams",
+          "-show_format",
+          "-of",
+          "json",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/warmup-1-R-ultrafast-w2-t1/output.mp4"
+        ],
+        "exitCode": 0,
+        "wallNs": 2669516812
+      }
+    },
+    "outputs": [
+      {
+        "path": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/warmup-1-R-ultrafast-w2-t1/output.mp4",
+        "bytes": 204035687,
+        "sha256": "8b827706fc2566c10eb0c3b45635a040bc1e7bdca9d41c8d807d2cbff284b2da"
+      }
+    ],
+    "encoding": {
+      "rawUserSei": "x264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=1 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=24 keyint_min=2 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=11.0 qcomp=0.60 qpmin=15 qpmax=60 qpstep=4 ip_ratio=1.40 aq=0",
+      "expected": {
+        "threads": 1,
+        "bframes": 0,
+        "keyint": 24,
+        "crf": 11,
+        "qpmin": 15,
+        "qpmax": 60,
+        "qcomp": 0.6,
+        "qpstep": 4,
+        "scenecut": 0,
+        "cabac": 0,
+        "ref": 1,
+        "subme": 0,
+        "trellis": 0
+      }
+    },
+    "heliosStats": null,
+    "remotion": {
+      "browserOpenNs": 98823817,
+      "selectCompositionNs": 214837449,
+      "renderMediaNs": 57441319871,
+      "browserCloseNs": 79438229,
+      "gpuEvidence": {
+        "expectedGpuFlags": [
+          "--disable-gpu",
+          "--disable-gpu-compositing",
+          "--disable-gpu-rasterization"
+        ],
+        "featureStatus": {
+          "gpu_compositing": "disabled_software",
+          "rasterization": "disabled_software",
+          "2d_canvas": "enabled",
+          "webgl": "enabled_readback",
+          "webgpu": "unavailable_software",
+          "video_decode": "enabled",
+          "video_encode": "disabled_software",
+          "vulkan": "disabled_off",
+          "skia_graphite": "disabled_off"
+        },
+        "glRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver-5.0.0)",
+        "glVendor": "Google Inc. (Google)",
+        "admissionPassed": true,
+        "missingFlags": [],
+        "invalidRequiredStages": []
+      },
+      "ffmpegArgv": [
+        {
+          "type": "stitcher",
+          "copying": false,
+          "executable": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/binaries/ffmpeg",
+          "args": [
+            "-r",
+            "30",
+            "-f",
+            "image2",
+            "-s",
+            "1920x1080",
+            "-start_number",
+            "0",
+            "-i",
+            "/tmp/react-motion-renderVcRyeB/element-%03d.jpeg",
+            "-an",
+            "-c:v",
+            "libx264",
+            "-pix_fmt",
+            "yuv420p",
+            "-preset",
+            "ultrafast",
+            "-g",
+            "24",
+            "-video_track_timescale",
+            "90000",
+            "-crf",
+            "11",
+            "-map_metadata",
+            "-1",
+            "-metadata",
+            "comment=Made with Remotion 4.0.529",
+            "-y",
+            "-f",
+            "mp4",
+            "-threads:v",
+            "1",
+            "-bf",
+            "0",
+            "-sc_threshold",
+            "0",
+            "-qmin",
+            "15",
+            "-qmax",
+            "60",
+            "-qcomp",
+            "0.6",
+            "-qdiff",
+            "4",
+            "-vf",
+            "scale=out_color_matrix=bt601:out_range=tv,format=yuv420p",
+            "-colorspace:v",
+            "smpte170m",
+            "-color_range",
+            "tv",
+            "/tmp/remotion-v4.0.529-assetsu6liy0px7s/remotion-stitch-temp-dir/fast-start-intermediate.remotion-in-progress"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "H-ultrafast-w2-t1",
+    "engine": "H",
+    "preset": "ultrafast",
+    "phase": "timed",
+    "index": 1,
+    "status": "complete",
+    "eligible": true,
+    "deliveredWallNs": 21163641221,
+    "deliveredWallSeconds": 21.163641221,
+    "components": {
+      "engine": {
+        "command": [
+          "/home/user/benchmark-work/node-v24.19.0-linux-x64/bin/node",
+          "/home/user/benchmark-work/repro-linux/helios-worker.mjs",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-1-H-ultrafast-w2-t1/config.json"
+        ],
+        "exitCode": 0,
+        "wallNs": 21163362078
+      }
+    },
+    "outputs": [
+      {
+        "path": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-1-H-ultrafast-w2-t1/output.mp4",
+        "bytes": 195226362,
+        "sha256": "ad82e6bc13985f428ea2e527da9efcf776985cfbec50acbec9f8439a3b4c4112"
+      }
+    ],
+    "encoding": {
+      "rawUserSei": "x264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=1 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=24 keyint_min=2 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=11.0 qcomp=0.60 qpmin=15 qpmax=60 qpstep=4 ip_ratio=1.40 aq=0",
+      "expected": {
+        "threads": 1,
+        "bframes": 0,
+        "keyint": 24,
+        "crf": 11,
+        "qpmin": 15,
+        "qpmax": 60,
+        "qcomp": 0.6,
+        "qpstep": 4,
+        "scenecut": 0,
+        "cabac": 0,
+        "ref": 1,
+        "subme": 0,
+        "trellis": 0
+      }
+    },
+    "heliosStats": {
+      "frames": 300,
+      "chunks": 2,
+      "workers": 2,
+      "ranges": [
+        {
+          "frames": 150,
+          "preparationMs": 33.832595999999995,
+          "rasterizeMs": 13063.713332999987,
+          "pixelExtractionMs": 1685.423714999995,
+          "drawMs": 14750.712582000002,
+          "encoderWaitMs": 1973.4123590000079,
+          "encodeMs": 16848.150189,
+          "verifyMs": 122.27845199999865
+        },
+        {
+          "frames": 150,
+          "preparationMs": 32.626761999999985,
+          "rasterizeMs": 13218.771399000007,
+          "pixelExtractionMs": 1773.715532000007,
+          "drawMs": 14994.015723999992,
+          "encoderWaitMs": 1922.185460999991,
+          "encodeMs": 17034.45695,
+          "verifyMs": 111.25959700000021
+        }
+      ],
+      "renderMs": 17428.0763,
+      "finalizeMs": 3407.7967500000013,
+      "finalVerifyMs": 2807.0305750000007
+    },
+    "remotion": null
+  },
+  {
+    "id": "F-ultrafast-w2-t1",
+    "engine": "F",
+    "preset": "ultrafast",
+    "phase": "timed",
+    "index": 1,
+    "status": "complete",
+    "eligible": true,
+    "deliveredWallNs": 39733311374,
+    "deliveredWallSeconds": 39.733311374,
+    "components": {
+      "engine": {
+        "command": [
+          "/home/user/benchmark-work/fframes-cpu/target/release/helios-fframes-cpu-comparison",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-1-F-ultrafast-w2-t1/output.mp4",
+          "ultrafast",
+          "11",
+          "2",
+          "1",
+          "/home/user/benchmark-work/fframes/render-bench/vs-remotion/fframes/media"
+        ],
+        "exitCode": 0,
+        "wallNs": 36355326667
+      },
+      "repair": {
+        "command": [
+          "/usr/bin/ffmpeg",
+          "-v",
+          "error",
+          "-y",
+          "-ignore_editlist",
+          "1",
+          "-i",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-1-F-ultrafast-w2-t1/original.mp4",
+          "-map",
+          "0:v:0",
+          "-c:v",
+          "copy",
+          "-an",
+          "-use_editlist",
+          "0",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-1-F-ultrafast-w2-t1/output.mp4"
+        ],
+        "exitCode": 0,
+        "wallNs": 461447857
+      },
+      "verify": {
+        "command": [
+          "/usr/bin/ffprobe",
+          "-v",
+          "error",
+          "-threads",
+          "2",
+          "-count_frames",
+          "-show_streams",
+          "-show_format",
+          "-of",
+          "json",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-1-F-ultrafast-w2-t1/output.mp4"
+        ],
+        "exitCode": 0,
+        "wallNs": 2915744048
+      }
+    },
+    "outputs": [
+      {
+        "path": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-1-F-ultrafast-w2-t1/original.mp4",
+        "bytes": 226106622,
+        "sha256": "218b09581f98c992039362e4d98715e0d5e98595fcc31ba9ad72eb1cdc32d7ee"
+      },
+      {
+        "path": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-1-F-ultrafast-w2-t1/output.mp4",
+        "bytes": 226106587,
+        "sha256": "760dbd4bd588f8c244d2c486e39cc10e8d2d1cf6676e64d0efa23cd85a320706"
+      }
+    ],
+    "encoding": {
+      "rawUserSei": "x264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=1 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=24 keyint_min=2 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=11.0 qcomp=0.60 qpmin=15 qpmax=60 qpstep=4 ip_ratio=1.40 aq=0",
+      "expected": {
+        "threads": 1,
+        "bframes": 0,
+        "keyint": 24,
+        "crf": 11,
+        "qpmin": 15,
+        "qpmax": 60,
+        "qcomp": 0.6,
+        "qpstep": 4,
+        "scenecut": 0,
+        "cabac": 0,
+        "ref": 1,
+        "subme": 0,
+        "trellis": 0
+      }
+    },
+    "heliosStats": null,
+    "remotion": null
+  },
+  {
+    "id": "R-ultrafast-w2-t1",
+    "engine": "R",
+    "preset": "ultrafast",
+    "phase": "timed",
+    "index": 1,
+    "status": "complete",
+    "eligible": true,
+    "deliveredWallNs": 60125442549,
+    "deliveredWallSeconds": 60.125442549,
+    "components": {
+      "engine": {
+        "command": [
+          "/home/user/benchmark-work/node-v24.19.0-linux-x64/bin/node",
+          "/home/user/benchmark-work/repro-linux/worker.mjs",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-1-R-ultrafast-w2-t1/config.json"
+        ],
+        "exitCode": 0,
+        "wallNs": 57436173970
+      },
+      "verify": {
+        "command": [
+          "/usr/bin/ffprobe",
+          "-v",
+          "error",
+          "-threads",
+          "2",
+          "-count_frames",
+          "-show_streams",
+          "-show_format",
+          "-of",
+          "json",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-1-R-ultrafast-w2-t1/output.mp4"
+        ],
+        "exitCode": 0,
+        "wallNs": 2688745831
+      }
+    },
+    "outputs": [
+      {
+        "path": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-1-R-ultrafast-w2-t1/output.mp4",
+        "bytes": 204035687,
+        "sha256": "8b827706fc2566c10eb0c3b45635a040bc1e7bdca9d41c8d807d2cbff284b2da"
+      }
+    ],
+    "encoding": {
+      "rawUserSei": "x264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=1 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=24 keyint_min=2 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=11.0 qcomp=0.60 qpmin=15 qpmax=60 qpstep=4 ip_ratio=1.40 aq=0",
+      "expected": {
+        "threads": 1,
+        "bframes": 0,
+        "keyint": 24,
+        "crf": 11,
+        "qpmin": 15,
+        "qpmax": 60,
+        "qcomp": 0.6,
+        "qpstep": 4,
+        "scenecut": 0,
+        "cabac": 0,
+        "ref": 1,
+        "subme": 0,
+        "trellis": 0
+      }
+    },
+    "heliosStats": null,
+    "remotion": {
+      "browserOpenNs": 120808766,
+      "selectCompositionNs": 206749404,
+      "renderMediaNs": 56804583739,
+      "browserCloseNs": 94099228,
+      "gpuEvidence": {
+        "expectedGpuFlags": [
+          "--disable-gpu",
+          "--disable-gpu-compositing",
+          "--disable-gpu-rasterization"
+        ],
+        "featureStatus": {
+          "gpu_compositing": "disabled_software",
+          "rasterization": "disabled_software",
+          "2d_canvas": "enabled",
+          "webgl": "enabled_readback",
+          "webgpu": "unavailable_software",
+          "video_decode": "enabled",
+          "video_encode": "disabled_software",
+          "vulkan": "disabled_off",
+          "skia_graphite": "disabled_off"
+        },
+        "glRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver-5.0.0)",
+        "glVendor": "Google Inc. (Google)",
+        "admissionPassed": true,
+        "missingFlags": [],
+        "invalidRequiredStages": []
+      },
+      "ffmpegArgv": [
+        {
+          "type": "stitcher",
+          "copying": false,
+          "executable": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/binaries/ffmpeg",
+          "args": [
+            "-r",
+            "30",
+            "-f",
+            "image2",
+            "-s",
+            "1920x1080",
+            "-start_number",
+            "0",
+            "-i",
+            "/tmp/react-motion-renderaGFyNr/element-%03d.jpeg",
+            "-an",
+            "-c:v",
+            "libx264",
+            "-pix_fmt",
+            "yuv420p",
+            "-preset",
+            "ultrafast",
+            "-g",
+            "24",
+            "-video_track_timescale",
+            "90000",
+            "-crf",
+            "11",
+            "-map_metadata",
+            "-1",
+            "-metadata",
+            "comment=Made with Remotion 4.0.529",
+            "-y",
+            "-f",
+            "mp4",
+            "-threads:v",
+            "1",
+            "-bf",
+            "0",
+            "-sc_threshold",
+            "0",
+            "-qmin",
+            "15",
+            "-qmax",
+            "60",
+            "-qcomp",
+            "0.6",
+            "-qdiff",
+            "4",
+            "-vf",
+            "scale=out_color_matrix=bt601:out_range=tv,format=yuv420p",
+            "-colorspace:v",
+            "smpte170m",
+            "-color_range",
+            "tv",
+            "/tmp/remotion-v4.0.529-assets0fo7qyplnq/remotion-stitch-temp-dir/fast-start-intermediate.remotion-in-progress"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "F-ultrafast-w2-t1",
+    "engine": "F",
+    "preset": "ultrafast",
+    "phase": "timed",
+    "index": 2,
+    "status": "complete",
+    "eligible": true,
+    "deliveredWallNs": 39229473920,
+    "deliveredWallSeconds": 39.22947392,
+    "components": {
+      "engine": {
+        "command": [
+          "/home/user/benchmark-work/fframes-cpu/target/release/helios-fframes-cpu-comparison",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-2-F-ultrafast-w2-t1/output.mp4",
+          "ultrafast",
+          "11",
+          "2",
+          "1",
+          "/home/user/benchmark-work/fframes/render-bench/vs-remotion/fframes/media"
+        ],
+        "exitCode": 0,
+        "wallNs": 35865024557
+      },
+      "repair": {
+        "command": [
+          "/usr/bin/ffmpeg",
+          "-v",
+          "error",
+          "-y",
+          "-ignore_editlist",
+          "1",
+          "-i",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-2-F-ultrafast-w2-t1/original.mp4",
+          "-map",
+          "0:v:0",
+          "-c:v",
+          "copy",
+          "-an",
+          "-use_editlist",
+          "0",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-2-F-ultrafast-w2-t1/output.mp4"
+        ],
+        "exitCode": 0,
+        "wallNs": 386855963
+      },
+      "verify": {
+        "command": [
+          "/usr/bin/ffprobe",
+          "-v",
+          "error",
+          "-threads",
+          "2",
+          "-count_frames",
+          "-show_streams",
+          "-show_format",
+          "-of",
+          "json",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-2-F-ultrafast-w2-t1/output.mp4"
+        ],
+        "exitCode": 0,
+        "wallNs": 2976874792
+      }
+    },
+    "outputs": [
+      {
+        "path": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-2-F-ultrafast-w2-t1/original.mp4",
+        "bytes": 226106622,
+        "sha256": "218b09581f98c992039362e4d98715e0d5e98595fcc31ba9ad72eb1cdc32d7ee"
+      },
+      {
+        "path": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-2-F-ultrafast-w2-t1/output.mp4",
+        "bytes": 226106587,
+        "sha256": "760dbd4bd588f8c244d2c486e39cc10e8d2d1cf6676e64d0efa23cd85a320706"
+      }
+    ],
+    "encoding": {
+      "rawUserSei": "x264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=1 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=24 keyint_min=2 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=11.0 qcomp=0.60 qpmin=15 qpmax=60 qpstep=4 ip_ratio=1.40 aq=0",
+      "expected": {
+        "threads": 1,
+        "bframes": 0,
+        "keyint": 24,
+        "crf": 11,
+        "qpmin": 15,
+        "qpmax": 60,
+        "qcomp": 0.6,
+        "qpstep": 4,
+        "scenecut": 0,
+        "cabac": 0,
+        "ref": 1,
+        "subme": 0,
+        "trellis": 0
+      }
+    },
+    "heliosStats": null,
+    "remotion": null
+  },
+  {
+    "id": "R-ultrafast-w2-t1",
+    "engine": "R",
+    "preset": "ultrafast",
+    "phase": "timed",
+    "index": 2,
+    "status": "complete",
+    "eligible": true,
+    "deliveredWallNs": 60012809861,
+    "deliveredWallSeconds": 60.012809861,
+    "components": {
+      "engine": {
+        "command": [
+          "/home/user/benchmark-work/node-v24.19.0-linux-x64/bin/node",
+          "/home/user/benchmark-work/repro-linux/worker.mjs",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-2-R-ultrafast-w2-t1/config.json"
+        ],
+        "exitCode": 0,
+        "wallNs": 57302655017
+      },
+      "verify": {
+        "command": [
+          "/usr/bin/ffprobe",
+          "-v",
+          "error",
+          "-threads",
+          "2",
+          "-count_frames",
+          "-show_streams",
+          "-show_format",
+          "-of",
+          "json",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-2-R-ultrafast-w2-t1/output.mp4"
+        ],
+        "exitCode": 0,
+        "wallNs": 2709634009
+      }
+    },
+    "outputs": [
+      {
+        "path": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-2-R-ultrafast-w2-t1/output.mp4",
+        "bytes": 204035687,
+        "sha256": "8b827706fc2566c10eb0c3b45635a040bc1e7bdca9d41c8d807d2cbff284b2da"
+      }
+    ],
+    "encoding": {
+      "rawUserSei": "x264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=1 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=24 keyint_min=2 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=11.0 qcomp=0.60 qpmin=15 qpmax=60 qpstep=4 ip_ratio=1.40 aq=0",
+      "expected": {
+        "threads": 1,
+        "bframes": 0,
+        "keyint": 24,
+        "crf": 11,
+        "qpmin": 15,
+        "qpmax": 60,
+        "qcomp": 0.6,
+        "qpstep": 4,
+        "scenecut": 0,
+        "cabac": 0,
+        "ref": 1,
+        "subme": 0,
+        "trellis": 0
+      }
+    },
+    "heliosStats": null,
+    "remotion": {
+      "browserOpenNs": 119238729,
+      "selectCompositionNs": 192637863,
+      "renderMediaNs": 56662246752,
+      "browserCloseNs": 103172659,
+      "gpuEvidence": {
+        "expectedGpuFlags": [
+          "--disable-gpu",
+          "--disable-gpu-compositing",
+          "--disable-gpu-rasterization"
+        ],
+        "featureStatus": {
+          "gpu_compositing": "disabled_software",
+          "rasterization": "disabled_software",
+          "2d_canvas": "enabled",
+          "webgl": "enabled_readback",
+          "webgpu": "unavailable_software",
+          "video_decode": "enabled",
+          "video_encode": "disabled_software",
+          "vulkan": "disabled_off",
+          "skia_graphite": "disabled_off"
+        },
+        "glRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver-5.0.0)",
+        "glVendor": "Google Inc. (Google)",
+        "admissionPassed": true,
+        "missingFlags": [],
+        "invalidRequiredStages": []
+      },
+      "ffmpegArgv": [
+        {
+          "type": "stitcher",
+          "copying": false,
+          "executable": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/binaries/ffmpeg",
+          "args": [
+            "-r",
+            "30",
+            "-f",
+            "image2",
+            "-s",
+            "1920x1080",
+            "-start_number",
+            "0",
+            "-i",
+            "/tmp/react-motion-renderzMY3ef/element-%03d.jpeg",
+            "-an",
+            "-c:v",
+            "libx264",
+            "-pix_fmt",
+            "yuv420p",
+            "-preset",
+            "ultrafast",
+            "-g",
+            "24",
+            "-video_track_timescale",
+            "90000",
+            "-crf",
+            "11",
+            "-map_metadata",
+            "-1",
+            "-metadata",
+            "comment=Made with Remotion 4.0.529",
+            "-y",
+            "-f",
+            "mp4",
+            "-threads:v",
+            "1",
+            "-bf",
+            "0",
+            "-sc_threshold",
+            "0",
+            "-qmin",
+            "15",
+            "-qmax",
+            "60",
+            "-qcomp",
+            "0.6",
+            "-qdiff",
+            "4",
+            "-vf",
+            "scale=out_color_matrix=bt601:out_range=tv,format=yuv420p",
+            "-colorspace:v",
+            "smpte170m",
+            "-color_range",
+            "tv",
+            "/tmp/remotion-v4.0.529-assets457oessmhx/remotion-stitch-temp-dir/fast-start-intermediate.remotion-in-progress"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "H-ultrafast-w2-t1",
+    "engine": "H",
+    "preset": "ultrafast",
+    "phase": "timed",
+    "index": 2,
+    "status": "complete",
+    "eligible": true,
+    "deliveredWallNs": 20704839205,
+    "deliveredWallSeconds": 20.704839205,
+    "components": {
+      "engine": {
+        "command": [
+          "/home/user/benchmark-work/node-v24.19.0-linux-x64/bin/node",
+          "/home/user/benchmark-work/repro-linux/helios-worker.mjs",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-2-H-ultrafast-w2-t1/config.json"
+        ],
+        "exitCode": 0,
+        "wallNs": 20704577597
+      }
+    },
+    "outputs": [
+      {
+        "path": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-2-H-ultrafast-w2-t1/output.mp4",
+        "bytes": 195226362,
+        "sha256": "ad82e6bc13985f428ea2e527da9efcf776985cfbec50acbec9f8439a3b4c4112"
+      }
+    ],
+    "encoding": {
+      "rawUserSei": "x264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=1 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=24 keyint_min=2 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=11.0 qcomp=0.60 qpmin=15 qpmax=60 qpstep=4 ip_ratio=1.40 aq=0",
+      "expected": {
+        "threads": 1,
+        "bframes": 0,
+        "keyint": 24,
+        "crf": 11,
+        "qpmin": 15,
+        "qpmax": 60,
+        "qcomp": 0.6,
+        "qpstep": 4,
+        "scenecut": 0,
+        "cabac": 0,
+        "ref": 1,
+        "subme": 0,
+        "trellis": 0
+      }
+    },
+    "heliosStats": {
+      "frames": 300,
+      "chunks": 2,
+      "workers": 2,
+      "ranges": [
+        {
+          "frames": 150,
+          "preparationMs": 33.11240799999999,
+          "rasterizeMs": 13013.13986600001,
+          "pixelExtractionMs": 1681.8640960000073,
+          "drawMs": 14696.502631,
+          "encoderWaitMs": 1935.1083160000017,
+          "encodeMs": 16754.592007,
+          "verifyMs": 123.3483899999992
+        },
+        {
+          "frames": 150,
+          "preparationMs": 33.05434200000002,
+          "rasterizeMs": 12937.048510999992,
+          "pixelExtractionMs": 1716.0971170000012,
+          "drawMs": 14654.658425000001,
+          "encoderWaitMs": 1966.8927769999975,
+          "encodeMs": 16754.020267,
+          "verifyMs": 123.13080599999739
+        }
+      ],
+      "renderMs": 17164.400336,
+      "finalizeMs": 3299.283776,
+      "finalVerifyMs": 2674.3700830000016
+    },
+    "remotion": null
+  },
+  {
+    "id": "R-ultrafast-w2-t1",
+    "engine": "R",
+    "preset": "ultrafast",
+    "phase": "timed",
+    "index": 3,
+    "status": "complete",
+    "eligible": true,
+    "deliveredWallNs": 59564471586,
+    "deliveredWallSeconds": 59.564471586,
+    "components": {
+      "engine": {
+        "command": [
+          "/home/user/benchmark-work/node-v24.19.0-linux-x64/bin/node",
+          "/home/user/benchmark-work/repro-linux/worker.mjs",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-3-R-ultrafast-w2-t1/config.json"
+        ],
+        "exitCode": 0,
+        "wallNs": 56851416196
+      },
+      "verify": {
+        "command": [
+          "/usr/bin/ffprobe",
+          "-v",
+          "error",
+          "-threads",
+          "2",
+          "-count_frames",
+          "-show_streams",
+          "-show_format",
+          "-of",
+          "json",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-3-R-ultrafast-w2-t1/output.mp4"
+        ],
+        "exitCode": 0,
+        "wallNs": 2712609084
+      }
+    },
+    "outputs": [
+      {
+        "path": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-3-R-ultrafast-w2-t1/output.mp4",
+        "bytes": 204035687,
+        "sha256": "8b827706fc2566c10eb0c3b45635a040bc1e7bdca9d41c8d807d2cbff284b2da"
+      }
+    ],
+    "encoding": {
+      "rawUserSei": "x264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=1 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=24 keyint_min=2 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=11.0 qcomp=0.60 qpmin=15 qpmax=60 qpstep=4 ip_ratio=1.40 aq=0",
+      "expected": {
+        "threads": 1,
+        "bframes": 0,
+        "keyint": 24,
+        "crf": 11,
+        "qpmin": 15,
+        "qpmax": 60,
+        "qcomp": 0.6,
+        "qpstep": 4,
+        "scenecut": 0,
+        "cabac": 0,
+        "ref": 1,
+        "subme": 0,
+        "trellis": 0
+      }
+    },
+    "heliosStats": null,
+    "remotion": {
+      "browserOpenNs": 89337469,
+      "selectCompositionNs": 187661007,
+      "renderMediaNs": 56201702171,
+      "browserCloseNs": 129102753,
+      "gpuEvidence": {
+        "expectedGpuFlags": [
+          "--disable-gpu",
+          "--disable-gpu-compositing",
+          "--disable-gpu-rasterization"
+        ],
+        "featureStatus": {
+          "gpu_compositing": "disabled_software",
+          "rasterization": "disabled_software",
+          "2d_canvas": "enabled",
+          "webgl": "enabled_readback",
+          "webgpu": "unavailable_software",
+          "video_decode": "enabled",
+          "video_encode": "disabled_software",
+          "vulkan": "disabled_off",
+          "skia_graphite": "disabled_off"
+        },
+        "glRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver-5.0.0)",
+        "glVendor": "Google Inc. (Google)",
+        "admissionPassed": true,
+        "missingFlags": [],
+        "invalidRequiredStages": []
+      },
+      "ffmpegArgv": [
+        {
+          "type": "stitcher",
+          "copying": false,
+          "executable": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/binaries/ffmpeg",
+          "args": [
+            "-r",
+            "30",
+            "-f",
+            "image2",
+            "-s",
+            "1920x1080",
+            "-start_number",
+            "0",
+            "-i",
+            "/tmp/react-motion-rendermQd9za/element-%03d.jpeg",
+            "-an",
+            "-c:v",
+            "libx264",
+            "-pix_fmt",
+            "yuv420p",
+            "-preset",
+            "ultrafast",
+            "-g",
+            "24",
+            "-video_track_timescale",
+            "90000",
+            "-crf",
+            "11",
+            "-map_metadata",
+            "-1",
+            "-metadata",
+            "comment=Made with Remotion 4.0.529",
+            "-y",
+            "-f",
+            "mp4",
+            "-threads:v",
+            "1",
+            "-bf",
+            "0",
+            "-sc_threshold",
+            "0",
+            "-qmin",
+            "15",
+            "-qmax",
+            "60",
+            "-qcomp",
+            "0.6",
+            "-qdiff",
+            "4",
+            "-vf",
+            "scale=out_color_matrix=bt601:out_range=tv,format=yuv420p",
+            "-colorspace:v",
+            "smpte170m",
+            "-color_range",
+            "tv",
+            "/tmp/remotion-v4.0.529-assetsmrtdvlerbu/remotion-stitch-temp-dir/fast-start-intermediate.remotion-in-progress"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "H-ultrafast-w2-t1",
+    "engine": "H",
+    "preset": "ultrafast",
+    "phase": "timed",
+    "index": 3,
+    "status": "complete",
+    "eligible": true,
+    "deliveredWallNs": 20679705204,
+    "deliveredWallSeconds": 20.679705204,
+    "components": {
+      "engine": {
+        "command": [
+          "/home/user/benchmark-work/node-v24.19.0-linux-x64/bin/node",
+          "/home/user/benchmark-work/repro-linux/helios-worker.mjs",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-3-H-ultrafast-w2-t1/config.json"
+        ],
+        "exitCode": 0,
+        "wallNs": 20679450945
+      }
+    },
+    "outputs": [
+      {
+        "path": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-3-H-ultrafast-w2-t1/output.mp4",
+        "bytes": 195226362,
+        "sha256": "ad82e6bc13985f428ea2e527da9efcf776985cfbec50acbec9f8439a3b4c4112"
+      }
+    ],
+    "encoding": {
+      "rawUserSei": "x264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=1 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=24 keyint_min=2 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=11.0 qcomp=0.60 qpmin=15 qpmax=60 qpstep=4 ip_ratio=1.40 aq=0",
+      "expected": {
+        "threads": 1,
+        "bframes": 0,
+        "keyint": 24,
+        "crf": 11,
+        "qpmin": 15,
+        "qpmax": 60,
+        "qcomp": 0.6,
+        "qpstep": 4,
+        "scenecut": 0,
+        "cabac": 0,
+        "ref": 1,
+        "subme": 0,
+        "trellis": 0
+      }
+    },
+    "heliosStats": {
+      "frames": 300,
+      "chunks": 2,
+      "workers": 2,
+      "ranges": [
+        {
+          "frames": 150,
+          "preparationMs": 33.34766099999999,
+          "rasterizeMs": 12910.833520999993,
+          "pixelExtractionMs": 1658.161551999999,
+          "drawMs": 14570.446669000008,
+          "encoderWaitMs": 1971.5754779999966,
+          "encodeMs": 16648.223992000003,
+          "verifyMs": 122.92390599999999
+        },
+        {
+          "frames": 150,
+          "preparationMs": 34.857911,
+          "rasterizeMs": 12976.895307000012,
+          "pixelExtractionMs": 1711.2748620000052,
+          "drawMs": 14689.762473999996,
+          "encoderWaitMs": 1957.4566220000072,
+          "encodeMs": 16753.391119,
+          "verifyMs": 117.21239199999764
+        }
+      ],
+      "renderMs": 17148.797404,
+      "finalizeMs": 3279.9445809999997,
+      "finalVerifyMs": 2620.9431710000026
+    },
+    "remotion": null
+  },
+  {
+    "id": "F-ultrafast-w2-t1",
+    "engine": "F",
+    "preset": "ultrafast",
+    "phase": "timed",
+    "index": 3,
+    "status": "complete",
+    "eligible": true,
+    "deliveredWallNs": 39251199575,
+    "deliveredWallSeconds": 39.251199575,
+    "components": {
+      "engine": {
+        "command": [
+          "/home/user/benchmark-work/fframes-cpu/target/release/helios-fframes-cpu-comparison",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-3-F-ultrafast-w2-t1/output.mp4",
+          "ultrafast",
+          "11",
+          "2",
+          "1",
+          "/home/user/benchmark-work/fframes/render-bench/vs-remotion/fframes/media"
+        ],
+        "exitCode": 0,
+        "wallNs": 35844130229
+      },
+      "repair": {
+        "command": [
+          "/usr/bin/ffmpeg",
+          "-v",
+          "error",
+          "-y",
+          "-ignore_editlist",
+          "1",
+          "-i",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-3-F-ultrafast-w2-t1/original.mp4",
+          "-map",
+          "0:v:0",
+          "-c:v",
+          "copy",
+          "-an",
+          "-use_editlist",
+          "0",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-3-F-ultrafast-w2-t1/output.mp4"
+        ],
+        "exitCode": 0,
+        "wallNs": 460634610
+      },
+      "verify": {
+        "command": [
+          "/usr/bin/ffprobe",
+          "-v",
+          "error",
+          "-threads",
+          "2",
+          "-count_frames",
+          "-show_streams",
+          "-show_format",
+          "-of",
+          "json",
+          "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-3-F-ultrafast-w2-t1/output.mp4"
+        ],
+        "exitCode": 0,
+        "wallNs": 2945432244
+      }
+    },
+    "outputs": [
+      {
+        "path": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-3-F-ultrafast-w2-t1/original.mp4",
+        "bytes": 226106622,
+        "sha256": "218b09581f98c992039362e4d98715e0d5e98595fcc31ba9ad72eb1cdc32d7ee"
+      },
+      {
+        "path": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-3-F-ultrafast-w2-t1/output.mp4",
+        "bytes": 226106587,
+        "sha256": "760dbd4bd588f8c244d2c486e39cc10e8d2d1cf6676e64d0efa23cd85a320706"
+      }
+    ],
+    "encoding": {
+      "rawUserSei": "x264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=1 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=24 keyint_min=2 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=11.0 qcomp=0.60 qpmin=15 qpmax=60 qpstep=4 ip_ratio=1.40 aq=0",
+      "expected": {
+        "threads": 1,
+        "bframes": 0,
+        "keyint": 24,
+        "crf": 11,
+        "qpmin": 15,
+        "qpmax": 60,
+        "qcomp": 0.6,
+        "qpstep": 4,
+        "scenecut": 0,
+        "cabac": 0,
+        "ref": 1,
+        "subme": 0,
+        "trellis": 0
+      }
+    },
+    "heliosStats": null,
+    "remotion": null
+  }
+]

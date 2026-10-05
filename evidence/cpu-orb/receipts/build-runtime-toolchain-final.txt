@@ -1,0 +1,32 @@
+=== build tools ===
+gcc (Debian 12.2.0-14+deb12u1) 12.2.0
+Debian clang version 14.0.6
+cmake version 3.25.1
+rustc 1.90.0 (1159e78c4 2025-09-14)
+binary: rustc
+commit-hash: 1159e78c4747b02ef996e55082b704c09b970588
+commit-date: 2025-09-14
+host: x86_64-unknown-linux-gnu
+release: 1.90.0
+LLVM version: 20.1.8
+cargo 1.90.0 (840b83a10 2025-07-30)
+release: 1.90.0
+commit-hash: 840b83a10fb0e039a83f4d70ad032892c287570a
+commit-date: 2025-07-30
+host: x86_64-unknown-linux-gnu
+libgit2: 1.9.1 (sys:0.20.2 vendored)
+libcurl: 8.14.1-DEV (sys:0.4.82+curl-8.14.1 vendored ssl:OpenSSL/3.5.0)
+ssl: OpenSSL 3.5.0 8 Apr 2025
+os: Debian 12.0.0 [64-bit]
+=== fframes binary linkage ===
+	linux-vdso.so.1 (0x00007ffea7eb0000)
+	libx264.so.164 => /lib/x86_64-linux-gnu/libx264.so.164 (0x00007f118a600000)
+	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007f118a920000)
+	libgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007f118ca10000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f118a41e000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007f118ca3d000)
+=== package versions ===
+buildNode=v26.10.0
+10.9.9
+napiCanvas=1.0.9
+remotionRenderer=4.0.529

@@ -1,0 +1,71 @@
+{
+  "purpose": "copied-small-NV12-storage-test",
+  "width": 256,
+  "height": 128,
+  "frames": 3,
+  "fixtureFrames": 300,
+  "sourceStart": 0,
+  "fpsNum": 30000,
+  "fpsDen": 1001,
+  "source": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/streaming-reference-prep-20261005/fixtures/reference.nv12",
+  "sourceSha256": "4f8429472e98618a18b8a46a1aa8f0430e5df9cba63359cb4050408e516d918a",
+  "expectedFrames": [
+    {
+      "index": 0,
+      "sourceIndex": 0,
+      "rawNv12Sha256": "6a37c1d3745d16bfddea3589d783391291390cebfe53b50115657e9456afda4f"
+    },
+    {
+      "index": 1,
+      "sourceIndex": 1,
+      "rawNv12Sha256": "2139aca4d59d6833b85b5a0ba00bb8ef4cbde0d5754c8a730ef1a63ec64c6333"
+    },
+    {
+      "index": 2,
+      "sourceIndex": 2,
+      "rawNv12Sha256": "b1fb0576579a6d5d399a8ae26462e32f223aaa3fc39372c136e0772c2e064e60"
+    }
+  ],
+  "pins": [
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/streaming-reference-prep-20261005/fixtures/reference.nv12",
+      "bytes": 14745600,
+      "sha256": "4f8429472e98618a18b8a46a1aa8f0430e5df9cba63359cb4050408e516d918a"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/nv12_fixture_worker.py",
+      "bytes": 2211,
+      "sha256": "a3891b0c99ae2768f00cf1e06f5d5f5afc70a2c426dc651cbbb1d1c81c8b1abe"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/ffmpeg/9.0.2/bin/ffmpeg",
+      "bytes": 426512,
+      "sha256": "1ede5c7fd4e97d832ec69c97c78231875de7d69c55423158f5f4a4d923227dd5"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/ffmpeg/9.0.2/bin/ffprobe",
+      "bytes": 253488,
+      "sha256": "258fa480850eec6cf7b6831b2d3edd164cdd2f9ddb7a14965dc9fdaf9d175ff7"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+      "bytes": 34640,
+      "sha256": "4f00ea2ad53d62437a6a3946b73c73614a97e8accdc5b96dc095ea1a0d9c6a56"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/stream_nv12_reference.py",
+      "bytes": 14604,
+      "sha256": "f492e891e1931dd7a315f13803348d0b18350123ce32d9951d93db679cff538a"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/test_stream_nv12_reference.py",
+      "bytes": 8085,
+      "sha256": "37a1e2d1d43c0bdd8a1aa45dddc96ca5d39779239d0d903a0e0134ca879851e3"
+    }
+  ],
+  "encodedCapBytes": 16777216,
+  "timeoutSeconds": 30,
+  "benchmarkTiming": false,
+  "timingWindowOpen": false,
+  "testControl": "short-boundary"
+}

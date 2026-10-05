@@ -1,0 +1,151 @@
+{
+  "status": "independent bounded Vulkan handoff verified; full4K and production comparison incomplete",
+  "sourceCommit": "63869ba529c89fc1a27f7f55057e4d876c42d26e",
+  "helper": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/helper-candidate-03",
+  "helperSha256": "6679452901c6535cc80b4b762cd6c7c13d222e91fb8212a837ca85e60f4af22b",
+  "manifest": {
+    "count": 426,
+    "failed": [],
+    "passed": true
+  },
+  "sources": {
+    "count": 156,
+    "failed": [],
+    "passed": true
+  },
+  "dist": {
+    "count": 42,
+    "failed": [],
+    "passed": true
+  },
+  "historicalHelpers": {
+    "count": 6,
+    "failed": []
+  },
+  "runtimeFrozenPath": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final",
+  "runtimeRequirement": "The frozen helper uses @rpath/libMoltenVK.dylib with canonical /private/tmp/helios-vulkan-runtime-01a101cb/MoltenVK/MoltenVK/dynamic/dylib/macOS RPATH; retain that exact runtime path or restore identical pinned runtime bytes there before reuse. Independent durable runtime copy retained.",
+  "codecs": {
+    "hevc": {
+      "metrics": {
+        "ssim.txt": {
+          "count": 300,
+          "indicesExact": true,
+          "minima": {
+            "Y": 0.999978
+          }
+        },
+        "psnr.txt": {
+          "count": 300,
+          "indicesExact": true,
+          "minima": {
+            "psnr_y": 69.22,
+            "psnr_u": 67.4,
+            "psnr_v": 69.34
+          }
+        }
+      },
+      "directReferenceFrames": 300,
+      "rawBytes": 14745600,
+      "directBindingMismatches": [],
+      "exactRawByteCount": true,
+      "exactDecodedCadence": true,
+      "gopMaximum": 30,
+      "colorPassed": true,
+      "hardwareUsed": true,
+      "orderedConversionSubmissionCallback": true,
+      "sameSurfacePlanes": true,
+      "noEarlyOwnerReuse": true,
+      "actualVulkanInterposerTriples": true,
+      "all300VulkanFenceFrames": true,
+      "sameImportedTexture": true,
+      "sameGpuRegistryId": true,
+      "candidateShaMatches": true,
+      "qualityFloorsPassed": true
+    },
+    "h264": {
+      "metrics": {
+        "ssim.txt": {
+          "count": 300,
+          "indicesExact": true,
+          "minima": {
+            "Y": 0.999984
+          }
+        },
+        "psnr.txt": {
+          "count": 300,
+          "indicesExact": true,
+          "minima": {
+            "psnr_y": 67.1,
+            "psnr_u": 71.95,
+            "psnr_v": 71.7
+          }
+        }
+      },
+      "directReferenceFrames": 300,
+      "rawBytes": 14745600,
+      "directBindingMismatches": [],
+      "exactRawByteCount": true,
+      "exactDecodedCadence": true,
+      "gopMaximum": 30,
+      "colorPassed": true,
+      "hardwareUsed": true,
+      "orderedConversionSubmissionCallback": true,
+      "sameSurfacePlanes": true,
+      "noEarlyOwnerReuse": true,
+      "actualVulkanInterposerTriples": true,
+      "all300VulkanFenceFrames": true,
+      "sameImportedTexture": true,
+      "sameGpuRegistryId": true,
+      "candidateShaMatches": true,
+      "qualityFloorsPassed": true
+    }
+  },
+  "zeroCopyProved": false,
+  "noNewGpuJobsOrTimings": true,
+  "comparisonTimingWindow": "closed",
+  "publication": {
+    "status": "blocked-by-automatic-approval-review",
+    "remote": "git@github.com:BintzGavin/helios.git",
+    "pushExecuted": false,
+    "pullRequest": null,
+    "approvalNeeded": "Human explicit approval to push gavin/feat-gpu-vulkan-interop to BintzGavin/helios and open prepared draft PR."
+  },
+  "runtimeCanonicalDylibMatchesFrozen": true,
+  "sourceArchiveShaMatches": true,
+  "sourceArchiveCrcPassed": true,
+  "passed": true,
+  "nextActionableComparisonGap": {
+    "priority": "fframes full MaxPerformance hardware product chroma/reference qualification",
+    "evidence": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-f-500/quality.json",
+    "retainedScreen": {
+      "exportSeconds": 27.400868292,
+      "minimumSsimY": 0.999168,
+      "minimumPsnrYUV": [
+        49.0,
+        33.36,
+        33.1
+      ],
+      "fixedPsnrUVFloor": 35,
+      "eligible": false
+    },
+    "requiredAction": "Trace the original hardware-target-to-encoder color/chroma contract and establish an independently justified source/reference relationship while preserving full production concurrency. Do not fit references, lower thresholds, or substitute the serial adapter. If a changed converter is needed, label it as a modified pipeline and retain the original lane.",
+    "beforeBalancedTiming": "Full300-frame 4K qualification of intended Metal/HEVC/Vulkan candidate lanes and independently verified references/settings."
+  },
+  "excludedRecorderEvidence": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-binary-recording-profile.json",
+    "sourcePins": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/binary-transport-source-check.json",
+    "scope": "three excluded CPU-only frame recordings; no GPU throughput or total-export bottleneck proof",
+    "jsonRecordAndSerializeMs": [
+      152.737791,
+      137.092125,
+      136.039958
+    ],
+    "binaryRecordMs": [
+      41.350834,
+      33.944458,
+      33.336125
+    ],
+    "binaryBytesPerFrame": 5592444,
+    "noFurtherNativeOptimizationSelected": true
+  }
+}

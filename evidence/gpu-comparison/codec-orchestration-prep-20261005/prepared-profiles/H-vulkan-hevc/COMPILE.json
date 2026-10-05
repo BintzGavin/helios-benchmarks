@@ -1,0 +1,58 @@
+{
+  "command": [
+    "/usr/bin/xcrun",
+    "clang++",
+    "-dynamiclib",
+    "-fobjc-arc",
+    "-std=c++17",
+    "-isysroot",
+    "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+    "-DHELIOS_PROFILE_PATH=\"/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/codec-orchestration-prep-20261005/prepared-profiles/H-vulkan-hevc/interposer.jsonl\"",
+    "-DHELIOS_PROFILE_VULKAN",
+    "-I",
+    "/private/tmp/helios-vulkan-runtime-01a101cb/MoltenVK/MoltenVK/include",
+    "-L",
+    "/private/tmp/helios-vulkan-runtime-01a101cb/MoltenVK/MoltenVK/dynamic/dylib/macOS",
+    "-lMoltenVK",
+    "-Wl,-rpath,/private/tmp/helios-vulkan-runtime-01a101cb/MoltenVK/MoltenVK/dynamic/dylib/macOS",
+    "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/profile-gpu.mm",
+    "-framework",
+    "Foundation",
+    "-framework",
+    "Metal",
+    "-framework",
+    "CoreVideo",
+    "-framework",
+    "IOSurface",
+    "-o",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/codec-orchestration-prep-20261005/prepared-profiles/H-vulkan-hevc/transfer-interposer.dylib"
+  ],
+  "exit": 0,
+  "sourcePin": {
+    "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/profile-gpu.mm",
+    "bytes": 9771,
+    "sha256": "104c683e4b1249f6454a989c35f55440d26e638bb91819a075d837800708a3e6"
+  },
+  "compileOnly": true,
+  "libraryNeverLoaded": true,
+  "GPUConstructorExecuted": false,
+  "GPUExecuted": false,
+  "newCargoBuild": false,
+  "benchmarkTiming": false,
+  "intendedLogPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/codec-orchestration-prep-20261005/prepared-profiles/H-vulkan-hevc/interposer.jsonl",
+  "xcrunPin": {
+    "path": "/usr/bin/xcrun",
+    "bytes": 117392,
+    "sha256": "336abf37d5f57cfddea5e36f8c5157f354776889cd2fee60131c62f756df8f34"
+  },
+  "clangPin": {
+    "path": "/Library/Developer/CommandLineTools/usr/bin/clang",
+    "bytes": 271279344,
+    "sha256": "be5518e9c6736cda8dfc3486ce11e8112a2e08045084260691cf41f57a653f59"
+  },
+  "libraryPin": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/codec-orchestration-prep-20261005/prepared-profiles/H-vulkan-hevc/transfer-interposer.dylib",
+    "bytes": 56760,
+    "sha256": "721157dd9afaa6b40c818ac1b552cae798cb8a06500344dab1fc211a1e5b2a10"
+  }
+}

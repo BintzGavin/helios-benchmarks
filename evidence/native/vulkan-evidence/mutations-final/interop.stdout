@@ -1,0 +1,12 @@
+
+ RUN  v4.1.8 /Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios
+
+ ❯ packages/portable/tests/gpu-vulkan.test.ts (9 tests | 2 failed) 3361ms
+   × rejects stale, Metal, software and unshared Vulkan capabilities before encoding 681ms
+   × rejects wrong Vulkan completion backend, protocol, sharing and hardware without publishing 626ms
+
+ Test Files  1 failed (1)
+      Tests  2 failed | 7 passed (9)
+   Start at  17:28:25
+   Duration  3.62s (transform 74ms, setup 0ms, import 159ms, tests 3.36s, environment 0ms)
+

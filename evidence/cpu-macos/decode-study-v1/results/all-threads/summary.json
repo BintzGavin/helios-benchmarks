@@ -1,0 +1,54 @@
+{
+  "completed": true,
+  "error": null,
+  "medians": [
+    {
+      "profile": "medium",
+      "threads": 1,
+      "samples": 3,
+      "median_seconds": 11.102506292
+    },
+    {
+      "profile": "medium",
+      "threads": 2,
+      "samples": 3,
+      "median_seconds": 5.868831709
+    },
+    {
+      "profile": "medium",
+      "threads": 4,
+      "samples": 3,
+      "median_seconds": 4.416895709
+    },
+    {
+      "profile": "medium",
+      "threads": 8,
+      "samples": 3,
+      "median_seconds": 2.274192125
+    },
+    {
+      "profile": "ultrafast",
+      "threads": 1,
+      "samples": 3,
+      "median_seconds": 3.825040334
+    },
+    {
+      "profile": "ultrafast",
+      "threads": 2,
+      "samples": 3,
+      "median_seconds": 1.8824655
+    },
+    {
+      "profile": "ultrafast",
+      "threads": 4,
+      "samples": 3,
+      "median_seconds": 1.432310666
+    },
+    {
+      "profile": "ultrafast",
+      "threads": 8,
+      "samples": 3,
+      "median_seconds": 0.705229583
+    }
+  ]
+}

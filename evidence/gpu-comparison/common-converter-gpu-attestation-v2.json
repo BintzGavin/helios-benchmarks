@@ -1,0 +1,80 @@
+{
+  "passed": true,
+  "zeroCopyProved": false,
+  "scope": "separate excluded three-frame hardware probe; unknown buffer pointer accesses and opaque system/driver copies remain unproved",
+  "phases": [
+    {
+      "name": "NV12-reference-positive-control",
+      "counts": {
+        "profiler-hooks-installed": 1,
+        "IOSurfaceGetBaseAddress": 15,
+        "IOSurfaceGetBaseAddressOfPlane": 58,
+        "CVPixelBufferLockBaseAddress": 4,
+        "IOSurfaceLock": 4,
+        "CVPixelBufferGetBaseAddressOfPlane": 8
+      },
+      "observedDownloadEvents": []
+    },
+    {
+      "name": "actual4Kcommon-hardware",
+      "counts": {
+        "profiler-hooks-installed": 1,
+        "IOSurfaceGetBaseAddress": 9,
+        "IOSurfaceGetBaseAddressOfPlane": 469,
+        "MTLBufferContentsAccessIntentUnknown": 23717
+      },
+      "observedDownloadEvents": []
+    },
+    {
+      "name": "RGBA-download-positive-control",
+      "counts": {
+        "profiler-hooks-installed": 1,
+        "MTLBufferContentsAccessIntentUnknown": 23720,
+        "MTLBlitTextureToBuffer": 3
+      },
+      "observedDownloadEvents": [
+        {
+          "event": "MTLBlitTextureToBuffer",
+          "resourceExtentBytes": 33177600,
+          "timeSeconds": 174678.437045
+        },
+        {
+          "event": "MTLBlitTextureToBuffer",
+          "resourceExtentBytes": 33177600,
+          "timeSeconds": 174678.751566
+        },
+        {
+          "event": "MTLBlitTextureToBuffer",
+          "resourceExtentBytes": 33177600,
+          "timeSeconds": 174679.061963
+        }
+      ]
+    }
+  ],
+  "gpuImports": 3,
+  "gpuConversions": 3,
+  "encoderCallbacks": 3,
+  "orderedFinish": {
+    "event": "encoder-finish",
+    "frames": 3,
+    "capacity": 3,
+    "peakInFlight": 1,
+    "allCallbacksComplete": true
+  },
+  "configuration": {
+    "event": "surface-create",
+    "surfaceId": 716,
+    "protocol": 4,
+    "bitrate": 500000000,
+    "configuredBitrate": 500000000,
+    "gop": 30,
+    "encoderPool": true,
+    "poolCapacity": 3,
+    "format": "nv12-video-range",
+    "rasterStorage": "private",
+    "rawCpuMapCallsInBridge": 0
+  },
+  "interposerSha256": "ca546d3102a73f3f9c0aa56ab6450211d8dc6f801d1f4240d03b0c32bfd54e5e",
+  "sharedConverterSha256": "f560c0f17d7d401defe8dfb6fa14c6b8d49dfbe9b767e1f30079807ef74b9387",
+  "extraGpuTextureCopy": true
+}

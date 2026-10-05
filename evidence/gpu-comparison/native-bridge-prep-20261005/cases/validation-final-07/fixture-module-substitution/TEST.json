@@ -1,0 +1,10 @@
+{
+  "test": "fixture-module-substitution",
+  "passed": true,
+  "expectedRefusal": "PINNED_CPU_MODULES_ONLY",
+  "observedError": "Refusal:PINNED_CPU_MODULES_ONLY",
+  "secondsExcludedFromBenchmark": 0.006632999982684851,
+  "GPUExecuted": false,
+  "sourceUnchanged": true,
+  "publishedFixtureBinding": false
+}

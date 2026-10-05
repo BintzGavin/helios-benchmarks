@@ -1,0 +1,10 @@
+{
+  "case": "producer-failure",
+  "passed": true,
+  "expectedRefusal": "PRODUCER_EXIT",
+  "observedError": "Refusal: PRODUCER_EXIT",
+  "secondsExcludedFromBenchmarks": 1.072229834011523,
+  "sourceUnchanged": true,
+  "GPUExecuted": false,
+  "atomicFinalExists": false
+}

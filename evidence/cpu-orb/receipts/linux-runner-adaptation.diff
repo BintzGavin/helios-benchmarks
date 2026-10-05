@@ -1,0 +1,209 @@
+Binary files /home/user/evidence/helios-cpu-linux-2026-10-02/inputs/reproduction/public-reproduction-v1/__pycache__/helpers.cpython-311.pyc and ./__pycache__/helpers.cpython-311.pyc differ
+Binary files /home/user/evidence/helios-cpu-linux-2026-10-02/inputs/reproduction/public-reproduction-v1/__pycache__/quality.cpython-311.pyc and ./__pycache__/quality.cpython-311.pyc differ
+Binary files /home/user/evidence/helios-cpu-linux-2026-10-02/inputs/reproduction/public-reproduction-v1/__pycache__/run.cpython-311.pyc and ./__pycache__/run.cpython-311.pyc differ
+diff -ruN /home/user/evidence/helios-cpu-linux-2026-10-02/inputs/reproduction/public-reproduction-v1/quality.py ./quality.py
+--- /home/user/evidence/helios-cpu-linux-2026-10-02/inputs/reproduction/public-reproduction-v1/quality.py	2026-10-01 17:20:46.000000000 +0000
++++ ./quality.py	2026-10-02 21:26:48.774925626 +0000
+@@ -60,7 +60,7 @@
+         raise RuntimeError(f'Reference pipeline failed: {directory}')
+ 
+ def probe(path, directory, label):
+-    execute([FFPROBE, '-v', 'error', '-threads', '4', '-select_streams', 'v:0', '-show_frames', '-show_streams',
++    execute([FFPROBE, '-v', 'error', '-threads', '2', '-select_streams', 'v:0', '-show_frames', '-show_streams',
+              '-show_entries', 'frame=pts,best_effort_timestamp,pkt_dts,duration,pkt_duration,key_frame,pict_type:stream=codec_name,codec_type,width,height,pix_fmt,color_space,color_range,time_base,start_pts,duration_ts,avg_frame_rate,r_frame_rate,nb_frames',
+              '-of', 'json', path], directory, label)
+     return json.loads((directory / (label + '.stdout.log')).read_text())
+@@ -108,8 +108,8 @@
+     graph = ('[0:v]settb=expr=1/30,setpts=N,split=2[o1][o2];[1:v]settb=expr=1/30,setpts=N,split=2[r1][r2];'
+              '[o1][r1]psnr=stats_file=psnr.stats:stats_version=2:output_max=1:shortest=1[p];'
+              '[o2][r2]ssim=stats_file=ssim.stats:shortest=1[s]')
+-    execute([FFMPEG, '-v', 'info', '-nostdin', '-threads', '4', '-i', output, '-threads', '4', '-i', reference,
+-             '-filter_complex_threads', '4', '-filter_complex', graph, '-map', '[p]', '-map', '[s]',
++    execute([FFMPEG, '-v', 'info', '-nostdin', '-threads', '2', '-i', output, '-threads', '2', '-i', reference,
++             '-filter_complex_threads', '2', '-filter_complex', graph, '-map', '[p]', '-map', '[s]',
+              '-fps_mode', 'passthrough', '-f', 'null', '-'], directory, 'metrics')
+     psnr_rows, ssim_rows = [], []
+     for name, rows in [('psnr', psnr_rows), ('ssim', ssim_rows)]:
+@@ -148,14 +148,14 @@
+     directory = destination / 'references' / key
+     directory.mkdir(parents=True)
+     output = directory / 'reference.nut'
+-    lossless_args = ['-an', '-c:v', 'ffv1', '-level', '3', '-g', '1', '-threads', '4', '-pix_fmt', 'yuv420p',
++    lossless_args = ['-an', '-c:v', 'ffv1', '-level', '3', '-g', '1', '-threads', '2', '-pix_fmt', 'yuv420p',
+                      '-colorspace', 'smpte170m', '-color_range', 'tv', '-fs', str(REF_FILE_LIMIT), output]
+     request = {'reference': key, 'details': str(directory / 'source-details.json')}
+     if retained(destination) + REF_FILE_LIMIT + (PNG_LIMIT if key.startswith('R-') else 0) > BUDGET:
+         raise RuntimeError('Insufficient owned storage budget for lossless reference')
+     if key in ['H', 'F']:
+         fmt = 'rgba' if key == 'H' else 'yuv420p'
+-        consumer = [FFMPEG, '-v', 'error', '-nostdin', '-n', '-threads', '4', '-filter_threads', '1',
++        consumer = [FFMPEG, '-v', 'error', '-nostdin', '-n', '-threads', '2', '-filter_threads', '1',
+                     '-f', 'rawvideo', '-pixel_format', fmt, '-video_size', '1920x1080', '-framerate', '30', '-i', 'pipe:0']
+         if key == 'H':
+             request.update(canvasModule=str(H / 'dist/canvas.js'), compositionModule=str(h_composition))
+@@ -170,10 +170,10 @@
+         request.update(project=ready['cwd'], bundle=ready['bundle_path'],
+                        browser=ready['browser_path'],
+                        binariesDirectory=ready['binariesDirectory'],
+-                       workers=6 if key == 'R-cpu' else 4, pngDirectory=str(directory / 'png'), pngLimit=PNG_LIMIT)
++                       workers=2, pngDirectory=str(directory / 'png'), pngLimit=PNG_LIMIT)
+         save(directory / 'reference-request.json', request)
+         execute([NODE, helper, directory / 'reference-request.json'], directory, 'source')
+-        execute([FFMPEG, '-v', 'error', '-nostdin', '-n', '-threads', '4', '-filter_threads', '1',
++        execute([FFMPEG, '-v', 'error', '-nostdin', '-n', '-threads', '2', '-filter_threads', '1',
+                  '-framerate', '30', '-start_number', '0', '-i', directory / 'png/frame-%03d.png',
+                  '-vf', RGB_FILTER] + lossless_args, directory, 'lossless')
+     data = probe(output, directory, 'probe')
+diff -ruN /home/user/evidence/helios-cpu-linux-2026-10-02/inputs/reproduction/public-reproduction-v1/run.py ./run.py
+--- /home/user/evidence/helios-cpu-linux-2026-10-02/inputs/reproduction/public-reproduction-v1/run.py	2026-10-01 17:28:58.000000000 +0000
++++ ./run.py	2026-10-02 21:26:59.787051219 +0000
+@@ -20,7 +20,7 @@
+ FONT_SHA = '9ae2da663d64342031e59b5fa680dd355171d021b7ebf83774efc7c0330ae7b5'
+ LIMITS = {'minSsimY': .995, 'minPsnrY': 40., 'minPsnrU': 35., 'minPsnrV': 35.}
+ FIELDS = {'minSsimY': ('ssim', 'Y'), 'minPsnrY': ('psnr', 'psnr_y'), 'minPsnrU': ('psnr', 'psnr_u'), 'minPsnrV': ('psnr', 'psnr_v')}
+-BUDGETS = {'holdout': 6 * 1024 ** 3}
++BUDGETS = {'qualification': 6 * 1024 ** 3, 'holdout': 6 * 1024 ** 3}
+ UL_PHYSICAL_BUDGET = 4 * 1024 ** 3
+ RESERVATION = 256 * 1024 ** 2
+ HOLDOUT_ORDERS = [['H', 'F', 'R'], ['F', 'R', 'H'], ['R', 'H', 'F']]
+@@ -53,7 +53,7 @@
+     font = MEDIA / 'DMSans-Regular.ttf'
+     bundle, browser = args.remotion_bundle.resolve(), args.browser.resolve()
+     renderer = project / 'node_modules/@remotion/renderer'
+-    compositor = project / 'node_modules/@remotion/compositor-darwin-arm64'
++    compositor = project / 'node_modules/@remotion/compositor-linux-x64-gnu'
+     if not bundle.is_dir() or not crate.is_dir() or not project.is_dir():
+         raise RuntimeError('Explicit crate/project/bundle prerequisites missing')
+     if args.run and sha(crate / 'src/main.rs') != sha(HERE / 'fframes-cpu/src/main.rs'):
+@@ -75,19 +75,19 @@
+     host = json.loads(subprocess.run([str(NODE), '--input-type=module', '-e',
+         "import {availableParallelism,cpus,platform,arch} from 'node:os'; console.log(JSON.stringify({availableParallelism:availableParallelism(),cpu:cpus()[0].model,node:process.version,platform:platform(),arch:arch()}));"],
+         capture_output=True, text=True, check=True).stdout)
+-    if host['node'] != 'v24.19.0' or host['availableParallelism'] < 11:
+-        raise RuntimeError('Requires Node24.19.0 and at least11 available logical CPUs')
+-    if host['platform'] != 'darwin' or host['arch'] != 'arm64':
+-        raise RuntimeError('This focused reproduction binds the original macOS arm64 compositor; other platforms need a new adapter/study')
++    if host['node'] != 'v24.19.0' or host['availableParallelism'] != 2:
++        raise RuntimeError('This Linux study requires Node24.19.0 and the measured two-CPU cpuset')
++    if host['platform'] != 'linux' or host['arch'] != 'x64':
++        raise RuntimeError('This adapted study binds the Linux x64 compositor')
+     versions = {name: subprocess.run([str(tool), '-version'], capture_output=True, text=True, check=True).stdout
+                 for name, tool in [('ffmpeg', FFMPEG), ('ffprobe', FFPROBE)]}
+     versions['browser'] = subprocess.run([str(browser), '--version'], capture_output=True, text=True, check=True).stdout.strip()
+-    if any('version 9.0' not in versions[k] for k in ['ffmpeg', 'ffprobe']) or '149.0.7790.0' not in versions['browser']:
+-        raise RuntimeError('Requires FFmpeg/probe9.0 and Chrome149.0.7790.0')
+-    if '165' not in args.x264_library.name or not args.x264_library.is_file():
+-        raise RuntimeError('Explicit shared x264165 library is required')
++    if any('version 5.1.9' not in versions[k] for k in ['ffmpeg', 'ffprobe']) or '149.0.7790.0' not in versions['browser']:
++        raise RuntimeError('Requires the recorded Debian FFmpeg/probe5.1.9 and Chrome149.0.7790.0')
++    if '164' not in args.x264_library.name or not args.x264_library.is_file():
++        raise RuntimeError('Explicit shared x264164 library is required')
+     files = {NODE, FFMPEG, FFPROBE, browser, F, font, args.x264_library.resolve(),
+-             H / 'node_modules/@napi-rs/canvas-darwin-arm64/skia.darwin-arm64.node',
++             H / 'node_modules/@napi-rs/canvas/node_modules/@napi-rs/canvas-linux-x64-gnu/skia.linux-x64-gnu.node',
+              project / 'package.json', project / 'package-lock.json', renderer / 'package.json',
+              project / 'public/DMSans-Regular.ttf', compositor / 'remotion',
+              crate / 'Cargo.toml', crate / 'Cargo.lock', crate / 'src/main.rs'}
+@@ -101,7 +101,7 @@
+         files.add(ff_repo / 'fframes/src/renderer' / (name + '.rs'))
+     for directory in [bundle, renderer / 'dist', project / 'src']:
+         files.update(p for p in directory.rglob('*') if p.is_file() and p.suffix in ['.js', '.map', '.tsx', '.ts', '.html', '.ttf'])
+-    files.update(compositor.glob('*.dylib'))
++    files.update(compositor.glob('*.so'))
+     binding = {'inputs': {str(p): sha(p) for p in sorted(files)},
+                'runner': {str(p): sha(p) for p in sorted(HERE.iterdir()) if p.is_file() and p.suffix in ['.py', '.mjs', '.sh']}}
+     ready = {'cwd': str(project), 'bundle_path': str(bundle), 'browser_path': str(browser),
+@@ -116,7 +116,7 @@
+     binaries = destination / 'binaries'
+     binaries.mkdir()
+     compositor = Path(ready['compositor'])
+-    for name, target in [('ffmpeg', FFMPEG), ('ffprobe', FFPROBE), ('remotion', compositor / 'remotion')] + [(p.name, p) for p in compositor.glob('*.dylib')]:
++    for name, target in [('ffmpeg', FFMPEG), ('ffprobe', FFPROBE), ('remotion', compositor / 'remotion')] + [(p.name, p) for p in compositor.glob('*.so')]:
+         (binaries / name).symlink_to(target.resolve())
+     wrapper = destination / 'chrome-cpu.sh'
+     template = (HERE / 'chrome-cpu.sh').read_text()
+@@ -150,7 +150,8 @@
+     parser = argparse.ArgumentParser(description=__doc__)
+     parser.add_argument('--preflight', action='store_true')
+     parser.add_argument('--run', action='store_true')
+-    parser.add_argument('--mode', choices=['holdout'], default='holdout')
++    parser.add_argument('--mode', choices=['qualification', 'holdout'], default='holdout')
++    parser.add_argument('--qualification-manifest', type=Path)
+     parser.add_argument('--results', type=Path)
+     for name in ['node', 'ffmpeg', 'ffprobe', 'browser', 'x264-library', 'fframes-repo', 'fframes-crate', 'remotion-project', 'remotion-bundle']:
+         parser.add_argument('--' + name, required=True, type=Path)
+@@ -168,13 +169,20 @@
+         return
+     if not args.run or not args.results:
+         parser.error('exports require --run --results; prerequisites must already be built')
+-    selections = [{'settings': 'fixed from original qualified final screens; new results are a separate study'}]
+-    profiles = [profile('H', 4, 4, 'medium'), profile('F', 11, 2, 'medium'), profile('R', 11, 8, 'medium'),
+-                profile('H', 8, 2, 'ultrafast'), profile('F', 11, 2, 'ultrafast'), profile('R', 11, 8, 'ultrafast')]
++    if args.mode == 'holdout' and not args.qualification_manifest:
++        parser.error('holdout requires --qualification-manifest')
++    selections = [{'settings': 'resource-derived two-CPU budget: two workers, one encoder thread per worker/active encoder; no timing-based tuning screen'}]
++    if args.qualification_manifest:
++        selections[0]['qualificationManifest'] = str(args.qualification_manifest.resolve())
++        selections[0]['qualificationManifestSha256'] = sha(args.qualification_manifest.resolve())
++    profiles = [profile('H', 2, 1, 'medium'), profile('F', 2, 1, 'medium'), profile('R', 2, 1, 'medium')]
++    if args.mode == 'holdout':
++        profiles += [profile('H', 2, 1, 'ultrafast'), profile('F', 2, 1, 'ultrafast'), profile('R', 2, 1, 'ultrafast')]
+     groups = []
+-    for preset in ['medium', 'ultrafast']:
+-        ids = {p['engine']: p['id'] for p in profiles if p['preset'] == preset}
+-        groups.append((list(ids.values()), [[ids[e] for e in order] for order in HOLDOUT_ORDERS]))
++    if args.mode == 'holdout':
++        for preset in ['medium', 'ultrafast']:
++            ids = {p['engine']: p['id'] for p in profiles if p['preset'] == preset}
++            groups.append((list(ids.values()), [[ids[e] for e in order] for order in HOLDOUT_ORDERS]))
+     destination = args.results.resolve()
+     destination.mkdir(parents=True, exist_ok=False)
+     STUDY = destination
+@@ -252,7 +260,7 @@
+                 execute([FFMPEG, '-v', 'error', '-y', '-ignore_editlist', '1', '-i', original,
+                     '-map', '0:v:0', '-c:v', 'copy', '-an', '-use_editlist', '0', output], run, 'repair', record['components'])
+             if p['engine'] in ['F', 'R']:
+-                execute([FFPROBE, '-v', 'error', '-threads', '8', '-count_frames', '-show_streams', '-show_format', '-of', 'json', output],
++                execute([FFPROBE, '-v', 'error', '-threads', '2', '-count_frames', '-show_streams', '-show_format', '-of', 'json', output],
+                     run, 'verify', record['components'])
+                 record['verifiedProbe'] = helpers.validate_probe(run / 'verify.stdout.log')
+             if p['engine'] == 'H':
+@@ -302,13 +310,17 @@
+             raise RuntimeError('Inputs drifted during export')
+ 
+     try:
+-        # No metric work between timed exports; screens and holdout are distinct fresh processes/files.
+-        for warmup, orders in groups:
+-            for key in warmup:
+-                export(key, 'warmup', 1)
+-            for index, order in enumerate(orders, 1):
+-                for key in order:
+-                    export(key, 'timed', index)
++        # No metric work between timed exports; qualification and holdout are distinct fresh processes/files.
++        if args.mode == 'qualification':
++            for p in profiles:
++                export(p['id'], 'qualification', 1)
++        else:
++            for warmup, orders in groups:
++                for key in warmup:
++                    export(key, 'warmup', 1)
++                for index, order in enumerate(orders, 1):
++                    for key in order:
++                        export(key, 'timed', index)
+         refs = generate_references(destination, ready, binding)
+         manifest['references'] = refs
+         save(manifest_path, manifest)
+@@ -358,8 +370,11 @@
+         for p in profiles:
+             rows = [r for r in manifest['records'] if r['id'] == p['id']]
+             timed = [r['deliveredWallNs'] for r in rows if r['phase'] == 'timed']
+-            manifest['profileSummary'].append({'profile': p, 'eligible': len(rows) == 4 and len(timed) == 3 and all(r['eligible'] for r in rows),
+-                                              'timedDeliveredWallNs': timed, 'medianDeliveredWallNs': statistics.median(timed)})
++            expected_rows = 1 if args.mode == 'qualification' else 4
++            manifest['profileSummary'].append({'profile': p, 'eligible': len(rows) == expected_rows and
++                                              (args.mode == 'qualification' or len(timed) == 3) and all(r['eligible'] for r in rows),
++                                              'timedDeliveredWallNs': timed,
++                                              'medianDeliveredWallNs': statistics.median(timed) if timed else None})
+         if not unchanged():
+             raise RuntimeError('Bound inputs changed during study')
+         manifest['retainedLogicalMp4Bytes'] = retained(args.mode)

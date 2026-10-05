@@ -1,0 +1,34 @@
+
+ RUN  v4.1.8 /Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios
+
+ ❯ packages/portable/tests/gpu-transport.test.ts (4 tests | 1 failed) 974ms
+     × independently rejects truncated, oversized, invalid, nonfinite and unbalanced packets without emitting pixels 305ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  packages/portable/tests/gpu-transport.test.ts > native binary command boundary > independently rejects truncated, oversized, invalid, nonfinite and unbalanced packets without emitting pixels
+AssertionError: {"bitrate":4000000,"configuredBitrate":null,"encoder":"none","encoderPool":1,"explicitRawReadbackBytes":65536,"frames":1,"gop":90,"protocol":5,"rasterizer":"skia-metal","transport":"binary","zeroCopyProved":false}
+: expected +0 to be 1 // Object.is equality
+
+- Expected
++ Received
+
+- 1
++ 0
+
+ ❯ packages/portable/tests/gpu-transport.test.ts:70:131
+     68|     const text = packet([8, 0, 0, 0x41400000, 0, 0, 0, 0x3f800000, 1, …
+     69|     const stack = packet(new Array(65).fill(6)); stack.writeUInt32LE(6…
+     70|     for (const input of cases) { const result = invoke('raster-binary'…
+       |                                                                                                                                   ^
+     71|   });
+     72| });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 3 passed (4)
+      Tests  1 failed | 18 passed (19)
+   Start at  19:56:39
+   Duration  10.19s (transform 92ms, setup 0ms, import 478ms, tests 9.33s, environment 0ms)
+

@@ -1,0 +1,10 @@
+{
+  "case": "encoded-cap",
+  "passed": true,
+  "expectedRefusal": "CAP",
+  "observedError": "Refusal: ENCODED_CAP",
+  "secondsExcludedFromBenchmarks": 0.04972316601197235,
+  "sourceUnchanged": true,
+  "GPUExecuted": false,
+  "atomicFinalExists": false
+}

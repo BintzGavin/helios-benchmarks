@@ -1,0 +1,241 @@
+{
+  "packageSha256": "a524078edfebea024d4a5524b507ba1336af13ba0d6cb1ef321130d3576e618f",
+  "indexedFilesVerified": 488,
+  "timedExports": 18,
+  "excludedWarmups": 6,
+  "uniqueOutputs": 6,
+  "qualityFramesRecomputed": 1800,
+  "cpuAdmissionReceiptsVerified": 8,
+  "mediansNanoseconds": {
+    "medium-H": 69156139448,
+    "medium-F": 92045448392,
+    "medium-R": 152316073808,
+    "ultrafast-H": 20704839205,
+    "ultrafast-F": 39251199575,
+    "ultrafast-R": 60012809861
+  },
+  "timedRounds": [
+    {
+      "engine": "H",
+      "preset": "medium",
+      "index": 1,
+      "deliveredWallNs": 69156139448
+    },
+    {
+      "engine": "F",
+      "preset": "medium",
+      "index": 1,
+      "deliveredWallNs": 92045448392
+    },
+    {
+      "engine": "R",
+      "preset": "medium",
+      "index": 1,
+      "deliveredWallNs": 151413629799
+    },
+    {
+      "engine": "F",
+      "preset": "medium",
+      "index": 2,
+      "deliveredWallNs": 91910993266
+    },
+    {
+      "engine": "R",
+      "preset": "medium",
+      "index": 2,
+      "deliveredWallNs": 152851689415
+    },
+    {
+      "engine": "H",
+      "preset": "medium",
+      "index": 2,
+      "deliveredWallNs": 69059951412
+    },
+    {
+      "engine": "R",
+      "preset": "medium",
+      "index": 3,
+      "deliveredWallNs": 152316073808
+    },
+    {
+      "engine": "H",
+      "preset": "medium",
+      "index": 3,
+      "deliveredWallNs": 69426166154
+    },
+    {
+      "engine": "F",
+      "preset": "medium",
+      "index": 3,
+      "deliveredWallNs": 92201298828
+    },
+    {
+      "engine": "H",
+      "preset": "ultrafast",
+      "index": 1,
+      "deliveredWallNs": 21163641221
+    },
+    {
+      "engine": "F",
+      "preset": "ultrafast",
+      "index": 1,
+      "deliveredWallNs": 39733311374
+    },
+    {
+      "engine": "R",
+      "preset": "ultrafast",
+      "index": 1,
+      "deliveredWallNs": 60125442549
+    },
+    {
+      "engine": "F",
+      "preset": "ultrafast",
+      "index": 2,
+      "deliveredWallNs": 39229473920
+    },
+    {
+      "engine": "R",
+      "preset": "ultrafast",
+      "index": 2,
+      "deliveredWallNs": 60012809861
+    },
+    {
+      "engine": "H",
+      "preset": "ultrafast",
+      "index": 2,
+      "deliveredWallNs": 20704839205
+    },
+    {
+      "engine": "R",
+      "preset": "ultrafast",
+      "index": 3,
+      "deliveredWallNs": 59564471586
+    },
+    {
+      "engine": "H",
+      "preset": "ultrafast",
+      "index": 3,
+      "deliveredWallNs": 20679705204
+    },
+    {
+      "engine": "F",
+      "preset": "ultrafast",
+      "index": 3,
+      "deliveredWallNs": 39251199575
+    }
+  ],
+  "warmups": [
+    {
+      "engine": "H",
+      "preset": "medium",
+      "index": 1,
+      "deliveredWallNs": 69710696959
+    },
+    {
+      "engine": "F",
+      "preset": "medium",
+      "index": 1,
+      "deliveredWallNs": 92335255667
+    },
+    {
+      "engine": "R",
+      "preset": "medium",
+      "index": 1,
+      "deliveredWallNs": 153350877287
+    },
+    {
+      "engine": "H",
+      "preset": "ultrafast",
+      "index": 1,
+      "deliveredWallNs": 20533185911
+    },
+    {
+      "engine": "F",
+      "preset": "ultrafast",
+      "index": 1,
+      "deliveredWallNs": 39099349173
+    },
+    {
+      "engine": "R",
+      "preset": "ultrafast",
+      "index": 1,
+      "deliveredWallNs": 60778124735
+    }
+  ],
+  "quality": [
+    {
+      "engine": "H",
+      "sha256": "47ed717af6c671c2574a716540ce846d1eade6089bb438a0be923c62cba2f569",
+      "minima": {
+        "minSsimY": 0.996564,
+        "minPsnrY": 45.88,
+        "minPsnrU": 46.0,
+        "minPsnrV": 45.93
+      },
+      "frames": 300
+    },
+    {
+      "engine": "F",
+      "sha256": "c20fd2a82fcf1803101de04504536e17ae77d49e4b1e7230760cee5bb1b616bc",
+      "minima": {
+        "minSsimY": 0.995885,
+        "minPsnrY": 46.01,
+        "minPsnrU": 46.58,
+        "minPsnrV": 46.6
+      },
+      "frames": 300
+    },
+    {
+      "engine": "R-cpu",
+      "sha256": "932c100213ffa16888bad4dea143b17442266715c67534f6e37c405ca6059825",
+      "minima": {
+        "minSsimY": 0.995812,
+        "minPsnrY": 45.81,
+        "minPsnrU": 45.06,
+        "minPsnrV": 44.85
+      },
+      "frames": 300
+    },
+    {
+      "engine": "H",
+      "sha256": "ad82e6bc13985f428ea2e527da9efcf776985cfbec50acbec9f8439a3b4c4112",
+      "minima": {
+        "minSsimY": 0.996119,
+        "minPsnrY": 47.08,
+        "minPsnrU": 46.09,
+        "minPsnrV": 46.04
+      },
+      "frames": 300
+    },
+    {
+      "engine": "F",
+      "sha256": "760dbd4bd588f8c244d2c486e39cc10e8d2d1cf6676e64d0efa23cd85a320706",
+      "minima": {
+        "minSsimY": 0.996283,
+        "minPsnrY": 47.16,
+        "minPsnrU": 46.29,
+        "minPsnrV": 46.3
+      },
+      "frames": 300
+    },
+    {
+      "engine": "R-cpu",
+      "sha256": "8b827706fc2566c10eb0c3b45635a040bc1e7bdca9d41c8d807d2cbff284b2da",
+      "minima": {
+        "minSsimY": 0.996127,
+        "minPsnrY": 47.04,
+        "minPsnrU": 45.04,
+        "minPsnrV": 44.98
+      },
+      "frames": 300
+    }
+  ],
+  "limits": [
+    "Audit independently recomputes timers summaries, encoder receipt settings, frame cadence and quality minima from saved receipts; raw videos/references omitted from compact package, so no independent local re-decode or media hash recomputation.",
+    "Original nanosecond duration counters preserved; absolute start/end monotonic counters not serialized.",
+    "One a1.small machine, no timing tuning screen, H/F up to two one-thread encoders and Remotion one one-thread final encoder.",
+    "Own lossless references establish per-engine fidelity, not cross-engine identical pixels.",
+    "Compact archive precedes final full-tree index; 488 included indexed files match, embedded INDEX and SYMLINKS exclude later receipts.",
+    "No paired Linux optimization study; no new Helios change speedup proven."
+  ]
+}

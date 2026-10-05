@@ -1,0 +1,42 @@
+{
+  "scratch": "/tmp/helios-pool-mutations-Plsjaa",
+  "scope": "six focused native callback-ledger mutations; driver internals and Metal kernel excluded",
+  "receipts": [
+    {
+      "name": "live-capacity",
+      "killed": true,
+      "status": null,
+      "signal": "SIGABRT"
+    },
+    {
+      "name": "ordered-callback",
+      "killed": true,
+      "status": null,
+      "signal": "SIGABRT"
+    },
+    {
+      "name": "error-drop",
+      "killed": true,
+      "status": null,
+      "signal": "SIGABRT"
+    },
+    {
+      "name": "live-surface-alias",
+      "killed": true,
+      "status": null,
+      "signal": "SIGABRT"
+    },
+    {
+      "name": "final-outstanding",
+      "killed": true,
+      "status": null,
+      "signal": "SIGABRT"
+    },
+    {
+      "name": "submission-sequence",
+      "killed": true,
+      "status": null,
+      "signal": "SIGABRT"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "commands": {
+    "npm-ci-offline": {
+      "command": "PATH=/Users/gavinbintz/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin /Users/gavinbintz/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node /opt/homebrew/lib/node_modules/npm/bin/npm-cli.js ci --ignore-scripts --offline --no-audit --no-fund --userconfig=/private/tmp/helios-portable-merge-prep-v1/npm-userconfig --globalconfig=/private/tmp/helios-portable-merge-prep-v1/npm-globalconfig",
+      "exit_status": 0,
+      "seconds": 10.740017250000001,
+      "log": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/portable-closing-checks-v1/npm-ci-offline.log"
+    },
+    "portable-check": {
+      "command": "PATH=/Users/gavinbintz/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin /Users/gavinbintz/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node /opt/homebrew/lib/node_modules/npm/bin/npm-cli.js run check --workspace=@helios-project/portable --userconfig=/private/tmp/helios-portable-merge-prep-v1/npm-userconfig --globalconfig=/private/tmp/helios-portable-merge-prep-v1/npm-globalconfig",
+      "exit_status": 0,
+      "seconds": 5.68109775,
+      "log": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/portable-closing-checks-v1/portable-check.log"
+    },
+    "portable-test": {
+      "command": "PATH=/Users/gavinbintz/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin /Users/gavinbintz/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node /opt/homebrew/lib/node_modules/npm/bin/npm-cli.js run test --workspace=@helios-project/portable --userconfig=/private/tmp/helios-portable-merge-prep-v1/npm-userconfig --globalconfig=/private/tmp/helios-portable-merge-prep-v1/npm-globalconfig",
+      "exit_status": 0,
+      "seconds": 68.394261375,
+      "log": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/portable-closing-checks-v1/portable-test.log"
+    }
+  },
+  "test_files_passed": 33,
+  "tests_passed": 189,
+  "scoped_diff_failures": [],
+  "compiled_js_matching_files": [
+    "auth.js",
+    "backend.js",
+    "canvas-pool.js",
+    "canvas-worker.js",
+    "canvas.js",
+    "cli.js",
+    "client.js",
+    "index.js",
+    "jobs.js",
+    "media.js",
+    "plan.js",
+    "process.js",
+    "render.js",
+    "s3-storage.js",
+    "server.js",
+    "skia-binding.js",
+    "skia.js",
+    "storage.js",
+    "text.js"
+  ],
+  "compiled_js_mismatches": [],
+  "compiled_js_missing": [],
+  "compiled_js_extra": [],
+  "source_files_hash_checked": 125,
+  "source_changed": [],
+  "operator_alias_failures": [],
+  "local_runtime_failures": [],
+  "git_status_receipt": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/portable-closing-checks-v1/git-status-after.txt",
+  "unverified": [
+    "live Cloudflare alias/runtime/deployment",
+    "remote performance",
+    "unrelated suites"
+  ],
+  "source_or_test_fixes": false
+}

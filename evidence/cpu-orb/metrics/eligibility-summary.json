@@ -1,0 +1,104 @@
+[
+  {
+    "referenceKey": "H",
+    "outputSha256": "47ed717af6c671c2574a716540ce846d1eade6089bb438a0be923c62cba2f569",
+    "referenceSha256": "697f2704dae427a0c4804f34a601fbc98f0e1e07c5f9d62dc9e00b66d2cd278f",
+    "timeBase": "1/30",
+    "decodedFrames": 300,
+    "firstPts": "0",
+    "lastPts": "299/30",
+    "minima": {
+      "minSsimY": "0.996564",
+      "minPsnrY": "45.88",
+      "minPsnrU": "46.0",
+      "minPsnrV": "45.93"
+    },
+    "violations": [],
+    "passed": true
+  },
+  {
+    "referenceKey": "F",
+    "outputSha256": "c20fd2a82fcf1803101de04504536e17ae77d49e4b1e7230760cee5bb1b616bc",
+    "referenceSha256": "055b9f1ac8513a1ee2dfc51be057b135dde4208b9aab04f5cc75610bfcc06413",
+    "timeBase": "1/15360",
+    "decodedFrames": 300,
+    "firstPts": "0",
+    "lastPts": "299/30",
+    "minima": {
+      "minSsimY": "0.995885",
+      "minPsnrY": "46.01",
+      "minPsnrU": "46.58",
+      "minPsnrV": "46.6"
+    },
+    "violations": [],
+    "passed": true
+  },
+  {
+    "referenceKey": "R-cpu",
+    "outputSha256": "932c100213ffa16888bad4dea143b17442266715c67534f6e37c405ca6059825",
+    "referenceSha256": "e654734c407233c6e2adf34ce1a78787736fc1d310d4d7eff3f0cde395c4cdb0",
+    "timeBase": "1/90000",
+    "decodedFrames": 300,
+    "firstPts": "0",
+    "lastPts": "299/30",
+    "minima": {
+      "minSsimY": "0.995812",
+      "minPsnrY": "45.81",
+      "minPsnrU": "45.06",
+      "minPsnrV": "44.85"
+    },
+    "violations": [],
+    "passed": true
+  },
+  {
+    "referenceKey": "H",
+    "outputSha256": "ad82e6bc13985f428ea2e527da9efcf776985cfbec50acbec9f8439a3b4c4112",
+    "referenceSha256": "697f2704dae427a0c4804f34a601fbc98f0e1e07c5f9d62dc9e00b66d2cd278f",
+    "timeBase": "1/30",
+    "decodedFrames": 300,
+    "firstPts": "0",
+    "lastPts": "299/30",
+    "minima": {
+      "minSsimY": "0.996119",
+      "minPsnrY": "47.08",
+      "minPsnrU": "46.09",
+      "minPsnrV": "46.04"
+    },
+    "violations": [],
+    "passed": true
+  },
+  {
+    "referenceKey": "F",
+    "outputSha256": "760dbd4bd588f8c244d2c486e39cc10e8d2d1cf6676e64d0efa23cd85a320706",
+    "referenceSha256": "055b9f1ac8513a1ee2dfc51be057b135dde4208b9aab04f5cc75610bfcc06413",
+    "timeBase": "1/15360",
+    "decodedFrames": 300,
+    "firstPts": "0",
+    "lastPts": "299/30",
+    "minima": {
+      "minSsimY": "0.996283",
+      "minPsnrY": "47.16",
+      "minPsnrU": "46.29",
+      "minPsnrV": "46.3"
+    },
+    "violations": [],
+    "passed": true
+  },
+  {
+    "referenceKey": "R-cpu",
+    "outputSha256": "8b827706fc2566c10eb0c3b45635a040bc1e7bdca9d41c8d807d2cbff284b2da",
+    "referenceSha256": "e654734c407233c6e2adf34ce1a78787736fc1d310d4d7eff3f0cde395c4cdb0",
+    "timeBase": "1/90000",
+    "decodedFrames": 300,
+    "firstPts": "0",
+    "lastPts": "299/30",
+    "minima": {
+      "minSsimY": "0.996127",
+      "minPsnrY": "47.04",
+      "minPsnrU": "45.04",
+      "minPsnrV": "44.98"
+    },
+    "violations": [],
+    "passed": true
+  }
+]

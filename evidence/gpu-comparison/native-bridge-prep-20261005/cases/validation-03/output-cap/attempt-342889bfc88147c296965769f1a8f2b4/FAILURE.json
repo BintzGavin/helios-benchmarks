@@ -1,0 +1,27 @@
+{
+  "status": "failed-subprocess-fixture",
+  "executionClass": "subprocess-fixture",
+  "hardwareQualified": false,
+  "realDeviceAccepted": false,
+  "GPUExecuted": false,
+  "benchmarkTiming": false,
+  "timingWindowOpen": false,
+  "mode": "reference",
+  "codec": "hevc",
+  "backend": "metal",
+  "sourceIndices": [
+    3,
+    5
+  ],
+  "rows": [],
+  "maxPlanarWriterQueuedBytes": 0,
+  "backpressureObservations": 0,
+  "drainCalls": 0,
+  "referenceOnlyReadbackBytes": 0,
+  "nativeProducerBridgeRealDeviceQualified": false,
+  "error": "Refusal:ATTEMPT_OUTPUT_CAP",
+  "processes": [],
+  "allChildrenReaped": true,
+  "publishedBinding": false,
+  "partialFilesRetained": true
+}

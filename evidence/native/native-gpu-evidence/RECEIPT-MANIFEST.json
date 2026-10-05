@@ -1,0 +1,3051 @@
+{
+  "evidence": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence",
+  "files": [
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/FINAL-BUILD-PINS.json",
+      "bytes": 2582,
+      "sha256": "1b3c3ee3a62e008c65bf73e5d785e1effdf4f8034a472080168bc48ad2942b82"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/FINAL-REPORT.json",
+      "bytes": 25436,
+      "sha256": "0bef6ca9f7ca8f2941a4298fe0bb341fef0354daaf2ff7283275b6af38289949"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/chromium-actual-gpu-attestation.json",
+      "bytes": 2008,
+      "sha256": "e02f2b85229361b321e9e6a47060a39378a6cbcf7967f76caf81edda1c59e7d6"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/chromium-profile-01/attempt.json",
+      "bytes": 753,
+      "sha256": "e1d099da4894173a5470316a0b9d7d16caa1a09271e0908c59ce9631615fd937"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/chromium-profile-01/encoder.stderr.log",
+      "bytes": 824,
+      "sha256": "9dcaec3e62e2586855e8293d469f1286ba4b3b6efe0cf129c96e001a7bcf4838"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/chromium-profile-01/frame-0.png",
+      "bytes": 1464691,
+      "sha256": "ca5a067946661ca71d1c2c276915a0c4f5a835a2286914519de9e0b10550c766"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/chromium-profile-01/gpu-capability.json",
+      "bytes": 7334,
+      "sha256": "1a3f69855aea6404d89427dfe9d8b7012faf4d405dc546e1130fb136d0f88391"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/chromium-profile-01/video.mp4",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/chromium-profile-02/attempt.json",
+      "bytes": 840,
+      "sha256": "6f85135b4b1de908f33a89ad153c443d14e86a60ee6b2d590d2db4bd74069dc5"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/chromium-profile-02/chrome-trace.json",
+      "bytes": 4151704,
+      "sha256": "73d15363fbcd7de8bee4872aa77234761bfc58b67b9addb3cc260a1e9615cb0c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/chromium-profile-02/encoder.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/chromium-profile-02/ffprobe.json",
+      "bytes": 2811,
+      "sha256": "77b91830233cd815ba2c9601744b35baf06a64d574b6af756bbfe6665cca9020"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/chromium-profile-02/frame-0.png",
+      "bytes": 1595504,
+      "sha256": "f7d8954f6f3d9eae5fb6ed0544300c3a2b476f14a7a61123fa944168bc849809"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/chromium-profile-02/gpu-capability.json",
+      "bytes": 7334,
+      "sha256": "ef41f601b4e0afa26b896149570aa6da6396b43c36a6eaa74e641457e4354a39"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/chromium-profile-02/video.mp4",
+      "bytes": 1657712,
+      "sha256": "06f8ff3ba34f1d85da8a00a3ed374b74ab2f96847e60d23bdffab288d89089dc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/chromium-reference-software-01/attempt.json",
+      "bytes": 869,
+      "sha256": "1cf1893275a175d9a0e5e6b9fb0b29dbc3b1b070f9f35452661b2c60b976abcf"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/chromium-reference-software-01/encoder.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/chromium-reference-software-01/ffprobe.json",
+      "bytes": 2306,
+      "sha256": "8b5f6790f899932a592ae690e24f70cd557a5a65376caec70846e300a70512e4"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/chromium-reference-software-01/gpu-capability.json",
+      "bytes": 7334,
+      "sha256": "d9f07c08386070e076c1f1ad63219d5f3b3e9439a0e4d0fc797c2f1a97c8e160"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/chromium-reference-software-01/reference.mkv",
+      "bytes": 248806492,
+      "sha256": "60a3d1025d411ed540e0946c843ce8c49e5b4e4cddf574d734e95feb0701a449"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/chromium-screen-software-11-01/attempt.json",
+      "bytes": 853,
+      "sha256": "5310a1737b3271905d00123bb572625ffd80a7ec919e75691d541bd164cbbb22"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/chromium-screen-software-11-01/encoder.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/chromium-screen-software-11-01/ffprobe.json",
+      "bytes": 2832,
+      "sha256": "6f72c80f9f2cd61b5cb92b8e4396de98ecdbe6690ca089c46d0ad582b1e06d1e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/chromium-screen-software-11-01/gpu-capability.json",
+      "bytes": 7334,
+      "sha256": "c3193781ee28320e6d7d9f045ee8edb56cae6be51da6d0c87d6c8d0ff2d051d7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/chromium-screen-software-11-01/quality-psnr.txt",
+      "bytes": 31992,
+      "sha256": "6a4977eabcca04adfb034830af8665691734c38a865202ef9d4bc6634a8fd9b9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/chromium-screen-software-11-01/quality-ssim.txt",
+      "bytes": 19092,
+      "sha256": "6a4473ddca2df2a179b54be40e0de4b73e01c571a2822f7c1d35255f489f6b79"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/chromium-screen-software-11-01/quality.json",
+      "bytes": 596,
+      "sha256": "cf83b189e95baeb014d118139479aa7accd3f077a5db4972def59979f9708974"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/chromium-screen-software-11-01/video.mp4",
+      "bytes": 136795451,
+      "sha256": "afc377d499904f9f85bdf12c65a9e8454014a8838b7330afdaa1d0d42ef6e9d0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/chromium-software-sei.txt",
+      "bytes": 600,
+      "sha256": "26635a0b756e74ca09af39e9777e0134c4080ef90cf292e07ce98e22db3ffada"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-lower-bitrate-screen-job.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-100000000/attempt.json",
+      "bytes": 1017,
+      "sha256": "6b970ed55b60b8d24ab958c4606ee53d2c236797bafc0e7a66f7ee481647befa"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-100000000/ffprobe.json",
+      "bytes": 2786,
+      "sha256": "3be23f75baff317c12e7eaa21cdee0b5a3fa7cc5f7313ac13129c05ed4215e13"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-100000000/quality-cadence-candidate.json",
+      "bytes": 19464,
+      "sha256": "579d2ecadf66dcc6f190276af0f146a1f0dce87f10626791dd07602dd04dc7d9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-100000000/quality-cadence-reference.json",
+      "bytes": 19174,
+      "sha256": "6fafaf37067b2566a0ed0e83c747c56f569788fe37dfb6a47892c6161356b4dc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-100000000/quality-psnr.txt",
+      "bytes": 31992,
+      "sha256": "f8dd7a3c06899197d95792496c62750123361e1f63f87c054386a35d137014d4"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-100000000/quality-ssim.txt",
+      "bytes": 19092,
+      "sha256": "f9d9a46349fa4e54b286f363f80009257ac3b3d8b766c588f78d2409291e3224"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-100000000/quality.json",
+      "bytes": 600,
+      "sha256": "dfe3125c8e9dabcc56f252469b8edc86e6aabed0bfb3d561d8e8fa4ebc6e551a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-100000000/transfer.jsonl",
+      "bytes": 112993,
+      "sha256": "6f102c6bbc882f1e64457800b3cc76410a4289f08c2f91ee478f635a18f9dee9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-100000000/video.mp4",
+      "bytes": 125539698,
+      "sha256": "86a9eedb88a8117e241fb33384cba02e76229c383b9c63d2f422c0e04b8463ea"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-100000000-quality.process.json",
+      "bytes": 152,
+      "sha256": "40bb9dfbb6483d41fb8162420297151deaf145ce3117f15cdbc641ca111bd78d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-100000000-quality.stderr.log",
+      "bytes": 777,
+      "sha256": "7866040691c40f01e9bcee69145d1761462b07fe4ab96acb173a70da2cca1655"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-100000000-quality.stdout.log",
+      "bytes": 540,
+      "sha256": "d28b27f7d255d754f902e5d02941335bc078dc674204610ad5202d30b0af951d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-100000000.process.json",
+      "bytes": 146,
+      "sha256": "8b3ba7ef24cc68bb122d9fabcbc661608e0d65591ecbd3ce4df8fd1e064ebde1"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-100000000.stderr.log",
+      "bytes": 777,
+      "sha256": "c239c53343061c9f193c825c389ef5c872d27d2c3e982b7d7628221ed3874668"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-100000000.stdout.log",
+      "bytes": 875,
+      "sha256": "633609a2813203b11097cb8c3517708342b74a51637c560d0fc09b2a6fb00a3e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-140000000/attempt.json",
+      "bytes": 1009,
+      "sha256": "066fdcdae8488950c0769561654e67a474f03bee76f3a458a299b5ec1c10971c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-140000000/ffprobe.json",
+      "bytes": 2786,
+      "sha256": "c4ce90449e32fccd8cc93316b4bae4795f8b34448706521cd0dba336783accfb"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-140000000/quality-cadence-candidate.json",
+      "bytes": 19464,
+      "sha256": "579d2ecadf66dcc6f190276af0f146a1f0dce87f10626791dd07602dd04dc7d9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-140000000/quality-cadence-reference.json",
+      "bytes": 19174,
+      "sha256": "6fafaf37067b2566a0ed0e83c747c56f569788fe37dfb6a47892c6161356b4dc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-140000000/quality-psnr.txt",
+      "bytes": 31992,
+      "sha256": "40d111d883f603b17dbd36c5656bb8d5109f20656bd05e40d4638677cd95b92e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-140000000/quality-ssim.txt",
+      "bytes": 19092,
+      "sha256": "98f26ac08e72ef2a2624796b05dbf5aecb64220657cc6035b8189fdcfcdc691b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-140000000/quality.json",
+      "bytes": 599,
+      "sha256": "947841a691786d3f83ef83a7617eab1b435e4a10df6e861b54f0ae9a547fff62"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-140000000/transfer.jsonl",
+      "bytes": 112993,
+      "sha256": "657dea9417e674c00644d65c5b3688d0517c71c962e57a21a7287e8f46414913"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-140000000/video.mp4",
+      "bytes": 175413095,
+      "sha256": "f91ef955adf9aa590368b8e79ab9889f42a59525099a07e43eadbf576b418c52"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-140000000-quality.process.json",
+      "bytes": 152,
+      "sha256": "df086a48f9cff70ffcd001bf56e823a553e9f098239bc49d3f724c949d340fde"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-140000000-quality.stderr.log",
+      "bytes": 777,
+      "sha256": "3d34c447594c76dcca8593563c41ca8970253605acb544a8ec1e31a3cf653c8c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-140000000-quality.stdout.log",
+      "bytes": 539,
+      "sha256": "d64ea6d7df379a01011f76089718e16aa8b2f5cf9185d32400155c17249277a8"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-140000000.process.json",
+      "bytes": 146,
+      "sha256": "2a8c73505fc6e07a8d0d44e3d7870efb919521c28596a7db0152bf817a5f1f12"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-140000000.stderr.log",
+      "bytes": 777,
+      "sha256": "b712598d41f457f2cc0ffa643261d4b3b936b78bb8139455e919f2971e7e0547"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-140000000.stdout.log",
+      "bytes": 867,
+      "sha256": "3d97cf353cd3f49ef9ee44fb137e021c68fd39d51e33ad09700cbe040de46ba1"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-20000000/attempt.json",
+      "bytes": 1012,
+      "sha256": "a1d10d960fe19de44b50fc8791a03e4f101da31fc7e4c9aadabf54bf27536e43"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-20000000/ffprobe.json",
+      "bytes": 2782,
+      "sha256": "4f8302100be677bc55b922155e491eafaae12f33b5bfb88af18e03eb08b124ec"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-20000000/quality-cadence-candidate.json",
+      "bytes": 19464,
+      "sha256": "579d2ecadf66dcc6f190276af0f146a1f0dce87f10626791dd07602dd04dc7d9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-20000000/quality-cadence-reference.json",
+      "bytes": 19174,
+      "sha256": "6fafaf37067b2566a0ed0e83c747c56f569788fe37dfb6a47892c6161356b4dc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-20000000/quality-psnr.txt",
+      "bytes": 33189,
+      "sha256": "b13215fcfe3029f9a95822ecce160ec1e8f1b7f3ac30dfd85ca509bc860cf6bd"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-20000000/quality-ssim.txt",
+      "bytes": 18812,
+      "sha256": "8d7d94735f799bc03840965926e811df3140405332680da67f73091a2b1b2c28"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-20000000/quality.json",
+      "bytes": 599,
+      "sha256": "e3320d6fd2bf8b66693c14aadd382b0df5c45818e043576e5a9b2a46bafc645c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-20000000/transfer.jsonl",
+      "bytes": 112993,
+      "sha256": "0037d11386f73ea95670b0bb5a0ee720d4c612898c713f17d42fa9b4186784c0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-20000000/video.mp4",
+      "bytes": 25168706,
+      "sha256": "3b03be7e8ff58ef55336e7f0f9848412770e3af3c49b3702df00de307ed3eeb6"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-20000000-quality.process.json",
+      "bytes": 146,
+      "sha256": "ef4b862ea93be305cb2f6f74e0f36ab229036ad23f42e1cf232e06d3678d3bb1"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-20000000-quality.stderr.log",
+      "bytes": 777,
+      "sha256": "b42a20d8d8200e46c6b6a7bd3fb9a941b74821613bb95dea0db4b49d7225b939"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-20000000-quality.stdout.log",
+      "bytes": 539,
+      "sha256": "81c32c1f055bd2d87dc9075c4f1978cb5b35e8296802a163dc42aa6a0ef1fc22"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-20000000.process.json",
+      "bytes": 145,
+      "sha256": "e30fcde18dfccc0f4c24713ef3d1f5735fc38defcffaee90ee25dc16142bdc92"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-20000000.stderr.log",
+      "bytes": 777,
+      "sha256": "6d99b936c0901e50e8c8c20b08a2c860dbdce188225d0f9f5a8ae9b84e0f2a93"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-20000000.stdout.log",
+      "bytes": 870,
+      "sha256": "ebb9c69c4a2e4f90b1f565411aa740a72f864a93b4d8b7b26abbc8e559e68880"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-40000000/attempt.json",
+      "bytes": 1004,
+      "sha256": "82d5f6850d255764804fc6a64fcd8b3b8344b6bff2f59132ff798536ad11e050"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-40000000/ffprobe.json",
+      "bytes": 2782,
+      "sha256": "1f2712064ddaafdcf9745f4a17b4e11780a7bfb22de2f4e72de2067a3a31f75e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-40000000/quality-cadence-candidate.json",
+      "bytes": 19464,
+      "sha256": "579d2ecadf66dcc6f190276af0f146a1f0dce87f10626791dd07602dd04dc7d9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-40000000/quality-cadence-reference.json",
+      "bytes": 19174,
+      "sha256": "6fafaf37067b2566a0ed0e83c747c56f569788fe37dfb6a47892c6161356b4dc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-40000000/quality-psnr.txt",
+      "bytes": 33164,
+      "sha256": "4eed0cf27ac38a8f4854d09bdb6bfbc1aea107fcdb03271fd2049c0efa9ecdc5"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-40000000/quality-ssim.txt",
+      "bytes": 19092,
+      "sha256": "66103f41c68f4f8848faa8bb2ee10ee46be2802819825cfd274d1b62bc326249"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-40000000/quality.json",
+      "bytes": 598,
+      "sha256": "a76e5eaf651a282ae66a314b29c481dcda2ea704c46963ef7accb12f622b92f0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-40000000/transfer.jsonl",
+      "bytes": 112993,
+      "sha256": "092f9cea6bf2ef35cdc1a93fc1c8e5ee56b81f2f34e4c98173f0e4da5faf8029"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-40000000/video.mp4",
+      "bytes": 50201051,
+      "sha256": "c05f8677fc114c13a90abb54ba4ac4e386c3121656bd7bfd042f2b3e45aaf678"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-40000000-quality.process.json",
+      "bytes": 146,
+      "sha256": "b557d6b450b50d536d361c9bf9ea857da675fe072a18e9ac0d2d086b9818124a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-40000000-quality.stderr.log",
+      "bytes": 777,
+      "sha256": "e94226009c93a9de159139f311b4df88552bd02237bcc8c229a8813da6285436"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-40000000-quality.stdout.log",
+      "bytes": 538,
+      "sha256": "6de99fb3e0771dbb02e3e08edd761539299934539669179f7b24a1de29047104"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-40000000.process.json",
+      "bytes": 146,
+      "sha256": "5883debb2b2a8f0419267ea575a7f96027b59467badb30a8e00e50d3e858b0a9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-40000000.stderr.log",
+      "bytes": 777,
+      "sha256": "d26d5ea77bdd159643c119819b1c4b6a029f41e4be0307bc09379a4cfcd0a7c8"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-hardware-40000000.stdout.log",
+      "bytes": 862,
+      "sha256": "6731131817435aa34d748f294db34bf5c0f7b14dc08515d2a3a6c3f174ab2504"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/corrected-screen-job.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/direct-oracle-full.process.json",
+      "bytes": 151,
+      "sha256": "94c4319bb82d8ce7a0efe8cf9a3246ec99a4c58d335926471078498e2c737588"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/direct-oracle-full.stderr.log",
+      "bytes": 777,
+      "sha256": "f2581e04374b4bc7f37fc53d764e5514af1a04dbfc15476db9e47d83f384c295"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/direct-oracle-full.stdout.log",
+      "bytes": 54,
+      "sha256": "6d3b8dc807ff442ffc7c62169de502e8afd94d68f6a3f4c1cb6a532835831ed1"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/direct-oracle-native.stderr.json",
+      "bytes": 118,
+      "sha256": "7fe54ff35c97434d950b97d12aa1793a5203998b3b1f78ac00262acebb5808bd"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/direct-oracle-transfer.jsonl",
+      "bytes": 77513,
+      "sha256": "64ef79dc02a1baed9426655f462318bfc9ffc820030595731b033d5ccc703f11"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/direct-oracle.mts",
+      "bytes": 3327,
+      "sha256": "a582ffd641754be80609479848d6bf1a8aea67f6468d923009263c9cf3da96a7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-direct-oracle.nv12",
+      "bytes": 9331200,
+      "sha256": "fe58248386d3e35de521650b806fc8d677f97a9cecd15c09b777738a8bd87201"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-direct-oracle.stderr.json",
+      "bytes": 114,
+      "sha256": "4abdbf171de809944a8e874fccb6affdc735bbe5aeb7e125d165146e2e1ac038"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-interposer-hardware.jsonl",
+      "bytes": 13931,
+      "sha256": "a84968b6be113ba2e0862ba9cd1ef143b7046f897ee2f2818c5d0d904437dd01"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-metal.gputrace",
+      "kind": "actual-Metal-capture-directory",
+      "contentsNotInspectedByManifest": true
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-positive-controls.dylib",
+      "bytes": 54896,
+      "sha256": "06fd8a1a03814b0439a1339837b0ee8319f90ca471c934f3e8f42375520658de"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-positive-controls.jsonl",
+      "bytes": 23870,
+      "sha256": "945834b0a20c9f1da91886176c9ceb36f898d7edd45408b3684e834adceb14ef"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-positive-raster.rgba",
+      "bytes": 24883200,
+      "sha256": "6cfeb6358a6171b5f50eddf1cfc8c97d1603ff59fcbf59041a658e43fa9e2be6"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-positive-raster.stderr.json",
+      "bytes": 115,
+      "sha256": "9b63e4692c82d72085c96314d400397a8132995e2fd1279f77e5ac7517bf76ef"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-profile-hardware.dylib",
+      "bytes": 54896,
+      "sha256": "c710c022bcba9964998ae5a5a1a9fbea9edc152c2c0e0d2988e58084311bfaee"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-profile-transfer.jsonl",
+      "bytes": 1247,
+      "sha256": "bbd0332bed6621b088ed474f18ebab60bbedde424fe700ad098ef3dc26444709"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-profile.h264",
+      "bytes": 4210516,
+      "sha256": "e405a8e8a1a2a056d22482c9edc40ba0ee51bce3fdf40d355dfb7e4cce054ad8"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-profile.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-profile.stdout.json",
+      "bytes": 116,
+      "sha256": "e5cec8bfef87fc5385c4f1540c5ab897f59ccc278eee18c916aa6fd4cd944ee9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-qualification-job.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-qualification-job.stdout.log",
+      "bytes": 997,
+      "sha256": "ad59a541300933b97f6477986f7fadf697612b1976e51a40f44cdb6a093116b0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-reference-hardware/attempt.json",
+      "bytes": 833,
+      "sha256": "295a1fe11fd599b5187d3c2e6683977b7fbfbf85435ffb356a90ce6ce9105909"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-reference-hardware/encoder.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-reference-hardware/ffprobe.json",
+      "bytes": 2221,
+      "sha256": "621b2f78c96d27f8631c2f2b4e73f2f20fd7a076e64fb0ad5885c6f3c5e44554"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-reference-hardware/native.stderr.log",
+      "bytes": 118,
+      "sha256": "7fe54ff35c97434d950b97d12aa1793a5203998b3b1f78ac00262acebb5808bd"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-reference-hardware/reference.mkv",
+      "bytes": 259079411,
+      "sha256": "90da7fe7103595990bebd06dae43e507b0cc2a11c7b48cdbdb40645888d1569c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-reference-hardware/transfer.jsonl",
+      "bytes": 77513,
+      "sha256": "7501400d3870fa4e22bac97e2d6869b3a1c88144a98ca2a7de89820b5f29606b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-reference-hardware-tagged/attempt.json",
+      "bytes": 833,
+      "sha256": "04ff64fabd4942f04a64c469be2f314fbd830fd70767679eab74987d44595691"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-reference-hardware-tagged/encoder.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-reference-hardware-tagged/ffprobe.json",
+      "bytes": 2307,
+      "sha256": "8c568a0270b62d703e519ef8421d185d4592e3d5dc3a476b25c3a51accef7591"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-reference-hardware-tagged/native.stderr.log",
+      "bytes": 118,
+      "sha256": "7fe54ff35c97434d950b97d12aa1793a5203998b3b1f78ac00262acebb5808bd"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-reference-hardware-tagged/reference.mkv",
+      "bytes": 247903473,
+      "sha256": "c578aae7595be5bcd7b490bdea9f51310c852a806bc9988fa06bd45d1ad38a4a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-reference-hardware-tagged/transfer.jsonl",
+      "bytes": 77513,
+      "sha256": "ca03ab5a63165e235be1bd79af08aa64e2d390622b33ea739e3449639f8e2ab5"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-reference-hardware-tagged.process.json",
+      "bytes": 197,
+      "sha256": "f49f5385667a1c5fc96a7dc181b11205ea8fbf732bc00e15eba23c74b747e6f2"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-reference-hardware-tagged.stderr.log",
+      "bytes": 777,
+      "sha256": "c1b7242991bc49324e2d7550999edfc63064f74bb3b710ab6c2b0f4f3b93bdc3"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-reference-hardware-tagged.stdout.log",
+      "bytes": 722,
+      "sha256": "b0765d0a3d6da05436e55b238f68dbd98b72359b8900445c393eaa87a64d217a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-reference-hardware.process.json",
+      "bytes": 183,
+      "sha256": "462cba19e5ebe18ef4a49d78db074a3907cdacdfdfe59a7a42fd80b20d361a33"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-reference-hardware.stderr.log",
+      "bytes": 777,
+      "sha256": "7c211ad16b6a36d1074a64ab7e8dcae8e4c7cfa0c592e4982786cf6633956b3e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-reference-hardware.stdout.log",
+      "bytes": 722,
+      "sha256": "e84376c31efb6f3ccf4e70e1b7b2afd5bd1247d0466458dd420a5d54f6e4f414"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-reference-software/attempt.json",
+      "bytes": 825,
+      "sha256": "d06564e666b51ffc845c18936f135a1afa21fdc918718dfd428deb99edea98e5"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-reference-software/encoder.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-reference-software/ffprobe.json",
+      "bytes": 2300,
+      "sha256": "e980e15e18daeafe0219a643e0816f39a2244afcc6c3bed022c820f5a5f0fc8e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-reference-software/native.stderr.log",
+      "bytes": 119,
+      "sha256": "ff447197090b4c5b4b09fedab6b49a993be06442b32e0299a4e437859f9d2108"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-reference-software/reference.mkv",
+      "bytes": 248785160,
+      "sha256": "3a6ca3529b3810a651da445074d95acaea5d79eaf2636de2d4ad86f9fe10b046"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-reference-software/transfer.jsonl",
+      "bytes": 12190,
+      "sha256": "047da23442842358d63d0a9c25002a27e09aa242a3e55be3ac1f380eb324ddae"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-reference-software.process.json",
+      "bytes": 190,
+      "sha256": "9fcbb4ef35f11d2b951c260da0b1e0c3ae7ea90a762794f483f0abbfee850070"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-reference-software.stderr.log",
+      "bytes": 777,
+      "sha256": "4d3048d894154a2d59eaf9ecfe691d4de75ab876fe655bb26e197d54eec3b10d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-reference-software.stdout.log",
+      "bytes": 714,
+      "sha256": "8b8b01e95fec30809827a270c87ad74ff91bbda6423d3522820d3b45f6382015"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-remaining-pair-job.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-report.mjs",
+      "bytes": 8696,
+      "sha256": "492285633b9ed97bb7908720fd9fe3b8d8bbf94e3b384928d747582d39e963d7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-rounds-job.stderr.log",
+      "bytes": 414,
+      "sha256": "d9807d69636cb4d44a305b206111220b3fc323a55b38a63dd1e2027d1da0d5e0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-run-journal.jsonl",
+      "bytes": 5626,
+      "sha256": "46cd4defc5e0550f9108b7235d315de4f512e44f00addb8960640b0dea450c2c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-screen-hardware-180m/attempt.json",
+      "bytes": 992,
+      "sha256": "27f28ff2efd0d8d84078a111b4f8fc230a6cf826b764654f1846e314a422e8ab"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-screen-hardware-180m/ffprobe.json",
+      "bytes": 2777,
+      "sha256": "efc1c6a80a74f73045fa06f06e2b07b28e95fd3a68481027def57aaed518f0c3"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-screen-hardware-180m/quality-psnr.txt",
+      "bytes": 31992,
+      "sha256": "c6469edce984ac7d15430f24b1e9d27d1ff4bf6b628921881332002ae64fd391"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-screen-hardware-180m/quality-ssim.txt",
+      "bytes": 19092,
+      "sha256": "947d924d3bbb89974074b476360f6399627aa45dbeed4d03fedf4b8aef34ecba"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-screen-hardware-180m/quality.json",
+      "bytes": 584,
+      "sha256": "e51c7e47cf2cf2ad3c8f55e135109950463b4cabfa7a7a37f379f42cb30b1927"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-screen-hardware-180m/transfer.jsonl",
+      "bytes": 112993,
+      "sha256": "79b38fd664012e8f72d630a5b753c1ddd74673398cd47ab5a4c4ee8851e83021"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-screen-hardware-180m/video.mp4",
+      "bytes": 226848916,
+      "sha256": "764349f2a78d8f72d58a4c9f33e0fb3cd784531a32e05d926d89de8446197f3c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-screen-hardware-180m-quality.process.json",
+      "bytes": 200,
+      "sha256": "340434989c24130724a46766677869ff6adcdcf2b04da1db509a5e5f040dc8bd"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-screen-hardware-180m-quality.stderr.log",
+      "bytes": 777,
+      "sha256": "c2e5f23ee1a1059d4c789607996a78a571ff33156ee7384341e89ba6e9863556"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-screen-hardware-180m-quality.stdout.log",
+      "bytes": 524,
+      "sha256": "43819842e6d18f068740d64fd9e66fbb586e211ff043591f2b647e89d0af5ee4"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-screen-hardware-180m.process.json",
+      "bytes": 186,
+      "sha256": "6cee12252b472e5f37218de0894a4f1b9943e1fc27da04cd7a4e55ef18661dd8"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-screen-hardware-180m.stderr.log",
+      "bytes": 777,
+      "sha256": "bae3c3e61b3e1363f208be4ec77d2f37aa7345fce371c4aa75dfd6e6cb6a6251"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-screen-hardware-180m.stdout.log",
+      "bytes": 850,
+      "sha256": "70e87981338cf065a6636f754393f69c2cf039f906fb5cb288c9ce3b8022fad3"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-screen-software-11/attempt.json",
+      "bytes": 816,
+      "sha256": "82a1f81f4500c27a49a57aa547226ebc605f1569fe0551f1202510177395550f"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-screen-software-11/encoder.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-screen-software-11/ffprobe.json",
+      "bytes": 2826,
+      "sha256": "18889136b60005334fa785751560354c0c82884c1eb9bdb0ff6bb84ade3efd52"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-screen-software-11/native.stderr.log",
+      "bytes": 119,
+      "sha256": "ff447197090b4c5b4b09fedab6b49a993be06442b32e0299a4e437859f9d2108"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-screen-software-11/quality-psnr.txt",
+      "bytes": 31992,
+      "sha256": "fb69582687fe8bbb48bd262ab2615199c66fb44ae6fef147918cb52fdda26ef8"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-screen-software-11/quality-ssim.txt",
+      "bytes": 19092,
+      "sha256": "ea51e1b101ce471549c84e3c71994627321c2ec14101711bcd3ea823a7095da1"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-screen-software-11/quality.json",
+      "bytes": 582,
+      "sha256": "d153c09d4f28f413169fc30a7e5da84ba82bccf2bf14693ca54e9c0d634f1f4b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-screen-software-11/transfer.jsonl",
+      "bytes": 12190,
+      "sha256": "047da23442842358d63d0a9c25002a27e09aa242a3e55be3ac1f380eb324ddae"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-screen-software-11/video.mp4",
+      "bytes": 136903477,
+      "sha256": "0ba71d9cca61fc4d4ff9cdbc9ffe273f11460de3c33885d4b17f7bb984085928"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-screen-software-11-quality.process.json",
+      "bytes": 198,
+      "sha256": "a8233803accc6132d9d012055ee14f3656ad9ec3ae63caf696a718b976d0bf51"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-screen-software-11-quality.stderr.log",
+      "bytes": 777,
+      "sha256": "89043a4cf8c6f11bcc8ecfc75a3ffdd2a1b9cfd11df5e8290f4f1fc9524ba751"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-screen-software-11-quality.stdout.log",
+      "bytes": 522,
+      "sha256": "b618449864226d9d21a7362b210742086c1c5ef3adce73042d1eec14025574a0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-screen-software-11.process.json",
+      "bytes": 184,
+      "sha256": "6c5c94f183671b6a59cb4fabdfaec0b5014f53b03b3af9714f8f99a989a8a1d5"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-screen-software-11.stderr.log",
+      "bytes": 777,
+      "sha256": "8954846ba6387c9f4b06231180d44953df8f7cbb68286c14a6e9b5a986b3f291"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-screen-software-11.stdout.log",
+      "bytes": 705,
+      "sha256": "e4d1f0a3e7e2e2079fcabd6238088a168875ea2ae3498bc8d0d9d21b59204126"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-source-build-pins.json",
+      "bytes": 2972,
+      "sha256": "75be3dfa67ca9ae072e0f110b2e529c09449052cab93f01fe7ebe89eaef75255"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-transfer-interposer.jsonl",
+      "bytes": 11639,
+      "sha256": "cba50bfbe295bc2faeccdce0cf43efbc0eab9b57adbb6499e18710bd44bb68ed"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-transfer-profiler.dylib",
+      "bytes": 54896,
+      "sha256": "928251c6c18982dd4be81185724b106cdfc2acc1c703579e2b9642d738bc56b7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-transfer.h264",
+      "bytes": 4210516,
+      "sha256": "c146a55648af99f00d79a013adbd320bd1211ce7e95338bc85bf673597b9c373"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-transfer.jsonl",
+      "bytes": 1247,
+      "sha256": "e255a642a2f8410412855f89fd2a1c11070f20ce6c0b53026efb92825be6c968"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-transfer.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-transfer.stdout.json",
+      "bytes": 116,
+      "sha256": "e5cec8bfef87fc5385c4f1540c5ab897f59ccc278eee18c916aa6fd4cd944ee9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-warmup-chromium/attempt.json",
+      "bytes": 832,
+      "sha256": "62241f5a32f2f8a5c665dad64595e923a1247cb0d4918dc8117bdc6ba9c4b3af"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-warmup-chromium/encoder.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-warmup-chromium/ffprobe.json",
+      "bytes": 2823,
+      "sha256": "3fe3007e7e44740ab0f195f56f9d57b1170c04691561d75b34ad289b6f6ac9c3"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-warmup-chromium/gpu-capability.json",
+      "bytes": 7334,
+      "sha256": "7f90ec2a083486f34ceec1cab06ecf638d205bfe9b68725d4e6d480eda8f37c6"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-warmup-chromium/video.mp4",
+      "bytes": 136795451,
+      "sha256": "afc377d499904f9f85bdf12c65a9e8454014a8838b7330afdaa1d0d42ef6e9d0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-warmup-chromium.process.json",
+      "bytes": 186,
+      "sha256": "f63509e8143735c77e4a6595791c30e57c49aef2e04fd299933eae3f15cdda89"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-warmup-chromium.stderr.log",
+      "bytes": 777,
+      "sha256": "b04e4a89ee12d4ee714575d14419f44db872d4a56d81e69e5ec78dd9eccda3a4"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-warmup-chromium.stdout.log",
+      "bytes": 721,
+      "sha256": "2564a0f7340386fcb006629b65b73f49330d5c5c3a1fb4fb29c5f05413073bfd"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-warmup-hardware/attempt.json",
+      "bytes": 1006,
+      "sha256": "0389ebbfa28d2754ebcaea56f714bd14ef4d0d43ac12459afc50197deb442477"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-warmup-hardware/ffprobe.json",
+      "bytes": 2772,
+      "sha256": "cfe46d8ffadbf9df49c0f9d3f2edfa79ad9f971b1a9d16afcbc01e4fe1ca9e8c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-warmup-hardware/transfer.jsonl",
+      "bytes": 112993,
+      "sha256": "b6c3df25cc492cd9f68ef42eb89d10a0090cbc64f8423d396d7132971316ec5e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-warmup-hardware/video.mp4",
+      "bytes": 226848916,
+      "sha256": "0892a34e42a5c0dbc75146c6e855e501eb45cc01d038eaa9af01ada54fe7af8f"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-warmup-hardware.process.json",
+      "bytes": 187,
+      "sha256": "83f4a14e6db47738c2ec4e05de578a0fd2d5c5bbb94e0bd0a3f787ea4192c1ca"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-warmup-hardware.stderr.log",
+      "bytes": 777,
+      "sha256": "8dbf1b6c3c2610c1f52b4213e844b7d318cac08bd70c26371e5efeed7fe5bbb2"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-warmup-hardware.stdout.log",
+      "bytes": 864,
+      "sha256": "36a32fb0111444e75ec2de611235b78e2a49fa7202c4855253245d68c6ebfdff"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-warmup-software/attempt.json",
+      "bytes": 807,
+      "sha256": "9cdd097f005e1b852394b91c986fd8af63453807b9061ba21f0b15ad22171d45"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-warmup-software/encoder.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-warmup-software/ffprobe.json",
+      "bytes": 2823,
+      "sha256": "06d966a708682fe5c51bf6cb771db195ccf1965eae9762aab78c13d98ffdc3b9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-warmup-software/native.stderr.log",
+      "bytes": 119,
+      "sha256": "ff447197090b4c5b4b09fedab6b49a993be06442b32e0299a4e437859f9d2108"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-warmup-software/transfer.jsonl",
+      "bytes": 12190,
+      "sha256": "047da23442842358d63d0a9c25002a27e09aa242a3e55be3ac1f380eb324ddae"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-warmup-software/video.mp4",
+      "bytes": 136903477,
+      "sha256": "0ba71d9cca61fc4d4ff9cdbc9ffe273f11460de3c33885d4b17f7bb984085928"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-warmup-software.process.json",
+      "bytes": 181,
+      "sha256": "ddd37bd100e07c81085349cd40a55cd64c10fd94c545a8ff8b218be0c6f0d34e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-warmup-software.stderr.log",
+      "bytes": 777,
+      "sha256": "34bb5f62deade832e7f8214226157ec38767aa5963b3059587c124ac1684c3b9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-warmup-software.stdout.log",
+      "bytes": 696,
+      "sha256": "0e62e2807cfe360634b4af395836cb4b5d509a73d90a790b3fa9bb1bc3c2b632"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/frozen-release.json",
+      "bytes": 257,
+      "sha256": "346a545a096175539dd5b1a86b3ffa722151f7449120fb6d85dcc8429b5ab471"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/full-hardware-profile.mts",
+      "bytes": 1977,
+      "sha256": "df24c4c7b71acd4b36a2a10cba1931ba78013a7f28d8b4e7d2bf2bbaa0ff564c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/full-profile-interposer.jsonl",
+      "bytes": 971543,
+      "sha256": "c90be52036266558cffd8c6fea60a92a12d7b867acad94fdf850dacb0ec19f28"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/full-profile-job.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/full-profile-job.stdout.json",
+      "bytes": 153,
+      "sha256": "0977211115b2b80cbdcf371f8fcb30eb44bb78765f5b3b492f7373bc0f809aeb"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/full-profile-transfer.jsonl",
+      "bytes": 112993,
+      "sha256": "788c1ec8c92a8b440ead87553952b40b02f3fb995bd653e060952d68aca8f94f"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/full-profile.dylib",
+      "bytes": 54880,
+      "sha256": "0c07891b089a2fd112ceb22a03e27d33330b0254c52029a267e36c79b084ac32"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/full-profile.h264",
+      "bytes": 226845658,
+      "sha256": "02af7e1915cd5ee6aa70e7f5ac644197e59813fa03f8eedd5d787cc41868de67"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/full-profile.process.json",
+      "bytes": 121,
+      "sha256": "2bef92762b80b894ad8a56a083370681f29fc4d87430c26dc9c44c96c3523b0d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/full-profile.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/full-profile.stdout.json",
+      "bytes": 118,
+      "sha256": "9d7714e64c02ab58582fda0b7708276b300e7588f2f69ffa8114cab9208b61cb"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware-reference-direct-binding.json",
+      "bytes": 24390,
+      "sha256": "246c75a6548e0dfa93998831ff9cf4118fa515b979c5ca2515471a892b3b3dbe"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-1/attempt.json",
+      "bytes": 977,
+      "sha256": "409d7db89c1306420f2aaa239df94818e24a1d1b269a1678d0a400b66d80715b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-1/ffprobe.json",
+      "bytes": 2764,
+      "sha256": "0e22f6361a6d88ca9275ab81f10e569e13fb865a62d839c7f859e8e4e90bea94"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-1/quality-cadence-candidate.json",
+      "bytes": 19464,
+      "sha256": "579d2ecadf66dcc6f190276af0f146a1f0dce87f10626791dd07602dd04dc7d9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-1/quality-cadence-reference.json",
+      "bytes": 19174,
+      "sha256": "6fafaf37067b2566a0ed0e83c747c56f569788fe37dfb6a47892c6161356b4dc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-1/quality-psnr.txt",
+      "bytes": 31992,
+      "sha256": "f8dd7a3c06899197d95792496c62750123361e1f63f87c054386a35d137014d4"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-1/quality-ssim.txt",
+      "bytes": 19092,
+      "sha256": "f9d9a46349fa4e54b286f363f80009257ac3b3d8b766c588f78d2409291e3224"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-1/quality.json",
+      "bytes": 578,
+      "sha256": "86b230fc4b5c45b57af26fa76c04554d70fb981523b5df567c3cddde1d289a94"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-1/transfer.jsonl",
+      "bytes": 112993,
+      "sha256": "7ff0e0a134ca0a2094985a8dd2bbae3a684be6697e2ea0489d84e839ec821c10"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-1/video.mp4",
+      "bytes": 125539698,
+      "sha256": "978e82d85fe88d45b044fa0e491dab36c5b64951a6f9d8aeb520db57e6dd2351"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-1-quality.process.json",
+      "bytes": 146,
+      "sha256": "a67ea75bd51377748b30aa31c5492c591bf5312408860997dfa413c586df1cf4"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-1-quality.stderr.log",
+      "bytes": 777,
+      "sha256": "a45b33624c82732d2ece3364a2511d3889c790e0f1406de8ecee4cc413bd22de"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-1-quality.stdout.log",
+      "bytes": 518,
+      "sha256": "7363efaffcd0ba82618b6b3073fb9c89687e2669178947c538b4792219976a59"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-1.process.json",
+      "bytes": 152,
+      "sha256": "7ac061f4e9c6ac4b4fa68bf3c4a9bb6a6316b896b98f26a8cfa78de071a8728e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-1.stderr.log",
+      "bytes": 777,
+      "sha256": "49846672a2cf9f5cd3b1db294aa93e589d02160386c6c4d1de0426932894455e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-1.stdout.log",
+      "bytes": 835,
+      "sha256": "58b63c9d3f0b53b53349bbd178f55b44a41977fb14a21f70562096f775556371"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-2/attempt.json",
+      "bytes": 984,
+      "sha256": "78b3d664167994b2b19afac911084fde2778a458dd8792efeff9f374c63477c2"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-2/ffprobe.json",
+      "bytes": 2764,
+      "sha256": "0cee28155eec356afe121503d8a5f15527f273186ef4f8d43d2b5657764d0eaf"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-2/quality-cadence-candidate.json",
+      "bytes": 19464,
+      "sha256": "579d2ecadf66dcc6f190276af0f146a1f0dce87f10626791dd07602dd04dc7d9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-2/quality-cadence-reference.json",
+      "bytes": 19174,
+      "sha256": "6fafaf37067b2566a0ed0e83c747c56f569788fe37dfb6a47892c6161356b4dc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-2/quality-psnr.txt",
+      "bytes": 31992,
+      "sha256": "f8dd7a3c06899197d95792496c62750123361e1f63f87c054386a35d137014d4"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-2/quality-ssim.txt",
+      "bytes": 19092,
+      "sha256": "f9d9a46349fa4e54b286f363f80009257ac3b3d8b766c588f78d2409291e3224"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-2/quality.json",
+      "bytes": 578,
+      "sha256": "ad869dbfb9d5e0882b1dfe504257a8dc2141729997765637ebd9c6712b7faec8"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-2/transfer.jsonl",
+      "bytes": 112993,
+      "sha256": "434c3d1cfcc5982521815ac10efda5be9e189fbe34ea46d3f74d1352aa7a5415"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-2/video.mp4",
+      "bytes": 125539698,
+      "sha256": "c436183b8e5379c2161e765ffe9e3fd000d84f4adea9e6d75f16c72fa4abce95"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-2-quality.process.json",
+      "bytes": 152,
+      "sha256": "c501716b66d702eaef39e83d3adef1110a52858ca8fa4c7154bda65a42ec1b54"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-2-quality.stderr.log",
+      "bytes": 777,
+      "sha256": "05c41c7d5d9f980dd53adfbb076952e0de6792ebe5b4828be3256e90d59c6bf0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-2-quality.stdout.log",
+      "bytes": 518,
+      "sha256": "8aae3d846be820804691ad5de66d44ab42e43bb01e5a3e08c716cba3ba94c1ce"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-2.process.json",
+      "bytes": 152,
+      "sha256": "6589f7a074abdfe1021fffdaa96965a808dcca2d1f6a5055d6180fcce2c9dcd4"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-2.stderr.log",
+      "bytes": 777,
+      "sha256": "614fd00711aa1e313f8c5f3cecd96780a1e1532d2dfa9834ece7172d77637ccc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-2.stdout.log",
+      "bytes": 842,
+      "sha256": "6f06e1f68e883fe2d96fc73a779d51a849239431a491747624d390a699356997"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-3/attempt.json",
+      "bytes": 969,
+      "sha256": "341954b65b7ed2934049dca647cdf83628b2d1a96337beeb63a1d055384366d4"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-3/ffprobe.json",
+      "bytes": 2764,
+      "sha256": "c5f8656c10d35fa13c09a231ea9ae77d37f1d0b172a65d3ce8c4ece663a4d437"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-3/quality-cadence-candidate.json",
+      "bytes": 19464,
+      "sha256": "579d2ecadf66dcc6f190276af0f146a1f0dce87f10626791dd07602dd04dc7d9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-3/quality-cadence-reference.json",
+      "bytes": 19174,
+      "sha256": "6fafaf37067b2566a0ed0e83c747c56f569788fe37dfb6a47892c6161356b4dc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-3/quality-psnr.txt",
+      "bytes": 31992,
+      "sha256": "f8dd7a3c06899197d95792496c62750123361e1f63f87c054386a35d137014d4"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-3/quality-ssim.txt",
+      "bytes": 19092,
+      "sha256": "f9d9a46349fa4e54b286f363f80009257ac3b3d8b766c588f78d2409291e3224"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-3/quality.json",
+      "bytes": 578,
+      "sha256": "b3e377e4153717637d766bbdca7865d9a1818104ea23c1c32bbb29b9576908e2"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-3/transfer.jsonl",
+      "bytes": 112993,
+      "sha256": "9a8297ac4a6704511dbd6296e7a7e49b1e6bcd74bbc5c1f66b55bf847a1925b8"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-3/video.mp4",
+      "bytes": 125539698,
+      "sha256": "b0ea4a8cd11ccc8a72658753506507f2630873bec86ab4d5c9a06150af531ae1"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-3-quality.process.json",
+      "bytes": 152,
+      "sha256": "b283d87803bb5f57c448d0db702366ce8398001afdf78415c034c58671b97200"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-3-quality.stderr.log",
+      "bytes": 777,
+      "sha256": "6a54848caf2cd163eb2566a2c810ab057465e86d83ccf057631db83bf226c7cc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-3-quality.stdout.log",
+      "bytes": 518,
+      "sha256": "1404d9d0b25f155501a2edcb1ff32aee9140dff3f7b7b21832f786f109415385"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-3.process.json",
+      "bytes": 152,
+      "sha256": "b362bb1ae2a10b8fddb9781305f28619ef788418a0648bd6215b20408f39b074"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-3.stderr.log",
+      "bytes": 777,
+      "sha256": "03f5b6d24030d51ef6a628b8a5e5d045f8f10adaad97bfd34711adc42637aded"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-3.stdout.log",
+      "bytes": 827,
+      "sha256": "e121a82fe7dba23dfb42735b242bcc1177c2243760c12e3e27b8067dc61b3038"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-4/attempt.json",
+      "bytes": 998,
+      "sha256": "df086a91c73bdc6f1896d5c836dba143dc5c7f0ca416bb8a609dffc2981fee78"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-4/ffprobe.json",
+      "bytes": 2764,
+      "sha256": "46645c8efd7eef7b73b03dbb4aab08d15183bb25381d31ff9a82a7418f39f95e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-4/quality-cadence-candidate.json",
+      "bytes": 19464,
+      "sha256": "579d2ecadf66dcc6f190276af0f146a1f0dce87f10626791dd07602dd04dc7d9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-4/quality-cadence-reference.json",
+      "bytes": 19174,
+      "sha256": "6fafaf37067b2566a0ed0e83c747c56f569788fe37dfb6a47892c6161356b4dc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-4/quality-psnr.txt",
+      "bytes": 31992,
+      "sha256": "f8dd7a3c06899197d95792496c62750123361e1f63f87c054386a35d137014d4"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-4/quality-ssim.txt",
+      "bytes": 19092,
+      "sha256": "f9d9a46349fa4e54b286f363f80009257ac3b3d8b766c588f78d2409291e3224"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-4/quality.json",
+      "bytes": 578,
+      "sha256": "b4beee7b88ee4891b3fd5fad74bac1b34ced727628dede27fa643d902fae7589"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-4/transfer.jsonl",
+      "bytes": 112993,
+      "sha256": "3199e9f0eb7dcb10114a343484074be315909e488a09ad6eb3f3672140367b0e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-4/video.mp4",
+      "bytes": 125539698,
+      "sha256": "d6d857419966db60d114e15a723eb0743f028137615cc0d413936c88130c42f1"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-4-quality.process.json",
+      "bytes": 151,
+      "sha256": "51f3e4d6641ef8ac34e216eba09593bb38b9db3e5021dd5bb8f93ca2f89aa10d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-4-quality.stderr.log",
+      "bytes": 777,
+      "sha256": "134f8ca5218be668a9231f2231e514cf1ca8510b55a769b522d9823ab0aeb56d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-4-quality.stdout.log",
+      "bytes": 518,
+      "sha256": "ee6e057482927d1caaec8c5e70f332fc2894a9d8221e34a426128b42e57fb056"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-4.process.json",
+      "bytes": 151,
+      "sha256": "7d3bfcbbee509ace32fc16c92e4a9cf47ece94bca940878596da3fd93da193d5"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-4.stderr.log",
+      "bytes": 777,
+      "sha256": "a686db5fa08686c708b5d98e4120deb8c4bebfe29282369350280c04526763ca"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-4.stdout.log",
+      "bytes": 856,
+      "sha256": "3ff44e23da03556cddad09b275bf9c61bd8d66502b71c6185dacc7c79bbbbed8"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-job.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-warmup/attempt.json",
+      "bytes": 983,
+      "sha256": "b1dd70a8c792f50289aa6163d335d1051ce26f1a446ab6e7f760265475da4909"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-warmup/ffprobe.json",
+      "bytes": 2769,
+      "sha256": "c37913128cff5fd36fd02b56cdb9f043fe6d8a08053096b5f235afcae5b767da"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-warmup/transfer.jsonl",
+      "bytes": 112993,
+      "sha256": "6b3ac464f75cc6b5c4e250349153dd1dae3e53db4ac3470f77f154da8075efb6"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-warmup/video.mp4",
+      "bytes": 125539698,
+      "sha256": "8dc1be7acbb121a850654ba3ee0196279192585b766d87ca11ccca7e2a2a7cd1"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-warmup.process.json",
+      "bytes": 146,
+      "sha256": "376b1f5014b0c9d4fa4af97101a3d05c7f26dbd35af833c39f92f4385fd75301"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-warmup.stderr.log",
+      "bytes": 777,
+      "sha256": "e9238b02acebe98d7dd800b3abe1f3fb99e6f78c1b09196dac0959e0bcbca8ad"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/hardware100-warmup.stdout.log",
+      "bytes": 841,
+      "sha256": "fdcfd0807b5d450d7212266c8cab22e047d39602b8477ff730e2efc36ba07394"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/helios-gpu-build.stderr.log",
+      "bytes": 4070,
+      "sha256": "93c402bf017e65c684d426b1a50adb7720e7220da640fcf7aab5239c388eff07"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/helios-gpu-final-faults.json",
+      "bytes": 194,
+      "sha256": "86a9ea928428e6e227af3e48ed69932fd7008c8a7d74ffcb04a3ec19ebfe709c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/helios-gpu-final-faults.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/helios-gpu-final-followup-tests.log",
+      "bytes": 265,
+      "sha256": "0c7f44dbdf9a38e75ceaa1cad404e0bed7501e68cecaf7db0cd8b7c859047ed2"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/helios-gpu-final-followup-typecheck.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/helios-gpu-final-suite-03.log",
+      "bytes": 272,
+      "sha256": "9423312316d0cb70fb15325c2e52afa085c0e5df1f1ce28abbee65ce423b1b1a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/helios-gpu-final-ts-build-03.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/helios-gpu-reference-regression-green.log",
+      "bytes": 262,
+      "sha256": "b13944d0a97054a1db63bd64924f0ced88263a23e4dfd5d92e8d6ce639763778"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/helios-gpu-reference-regression-red.log",
+      "bytes": 1005,
+      "sha256": "f127d4d2e20158096c3441214a7ffe2e5877cf9e95938e42146c1a801fc1ab70"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/helios-gpu-release-final.stderr.log",
+      "bytes": 183,
+      "sha256": "9b47067edc8791395ec59497f42a1a0d326555f561ace19b3cfe2e5b9415eda0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/interposer-hardware-02.jsonl",
+      "bytes": 11639,
+      "sha256": "23ca98dd70f866f3925dc7b91e67f34b34cdee81226ea4300eb1e0cf016f7dae"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/interposer-hardware.jsonl",
+      "bytes": 13545007,
+      "sha256": "e8be5936ee7582478c8b9e84a2ed754f7178b31b1c526ecf0aaf24e31dc3e965"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/interposer-reference-02.jsonl",
+      "bytes": 23870,
+      "sha256": "e3ba69f4d222bbea7e3c4caf9e9971ed88b7c58490bccba7b04256aae0d5cd00"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/interposer-reference.jsonl",
+      "bytes": 13545059,
+      "sha256": "902ef0e2f0406a83dd284e0868a5dbbdffdf0b7f5973dfdbc2dfed1c5a327496"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/make-input.mts",
+      "bytes": 789,
+      "sha256": "7773a1746f2af2ff16882f73071000266a8d77ffe2686993f119b8af4422711f"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/native-87aec3f3d39db8956490942429e6a865741c04515ad6b98753aaf6599c197a90",
+      "bytes": 17874976,
+      "sha256": "87aec3f3d39db8956490942429e6a865741c04515ad6b98753aaf6599c197a90"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/native-bd92a760-helper",
+      "bytes": 17874976,
+      "sha256": "bd92a7608b5bba6bf8dca48db0b4ee03870bc14e0840302441ca00663e2f0349"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/native-software-sei.txt",
+      "bytes": 600,
+      "sha256": "26635a0b756e74ca09af39e9777e0134c4080ef90cf292e07ce98e22db3ffada"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/original-reference-hardware.framemd5",
+      "bytes": 24216,
+      "sha256": "2f4a2925b1dbca9d46c037ff3dd9dad0dbee3a678e45b00da38fbf3288a3db6a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/profile-gpu-hardware-02.dylib",
+      "bytes": 54896,
+      "sha256": "c39d304aa80ad33a3ebd819c55ac2015a2538420819c866d8cdf7dd1d1620216"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/profile-gpu-hardware.dylib",
+      "bytes": 54824,
+      "sha256": "2d80463bfd3f1998da183fef328be9c6614d5c1e9631d44ff0d0962332d8c9c7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/profile-gpu-reference-02.dylib",
+      "bytes": 54896,
+      "sha256": "e7443f669aee74cacee6ddb893e123c26505981aaa9cf726cd74794fee614076"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/profile-gpu-reference.dylib",
+      "bytes": 54824,
+      "sha256": "d532e140592e621006e7827c97bcc7e02559f8651f53b971f69969bb4659bde0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/profile-hardware-02.h264",
+      "bytes": 1627126,
+      "sha256": "a15e396294f815a98ea193a59ffe1ec9ef5b921b2fe09f3bed6a9542c3f5bfb0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/profile-hardware-02.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/profile-hardware-02.stdout.json",
+      "bytes": 116,
+      "sha256": "e5cec8bfef87fc5385c4f1540c5ab897f59ccc278eee18c916aa6fd4cd944ee9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/profile-hardware-transfer-02.jsonl",
+      "bytes": 1247,
+      "sha256": "b47f6260a66f241833a54f37e3750c5402f109b5f9299d63aad2b3623216ae2a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/profile-hardware-transfer.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/profile-hardware.stderr.log",
+      "bytes": 96,
+      "sha256": "57edae6b218b5eeff710891154ae9a77e76350c71b990c8f4cb652c864e47a2c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/profile-hardware.stdout.json",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/profile-input.jsonl",
+      "bytes": 1780989,
+      "sha256": "96eb20cc4cb768223da68322129b7a384ffb41abf9f6a85514ae62b3d046ecc0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/profile-raster.rgba",
+      "bytes": 24883200,
+      "sha256": "6cfeb6358a6171b5f50eddf1cfc8c97d1603ff59fcbf59041a658e43fa9e2be6"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/profile-raster.stderr.log",
+      "bytes": 115,
+      "sha256": "9b63e4692c82d72085c96314d400397a8132995e2fd1279f77e5ac7517bf76ef"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/profile-reference-02.nv12",
+      "bytes": 9331200,
+      "sha256": "fe58248386d3e35de521650b806fc8d677f97a9cecd15c09b777738a8bd87201"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/profile-reference-02.stderr.log",
+      "bytes": 114,
+      "sha256": "4abdbf171de809944a8e874fccb6affdc735bbe5aeb7e125d165146e2e1ac038"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/profile-reference-transfer-02.jsonl",
+      "bytes": 902,
+      "sha256": "1d62f7468c891684ac03eb2b19b9cf0303c162dea3465e9b43c95f41a1e1a1b5"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/profile-reference-transfer.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/profile-reference.nv12",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/profile-reference.stderr.log",
+      "bytes": 96,
+      "sha256": "ccda09497360b1c7eb2900f36f1ad27c7e1df9385b32e250c1629a8a892909c5"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/reference-color-fix-job.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/reference-direct-frame0.yuv",
+      "bytes": 3110400,
+      "sha256": "c0d0c118db7f9f1eba253bbe51df7e5f5589f478772d639d0aac9800c10ae19f"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/reference-hardware-01/attempt.json",
+      "bytes": 795,
+      "sha256": "3f9ad4158db73958f118ba62001c74ffa2dae3a2425f7ceb99f14da88d50de82"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/reference-hardware-01/encoder.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/reference-hardware-01/ffprobe.json",
+      "bytes": 2218,
+      "sha256": "3290c69762267c9e2c2f37af6bbdc80ed13ec680d62a589446389b123779e9f3"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/reference-hardware-01/native.stderr.log",
+      "bytes": 118,
+      "sha256": "7fe54ff35c97434d950b97d12aa1793a5203998b3b1f78ac00262acebb5808bd"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/reference-hardware-01/reference.mkv",
+      "bytes": 259079411,
+      "sha256": "dedfa3e4f1a86f9b5bb2b1b2148a451c3311da31b7072fe56ecdc774bed7da6f"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/reference-hardware-01/transfer.jsonl",
+      "bytes": 77513,
+      "sha256": "60261e3af6f099d2869b971788fc9e8f4b262c1377ae77f2272ea6cc8a9a594d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/reference-original-frame0.yuv",
+      "bytes": 3110400,
+      "sha256": "f2643151b50a5dbd00d87475ae06112e0564097e4aea3f74da92537c00a1fdad"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/reference-software-01/attempt.json",
+      "bytes": 789,
+      "sha256": "191d5a10b3858afbae0bab4891351052de26ac091609e68ff8d3d90fa1aa319d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/reference-software-01/encoder.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/reference-software-01/ffprobe.json",
+      "bytes": 2297,
+      "sha256": "f63a776957bcae0916ebbdf16d8b579594ab46a3d122b439e5b02cba7a2d6b8f"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/reference-software-01/native.stderr.log",
+      "bytes": 119,
+      "sha256": "ff447197090b4c5b4b09fedab6b49a993be06442b32e0299a4e437859f9d2108"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/reference-software-01/reference.mkv",
+      "bytes": 248785160,
+      "sha256": "15f6685d7a1735436f46a31b3913583c10083b77fd11dd34943d3d818a233b7b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/reference-software-01/transfer.jsonl",
+      "bytes": 12190,
+      "sha256": "047da23442842358d63d0a9c25002a27e09aa242a3e55be3ac1f380eb324ddae"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/reference-tagged-frame0.yuv",
+      "bytes": 3110400,
+      "sha256": "c0d0c118db7f9f1eba253bbe51df7e5f5589f478772d639d0aac9800c10ae19f"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/requalification-job.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/requalify.mjs",
+      "bytes": 3570,
+      "sha256": "3942d9e8cad9f0214d814cb043316cc62bb7a67851d8fc17cc230e25914f6715"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-chromium/attempt.json",
+      "bytes": 831,
+      "sha256": "c389bde2215a148547e8b73ed5c12ecbe16fc761d9ab9c94ecc75a5bd1c88005"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-chromium/encoder.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-chromium/ffprobe.json",
+      "bytes": 2818,
+      "sha256": "270bcbced948fa650bb24274bdc20900f8684463687ddcad57125a3d1848f2e6"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-chromium/gpu-capability.json",
+      "bytes": 7334,
+      "sha256": "138fe4d7fad120a29c6261060fe4e055338ea48e77aa58e97511c38321ac3f67"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-chromium/quality-psnr.txt",
+      "bytes": 31992,
+      "sha256": "6a4977eabcca04adfb034830af8665691734c38a865202ef9d4bc6634a8fd9b9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-chromium/quality-ssim.txt",
+      "bytes": 19092,
+      "sha256": "6a4473ddca2df2a179b54be40e0de4b73e01c571a2822f7c1d35255f489f6b79"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-chromium/quality-strict-cadence-candidate.json",
+      "bytes": 18963,
+      "sha256": "b67b36c9e92ef87a77db4f088ebb92f7d4ccdcb1b2f2fa8be103b0c014471d49"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-chromium/quality-strict-cadence-reference.json",
+      "bytes": 19174,
+      "sha256": "6fafaf37067b2566a0ed0e83c747c56f569788fe37dfb6a47892c6161356b4dc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-chromium/quality-strict-psnr.txt",
+      "bytes": 31992,
+      "sha256": "6a4977eabcca04adfb034830af8665691734c38a865202ef9d4bc6634a8fd9b9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-chromium/quality-strict-ssim.txt",
+      "bytes": 19092,
+      "sha256": "6a4473ddca2df2a179b54be40e0de4b73e01c571a2822f7c1d35255f489f6b79"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-chromium/quality-strict.json",
+      "bytes": 582,
+      "sha256": "02fea18d417f679f5a5e9e1a4ad4177b823b96b92aea11b852383d6184aaf29e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-chromium/quality.json",
+      "bytes": 582,
+      "sha256": "02fea18d417f679f5a5e9e1a4ad4177b823b96b92aea11b852383d6184aaf29e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-chromium/video.mp4",
+      "bytes": 136795451,
+      "sha256": "afc377d499904f9f85bdf12c65a9e8454014a8838b7330afdaa1d0d42ef6e9d0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-chromium-quality-strict.process.json",
+      "bytes": 152,
+      "sha256": "b988efb2600ff2510dc24fa536af42eb29c27b6b94e681cdb7042b96f44090bc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-chromium-quality-strict.stderr.log",
+      "bytes": 777,
+      "sha256": "28b03e33fca394cb8ce1669545e6f09d547d169838658e1af7a719a21009b07c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-chromium-quality-strict.stdout.log",
+      "bytes": 522,
+      "sha256": "ab597b15403ba3a656f345654329b04ff761667843db758a654e81da59a327ff"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-chromium-quality.process.json",
+      "bytes": 190,
+      "sha256": "4af38e9fc299a18fdb401dcd42323932754086fcd26e027e71304735ef7974f2"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-chromium-quality.stderr.log",
+      "bytes": 777,
+      "sha256": "bca35a422491b627ce2f8613ebefc9d24dd502ad56495eecc43552ce657e060d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-chromium-quality.stdout.log",
+      "bytes": 522,
+      "sha256": "ab597b15403ba3a656f345654329b04ff761667843db758a654e81da59a327ff"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-chromium.process.json",
+      "bytes": 182,
+      "sha256": "8bd92176d5a48ecdf3b8f7860955ec287c9d84cff053a5d778b8b15ce22085ad"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-chromium.stderr.log",
+      "bytes": 777,
+      "sha256": "60d2f51602da760a5c3869d71f821ff914c6fc50d20b2ba278467a648e119871"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-chromium.stdout.log",
+      "bytes": 720,
+      "sha256": "1bfa6fc7c558a9a052bfd5922e30a7ba2d65a815475b5eb7a339b060af9238cb"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-hardware/attempt.json",
+      "bytes": 1007,
+      "sha256": "32e3be5def13331936bd3f99c346631e7054d027056884c595ae5f8bd1b47b34"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-hardware/ffprobe.json",
+      "bytes": 2774,
+      "sha256": "c6eff7116869f0085673edadc94f1f96531140f585888a54eef393875d20f49c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-hardware/quality-corrected-cadence-candidate.json",
+      "bytes": 19464,
+      "sha256": "579d2ecadf66dcc6f190276af0f146a1f0dce87f10626791dd07602dd04dc7d9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-hardware/quality-corrected-cadence-reference.json",
+      "bytes": 19174,
+      "sha256": "6fafaf37067b2566a0ed0e83c747c56f569788fe37dfb6a47892c6161356b4dc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-hardware/quality-corrected-psnr.txt",
+      "bytes": 31992,
+      "sha256": "ba000338dbed4f2e5b9cc8b9bfe5b1578a35d287034d70b4290cdc83246b4287"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-hardware/quality-corrected-ssim.txt",
+      "bytes": 19092,
+      "sha256": "1a0c55b3c1a12a69c97c57ae9cd07d5a632eb29f528c143192ec90561e7a6bb5"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-hardware/quality-corrected.json",
+      "bytes": 587,
+      "sha256": "6f65c75d4f793ce7f91c66d8661ede933ef57529113dcab72ac0a1a5e8bb6380"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-hardware/quality-psnr.txt",
+      "bytes": 31992,
+      "sha256": "c6469edce984ac7d15430f24b1e9d27d1ff4bf6b628921881332002ae64fd391"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-hardware/quality-ssim.txt",
+      "bytes": 19092,
+      "sha256": "947d924d3bbb89974074b476360f6399627aa45dbeed4d03fedf4b8aef34ecba"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-hardware/quality.json",
+      "bytes": 581,
+      "sha256": "4f19483d741eaf28b7ec48b5c6a355fc913bc06ee801205e62046481008865bb"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-hardware/transfer.jsonl",
+      "bytes": 112993,
+      "sha256": "dfb65a40a86ad955adf58f24957f8b07c4f04b5c74eb1558353218513230c69b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-hardware/video.mp4",
+      "bytes": 226848916,
+      "sha256": "a576ea028cc9163c48b26a85e4b05722a8091b26174f864c010b3fb65ad02164"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-hardware-quality-corrected.process.json",
+      "bytes": 146,
+      "sha256": "c4e7e517bb8ed14fb8450f0d8b662b688d949982134efdc843e07581bcfd31c3"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-hardware-quality-corrected.stderr.log",
+      "bytes": 777,
+      "sha256": "14afa300d14a6cb792740d315f72c0058950e47dc317b3719a1cad586e020b36"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-hardware-quality-corrected.stdout.log",
+      "bytes": 527,
+      "sha256": "562ca75fab7ea25646036d4bda2dfe56fb98b470af2022b66c907784d8be3023"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-hardware-quality.process.json",
+      "bytes": 197,
+      "sha256": "f060ddca145c9b5e351ea8046b02abdc24cb39ce5d827332a9f2d347ec3f5fa9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-hardware-quality.stderr.log",
+      "bytes": 777,
+      "sha256": "f019b7eb88519e8b9f82eed36084233b83928084690d687f5cc64a2ac3ce0c9b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-hardware-quality.stdout.log",
+      "bytes": 521,
+      "sha256": "16812f5d81a0e18143715544205622c54d23db7f294532a914602a4e95673189"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-hardware.process.json",
+      "bytes": 189,
+      "sha256": "69154b3e4b89d938232e5e20a884c66de5a28a81929517b397c67bc8dd54893a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-hardware.stderr.log",
+      "bytes": 777,
+      "sha256": "047e2d44444d6200a2c27bee006e7381b001aeefad2b9f1b1bd94e5d67e40a58"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-hardware.stdout.log",
+      "bytes": 865,
+      "sha256": "ed5e79b70e1738dbe8f337f733863b2b75674e58746edd3057617337da4492d7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-software/attempt.json",
+      "bytes": 800,
+      "sha256": "ddb200cfde8e60eff850a8a67b69196a887ba8d4ece0964718216fd271b75c34"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-software/encoder.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-software/ffprobe.json",
+      "bytes": 2825,
+      "sha256": "d0412c2c0d87709583483db4f75533f5324b2b5a8022858e0a595115d715d48a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-software/native.stderr.log",
+      "bytes": 119,
+      "sha256": "ff447197090b4c5b4b09fedab6b49a993be06442b32e0299a4e437859f9d2108"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-software/quality-psnr.txt",
+      "bytes": 31992,
+      "sha256": "fb69582687fe8bbb48bd262ab2615199c66fb44ae6fef147918cb52fdda26ef8"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-software/quality-ssim.txt",
+      "bytes": 19092,
+      "sha256": "ea51e1b101ce471549c84e3c71994627321c2ec14101711bcd3ea823a7095da1"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-software/quality-strict-cadence-candidate.json",
+      "bytes": 18963,
+      "sha256": "b67b36c9e92ef87a77db4f088ebb92f7d4ccdcb1b2f2fa8be103b0c014471d49"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-software/quality-strict-cadence-reference.json",
+      "bytes": 19174,
+      "sha256": "6fafaf37067b2566a0ed0e83c747c56f569788fe37dfb6a47892c6161356b4dc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-software/quality-strict-psnr.txt",
+      "bytes": 31992,
+      "sha256": "fb69582687fe8bbb48bd262ab2615199c66fb44ae6fef147918cb52fdda26ef8"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-software/quality-strict-ssim.txt",
+      "bytes": 19092,
+      "sha256": "ea51e1b101ce471549c84e3c71994627321c2ec14101711bcd3ea823a7095da1"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-software/quality-strict.json",
+      "bytes": 581,
+      "sha256": "766a37747a80e732c51b397a3836072311aeaff0f5f628b71e688614a4a1c18d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-software/quality.json",
+      "bytes": 581,
+      "sha256": "766a37747a80e732c51b397a3836072311aeaff0f5f628b71e688614a4a1c18d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-software/transfer.jsonl",
+      "bytes": 12190,
+      "sha256": "047da23442842358d63d0a9c25002a27e09aa242a3e55be3ac1f380eb324ddae"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-software/video.mp4",
+      "bytes": 136903477,
+      "sha256": "0ba71d9cca61fc4d4ff9cdbc9ffe273f11460de3c33885d4b17f7bb984085928"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-software-quality-strict.process.json",
+      "bytes": 146,
+      "sha256": "02f981d27d96446dc0d1f4eef2f2b1081c1db0753b1dc571b62376bc63efb123"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-software-quality-strict.stderr.log",
+      "bytes": 777,
+      "sha256": "11163c7649f9c79932ded5f67e33b1f58ec13923b733726e4f9d93fd68e8e87e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-software-quality-strict.stdout.log",
+      "bytes": 521,
+      "sha256": "52fc5929a96611d206ea5eb003bcb9efb6a7b04b8b8b9f101e912b1a529a5125"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-software-quality.process.json",
+      "bytes": 196,
+      "sha256": "95a82efc431edcbb1652f9d03385183ca73589381f214cf24c0e00523d91c8ea"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-software-quality.stderr.log",
+      "bytes": 777,
+      "sha256": "fb02aa5b69c796136cb2a0738216884aa507b1caf379a6816da1bf785e99fd2c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-software-quality.stdout.log",
+      "bytes": 521,
+      "sha256": "52fc5929a96611d206ea5eb003bcb9efb6a7b04b8b8b9f101e912b1a529a5125"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-software.process.json",
+      "bytes": 188,
+      "sha256": "53cd879a16dbeffd8f884dd3e68b40c764a19fde6b1c14ea65cadf8fdfcb3955"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-software.stderr.log",
+      "bytes": 777,
+      "sha256": "7a1cad75b481266cd575df3b0735541d81875566358ec46b6a250573ba405acd"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-1-native-software.stdout.log",
+      "bytes": 689,
+      "sha256": "28ed56f3b70143982432119b3548481ebab52cce514c11eba842a3021416c389"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-chromium/attempt.json",
+      "bytes": 837,
+      "sha256": "e3cd908aceeadc12fed9dbed0518bc5c96d3e2e7f28666892638d05ae6a3075b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-chromium/encoder.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-chromium/ffprobe.json",
+      "bytes": 2818,
+      "sha256": "6ebcdc6f9a759813cb39fed039219178325928eb4a119fa727a92e1616ba14e3"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-chromium/gpu-capability.json",
+      "bytes": 7334,
+      "sha256": "d47a7b53955362149b3946d074474823f19073fff124833cf266549d15ce4731"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-chromium/quality-psnr.txt",
+      "bytes": 31992,
+      "sha256": "6a4977eabcca04adfb034830af8665691734c38a865202ef9d4bc6634a8fd9b9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-chromium/quality-ssim.txt",
+      "bytes": 19092,
+      "sha256": "6a4473ddca2df2a179b54be40e0de4b73e01c571a2822f7c1d35255f489f6b79"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-chromium/quality-strict-cadence-candidate.json",
+      "bytes": 18963,
+      "sha256": "b67b36c9e92ef87a77db4f088ebb92f7d4ccdcb1b2f2fa8be103b0c014471d49"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-chromium/quality-strict-cadence-reference.json",
+      "bytes": 19174,
+      "sha256": "6fafaf37067b2566a0ed0e83c747c56f569788fe37dfb6a47892c6161356b4dc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-chromium/quality-strict-psnr.txt",
+      "bytes": 31992,
+      "sha256": "6a4977eabcca04adfb034830af8665691734c38a865202ef9d4bc6634a8fd9b9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-chromium/quality-strict-ssim.txt",
+      "bytes": 19092,
+      "sha256": "6a4473ddca2df2a179b54be40e0de4b73e01c571a2822f7c1d35255f489f6b79"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-chromium/quality-strict.json",
+      "bytes": 582,
+      "sha256": "e313801dcd5a14f0dbf5ebaeb3f1a523298ebb43d6c152366b55c9a12b1e13f1"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-chromium/quality.json",
+      "bytes": 582,
+      "sha256": "e313801dcd5a14f0dbf5ebaeb3f1a523298ebb43d6c152366b55c9a12b1e13f1"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-chromium/video.mp4",
+      "bytes": 136795451,
+      "sha256": "afc377d499904f9f85bdf12c65a9e8454014a8838b7330afdaa1d0d42ef6e9d0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-chromium-quality-strict.process.json",
+      "bytes": 152,
+      "sha256": "04490c759ce66e193f4279b8325a89b5a341d38fac597ce49c644741e361a5e2"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-chromium-quality-strict.stderr.log",
+      "bytes": 777,
+      "sha256": "c4f0c15b004fbab9bfcc662fe60a9b74e3c102365450f9e1071c3d76329b14e0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-chromium-quality-strict.stdout.log",
+      "bytes": 522,
+      "sha256": "499b676e3cdc82d7d84319df833ee2929a23b1309fbe6dfd4fba549a60730a8d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-chromium-quality.process.json",
+      "bytes": 190,
+      "sha256": "7f5ae88ff98269dff622d39aa677c5f91da3298120dabdce0a99f61c8199f9df"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-chromium-quality.stderr.log",
+      "bytes": 777,
+      "sha256": "0065e424d2f89b8dca9521d711ba897ae83b65d3bbedc76f23c75467e08c3b1b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-chromium-quality.stdout.log",
+      "bytes": 522,
+      "sha256": "499b676e3cdc82d7d84319df833ee2929a23b1309fbe6dfd4fba549a60730a8d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-chromium.process.json",
+      "bytes": 182,
+      "sha256": "224256b285ee4fb30edeaac7a57edc3fb28d31620c2c4c6a3ef0bf0282faf307"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-chromium.stderr.log",
+      "bytes": 777,
+      "sha256": "cf6537801569f004f8f673381d6e2abcf239ec81eed3a4e4f91e64732c8a9c99"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-chromium.stdout.log",
+      "bytes": 726,
+      "sha256": "c846eb96d8425fcb583be4d91760a1e7f16befed9b1ec5fd01d12be4100f9d50"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-hardware/attempt.json",
+      "bytes": 995,
+      "sha256": "34444e43232d2948c11edb20b3277d883fcb08f87a6410ac9273a18016ab2233"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-hardware/ffprobe.json",
+      "bytes": 2774,
+      "sha256": "03198228756fbd26e0d6ffd836a04386de041ac4464a39e89f3296d08bdc98d4"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-hardware/quality-corrected-cadence-candidate.json",
+      "bytes": 19464,
+      "sha256": "579d2ecadf66dcc6f190276af0f146a1f0dce87f10626791dd07602dd04dc7d9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-hardware/quality-corrected-cadence-reference.json",
+      "bytes": 19174,
+      "sha256": "6fafaf37067b2566a0ed0e83c747c56f569788fe37dfb6a47892c6161356b4dc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-hardware/quality-corrected-psnr.txt",
+      "bytes": 31992,
+      "sha256": "ba000338dbed4f2e5b9cc8b9bfe5b1578a35d287034d70b4290cdc83246b4287"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-hardware/quality-corrected-ssim.txt",
+      "bytes": 19092,
+      "sha256": "1a0c55b3c1a12a69c97c57ae9cd07d5a632eb29f528c143192ec90561e7a6bb5"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-hardware/quality-corrected.json",
+      "bytes": 587,
+      "sha256": "f87298e57f21d37f656ac2195a7a15ea2635f6d036a3b50399957e08fb106e8d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-hardware/quality-psnr.txt",
+      "bytes": 31992,
+      "sha256": "c6469edce984ac7d15430f24b1e9d27d1ff4bf6b628921881332002ae64fd391"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-hardware/quality-ssim.txt",
+      "bytes": 19092,
+      "sha256": "947d924d3bbb89974074b476360f6399627aa45dbeed4d03fedf4b8aef34ecba"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-hardware/quality.json",
+      "bytes": 581,
+      "sha256": "e081a7bd372ff2e1778ff90f95324fe07107a4fb1df8862e5d848e386dba123b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-hardware/transfer.jsonl",
+      "bytes": 112993,
+      "sha256": "35c3880920a2b892c01da71f55ce8fcc10e357852e03d6f5167a447d823e74b7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-hardware/video.mp4",
+      "bytes": 226848916,
+      "sha256": "4d48ce59c002369acc08588a972017f4e2288627337b9637592bef22220ed6ef"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-hardware-quality-corrected.process.json",
+      "bytes": 151,
+      "sha256": "1800ca537dc68eeedfd59aa5975902a4e1eb5ac69df2a677dc32bc06c85ba1f5"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-hardware-quality-corrected.stderr.log",
+      "bytes": 777,
+      "sha256": "065d8587b0c57c28f346f15795d91f6fc3de0928c3f661fea7b5a98f18feb006"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-hardware-quality-corrected.stdout.log",
+      "bytes": 527,
+      "sha256": "7f0012965978f0cf592ba330a27bcec9ea13c14fa280521993bacdb44267e116"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-hardware-quality.process.json",
+      "bytes": 197,
+      "sha256": "2f534e1f5e19c5716d9792b49b62a3736dca8cad4e9f2019d4b0a2254dc8270a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-hardware-quality.stderr.log",
+      "bytes": 777,
+      "sha256": "0c3ded67408f574cd71cf217295fe900c982ecaa9f80cddf408c76f59b7c6011"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-hardware-quality.stdout.log",
+      "bytes": 521,
+      "sha256": "b312fa82379b24fee5516f5f751cb9b5599cf5a084951a55999964c2b06db02f"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-hardware.process.json",
+      "bytes": 189,
+      "sha256": "a5e55daaf2e330de14a2881955f598a0dec5fd7449bb7564999a72b5417d93dc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-hardware.stderr.log",
+      "bytes": 777,
+      "sha256": "b3aaf26f4b6551f02d3fbf5c379c0bf7dd6dc6d05f3dfd6db3ad57cd1250530c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-hardware.stdout.log",
+      "bytes": 853,
+      "sha256": "1ab860ac1272715ebc0f606dcf3976df95cf5ada144d83569da7487fc5db1b41"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-software/attempt.json",
+      "bytes": 807,
+      "sha256": "ccb5f3d2488899e81df0bff53c3a4acc8a6e792b5a6e482a0ea4442702be2d32"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-software/encoder.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-software/ffprobe.json",
+      "bytes": 2825,
+      "sha256": "f443c547c4d807bf13dfb0bf17f07b82016b3ccf32e8cd4d937f3f8b79a8b59a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-software/native.stderr.log",
+      "bytes": 119,
+      "sha256": "ff447197090b4c5b4b09fedab6b49a993be06442b32e0299a4e437859f9d2108"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-software/quality-psnr.txt",
+      "bytes": 31992,
+      "sha256": "fb69582687fe8bbb48bd262ab2615199c66fb44ae6fef147918cb52fdda26ef8"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-software/quality-ssim.txt",
+      "bytes": 19092,
+      "sha256": "ea51e1b101ce471549c84e3c71994627321c2ec14101711bcd3ea823a7095da1"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-software/quality-strict-cadence-candidate.json",
+      "bytes": 18963,
+      "sha256": "b67b36c9e92ef87a77db4f088ebb92f7d4ccdcb1b2f2fa8be103b0c014471d49"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-software/quality-strict-cadence-reference.json",
+      "bytes": 19174,
+      "sha256": "6fafaf37067b2566a0ed0e83c747c56f569788fe37dfb6a47892c6161356b4dc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-software/quality-strict-psnr.txt",
+      "bytes": 31992,
+      "sha256": "fb69582687fe8bbb48bd262ab2615199c66fb44ae6fef147918cb52fdda26ef8"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-software/quality-strict-ssim.txt",
+      "bytes": 19092,
+      "sha256": "ea51e1b101ce471549c84e3c71994627321c2ec14101711bcd3ea823a7095da1"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-software/quality-strict.json",
+      "bytes": 581,
+      "sha256": "381603577706124a96743983398f3d52b0a8330a616a1e789dc765b5a468b987"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-software/quality.json",
+      "bytes": 581,
+      "sha256": "381603577706124a96743983398f3d52b0a8330a616a1e789dc765b5a468b987"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-software/transfer.jsonl",
+      "bytes": 12190,
+      "sha256": "047da23442842358d63d0a9c25002a27e09aa242a3e55be3ac1f380eb324ddae"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-software/video.mp4",
+      "bytes": 136903477,
+      "sha256": "0ba71d9cca61fc4d4ff9cdbc9ffe273f11460de3c33885d4b17f7bb984085928"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-software-quality-strict.process.json",
+      "bytes": 152,
+      "sha256": "66e898f515492b9f73f16e7ef09dce1832b0bf3b4d26c283f9aeba2fb53a2713"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-software-quality-strict.stderr.log",
+      "bytes": 777,
+      "sha256": "68872c6aaaa18558b281934b6448bb4dbb0a2508b3a81a7e852de9cbd582486c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-software-quality-strict.stdout.log",
+      "bytes": 521,
+      "sha256": "94eea84911292f75eb99e06fd51281f764cdee745fa04d7add22135c0759f0d1"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-software-quality.process.json",
+      "bytes": 197,
+      "sha256": "09ae0dc5c35f6597d3ab3b62ec32117fcc3632d5b8faca5e48d100865a156187"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-software-quality.stderr.log",
+      "bytes": 777,
+      "sha256": "38532f85d372ef676d34762b0b1fa4a8023078e23879508e90e2c835167a54d7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-software-quality.stdout.log",
+      "bytes": 521,
+      "sha256": "94eea84911292f75eb99e06fd51281f764cdee745fa04d7add22135c0759f0d1"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-software.process.json",
+      "bytes": 188,
+      "sha256": "a02d63c9bc51d3a2b8a5573fe8e0f2af81308c667b82b679ca06d3829deffdfc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-software.stderr.log",
+      "bytes": 777,
+      "sha256": "c8bd212f5c42ac8fefabc3b0b1413435a904449e4b005adc77114d2a49dfe2e6"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-2-native-software.stdout.log",
+      "bytes": 696,
+      "sha256": "51708eb99032f88fc3322aa99a9326f45969fa149b287c632ea23cdc7682a15f"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-chromium/attempt.json",
+      "bytes": 831,
+      "sha256": "68f83f57c047f7c6a6de7a9a67b48d536c8bde2d60f7fdb3cc99f2298ddd8c1d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-chromium/encoder.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-chromium/ffprobe.json",
+      "bytes": 2818,
+      "sha256": "6ac7e0b811b29390113fa8c025c41c24ab6ed7ad12108c1a11b2dc54fff23e3d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-chromium/gpu-capability.json",
+      "bytes": 7334,
+      "sha256": "907e8ff57a79a75c65ebfa02ebb0ae5c746319efd302d3fc4c7e6ef598f2e7db"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-chromium/quality-cadence-candidate.json",
+      "bytes": 18963,
+      "sha256": "b67b36c9e92ef87a77db4f088ebb92f7d4ccdcb1b2f2fa8be103b0c014471d49"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-chromium/quality-cadence-reference.json",
+      "bytes": 19174,
+      "sha256": "6fafaf37067b2566a0ed0e83c747c56f569788fe37dfb6a47892c6161356b4dc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-chromium/quality-psnr.txt",
+      "bytes": 31992,
+      "sha256": "6a4977eabcca04adfb034830af8665691734c38a865202ef9d4bc6634a8fd9b9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-chromium/quality-ssim.txt",
+      "bytes": 19092,
+      "sha256": "6a4473ddca2df2a179b54be40e0de4b73e01c571a2822f7c1d35255f489f6b79"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-chromium/quality.json",
+      "bytes": 582,
+      "sha256": "eca6c3803794a34564195de182625fbabc28896caf9df7daf7a7f006f097c8a1"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-chromium/video.mp4",
+      "bytes": 136795451,
+      "sha256": "afc377d499904f9f85bdf12c65a9e8454014a8838b7330afdaa1d0d42ef6e9d0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-chromium-quality.process.json",
+      "bytes": 190,
+      "sha256": "2566e605c8ebc31dd3ecfa30abe787ad2ff282c2c135f07495445dcf803f3e75"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-chromium-quality.stderr.log",
+      "bytes": 777,
+      "sha256": "0c95ca9787ec1c8f7c23be3184c66bd9e42ce67f6651046f1b423adfb578530f"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-chromium-quality.stdout.log",
+      "bytes": 522,
+      "sha256": "1486784de77f2e6f2d14fec54761d6ac056aae182d62316524b7de077901d8ee"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-chromium.process.json",
+      "bytes": 182,
+      "sha256": "8f201374a77f7b1a07cd7c194581968a689b03708446fde724aadf032df5bc43"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-chromium.stderr.log",
+      "bytes": 777,
+      "sha256": "6e4eac1e0a1fd7c14424c5876e06a815c565286b65def3fca07d21868d22e4f9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-chromium.stdout.log",
+      "bytes": 720,
+      "sha256": "f626c1a5856e73b0c3b7a7b2449a341c40faf1090be1505782eac6cd01558a50"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-hardware-strict-cadence.json",
+      "bytes": 19464,
+      "sha256": "579d2ecadf66dcc6f190276af0f146a1f0dce87f10626791dd07602dd04dc7d9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-hardware/attempt.json",
+      "bytes": 1001,
+      "sha256": "0528552b54584e55c9e011bc44cf7027ede04ffc226df2205d31cce8d3af38bf"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-hardware/ffprobe.json",
+      "bytes": 2774,
+      "sha256": "37f191ceb137631103a002a304429d52976b20ad789737da7432a2483568235c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-hardware/quality-cadence-candidate.json",
+      "bytes": 19464,
+      "sha256": "579d2ecadf66dcc6f190276af0f146a1f0dce87f10626791dd07602dd04dc7d9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-hardware/quality-corrected-cadence-candidate.json",
+      "bytes": 19464,
+      "sha256": "579d2ecadf66dcc6f190276af0f146a1f0dce87f10626791dd07602dd04dc7d9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-hardware/quality-corrected-cadence-reference.json",
+      "bytes": 19174,
+      "sha256": "6fafaf37067b2566a0ed0e83c747c56f569788fe37dfb6a47892c6161356b4dc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-hardware/quality-corrected-psnr.txt",
+      "bytes": 31992,
+      "sha256": "ba000338dbed4f2e5b9cc8b9bfe5b1578a35d287034d70b4290cdc83246b4287"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-hardware/quality-corrected-ssim.txt",
+      "bytes": 19092,
+      "sha256": "1a0c55b3c1a12a69c97c57ae9cd07d5a632eb29f528c143192ec90561e7a6bb5"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-hardware/quality-corrected.json",
+      "bytes": 587,
+      "sha256": "5e35812804805a19ee2181b59f12769a248497a3b75bb723f9ace65ce6a9b474"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-hardware/transfer.jsonl",
+      "bytes": 112993,
+      "sha256": "5cdb7d377fb2b9b180d265c4bcfd50beb331c5b46641c4eee448b7456a591dff"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-hardware/video.mp4",
+      "bytes": 226848916,
+      "sha256": "73e2d1d242ff3ef8ed23e32fd6207e9e7f815c2abdea188f924f5e9c25c222e9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-hardware-quality-corrected.process.json",
+      "bytes": 151,
+      "sha256": "94345363f5a645502402e84f3fa54d67af29207396b2033f085fc70aef5014e4"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-hardware-quality-corrected.stderr.log",
+      "bytes": 777,
+      "sha256": "0514d371fd53ad96bd690fec69f604d3159090943b02fa16e3352a21901cc672"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-hardware-quality-corrected.stdout.log",
+      "bytes": 527,
+      "sha256": "0ce8f7f368de7580d64c8759bb8b6e0f8091e8d2b481fa7cc552fedc9557bf1e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-hardware-quality.process.json",
+      "bytes": 196,
+      "sha256": "db5881150bb543abad8d14321e290d65ee315e36bbcc4a4e359edbb3612f17ca"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-hardware-quality.stderr.log",
+      "bytes": 1779,
+      "sha256": "9391f90f1cfce751401f8aee3927a63b83e8a8c11e4bf998bb210e834b80118a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-hardware-quality.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-hardware.process.json",
+      "bytes": 189,
+      "sha256": "d00128767d80c9537f0683c9a9308d3bd765bb84b7e83f6e5c7c2425ddcb24c4"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-hardware.stderr.log",
+      "bytes": 777,
+      "sha256": "0dbd50f62a2f21e32e2790dea7cffcc19e46ed83757df06e4dd6f99933c108c6"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-hardware.stdout.log",
+      "bytes": 859,
+      "sha256": "c1442095904cb7358f11ad10b1a505b2eb63f510aca6dc4c64b4f54ceec96947"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-software/attempt.json",
+      "bytes": 807,
+      "sha256": "17d85851913929b64e7967268aa741677ebc207757fe1309fc880f43db6a8729"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-software/encoder.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-software/ffprobe.json",
+      "bytes": 2825,
+      "sha256": "8ae9cdbcc5990174a7a52f66c43a63de90686689579cd33c3ab56a691c2c7d98"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-software/native.stderr.log",
+      "bytes": 119,
+      "sha256": "ff447197090b4c5b4b09fedab6b49a993be06442b32e0299a4e437859f9d2108"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-software/quality-cadence-candidate.json",
+      "bytes": 18963,
+      "sha256": "b67b36c9e92ef87a77db4f088ebb92f7d4ccdcb1b2f2fa8be103b0c014471d49"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-software/quality-cadence-reference.json",
+      "bytes": 19174,
+      "sha256": "6fafaf37067b2566a0ed0e83c747c56f569788fe37dfb6a47892c6161356b4dc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-software/quality-psnr.txt",
+      "bytes": 31992,
+      "sha256": "fb69582687fe8bbb48bd262ab2615199c66fb44ae6fef147918cb52fdda26ef8"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-software/quality-ssim.txt",
+      "bytes": 19092,
+      "sha256": "ea51e1b101ce471549c84e3c71994627321c2ec14101711bcd3ea823a7095da1"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-software/quality.json",
+      "bytes": 581,
+      "sha256": "1c96e8e14494439bee4da9796f085fb84fc0d140880017975f8083cb146a7237"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-software/transfer.jsonl",
+      "bytes": 12190,
+      "sha256": "047da23442842358d63d0a9c25002a27e09aa242a3e55be3ac1f380eb324ddae"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-software/video.mp4",
+      "bytes": 136903477,
+      "sha256": "0ba71d9cca61fc4d4ff9cdbc9ffe273f11460de3c33885d4b17f7bb984085928"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-software-quality.process.json",
+      "bytes": 195,
+      "sha256": "2f8954baea2da83e5f8d5a06e54b768952f31bbd45657c1476e373b4854fa411"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-software-quality.stderr.log",
+      "bytes": 777,
+      "sha256": "1acdd388af2d791fc9ed779e1029b30812ef8088f2843b61a58498a4c3b57d82"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-software-quality.stdout.log",
+      "bytes": 521,
+      "sha256": "40a598f01ebeea43facf075124c3341e37d3a04a9eb604653d4878348e240ecc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-software.process.json",
+      "bytes": 188,
+      "sha256": "a91c077b70f1ba0313f962672702af70171eb8a013addc86c1f62082f86ed601"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-software.stderr.log",
+      "bytes": 777,
+      "sha256": "943c4b232eea59d757234e7712f522ee4a5808e8f8ca95634c28c40228a2f8f4"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-3-native-software.stdout.log",
+      "bytes": 696,
+      "sha256": "1a1215632f6befac920b6946064f5d7c3c7af8ae0d4a154c6a46695e2f07c73f"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-chromium/attempt.json",
+      "bytes": 831,
+      "sha256": "ea6edd8f98304ddc741bc3e51846b88e19bea2bf97a334cb72ad02cd7391e6de"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-chromium/encoder.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-chromium/ffprobe.json",
+      "bytes": 2818,
+      "sha256": "b51ec0a4ee94521e74e15de80ea12b22343d5aeaaec43bf7d748b29826d1eaa3"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-chromium/gpu-capability.json",
+      "bytes": 7334,
+      "sha256": "d7cd17d62c01adb442f79cd8c7f60dd5f5dd23ca1c2b763dffbb5f8d1309cefd"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-chromium/quality-cadence-candidate.json",
+      "bytes": 18963,
+      "sha256": "b67b36c9e92ef87a77db4f088ebb92f7d4ccdcb1b2f2fa8be103b0c014471d49"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-chromium/quality-cadence-reference.json",
+      "bytes": 19174,
+      "sha256": "6fafaf37067b2566a0ed0e83c747c56f569788fe37dfb6a47892c6161356b4dc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-chromium/quality-psnr.txt",
+      "bytes": 31992,
+      "sha256": "6a4977eabcca04adfb034830af8665691734c38a865202ef9d4bc6634a8fd9b9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-chromium/quality-ssim.txt",
+      "bytes": 19092,
+      "sha256": "6a4473ddca2df2a179b54be40e0de4b73e01c571a2822f7c1d35255f489f6b79"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-chromium/quality.json",
+      "bytes": 582,
+      "sha256": "5261f1e902169c2e918db05a6c0b9ce9dd12a6d3f58c7a7e003196a273eaa0f0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-chromium/video.mp4",
+      "bytes": 136795451,
+      "sha256": "afc377d499904f9f85bdf12c65a9e8454014a8838b7330afdaa1d0d42ef6e9d0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-chromium-quality.process.json",
+      "bytes": 190,
+      "sha256": "5d623907665a4a211ac48f93b2d1a8666e4d6455d3e1287729755e8d27c9d510"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-chromium-quality.stderr.log",
+      "bytes": 777,
+      "sha256": "b849e806a668b12bfdc8ec6a220f87501c905fa784d5ec49b4895da06c608b26"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-chromium-quality.stdout.log",
+      "bytes": 522,
+      "sha256": "4635175d7f388af8bd312bc7867aab1e63b761af9dcf893fdb90dbfb12d06f9a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-chromium.process.json",
+      "bytes": 176,
+      "sha256": "6761a737261f677825deef96437564f7df4b184fb8541d0391b3677368e2d999"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-chromium.stderr.log",
+      "bytes": 777,
+      "sha256": "9b5a2f440e204ba59bae8e8a7747701227f4fd061fb0ac396e9e4ff777943faa"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-chromium.stdout.log",
+      "bytes": 720,
+      "sha256": "ffaab6b82cadea64442336bc93fe50e2675cb933321fe73377aff976a5dedf70"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-native-hardware/attempt.json",
+      "bytes": 1002,
+      "sha256": "11295258b05f3dec6d61a0f62b61ede41d03f5bb7f2413fe3ea084b412a5fa93"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-native-hardware/ffprobe.json",
+      "bytes": 2774,
+      "sha256": "4dc9b7ff33f3d527357ec732ca39206c53e68d769d8f287ebdc58f36a358e23b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-native-hardware/quality-cadence-candidate.json",
+      "bytes": 19464,
+      "sha256": "579d2ecadf66dcc6f190276af0f146a1f0dce87f10626791dd07602dd04dc7d9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-native-hardware/quality-cadence-reference.json",
+      "bytes": 19174,
+      "sha256": "6fafaf37067b2566a0ed0e83c747c56f569788fe37dfb6a47892c6161356b4dc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-native-hardware/quality-psnr.txt",
+      "bytes": 31992,
+      "sha256": "ba000338dbed4f2e5b9cc8b9bfe5b1578a35d287034d70b4290cdc83246b4287"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-native-hardware/quality-ssim.txt",
+      "bytes": 19092,
+      "sha256": "1a0c55b3c1a12a69c97c57ae9cd07d5a632eb29f528c143192ec90561e7a6bb5"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-native-hardware/quality.json",
+      "bytes": 587,
+      "sha256": "baba81fe450f7c08c8448b4b09e4b79e36c8037ad65bc2d78cbdbeaf3cfc6d65"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-native-hardware/transfer.jsonl",
+      "bytes": 112993,
+      "sha256": "debfecb6074af385d98a010444a5c3deefcab7def0e0bdcaec1c9543e41eedd0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-native-hardware/video.mp4",
+      "bytes": 226848916,
+      "sha256": "ac96b07ee39f89fdf57fd504415ba6b1512e14e45b43e36bc0793193bc936e65"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-native-hardware-quality.process.json",
+      "bytes": 191,
+      "sha256": "e6134bdf248aaf36d39f844990f51e363cb94a639d358c261454ca63afc21e8d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-native-hardware-quality.stderr.log",
+      "bytes": 777,
+      "sha256": "877690ed2c2dac2a9f2b4baa31215ab6709e68afb686704c0d48c6627553c49d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-native-hardware-quality.stdout.log",
+      "bytes": 527,
+      "sha256": "44127b0e16c2b789f8ab690133e6011df2b7b305e981370d47b1434e2160fd00"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-native-hardware.process.json",
+      "bytes": 189,
+      "sha256": "bf49e080e9eff153f5a7968d4c69704864989f3718471dcec60ded24e644c4a4"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-native-hardware.stderr.log",
+      "bytes": 777,
+      "sha256": "7875f7b9a53632bf6261886eea2cd799fa9bc41f45c661f45ee95232bf57c3b4"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-native-hardware.stdout.log",
+      "bytes": 860,
+      "sha256": "ea8a0f8081b6ae26368296a4e6969c5b68074cdc98b8495e5e2b3e1b38b17ac8"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-native-software/attempt.json",
+      "bytes": 807,
+      "sha256": "28552a82f67b3df9f75f3de4919eae68e286369e6febea75df4cf9fb24681ea0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-native-software/encoder.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-native-software/ffprobe.json",
+      "bytes": 2825,
+      "sha256": "a2b75a691bfbbb0867d0c79e45913815707db635ea148c417dbd69d670eba04a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-native-software/native.stderr.log",
+      "bytes": 119,
+      "sha256": "ff447197090b4c5b4b09fedab6b49a993be06442b32e0299a4e437859f9d2108"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-native-software/quality-cadence-candidate.json",
+      "bytes": 18963,
+      "sha256": "b67b36c9e92ef87a77db4f088ebb92f7d4ccdcb1b2f2fa8be103b0c014471d49"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-native-software/quality-cadence-reference.json",
+      "bytes": 19174,
+      "sha256": "6fafaf37067b2566a0ed0e83c747c56f569788fe37dfb6a47892c6161356b4dc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-native-software/quality-psnr.txt",
+      "bytes": 31992,
+      "sha256": "fb69582687fe8bbb48bd262ab2615199c66fb44ae6fef147918cb52fdda26ef8"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-native-software/quality-ssim.txt",
+      "bytes": 19092,
+      "sha256": "ea51e1b101ce471549c84e3c71994627321c2ec14101711bcd3ea823a7095da1"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-native-software/quality.json",
+      "bytes": 581,
+      "sha256": "6fbabb1cf9f993f9578785a7f6babd8a149580595bfcdb29b0b82f6f13414f25"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-native-software/transfer.jsonl",
+      "bytes": 12190,
+      "sha256": "047da23442842358d63d0a9c25002a27e09aa242a3e55be3ac1f380eb324ddae"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-native-software/video.mp4",
+      "bytes": 136903477,
+      "sha256": "0ba71d9cca61fc4d4ff9cdbc9ffe273f11460de3c33885d4b17f7bb984085928"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-native-software-quality.process.json",
+      "bytes": 196,
+      "sha256": "f9a5995082becced430c9ab420af6d56e034906baade1bfd1e791f4e1ab73fa3"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-native-software-quality.stderr.log",
+      "bytes": 777,
+      "sha256": "282a4a990e9f1a25028767e19da65ffff37360e2758522f36c54f0edf5699512"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-native-software-quality.stdout.log",
+      "bytes": 521,
+      "sha256": "fcb308ba39780dca21b21ae4eeddc2be81187b8e29738c45c9ae5de40d623a1f"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-native-software.process.json",
+      "bytes": 183,
+      "sha256": "70638a21b728cbb57142883dcc5979afc4c7dbd31b013442c2d3e09a09e51b90"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-native-software.stderr.log",
+      "bytes": 777,
+      "sha256": "5420ecfcec9937ef16fcefc068c514d91ac48de89a27253401bed9b9c92bbb60"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/round-4-native-software.stdout.log",
+      "bytes": 696,
+      "sha256": "604dc78bd3549646d50702adf69c5c788b7afb81a5331431ed91636cdb9ee55f"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/run-final.mjs",
+      "bytes": 5226,
+      "sha256": "0bb570a1227d72ebd48d5fe36b2d1eb24b974946fe6761e452d3a2fda4c6dce0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/screen-hardware-160m-01/attempt.json",
+      "bytes": 780,
+      "sha256": "a13a5d336f09cf332c5ff565ed28a5918f267e7c808c5ff5f9b0a68aa1153db9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/screen-hardware-160m-01/ffprobe.json",
+      "bytes": 2774,
+      "sha256": "e50e0081ecbcb0535e89026b6e26d0e0d46d857ef34a87b4043b85db845e6385"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/screen-hardware-160m-01/quality-psnr.txt",
+      "bytes": 31992,
+      "sha256": "fcd2da21b9b06a808bd428023c519a95179d55e09ee71e0f5d85228737db2f84"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/screen-hardware-160m-01/quality-ssim.txt",
+      "bytes": 19092,
+      "sha256": "8363fe26887001ecd3ef783ed095b809823c4c7b5826c264d32a70a3984c515d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/screen-hardware-160m-01/quality.json",
+      "bytes": 577,
+      "sha256": "1fdb5645f7af363c778a465324bf70b3b9a15cc4f8c9bfa58dff1fb3ee37448d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/screen-hardware-160m-01/transfer.jsonl",
+      "bytes": 112993,
+      "sha256": "4d3183b04b4feb63fcea8af26f2d12f550d66b72c6433318f3ab3a84a524fa1b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/screen-hardware-160m-01/video.mp4",
+      "bytes": 199747979,
+      "sha256": "cb6c68beb2a7254f81da977169f020f042ca5502c8027910a7c5044e5ef4323a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/screen-hardware-40m-01/attempt.json",
+      "bytes": 787,
+      "sha256": "958785afd7cb02ecb0d06f5e705a82cc5d02d3ef3ea54a68ab8a781296b800e7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/screen-hardware-40m-01/ffprobe.json",
+      "bytes": 2770,
+      "sha256": "abc2fca1b61ae015a5a69b5b56a6f719833d91416c4ca653d463f015609efea7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/screen-hardware-40m-01/psnr.txt",
+      "bytes": 33484,
+      "sha256": "6af6ed780c23b231ed119e47fe97540be19aad3b2765bb96102597245994ae28"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/screen-hardware-40m-01/quality-normalized-psnr.txt",
+      "bytes": 33169,
+      "sha256": "1ca142cb5804ad8ae30d2292023b928bab158bcf1752d0c56499e99e57fffca9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/screen-hardware-40m-01/quality-normalized-ssim.txt",
+      "bytes": 19092,
+      "sha256": "f404be04043461ff9ef5919fb651d01bc366d29e976390529cc8ff3d308ccb4a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/screen-hardware-40m-01/quality-normalized.json",
+      "bytes": 577,
+      "sha256": "2ddf0ff1d1257a13a51643860f483655074f0d10657d456c2367a49f0a31a814"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/screen-hardware-40m-01/quality.json",
+      "bytes": 577,
+      "sha256": "ec503cb9d35fe5e933a492f7f67ee330b9bfc532b8d7ba06fabd63b7d7715ab4"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/screen-hardware-40m-01/ssim.txt",
+      "bytes": 19056,
+      "sha256": "aa0aa207012634bd398fb3f2795bf37ebbbf64ba6e46ddf3a54af043140034fc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/screen-hardware-40m-01/transfer.jsonl",
+      "bytes": 112993,
+      "sha256": "508373b0d7dd45833f511cfaeb65f1356c20999fd3f83336e1b24458cc18e57f"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/screen-hardware-40m-01/video.mp4",
+      "bytes": 50201051,
+      "sha256": "fbfdf8d1692cb8e78236773f3ecceaca166016e6b3fb9c50005afa455e7b681c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/screen-software-11-01/attempt.json",
+      "bytes": 780,
+      "sha256": "6dd1d6b9bf5f6c5e0910f97f2bb27d7a0732be9fc163dfd96eca99bcba3b1dad"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/screen-software-11-01/encoder.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/screen-software-11-01/ffprobe.json",
+      "bytes": 2823,
+      "sha256": "9e12357bb245cc8902dccbd8eb7ac87a0b34e15edb1e8868fd05f53dba8d94f5"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/screen-software-11-01/native.stderr.log",
+      "bytes": 119,
+      "sha256": "ff447197090b4c5b4b09fedab6b49a993be06442b32e0299a4e437859f9d2108"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/screen-software-11-01/quality-psnr.txt",
+      "bytes": 31992,
+      "sha256": "fb69582687fe8bbb48bd262ab2615199c66fb44ae6fef147918cb52fdda26ef8"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/screen-software-11-01/quality-ssim.txt",
+      "bytes": 19092,
+      "sha256": "ea51e1b101ce471549c84e3c71994627321c2ec14101711bcd3ea823a7095da1"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/screen-software-11-01/quality.json",
+      "bytes": 575,
+      "sha256": "b95cfdbb9b4987749449992f5e65949f546c664b7a826f16ee1c55a8df80ea70"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/screen-software-11-01/transfer.jsonl",
+      "bytes": 12190,
+      "sha256": "047da23442842358d63d0a9c25002a27e09aa242a3e55be3ac1f380eb324ddae"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/screen-software-11-01/video.mp4",
+      "bytes": 136903477,
+      "sha256": "0ba71d9cca61fc4d4ff9cdbc9ffe273f11460de3c33885d4b17f7bb984085928"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/smoke-capture-01/attempt.json",
+      "bytes": 779,
+      "sha256": "0f453891c69a530b4b4d2cd0b5b76b19278907605077792a14395994b2deaa6a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/smoke-capture-01/ffprobe.json",
+      "bytes": 2757,
+      "sha256": "cadc7cf39da0be05fe83c999f00d0b4bfae09836ad9b5e946a6c0212e5585040"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/smoke-capture-01/frame-0.png",
+      "bytes": 2367195,
+      "sha256": "7c613230025290dc7179978b2f836349a5147bb01eb7d391da63ad8f2f19e5b8"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/smoke-capture-01/transfer.jsonl",
+      "bytes": 1247,
+      "sha256": "d60934305f9080de6a0062b46ba565968c4ffbe19902496261d3a035a78b38b2"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/smoke-capture-01/video.mp4",
+      "bytes": 1474014,
+      "sha256": "b076dda746cccf6e2113d2cc87a5872638ccad65f3139f516d60187d3920f5e3"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/tagged-reference-hardware.framemd5",
+      "bytes": 24216,
+      "sha256": "1228ac0a89b073d0b4d8480f8b15f0e1c10e25bc48c83a95864a61c7f35cc2b7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/textgrid-3frames.gputrace",
+      "kind": "actual-Metal-capture-directory",
+      "contentsNotInspectedByManifest": true
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/RESUME.md",
+      "bytes": 3903,
+      "sha256": "49b5fd3a246bb01a78f1f3ff5a11c7c31217d6848438c1b6cbfc48f22aa757e5"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/FINAL-PR-STATE.json",
+      "bytes": 526,
+      "sha256": "250b2535b5dc3f8cc1816147140192cfd5e541e81fa2efc176b55c1409e50e6b"
+    }
+  ],
+  "generatedAt": "2026-10-03T15:04:03.748Z",
+  "captureMetadataNotRead": true,
+  "excludedGeneratorLogs": [
+    "final-report-job.stdout.json",
+    "final-report-job.stderr.log"
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "status": "qualified local CPU holdout; gains merged; video handoff ready; remote goal remains pending",
+  "allowedClaims": [
+    {
+      "id": "native-decoder-medium",
+      "label": "1.59\u00d7 faster delivered medium exports versus the frozen Helios baseline",
+      "exactMedianPairedSpeedup": 1.5882869944569293,
+      "scope": "Experimental native Canvas TextGrid CPU export on Apple M3 Pro; not arbitrary browser compositions",
+      "pairs": 3,
+      "wins": 3,
+      "allTimedPairsByteIdentical": true
+    },
+    {
+      "id": "native-decoder-ultrafast",
+      "label": "1.67\u00d7 faster delivered ultrafast exports versus the frozen Helios baseline",
+      "exactMedianPairedSpeedup": 1.669009825438181,
+      "scope": "Experimental native Canvas TextGrid CPU export on Apple M3 Pro; not arbitrary browser compositions",
+      "pairs": 3,
+      "wins": 3,
+      "allTimedPairsByteIdentical": true
+    }
+  ],
+  "qualityReceipt": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/quality-policy-results-clock-v1.json",
+  "originalTimerData": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/decoder-gain-chart-data.json",
+  "competitorClaims": [
+    {
+      "id": "holdout-medium-F",
+      "label": "1.27\u00d7 speedup versus fframes CPU in this CPU TextGrid benchmark (medium)",
+      "exactRatioOfMedians": 1.2679253592011823,
+      "medianSecondsHelios": 11.99089525,
+      "medianSecondsCompetitor": 15.203560167,
+      "timedRounds": 3,
+      "heliosWins": 3,
+      "ratioDefinition": "competitor median delivered time divided by Helios median delivered time",
+      "scope": {
+        "hardware": "Apple M3 Pro, 11 available logical CPUs, macOS arm64",
+        "workload": "Native Canvas / CPU SVG / strict CPU DOM TextGrid; 3334 labels; DM Sans; 1920x1080; 300 frames; 30 fps",
+        "encoding": "software libx264 CRF11; medium and ultrafast; GOP24; BT.601 TV YUV420P",
+        "fidelity": "every frame SSIM Y>=.995 and PSNR Y>=40dB/U>=35dB/V>=35dB against own lossless rasterizer reference",
+        "rasterizersDiffer": true,
+        "arbitraryBrowserCompositionsProven": false,
+        "remoteSuperiorityProven": false
+      }
+    },
+    {
+      "id": "holdout-medium-R",
+      "label": "2.00\u00d7 speedup versus Remotion strict CPU JPEG100 in this CPU TextGrid benchmark (medium)",
+      "exactRatioOfMedians": 2.004852938983017,
+      "medianSecondsHelios": 11.99089525,
+      "medianSecondsCompetitor": 24.039981583,
+      "timedRounds": 3,
+      "heliosWins": 3,
+      "ratioDefinition": "competitor median delivered time divided by Helios median delivered time",
+      "scope": {
+        "hardware": "Apple M3 Pro, 11 available logical CPUs, macOS arm64",
+        "workload": "Native Canvas / CPU SVG / strict CPU DOM TextGrid; 3334 labels; DM Sans; 1920x1080; 300 frames; 30 fps",
+        "encoding": "software libx264 CRF11; medium and ultrafast; GOP24; BT.601 TV YUV420P",
+        "fidelity": "every frame SSIM Y>=.995 and PSNR Y>=40dB/U>=35dB/V>=35dB against own lossless rasterizer reference",
+        "rasterizersDiffer": true,
+        "arbitraryBrowserCompositionsProven": false,
+        "remoteSuperiorityProven": false
+      }
+    },
+    {
+      "id": "holdout-ultrafast-F",
+      "label": "1.75\u00d7 speedup versus fframes CPU in this CPU TextGrid benchmark (ultrafast)",
+      "exactRatioOfMedians": 1.7474000930917848,
+      "medianSecondsHelios": 4.210728167,
+      "medianSecondsCompetitor": 7.357826791,
+      "timedRounds": 3,
+      "heliosWins": 3,
+      "ratioDefinition": "competitor median delivered time divided by Helios median delivered time",
+      "scope": {
+        "hardware": "Apple M3 Pro, 11 available logical CPUs, macOS arm64",
+        "workload": "Native Canvas / CPU SVG / strict CPU DOM TextGrid; 3334 labels; DM Sans; 1920x1080; 300 frames; 30 fps",
+        "encoding": "software libx264 CRF11; medium and ultrafast; GOP24; BT.601 TV YUV420P",
+        "fidelity": "every frame SSIM Y>=.995 and PSNR Y>=40dB/U>=35dB/V>=35dB against own lossless rasterizer reference",
+        "rasterizersDiffer": true,
+        "arbitraryBrowserCompositionsProven": false,
+        "remoteSuperiorityProven": false
+      }
+    },
+    {
+      "id": "holdout-ultrafast-R",
+      "label": "4.31\u00d7 speedup versus Remotion strict CPU JPEG100 in this CPU TextGrid benchmark (ultrafast)",
+      "exactRatioOfMedians": 4.31414689182903,
+      "medianSecondsHelios": 4.210728167,
+      "medianSecondsCompetitor": 18.165699834,
+      "timedRounds": 3,
+      "heliosWins": 3,
+      "ratioDefinition": "competitor median delivered time divided by Helios median delivered time",
+      "scope": {
+        "hardware": "Apple M3 Pro, 11 available logical CPUs, macOS arm64",
+        "workload": "Native Canvas / CPU SVG / strict CPU DOM TextGrid; 3334 labels; DM Sans; 1920x1080; 300 frames; 30 fps",
+        "encoding": "software libx264 CRF11; medium and ultrafast; GOP24; BT.601 TV YUV420P",
+        "fidelity": "every frame SSIM Y>=.995 and PSNR Y>=40dB/U>=35dB/V>=35dB against own lossless rasterizer reference",
+        "rasterizersDiffer": true,
+        "arbitraryBrowserCompositionsProven": false,
+        "remoteSuperiorityProven": false
+      }
+    }
+  ],
+  "remoteClaims": [],
+  "mergeReceipts": [
+    {
+      "repository": "BintzGavin/helios",
+      "pr": 5006,
+      "head": "0566d1108f922ea88294d4bbe1f11cdb49849834",
+      "merge": "ebf8e145538d454479d80f97f8f76893b2fdf96f",
+      "mergedAt": "2026-10-01T21:25:52Z",
+      "paths": [
+        "packages/portable"
+      ],
+      "testedHeadAndMergedSourceTreeIdentical": true,
+      "verifiedFileCount": 115,
+      "treeReceiptSha256": "1f344f423843a330198d437673d16d111294e4af18971f95f621582891f39bd3",
+      "state": "MERGED",
+      "url": "https://github.com/BintzGavin/helios/pull/5006",
+      "noManualDeploymentPerformed": true
+    },
+    {
+      "repository": "BintzGavin/durable-objects-requests-scheduler",
+      "pr": 45,
+      "head": "8029704f67abc3cae84dd83945e36a877b5e2d8e",
+      "merge": "597ab652c4d57f7abe021e0e643cf54b222a1e7b",
+      "mergedAt": "2026-10-01T21:29:19Z",
+      "paths": [
+        "src/index.ts",
+        "src/tools/memory.ts",
+        "src/tools/sandbox.ts",
+        "src/tools/render-readiness.ts",
+        "test/media-streaming.test.ts",
+        "test/sandbox-audio.test.ts",
+        "test/render-readiness.test.ts",
+        "test-node/render-readiness-bundle.check.mjs"
+      ],
+      "testedHeadAndMergedSourceTreeIdentical": true,
+      "verifiedFileCount": 8,
+      "treeReceiptSha256": "185c6ea421c2d229c5d4dfa9706a3d7b68751fd598229ee3d679c095744d14c3",
+      "state": "MERGED",
+      "url": "https://github.com/BintzGavin/durable-objects-requests-scheduler/pull/45",
+      "noManualDeploymentPerformed": true
+    }
+  ],
+  "publicationStatus": "not published; no verified public receipt URL yet",
+  "holdoutReceipt": {
+    "manifest": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/final-cpu-studies-v1/results/holdout/full-v1/manifest.json",
+    "manifestSha256": "097fb0d8bd5381203a4755d05267fd04416e56f641be2798f226e510aed90461",
+    "originalTimersPreserved": true,
+    "all24OutputsAndReceiptsVerified": true,
+    "qualityUniqueOutputs": 6,
+    "sourceRuntimeBindingsVerified": 769,
+    "hashedUniqueFiles": 780,
+    "hashedBytes": 2469509159,
+    "summary": [
+      {
+        "preset": "medium",
+        "originalDeliveredWallNs": {
+          "H": [
+            11990895250,
+            11883339541,
+            12093428833
+          ],
+          "F": [
+            15197427542,
+            15203560167,
+            15769708541
+          ],
+          "R": [
+            24181038583,
+            23864236959,
+            24039981583
+          ]
+        },
+        "medianDeliveredWallNs": {
+          "H": 11990895250,
+          "F": 15203560167,
+          "R": 24039981583
+        },
+        "medianSeconds": {
+          "H": 11.99089525,
+          "F": 15.203560167,
+          "R": 24.039981583
+        },
+        "ratioOfMediansFOverH": 1.2679253592011823,
+        "ratioOfMediansROverH": 2.004852938983017,
+        "withinRoundFOverH": [
+          1.267413919073307,
+          1.279401309248511,
+          1.3039898575305902
+        ],
+        "withinRoundROverH": [
+          2.0166166144266833,
+          2.0082096347296488,
+          1.9878548850761655
+        ],
+        "heliosWinsVsF": 3,
+        "heliosWinsVsR": 3
+      },
+      {
+        "preset": "ultrafast",
+        "originalDeliveredWallNs": {
+          "H": [
+            4210728167,
+            4540987958,
+            3757034500
+          ],
+          "F": [
+            7357826791,
+            7618406083,
+            6988056042
+          ],
+          "R": [
+            17995099333,
+            18383750583,
+            18165699834
+          ]
+        },
+        "medianDeliveredWallNs": {
+          "H": 4210728167,
+          "F": 7357826791,
+          "R": 18165699834
+        },
+        "medianSeconds": {
+          "H": 4.210728167,
+          "F": 7.357826791,
+          "R": 18.165699834
+        },
+        "ratioOfMediansFOverH": 1.7474000930917848,
+        "ratioOfMediansROverH": 4.31414689182903,
+        "withinRoundFOverH": [
+          1.7474000930917848,
+          1.6776979268527714,
+          1.8599925132441557
+        ],
+        "withinRoundROverH": [
+          4.273631215149396,
+          4.04840328867483,
+          4.835116588362443
+        ],
+        "heliosWinsVsF": 3,
+        "heliosWinsVsR": 3
+      }
+    ],
+    "logicalMp4Bytes": 5280376676,
+    "physicalMp4Bytes": 1320094169,
+    "scope": "CPU-only native Canvas vs pinned fframes CPU and strict CPU Remotion DOM on Apple M3 Pro11, TextGrid300frames, CRF11; own-reference fidelity, rasterizer differences disclosed; no remote claim"
+  },
+  "reproductionBundle": {
+    "path": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/helios-cpu-reproduction-v1.zip",
+    "bytes": 297712,
+    "sha256": "19415647a9696a034b46a8ff0cb7f98f481d6a49504a44d39e0127cbd3a50261",
+    "uncompressedFiles": 29,
+    "uncompressedBytes": 1652665,
+    "published": false,
+    "adaptedBuildAndFreshReproductionFlowExecuted": false
+  },
+  "scope": {
+    "hardware": "Apple M3 Pro, 11 available logical CPUs, macOS arm64",
+    "workload": "Native Canvas / CPU SVG / strict CPU DOM TextGrid; 3334 labels; DM Sans; 1920x1080; 300 frames; 30 fps",
+    "encoding": "software libx264 CRF11; medium and ultrafast; GOP24; BT.601 TV YUV420P",
+    "fidelity": "every frame SSIM Y>=.995 and PSNR Y>=40dB/U>=35dB/V>=35dB against own lossless rasterizer reference",
+    "rasterizersDiffer": true,
+    "arbitraryBrowserCompositionsProven": false,
+    "remoteSuperiorityProven": false
+  },
+  "settings": [
+    {
+      "id": "H-medium-w4-t4",
+      "engine": "H",
+      "workers": 4,
+      "encoderThreads": 4,
+      "preset": "medium",
+      "jpegQuality": null
+    },
+    {
+      "id": "F-medium-w11-t2",
+      "engine": "F",
+      "workers": 11,
+      "encoderThreads": 2,
+      "preset": "medium",
+      "jpegQuality": null
+    },
+    {
+      "id": "R-medium-w11-t8",
+      "engine": "R",
+      "workers": 11,
+      "encoderThreads": 8,
+      "preset": "medium",
+      "jpegQuality": 100
+    },
+    {
+      "id": "H-ultrafast-w8-t2",
+      "engine": "H",
+      "workers": 8,
+      "encoderThreads": 2,
+      "preset": "ultrafast",
+      "jpegQuality": null
+    },
+    {
+      "id": "F-ultrafast-w11-t2",
+      "engine": "F",
+      "workers": 11,
+      "encoderThreads": 2,
+      "preset": "ultrafast",
+      "jpegQuality": null
+    },
+    {
+      "id": "R-ultrafast-w11-t8",
+      "engine": "R",
+      "workers": 11,
+      "encoderThreads": 8,
+      "preset": "ultrafast",
+      "jpegQuality": 100
+    }
+  ]
+}

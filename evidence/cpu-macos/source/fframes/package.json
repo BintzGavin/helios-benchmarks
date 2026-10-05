@@ -1,0 +1,10 @@
+{
+  "name": "fframes-root",
+  "private": true,
+  "packageManager": "pnpm@10.15.0",
+  "devDependencies": {
+    "odiff-bin": "^2.5.1",
+    "prettier": "^3.5.3",
+    "syncpack": "^12.3.0"
+  }
+}

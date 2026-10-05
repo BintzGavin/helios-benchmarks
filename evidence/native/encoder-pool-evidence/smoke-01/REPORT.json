@@ -1,0 +1,313 @@
+{
+  "helper": "/Users/gavinbintz/.codex/worktrees/gpu-encoder-pool/helios/packages/portable/native/target/release/helios-gpu",
+  "helperSha256": "6b7464c99814017d4e2d9db02797eab746bbed6e6e4f09c83e764de696ff30cc",
+  "protocol": 3,
+  "gop": 30,
+  "frames": 32,
+  "width": 128,
+  "height": 128,
+  "encoderPool": 3,
+  "finish": {
+    "event": "encoder-finish",
+    "frames": 32,
+    "capacity": 3,
+    "peakInFlight": 3,
+    "allCallbacksComplete": true
+  },
+  "hardware": {
+    "encoder": "videotoolbox",
+    "encoderPool": 3,
+    "explicitRawReadbackBytes": 0,
+    "frames": 32,
+    "gop": 30,
+    "protocol": 3,
+    "rasterizer": "skia-metal",
+    "zeroCopyProved": false
+  },
+  "hardwareHooks": {
+    "profiler-hooks-installed": 1,
+    "IOSurfaceGetBaseAddress": 4,
+    "MTLBufferContentsAccessIntentUnknown": 52,
+    "MTLBlitBufferToTexture": 20,
+    "IOSurfaceGetBaseAddressOfPlane": 119
+  },
+  "positiveNV12": {
+    "profiler-hooks-installed": 1,
+    "IOSurfaceGetBaseAddress": 1,
+    "MTLBufferContentsAccessIntentUnknown": 52,
+    "MTLBlitBufferToTexture": 20,
+    "IOSurfaceGetBaseAddressOfPlane": 79,
+    "CVPixelBufferLockBaseAddress": 32,
+    "IOSurfaceLock": 32,
+    "CVPixelBufferGetBaseAddressOfPlane": 64
+  },
+  "positiveRGBA": {
+    "profiler-hooks-installed": 1,
+    "MTLBufferContentsAccessIntentUnknown": 84,
+    "MTLBlitBufferToTexture": 20,
+    "MTLBlitTextureToBuffer": 32
+  },
+  "conversion": [
+    {
+      "event": "conversion-complete",
+      "frame": 0,
+      "surfaceId": 926,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 121620.75621875,
+      "gpuEndSeconds": 121620.756223667
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 1,
+      "surfaceId": 945,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 121620.770835667,
+      "gpuEndSeconds": 121620.771007917
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 2,
+      "surfaceId": 946,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 121620.776754625,
+      "gpuEndSeconds": 121620.7767595
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 3,
+      "surfaceId": 945,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 121620.778758417,
+      "gpuEndSeconds": 121620.77876525
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 4,
+      "surfaceId": 946,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 121620.780761042,
+      "gpuEndSeconds": 121620.78076675
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 5,
+      "surfaceId": 945,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 121620.781652792,
+      "gpuEndSeconds": 121620.78165775
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 6,
+      "surfaceId": 946,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 121620.78269775,
+      "gpuEndSeconds": 121620.782709375
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 7,
+      "surfaceId": 945,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 121620.783551875,
+      "gpuEndSeconds": 121620.7835565
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 8,
+      "surfaceId": 946,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 121620.784750125,
+      "gpuEndSeconds": 121620.784754542
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 9,
+      "surfaceId": 945,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 121620.785718542,
+      "gpuEndSeconds": 121620.785723
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 10,
+      "surfaceId": 946,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 121620.786636167,
+      "gpuEndSeconds": 121620.78664625
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 11,
+      "surfaceId": 945,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 121620.79265125,
+      "gpuEndSeconds": 121620.792683125
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 12,
+      "surfaceId": 946,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 121620.793583167,
+      "gpuEndSeconds": 121620.793644417
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 13,
+      "surfaceId": 945,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 121620.794103792,
+      "gpuEndSeconds": 121620.79410875
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 14,
+      "surfaceId": 930,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 121620.795119,
+      "gpuEndSeconds": 121620.795123875
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 15,
+      "surfaceId": 946,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 121620.79568,
+      "gpuEndSeconds": 121620.795684625
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 16,
+      "surfaceId": 945,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 121620.795943375,
+      "gpuEndSeconds": 121620.79594775
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 17,
+      "surfaceId": 930,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 121620.796456625,
+      "gpuEndSeconds": 121620.796461625
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 18,
+      "surfaceId": 946,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 121620.79682575,
+      "gpuEndSeconds": 121620.796830125
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 19,
+      "surfaceId": 945,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 121620.798064417,
+      "gpuEndSeconds": 121620.798069
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 20,
+      "surfaceId": 930,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 121620.798879667,
+      "gpuEndSeconds": 121620.798884292
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 21,
+      "surfaceId": 945,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 121620.799312042,
+      "gpuEndSeconds": 121620.7993165
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 22,
+      "surfaceId": 946,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 121620.799713292,
+      "gpuEndSeconds": 121620.799717625
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 23,
+      "surfaceId": 930,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 121620.800161167,
+      "gpuEndSeconds": 121620.800165625
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 24,
+      "surfaceId": 945,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 121620.8005945,
+      "gpuEndSeconds": 121620.800599542
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 25,
+      "surfaceId": 946,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 121620.80108175,
+      "gpuEndSeconds": 121620.801086167
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 26,
+      "surfaceId": 930,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 121620.802246625,
+      "gpuEndSeconds": 121620.802251292
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 27,
+      "surfaceId": 945,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 121620.802652917,
+      "gpuEndSeconds": 121620.802657625
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 28,
+      "surfaceId": 946,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 121620.80304825,
+      "gpuEndSeconds": 121620.80305275
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 29,
+      "surfaceId": 930,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 121620.803366125,
+      "gpuEndSeconds": 121620.803370292
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 30,
+      "surfaceId": 945,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 121620.803786667,
+      "gpuEndSeconds": 121620.803791125
+    },
+    {
+      "event": "conversion-complete",
+      "frame": 31,
+      "surfaceId": 946,
+      "sameIOSurfacePlanes": true,
+      "gpuStartSeconds": 121620.805122625,
+      "gpuEndSeconds": 121620.805127167
+    }
+  ],
+  "actualMetalCapture": true,
+  "captureExcludedFromTimingAndDownloadProof": true,
+  "timingClaim": false,
+  "full4KQualification": false,
+  "zeroCopyProved": false
+}

@@ -1,0 +1,268 @@
+{
+  "status": "passed CPU additional controls",
+  "tests": [
+    {
+      "test": "descendant-TERM-refusal-parent-already-exited",
+      "passed": true,
+      "parentExitedBeforeStop": true,
+      "processes": [
+        {
+          "label": "CPU-parent",
+          "argv": [
+            "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+            "-c",
+            "import subprocess,sys,time;from pathlib import Path;p=subprocess.Popen([sys.executable,\"-c\",'import os,signal,json,time;from pathlib import Path;signal.signal(signal.SIGTERM,signal.SIG_IGN);Path(\\'/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-extra-final-08/exited-parent/CHILD.json\\').write_text(json.dumps({\"pid\":os.getpid(),\"group\":os.getpgrp(),\"CPUOnly\":True}));\\nfor i in range(2000):Path(\\'/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-extra-final-08/exited-parent/CPU-heartbeat.txt\\').write_text(str(i));time.sleep(.03)'],stdin=subprocess.DEVNULL,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL);\nwhile not Path('/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-extra-final-08/exited-parent/CHILD.json').exists():time.sleep(.01)\n"
+          ],
+          "pid": 6812,
+          "processGroup": 6812,
+          "spawnMonotonic": 239574.072833958,
+          "exit": 0
+        }
+      ],
+      "childIdentity": {
+        "pid": 6813,
+        "group": 6812,
+        "CPUOnly": true
+      },
+      "CPUHeartbeatProgressedBeforeStop": true,
+      "CPUHeartbeatUnchangedAfterStopSeconds": 0.4,
+      "independentOSGroupCessationProof": false,
+      "directParentReaped": true,
+      "signal0QueryBlockedBySandbox": true,
+      "GPUExecuted": false,
+      "hardwareQualified": false
+    },
+    {
+      "test": "descendant-TERM-refusal-parent-running",
+      "passed": true,
+      "parentExitedBeforeStop": false,
+      "processes": [
+        {
+          "label": "CPU-parent",
+          "argv": [
+            "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+            "-c",
+            "import subprocess,sys,time;from pathlib import Path;p=subprocess.Popen([sys.executable,\"-c\",'import os,signal,json,time;from pathlib import Path;signal.signal(signal.SIGTERM,signal.SIG_IGN);Path(\\'/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-extra-final-08/live-parent/CHILD.json\\').write_text(json.dumps({\"pid\":os.getpid(),\"group\":os.getpgrp(),\"CPUOnly\":True}));\\nfor i in range(2000):Path(\\'/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-extra-final-08/live-parent/CPU-heartbeat.txt\\').write_text(str(i));time.sleep(.03)'],stdin=subprocess.DEVNULL,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL);\nwhile not Path('/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-extra-final-08/live-parent/CHILD.json').exists():time.sleep(.01)\ntime.sleep(60)"
+          ],
+          "pid": 6815,
+          "processGroup": 6815,
+          "spawnMonotonic": 239574.8904395,
+          "exit": -15
+        }
+      ],
+      "childIdentity": {
+        "pid": 6816,
+        "group": 6815,
+        "CPUOnly": true
+      },
+      "CPUHeartbeatProgressedBeforeStop": true,
+      "CPUHeartbeatUnchangedAfterStopSeconds": 0.4,
+      "independentOSGroupCessationProof": false,
+      "directParentReaped": true,
+      "signal0QueryBlockedBySandbox": true,
+      "GPUExecuted": false,
+      "hardwareQualified": false
+    },
+    {
+      "test": "copy-mux-failure",
+      "passed": true,
+      "refusal": "Refusal:COPY-MUX_EXIT:234",
+      "fixturePin": {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/fixtures/broken-elementary.h265",
+        "bytes": 24,
+        "sha256": "303d00df6e182723bc1a2f7ecc2b8d50a1c20e52ff170a3f174dbbbfb55e23f8"
+      },
+      "processes": [
+        {
+          "label": "native-stdout-driver",
+          "argv": [
+            "/opt/homebrew/Cellar/node@22/22.23.1/bin/node",
+            "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_stdout_bridge.mjs",
+            "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-extra-final-08/copy-mux-failure/attempt-7ce3f3a8cc15405187d23e22c7706026/ISSUED-SPEC.json"
+          ],
+          "pid": 6818,
+          "processGroup": 6818,
+          "spawnMonotonic": 239575.750590125,
+          "exit": 0
+        },
+        {
+          "label": "copy-mux",
+          "argv": [
+            "/opt/homebrew/Cellar/ffmpeg/9.0.2/bin/ffmpeg",
+            "-v",
+            "error",
+            "-xerror",
+            "-n",
+            "-r",
+            "30000/1001",
+            "-f",
+            "hevc",
+            "-i",
+            "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-extra-final-08/copy-mux-failure/attempt-7ce3f3a8cc15405187d23e22c7706026/elementary.h265",
+            "-c:v",
+            "copy",
+            "-an",
+            "-video_track_timescale",
+            "30000",
+            "-movflags",
+            "+faststart",
+            "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-extra-final-08/copy-mux-failure/attempt-7ce3f3a8cc15405187d23e22c7706026/original.mp4"
+          ],
+          "pid": 6820,
+          "processGroup": 6820,
+          "spawnMonotonic": 239575.970710208,
+          "exit": 234
+        }
+      ],
+      "directProcessesReaped": true,
+      "GPUExecuted": false,
+      "hardwareQualified": false
+    },
+    {
+      "test": "conformance-failure",
+      "passed": true,
+      "refusal": "Refusal:SHARED-CONFORMANCE_EXIT:1",
+      "fixturePin": {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/fixtures/full-range-elementary.h265",
+        "bytes": 257581,
+        "sha256": "3f8fd10c53a654598c888e15c5581569bfb7c9ece388c835c877f60eac0d8d8e"
+      },
+      "processes": [
+        {
+          "label": "native-stdout-driver",
+          "argv": [
+            "/opt/homebrew/Cellar/node@22/22.23.1/bin/node",
+            "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_stdout_bridge.mjs",
+            "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-extra-final-08/conformance-failure/attempt-391bdf0ec2624bed950b4831f1b65257/ISSUED-SPEC.json"
+          ],
+          "pid": 6821,
+          "processGroup": 6821,
+          "spawnMonotonic": 239576.018051125,
+          "exit": 0
+        },
+        {
+          "label": "copy-mux",
+          "argv": [
+            "/opt/homebrew/Cellar/ffmpeg/9.0.2/bin/ffmpeg",
+            "-v",
+            "error",
+            "-xerror",
+            "-n",
+            "-r",
+            "30000/1001",
+            "-f",
+            "hevc",
+            "-i",
+            "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-extra-final-08/conformance-failure/attempt-391bdf0ec2624bed950b4831f1b65257/elementary.h265",
+            "-c:v",
+            "copy",
+            "-an",
+            "-video_track_timescale",
+            "30000",
+            "-movflags",
+            "+faststart",
+            "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-extra-final-08/conformance-failure/attempt-391bdf0ec2624bed950b4831f1b65257/original.mp4"
+          ],
+          "pid": 6823,
+          "processGroup": 6823,
+          "spawnMonotonic": 239576.209157125,
+          "exit": 0
+        },
+        {
+          "label": "shared-conformance",
+          "argv": [
+            "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+            "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_chroma_conformance.py",
+            "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-extra-final-08/conformance-failure/attempt-391bdf0ec2624bed950b4831f1b65257/original.mp4",
+            "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-extra-final-08/conformance-failure/attempt-391bdf0ec2624bed950b4831f1b65257/center.mp4",
+            "--codec",
+            "hevc",
+            "--receipt",
+            "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-extra-final-08/conformance-failure/attempt-391bdf0ec2624bed950b4831f1b65257/CONFORMANCE.json"
+          ],
+          "pid": 6824,
+          "processGroup": 6824,
+          "spawnMonotonic": 239576.233846375,
+          "exit": 1
+        }
+      ],
+      "directProcessesReaped": true,
+      "GPUExecuted": false,
+      "hardwareQualified": false
+    },
+    {
+      "test": "enough-disk-does-not-enable-native",
+      "passed": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "Node-direct-native-refusal",
+      "passed": true,
+      "argv": [
+        "/opt/homebrew/Cellar/node@22/22.23.1/bin/node",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_stdout_bridge.mjs",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/validation-extra-final-08/NATIVE-NO-LAUNCH.json"
+      ],
+      "exit": 1,
+      "stderr": "Error: REAL_DEVICE_ACCEPTANCE_DISABLED_NO_LAUNCH\n",
+      "GPUExecuted": false
+    },
+    {
+      "test": "Node-direct-fixture-module-refusal",
+      "passed": true,
+      "argv": [
+        "/opt/homebrew/Cellar/node@22/22.23.1/bin/node",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_stdout_bridge.mjs",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-extra-final-08/direct-node-module/ISSUED-SPEC.json"
+      ],
+      "exit": 1,
+      "stderr": "Error: PINNED_CPU_MODULES_ONLY\n",
+      "helperNeverStarted": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "Node-direct-fixture-profile-refusal",
+      "passed": true,
+      "argv": [
+        "/opt/homebrew/Cellar/node@22/22.23.1/bin/node",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_stdout_bridge.mjs",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-extra-final-08/direct-node-profile/ISSUED-SPEC.json"
+      ],
+      "exit": 1,
+      "stderr": "Error: NO_NATIVE_PROFILE_IN_FIXTURE\n",
+      "helperNeverStarted": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "Node-direct-fixture-output-refusal",
+      "passed": true,
+      "argv": [
+        "/opt/homebrew/Cellar/node@22/22.23.1/bin/node",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_stdout_bridge.mjs",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-extra-final-08/direct-node-output/ISSUED-SPEC.json"
+      ],
+      "exit": 1,
+      "stderr": "Error: FIXTURE_ABI_OUTPUT_SCOPE\n",
+      "helperNeverStarted": true,
+      "GPUExecuted": false
+    },
+    {
+      "test": "explicit-owned-process-waits",
+      "passed": true,
+      "directWaitsChecked": 68,
+      "helperWaitsChecked": 11,
+      "failedHelperWaitsChecked": 11,
+      "GPUExecuted": false
+    }
+  ],
+  "testCount": 10,
+  "sourcePin": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/test_native_bridge_additional.py",
+    "bytes": 9030,
+    "sha256": "1c1b41c69bc19f25f3220f3272668de93f833b3f5edd50af9fc4387283529577"
+  },
+  "GPUExports": 0,
+  "realDeviceAccepted": false,
+  "hardwareQualified": false,
+  "timingWindowOpen": false
+}

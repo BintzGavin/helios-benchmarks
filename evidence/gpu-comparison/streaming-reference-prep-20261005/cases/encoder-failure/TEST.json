@@ -1,0 +1,10 @@
+{
+  "case": "encoder-failure",
+  "passed": true,
+  "expectedRefusal": "Pipe",
+  "observedError": "BrokenPipeError: [Errno 32] Broken pipe",
+  "secondsExcludedFromBenchmarks": 0.049152207997394726,
+  "sourceUnchanged": true,
+  "GPUExecuted": false,
+  "atomicFinalExists": false
+}

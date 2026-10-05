@@ -1,0 +1,73 @@
+{
+  "status": "measured small-fixture storage slice only; no active gate reduction",
+  "dimensions": [
+    256,
+    128
+  ],
+  "fps": "30000/1001",
+  "inputFrames": 300,
+  "inputRawBytes": 14745600,
+  "inputPin": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/streaming-reference-prep-20261005/fixtures/reference.nv12",
+    "bytes": 14745600,
+    "sha256": "4f8429472e98618a18b8a46a1aa8f0430e5df9cba63359cb4050408e516d918a"
+  },
+  "attemptTreeBytesBeforePackaging": 24494064,
+  "freeBytesBeforePackaging": 1085624320,
+  "boundedTestMinimumFreeBytes": 268435456,
+  "perReferenceEncodedCapBytes": 16777216,
+  "perLogCapBytes": 1048576,
+  "timeoutSeconds": 30,
+  "positiveMeasurements": [
+    {
+      "case": "irregular-chunks-300",
+      "frames": 300,
+      "maxWriterQueuedBytes": 98304,
+      "drainCalls": 300,
+      "backpressureObservations": 4,
+      "selfMaxRSSBytes": 35225600
+    },
+    {
+      "case": "one-byte-chunks",
+      "frames": 1,
+      "maxWriterQueuedBytes": 0,
+      "drainCalls": 1,
+      "backpressureObservations": 0,
+      "selfMaxRSSBytes": 36880384
+    },
+    {
+      "case": "slow-consumer-300",
+      "frames": 300,
+      "maxWriterQueuedBytes": 114688,
+      "drainCalls": 300,
+      "backpressureObservations": 261,
+      "selfMaxRSSBytes": 37486592
+    }
+  ],
+  "logicalBufferBound": "one exact raw frame + one planar buffer + transientquarterplane; raw/decode phases separate. Each async writer<=65536+frameBytes; boundedreader; no accumulated frame array. Measurement is Python process highwaterRSS over this test process, not perchild or4K proof.",
+  "fixtureProducerMemoryLimit": "source fixture<=300*256*128*1.5 bytes; fixture worker hashes a bounded copied16MiB maximum source. This fixture producer is not the future GPU producer.",
+  "fourKStorageProposal": {
+    "directRawSavingBytes": 3732480000,
+    "oldRetainedRawBudgetBytes": 9503842304,
+    "proposedStreamingBudgetBytes": 5771362304,
+    "proposedFreeGateBytes": 6442450944,
+    "acceptedBoundedCorrectness": true,
+    "independentlyAcceptedByOtherThread": false,
+    "nativeProducerBridgeImplemented": false,
+    "fourKResourceMeasurements": false,
+    "gateEnabled": false
+  },
+  "activeSerialGateBytes": 9663676416,
+  "activeBalancedGateBytes": 16106127360,
+  "remainingResourceAcceptance": [
+    "independent bounded slice audit",
+    "integrate actual pinned native stdout +feed/source/completion provenance without CPU fixture authority",
+    "fresh256 small native bridge controls after resources permit; noGPU belowactivegate",
+    "new all3004K direct/reference/quality/cadence/color/GPU ownership andtransfercontrols",
+    "measure4Kbuffer/RSS/output/log/scratch resource bounds before activating6GiBroute"
+  ],
+  "noDuplicateNewRawStreamPersisted": true,
+  "copiedInputFixtureRetained": true,
+  "failedPartialReferencesRetained": true,
+  "noOldEvidenceDeletion": true
+}

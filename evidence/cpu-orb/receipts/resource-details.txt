@@ -1,0 +1,71 @@
+=== mounts ===
+TARGET         SOURCE  FSTYPE  OPTIONS
+/sys/fs/cgroup cgroup2 cgroup2 rw,nosuid,nodev,noexec,relatime,nsdelegate,memory_recursiveprot
+=== cgroup v1 cpu ===
+cat: /sys/fs/cgroup/cpu/cpu.cfs_quota_us: No such file or directory
+cat: /sys/fs/cgroup/cpu/cpu.cfs_period_us: No such file or directory
+=== cgroup v1 cpuset ===
+cat: /sys/fs/cgroup/cpuset/cpuset.cpus: No such file or directory
+=== memory v1 ===
+cat: /sys/fs/cgroup/memory/memory.limit_in_bytes: No such file or directory
+cat: /sys/fs/cgroup/memory/memory.usage_in_bytes: No such file or directory
+=== memory ===
+MemTotal:        4025420 kB
+MemFree:         3462884 kB
+MemAvailable:    3619484 kB
+Buffers:           11180 kB
+Cached:           335448 kB
+SwapCached:            0 kB
+Active:           107836 kB
+Inactive:         374928 kB
+Active(anon):        308 kB
+Inactive(anon):   136820 kB
+Active(file):     107528 kB
+Inactive(file):   238108 kB
+Unevictable:           8 kB
+Mlocked:               4 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Zswap:                 0 kB
+Zswapped:              0 kB
+Dirty:               320 kB
+Writeback:             0 kB
+AnonPages:        135864 kB
+Mapped:           109480 kB
+Shmem:              1076 kB
+KReclaimable:      31164 kB
+Slab:              46008 kB
+SReclaimable:      31164 kB
+SUnreclaim:        14844 kB
+KernelStack:        1604 kB
+PageTables:         2012 kB
+SecPageTables:         0 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     2012708 kB
+Committed_AS:     256872 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:        4644 kB
+VmallocChunk:          0 kB
+Percpu:              648 kB
+AnonHugePages:     12288 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:       49152 kB
+DirectMap2M:     2048000 kB
+DirectMap1G:     4194304 kB
+=== disk ===
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root        64G  3.5G   60G   6% /
+=== x264 linkage ===
+ffmpeg	7:5.1.9-0+deb12u1
+libx264-164	2:0.164.3095+gitbaee400-3

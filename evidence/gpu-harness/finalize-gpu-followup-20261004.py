@@ -1,0 +1,21 @@
+import pathlib,json,hashlib,shutil
+root=pathlib.Path(__file__).resolve().parent.parent
+cache=root/'checkpoint/CONCURRENT-NV12-DISPOSABLE-CACHE-RECLAMATION-20261004.json';native=root/'comparison/native-chroma-contract-20261004/REPORT.json';r=root/'comparison/fframes-concurrent-nv12-20261004'
+def pin(p):
+ with p.open('rb') as f:return {'path':str(p),'bytes':p.stat().st_size,'sha256':hashlib.file_digest(f,'sha256').hexdigest()}
+manifest=json.loads((r/'RECEIPT-MANIFEST.json').read_text())
+for x in manifest['files']:
+ p=r/x['path'];h=pin(p);assert (h['bytes'],h['sha256'])==(x['bytes'],x['sha256'])
+build=json.loads((r/'BUILD-READY.json').read_text())
+for x in build['source']:assert pin(pathlib.Path(build['sourceDirectory'])/x['path'])['sha256']==x['sha256']
+for x in build['helpers']:
+ for k in ['path','immutableCopy']:assert pin(pathlib.Path(x[k]))['sha256']==x['sha256']
+audit=pathlib.Path('/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/COMPARISON-MONITOR-FFRAMES-CONCURRENT-NV12-FINAL.json');assert pin(audit)['sha256']=='b9fc27c70357a42e9805c9980344b1dbd4a4b6bb4a50e7a46f9d9b307178c28a'
+result=root/'checkpoint/LIBRARY-GPU-DELIVERY-RESULT-20261004.json';err=root/'checkpoint/LIBRARY-GPU-DELIVERY-STDERR-20261004.log';assert result.stat().st_size==0 and err.read_text().strip()=='library upload failed: Library prepare_uploads is not available'
+helpers=root/'checkpoint/library-current-gpu-4ehqzgpq'
+request=json.loads((root/'checkpoint/LIBRARY-GPU-DELIVERY-REQUEST-20261004.json').read_text())
+receipt={'status':'blocked before Library preparation; no files published','newConfirmedLibraryIds':[],'filesRequested':len(request['uploads']),'allRequestedItemsSaved':False,'helperExitCode':1,'exactBlocker':err.read_text().strip(),'currentSkill':'skill://plugin_connector_1p_1b8ff8edfc1481918b252c8277e23125/library/SKILL.md','currentHelperPins':[pin(p) for p in helpers.iterdir() if p.suffix=='.py'],'inputReceipt':pin(root/'checkpoint/LIBRARY-GPU-DELIVERY-REQUEST-20261004.json'),'stderrReceipt':pin(err),'directFallbackAttempted':False}
+(root/'checkpoint/LIBRARY-GPU-DELIVERY-STATUS-20261004.json').write_text(json.dumps(receipt,indent=2)+'\n')
+c=json.loads(cache.read_text());n=json.loads(native.read_text())
+report={'status':'task-owned compiler cache reclaimed; native chroma delta confirmed read-only; broader comparison blocked','broaderObjectiveComplete':False,'timingWindowOpen':False,'newBuildExportDecodeOrTiming':False,'competingJobsStarted':False,'cacheCleanup':{'receipt':pin(cache),'exactParentDirectory':str(root/'build/fframes-current/release/deps'),'suffixes':['.rlib','.rmeta'],'filesRemoved':c['filesRemoved'],'nominalBytesRemoved':c['nominalRemovedBytes'],'observedFreeGain':c['observedFreeGain'],'protectedRuntimeRehashed':True,'unrelatedFilesTouched':False},'freeBytesNow':shutil.disk_usage(root).free,'nativeChromaAudit':pin(native),'oldNumericQualityReceiptsInvalidated':False,'nativeChromaCorrectionNeededBeforeAlignedTimings':True,'rootRetainsHarnessAndConformanceOwnership':True,'scope':'new native signaling/reference conformance lane, fresh source/helper/adapter/reference/payload/decode/quality/color pins; old lanes preserved','mandatoryTimedCost':'SPS-only parameter-template/copy mux included in new export/delivery clocks','contractDifference':'native pool3; modified fframes64/context with3contexts/5+5workers/queue10','priorConcurrentLaneFinalManifest':pin(r/'RECEIPT-MANIFEST.json'),'all10025ManifestFilesRehashedUnchanged':True,'all168SourceAnd6HelperCopiesRehashedUnchanged':True,'independentFinalAudit':pin(audit),'Library':{'statusReceipt':pin(root/'checkpoint/LIBRARY-GPU-DELIVERY-STATUS-20261004.json'),'published':False,'newConfirmedIds':[]},'remaining':['several GiB free space for retained balanced outputs/new4K native reference/quality runs','fresh native chroma-siting conformance correction and qualification','full4K HEVC/Vulkan qualification','balanced qualified comparison with included conformance costs','original-product quality failures remain; no M5 win','supported Library publication unavailable','native Vulkan PR destination approval remains pending in native thread'],'noNativeOptimizationSelected':True}
+(root/'deliverables/GPU-COMPARISON-FOLLOWUP-20261004.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report))

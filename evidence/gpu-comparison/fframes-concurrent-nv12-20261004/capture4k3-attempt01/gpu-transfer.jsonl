@@ -1,0 +1,32 @@
+{"seq":1,"event":"converter-create","context":1,"deviceRegistryId":4294968434,"width":3840,"height":2160,"poolThreshold":64,"extraGpuCopy":false,"colorContract":"sRGB to BT709 limited; centered 2x2 box"}
+{"seq":2,"event":"conversion-begin","context":1,"index":4294967295,"sourcePixelBuffer":40316650432,"sourceTexture":40316159392,"sourceSurfaceId":204,"pixelBuffer":40316650752,"surfaceId":205,"sourceFenceAlreadyCompleted":true}
+{"seq":3,"event":"conversion-complete","context":1,"index":4294967295,"pixelBuffer":40316650752,"surfaceId":205,"completed":true,"sameSourceTextureIOSurface":true,"sameDestinationIOSurfacePlanes":true,"gpuStartSeconds":219332.190011667,"gpuEndSeconds":219332.190416625}
+{"seq":4,"event":"source-avbuffer-owner-release","context":1,"index":4294967295,"sourcePixelBuffer":40316650432,"sourceSurfaceId":204}
+{"seq":5,"event":"converter-destroy","context":1}
+{"seq":6,"event":"avbuffer-owner-release","context":1,"index":4294967295,"pixelBuffer":40316650752,"surfaceId":205,"opaqueEncoderOwnershipKnown":false}
+{"seq":7,"event":"converter-create","context":2,"deviceRegistryId":4294968434,"width":3840,"height":2160,"poolThreshold":64,"extraGpuCopy":false,"colorContract":"sRGB to BT709 limited; centered 2x2 box"}
+{"seq":8,"event":"converter-destroy","context":2}
+{"seq":9,"event":"converter-create","context":3,"deviceRegistryId":4294968434,"width":3840,"height":2160,"poolThreshold":64,"extraGpuCopy":false,"colorContract":"sRGB to BT709 limited; centered 2x2 box"}
+{"seq":10,"event":"conversion-begin","context":3,"index":4294967295,"sourcePixelBuffer":40316650592,"sourceTexture":40316161392,"sourceSurfaceId":209,"pixelBuffer":40316651072,"surfaceId":212,"sourceFenceAlreadyCompleted":true}
+{"seq":11,"event":"conversion-complete","context":3,"index":4294967295,"pixelBuffer":40316651072,"surfaceId":212,"completed":true,"sameSourceTextureIOSurface":true,"sameDestinationIOSurfacePlanes":true,"gpuStartSeconds":219332.333316500,"gpuEndSeconds":219332.333681000}
+{"seq":12,"event":"source-avbuffer-owner-release","context":3,"index":4294967295,"sourcePixelBuffer":40316650592,"sourceSurfaceId":209}
+{"seq":13,"event":"converter-destroy","context":3}
+{"seq":14,"event":"avbuffer-owner-release","context":3,"index":4294967295,"pixelBuffer":40316651072,"surfaceId":212,"opaqueEncoderOwnershipKnown":false}
+{"seq":15,"event":"converter-create","context":6,"deviceRegistryId":4294968434,"width":3840,"height":2160,"poolThreshold":64,"extraGpuCopy":false,"colorContract":"sRGB to BT709 limited; centered 2x2 box"}
+{"seq":16,"event":"converter-create","context":5,"deviceRegistryId":4294968434,"width":3840,"height":2160,"poolThreshold":64,"extraGpuCopy":false,"colorContract":"sRGB to BT709 limited; centered 2x2 box"}
+{"seq":17,"event":"converter-create","context":4,"deviceRegistryId":4294968434,"width":3840,"height":2160,"poolThreshold":64,"extraGpuCopy":false,"colorContract":"sRGB to BT709 limited; centered 2x2 box"}
+{"seq":18,"event":"conversion-begin","context":5,"index":0,"sourcePixelBuffer":40316650592,"sourceTexture":40316163312,"sourceSurfaceId":214,"pixelBuffer":40478216256,"surfaceId":80,"sourceFenceAlreadyCompleted":true}
+{"seq":19,"event":"conversion-complete","context":5,"index":0,"pixelBuffer":40478216256,"surfaceId":80,"completed":true,"sameSourceTextureIOSurface":true,"sameDestinationIOSurfacePlanes":true,"gpuStartSeconds":219334.816342542,"gpuEndSeconds":219334.816843542}
+{"seq":20,"event":"source-avbuffer-owner-release","context":5,"index":0,"sourcePixelBuffer":40316650592,"sourceSurfaceId":214}
+{"seq":21,"event":"converter-destroy","context":5}
+{"seq":22,"event":"conversion-begin","context":4,"index":1,"sourcePixelBuffer":40316651392,"sourceTexture":40316161472,"sourceSurfaceId":215,"pixelBuffer":40478213856,"surfaceId":256,"sourceFenceAlreadyCompleted":true}
+{"seq":23,"event":"avbuffer-owner-release","context":5,"index":0,"pixelBuffer":40478216256,"surfaceId":80,"opaqueEncoderOwnershipKnown":false}
+{"seq":24,"event":"conversion-complete","context":4,"index":1,"pixelBuffer":40478213856,"surfaceId":256,"completed":true,"sameSourceTextureIOSurface":true,"sameDestinationIOSurfacePlanes":true,"gpuStartSeconds":219335.493388250,"gpuEndSeconds":219335.493794500}
+{"seq":25,"event":"source-avbuffer-owner-release","context":4,"index":1,"sourcePixelBuffer":40316651392,"sourceSurfaceId":215}
+{"seq":26,"event":"avbuffer-owner-release","context":4,"index":1,"pixelBuffer":40478213856,"surfaceId":256,"opaqueEncoderOwnershipKnown":false}
+{"seq":27,"event":"conversion-begin","context":6,"index":2,"sourcePixelBuffer":40316651232,"sourceTexture":40316163232,"sourceSurfaceId":213,"pixelBuffer":40478213856,"surfaceId":255,"sourceFenceAlreadyCompleted":true}
+{"seq":28,"event":"converter-destroy","context":4}
+{"seq":29,"event":"conversion-complete","context":6,"index":2,"pixelBuffer":40478213856,"surfaceId":255,"completed":true,"sameSourceTextureIOSurface":true,"sameDestinationIOSurfacePlanes":true,"gpuStartSeconds":219335.537334875,"gpuEndSeconds":219335.537699000}
+{"seq":30,"event":"source-avbuffer-owner-release","context":6,"index":2,"sourcePixelBuffer":40316651232,"sourceSurfaceId":213}
+{"seq":31,"event":"avbuffer-owner-release","context":6,"index":2,"pixelBuffer":40478213856,"surfaceId":255,"opaqueEncoderOwnershipKnown":false}
+{"seq":32,"event":"converter-destroy","context":6}

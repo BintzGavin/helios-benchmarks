@@ -1,0 +1,9 @@
+[format @ 0x719024e40] Invalid odd size (1920x993)
+[Parsed_colorspace_2 @ 0x719024b40] Failed to configure output pad on Parsed_colorspace_2
+[vf#0:0 @ 0x718cf4000] Error reinitializing filters!
+[vf#0:0 @ 0x718cf4000] Task finished with error code: -1163346256 (Not yet implemented in FFmpeg, patches welcome)
+[vf#0:0 @ 0x718cf4000] Terminating thread with return code -1163346256 (Not yet implemented in FFmpeg, patches welcome)
+[vost#0:0/libx264 @ 0x718cf0000] [enc:libx264 @ 0x718c14230] Could not open encoder before EOF
+[vost#0:0/libx264 @ 0x718cf0000] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 0x718cf0000] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 0x719024240] Nothing was written into output file, because at least one of its streams received no packets.

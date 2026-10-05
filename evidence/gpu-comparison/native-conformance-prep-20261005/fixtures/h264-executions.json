@@ -1,0 +1,110 @@
+[
+  {
+    "name": "compile",
+    "exit": 0,
+    "args": [
+      "/usr/bin/env",
+      "TMPDIR=/private/tmp",
+      "/usr/bin/xcrun",
+      "clang++",
+      "-std=c++17",
+      "-dynamiclib",
+      "-fobjc-arc",
+      "-DHELIOS_PROFILE_VULKAN",
+      "-DHELIOS_PROFILE_PATH=\"/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-profile.jsonl\"",
+      "-I",
+      "/private/tmp/helios-vulkan-runtime-01a101cb/MoltenVK/MoltenVK/include",
+      "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/benchmarks/profile-gpu.mm",
+      "-L",
+      "/private/tmp/helios-vulkan-runtime-01a101cb/MoltenVK/MoltenVK/dynamic/dylib/macOS",
+      "-lMoltenVK",
+      "-Wl,-rpath,/private/tmp/helios-vulkan-runtime-01a101cb/MoltenVK/MoltenVK/dynamic/dylib/macOS",
+      "-framework",
+      "Foundation",
+      "-framework",
+      "Metal",
+      "-framework",
+      "CoreVideo",
+      "-framework",
+      "IOSurface",
+      "-o",
+      "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-profile.dylib"
+    ]
+  },
+  {
+    "name": "api",
+    "exit": 0,
+    "args": [
+      "/opt/homebrew/bin/node",
+      "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/prepare-qualification.mjs",
+      "encode-h264"
+    ]
+  },
+  {
+    "name": "direct-reference",
+    "exit": 0,
+    "args": [
+      "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/helper-candidate-03",
+      "reference-binary",
+      "256",
+      "128",
+      "30000",
+      "1001",
+      "20000000",
+      "/unused",
+      "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-reference-trace.jsonl",
+      "",
+      "30",
+      "3",
+      "h264"
+    ]
+  },
+  {
+    "name": "cadence",
+    "exit": 0,
+    "args": [
+      "/opt/homebrew/bin/ffprobe",
+      "-v",
+      "error",
+      "-threads",
+      "1",
+      "-select_streams",
+      "v:0",
+      "-show_streams",
+      "-show_frames",
+      "-show_entries",
+      "frame=best_effort_timestamp,key_frame:stream=codec_name,width,height,pix_fmt,color_range,color_space,color_transfer,color_primaries,avg_frame_rate,time_base",
+      "-of",
+      "json",
+      "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-video.mp4"
+    ]
+  },
+  {
+    "name": "quality",
+    "exit": 0,
+    "args": [
+      "/opt/homebrew/bin/ffmpeg",
+      "-v",
+      "error",
+      "-filter_complex_threads",
+      "1",
+      "-threads",
+      "1",
+      "-i",
+      "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-video.mp4",
+      "-threads",
+      "1",
+      "-i",
+      "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/reference.mkv",
+      "-filter_complex",
+      "[0:v]settb=1001/30000,setpts=N,split=2[a][b];[1:v]settb=1001/30000,setpts=N,split=2[c][d];[a][c]ssim=shortest=1:repeatlast=0:stats_file=/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-ssim.txt[s];[b][d]psnr=shortest=1:repeatlast=0:stats_file=/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-psnr.txt[p]",
+      "-map",
+      "[s]",
+      "-map",
+      "[p]",
+      "-f",
+      "null",
+      "-"
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "case": "corrupt-before-commit",
+  "passed": true,
+  "expectedRefusal": "PRECOMMIT_HASH",
+  "observedError": "Refusal: PRECOMMIT_HASH",
+  "secondsExcludedFromBenchmarks": 0.10367087501799688,
+  "sourceUnchanged": true,
+  "GPUExecuted": false,
+  "atomicFinalExists": false
+}

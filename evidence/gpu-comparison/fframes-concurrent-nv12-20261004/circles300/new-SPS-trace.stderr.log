@@ -1,0 +1,113 @@
+Splitting the commandline.
+Reading option '-hide_banner' ... matched as option 'hide_banner' (do not show program banner) with argument '1'.
+Reading option '-loglevel' ... matched as option 'loglevel' (set logging level) with argument 'trace'.
+Reading option '-f' ... matched as option 'f' (force container format (auto-detected otherwise)) with argument 'h264'.
+Reading option '-i' ... matched as input url with argument 'comparison/fframes-concurrent-nv12-20261004/circles300/new-SPS.h264'.
+Reading option '-c:v' ... matched as option 'c' (select encoder/decoder ('copy' to copy stream without reencoding)) with argument 'copy'.
+Reading option '-bsf:v' ... matched as option 'bsf' (A comma-separated list of bitstream filters) with argument 'trace_headers'.
+Reading option '-f' ... matched as option 'f' (force container format (auto-detected otherwise)) with argument 'null'.
+Reading option '-' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option hide_banner (do not show program banner) with argument 1.
+Applying option loglevel (set logging level) with argument trace.
+Successfully parsed a group of options.
+Parsing a group of options: input url comparison/fframes-concurrent-nv12-20261004/circles300/new-SPS.h264.
+Applying option f (force container format (auto-detected otherwise)) with argument h264.
+Successfully parsed a group of options.
+Opening an input file: comparison/fframes-concurrent-nv12-20261004/circles300/new-SPS.h264.
+[in#0 @ 0xa4301c000] Opening 'comparison/fframes-concurrent-nv12-20261004/circles300/new-SPS.h264' for reading
+[file @ 0xa43020000] Setting default whitelist 'file,crypto,data'
+[in#0/h264 @ 0xa4301c000] Before avformat_find_stream_info() pos: 0 bytes read:0 seeks:0 nb_streams:1
+[h264 @ 0xa43048380] Decoding VUI
+[h264 @ 0xa43048380] missing picture in access unit with size 21
+[extract_extradata @ 0xa42c100a0] nal_unit_type: 7(SPS), nal_ref_idc: 1
+[h264 @ 0xa43048380] nal_unit_type: 7(SPS), nal_ref_idc: 1
+[h264 @ 0xa43048380] Decoding VUI
+[h264 @ 0xa43048380] no frame!
+[in#0/h264 @ 0xa4301c000] stream 0: start_time: NOPTS duration: NOPTS
+[in#0/h264 @ 0xa4301c000] format: start_time: NOPTS duration: NOPTS (estimate from bit rate) bitrate=0 kb/s
+[in#0/h264 @ 0xa4301c000] Could not find codec parameters for stream 0 (Video: h264, 1 reference frame, none): unspecified size
+Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
+[in#0/h264 @ 0xa4301c000] After avformat_find_stream_info() pos: 21 bytes read:21 seeks:0 frames:1
+Input #0, h264, from 'comparison/fframes-concurrent-nv12-20261004/circles300/new-SPS.h264':
+  Duration: N/A, bitrate: N/A
+  Stream #0:0, 1, 1/1200000: Video: h264, 1 reference frame, none, 25 fps, 1200k tbr, 1200k tbn
+Successfully opened the file.
+Parsing a group of options: output url -.
+Applying option c:v (select encoder/decoder ('copy' to copy stream without reencoding)) with argument copy.
+Parsing stream specifier: v
+Parsed media type: video; remainder: 
+Applying option bsf:v (A comma-separated list of bitstream filters) with argument trace_headers.
+Parsing stream specifier: v
+Parsed media type: video; remainder: 
+Applying option f (force container format (auto-detected otherwise)) with argument null.
+Successfully parsed a group of options.
+Opening an output file: -.
+[out#0/null @ 0xa43020300] No explicit maps, mapping streams automatically...
+[vost#0:0/copy @ 0xa42c48000] Created video stream from input stream 0:0
+[trace_headers @ 0xa42c100a0] Extradata
+[trace_headers @ 0xa42c100a0] nal_unit_type: 7(SPS), nal_ref_idc: 1
+[trace_headers @ 0xa42c100a0] Sequence Parameter Set
+[trace_headers @ 0xa42c100a0] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0xa42c100a0] 1           nal_ref_idc                                                01 = 1
+[trace_headers @ 0xa42c100a0] 3           nal_unit_type                                           00111 = 7
+[trace_headers @ 0xa42c100a0] 8           profile_idc                                          01100100 = 100
+[trace_headers @ 0xa42c100a0] 16          constraint_set0_flag                                        0 = 0
+[trace_headers @ 0xa42c100a0] 17          constraint_set1_flag                                        0 = 0
+[trace_headers @ 0xa42c100a0] 18          constraint_set2_flag                                        0 = 0
+[trace_headers @ 0xa42c100a0] 19          constraint_set3_flag                                        0 = 0
+[trace_headers @ 0xa42c100a0] 20          constraint_set4_flag                                        0 = 0
+[trace_headers @ 0xa42c100a0] 21          constraint_set5_flag                                        0 = 0
+[trace_headers @ 0xa42c100a0] 22          reserved_zero_2bits                                        00 = 0
+[trace_headers @ 0xa42c100a0] 24          level_idc                                            00110011 = 51
+[trace_headers @ 0xa42c100a0] 32          seq_parameter_set_id                                        1 = 0
+[trace_headers @ 0xa42c100a0] 33          chroma_format_idc                                         010 = 1
+[trace_headers @ 0xa42c100a0] 36          bit_depth_luma_minus8                                       1 = 0
+[trace_headers @ 0xa42c100a0] 37          bit_depth_chroma_minus8                                     1 = 0
+[trace_headers @ 0xa42c100a0] 38          qpprime_y_zero_transform_bypass_flag                        0 = 0
+[trace_headers @ 0xa42c100a0] 39          seq_scaling_matrix_present_flag                             0 = 0
+[trace_headers @ 0xa42c100a0] 40          log2_max_frame_num_minus4                                 010 = 1
+[trace_headers @ 0xa42c100a0] 43          pic_order_cnt_type                                          1 = 0
+[trace_headers @ 0xa42c100a0] 44          log2_max_pic_order_cnt_lsb_minus4                         011 = 2
+[trace_headers @ 0xa42c100a0] 47          max_num_ref_frames                                        010 = 1
+[trace_headers @ 0xa42c100a0] 50          gaps_in_frame_num_allowed_flag                              0 = 0
+[trace_headers @ 0xa42c100a0] 51          pic_width_in_mbs_minus1                       000000011110000 = 239
+[trace_headers @ 0xa42c100a0] 66          pic_height_in_map_units_minus1                000000010000111 = 134
+[trace_headers @ 0xa42c100a0] 81          frame_mbs_only_flag                                         1 = 1
+[trace_headers @ 0xa42c100a0] 82          direct_8x8_inference_flag                                   1 = 1
+[trace_headers @ 0xa42c100a0] 83          frame_cropping_flag                                         0 = 0
+[trace_headers @ 0xa42c100a0] 84          vui_parameters_present_flag                                 1 = 1
+[trace_headers @ 0xa42c100a0] 85          aspect_ratio_info_present_flag                              0 = 0
+[trace_headers @ 0xa42c100a0] 86          overscan_info_present_flag                                  0 = 0
+[trace_headers @ 0xa42c100a0] 87          video_signal_type_present_flag                              1 = 1
+[trace_headers @ 0xa42c100a0] 88          video_format                                              101 = 5
+[trace_headers @ 0xa42c100a0] 91          video_full_range_flag                                       0 = 0
+[trace_headers @ 0xa42c100a0] 92          colour_description_present_flag                             1 = 1
+[trace_headers @ 0xa42c100a0] 93          colour_primaries                                     00000001 = 1
+[trace_headers @ 0xa42c100a0] 101         transfer_characteristics                             00000001 = 1
+[trace_headers @ 0xa42c100a0] 109         matrix_coefficients                                  00000001 = 1
+[trace_headers @ 0xa42c100a0] 117         chroma_loc_info_present_flag                                1 = 1
+[trace_headers @ 0xa42c100a0] 118         chroma_sample_loc_type_top_field                          010 = 1
+[trace_headers @ 0xa42c100a0] 121         chroma_sample_loc_type_bottom_field                       010 = 1
+[trace_headers @ 0xa42c100a0] 124         timing_info_present_flag                                    0 = 0
+[trace_headers @ 0xa42c100a0] 125         nal_hrd_parameters_present_flag                             0 = 0
+[trace_headers @ 0xa42c100a0] 126         vcl_hrd_parameters_present_flag                             0 = 0
+[trace_headers @ 0xa42c100a0] 127         pic_struct_present_flag                                     0 = 0
+[trace_headers @ 0xa42c100a0] 128         bitstream_restriction_flag                                  0 = 0
+[trace_headers @ 0xa42c100a0] 129         rbsp_stop_one_bit                                           1 = 1
+[trace_headers @ 0xa42c100a0] 130         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0xa42c100a0] 131         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0xa42c100a0] 132         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0xa42c100a0] 133         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0xa42c100a0] 134         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0xa42c100a0] 135         rbsp_alignment_zero_bit                                     0 = 0
+Successfully opened the file.
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+[null @ 0xa4301c280] dimensions not set
+[out#0/null @ 0xa43020300] Could not write header (incorrect codec parameters ?): Invalid argument
+[AVIOContext @ 0xa43014140] Statistics: 21 bytes read, 0 seeks
+Conversion failed!
+
+Exiting with exit code -22

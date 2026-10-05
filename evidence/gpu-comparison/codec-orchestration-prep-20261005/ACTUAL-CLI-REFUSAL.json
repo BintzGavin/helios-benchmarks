@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/codec_orchestration.py",
+    "H-metal-hevc",
+    "hardware",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/codec-orchestration-prep-20261005/not-launched/actual-cli",
+    "--execute"
+  ],
+  "exit": 2,
+  "stdout": {
+    "status": "refused",
+    "reason": "DISK_GATE_9GIB",
+    "GPUExecuted": false,
+    "processesLaunched": 0
+  },
+  "stderr": ""
+}

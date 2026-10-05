@@ -1,0 +1,74 @@
+{
+  "originalSha256": "36e0c129517d8f34936be66c821c5bbb6e41687df819a3733e234a1761acda4d",
+  "nalMetadata": [
+    {
+      "prefixHex": "00000001",
+      "payloadBytes": 16,
+      "payloadSha256": "5102738bd705ff24b24112026be3111deed64bb6d7d232b11a2564209aa2edc6"
+    },
+    {
+      "prefixHex": "00000001",
+      "payloadBytes": 4,
+      "payloadSha256": "df4fdb20b5c305d4e49299fe2792089ad85d46574c47540baeb1cca77ea88a0e"
+    },
+    {
+      "prefixHex": "00000001",
+      "payloadBytes": 58,
+      "payloadSha256": "77b184b3a5bb69cfa679400a54626afdf74af774f09644480fc67e86b3ef2012"
+    },
+    {
+      "prefixHex": "00000001",
+      "payloadBytes": 2828865,
+      "payloadSha256": "a4f54bdc73d624028615db2295bc5619c29fe491e354a27ca21d71dbdf9879ef"
+    },
+    {
+      "prefixHex": "00000001",
+      "payloadBytes": 16,
+      "payloadSha256": "5102738bd705ff24b24112026be3111deed64bb6d7d232b11a2564209aa2edc6"
+    },
+    {
+      "prefixHex": "00000001",
+      "payloadBytes": 4,
+      "payloadSha256": "df4fdb20b5c305d4e49299fe2792089ad85d46574c47540baeb1cca77ea88a0e"
+    },
+    {
+      "prefixHex": "00000001",
+      "payloadBytes": 3917496,
+      "payloadSha256": "e5850933d868839658dea3190b7a212ef06f277e6ba0c03fc136c9cc17cd0c66"
+    },
+    {
+      "prefixHex": "00000001",
+      "payloadBytes": 16,
+      "payloadSha256": "5102738bd705ff24b24112026be3111deed64bb6d7d232b11a2564209aa2edc6"
+    },
+    {
+      "prefixHex": "00000001",
+      "payloadBytes": 4,
+      "payloadSha256": "df4fdb20b5c305d4e49299fe2792089ad85d46574c47540baeb1cca77ea88a0e"
+    },
+    {
+      "prefixHex": "00000001",
+      "payloadBytes": 4069739,
+      "payloadSha256": "7598a4eb8017c04455bd23a11de1237edbce7ec369f3914ebcf56f55e120e5fe"
+    }
+  ],
+  "recipe": "demux retained MP4 with saved command; substitute each original prefixHex before identical NAL payload; ordered SHA256 verifies exact original bytes",
+  "command": [
+    "/opt/homebrew/bin/ffmpeg",
+    "-v",
+    "error",
+    "-i",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-smoke-f/video.mp4",
+    "-map",
+    "0:v:0",
+    "-c:v",
+    "copy",
+    "-f",
+    "h264",
+    "-"
+  ],
+  "retainedVideo": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-smoke-f/video.mp4",
+  "provedReconstructedSha256": "36e0c129517d8f34936be66c821c5bbb6e41687df819a3733e234a1761acda4d",
+  "byteExactReconstruction": true,
+  "mismatches": []
+}

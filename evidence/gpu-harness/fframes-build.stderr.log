@@ -1,0 +1,176 @@
+   Compiling rustybuzz v0.12.1
+   Compiling rav1e v0.7.1
+   Compiling ffmpeg-sys-next v9.0.0
+   Compiling exr v1.73.0
+   Compiling webvtt-parser v1.0.1 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes/webvtt-parser)
+   Compiling serde_core v1.0.228
+   Compiling tiff v0.9.1
+   Compiling gif v0.13.1
+   Compiling objc2-core-audio-types v0.3.2
+   Compiling serde_derive v1.0.228
+   Compiling num-complex v0.4.6
+   Compiling unicode-width v0.2.2
+   Compiling libm v0.2.11
+   Compiling clap_lex v0.7.4
+   Compiling base64 v0.22.1
+   Compiling itoa v1.0.15
+   Compiling ttf-parser v0.25.1
+   Compiling strsim v0.11.1
+   Compiling clap_builder v4.5.36
+   Compiling console v0.16.6
+   Compiling usvgr v0.46.0
+   Compiling objc2-core-audio v0.3.2
+   Compiling serde v1.0.228
+   Compiling parking_lot v0.12.3
+   Compiling fframes-skia-bindings v0.91.1
+   Compiling block2 v0.5.1
+   Compiling getrandom v0.3.2
+   Compiling konst_kernel v0.3.15
+   Compiling futures-executor v0.3.31
+   Compiling portable-atomic v1.15.0
+   Compiling tiny-skia v0.11.4
+   Compiling gif v0.12.0
+   Compiling ravif v0.11.12
+   Compiling clap_derive v4.5.32
+   Compiling image v0.25.6
+   Compiling core-foundation v0.10.0
+   Compiling core-foundation v0.9.4
+   Compiling serde_json v1.0.140
+   Compiling num-iter v0.1.45
+   Compiling pin-project-internal v1.1.10
+   Compiling malloc_buf v0.0.6
+   Compiling dispatch v0.2.0
+   Compiling fframes v1.0.1 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes/fframes)
+warning: linker stderr: ld: -ld_classic is deprecated and will be removed in a future release
+         object file (/opt/homebrew/Cellar/rust/1.97.1/lib/rustlib/aarch64-apple-darwin/lib/libobject-b16b6fd7543b0411.rlib(lib.rmeta)) was built for newer macOS version (26.0) than being linked (15.0)
+  |
+  = note: `#[warn(linker_messages)]` on by default
+
+   Compiling mutate_once v0.1.1
+warning: `fframes` (build script) generated 1 warning
+   Compiling ryu v1.0.20
+   Compiling lazy_static v1.5.0
+   Compiling tracing-core v0.1.36
+   Compiling static_assertions v1.1.0
+   Compiling const_panic v0.2.12
+   Compiling ash v0.38.0+1.3.281
+   Compiling rust-fuzzy-search v0.1.1
+   Compiling unit-prefix v0.5.2
+   Compiling konst_proc_macros v0.3.10
+   Compiling cfg_aliases v0.2.2
+   Compiling svgr-macro v1.0.1 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes/svgr-macro)
+   Compiling winit v0.30.13
+   Compiling konst v0.3.16
+   Compiling indicatif v0.18.6
+warning: linker stderr: ld: -ld_classic is deprecated and will be removed in a future release
+  |
+  = note: `#[warn(linker_messages)]` on by default
+
+warning: `svgr-macro` (lib) generated 1 warning
+   Compiling tracing v0.1.44
+   Compiling microfft v0.6.0
+   Compiling pin-project v1.1.10
+   Compiling colored v2.2.0
+   Compiling kamadak-exif v0.6.1
+   Compiling objc2-foundation v0.2.2
+   Compiling objc v0.2.7
+   Compiling num v0.4.3
+   Compiling core-graphics-types v0.1.3
+   Compiling core-graphics-types v0.2.0
+   Compiling clap v4.5.36
+   Compiling svgr v0.46.0
+   Compiling futures v0.3.31
+   Compiling uuid v1.16.0
+   Compiling objc2-audio-toolbox v0.3.2
+   Compiling skia-svg-macros v0.1.0
+   Compiling memmap v0.7.0
+   Compiling libloading v0.8.6
+   Compiling block v0.1.6
+warning: fframes@1.0.1: ⚠️  WARNING: Apple target arch without videotoolbox enabled ⚠️
+warning: fframes@1.0.1: To leverage hardware acceleration of encoding/decoding it is strongly recommended to enable the "videotoolbox" feature. To enable videotoolbox, add "videotoolbox" to the `fframes` dependency features list in your Cargo.toml
+   Compiling rangemap v1.5.1
+   Compiling percent-encoding v2.3.1
+   Compiling raw-window-handle v0.6.2
+   Compiling cpal v0.18.2
+   Compiling metal v0.32.0
+   Compiling objc2-app-kit v0.2.2
+   Compiling coreaudio-rs v0.14.2
+   Compiling core-graphics v0.23.2
+   Compiling thingbuf v0.1.6
+   Compiling objc2-quartz-core v0.3.2
+   Compiling objc2-core-graphics v0.3.2
+   Compiling dpi v0.1.2
+   Compiling mach2 v0.6.0
+   Compiling dasp_sample v0.11.0
+   Compiling cursor-icon v1.2.0
+   Compiling smol_str v0.2.2
+   Compiling softbuffer v0.4.8
+error: failed to run custom build command for `fframes-skia-bindings v0.91.1`
+
+Caused by:
+  process didn't exit successfully: `/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes/release/build/fframes-skia-bindings-2b2b7c932e8c48ce/build-script-build` (exit status: 101)
+  --- stdout
+  cargo:rerun-if-env-changed=DOCS_RS
+  cargo:rerun-if-env-changed=SKIA_DEBUG
+  cargo:rerun-if-env-changed=SKIA_SOURCE_DIR
+  cargo:rerun-if-env-changed=FORCE_SKIA_BUILD
+  cargo:rerun-if-env-changed=FORCE_SKIA_BINARIES_DOWNLOAD
+  TRYING TO DOWNLOAD AND INSTALL SKIA BINARIES: 0.91.1/b704549e6f651bfe186c-aarch64-apple-darwin-metal-pdf-svg-textlayout-vulkan
+  cargo:rerun-if-env-changed=SKIA_BINARIES_URL
+    FROM: https://github.com/rust-skia/skia-binaries/releases/download/0.91.1/skia-binaries-b704549e6f651bfe186c-aarch64-apple-darwin-metal-pdf-svg-textlayout-vulkan.tar.gz
+  DOWNLOAD AND INSTALL FAILED: curl error code: "56"
+  curl stderr: "curl: (56) The requested URL returned error: 404\n"
+  STARTING A FULL BUILD
+  HOST: aarch64-apple-darwin
+  cargo:rerun-if-env-changed=CLANGCC
+  cargo:rerun-if-env-changed=CC
+  cargo:rerun-if-env-changed=CLANGCXX
+  cargo:rerun-if-env-changed=CXX
+  cargo:rerun-if-env-changed=OPT_LEVEL
+  cargo:rerun-if-env-changed=SKIA_USE_SYSTEM_LIBRARIES
+  cargo:rerun-if-env-changed=SDKTARGETSYSROOT
+  cargo:rerun-if-env-changed=SDKROOT
+  cargo:rerun-if-env-changed=MACOSX_DEPLOYMENT_TARGET
+  cargo:rerun-if-env-changed=SKIA_NINJA_COMMAND
+  cargo:rerun-if-env-changed=SKIA_GN_COMMAND
+  Probing 'python'
+  Probing 'python3'
+  Python 3 found: "python3"
+  Synchronizing Skia dependencies
+  DOWNLOADING: https://codeload.github.com/rust-skia/skia/tar.gz/m143-0.90.0
+  Skipping "bin".
+  Skipping "infra/skia-infra".
+  Skipping "task_drivers".
+
+  --- stderr
+  fatal: unable to access 'https://chromium.googlesource.com/external/github.com/libexpat/libexpat.git/': Could not resolve host: chromium.googlesource.com
+  fatal: unable to access 'https://chromium.googlesource.com/chromium/src/third_party/freetype2.git/': Could not resolve host: chromium.googlesource.com
+  fatal: unable to access 'https://chromium.googlesource.com/chromium/deps/icu.git/': Could not resolve host: chromium.googlesource.com
+  fatal: unable to access 'https://chromium.googlesource.com/external/github.com/harfbuzz/harfbuzz.git/': Could not resolve host: chromium.googlesource.com
+  fatal: unable to access 'https://chromium.googlesource.com/chromium/deps/libjpeg_turbo.git/': Could not resolve host: chromium.googlesource.com
+  fatal: unable to access 'https://skia.googlesource.com/external/github.com/google/brotli.git/': Could not resolve host: skia.googlesource.com
+  fatal: unable to access 'https://chromium.googlesource.com/webm/libwebp.git/': Could not resolve host: chromium.googlesource.com
+  fatal: unable to access 'https://skia.googlesource.com/external/github.com/GPUOpen-LibrariesAndSDKs/D3D12MemoryAllocator.git/': Could not resolve host: skia.googlesource.com
+  fatal: unable to access 'https://skia.googlesource.com/third_party/libpng.git/': Could not resolve host: skia.googlesource.com
+  fatal: unable to access 'https://chromium.googlesource.com/external/github.com/KhronosGroup/SPIRV-Cross/': Could not resolve host: chromium.googlesource.com
+  fatal: unable to access 'https://chromium.googlesource.com/external/github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator/': Could not resolve host: chromium.googlesource.com
+  fatal: unable to access 'https://skia.googlesource.com/external/github.com/google/wuffs-mirror-release-c.git/': Could not resolve host: skia.googlesource.com
+  fatal: unable to access 'https://chromium.googlesource.com/chromium/src/third_party/zlib/': Could not resolve host: chromium.googlesource.com
+  Traceback (most recent call last):
+    File "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/cargo-home/registry/src/index.crates.io-1949cf8c6b5b557f/fframes-skia-bindings-0.91.1/skia/tools/git-sync-deps", line 281, in <module>
+      exit(main(sys.argv[1:]))
+           ~~~~^^^^^^^^^^^^^^
+    File "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/cargo-home/registry/src/index.crates.io-1949cf8c6b5b557f/fframes-skia-bindings-0.91.1/skia/tools/git-sync-deps", line 269, in main
+      git_sync_deps(deps_file_path, argv, shallow, verbose)
+      ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/cargo-home/registry/src/index.crates.io-1949cf8c6b5b557f/fframes-skia-bindings-0.91.1/skia/tools/git-sync-deps", line 239, in git_sync_deps
+      multithread(git_checkout_to_directory, list_of_arg_lists)
+      ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/cargo-home/registry/src/index.crates.io-1949cf8c6b5b557f/fframes-skia-bindings-0.91.1/skia/tools/git-sync-deps", line 256, in multithread
+      raise Exception("Thread failure detected")
+  Exception: Thread failure detected
+
+  thread 'main' (3382190) panicked at /Users/gavinbintz/Documents/Codex/2026-10-02/task/build/cargo-home/registry/src/index.crates.io-1949cf8c6b5b557f/fframes-skia-bindings-0.91.1/build_support/skia/config.rs:282:9:
+  `skia/tools/git-sync-deps` failed
+  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+warning: build failed, waiting for other jobs to finish...

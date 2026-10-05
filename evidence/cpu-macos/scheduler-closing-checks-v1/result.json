@@ -1,0 +1,217 @@
+{
+  "checkout": "/private/tmp/helios-scheduler-merge-20261001",
+  "prepared_changed_paths": [
+    "src/index.ts",
+    "src/tools/memory.ts",
+    "src/tools/sandbox.ts",
+    "src/tools/render-readiness.ts",
+    "test/media-streaming.test.ts",
+    "test/sandbox-audio.test.ts",
+    "test/render-readiness.test.ts",
+    "test-node/render-readiness-bundle.check.mjs"
+  ],
+  "worker_validation": {
+    "local_only": true,
+    "wrangler_config_loaded": false,
+    "env_file_loading": false,
+    "compatibility_date": "2026-02-10",
+    "r2_buckets": [
+      "MEMORY"
+    ]
+  },
+  "checks": {
+    "npm-ci-offline": {
+      "command": [
+        "/Users/gavinbintz/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/opt/homebrew/lib/node_modules/npm/bin/npm-cli.js",
+        "ci",
+        "--ignore-scripts",
+        "--offline"
+      ],
+      "cwd": "/private/tmp/helios-scheduler-merge-20261001",
+      "exit_code": 0,
+      "duration_seconds": 4.975
+    },
+    "bundle": {
+      "command": [
+        "/Users/gavinbintz/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "--test",
+        "test-node/render-readiness-bundle.check.mjs"
+      ],
+      "cwd": "/private/tmp/helios-scheduler-merge-20261001",
+      "exit_code": 0,
+      "duration_seconds": 0.534
+    },
+    "typescript": {
+      "command": [
+        "/Users/gavinbintz/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "node_modules/typescript/bin/tsc",
+        "--noEmit"
+      ],
+      "cwd": "/private/tmp/helios-scheduler-merge-20261001",
+      "exit_code": 0,
+      "duration_seconds": 1.39
+    },
+    "focused-vitest": {
+      "command": [
+        "/Users/gavinbintz/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "node_modules/vitest/vitest.mjs",
+        "run",
+        "--config",
+        "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/scheduler-closing-checks-v1/vitest.local-validation.mts",
+        "test/media-streaming.test.ts",
+        "test/sandbox-audio.test.ts",
+        "test/render-readiness.test.ts"
+      ],
+      "cwd": "/private/tmp/helios-scheduler-merge-20261001",
+      "exit_code": 1,
+      "duration_seconds": 0.969
+    },
+    "focused-vitest-config-fixed": {
+      "command": [
+        "/Users/gavinbintz/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "node_modules/vitest/vitest.mjs",
+        "run",
+        "--config",
+        "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/scheduler-closing-checks-v1/vitest.local-validation.mts",
+        "test/media-streaming.test.ts",
+        "test/sandbox-audio.test.ts",
+        "test/render-readiness.test.ts"
+      ],
+      "cwd": "/private/tmp/helios-scheduler-merge-20261001",
+      "exit_code": 1,
+      "duration_seconds": 0.602
+    },
+    "focused-vitest-local-escalated": {
+      "command": [
+        "/Users/gavinbintz/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "node_modules/vitest/vitest.mjs",
+        "run",
+        "--config",
+        "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/scheduler-closing-checks-v1/vitest.local-validation.mts",
+        "test/media-streaming.test.ts",
+        "test/sandbox-audio.test.ts",
+        "test/render-readiness.test.ts"
+      ],
+      "cwd": "/private/tmp/helios-scheduler-merge-20261001",
+      "exit_code": 0,
+      "duration_seconds": 5.457
+    }
+  },
+  "diff_checks": [
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--check",
+        "--",
+        "src/index.ts",
+        "src/tools/memory.ts",
+        "src/tools/sandbox.ts",
+        "src/tools/render-readiness.ts",
+        "test/media-streaming.test.ts",
+        "test/sandbox-audio.test.ts",
+        "test/render-readiness.test.ts",
+        "test-node/render-readiness-bundle.check.mjs"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "git: warning: confstr() failed with code 5: couldn't get path of DARWIN_USER_TEMP_DIR; using /tmp instead\n",
+      "passed": true
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "/dev/null",
+        "src/tools/render-readiness.ts"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "git: warning: confstr() failed with code 5: couldn't get path of DARWIN_USER_TEMP_DIR; using /tmp instead\n",
+      "passed": true
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "/dev/null",
+        "test/media-streaming.test.ts"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "git: warning: confstr() failed with code 5: couldn't get path of DARWIN_USER_TEMP_DIR; using /tmp instead\n",
+      "passed": true
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "/dev/null",
+        "test/sandbox-audio.test.ts"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "git: warning: confstr() failed with code 5: couldn't get path of DARWIN_USER_TEMP_DIR; using /tmp instead\n",
+      "passed": true
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "/dev/null",
+        "test/render-readiness.test.ts"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "git: warning: confstr() failed with code 5: couldn't get path of DARWIN_USER_TEMP_DIR; using /tmp instead\n",
+      "passed": true
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "/dev/null",
+        "test-node/render-readiness-bundle.check.mjs"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "git: warning: confstr() failed with code 5: couldn't get path of DARWIN_USER_TEMP_DIR; using /tmp instead\n",
+      "passed": true
+    }
+  ],
+  "integrity": {
+    "all_prepared_hashes_match": true,
+    "target_status": {
+      "exit_code": 0,
+      "stdout": " M src/index.ts\n M src/tools/memory.ts\n M src/tools/sandbox.ts\n?? src/tools/render-readiness.ts\n?? test-node/\n?? test/media-streaming.test.ts\n?? test/render-readiness.test.ts\n?? test/sandbox-audio.test.ts\n",
+      "stderr": "git: warning: confstr() failed with code 5: couldn't get path of DARWIN_USER_TEMP_DIR; using /tmp instead\n"
+    },
+    "target_status_unchanged": true,
+    "source_status": {
+      "exit_code": 0,
+      "stdout": " M src/index.ts\n M src/tools/memory.ts\n M src/tools/sandbox.ts\n M test/browse.test.ts\n M test/github.test.ts\n D test/index.spec.ts\n M test/model-router.test.ts\n M test/reddit.test.ts\n M test/swirlbot.test.ts\n?? .DS_Store\n?? promptops/\n?? src/tools/render-readiness.ts\n?? test-node/\n?? test/media-streaming.test.ts\n?? test/render-readiness.test.ts\n?? test/sandbox-audio.test.ts\n",
+      "stderr": "git: warning: confstr() failed with code 5: couldn't get path of DARWIN_USER_TEMP_DIR; using /tmp instead\n"
+    },
+    "source_status_unchanged": true
+  },
+  "focused_test_files": 3,
+  "focused_tests_passed": 20,
+  "bundle_tests_passed": 1,
+  "limitations": [
+    "No production deployment or remote sandbox render was attempted.",
+    "No broad suites, retries/race tests, migrations, or old-client compatibility checks were added or run.",
+    "Initial temporary config startup failure and restricted-workerd startup failure retained in separate receipts; one authorized local sandbox escalation retry passed.",
+    "Negative tests emit expected source failure, truncated fixed-length pipe, and network cancellation diagnostics."
+  ]
+}

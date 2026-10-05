@@ -1,0 +1,10 @@
+{
+  "test": "fixture-profile-substitution",
+  "passed": true,
+  "expectedRefusal": "NO_GPU_PROFILE_LIBRARY",
+  "observedError": "Refusal:NO_GPU_PROFILE_LIBRARY",
+  "secondsExcludedFromBenchmark": 0.019976957992184907,
+  "GPUExecuted": false,
+  "sourceUnchanged": true,
+  "publishedFixtureBinding": false
+}

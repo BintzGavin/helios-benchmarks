@@ -1,0 +1,38 @@
+{
+  "status": "CPU orchestration/profile preparation passed; actual GPU execution unqualified",
+  "scope": "bounded preparation only",
+  "finalTestReport": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/codec-orchestration-prep-20261005/TEST-REPORT.json",
+    "bytes": 10699,
+    "sha256": "b717ede0c13af3772cc6ed9dc99e59fbaec124b99bece6515aabee6f5a6656f1"
+  },
+  "testsPassed": 69,
+  "sourceArchive": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/codec-orchestration-prep-20261005/source.zip",
+    "bytes": 28492,
+    "sha256": "5ef3c534fbad89294805737a93ceead851341adaaf07f1085b71087920eade00",
+    "entries": 12,
+    "crcPassed": true
+  },
+  "sourcePins": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/codec-orchestration-prep-20261005/EXACT-SOURCE-PINS.json",
+    "bytes": 2443,
+    "sha256": "58394e6fe2d64392aa53e33f1f3edd061f18bb8f22dd5745973e478b87cdf7bf"
+  },
+  "acceptedEvidenceUnchanged": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/codec-orchestration-prep-20261005/ACCEPTED-EVIDENCE-UNCHANGED.json",
+    "bytes": 1068,
+    "sha256": "b0bc3bbf94d3ac490eff57d6237e5c63ec17c73b2e4060f20f2dfe3424ed2aa9"
+  },
+  "GPUExports": 0,
+  "newCargoBuild": false,
+  "full4KQualification": false,
+  "timingWindowOpen": false,
+  "benchmarkComplete": false,
+  "streaming6GiBGateActivated": false,
+  "activeSerialGateBytes": 9663676416,
+  "activeBalancedGateBytes": 16106127360,
+  "newLibraryIds": [],
+  "nativePublicationApproval": "pending; no push retry",
+  "remaining": "actual GPU orchestration/streaming bridge and bounded hardware tests; fresh all3004Kqualification; enoughdisk andtimingnotification; Library/native publication blockers"
+}

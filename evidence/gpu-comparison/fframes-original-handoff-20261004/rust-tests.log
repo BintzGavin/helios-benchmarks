@@ -1,0 +1,109 @@
+ Downloading crates ...
+  Downloaded ciborium-io v0.2.2
+  Downloaded ciborium v0.2.2
+  Downloaded plotters-backend v0.3.7
+  Downloaded approx v0.5.1
+  Downloaded ciborium-ll v0.2.2
+  Downloaded is-terminal v0.4.16
+  Downloaded cast v0.3.0
+  Downloaded plotters-svg v0.3.7
+  Downloaded same-file v1.0.6
+  Downloaded anes v0.1.6
+  Downloaded ppv-lite86 v0.2.21
+  Downloaded rand_core v0.9.3
+  Downloaded walkdir v2.5.0
+  Downloaded tinytemplate v1.2.1
+  Downloaded criterion-plot v0.5.0
+  Downloaded oorandom v11.1.5
+  Downloaded criterion v0.5.1
+  Downloaded rand_chacha v0.9.0
+  Downloaded rand v0.9.1
+  Downloaded itertools v0.10.5
+  Downloaded plotters v0.3.7
+  Downloaded zerocopy v0.8.24
+   Compiling bitflags v2.13.2
+   Compiling regex-syntax v0.8.11
+   Compiling bindgen v0.72.1
+   Compiling serde_core v1.0.228
+   Compiling getrandom v0.3.2
+   Compiling serde v1.0.228
+   Compiling zerocopy v0.8.24
+   Compiling anstyle v1.0.10
+   Compiling plotters-backend v0.3.7
+   Compiling ciborium-io v0.2.2
+   Compiling clap_lex v0.7.4
+   Compiling rustybuzz v0.12.1
+   Compiling plotters-svg v0.3.7
+   Compiling clap_builder v4.5.36
+   Compiling ciborium-ll v0.2.2
+   Compiling itertools v0.10.5
+   Compiling cast v0.3.0
+   Compiling same-file v1.0.6
+   Compiling walkdir v2.5.0
+   Compiling plotters v0.3.7
+   Compiling is-terminal v0.4.16
+   Compiling anes v0.1.6
+   Compiling regex-automata v0.4.18
+   Compiling rand_core v0.9.3
+   Compiling fframes v1.1.0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-same-stream-capture/fframes)
+   Compiling oorandom v11.1.5
+warning: linker stderr: ld: -ld_classic is deprecated and will be removed in a future release
+  |
+  = note: `#[warn(linker_messages)]` on by default
+
+   Compiling uuid v1.16.0
+warning: `fframes` (build script) generated 1 warning
+   Compiling criterion-plot v0.5.0
+   Compiling usvgr v0.46.0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr)
+   Compiling clap v4.5.36
+warning: a method with this name may be added to the standard library in the future
+  --> /Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/src/filter/iir_blur.rs:62:25
+   |
+62 |     let data = src.data.as_mut_slice();
+   |                         ^^^^^^^^^^^^
+   |
+   = help: call with fully qualified syntax `as_mut_slice(...)` to keep using the current method
+   = warning: once this associated item is added to the standard library, the ambiguity may cause an error or change in behavior!
+   = note: for more information, see issue #48919 <https://github.com/rust-lang/rust/issues/48919>
+   = note: `#[warn(unstable_name_collisions)]` (part of `#[warn(future_incompatible)]`) on by default
+
+warning: `svgr` (lib) generated 1 warning
+   Compiling approx v0.5.1
+   Compiling regex v1.13.1
+   Compiling serde_json v1.0.140
+   Compiling ppv-lite86 v0.2.21
+   Compiling rand_chacha v0.9.0
+   Compiling ciborium v0.2.2
+   Compiling rand v0.9.1
+   Compiling tinytemplate v1.2.1
+   Compiling criterion v0.5.1
+   Compiling svgr-macro v1.1.0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-same-stream-capture/svgr-macro)
+warning: `svgr-macro` (lib) generated 1 warning (1 duplicate)
+   Compiling ffmpeg-sys-fframes v9.0.0
+   Compiling fframes-media v1.1.0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-same-stream-capture/fframes-media)
+   Compiling fframes-media-dir-macro v1.1.0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-same-stream-capture/media-dir-macro)
+warning: linker stderr: ld: -ld_classic is deprecated and will be removed in a future release
+         object file (/opt/homebrew/Cellar/rust/1.97.1/lib/rustlib/aarch64-apple-darwin/lib/libobject-b16b6fd7543b0411.rlib(lib.rmeta)) was built for newer macOS version (26.0) than being linked (15.0)
+         ld: ignoring file /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks//QTKit.framework/QTKit.tbd, missing required architecture arm64 in file /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks//QTKit.framework/QTKit.tbd
+  |
+  = note: `#[warn(linker_messages)]` on by default
+
+warning: `fframes-media-dir-macro` (lib) generated 1 warning
+warning: linker stderr: ld: -ld_classic is deprecated and will be removed in a future release
+         object file (/opt/homebrew/Cellar/rust/1.97.1/lib/rustlib/aarch64-apple-darwin/lib/liblibc-3fe6c92250afbe8b.rlib(lib.rmeta)) was built for newer macOS version (26.0) than being linked (15.0)
+         
+         ld: ignoring file /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks//QTKit.framework/QTKit.tbd, missing required architecture arm64 in file /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks//QTKit.framework/QTKit.tbd
+  |
+  = note: `#[warn(linker_messages)]` on by default
+
+warning: `fframes` (lib test) generated 1 warning
+    Finished `release` profile [optimized] target(s) in 13.73s
+     Running unittests src/lib.rs (/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/deps/fframes-e79d1320b938414c)
+
+running 3 tests
+test renderer::diagnostic_capture::tests::packs_padding_without_changing_pixels ... ok
+test renderer::diagnostic_capture::tests::rejects_short_stride_and_overflow ... ok
+test renderer::diagnostic_capture::tests::zlib_roundtrip_preserves_all_bytes ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 66 filtered out; finished in 0.00s
+

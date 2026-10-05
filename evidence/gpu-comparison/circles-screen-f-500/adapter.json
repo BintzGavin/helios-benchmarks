@@ -1,0 +1,54 @@
+{
+  "engine": "F",
+  "mode": "hardware",
+  "frames": 300,
+  "bitrate": 500000000,
+  "sourceFrameRange": [
+    3,
+    303
+  ],
+  "gop": 30,
+  "scene": "Circles99kText1k",
+  "fontSha256": "9ae2da663d64342031e59b5fa680dd355171d021b7ebf83774efc7c0330ae7b5",
+  "executableSha256": "155a6bbb7cb8ccbad46eb2686ceb5edbe7f7de523319f0afe615ad83ce3e8c5b",
+  "commands": [
+    {
+      "command": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/circles-high-quality-adapter",
+      "args": [
+        "hardware",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-f-500/video.mp4",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/font",
+        "300",
+        "500000000"
+      ]
+    }
+  ],
+  "status": "complete",
+  "zeroCopyProved": false,
+  "rawReadback": false,
+  "verificationOwner": "run_matrix.py; one full post-export decode plus independent cadence/fidelity gates",
+  "startedAt": "2026-10-03T17:10:14.262Z",
+  "producer": {
+    "code": 0,
+    "signal": null,
+    "stderr": "[h264_videotoolbox @ 0x9d91bc000] This device does not support the qmax option. Value ignored.\n[h264_videotoolbox @ 0x9d91bc000] This device does not support the qmax option. Value ignored.\nCOMPARISON_ACTUAL_EXPORT_PATH=HardwareFrames\n[h264_videotoolbox @ 0x9d91bc000] This device does not support the qmax option. Value ignored.\n[h264_videotoolbox @ 0x9d91bc000] This device does not support the qmax option. Value ignored.\nCOMPARISON_ACTUAL_EXPORT_PATH=HardwareFrames\nCOMPARISON_ACTUAL_EXPORT_PATH=HardwareFrames\nCOMPARISON_ACTUAL_EXPORT_PATH=HardwareFrames\n"
+  },
+  "nativeReceipt": {
+    "allowSoftwareEncoder": false,
+    "bitrate": 500000000,
+    "colorSemantics": "upstream BT.601 attachments; opaque encoder conversion",
+    "device": "Apple M3 Pro",
+    "encoder": "h264_videotoolbox",
+    "frames": 300,
+    "gop": 30,
+    "mode": "hardware",
+    "nodes": 100000,
+    "pipeline": "MaxPerformance",
+    "rasterizer": "skia-metal",
+    "renderingMs": 27353.343542000002,
+    "requiredPath": "HardwareFrames",
+    "zeroCopyProved": false
+  },
+  "exportMs": 27400.868292,
+  "finishedAt": "2026-10-03T17:10:41.665Z"
+}

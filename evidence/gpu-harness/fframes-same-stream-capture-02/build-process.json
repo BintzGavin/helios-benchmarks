@@ -1,0 +1,27 @@
+{
+  "sourceCommit": "f89cbd572524b70a709ba3569fa23b0bbc8a0d9c",
+  "argv": [
+    "/opt/homebrew/bin/cargo",
+    "build",
+    "--release",
+    "--locked",
+    "-p",
+    "vs-remotion-bench",
+    "--bin",
+    "circles-handoff-capture",
+    "--bin",
+    "handoff-color-controls",
+    "--target-dir",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current"
+  ],
+  "cwd": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-same-stream-capture",
+  "optimizedUsvgr": "1c2a088217eb3365e965fd8dbd62acf265a07d33",
+  "exactOriginalClaimSource": false,
+  "benchmarkTiming": false,
+  "status": "completed",
+  "startedUnix": 1791137410.6688929,
+  "pid": 82234,
+  "returncode": 0,
+  "finishedUnix": 1791137415.932551,
+  "wallSeconds": 5.263658046722412
+}

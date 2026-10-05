@@ -1,0 +1,55 @@
+{
+  "files": [
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/build/ffmpeg-sys-fframes-b67fc2c1ae53b77e/out/dist/lib/libavutil.a",
+      "bytes": 3431616,
+      "sha256": "0eaf56dde5af974233351835ef62de1dbb664f55597f0273eeeab34781759729",
+      "kind": "inactive compiler static archive; rebuildable; frozen executables retain static linkage"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/build/ffmpeg-sys-fframes-b67fc2c1ae53b77e/out/dist/lib/libavfilter.a",
+      "bytes": 25734768,
+      "sha256": "000aab8d0e234b9557caee27ad39e472631b84bcd563a1dd9801e86046c2b086",
+      "kind": "inactive compiler static archive; rebuildable; frozen executables retain static linkage"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/build/ffmpeg-sys-fframes-b67fc2c1ae53b77e/out/dist/lib/libavcodec.a",
+      "bytes": 85475472,
+      "sha256": "fa9f27dc6a411946fcb009c7b5e93eca7485ea5565918c17ab4ce02815ad581f",
+      "kind": "inactive compiler static archive; rebuildable; frozen executables retain static linkage"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/build/ffmpeg-sys-fframes-b67fc2c1ae53b77e/out/dist/lib/libavformat.a",
+      "bytes": 30998096,
+      "sha256": "4c5c5a1d90408d7086d7ff3b7a0b4b25c117d66026fa09aeb33be5650800aa6a",
+      "kind": "inactive compiler static archive; rebuildable; frozen executables retain static linkage"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/build/ffmpeg-sys-fframes-b67fc2c1ae53b77e/out/dist/lib/libavdevice.a",
+      "bytes": 202824,
+      "sha256": "827921ef22a0be41676e2f58afcc413664f63e1cdaf0e87f5326a9a062580ff8",
+      "kind": "inactive compiler static archive; rebuildable; frozen executables retain static linkage"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/build/ffmpeg-sys-fframes-b67fc2c1ae53b77e/out/dist/lib/libswresample.a",
+      "bytes": 417040,
+      "sha256": "b05c3e887de71d7834d31d4517111aad1b368f8ce98cf9ab5f3f1192f04da1d3",
+      "kind": "inactive compiler static archive; rebuildable; frozen executables retain static linkage"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/build/ffmpeg-sys-fframes-b67fc2c1ae53b77e/out/dist/lib/libswscale.a",
+      "bytes": 5433816,
+      "sha256": "e7e815662884b5883314045d78b84bbf162c022b5eb8869a5ccfacbb27776d1c",
+      "kind": "inactive compiler static archive; rebuildable; frozen executables retain static linkage"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/deps/libffmpeg_sys_fframes-bc952a37d1be5c66.rlib",
+      "bytes": 155319848,
+      "sha256": "b3b65745e36095cb292be17864df7a64bfd63134611fa8b327c407f7a7fce8c3",
+      "kind": "inactive compiler static archive; rebuildable; frozen executables retain static linkage"
+    }
+  ],
+  "removedBytes": 307013480,
+  "freeAfter": 428990464,
+  "sourcesRuntimeEvidenceUntouched": true
+}

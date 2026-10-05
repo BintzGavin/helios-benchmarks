@@ -1,0 +1,85 @@
+{
+  "acceptedManifests": [
+    {
+      "manifest": {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/RECEIPT-MANIFEST.json",
+        "bytes": 80626,
+        "sha256": "351293f76777cc35b114ffa7e31c4de55fca600adefde431d2a37ff810b90633"
+      },
+      "entriesChecked": 446,
+      "allBytesAndSymlinksUnchanged": true
+    },
+    {
+      "manifest": {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/serial-4k-qualification-plan-20261005/RECEIPT-MANIFEST.json",
+        "bytes": 2151,
+        "sha256": "011d2cedc03ad5a7a8a473351da500a06935ad76ae3f5d6d22c439c8b8526253"
+      },
+      "entriesChecked": 13,
+      "allBytesAndSymlinksUnchanged": true
+    },
+    {
+      "manifest": {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/streaming-reference-prep-20261005/RECEIPT-MANIFEST.json",
+        "bytes": 120211,
+        "sha256": "451ee7df0dead74f14ee13ef86b6b37d78ca8e996e07059bdfe28311810a2a34"
+      },
+      "entriesChecked": 572,
+      "allBytesAndSymlinksUnchanged": true
+    },
+    {
+      "manifest": {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/codec-orchestration-prep-20261005/RECEIPT-MANIFEST.json",
+        "bytes": 25753,
+        "sha256": "287a4d70f3b1ecc638cdc34b1e94bd0460d29b5e8d5d1ef7eca0371725c86d41"
+      },
+      "entriesChecked": 139,
+      "allBytesAndSymlinksUnchanged": true
+    }
+  ],
+  "serialInputPinsChecked": 187,
+  "acceptedSourcePins": [
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/stream_nv12_reference.py",
+      "bytes": 14945,
+      "sha256": "69497d5b77f313b78f2d6c59926dcb89f3b56551adbb8ff84894dac15308cce3"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/nv12_fixture_worker.py",
+      "bytes": 2211,
+      "sha256": "a3891b0c99ae2768f00cf1e06f5d5f5afc70a2c426dc651cbbb1d1c81c8b1abe"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/test_stream_nv12_reference.py",
+      "bytes": 8508,
+      "sha256": "43b6b6ca5e9ba7346d4f2bac73d30bf769c0344e4dd2e895ee20b73d0f8f1ba8"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/codec_orchestration.py",
+      "bytes": 11610,
+      "sha256": "2e68574f43f95d3bc875594bda562e3f61a9e671e8c271bae33eafa8fa6993ee"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_codec_feed.mjs",
+      "bytes": 5620,
+      "sha256": "225457a9b51d3c8924d3c73dbaa42353b4ae13052bea126d633076ff2d0fa1d0"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/codec_fixture_scene.mjs",
+      "bytes": 688,
+      "sha256": "c6c8cfe062d6d86c13525867d33650ccbfa194b24fb34012bf57b1c00818efd8"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/codec_fixture_helper.py",
+      "bytes": 2159,
+      "sha256": "31429901e0efa75fd264a7c1d4d4b2948205320022208ab76d5b2f2a1faf8219"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/test_codec_orchestration.py",
+      "bytes": 8130,
+      "sha256": "def11436bf85bd253128158b52b2b0ce1ead0117e0f610739fa776fd865f8ce3"
+    }
+  ],
+  "previousTestsRepeated": false,
+  "previousDecodesRepeated": false
+}

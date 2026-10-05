@@ -1,0 +1,53 @@
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 6 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  packages/portable/tests/gpu-vulkan.test.ts > exports actual Skia Vulkan hardware h264 with decoded cadence/color and fence drain (json)
+ FAIL  packages/portable/tests/gpu-vulkan.test.ts > exports actual Skia Vulkan hardware hevc with decoded cadence/color and fence drain (json)
+ FAIL  packages/portable/tests/gpu-vulkan.test.ts > exports actual Skia Vulkan hardware hevc with decoded cadence/color and fence drain (binary)
+RenderError: Native GPU capability does not match required backend/hardware codec
+ ❯ probeGpu packages/portable/src/gpu.ts:191:279
+
+ ❯ encodeGpuMessages packages/portable/src/gpu.ts:223:3
+ ❯ renderGpuCanvasVideo packages/portable/src/gpu.ts:162:3
+ ❯ packages/portable/tests/gpu-vulkan.test.ts:43:5
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/6]⎯
+
+ FAIL  packages/portable/tests/gpu-vulkan.test.ts > exports actual Skia Vulkan hardware h264 with decoded cadence/color and fence drain (binary)
+RenderError: Native GPU capability does not match required backend/hardware codec
+ ❯ probeGpu packages/portable/src/gpu.ts:191:279
+
+ ❯ encodeGpuMessages packages/portable/src/gpu.ts:223:3
+ ❯ renderGpuCanvasVideo packages/portable/src/gpu.ts:162:3
+ ❯ packages/portable/tests/gpu-vulkan.test.ts:43:5
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/6]⎯
+
+ FAIL  packages/portable/tests/gpu-vulkan.test.ts > rejects stale, Metal, software and unshared Vulkan capabilities before encoding
+AssertionError: expected true to be false // Object.is equality
+
+- Expected
++ Received
+
+- false
++ true
+
+ ❯ packages/portable/tests/gpu-vulkan.test.ts:68:35
+     66|       await expect(renderGpuCanvasVideo(scene, output, { backend: 'vul…
+     67|       expect(await readFile(output, 'utf8')).toBe('preserved destinati…
+     68|       expect(existsSync(encoded)).toBe(false);
+       |                                   ^
+     69|     }
+     70|   } finally { await rm(directory, { recursive: true, force: true }); }
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/6]⎯
+
+ FAIL  packages/portable/tests/gpu-vulkan.test.ts > renders retained Plan SVG on Vulkan with explicit pixel readback and hardware video
+RenderError: Native GPU capability does not match required backend/hardware codec
+ ❯ probeGpu packages/portable/src/gpu.ts:191:279
+
+ ❯ renderGpuPlanFrame packages/portable/src/gpu.ts:198:42
+ ❯ packages/portable/tests/gpu-vulkan.test.ts:93:19
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/6]⎯
+

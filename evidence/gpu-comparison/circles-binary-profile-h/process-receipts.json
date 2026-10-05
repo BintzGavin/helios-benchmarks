@@ -1,0 +1,68 @@
+[
+  {
+    "mode": "encode-binary",
+    "args": [
+      "encode-binary",
+      "3840",
+      "2160",
+      "30",
+      "1",
+      "500000000",
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-binary-profile-h/profile.h264",
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-binary-profile-h/encode-binary.transfer.jsonl",
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-binary-profile-h/actual-metal.gputrace",
+      "30",
+      "3"
+    ],
+    "stdoutBytes": 225,
+    "stdoutSha256": "63085d053fc2ec76072f7ac626e4742d202211472e496895bc1c79ad984a76c7",
+    "stdout": "{\"bitrate\":500000000,\"configuredBitrate\":500000000,\"encoder\":\"videotoolbox\",\"encoderPool\":3,\"explicitRawReadbackBytes\":0,\"frames\":3,\"gop\":30,\"protocol\":5,\"rasterizer\":\"skia-metal\",\"transport\":\"binary\",\"zeroCopyProved\":false}\n",
+    "stderr": "",
+    "status": "complete",
+    "referenceOnlyDownloads": false
+  },
+  {
+    "mode": "reference-binary",
+    "args": [
+      "reference-binary",
+      "3840",
+      "2160",
+      "30",
+      "1",
+      "500000000",
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-binary-profile-h/profile.h264",
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-binary-profile-h/reference-binary.transfer.jsonl",
+      "",
+      "30",
+      "3"
+    ],
+    "stdoutBytes": 37324800,
+    "stdoutSha256": "2474a5a9c63aac6696d02eb69a7a7f4b486ed1be19d7161bbe45c660f6bc1f1e",
+    "stdout": "",
+    "stderr": "{\"bitrate\":500000000,\"configuredBitrate\":null,\"encoder\":\"none\",\"encoderPool\":3,\"explicitRawReadbackBytes\":37324800,\"frames\":3,\"gop\":30,\"protocol\":5,\"rasterizer\":\"skia-metal\",\"transport\":\"binary\",\"zeroCopyProved\":false}\n",
+    "status": "complete",
+    "referenceOnlyDownloads": true
+  },
+  {
+    "mode": "raster-binary",
+    "args": [
+      "raster-binary",
+      "3840",
+      "2160",
+      "30",
+      "1",
+      "500000000",
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-binary-profile-h/profile.h264",
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-binary-profile-h/raster-binary.transfer.jsonl",
+      "",
+      "30",
+      "3"
+    ],
+    "stdoutBytes": 99532800,
+    "stdoutSha256": "340548a87c903fc797e643c1ebc2efbff50fee9aa4db164802495e3d89b60f0b",
+    "stdout": "",
+    "stderr": "{\"bitrate\":500000000,\"configuredBitrate\":null,\"encoder\":\"none\",\"encoderPool\":3,\"explicitRawReadbackBytes\":99532800,\"frames\":3,\"gop\":30,\"protocol\":5,\"rasterizer\":\"skia-metal\",\"transport\":\"binary\",\"zeroCopyProved\":false}\n",
+    "status": "complete",
+    "referenceOnlyDownloads": true
+  }
+]

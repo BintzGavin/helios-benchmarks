@@ -1,0 +1,27 @@
+ D packages/cli/src/registry/__tests__/types.test.ts
+ D packages/cli/src/types/__tests__/job.test.ts
+ M packages/infrastructure/tests/adapters/azure-functions-adapter.test.ts
+ M packages/infrastructure/tests/adapters/vercel-adapter.test.ts
+ M packages/renderer/src/core/BrowserPool.ts
+ M packages/renderer/src/drivers/SeekTimeDriver.ts
+ M packages/renderer/src/utils/dom-scripts.ts
+ M packages/renderer/tests/run-all.ts
+?? .agent/
+?? creator-hub-promo/
+?? csi-explainer/
+?? docs/rfcs/
+?? helios-launch-wizard.sh
+?? helios-promo-fromscratch/
+?? helios-showcase/
+?? hello-title-card/
+?? hero-droste/
+?? hero-filterlab/
+?? hero-showcase/
+?? late-anim-test/
+?? made-of-itself/
+?? packages/portable/
+?? packages/renderer/tests/verify-dom-media-frame-exact.ts
+?? promptops/
+?? readme-hero/
+?? showcase/
+?? why-helios-film/

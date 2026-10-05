@@ -1,0 +1,49 @@
+{
+  "records": [
+    {
+      "url": "https://github.com/BintzGavin/helios/pull/5011",
+      "number": 5011,
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "title": "feat(portable): support bounded GPU circle paths and GOP controls",
+      "head_sha": "1130c8f67a966e157d4fbf04753c10813bba23f0",
+      "merge_commit_sha": "9cb689df982534e7ef07d0bac457412c955124ea",
+      "merged_at": "2026-10-03T16:26:56Z"
+    },
+    {
+      "url": "https://github.com/BintzGavin/helios/pull/5012",
+      "number": 5012,
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "title": "perf(portable): add bounded hardware encoder overlap",
+      "head_sha": "17b175fee7007ef89eba801543b60c3ca47618ac",
+      "merge_commit_sha": "141ce1ca44c0b42c54301fc8c0cef6b888711ac2",
+      "merged_at": "2026-10-03T17:08:48Z"
+    },
+    {
+      "url": "https://github.com/BintzGavin/helios/pull/5013",
+      "number": 5013,
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "title": "feat(portable): extend bounded GPU bitrate controls",
+      "head_sha": "34b7698bbf002775bd82e96aa4a5f3ce2157c2f1",
+      "merge_commit_sha": "3b812b9ff6b1d7ce1df2f2a0decab97ef186c2e7",
+      "merged_at": "2026-10-03T17:37:58Z"
+    },
+    {
+      "url": "https://github.com/BintzGavin/helios/pull/5014",
+      "number": 5014,
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "title": "perf(portable): stream bounded native GPU commands",
+      "head_sha": "449933aec6516697457a3163a2cf6b1b68a57a96",
+      "merge_commit_sha": "5ae62818818d75b2cae0a9ca9e3c6dc394efecd5",
+      "merged_at": "2026-10-03T18:10:27Z"
+    }
+  ],
+  "mergedByThisTask": false
+}

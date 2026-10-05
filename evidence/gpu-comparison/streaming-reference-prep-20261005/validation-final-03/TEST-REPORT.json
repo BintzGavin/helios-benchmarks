@@ -1,0 +1,379 @@
+{
+  "status": "bounded copied-fixture streaming storage tests passed",
+  "tests": [
+    {
+      "case": "irregular-chunks-300",
+      "passed": true,
+      "expectedRefusal": null,
+      "observedError": null,
+      "secondsExcludedFromBenchmarks": 0.4898077920079231,
+      "sourceUnchanged": true,
+      "GPUExecuted": false,
+      "atomicFinalExists": true,
+      "frames": 300,
+      "maxWriterQueuedBytes": 98304,
+      "drainCalls": 300,
+      "backpressureObservations": 4,
+      "selfMaxRSSBytes": 35225600
+    },
+    {
+      "case": "one-byte-chunks",
+      "passed": true,
+      "expectedRefusal": null,
+      "observedError": null,
+      "secondsExcludedFromBenchmarks": 0.14817266698810272,
+      "sourceUnchanged": true,
+      "GPUExecuted": false,
+      "atomicFinalExists": true,
+      "frames": 1,
+      "maxWriterQueuedBytes": 0,
+      "drainCalls": 1,
+      "backpressureObservations": 0,
+      "selfMaxRSSBytes": 36880384
+    },
+    {
+      "case": "slow-consumer-300",
+      "passed": true,
+      "expectedRefusal": null,
+      "observedError": null,
+      "secondsExcludedFromBenchmarks": 11.0844605830207,
+      "sourceUnchanged": true,
+      "GPUExecuted": false,
+      "atomicFinalExists": true,
+      "frames": 300,
+      "maxWriterQueuedBytes": 114688,
+      "drainCalls": 300,
+      "backpressureObservations": 261,
+      "selfMaxRSSBytes": 37486592
+    },
+    {
+      "case": "short-boundary",
+      "passed": true,
+      "expectedRefusal": "SHORT_FRAME",
+      "observedError": "Refusal: SHORT_FRAME:2:0",
+      "secondsExcludedFromBenchmarks": 1.0522831250273157,
+      "sourceUnchanged": true,
+      "GPUExecuted": false,
+      "atomicFinalExists": false
+    },
+    {
+      "case": "short-midframe",
+      "passed": true,
+      "expectedRefusal": "SHORT_FRAME",
+      "observedError": "Refusal: SHORT_FRAME:2:49151",
+      "secondsExcludedFromBenchmarks": 1.0727239169937093,
+      "sourceUnchanged": true,
+      "GPUExecuted": false,
+      "atomicFinalExists": false
+    },
+    {
+      "case": "extra-byte",
+      "passed": true,
+      "expectedRefusal": "EXTRA_BYTES",
+      "observedError": "Refusal: EXTRA_BYTES",
+      "secondsExcludedFromBenchmarks": 1.0728370420110878,
+      "sourceUnchanged": true,
+      "GPUExecuted": false,
+      "atomicFinalExists": false
+    },
+    {
+      "case": "extra-frame",
+      "passed": true,
+      "expectedRefusal": "EXTRA_BYTES",
+      "observedError": "Refusal: EXTRA_BYTES",
+      "secondsExcludedFromBenchmarks": 1.0635804159974214,
+      "sourceUnchanged": true,
+      "GPUExecuted": false,
+      "atomicFinalExists": false
+    },
+    {
+      "case": "producer-failure",
+      "passed": true,
+      "expectedRefusal": "PRODUCER_EXIT",
+      "observedError": "Refusal: PRODUCER_EXIT",
+      "secondsExcludedFromBenchmarks": 1.072229834011523,
+      "sourceUnchanged": true,
+      "GPUExecuted": false,
+      "atomicFinalExists": false
+    },
+    {
+      "case": "bad-source-byte",
+      "passed": true,
+      "expectedRefusal": "DIRECT_SOURCE_HASH",
+      "observedError": "Refusal: DIRECT_SOURCE_HASH",
+      "secondsExcludedFromBenchmarks": 1.0644837080035359,
+      "sourceUnchanged": true,
+      "GPUExecuted": false,
+      "atomicFinalExists": false
+    },
+    {
+      "case": "duplicate-index",
+      "passed": true,
+      "expectedRefusal": "PRODUCER_SOURCE_ORDER",
+      "observedError": "Refusal: PRODUCER_SOURCE_ORDER",
+      "secondsExcludedFromBenchmarks": 0.06990429200232029,
+      "sourceUnchanged": true,
+      "GPUExecuted": false,
+      "atomicFinalExists": false
+    },
+    {
+      "case": "source-order",
+      "passed": true,
+      "expectedRefusal": "PRODUCER_SOURCE_ORDER",
+      "observedError": "Refusal: PRODUCER_SOURCE_ORDER",
+      "secondsExcludedFromBenchmarks": 0.06470854100189172,
+      "sourceUnchanged": true,
+      "GPUExecuted": false,
+      "atomicFinalExists": false
+    },
+    {
+      "case": "producer-source-hash",
+      "passed": true,
+      "expectedRefusal": "PRODUCER_SOURCE_ORDER",
+      "observedError": "Refusal: PRODUCER_SOURCE_ORDER",
+      "secondsExcludedFromBenchmarks": 0.05801700000301935,
+      "sourceUnchanged": true,
+      "GPUExecuted": false,
+      "atomicFinalExists": false
+    },
+    {
+      "case": "broken-pipe",
+      "passed": true,
+      "expectedRefusal": [
+        "Pipe",
+        "ENCODER_EXIT",
+        "ConnectionResetError"
+      ],
+      "observedError": "BrokenPipeError: [Errno 32] Broken pipe",
+      "secondsExcludedFromBenchmarks": 0.052689542004372925,
+      "sourceUnchanged": true,
+      "GPUExecuted": false,
+      "atomicFinalExists": false
+    },
+    {
+      "case": "encoder-failure",
+      "passed": true,
+      "expectedRefusal": [
+        "Pipe",
+        "ENCODER_EXIT",
+        "ConnectionResetError"
+      ],
+      "observedError": "Refusal: ENCODER_EXIT",
+      "secondsExcludedFromBenchmarks": 0.05026754198479466,
+      "sourceUnchanged": true,
+      "GPUExecuted": false,
+      "atomicFinalExists": false
+    },
+    {
+      "case": "corrupt-reference",
+      "passed": true,
+      "expectedRefusal": "REFERENCE_DECODE_SHORT",
+      "observedError": "Refusal: REFERENCE_DECODE_SHORT",
+      "secondsExcludedFromBenchmarks": 0.07332337499246933,
+      "sourceUnchanged": true,
+      "GPUExecuted": false,
+      "atomicFinalExists": false
+    },
+    {
+      "case": "corrupt-before-commit",
+      "passed": true,
+      "expectedRefusal": "PRECOMMIT_HASH",
+      "observedError": "Refusal: PRECOMMIT_HASH",
+      "secondsExcludedFromBenchmarks": 0.10367087501799688,
+      "sourceUnchanged": true,
+      "GPUExecuted": false,
+      "atomicFinalExists": false
+    },
+    {
+      "case": "corrupt-binding",
+      "passed": true,
+      "expectedRefusal": "PRECOMMIT_HASH",
+      "observedError": "Refusal: PRECOMMIT_HASH",
+      "secondsExcludedFromBenchmarks": 0.10348479199456051,
+      "sourceUnchanged": true,
+      "GPUExecuted": false,
+      "atomicFinalExists": false
+    },
+    {
+      "case": "fail-before-commit",
+      "passed": true,
+      "expectedRefusal": "INJECTED_BEFORE_COMMIT",
+      "observedError": "Refusal: INJECTED_BEFORE_COMMIT",
+      "secondsExcludedFromBenchmarks": 0.11254591698525473,
+      "sourceUnchanged": true,
+      "GPUExecuted": false,
+      "atomicFinalExists": false
+    },
+    {
+      "case": "race-destination",
+      "passed": true,
+      "expectedRefusal": "File exists",
+      "observedError": "FileExistsError: [Errno 17] File exists: '/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/streaming-reference-prep-20261005/cases/validation-final-03/race-destination/result'",
+      "secondsExcludedFromBenchmarks": 0.11327037500450388,
+      "sourceUnchanged": true,
+      "GPUExecuted": false,
+      "atomicFinalExists": false
+    },
+    {
+      "case": "encoded-cap",
+      "passed": true,
+      "expectedRefusal": "CAP",
+      "observedError": "Refusal: ENCODED_CAP",
+      "secondsExcludedFromBenchmarks": 0.04972316601197235,
+      "sourceUnchanged": true,
+      "GPUExecuted": false,
+      "atomicFinalExists": false
+    },
+    {
+      "case": "timeout",
+      "passed": true,
+      "expectedRefusal": "TIMEOUT",
+      "observedError": "Refusal: TIMEOUT",
+      "secondsExcludedFromBenchmarks": 0.014327374985441566,
+      "sourceUnchanged": true,
+      "GPUExecuted": false,
+      "atomicFinalExists": false
+    },
+    {
+      "case": "expected-order-guard",
+      "passed": true,
+      "expectedRefusal": "EXPECTED_ORDER",
+      "observedError": "Refusal: EXPECTED_ORDER",
+      "secondsExcludedFromBenchmarks": 0.012179499986814335,
+      "sourceUnchanged": true,
+      "GPUExecuted": false,
+      "atomicFinalExists": false
+    },
+    {
+      "case": "expected-source-guard",
+      "passed": true,
+      "expectedRefusal": "SOURCE_HASH",
+      "observedError": "Refusal: SOURCE_HASH",
+      "secondsExcludedFromBenchmarks": 0.012276207999093458,
+      "sourceUnchanged": true,
+      "GPUExecuted": false,
+      "atomicFinalExists": false
+    },
+    {
+      "case": "pin-guard",
+      "passed": true,
+      "expectedRefusal": "PIN_MISMATCH",
+      "observedError": "Refusal: PIN_MISMATCH: /Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/streaming-reference-prep-20261005/fixtures/reference.nv12",
+      "secondsExcludedFromBenchmarks": 0.005628000013530254,
+      "sourceUnchanged": true,
+      "GPUExecuted": false,
+      "atomicFinalExists": false
+    },
+    {
+      "case": "4k-refusal",
+      "passed": true,
+      "expectedRefusal": "SMALL_ENVELOPE",
+      "observedError": "Refusal: SMALL_ENVELOPE",
+      "secondsExcludedFromBenchmarks": 1.4790974091738462e-05,
+      "sourceUnchanged": true,
+      "GPUExecuted": false,
+      "atomicFinalExists": false
+    },
+    {
+      "case": "fixture-source-envelope",
+      "passed": true,
+      "expectedRefusal": "SMALL_ENVELOPE",
+      "observedError": "Refusal: SMALL_ENVELOPE",
+      "secondsExcludedFromBenchmarks": 1.3250013580545783e-05,
+      "sourceUnchanged": true,
+      "GPUExecuted": false,
+      "atomicFinalExists": false
+    },
+    {
+      "case": "gpu-producer-refusal",
+      "passed": true,
+      "expectedRefusal": "FIXTURE_ONLY",
+      "observedError": "Refusal: FIXTURE_ONLY",
+      "secondsExcludedFromBenchmarks": 8.25000461190939e-06,
+      "sourceUnchanged": true,
+      "GPUExecuted": false,
+      "atomicFinalExists": false
+    },
+    {
+      "case": "existing-directory",
+      "passed": true,
+      "expectedRefusal": "EXISTING_DESTINATION",
+      "observedError": "Refusal: EXISTING_DESTINATION",
+      "secondsExcludedFromBenchmarks": 0.01273145800223574,
+      "sourceUnchanged": true,
+      "GPUExecuted": false,
+      "atomicFinalExists": false
+    },
+    {
+      "case": "symlink-destination",
+      "passed": true,
+      "expectedRefusal": "EXISTING_DESTINATION",
+      "observedError": "Refusal: EXISTING_DESTINATION",
+      "secondsExcludedFromBenchmarks": 0.01232754101511091,
+      "sourceUnchanged": true,
+      "GPUExecuted": false,
+      "atomicFinalExists": false
+    }
+  ],
+  "testCount": 29,
+  "positiveCases": 3,
+  "negativeCases": 26,
+  "pins": [
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/streaming-reference-prep-20261005/fixtures/reference.nv12",
+      "bytes": 14745600,
+      "sha256": "4f8429472e98618a18b8a46a1aa8f0430e5df9cba63359cb4050408e516d918a"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/nv12_fixture_worker.py",
+      "bytes": 2211,
+      "sha256": "a3891b0c99ae2768f00cf1e06f5d5f5afc70a2c426dc651cbbb1d1c81c8b1abe"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/ffmpeg/9.0.2/bin/ffmpeg",
+      "bytes": 426512,
+      "sha256": "1ede5c7fd4e97d832ec69c97c78231875de7d69c55423158f5f4a4d923227dd5"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/ffmpeg/9.0.2/bin/ffprobe",
+      "bytes": 253488,
+      "sha256": "258fa480850eec6cf7b6831b2d3edd164cdd2f9ddb7a14965dc9fdaf9d175ff7"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+      "bytes": 34640,
+      "sha256": "4f00ea2ad53d62437a6a3946b73c73614a97e8accdc5b96dc095ea1a0d9c6a56"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/stream_nv12_reference.py",
+      "bytes": 14945,
+      "sha256": "69497d5b77f313b78f2d6c59926dcb89f3b56551adbb8ff84894dac15308cce3"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/test_stream_nv12_reference.py",
+      "bytes": 8508,
+      "sha256": "43b6b6ca5e9ba7346d4f2bac73d30bf769c0344e4dd2e895ee20b73d0f8f1ba8"
+    }
+  ],
+  "copiedSource": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/streaming-reference-prep-20261005/fixtures/reference.nv12",
+    "bytes": 14745600,
+    "sha256": "4f8429472e98618a18b8a46a1aa8f0430e5df9cba63359cb4050408e516d918a"
+  },
+  "originalSource": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/fixtures/reference.nv12",
+    "bytes": 14745600,
+    "sha256": "4f8429472e98618a18b8a46a1aa8f0430e5df9cba63359cb4050408e516d918a"
+  },
+  "all300IndependentInverseHashesEqual": true,
+  "streaming6GiBGateStillProposed": true,
+  "no4KReferenceQualification": true,
+  "noGPUExportOrNativeBuild": true,
+  "noBenchmarkTiming": true,
+  "timingWindowOpen": false,
+  "atomicPublication": "Darwin renameatx_np RENAME_EXCL directory; no-replace reference+binding+logs asone publication",
+  "memoryBound": "exact-frame reader, bounded asyncio pipes; no frame accumulation; one raw plus planar and quarter-frame split temporary; decoder inverse separatephase; RSS measured per positive receipt",
+  "sampleActualRawBytes": 14745600,
+  "fourKRawBytesAvoidableIfQualified": 3732480000,
+  "full4KRuntimeMemoryNotMeasured": true
+}

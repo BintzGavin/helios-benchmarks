@@ -1,0 +1,97 @@
+{
+  "createdUnix": 1791154917.220215,
+  "status": "independent bounded conformance preparation audit passed",
+  "deliveryPins": [
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_chroma_conformance.py",
+      "bytes": 19327,
+      "sha256": "b0a36b7852439a78b27365a2846a1b471207f1285fbb9461aa7fa125a21a5088"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/FINAL-REPORT.json",
+      "bytes": 5158,
+      "sha256": "c986462b129dd0a239bbee84f08a56e31ffdf76654ff9a80c7ff689e4c34a1f0"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/EXACT-PINS.json",
+      "bytes": 81089,
+      "sha256": "1b946dc6901e630df65e5ccc1c661ea874479ff9ee93549040b03a78c6418c04"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/RECEIPT-MANIFEST.json",
+      "bytes": 80626,
+      "sha256": "351293f76777cc35b114ffa7e31c4de55fca600adefde431d2a37ff810b90633"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/native-conformance-prep-source-receipts-20261005.zip",
+      "bytes": 18707142,
+      "sha256": "a199fa2c311459bc9068f8c162bf6666c2978ed05605e3cf519d5009fbd8339c"
+    }
+  ],
+  "manifestFiles": 446,
+  "manifestBytes": 50753953,
+  "exactPinsRechecked": 236,
+  "archives": [
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/native-conformance-prep-source-receipts-20261005.zip",
+      "bytes": 18707142,
+      "sha256": "a199fa2c311459bc9068f8c162bf6666c2978ed05605e3cf519d5009fbd8339c",
+      "members": 447,
+      "CRCpassed": true
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/adapter-source.zip",
+      "bytes": 29336,
+      "sha256": "0001100d6c91d81f1dc6a2046be6a8e88d7f443cc148ce7ef41798c3ec626f53",
+      "members": 7,
+      "CRCpassed": true
+    }
+  ],
+  "codecs": [
+    {
+      "codec": "h264",
+      "frames": 300,
+      "actualNonSPSNALsReextractedIdentical": 610,
+      "SPSRBSPOnlyCenteredEdit": true,
+      "savedFullSyntaxOtherFieldsUnchanged": true,
+      "savedDecodedRowsExactlyEqual": true,
+      "savedCadenceColorGOP30Checked": true,
+      "unchangedPerFrameFloorsPassed": true
+    },
+    {
+      "codec": "hevc",
+      "frames": 300,
+      "actualNonSPSNALsReextractedIdentical": 310,
+      "SPSRBSPOnlyCenteredEdit": true,
+      "savedFullSyntaxOtherFieldsUnchanged": true,
+      "savedDecodedRowsExactlyEqual": true,
+      "savedCadenceColorGOP30Checked": true,
+      "unchangedPerFrameFloorsPassed": true
+    }
+  ],
+  "all300PureNV12LosslessSavedMD5sEqual": true,
+  "independentCenteredColorControl": {
+    "frames": 3,
+    "maxError": 0,
+    "differentBytes": 0,
+    "separateRetainedControlRenderOnly": true
+  },
+  "savedFailureTests": {
+    "negative": 28,
+    "idempotent": 2,
+    "adapterBound": true,
+    "testsNotRepeated": true
+  },
+  "preparationOnly": true,
+  "new4KQualification": false,
+  "newGpuEncoderExportBuildDecodeTiming": false,
+  "freshSmallEncodedPayloadReads": true,
+  "originalHelperSourcesHistoricalResultsUnchanged": true,
+  "zeroCopyProved": false,
+  "nativePool": 3,
+  "FPoolPerContext": 64,
+  "resourceMinimumGiBSerial4K": 6,
+  "resourceRecommendedGiBBalanced": 12,
+  "comparisonOwnerRetainsHarnessAndConformance": true,
+  "broadObjectiveComplete": false
+}

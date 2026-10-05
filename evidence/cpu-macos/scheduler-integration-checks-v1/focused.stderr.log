@@ -1,0 +1,25 @@
+workerd/jsg/util.c++:402: info: exception = workerd/api/streams/internal.c++:2373: disconnected: pump canceled
+stack: 1015f9cbb 1014695fb 100ef3204 101324544 1009abcd0
+workerd/jsg/setup.c++:583: info: CODE_MOVED for unknown code block?
+workerd/jsg/setup.c++:583: info: CODE_MOVED for unknown code block?
+workerd/jsg/setup.c++:583: info: CODE_MOVED for unknown code block?
+workerd/jsg/setup.c++:583: info: CODE_MOVED for unknown code block?
+stderr | test/media-streaming.test.ts > internal media streaming > preserves the destination when an unknown-length upload fails after a full part
+[API] Internal Media Error: Error: Source failed
+    at Object.pull (/private/tmp/helios-scheduler-merge-20261001/test/media-streaming.test.ts:123:26)
+    at MemoryStore.putBinary (/private/tmp/helios-scheduler-merge-20261001/src/tools/memory.ts:221:42)
+    at handleInternalMediaRequest (/private/tmp/helios-scheduler-merge-20261001/src/index.ts:536:4)
+    at /private/tmp/helios-scheduler-merge-20261001/test/media-streaming.test.ts:132:20
+    at private/tmp/helios-scheduler-merge-20261001/node_modules/@vitest/runner/dist/chunk-hooks.js:752:20
+
+workerd/jsg/util.c++:402: info: exception = kj/async-io.c++:1713: disconnected: fixed-length pipe ended prematurely
+stack: 103087047 1030871c3 10306d833 101295b40 101295b40 10150a990 1015f9dc7 1014695fb 100ef3204 101324544 1009abcd0
+stderr | test/media-streaming.test.ts > internal media streaming > rejects a truncated fixed-length upload without replacing the destination
+[API] Internal Media Error: TypeError: FixedLengthStream did not see all expected bytes before close().
+    at async Promise.all (index 1)
+    at MemoryStore.putBinary (/private/tmp/helios-scheduler-merge-20261001/src/tools/memory.ts:203:5)
+    at handleInternalMediaRequest (/private/tmp/helios-scheduler-merge-20261001/src/index.ts:536:4)
+    at /private/tmp/helios-scheduler-merge-20261001/test/media-streaming.test.ts:144:20
+    at private/tmp/helios-scheduler-merge-20261001/node_modules/@vitest/runner/dist/chunk-hooks.js:752:20
+
+workerd/io/worker.c++:2324: info: uncaught exception; source = Uncaught (in promise); stack = Error: Network connection lost.

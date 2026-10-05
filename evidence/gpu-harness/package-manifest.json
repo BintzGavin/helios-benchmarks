@@ -1,0 +1,457 @@
+{
+  "status": "unfinished_checkpoint_only",
+  "benchmark_timings": [],
+  "archive_source_library_id": "libfile_19c903c1d7508191ac4881f0e96e4229",
+  "files": [
+    {
+      "path": "checkpoint/RESUME.md",
+      "bytes": 5390,
+      "sha256": "b9e44fe535dfb4561610bb02eb91c8191c4998fe4bfff02bfb739a96c3086dea"
+    },
+    {
+      "path": "checkpoint/browser-host-unqualified-port-conflict.json",
+      "bytes": 9226,
+      "sha256": "36405ebd36dc8302a5aab7845b753899b812e3a8e0af6c8dbd79e66b09de8e7d"
+    },
+    {
+      "path": "checkpoint/browser-host.json",
+      "bytes": 9509,
+      "sha256": "b8fad1ce4f6e34a246d5005dffed20dd541aadde8ba7d84e6b6ba7f2f10ab059"
+    },
+    {
+      "path": "checkpoint/browser-smoke-process-port-conflict.json",
+      "bytes": 546,
+      "sha256": "e85b78eb79c038760bac988382cab8ab194a1db4f626e3f453fe27fc21b93ff4"
+    },
+    {
+      "path": "checkpoint/browser-smoke-process.json",
+      "bytes": 547,
+      "sha256": "8b4ea727c079835c2f2ae61994a2b56cf665cf7a2184f7f0c00271df6ba434ca"
+    },
+    {
+      "path": "checkpoint/browser-smoke.py",
+      "bytes": 1245,
+      "sha256": "0cc31e982261617ec547831cc0931704a333f16f447e38f9df49caea1b03df04"
+    },
+    {
+      "path": "checkpoint/build-fframes.py",
+      "bytes": 1343,
+      "sha256": "268d0035d29566a7e6af8b1f108e277f053c3e0a3bb56f6f0c98750c6fbd2e06"
+    },
+    {
+      "path": "checkpoint/ffmpeg-encoders.txt",
+      "bytes": 10982,
+      "sha256": "158109b98c46e8f2edae5294677c1b6954b8264b608f43060e0c6920e38466d7"
+    },
+    {
+      "path": "checkpoint/ffmpeg-version.txt",
+      "bytes": 821,
+      "sha256": "78352a6983ade79cdaf6744ad453c2d9f86cbd2277086a6a1fa87036e4ba89c4"
+    },
+    {
+      "path": "checkpoint/fframes-build-process.json",
+      "bytes": 611,
+      "sha256": "b5d125bf70ac1b020586baeae6d762ece966911cfd52fde07a72d52a8018916b"
+    },
+    {
+      "path": "checkpoint/fframes-build.stderr.log",
+      "bytes": 15397,
+      "sha256": "a8d9aedfdae5bcbf4dfd101475a44cb5c5fc0a6a28e9a6cddbbb042c29dbaceb"
+    },
+    {
+      "path": "checkpoint/fframes-build.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "checkpoint/fframes-offline-build.log",
+      "bytes": 363,
+      "sha256": "15e5c3cb3f7ff8c5fd1e469536e32bf65626155ad6ffc2f9226e3e76306da2f4"
+    },
+    {
+      "path": "checkpoint/helios-head.txt",
+      "bytes": 41,
+      "sha256": "cc7e0b6d75ecd99a8746e85abff741889b2d33abef212f5495dde01a3636332f"
+    },
+    {
+      "path": "checkpoint/helios-renderer-build.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "checkpoint/helios-smoke-3frames.mp4",
+      "bytes": 978073,
+      "sha256": "5468b0c205d35f4ad84ef1efdb1752cb1a8c5b139f345bf61eadfb8f9997d16e"
+    },
+    {
+      "path": "checkpoint/helios-smoke-ffprobe.json",
+      "bytes": 4701,
+      "sha256": "5691e6593e2fa6ff77361b7d05519acbc0fd3553a48b6ccdfcac171e8a057ffb"
+    },
+    {
+      "path": "checkpoint/helios-smoke-framemd5.txt",
+      "bytes": 456,
+      "sha256": "a27255542994484b7930d18c0fc2dad2e64be2cd67c94c72a8394903fde51a0e"
+    },
+    {
+      "path": "checkpoint/helios-smoke-process.json",
+      "bytes": 6799,
+      "sha256": "9fbe3c25d7cb7688e96736cbc12ed74cb0120ac7fc7eb77b015c3971feb1e5ee"
+    },
+    {
+      "path": "checkpoint/helios-smoke-runtime.json",
+      "bytes": 8661,
+      "sha256": "98331dd037b1d6bce51294ff578b499e6b2039ed6ff52a76b3ce33f507288404"
+    },
+    {
+      "path": "checkpoint/helios-smoke.py",
+      "bytes": 1398,
+      "sha256": "93b62f5901b297b4a02aefe6658c4a09b51be8ebb1b781b9b2bf33c0f23c483c"
+    },
+    {
+      "path": "checkpoint/helios-status.txt",
+      "bytes": 817,
+      "sha256": "9f3e6a4e18b4a7e44067134c4ebcb196407a5967988bac9d35d8c62de4801724"
+    },
+    {
+      "path": "checkpoint/host-preflight-unsandboxed.json",
+      "bytes": 16064,
+      "sha256": "874a6e8ec8eb1da1e096a5c0ce6905218662a5ea417ecdab67072c269c1501bc"
+    },
+    {
+      "path": "checkpoint/host-preflight.json",
+      "bytes": 17281,
+      "sha256": "266e5dd0947f53f5eb4918de5b19e3663f8ed6e77c0e856620b58ef58d2f1016"
+    },
+    {
+      "path": "checkpoint/http-server-host.log",
+      "bytes": 1590,
+      "sha256": "e1be30ac2df7a9d3eacf1b674edeaad1d71676027a6897bb6bb6140aa8e7a2a7"
+    },
+    {
+      "path": "checkpoint/http-server.log",
+      "bytes": 1598,
+      "sha256": "e78a3b1f424f78b925c175c815c6faad5666e9a58e4eed742a9fa45cb97bfe90"
+    },
+    {
+      "path": "checkpoint/prep-tests.log",
+      "bytes": 4189,
+      "sha256": "c78e0973cf15d0bed7eb899a632fb6397263387d161a6b9e817d9536396d8384"
+    },
+    {
+      "path": "preparation/helios-gpu-comparison-prep-20261002.zip",
+      "bytes": 80131,
+      "sha256": "74454e98b7f943fe03017c109fd9077daa21cada376a79fc625741a88aabaa9d"
+    },
+    {
+      "path": "preparation/unpacked/helios-gpu-comparison-prep/.gitignore",
+      "bytes": 42,
+      "sha256": "b36ae5a708540deaf1a97dbde4dd352986656cdb36a36d5ee5e29c586a0b94d5"
+    },
+    {
+      "path": "preparation/unpacked/helios-gpu-comparison-prep/DM-Sans-NOTICE.txt",
+      "bytes": 1679,
+      "sha256": "8f1993857f640fa9b352843deda8417a84ac6fed4289cfe787400799c322a14e"
+    },
+    {
+      "path": "preparation/unpacked/helios-gpu-comparison-prep/DM-Sans-OFL.txt",
+      "bytes": 4401,
+      "sha256": "0eb29107fc33184577034899905554c12451f752d2ae327f440081484753008e"
+    },
+    {
+      "path": "preparation/unpacked/helios-gpu-comparison-prep/DM-Sans.ttf",
+      "bytes": 72000,
+      "sha256": "9ae2da663d64342031e59b5fa680dd355171d021b7ebf83774efc7c0330ae7b5"
+    },
+    {
+      "path": "preparation/unpacked/helios-gpu-comparison-prep/LICENSE.fframes.txt",
+      "bytes": 1080,
+      "sha256": "a1a1a3dbe48712540fad727043ea06248e58d48539e243f8d76db64aec5bb665"
+    },
+    {
+      "path": "preparation/unpacked/helios-gpu-comparison-prep/README.md",
+      "bytes": 8113,
+      "sha256": "e0c9cec54952934c2dc2068acea0c8652128e6fb7a00136de1c7038143d73420"
+    },
+    {
+      "path": "preparation/unpacked/helios-gpu-comparison-prep/REPORT-FFRAMES.md",
+      "bytes": 9695,
+      "sha256": "78aae9fe45178be6c33193c463d38a511792506c0db30ab5b1085fde41ddd005"
+    },
+    {
+      "path": "preparation/unpacked/helios-gpu-comparison-prep/browser_probe.mjs",
+      "bytes": 2509,
+      "sha256": "3e3b2d7a4a0db43db6747559da071a7d5d2f784d809b073cea6dc61a8b35f578"
+    },
+    {
+      "path": "preparation/unpacked/helios-gpu-comparison-prep/evidence/blocked-run.log",
+      "bytes": 76,
+      "sha256": "b3be52753e0a9dfd5997483425f4abb54396ff19915a37ba1935568eee566dfe"
+    },
+    {
+      "path": "preparation/unpacked/helios-gpu-comparison-prep/evidence/browser-launch-status.json",
+      "bytes": 566,
+      "sha256": "8ee9ae532a562db214908adefc735717c6cb8c20c122a44ca1176424860fb0df"
+    },
+    {
+      "path": "preparation/unpacked/helios-gpu-comparison-prep/evidence/cloud-encoder-smoke.log",
+      "bytes": 1218,
+      "sha256": "ab91cada252c1d7afe0d5511cfd5a1dda40710f267100b337be04d83a7a76041"
+    },
+    {
+      "path": "preparation/unpacked/helios-gpu-comparison-prep/evidence/planned-order.json",
+      "bytes": 797,
+      "sha256": "9e664084e7a84b54b4636c524ea09151a6d4cc6a217ae2f6ec1ecb3b4acf878b"
+    },
+    {
+      "path": "preparation/unpacked/helios-gpu-comparison-prep/evidence/preflight.json",
+      "bytes": 21470,
+      "sha256": "7619a7e645b818dba84987e21a4da38ed159f0c512d98f91724d1735b4cabf8d"
+    },
+    {
+      "path": "preparation/unpacked/helios-gpu-comparison-prep/evidence/tests.log",
+      "bytes": 4140,
+      "sha256": "b97e26dab60fb9e49f9365faa19cc7bb2b2f45684295be142f09c5ffc23013b8"
+    },
+    {
+      "path": "preparation/unpacked/helios-gpu-comparison-prep/matrix.template.json",
+      "bytes": 2782,
+      "sha256": "627b2115b1e8f42633875e0933460ffbfdd83ae82602546dabed67643a66ff60"
+    },
+    {
+      "path": "preparation/unpacked/helios-gpu-comparison-prep/package-manifest.json",
+      "bytes": 3634,
+      "sha256": "22b3c822c396ea4096a7b2a8a1852b534cfc7e89e78caf7e7199b5f0cf9adfde"
+    },
+    {
+      "path": "preparation/unpacked/helios-gpu-comparison-prep/preflight.py",
+      "bytes": 5039,
+      "sha256": "241dfd9feb039517ce83247430cc72a1134a9d217af88bfb3920e5e71252870a"
+    },
+    {
+      "path": "preparation/unpacked/helios-gpu-comparison-prep/render_helios.mjs",
+      "bytes": 2366,
+      "sha256": "0bcd849becf61ac26cff4b4fdc72b99ce44966873884ed04f3fbf64d2a195a65"
+    },
+    {
+      "path": "preparation/unpacked/helios-gpu-comparison-prep/run_matrix.py",
+      "bytes": 5688,
+      "sha256": "4dce2c80a56493a6fc834df4fa9a5bc014c9d8110458af4a40b45ec98aa613bb"
+    },
+    {
+      "path": "preparation/unpacked/helios-gpu-comparison-prep/test_runner.py",
+      "bytes": 790,
+      "sha256": "332a7aa81c44ef34127aefe04851b8691b0540333f446578f58e598231922c23"
+    },
+    {
+      "path": "preparation/unpacked/helios-gpu-comparison-prep/test_validate_video.py",
+      "bytes": 11197,
+      "sha256": "de4e295759b769e27dfd1ceba83c831c736a2c70341c806b7d6b651c5c2cd080"
+    },
+    {
+      "path": "preparation/unpacked/helios-gpu-comparison-prep/textgrid.html",
+      "bytes": 1043,
+      "sha256": "cdd4d64c404e60e84151dff00d4a537091a88aad6ad411e32408c1a2f71bbd38"
+    },
+    {
+      "path": "preparation/unpacked/helios-gpu-comparison-prep/textgrid.mjs",
+      "bytes": 1656,
+      "sha256": "cc5f8fe2be81dae1574839082e824c7280ddfec9564a04bc84058a6990ab3ea4"
+    },
+    {
+      "path": "preparation/unpacked/helios-gpu-comparison-prep/validate_video.py",
+      "bytes": 20756,
+      "sha256": "f5fbf7c131ca8b7c73daa7cd16fbbd50f1f0c102aa7c7d167462f3898830cf6b"
+    },
+    {
+      "path": "sources/fframes/AGENTS.md",
+      "bytes": 27154,
+      "sha256": "fcfd3140614a2cb9c7c850218d9394466d334f0bd5477fb75e48256ac3677613"
+    },
+    {
+      "path": "sources/fframes/Cargo.lock",
+      "bytes": 116616,
+      "sha256": "dc4876422ae3504d1ca91530b7fd984ce799c6dae4293f5a5e13601d1254e58b"
+    },
+    {
+      "path": "sources/fframes/Cargo.toml",
+      "bytes": 2574,
+      "sha256": "c47053d24ab6c75dcfb96b4cc4a99d6afe0eaf24a31d4e222e12315bc28b3cb6"
+    },
+    {
+      "path": "sources/fframes/fframes-skia-renderer/src/backends/metal.rs",
+      "bytes": 6595,
+      "sha256": "6c7f068411c21c434d30ba25480cb7fb280f3e6ef375dc9b9d5e36c71cbfeef0"
+    },
+    {
+      "path": "sources/fframes/render-bench/vs-remotion/fframes/Cargo.toml",
+      "bytes": 649,
+      "sha256": "79d0a45b126a4e2786f889e25fe5e03076aacb7fbc3ff3ec69544e93e4884c47"
+    },
+    {
+      "path": "sources/fframes/render-bench/vs-remotion/fframes/src/main.rs",
+      "bytes": 6220,
+      "sha256": "a037e8e01e3ecf0abf19350f0050f10e217fa50a17a5a196db23b07d9d9a94fa"
+    },
+    {
+      "path": "sources/helios/AGENTS.md",
+      "bytes": 7378,
+      "sha256": "9a6ce7f6f36f54934a31e4de962c61b1a54351f080ef2a07092ff74be2df34ad"
+    },
+    {
+      "path": "sources/helios/package-lock.json",
+      "bytes": 480090,
+      "sha256": "1feaea6114ab3cf307ec7b8df87211fd4798468ad19f94b7b77e8dc2074c58cb"
+    },
+    {
+      "path": "sources/helios/packages/renderer/package.json",
+      "bytes": 1259,
+      "sha256": "275cb1fc4818c21d5ccf6cd80b808313817e73111d55931ec5a7129214769174"
+    },
+    {
+      "path": "sources/helios/packages/renderer/src/Orchestrator.ts",
+      "bytes": 8810,
+      "sha256": "04cb3a0bf4baac137a712a240c3641b5a0a50e80768abc59fc29110e6d5ab4dd"
+    },
+    {
+      "path": "sources/helios/packages/renderer/src/Renderer.ts",
+      "bytes": 3078,
+      "sha256": "8241618491870b33620ed1a5e3837aa04ef359083e1609420868190d865f6098"
+    },
+    {
+      "path": "sources/helios/packages/renderer/src/concat.ts",
+      "bytes": 2920,
+      "sha256": "95447a4b071e6c3663d4c696b334948e2259f24dc34c9407849aac494443c27d"
+    },
+    {
+      "path": "sources/helios/packages/renderer/src/core/BrowserPool.ts",
+      "bytes": 7862,
+      "sha256": "68e2379d06d6e22f655188a1ac21337484a29e2ec59e95bf1df93be554f4654c"
+    },
+    {
+      "path": "sources/helios/packages/renderer/src/core/CaptureLoop.ts",
+      "bytes": 24882,
+      "sha256": "8575688942964431ee67dfa7200fc4ae6ddd60160491d37f51c75e9f29af6bee"
+    },
+    {
+      "path": "sources/helios/packages/renderer/src/core/Diagnostics.ts",
+      "bytes": 1975,
+      "sha256": "d74dd3eba7a10b9046e238d78ec62dc102a60e74ca57330ff521722f01e4e6f4"
+    },
+    {
+      "path": "sources/helios/packages/renderer/src/core/FFmpegManager.ts",
+      "bytes": 3578,
+      "sha256": "3ca852a25270cbd6b6a63edd3b4466c87808182d663189e7787ae1a2010d5c63"
+    },
+    {
+      "path": "sources/helios/packages/renderer/src/core/launchBrowser.ts",
+      "bytes": 2603,
+      "sha256": "4b994363ca4b3f83ce410bd8564edcd2c2a227b5a3715c04a922c7a76dd844d1"
+    },
+    {
+      "path": "sources/helios/packages/renderer/src/drivers/CdpTimeDriver.ts",
+      "bytes": 9839,
+      "sha256": "f992d5ba8e643146cb8a37af1d7ab0e257cefd3bf15f52c391b45f43705a9f0e"
+    },
+    {
+      "path": "sources/helios/packages/renderer/src/drivers/SeekTimeDriver.ts",
+      "bytes": 10305,
+      "sha256": "57b8293db50a02f78151a0bbe7fd9a41a4a82a90b6d73be0c425262e29f8c800"
+    },
+    {
+      "path": "sources/helios/packages/renderer/src/drivers/TimeDriver.ts",
+      "bytes": 703,
+      "sha256": "ca45f5f446c8ec224a37f32de9261c7184ce74e18d8ed4f8c0a26f78b616c4aa"
+    },
+    {
+      "path": "sources/helios/packages/renderer/src/drivers/seek-shim.ts",
+      "bytes": 17963,
+      "sha256": "42f1251edbe8d7a4a3443583cd15b09ab40732edb8e4436d86549615132bb5b1"
+    },
+    {
+      "path": "sources/helios/packages/renderer/src/executors/LocalExecutor.ts",
+      "bytes": 468,
+      "sha256": "0205819b8c573757e4f9d031c1e02689fa2a598599ff79f5ead9f61503d0f758"
+    },
+    {
+      "path": "sources/helios/packages/renderer/src/executors/RenderExecutor.ts",
+      "bytes": 228,
+      "sha256": "32708a4b729164316cec784cd6bd1cfa833885238e31a46b7d7717c84fcd9a06"
+    },
+    {
+      "path": "sources/helios/packages/renderer/src/index.ts",
+      "bytes": 806,
+      "sha256": "cd548674ac69e32a9570d759aee5c0cb50e18489aaede33e97daf743eec8ee0b"
+    },
+    {
+      "path": "sources/helios/packages/renderer/src/probe.ts",
+      "bytes": 3592,
+      "sha256": "09968e8d92cb20e940c92bc1f216df19bc7d73d22a303cb27bad72d78a79add0"
+    },
+    {
+      "path": "sources/helios/packages/renderer/src/stills.ts",
+      "bytes": 4762,
+      "sha256": "181a63dd919ea913e17575b0340fc81015a5e9d9fa18e49183a3e61e91035b0f"
+    },
+    {
+      "path": "sources/helios/packages/renderer/src/strategies/CanvasStrategy.ts",
+      "bytes": 24193,
+      "sha256": "079cf8b5f017d7eeb378fb6caf5b189ebfffd999951f1f5961043e3ce8bcbe6b"
+    },
+    {
+      "path": "sources/helios/packages/renderer/src/strategies/DomStrategy.ts",
+      "bytes": 7878,
+      "sha256": "49ce4bfb54cb280923ff158078e202d69bc5e946ab55a5036e3f475cf0a63fbe"
+    },
+    {
+      "path": "sources/helios/packages/renderer/src/strategies/RenderStrategy.ts",
+      "bytes": 2179,
+      "sha256": "847e38774dca1d1bba340c265ee3b1a399db5b44f6140ce80203ac37b12c17a3"
+    },
+    {
+      "path": "sources/helios/packages/renderer/src/types.ts",
+      "bytes": 8758,
+      "sha256": "731700e7a8d6f571cbe8dcd2c60790554f864e8dedb558c9e1b8b004785dcdcd"
+    },
+    {
+      "path": "sources/helios/packages/renderer/src/utils/FFmpegBuilder.ts",
+      "bytes": 10945,
+      "sha256": "f29739481933a80ef78b324ae5b44f0ce45536487ba67325714b05353cacc200"
+    },
+    {
+      "path": "sources/helios/packages/renderer/src/utils/FFmpegInspector.ts",
+      "bytes": 3312,
+      "sha256": "1e331411a9221ac4d204fd11ce2cddee3ee085f1f7e5f760bd76c6b1a193d197"
+    },
+    {
+      "path": "sources/helios/packages/renderer/src/utils/blob-extractor.ts",
+      "bytes": 2261,
+      "sha256": "4a4cf89f7740c8ca46907280cbaaf026c757138e479ec54b272d887b2541e3a6"
+    },
+    {
+      "path": "sources/helios/packages/renderer/src/utils/dom-preload.ts",
+      "bytes": 2728,
+      "sha256": "bdecc2ce8be3f41f3b3e143832eca6581b7f38a3d29ca61cce8cb4d5c9efb911"
+    },
+    {
+      "path": "sources/helios/packages/renderer/src/utils/dom-scanner.ts",
+      "bytes": 3357,
+      "sha256": "117b3f333c9ab5d2d2305faa2217f33d388ec625aa5ba7d58358111f16be9d07"
+    },
+    {
+      "path": "sources/helios/packages/renderer/src/utils/dom-scripts.ts",
+      "bytes": 4470,
+      "sha256": "610f6dfb46ec699a966c55b3a04f7a3eb0142dd54d3bd2ea14b04961d502b407"
+    },
+    {
+      "path": "sources/helios/packages/renderer/src/utils/random-seed.ts",
+      "bytes": 537,
+      "sha256": "0e8c3439bc7f99ce910fbbcdeb686177016a3ba5cafa1dd45140d90a1c8cd75d"
+    },
+    {
+      "path": "sources/helios/tsconfig.json",
+      "bytes": 428,
+      "sha256": "20cf73ffb087e1aabf599f6e03c2e6865186018c63a5a256470909e8824b80e3"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+   Compiling skia-bindings v0.91.0
+warning: helios-gpu@0.1.0: vulkan.mm:29:108: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    29 |         VkExportMetalObjectCreateInfoEXT exportDevice{VK_STRUCTURE_TYPE_EXPORT_METAL_OBJECT_CREATE_INFO_EXT};
+warning: helios-gpu@0.1.0:       |                                                                                                            ^
+warning: helios-gpu@0.1.0: vulkan.mm:31:65: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    31 |         VkApplicationInfo app{VK_STRUCTURE_TYPE_APPLICATION_INFO}; app.pApplicationName="helios-vulkan-interop-probe"; app.apiVersion=VK_API_VERSION_1_1;
+warning: helios-gpu@0.1.0:       |                                                                 ^
+warning: helios-gpu@0.1.0: vulkan.mm:32:71: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    32 |         VkInstanceCreateInfo ic{VK_STRUCTURE_TYPE_INSTANCE_CREATE_INFO}; ic.pNext=&exportDevice; ic.pApplicationInfo=&app; ic.enabledExtensionCount=1; ic.ppEnabledExtensionNames=instExt;
+warning: helios-gpu@0.1.0:       |                                                                       ^
+warning: helios-gpu@0.1.0: vulkan.mm:48:96: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    48 |         float priority=1; VkDeviceQueueCreateInfo qc{VK_STRUCTURE_TYPE_DEVICE_QUEUE_CREATE_INFO}; qc.queueFamilyIndex=family; qc.queueCount=1; qc.pQueuePriorities=&priority;
+warning: helios-gpu@0.1.0:       |                                                                                                ^
+warning: helios-gpu@0.1.0: vulkan.mm:51:67: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    51 |         VkDeviceCreateInfo dc{VK_STRUCTURE_TYPE_DEVICE_CREATE_INFO}; dc.pEnabledFeatures=&features; dc.queueCreateInfoCount=1; dc.pQueueCreateInfos=&qc; dc.enabledExtensionCount=2; dc.ppEnabledExtensionNames=devExt;
+warning: helios-gpu@0.1.0:       |                                                                   ^
+warning: helios-gpu@0.1.0: vulkan.mm:56:109: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    56 |         VkExportMetalObjectCreateInfoEXT exportTexture{VK_STRUCTURE_TYPE_EXPORT_METAL_OBJECT_CREATE_INFO_EXT}; exportTexture.exportObjectType=VK_EXPORT_METAL_OBJECT_TYPE_METAL_TEXTURE_BIT_EXT;
+warning: helios-gpu@0.1.0:       |                                                                                                             ^
+warning: helios-gpu@0.1.0: vulkan.mm:57:91: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    57 |         VkImportMetalTextureInfoEXT import{VK_STRUCTURE_TYPE_IMPORT_METAL_TEXTURE_INFO_EXT}; import.pNext=&exportTexture; import.plane=VK_IMAGE_ASPECT_COLOR_BIT; import.mtlTexture=texture;
+warning: helios-gpu@0.1.0:       |                                                                                           ^
+warning: helios-gpu@0.1.0: vulkan.mm:58:66: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    58 |         VkImageCreateInfo img{VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO}; img.pNext=&import; img.imageType=VK_IMAGE_TYPE_2D; img.format=VK_FORMAT_R8G8B8A8_UNORM; img.extent={uint32_t(texture.width),uint32_t(texture.height),1}; img.mipLevels=1; img.arrayLayers=1; img.samples=VK_SAMPLE_COUNT_1_BIT; img.tiling=VK_IMAGE_TILING_OPTIMAL; img.usage=VK_IMAGE_USAGE_TRANSFER_DST_BIT|VK_IMAGE_USAGE_COLOR_ATTACHMENT_BIT|VK_IMAGE_USAGE_SAMPLED_BIT; img.sharingMode=VK_SHARING_MODE_EXCLUSIVE; img.initialLayout=VK_IMAGE_LAYOUT_UNDEFINED;
+warning: helios-gpu@0.1.0:       |                                                                  ^
+warning: helios-gpu@0.1.0: vulkan.mm:62:93: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    62 |         VkExportMetalTextureInfoEXT exported{VK_STRUCTURE_TYPE_EXPORT_METAL_TEXTURE_INFO_EXT}; exported.image=image; exported.plane=VK_IMAGE_ASPECT_COLOR_BIT;
+warning: helios-gpu@0.1.0:       |                                                                                             ^
+warning: helios-gpu@0.1.0: vulkan.mm:63:87: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    63 |         VkExportMetalObjectsInfoEXT ei{VK_STRUCTURE_TYPE_EXPORT_METAL_OBJECTS_INFO_EXT}; ei.pNext=&exported; exportObjects(device,&ei);
+warning: helios-gpu@0.1.0:       |                                                                                       ^
+warning: helios-gpu@0.1.0: vulkan.mm:66:86: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    66 |         VkExportMetalDeviceInfoEXT gpu{VK_STRUCTURE_TYPE_EXPORT_METAL_DEVICE_INFO_EXT}; ei.pNext=&gpu; exportObjects(device,&ei);
+warning: helios-gpu@0.1.0:       |                                                                                      ^
+warning: helios-gpu@0.1.0: vulkan.mm:68:65: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    68 |         VkFenceCreateInfo fc{VK_STRUCTURE_TYPE_FENCE_CREATE_INFO}; require(vkCreateFence(device,&fc,nullptr,&owner->fence),"fence");
+warning: helios-gpu@0.1.0:       |                                                                 ^
+warning: helios-gpu@0.1.0: 12 warnings generated.
+error: failed to run custom build command for `skia-bindings v0.91.0`
+
+Caused by:
+  process didn't exit successfully: `/private/tmp/helios-gpu-next-target-01a101cb/release/build/skia-bindings-2d65afa4f1c3469b/build-script-build` (exit status: 101)
+  --- stdout
+  cargo:rerun-if-env-changed=DOCS_RS
+  cargo:rerun-if-env-changed=SKIA_DEBUG
+  cargo:rerun-if-env-changed=SKIA_SOURCE_DIR
+  cargo:rerun-if-env-changed=FORCE_SKIA_BUILD
+  cargo:rerun-if-env-changed=FORCE_SKIA_BINARIES_DOWNLOAD
+  STARTING A FULL BUILD
+  HOST: aarch64-apple-darwin
+  cargo:rerun-if-env-changed=CLANGCC
+  cargo:rerun-if-env-changed=CC
+  cargo:rerun-if-env-changed=CLANGCXX
+  cargo:rerun-if-env-changed=CXX
+  cargo:rerun-if-env-changed=OPT_LEVEL
+  cargo:rerun-if-env-changed=SKIA_USE_SYSTEM_LIBRARIES
+  cargo:rerun-if-env-changed=SDKTARGETSYSROOT
+  cargo:rerun-if-env-changed=SDKROOT
+  cargo:rerun-if-env-changed=MACOSX_DEPLOYMENT_TARGET
+  cargo:rerun-if-env-changed=SKIA_NINJA_COMMAND
+  cargo:rerun-if-env-changed=SKIA_GN_COMMAND
+  Probing 'python'
+  Probing 'python3'
+  Python 3 found: "python3"
+  Synchronizing Skia dependencies
+  DOWNLOADING: https://codeload.github.com/rust-skia/skia/tar.gz/m143-0.90.0
+  Skipping "bin".
+  Skipping "infra/skia-infra".
+  Skipping "task_drivers".
+  ...ird_party/externals/libjpeg-turbo > e14cbfaa85529d47f9f55b0f104a579c1061f9ad
+
+  --- stderr
+  fatal: not a git repository (or any of the parent directories): .git
+  fatal: unable to write loose object file: No space left on device
+  fatal: unpack-objects failed
+  error: unable to create temporary file: No space left on device
+  fatal: failed to write object
+  fatal: unpack-objects failed
+  fatal: write error: No space left on device
+  fatal: write error: No space left on device
+  fatal: write error: No space left on device
+  fatal: write error: No space left on device
+  fatal: write error: No space left on device
+  fatal: write error: No space left on device
+  fatal: fetch-pack: invalid index-pack output
+  fatal: fetch-pack: invalid index-pack output
+  fatal: fetch-pack: invalid index-pack output
+  fatal: fetch-pack: invalid index-pack output
+  fatal: fetch-pack: invalid index-pack output
+  fatal: fetch-pack: invalid index-pack output
+  fatal: write error: No space left on device
+  fatal: write error: No space left on device
+  fatal: fetch-pack: invalid index-pack output
+  fatal: fetch-pack: invalid index-pack output
+  error: unable to create file src/dsp/dec_sse2.c: No space left on device
+  error: unable to create file src/dsp/dec_sse41.c: No space left on device
+  error: unable to create file src/dsp/dsp.h: No space left on device
+  error: unable to create file src/dsp/enc.c: No space left on device
+  error: unable to create file src/dsp/enc_mips32.c: No space left on device
+  error: unable to create file src/dsp/enc_mips_dsp_r2.c: No space left on device
+  error: unable to create file src/dsp/enc_msa.c: No space left on device
+  error: unable to create file src/dsp/enc_neon.c: No space left on device
+  error: unable to create file src/dsp/enc_sse2.c: No space left on device
+  error: unable to create file src/dsp/enc_sse41.c: No space left on device
+  error: unable to create file src/dsp/filters.c: No space left on device
+  error: unable to create file src/dsp/filters_mips_dsp_r2.c: No space left on device
+  error: unable to create file src/dsp/filters_msa.c: No space left on device
+  error: unable to create file src/dsp/filters_neon.c: No space left on device
+  error: unable to create file src/dsp/filters_sse2.c: No space left on device
+  error: unable to create file src/dsp/lossless.c: No space left on device
+  error: unable to create file src/dsp/lossless.h: No space left on device
+  error: unable to create file src/dsp/lossless_common.h: No space left on device
+  error: unable to create file src/dsp/lossless_enc.c: No space left on device
+  error: unable to create file src/dsp/lossless_enc_mips32.c: No space left on device
+  error: unable to create file src/dsp/lossless_enc_mips_dsp_r2.c: No space left on device
+  error: unable to create file src/dsp/lossless_enc_msa.c: No space left on device
+  error: unable to create file src/dsp/lossless_enc_neon.c: No space left on device
+  error: unable to create file src/dsp/lossless_enc_sse2.c: No space left on device
+  error: unable to create file src/dsp/lossless_enc_sse41.c: No space left on device
+  error: unable to create file src/dsp/lossless_mips_dsp_r2.c: No space left on device
+  error: unable to create file src/dsp/lossless_msa.c: No space left on device
+  error: unable to create file src/dsp/lossless_neon.c: No space left on device
+  error: unable to create file src/dsp/lossless_sse2.c: No space left on device
+  error: unable to create file src/dsp/lossless_sse41.c: No space left on device
+  error: unable to create file src/dsp/mips_macro.h: No space left on device
+  error: unable to create file src/dsp/msa_macro.h: No space left on device
+  error: unable to create file src/dsp/neon.h: No space left on device
+  error: unable to create file src/dsp/quant.h: No space left on device
+  error: unable to create file src/dsp/rescaler.c: No space left on device
+  error: unable to create file src/dsp/rescaler_mips32.c: No space left on device
+  error: unable to create file src/dsp/rescaler_mips_dsp_r2.c: No space left on device
+  error: unable to create file src/dsp/rescaler_msa.c: No space left on device
+  error: unable to create file src/dsp/rescaler_neon.c: No space left on device
+  error: unable to create file src/dsp/rescaler_sse2.c: No space left on device
+  error: unable to create file src/dsp/ssim.c: No space left on device
+  error: unable to create file src/dsp/ssim_sse2.c: No space left on device
+  error: unable to create file src/dsp/upsampling.c: No space left on device
+  error: unable to create file src/dsp/upsampling_mips_dsp_r2.c: No space left on device
+  error: unable to create file src/dsp/upsampling_msa.c: No space left on device
+  error: unable to create file src/dsp/upsampling_neon.c: No space left on device
+  error: unable to create file src/dsp/upsampling_sse2.c: No space left on device
+  error: unable to create file src/dsp/upsampling_sse41.c: No space left on device
+  error: unable to create file src/dsp/yuv.c: No space left on device
+  error: unable to create file src/dsp/yuv.h: No space left on device
+  error: unable to create file src/dsp/yuv_mips32.c: No space left on device
+  error: unable to write file src/dsp/yuv_mips_dsp_r2.c
+  error: unable to create file src/dsp/yuv_neon.c: No space left on device
+  error: unable to create file src/dsp/yuv_sse2.c: No space left on device
+  error: unable to create file src/dsp/yuv_sse41.c: No space left on device
+  fatal: cannot create directory at 'src/enc': No space left on device
+  fatal: write error: No space left on device
+  fatal: fetch-pack: invalid index-pack output
+  Traceback (most recent call last):
+    File "/private/tmp/helios-gpu-cargo/registry/src/index.crates.io-1949cf8c6b5b557f/skia-bindings-0.91.0/skia/tools/git-sync-deps", line 281, in <module>
+      exit(main(sys.argv[1:]))
+           ~~~~^^^^^^^^^^^^^^
+    File "/private/tmp/helios-gpu-cargo/registry/src/index.crates.io-1949cf8c6b5b557f/skia-bindings-0.91.0/skia/tools/git-sync-deps", line 269, in main
+      git_sync_deps(deps_file_path, argv, shallow, verbose)
+      ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/private/tmp/helios-gpu-cargo/registry/src/index.crates.io-1949cf8c6b5b557f/skia-bindings-0.91.0/skia/tools/git-sync-deps", line 239, in git_sync_deps
+      multithread(git_checkout_to_directory, list_of_arg_lists)
+      ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/private/tmp/helios-gpu-cargo/registry/src/index.crates.io-1949cf8c6b5b557f/skia-bindings-0.91.0/skia/tools/git-sync-deps", line 256, in multithread
+      raise Exception("Thread failure detected")
+  Exception: Thread failure detected
+
+  thread 'main' (5683301) panicked at /private/tmp/helios-gpu-cargo/registry/src/index.crates.io-1949cf8c6b5b557f/skia-bindings-0.91.0/build_support/skia/config.rs:282:9:
+  `skia/tools/git-sync-deps` failed
+  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

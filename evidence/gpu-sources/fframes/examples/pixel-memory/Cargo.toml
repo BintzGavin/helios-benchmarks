@@ -1,0 +1,35 @@
+[package]
+name = "pixel-example"
+version = "1.0.1"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.3.4", features = ["derive"] }
+image = "0.25.5"
+rand = "0.8.5"
+getrandom = { version = "0.2.15", features = ["js"] }
+fframes = { workspace = true, features = ["h264", "h265", "libav-agree-gpl", "exif"] }
+
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+fframes_skia_renderer = { workspace = true, features = ["vulkan", "debug"] }
+# `preview`: real-time GPU window
+fframes_native_player.workspace = true
+
+[target.'cfg(target_os = "macos")'.dependencies]
+fframes_native_player = { workspace = true, features = ["metal"] }
+
+[features]
+cpu = []
+default = ["renderer"]
+renderer = ["fframes/compile-time-svgtree", "fframes/cli"]
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+name = "pixel_memory_example"
+path = "src/lib.rs"
+doctest = false
+
+[[bin]]
+name = "pixel_memory_example_bin"
+path = "src/main.rs"
+required-features = ["renderer"]

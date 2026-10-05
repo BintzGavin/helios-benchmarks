@@ -1,0 +1,26 @@
+{
+  "changedFiles": [
+    "fframes/src/renderer/diagnostic_capture.rs",
+    "fframes/src/renderer/encoder.rs",
+    "fframes/src/renderer/mod.rs",
+    "fframes-skia-renderer/src/frame_export/videotoolbox.rs",
+    "fframes-skia-renderer/src/skia_pipeline.rs",
+    "render-bench/vs-remotion/src/bin/circles-handoff-capture.rs",
+    "render-bench/vs-remotion/src/bin/handoff-color-controls.rs"
+  ],
+  "reviewablePatch": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/capture-adapter.patch",
+  "allFrozenSourcePinsStillMatch": true,
+  "originalExecutableUnchanged": true,
+  "unchangedContracts": [
+    "No concurrency/configuration count change",
+    "FrameScheduler and SegmentWriter ordering unchanged",
+    "Skia CPU completion fence unchanged",
+    "Same original AVFrame and CVPixelBuffer handed to same codec context",
+    "No explicit NV12/color converter replacement",
+    "Existing VideoToolbox buffer ownership callback only observed",
+    "Existing original errors retained; capture adds fail-closed errors"
+  ],
+  "captureSemantics": "Adds per-frame BGRA download/compression/write and event locks; diagnostic scheduling/timing affected; not a production performance lane.",
+  "benchmarkTiming": false,
+  "timingWindowOpen": false
+}

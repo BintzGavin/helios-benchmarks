@@ -1,0 +1,14 @@
+{
+  "case": "encoder-failure",
+  "passed": true,
+  "expectedRefusal": [
+    "Pipe",
+    "ENCODER_EXIT",
+    "ConnectionResetError"
+  ],
+  "observedError": "Refusal: ENCODER_EXIT",
+  "secondsExcludedFromBenchmarks": 0.051406333019258454,
+  "sourceUnchanged": true,
+  "GPUExecuted": false,
+  "atomicFinalExists": false
+}

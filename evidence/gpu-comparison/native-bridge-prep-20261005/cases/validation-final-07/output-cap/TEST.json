@@ -1,0 +1,10 @@
+{
+  "test": "output-cap",
+  "passed": true,
+  "expectedRefusal": "ATTEMPT_OUTPUT_CAP",
+  "observedError": "Refusal:ATTEMPT_OUTPUT_CAP",
+  "secondsExcludedFromBenchmark": 0.030886458000168204,
+  "GPUExecuted": false,
+  "sourceUnchanged": true,
+  "publishedFixtureBinding": false
+}

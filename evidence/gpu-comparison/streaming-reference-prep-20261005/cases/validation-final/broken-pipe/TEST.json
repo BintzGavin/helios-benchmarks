@@ -1,0 +1,10 @@
+{
+  "case": "broken-pipe",
+  "passed": true,
+  "expectedRefusal": "Pipe",
+  "observedError": "BrokenPipeError: [Errno 32] Broken pipe",
+  "secondsExcludedFromBenchmarks": 0.04871270901639946,
+  "sourceUnchanged": true,
+  "GPUExecuted": false,
+  "atomicFinalExists": false
+}

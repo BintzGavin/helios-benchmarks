@@ -1,0 +1,92 @@
+[
+  {
+    "command": [
+      "/usr/bin/git",
+      "diff",
+      "--check",
+      "--",
+      "src/index.ts",
+      "src/tools/memory.ts",
+      "src/tools/sandbox.ts",
+      "src/tools/render-readiness.ts",
+      "test/media-streaming.test.ts",
+      "test/sandbox-audio.test.ts",
+      "test/render-readiness.test.ts",
+      "test-node/render-readiness-bundle.check.mjs"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "git: warning: confstr() failed with code 5: couldn't get path of DARWIN_USER_TEMP_DIR; using /tmp instead\n",
+    "passed": true
+  },
+  {
+    "command": [
+      "/usr/bin/git",
+      "diff",
+      "--no-index",
+      "--check",
+      "/dev/null",
+      "src/tools/render-readiness.ts"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "git: warning: confstr() failed with code 5: couldn't get path of DARWIN_USER_TEMP_DIR; using /tmp instead\n",
+    "passed": true
+  },
+  {
+    "command": [
+      "/usr/bin/git",
+      "diff",
+      "--no-index",
+      "--check",
+      "/dev/null",
+      "test/media-streaming.test.ts"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "git: warning: confstr() failed with code 5: couldn't get path of DARWIN_USER_TEMP_DIR; using /tmp instead\n",
+    "passed": true
+  },
+  {
+    "command": [
+      "/usr/bin/git",
+      "diff",
+      "--no-index",
+      "--check",
+      "/dev/null",
+      "test/sandbox-audio.test.ts"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "git: warning: confstr() failed with code 5: couldn't get path of DARWIN_USER_TEMP_DIR; using /tmp instead\n",
+    "passed": true
+  },
+  {
+    "command": [
+      "/usr/bin/git",
+      "diff",
+      "--no-index",
+      "--check",
+      "/dev/null",
+      "test/render-readiness.test.ts"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "git: warning: confstr() failed with code 5: couldn't get path of DARWIN_USER_TEMP_DIR; using /tmp instead\n",
+    "passed": true
+  },
+  {
+    "command": [
+      "/usr/bin/git",
+      "diff",
+      "--no-index",
+      "--check",
+      "/dev/null",
+      "test-node/render-readiness-bundle.check.mjs"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "git: warning: confstr() failed with code 5: couldn't get path of DARWIN_USER_TEMP_DIR; using /tmp instead\n",
+    "passed": true
+  }
+]

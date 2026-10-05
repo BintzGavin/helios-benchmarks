@@ -1,0 +1,47 @@
+{
+  "recordsVerified": 12,
+  "outputBytesRehashed": 2013842648,
+  "originalTimersPreserved": true,
+  "qualityAndCadence": "pending",
+  "summary": {
+    "timedDeliveredWallMsByWorkers": {
+      "4": [
+        19985.364833,
+        18323.719167,
+        18560.985333
+      ],
+      "6": [
+        17331.969834,
+        16485.412791,
+        16332.966
+      ],
+      "11": [
+        16331.535333,
+        15847.302542,
+        15781.359083
+      ]
+    },
+    "medianTimedDeliveredWallMsByWorkers": {
+      "4": 18560.985333,
+      "6": 16485.412791,
+      "11": 15847.302542
+    },
+    "roundDeliveredWallRatiosTo11Workers": {
+      "4": [
+        1.2237284753391777,
+        1.1562673911498043,
+        1.1761335152049275
+      ],
+      "6": [
+        1.0612578352617277,
+        1.0402661744677886,
+        1.0349530679898287
+      ]
+    },
+    "medianRoundDeliveredWallRatioTo11Workers": {
+      "4": 1.1761335152049275,
+      "6": 1.0402661744677886
+    },
+    "ratioInterpretation": "below 1 favors tested worker count; all-frame quality remains pending"
+  }
+}

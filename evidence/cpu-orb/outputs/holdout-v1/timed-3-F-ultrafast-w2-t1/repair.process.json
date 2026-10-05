@@ -1,0 +1,22 @@
+{
+  "command": [
+    "/usr/bin/ffmpeg",
+    "-v",
+    "error",
+    "-y",
+    "-ignore_editlist",
+    "1",
+    "-i",
+    "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-3-F-ultrafast-w2-t1/original.mp4",
+    "-map",
+    "0:v:0",
+    "-c:v",
+    "copy",
+    "-an",
+    "-use_editlist",
+    "0",
+    "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-3-F-ultrafast-w2-t1/output.mp4"
+  ],
+  "exitCode": 0,
+  "wallNs": 460634610
+}

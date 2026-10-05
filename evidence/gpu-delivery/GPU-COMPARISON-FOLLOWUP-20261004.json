@@ -1,0 +1,67 @@
+{
+  "status": "task-owned compiler cache reclaimed; native chroma delta confirmed read-only; broader comparison blocked",
+  "broaderObjectiveComplete": false,
+  "timingWindowOpen": false,
+  "newBuildExportDecodeOrTiming": false,
+  "competingJobsStarted": false,
+  "cacheCleanup": {
+    "receipt": {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/CONCURRENT-NV12-DISPOSABLE-CACHE-RECLAMATION-20261004.json",
+      "bytes": 337035,
+      "sha256": "1eb384781fe2b079edca34af66f61ef03ba8051f568a5bee953dc461dda089d4"
+    },
+    "exactParentDirectory": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/deps",
+    "suffixes": [
+      ".rlib",
+      ".rmeta"
+    ],
+    "filesRemoved": 854,
+    "nominalBytesRemoved": 846792852,
+    "observedFreeGain": 848916480,
+    "protectedRuntimeRehashed": true,
+    "unrelatedFilesTouched": false
+  },
+  "freeBytesNow": 1052819456,
+  "nativeChromaAudit": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-chroma-contract-20261004/REPORT.json",
+    "bytes": 8269,
+    "sha256": "61f652ef447b6f9e3bc4bf5b2d43501fc62ef96f1862453beba74ff3d3b958c7"
+  },
+  "oldNumericQualityReceiptsInvalidated": false,
+  "nativeChromaCorrectionNeededBeforeAlignedTimings": true,
+  "rootRetainsHarnessAndConformanceOwnership": true,
+  "scope": "new native signaling/reference conformance lane, fresh source/helper/adapter/reference/payload/decode/quality/color pins; old lanes preserved",
+  "mandatoryTimedCost": "SPS-only parameter-template/copy mux included in new export/delivery clocks",
+  "contractDifference": "native pool3; modified fframes64/context with3contexts/5+5workers/queue10",
+  "priorConcurrentLaneFinalManifest": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/RECEIPT-MANIFEST.json",
+    "bytes": 1879082,
+    "sha256": "bce814ca8b37547781642d123d6ba4da114862f123af3b3572cf4a64bd46fe17"
+  },
+  "all10025ManifestFilesRehashedUnchanged": true,
+  "all168SourceAnd6HelperCopiesRehashedUnchanged": true,
+  "independentFinalAudit": {
+    "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/COMPARISON-MONITOR-FFRAMES-CONCURRENT-NV12-FINAL.json",
+    "bytes": 4745,
+    "sha256": "b9fc27c70357a42e9805c9980344b1dbd4a4b6bb4a50e7a46f9d9b307178c28a"
+  },
+  "Library": {
+    "statusReceipt": {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/LIBRARY-GPU-DELIVERY-STATUS-20261004.json",
+      "bytes": 1662,
+      "sha256": "fe58d8c3424095de1689390f1408dd02e6c2147860120bcd048be49cdf7736a8"
+    },
+    "published": false,
+    "newConfirmedIds": []
+  },
+  "remaining": [
+    "several GiB free space for retained balanced outputs/new4K native reference/quality runs",
+    "fresh native chroma-siting conformance correction and qualification",
+    "full4K HEVC/Vulkan qualification",
+    "balanced qualified comparison with included conformance costs",
+    "original-product quality failures remain; no M5 win",
+    "supported Library publication unavailable",
+    "native Vulkan PR destination approval remains pending in native thread"
+  ],
+  "noNativeOptimizationSelected": true
+}

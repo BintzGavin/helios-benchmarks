@@ -1,0 +1,56 @@
+{
+  "rendererPin": "f89cbd572524b70a709ba3569fa23b0bbc8a0d9c",
+  "optimizedSvgPin": "1c2a088217eb3365e965fd8dbd62acf265a07d33",
+  "originalRecordedRendererPin": "04865260b13f66fa5004b472b95877990882de9a",
+  "exactOriginalClaimSource": false,
+  "sourceGap": "Recorded renderer main.rs is1000-square600frame rectangles/filters; current source is documented4K300frame circles. Different pipeline commits.",
+  "allOtherDependencyVersionsPreserved": true,
+  "pathSourceChanges": [
+    [
+      [
+        "svgr",
+        "0.46.0"
+      ],
+      "registry+https://github.com/rust-lang/crates.io-index",
+      null
+    ],
+    [
+      [
+        "svgrtypes",
+        "0.46.0"
+      ],
+      "registry+https://github.com/rust-lang/crates.io-index",
+      null
+    ],
+    [
+      [
+        "usvgr",
+        "0.46.0"
+      ],
+      "registry+https://github.com/rust-lang/crates.io-index",
+      null
+    ]
+  ],
+  "bindings": [
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-circles-claim/Cargo.toml",
+      "bytes": 4778,
+      "sha256": "ddb76fbbee637e933fdfdb388f28ce04b439ef5e6df309b94518db07fae83448"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-circles-claim/Cargo.lock",
+      "bytes": 116645,
+      "sha256": "b94f508dc66fa339eecffa793f2ef9e5782b63a8b2506c9b9d65d98c07347441"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-circles-claim/render-bench/vs-remotion/src/main.rs",
+      "bytes": 9832,
+      "sha256": "3de7fa36afee871e59a6c89c1d78f0f0f2a4409bf5d6580a18183a8ba397950b"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-circles-claim/release/vs-remotion-bench",
+      "bytes": 36678512,
+      "sha256": "7b6c8c6d329ac37e88e5451377c9103ab7a0843eda63e6a92ce9dea74d23e10c"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+import { FFmpegBuilder } from '../utils/FFmpegBuilder.js';
+import { scanForAudioTracks } from '../utils/dom-scanner.js';
+import { extractBlobTracks } from '../utils/blob-extractor.js';
+import { PRELOAD_SCRIPT } from '../utils/dom-preload.js';
+export class DomStrategy {
+    options;
+    discoveredAudioTracks = [];
+    cleanupAudio = () => { };
+    cdpSession = null;
+    lastFrameData = null;
+    cdpScreenshotParams = null;
+    emptyImageBase64 = "";
+    frameInterval = 0;
+    beginFrameParams = {};
+    constructor(options) {
+        this.options = options;
+        if (this.options.videoCodec === 'copy') {
+            throw new Error("DomStrategy produces image sequences and cannot be used with 'copy' codec. Please use a transcoding codec like 'libx264' (default).");
+        }
+    }
+    async diagnose(page) {
+        return await page.evaluate(() => {
+            console.log('[Helios Diagnostics] Checking DOM environment...');
+            let webgl = false;
+            try {
+                const canvas = document.createElement('canvas');
+                webgl = !!(canvas.getContext('webgl') || canvas.getContext('experimental-webgl'));
+            }
+            catch (e) {
+                // ignore
+            }
+            const report = {
+                waapi: typeof document !== 'undefined' && 'timeline' in document,
+                animations: typeof document.getAnimations === 'function' ? 'supported' : 'unsupported',
+                userAgent: navigator.userAgent,
+                viewport: {
+                    width: window.innerWidth,
+                    height: window.innerHeight,
+                    dpr: window.devicePixelRatio || 1
+                },
+                webgl
+            };
+            return report;
+        });
+    }
+    async prepare(page) {
+        const timeout = this.options.stabilityTimeout || 30000;
+        const script = `${PRELOAD_SCRIPT}(${timeout})`;
+        // Execute preloading script in all frames
+        const frames = page.frames();
+        const framePromises = new Array(frames.length);
+        for (let i = 0; i < frames.length; i++) {
+            framePromises[i] = frames[i].evaluate(script);
+        }
+        await Promise.all(framePromises);
+        // Scan for audio tracks using the shared utility
+        const initialTracks = await scanForAudioTracks(page, timeout);
+        // Extract blobs to temp files
+        const extractionResult = await extractBlobTracks(page, initialTracks);
+        this.discoveredAudioTracks = extractionResult.tracks;
+        this.cleanupAudio = extractionResult.cleanup;
+        if (page._sharedCdpSession) {
+            this.cdpSession = page._sharedCdpSession;
+        }
+        else {
+            this.cdpSession = await page.context().newCDPSession(page);
+            page._sharedCdpSession = this.cdpSession;
+        }
+        await this.cdpSession.send('Runtime.enable');
+        // Check if the requested pixel format supports alpha
+        const pixelFormat = this.options.pixelFormat || 'yuv420p';
+        const hasAlpha = pixelFormat.includes('yuva') ||
+            pixelFormat.includes('rgba') ||
+            pixelFormat.includes('bgra') ||
+            pixelFormat.includes('argb') ||
+            pixelFormat.includes('abgr');
+        // Emulate Browser.setDownloadBehavior/etc or use Emulation to set transparent background
+        if (hasAlpha) {
+            await this.cdpSession.send('Emulation.setDefaultBackgroundColorOverride', {
+                color: { r: 0, g: 0, b: 0, a: 0 }
+            }).catch(() => { });
+        }
+        // Cache parameters
+        let format = this.options.intermediateImageFormat;
+        let quality = this.options.intermediateImageQuality;
+        if (!format) {
+            if (hasAlpha) {
+                format = 'png';
+            }
+            else {
+                format = 'jpeg';
+                quality = quality ?? 90;
+            }
+        }
+        const cdpScreenshotParams = { format, optimizeForSpeed: true };
+        if ((format === 'jpeg' || format === 'webp') && quality !== undefined) {
+            cdpScreenshotParams.quality = quality;
+        }
+        this.frameInterval = 1000 / this.options.fps;
+        this.beginFrameParams.interval = this.frameInterval;
+        this.cdpScreenshotParams = cdpScreenshotParams;
+        this.beginFrameParams.screenshot = cdpScreenshotParams;
+        // Set format-appropriate empty buffer
+        if (format === 'jpeg') {
+            // 2x2 JPEG pixel
+            this.emptyImageBase64 = '/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////wgALCAACAAIBAREA/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQABPxA=';
+        }
+        else if (format === 'webp') {
+            // 2x2 WEBP pixel
+            this.emptyImageBase64 = 'UklGRjIAAABXRUJQVlA4ICYAAAAwAQCdASoCAAIACgEAAwBkAGsAIP4B2gAAACH+/4IAAA==';
+        }
+        else {
+            // Default to PNG
+            this.emptyImageBase64 = "iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAFElEQVQIW2NkYGD4z8DAwMgAI0AMDA4wBfQoO4UAAAAASUVORK5CYII=";
+        }
+        this.lastFrameData = this.emptyImageBase64;
+        if (this.options.targetSelector) {
+            const element = await page.waitForSelector(this.options.targetSelector, { state: 'attached', timeout: 5000 }).catch(() => null);
+            if (!element) {
+                throw new Error(`Target element not found: ${this.options.targetSelector}`);
+            }
+            const box = await element.boundingBox();
+            if (box) {
+                this.beginFrameParams.screenshot.clip = {
+                    x: box.x,
+                    y: box.y,
+                    width: box.width,
+                    height: box.height,
+                    scale: 1
+                };
+            }
+        }
+    }
+    processCaptureResult(result) {
+        const data = result.screenshotData;
+        if (data) {
+            this.lastFrameData = data;
+        }
+        return this.lastFrameData;
+    }
+    async capture(page, frameTime) {
+        const timeoutMs = this.options.stabilityTimeout ?? 30000;
+        let timeoutId;
+        try {
+            const result = await Promise.race([
+                this.cdpSession.send('Page.captureScreenshot', {
+                    ...this.cdpScreenshotParams,
+                    fromSurface: true,
+                    ...(this.beginFrameParams.screenshot?.clip
+                        ? { clip: this.beginFrameParams.screenshot.clip }
+                        : {}),
+                }),
+                new Promise((_, reject) => {
+                    timeoutId = setTimeout(() => {
+                        reject(new Error(`DomStrategy.capture watchdog: Page.captureScreenshot exceeded ${timeoutMs}ms (frameTime=${frameTime})`));
+                    }, timeoutMs);
+                }),
+            ]);
+            return {
+                hasDamage: true,
+                screenshotData: result.data,
+            };
+        }
+        finally {
+            if (timeoutId)
+                clearTimeout(timeoutId);
+        }
+    }
+    async finish(page) {
+        if (this.cdpSession) {
+            this.cdpSession = null;
+        }
+    }
+    getFFmpegArgs(options, outputPath) {
+        let inputFormat = 'image2pipe';
+        const format = this.cdpScreenshotParams?.format || 'png';
+        if (format === 'webp') {
+            inputFormat = 'image2pipe';
+        }
+        else if (format === 'jpeg') {
+            inputFormat = 'mjpeg';
+        }
+        else if (format === 'png') {
+            inputFormat = 'image2pipe';
+        }
+        const videoInputArgs = [
+            '-f', inputFormat,
+            ...(format === 'webp' ? ['-vcodec', 'webp'] : []),
+            '-framerate', `${options.fps}`,
+            '-i', '-',
+        ];
+        const combinedOptions = {
+            ...options,
+            audioTracks: [
+                ...(options.audioTracks || []),
+                ...this.discoveredAudioTracks
+            ]
+        };
+        return FFmpegBuilder.getArgs(combinedOptions, outputPath, videoInputArgs);
+    }
+    async cleanup() {
+        await Promise.resolve(this.cleanupAudio());
+    }
+}

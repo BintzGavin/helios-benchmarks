@@ -1,0 +1,23 @@
+{
+  "status": "bounded copied-fixture streaming storage tests passed",
+  "report": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/streaming-reference-prep-20261005/FINAL-REPORT.json",
+    "bytes": 2016,
+    "sha256": "5c60523b593415da76e93a0f6c3fc1194507010818e8e627708bbcdd44bc8028"
+  },
+  "manifest": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/streaming-reference-prep-20261005/RECEIPT-MANIFEST.json",
+    "bytes": 120211,
+    "sha256": "451ee7df0dead74f14ee13ef86b6b37d78ca8e996e07059bdfe28311810a2a34"
+  },
+  "package": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/streaming-bounded-prep-source-receipts-20261005.zip",
+    "bytes": 4997601,
+    "sha256": "8f9b13763ec388aa9ba7a163b946ccc5b559e56c31c8accb20de55ce3cc3e17c",
+    "entries": 573,
+    "crcPassed": true
+  },
+  "confirmedLibraryIds": [],
+  "broaderObjectiveComplete": false,
+  "timingWindowOpen": false
+}

@@ -1,0 +1,1013 @@
+--- a/fframes/src/renderer/diagnostic_capture.rs
++++ b/fframes/src/renderer/diagnostic_capture.rs
+@@ -0,0 +1,483 @@
++//! Task-only, excluded same-stream encoder-handoff capture. Never used for timing.
++//! Downloads a borrowed hardware frame without replacing it or changing encoder options.
++use std::{
++    cell::Cell,
++    collections::{HashMap, HashSet},
++    ffi::{c_int, c_ulong},
++    fs::{File, OpenOptions},
++    io::Write,
++    path::{Path, PathBuf},
++    sync::{Mutex, OnceLock},
++};
++
++use super::{RenderEncodingError, RenderEncodingResult, VideoFrame};
++use crate::media::ffmpeg_sys_fframes::AVPixelFormat;
++
++#[link(name = "z")]
++unsafe extern "C" {
++    fn compressBound(source_len: c_ulong) -> c_ulong;
++    fn compress2(
++        dest: *mut u8,
++        dest_len: *mut c_ulong,
++        source: *const u8,
++        source_len: c_ulong,
++        level: c_int,
++    ) -> c_int;
++}
++
++#[derive(Clone, Copy, Debug, PartialEq, Eq)]
++struct Ticket {
++    index: usize,
++    segment: usize,
++}
++struct Ledger {
++    log: File,
++    seq: usize,
++    frames: HashMap<usize, (Ticket, usize)>,
++    owners: HashMap<usize, Ticket>,
++    captured: HashSet<usize>,
++    submitted: HashSet<usize>,
++    released: HashSet<usize>,
++    callback_error: Option<String>,
++}
++struct Capture {
++    dir: PathBuf,
++    count: usize,
++    offset: usize,
++    width: i32,
++    height: i32,
++    ledger: Mutex<Ledger>,
++}
++static CAPTURE: OnceLock<Capture> = OnceLock::new();
++thread_local! { static TICKET: Cell<Option<Ticket>> = const { Cell::new(None) }; }
++
++fn error(message: impl Into<String>) -> RenderEncodingError {
++    RenderEncodingError::Internal(message.into())
++}
++fn io_error(e: std::io::Error) -> RenderEncodingError {
++    error(format!("excluded capture IO: {e}"))
++}
++fn locked(c: &Capture) -> RenderEncodingResult<std::sync::MutexGuard<'_, Ledger>> {
++    c.ledger
++        .lock()
++        .map_err(|_| error("excluded capture ledger poisoned"))
++}
++fn event(l: &mut Ledger, fields: &str) -> RenderEncodingResult<()> {
++    l.seq += 1;
++    writeln!(
++        l.log,
++        "{{\"seq\":{},\"thread\":\"{:?}\",{}}}",
++        l.seq,
++        std::thread::current().id(),
++        fields
++    )
++    .map_err(io_error)
++}
++
++/// Initializes an explicitly excluded, bounded capture. Existing log/files are refused.
++pub fn initialize(
++    dir: &Path,
++    count: usize,
++    offset: usize,
++    width: i32,
++    height: i32,
++) -> RenderEncodingResult<()> {
++    if !dir.is_absolute()
++        || !(1..=300).contains(&count)
++        || width <= 0
++        || height <= 0
++        || width > 3840
++        || height > 2160
++        || offset > 300
++    {
++        return Err(error("invalid excluded capture bounds"));
++    }
++    std::fs::create_dir_all(dir).map_err(io_error)?;
++    let log = OpenOptions::new()
++        .write(true)
++        .create_new(true)
++        .open(dir.join("handoff.jsonl"))
++        .map_err(io_error)?;
++    CAPTURE
++        .set(Capture {
++            dir: dir.to_owned(),
++            count,
++            offset,
++            width,
++            height,
++            ledger: Mutex::new(Ledger {
++                log,
++                seq: 0,
++                frames: HashMap::new(),
++                owners: HashMap::new(),
++                captured: HashSet::new(),
++                submitted: HashSet::new(),
++                released: HashSet::new(),
++                callback_error: None,
++            }),
++        })
++        .map_err(|_| error("capture already initialized"))?;
++    let c = CAPTURE
++        .get()
++        .ok_or_else(|| error("capture initialization lost"))?;
++    event(
++        &mut *locked(c)?,
++        &format!(
++            "\"event\":\"initialize\",\"frames\":{count},\"sourceOffset\":{offset},\"width\":{width},\"height\":{height},\"benchmarkTiming\":false,\"zeroCopyProved\":false"
++        ),
++    )
++}
++
++/// Records policy-derived counts without changing them.
++pub fn pipeline(
++    gpu: usize,
++    generators: usize,
++    encoders: usize,
++    configured: usize,
++    queue: usize,
++    offset: usize,
++    frames: usize,
++) -> RenderEncodingResult<()> {
++    if let Some(c) = CAPTURE.get() {
++        if c.offset != offset || c.count != frames {
++            return Err(error("capture range disagrees with actual pipeline"));
++        }
++        event(
++            &mut *locked(c)?,
++            &format!(
++                "\"event\":\"pipeline\",\"gpuContexts\":{gpu},\"generators\":{generators},\"encoderWorkers\":{encoders},\"configuredEncoderThreads\":{configured},\"queueSize\":{queue}"
++            ),
++        )?;
++    }
++    Ok(())
++}
++
++/// Records each actually started worker, independently from configured counts.
++pub fn worker(role: &str) -> RenderEncodingResult<()> {
++    if !matches!(role, "generator" | "gpu" | "encoder") {
++        return Err(error("invalid worker role"));
++    }
++    if let Some(c) = CAPTURE.get() {
++        event(
++            &mut *locked(c)?,
++            &format!("\"event\":\"worker-start\",\"role\":\"{role}\""),
++        )?;
++    }
++    Ok(())
++}
++
++/// Associates a scheduler claim with the synchronous render on this GPU thread.
++pub fn begin_render(index: usize, segment: usize) {
++    if CAPTURE.get().is_some() {
++        TICKET.set(Some(Ticket { index, segment }));
++    }
++}
++/// Clears the ticket on success or renderer failure.
++pub fn end_render() {
++    TICKET.set(None);
++}
++
++/// Called only AFTER the unchanged Skia CPU completion fence, while the frame is owned.
++pub fn gpu_complete(frame: &VideoFrame, renderer: usize) -> RenderEncodingResult<()> {
++    let Some(c) = CAPTURE.get() else {
++        return Ok(());
++    };
++    let Some(t) = TICKET.get() else {
++        return Ok(());
++    }; // Negotiation/trial frame, never a candidate.
++    let (ptr, pixel, buffer) = identity(frame)?;
++    let mut l = locked(c)?;
++    if t.index >= c.count || l.frames.contains_key(&ptr) || l.owners.contains_key(&pixel) {
++        return Err(error("duplicate/live frame identity"));
++    }
++    l.frames.insert(ptr, (t, pixel));
++    l.owners.insert(pixel, t);
++    event(
++        &mut l,
++        &format!(
++            "\"event\":\"gpu-complete\",\"index\":{},\"sourceIndex\":{},\"segment\":{},\"avframe\":{ptr},\"pixelBuffer\":{pixel},\"avbuffer\":{buffer},\"renderer\":{renderer},\"fence\":\"flush_submit_and_sync_cpu returned\"",
++            t.index,
++            t.index + c.offset,
++            t.segment
++        ),
++    )
++}
++
++fn identity(frame: &VideoFrame) -> RenderEncodingResult<(usize, usize, usize)> {
++    let raw = unsafe { &*frame.as_ptr() };
++    if raw.format != AVPixelFormat::AV_PIX_FMT_VIDEOTOOLBOX as i32
++        || raw.data[3].is_null()
++        || raw.buf[0].is_null()
++    {
++        return Err(error("capture requires original owned VideoToolbox frame"));
++    }
++    Ok((
++        frame.as_ptr() as usize,
++        raw.data[3] as usize,
++        raw.buf[0] as usize,
++    ))
++}
++
++fn packed_rows(
++    data: &[u8],
++    stride: usize,
++    row: usize,
++    height: usize,
++) -> RenderEncodingResult<Vec<u8>> {
++    let required = stride
++        .checked_mul(height)
++        .ok_or_else(|| error("row bounds overflow"))?;
++    if stride < row || data.len() < required {
++        return Err(error("invalid BGRA row bounds"));
++    }
++    let mut result = Vec::with_capacity(
++        row.checked_mul(height)
++            .ok_or_else(|| error("packed bounds overflow"))?,
++    );
++    for line in data[..required].chunks_exact(stride) {
++        result.extend_from_slice(&line[..row]);
++    }
++    Ok(result)
++}
++fn compress(bytes: &[u8]) -> RenderEncodingResult<Vec<u8>> {
++    let mut size = unsafe { compressBound(bytes.len() as c_ulong) };
++    let mut out = vec![0; size as usize];
++    let status = unsafe {
++        compress2(
++            out.as_mut_ptr(),
++            &raw mut size,
++            bytes.as_ptr(),
++            bytes.len() as c_ulong,
++            1,
++        )
++    };
++    if status != 0 {
++        return Err(error(format!("zlib capture failed {status}")));
++    }
++    out.truncate(size as usize);
++    Ok(out)
++}
++
++/// Downloads the exact borrowed input immediately before avcodec_send_frame. The original
++/// AVFrame/CVPixelBuffer/AVBufferRef remain unchanged and owned throughout download/write.
++pub fn before_send(
++    frame: &VideoFrame,
++    pts: i64,
++    encoder: usize,
++    segment: usize,
++) -> RenderEncodingResult<()> {
++    let Some(c) = CAPTURE.get() else {
++        return Ok(());
++    };
++    let before = identity(frame)?;
++    let t = {
++        let mut l = locked(c)?;
++        let (t, pixel) = *l
++            .frames
++            .get(&before.0)
++            .ok_or_else(|| error("no completed source GPU frame"))?;
++        if pts != t.index as i64
++            || segment != t.segment
++            || pixel != before.1
++            || !l.captured.insert(t.index)
++        {
++            return Err(error("handoff ticket/segment mismatch or duplicate"));
++        }
++        event(
++            &mut l,
++            &format!(
++                "\"event\":\"capture-begin\",\"index\":{},\"segment\":{segment},\"encoder\":{encoder},\"avframe\":{},\"pixelBuffer\":{},\"avbuffer\":{}",
++                t.index, before.0, before.1, before.2
++            ),
++        )?;
++        t
++    };
++    let downloaded = frame.download()?;
++    let raw = unsafe { &*downloaded.as_ptr() };
++    if raw.width != c.width
++        || raw.height != c.height
++        || raw.format != AVPixelFormat::AV_PIX_FMT_BGRA as i32
++        || raw.data[0].is_null()
++        || raw.linesize[0] < c.width * 4
++    {
++        return Err(error(
++            "downloaded hardware frame is not expected BGRA geometry",
++        ));
++    }
++    let data = unsafe {
++        std::slice::from_raw_parts(raw.data[0], raw.linesize[0] as usize * c.height as usize)
++    };
++    let packed = packed_rows(
++        data,
++        raw.linesize[0] as usize,
++        c.width as usize * 4,
++        c.height as usize,
++    )?;
++    let compressed = compress(&packed)?;
++    let mut file = OpenOptions::new()
++        .write(true)
++        .create_new(true)
++        .open(c.dir.join(format!("{:06}.bgra.zlib", t.index)))
++        .map_err(io_error)?;
++    file.write_all(&compressed).map_err(io_error)?;
++    file.flush().map_err(io_error)?;
++    if before != identity(frame)? {
++        return Err(error("capture changed original hardware identity"));
++    }
++    let mut l = locked(c)?;
++    event(
++        &mut l,
++        &format!(
++            "\"event\":\"capture-complete\",\"index\":{},\"sourceIndex\":{},\"segment\":{segment},\"encoder\":{encoder},\"avframe\":{},\"pixelBuffer\":{},\"avbuffer\":{},\"packedBytes\":{},\"compressedBytes\":{},\"downloadFormat\":\"bgra\",\"originalIdentityUnchanged\":true",
++            t.index,
++            t.index + c.offset,
++            before.0,
++            before.1,
++            before.2,
++            packed.len(),
++            compressed.len()
++        ),
++    )?;
++    event(
++        &mut l,
++        &format!(
++            "\"event\":\"encoder-send-begin\",\"index\":{},\"segment\":{segment},\"encoder\":{encoder},\"pts\":{pts}",
++            t.index
++        ),
++    )
++}
++
++/// Observes the original send result; never replaces or manually recycles the frame.
++pub fn after_send(
++    frame: &VideoFrame,
++    pts: i64,
++    encoder: usize,
++    success: bool,
++) -> RenderEncodingResult<()> {
++    if let Some(c) = CAPTURE.get() {
++        let (ptr, pixel, buffer) = identity(frame)?;
++        let mut l = locked(c)?;
++        let (t, original) = l
++            .frames
++            .remove(&ptr)
++            .ok_or_else(|| error("missing frame after send"))?;
++        if original != pixel || pts != t.index as i64 || !success || !l.submitted.insert(t.index) {
++            return Err(error("encoder send failed or identity changed"));
++        }
++        event(
++            &mut l,
++            &format!(
++                "\"event\":\"encoder-send-return\",\"index\":{},\"segment\":{},\"encoder\":{encoder},\"avframe\":{ptr},\"pixelBuffer\":{pixel},\"avbuffer\":{buffer},\"success\":true",
++                t.index, t.segment
++            ),
++        )?;
++    }
++    Ok(())
++}
++
++/// Records successful completion of the original codec flush, after packet draining.
++pub fn drained(encoder: usize) -> RenderEncodingResult<()> {
++    if let Some(c) = CAPTURE.get() {
++        event(
++            &mut *locked(c)?,
++            &format!("\"event\":\"encoder-drained\",\"encoder\":{encoder}"),
++        )?;
++    }
++    Ok(())
++}
++
++/// Observes the existing AVBuffer final-reference callback, not opaque encoder ownership.
++/// Cannot return an error across C ABI; records one for mandatory finalization instead.
++pub fn avbuffer_release(pixel: usize) {
++    if let Some(c) = CAPTURE.get() {
++        if let Ok(mut l) = c.ledger.lock() {
++            if let Some(t) = l.owners.remove(&pixel) {
++                l.released.insert(t.index);
++                if let Err(e) = event(
++                    &mut l,
++                    &format!(
++                        "\"event\":\"avbuffer-final-reference-release\",\"index\":{},\"segment\":{},\"pixelBuffer\":{pixel},\"opaqueEncoderOwnershipKnown\":false",
++                        t.index, t.segment
++                    ),
++                ) {
++                    l.callback_error = Some(format!("{e:?}"));
++                }
++            }
++        }
++    }
++}
++/// Requires all indexed captures, sends and AVBuffer callbacks, with no outstanding ticket.
++pub fn finalize() -> RenderEncodingResult<()> {
++    let c = CAPTURE
++        .get()
++        .ok_or_else(|| error("capture not initialized"))?;
++    let mut l = locked(c)?;
++    let expected: HashSet<_> = (0..c.count).collect();
++    if l.captured != expected
++        || l.submitted != expected
++        || l.released != expected
++        || !l.frames.is_empty()
++        || !l.owners.is_empty()
++        || l.callback_error.is_some()
++    {
++        return Err(error(format!(
++            "incomplete capture ledger: captured={}, submitted={}, released={}, error={:?}",
++            l.captured.len(),
++            l.submitted.len(),
++            l.released.len(),
++            l.callback_error
++        )));
++    }
++    event(
++        &mut l,
++        "\"event\":\"finalize\",\"passed\":true,\"benchmarkTiming\":false,\"opaqueEncoderOwnershipKnown\":false",
++    )?;
++    l.log.flush().map_err(io_error)
++}
++
++#[cfg(test)]
++mod tests {
++    use super::*;
++    #[test]
++    fn packs_padding_without_changing_pixels() {
++        assert_eq!(
++            packed_rows(&[1, 2, 3, 4, 90, 91, 5, 6, 7, 8, 92, 93], 6, 4, 2).unwrap(),
++            vec![1, 2, 3, 4, 5, 6, 7, 8]
++        );
++    }
++    #[test]
++    fn rejects_short_stride_and_overflow() {
++        assert!(packed_rows(&[0; 8], 3, 4, 2).is_err());
++        assert!(packed_rows(&[], usize::MAX, 4, 2).is_err());
++        assert!(packed_rows(&[0; 7], 4, 4, 2).is_err());
++    }
++    #[test]
++    fn zlib_roundtrip_preserves_all_bytes() {
++        #[link(name = "z")]
++        unsafe extern "C" {
++            fn uncompress(
++                dest: *mut u8,
++                size: *mut c_ulong,
++                source: *const u8,
++                len: c_ulong,
++            ) -> c_int;
++        }
++        let input: Vec<u8> = (0..65536).map(|i| (i * 37 % 256) as u8).collect();
++        let compressed = compress(&input).unwrap();
++        let mut output = vec![0; input.len()];
++        let mut size = output.len() as c_ulong;
++        assert_eq!(
++            unsafe {
++                uncompress(
++                    output.as_mut_ptr(),
++                    &raw mut size,
++                    compressed.as_ptr(),
++                    compressed.len() as c_ulong,
++                )
++            },
++            0
++        );
++        assert_eq!(size as usize, input.len());
++        assert_eq!(output, input);
++    }
++}
+--- a/fframes/src/renderer/encoder.rs
++++ b/fframes/src/renderer/encoder.rs
+@@ -478,7 +478,12 @@
+             let oc = self.oc;
+             (*frame.as_ptr()).pts = pts;
+ 
+-            Self::send_raw_frame(stream, frame.as_ptr(), packet, |packet| {
++            let diagnostic_segment = if std::env::var_os("FFRAMES_HANDOFF_CAPTURE").is_some() {
++                let url = std::ffi::CStr::from_ptr((*oc).url).to_str().map_err(|_| renderer_error::RenderEncodingError::Internal("invalid segment URL".into()))?;
++                std::path::Path::new(url).file_stem().and_then(|s| s.to_str()).and_then(|s| s.parse::<usize>().ok()).ok_or_else(|| renderer_error::RenderEncodingError::Internal("invalid segment identity".into()))?
++            } else { 0 };
++            super::diagnostic_capture::before_send(frame, pts, stream.enc as usize, diagnostic_segment)?;
++            let result = Self::send_raw_frame(stream, frame.as_ptr(), packet, |packet| {
+                 // VideoToolbox can return packets without a duration. Our video time
+                 // base is one frame, including the final packet: otherwise MP4 can
+                 // end its edit list at that frame's PTS and discard the last picture.
+@@ -489,7 +494,12 @@
+ 
+                 (*packet).stream_index = (*stream.st).index;
+                 av_interleaved_write_frame(oc, packet)
+-            })
++            });
++            // Preserve the codec failure; mandatory capture finalization will fail too.
++            if result.is_ok() {
++                super::diagnostic_capture::after_send(frame, pts, stream.enc as usize, true)?;
++            }
++            result
+         }
+     }
+ 
+@@ -536,6 +546,9 @@
+                 }
+             };
+             av_packet_free(&raw mut packet);
++            if result.is_ok() && matches!(stream.variant, stream::StreamVariant::Video) {
++                super::diagnostic_capture::drained(stream.enc as usize)?;
++            }
+ 
+             result
+         }
+--- a/fframes/src/renderer/mod.rs
++++ b/fframes/src/renderer/mod.rs
+@@ -14,6 +14,9 @@
+ pub use frame_export::*;
+ mod renderer_font_source;
+ mod stream;
++
++#[doc(hidden)]
++pub mod diagnostic_capture;
+ 
+ mod encoder;
+ pub use encoder::*;
+--- a/fframes-skia-renderer/src/frame_export/videotoolbox.rs
++++ b/fframes-skia-renderer/src/frame_export/videotoolbox.rs
+@@ -124,6 +124,7 @@
+ 
+ /// Releases the pixel buffer of a frame once libav and the encoder are done with it.
+ unsafe extern "C" fn release_pixel_buffer(_opaque: *mut c_void, data: *mut u8) {
++    fframes::diagnostic_capture::avbuffer_release(data as usize);
+     unsafe { CVPixelBufferRelease(data.cast()) }
+ }
+ 
+@@ -384,6 +385,8 @@
+         // The encoder reads the pixel buffer as soon as it gets the frame, the GPU has to
+         // be done with it by then.
+         gpu.flush_submit_and_sync_cpu();
++        fframes::diagnostic_capture::gpu_complete(&frame, self as *const Self as usize)
++            .map_err(|err| FFramesRendererError::from_chunk(0, err))?;
+ 
+         drop(surface);
+         drop(texture);
+--- a/fframes-skia-renderer/src/skia_pipeline.rs
++++ b/fframes-skia-renderer/src/skia_pipeline.rs
+@@ -161,6 +161,8 @@
+             .video_encoder_options
+             .min_segment_frames(ctx.time_base.fps),
+     );
++    fframes::diagnostic_capture::pipeline(gpu_contexts, scheduler.workers(), scheduler.workers(), workers, queue_size, frame_offset, frame_range.len())
++        .map_err(|err| FFramesRendererError::from_chunk(0, err))?;
+     let writer = SegmentWriter::new(
+         directory,
+         &extension,
+@@ -326,6 +328,7 @@
+     failed: &AtomicBool,
+     #[cfg(feature = "debug")] metrics: Arc<crate::metrics::ThreadMetrics>,
+ ) -> FFramesRendererResult<()> {
++    fframes::diagnostic_capture::worker("generator").map_err(|err| FFramesRendererError::from_chunk(0, err))?;
+     let break_lines_cache = TextCache::new(10);
+     let mut converter_cache = usvgr::Cache::new_with_text_cache(text_cache_capacity);
+     // x2 because sometimes we might need to decode 2 frames at once
+@@ -396,6 +399,7 @@
+     cache_config: SkiaCacheConfig,
+     #[cfg(feature = "debug")] metrics: Arc<crate::metrics::ThreadMetrics>,
+ ) -> FFramesRendererResult<()> {
++    fframes::diagnostic_capture::worker("gpu").map_err(|err| FFramesRendererError::from_chunk(0, err))?;
+     // Keeps the surfaces, the GPU context and the render cache (static paths and images are
+     // converted only once) across frames.
+     let mut renderer = SkiaEncoderFrameRenderer::new(
+@@ -430,7 +434,10 @@
+         #[cfg(feature = "debug")]
+         let start = Instant::now();
+ 
+-        let rendered = renderer.render(&tree, background_color, |size| buffers.take(size))?;
++        fframes::diagnostic_capture::begin_render(claim.frame, claim.segment);
++        let rendered_result = renderer.render(&tree, background_color, |size| buffers.take(size));
++        fframes::diagnostic_capture::end_render();
++        let rendered = rendered_result?;
+ 
+         // Video-frame images view the tree's pixel buffers without
+         // copying, so the tree has to outlive the flush inside `render`.
+@@ -460,6 +467,7 @@
+     failed: &AtomicBool,
+     #[cfg(feature = "debug")] metrics: Arc<crate::metrics::ThreadMetrics>,
+ ) -> FFramesRendererResult<()> {
++    fframes::diagnostic_capture::worker("encoder").map_err(|err| FFramesRendererError::from_chunk(0, err))?;
+     while let Some(RenderedFrame { claim, rendered }) = {
+         #[cfg(feature = "debug")]
+         let wait_start = Instant::now();
+--- a/render-bench/vs-remotion/src/bin/circles-handoff-capture.rs
++++ b/render-bench/vs-remotion/src/bin/circles-handoff-capture.rs
+@@ -0,0 +1,265 @@
++//! Fixed scene benchmark: wall-clock time to render a complete H.264 MP4.
++use std::{path::Path, time::Instant};
++
++use fframes::{
++    AudioMap, Color, Duration, EncoderOptions, FFramesContext, FFramesLoggerVariant,
++    FFramesRenderBackend, Frame, RenderOptions, StaticMediaProvider, Svgr, Transform, Video,
++    cpu::CpuRenderingBackend,
++};
++use fframes_skia_renderer::{
++    SkiaBackend, SkiaCacheConfig, SkiaFFramesRenderer, SkiaPipelineConcurrencyPolicy,
++    SkiaPipelineConfig,
++};
++
++fframes::include_media_dir!(struct BenchMedia, "render-bench/vs-remotion/media");
++
++const VIDEO_WIDTH: usize = 3840;
++const VIDEO_HEIGHT: usize = 2160;
++const CIRCLES: usize = 99_000;
++const TEXTS: usize = 1000;
++const NODES: usize = CIRCLES + TEXTS;
++const PANELS: usize = 20;
++const PER_PANEL: usize = NODES / PANELS;
++const TEXT_STEP: usize = NODES / TEXTS;
++const CACHE_CAPACITY: usize = 100_000;
++const FRAMES: usize = 300;
++const WARMUP: usize = 3;
++const CACHE: SkiaCacheConfig = SkiaCacheConfig {
++    text_capacity: CACHE_CAPACITY,
++    geometry_capacity: CACHE_CAPACITY,
++    geometry_bytes: CACHE_CAPACITY * 512,
++};
++
++fn cpu_backend() -> CpuRenderingBackend {
++    CpuRenderingBackend {
++        concurrency: fframes::get_thread_count(),
++        text_cache_capacity: CACHE_CAPACITY,
++        ..Default::default()
++    }
++}
++
++fn circle_radius(slot: usize, frame: usize) -> f64 {
++    if slot % 10 != 1 {
++        return (16 + slot % 4 * 4) as f64;
++    }
++    let phase = ((slot + frame) % 60) as f64;
++    let (progress, from, to) = if phase <= 30. {
++        (phase / 30., 16., 28.)
++    } else {
++        ((phase - 30.) / 30., 28., 16.)
++    };
++    let amount = progress * progress * (3. - 2. * progress);
++    amount * (to - from) + from
++}
++
++struct Grid;
++
++impl Video for Grid {
++    const FPS: usize = 30;
++    const WIDTH: usize = VIDEO_WIDTH;
++    const HEIGHT: usize = VIDEO_HEIGHT;
++    const BACKGROUND_COLOR: Color = Color::hex("#18202c");
++    fn duration(&self) -> Duration<'_> {
++        Duration::Frames(FRAMES + WARMUP)
++    }
++    fn audio(&self) -> AudioMap<'_> {
++        AudioMap::none()
++    }
++    fn render_frame<'a>(&'a self, frame: Frame, _ctx: &FFramesContext<'a, '_>) -> Svgr<'a> {
++        let panels: Vec<_> = (0..PANELS)
++            .map(|panel| {
++                let circles: Vec<_> = (panel * PER_PANEL..(panel + 1) * PER_PANEL)
++                    .filter(|slot| slot % TEXT_STEP != 0)
++                    .map(|slot| {
++                        let id = (slot + frame.index * 37) % NODES;
++                        let radius = circle_radius(slot, frame.index);
++                        let fill = Color::rgba(
++                            ((id * 13 + frame.index * 17) % 256) as u8,
++                            ((id * 7 + frame.index * 29) % 256) as u8,
++                            ((id * 3 + frame.index * 43) % 256) as u8,
++                            255,
++                        );
++                        fframes::svgr!(<circle cx={32 + (slot * 13 + frame.index * 3) % 128}
++                        cy={32 + (slot * 17 + frame.index * 5) % 176}
++                        r={radius} fill={fill} />)
++                    })
++                    .collect();
++                let transform =
++                    Transform::translate((panel % 5 * 200) as f64, (panel / 5 * 250) as f64);
++                fframes::svgr!(<g transform={transform}>{circles}</g>)
++            })
++            .collect();
++        let texts: Vec<_> = (0..NODES).step_by(TEXT_STEP).map(|slot| {
++            let panel = slot / PER_PANEL;
++            let index = slot % PER_PANEL / TEXT_STEP;
++            let id = (slot + frame.index * 37) % NODES;
++            fframes::svgr!(<text x={panel % 5 * 200 + 24 + index % 10 * 16}
++                y={panel / 5 * 250 + 40 + index / 10 * 40}
++                font-family="DM Sans" font-size="16" fill="#fff">{((id + frame.index) % 10).to_string()}</text>)
++        }).collect();
++        fframes::svgr!(
++            <svg xmlns="http://www.w3.org/2000/svg" width={VIDEO_WIDTH} height={VIDEO_HEIGHT}
++                viewBox="0 0 1000 1000" preserveAspectRatio="none">
++                {panels}
++                {texts}
++            </svg>
++        )
++    }
++}
++
++use fframes::{EncoderFrameRenderer, MediaDirectory, Previewer, VideoEncoderInfo};
++use fframes_skia_renderer::{FrameExportPath, SkiaEncoderFrameRenderer, SkiaFrameExport};
++use std::io::Write;
++fn main() -> Result<(), Box<dyn std::error::Error>> {
++    let args: Vec<_> = std::env::args().collect();
++    if args.len() != 6 {
++        return Err(
++            "usage: circles-high-quality-adapter raw|hardware OUTPUT FONT_DIRECTORY FRAMES BITRATE"
++                .into(),
++        );
++    }
++    let mode = args[1].as_str();
++    if mode != "raw" && mode != "hardware" && mode != "raw-hardware" {
++        return Err("unknown mode".into());
++    }
++    let frames: usize = args[4].parse()?;
++    if frames == 0 || frames > 300 {
++        return Err("frame count must be 1..300".into());
++    }
++    let bitrate: i64 = args[5].parse()?;
++    if bitrate < 100_000 || bitrate > 1_000_000_000 {
++        return Err("bitrate out of range".into());
++    }
++    if mode != "hardware" {
++        return Err("same-stream diagnostic requires original hardware pipeline".into());
++    }
++    let capture =
++        std::env::var_os("FFRAMES_HANDOFF_CAPTURE").ok_or("FFRAMES_HANDOFF_CAPTURE required")?;
++    fframes::diagnostic_capture::initialize(Path::new(&capture), frames, WARMUP, 3840, 2160)
++        .map_err(|e| format!("{e:?}"))?;
++    let started = Instant::now();
++    let folder = MediaDirectory::read_folder(&args[3])?;
++    let media = folder.process_media_source()?;
++    let video = Grid;
++    let device = fframes_skia_renderer::metal::metal_rs::Device::system_default()
++        .ok_or("no Metal device")?;
++    let device_name = device.name().to_owned();
++    let queue = device.new_command_queue();
++    let ctx =
++        fframes_skia_renderer::metal::SkiaMetalCtx::new_with_device(device, queue, 3840, 2160)?;
++    let config = SkiaPipelineConfig {
++        concurrency_policy: SkiaPipelineConcurrencyPolicy::MaxPerformance,
++        cache: CACHE,
++        ..Default::default()
++    };
++    let backend = SkiaFFramesRenderer::new(config, &ctx);
++    let codec_params = [("allow_sw", "0"), ("threads", "1"), ("bf", "0")];
++    let options = RenderOptions {
++        media: Some(&media),
++        load_system_fonts: false,
++        default_font: "DM Sans",
++        logger: FFramesLoggerVariant::Silent,
++        frame_range: Some(WARMUP..WARMUP + frames),
++        video_encoder_options: EncoderOptions {
++            preferred_encoder: Some("h264_videotoolbox"),
++            codec_params: Some(&codec_params),
++            bitrate: Some(bitrate),
++            gop_size: 30,
++            qmin: 0,
++            qmax: 69,
++            ..Default::default()
++        },
++        ..Default::default()
++    };
++    if mode == "raw" {
++        let mut preview = Previewer::new(&video, &options)?;
++        let mut renderer = backend.frame_renderer().ok_or("no GPU frame renderer")?;
++        let mut stdout = std::io::stdout().lock();
++        for index in 0..frames {
++            let frame = preview.render(WARMUP + index, &mut renderer)?;
++            if frame.width != 3840 || frame.height != 2160 || frame.pixels.len() != 3840 * 2160 * 4
++            {
++                return Err("bad raw geometry".into());
++            }
++            stdout.write_all(&frame.pixels)?;
++        }
++        stdout.flush()?;
++        eprintln!(
++            "{}",
++            serde_json::json!({"mode":"raw", "frames":frames, "device":device_name,
++            "rasterizer":"skia-metal", "explicitRawReadbackBytes":frames*3840*2160*4,
++            "renderingMs":started.elapsed().as_secs_f64()*1000., "zeroCopyProved":false})
++        );
++    } else {
++        let out = Path::new(&args[2]);
++        if let Some(parent) = out.parent() {
++            std::fs::create_dir_all(parent)?;
++        }
++        let info =
++            VideoEncoderInfo::for_output(out, (3840, 2160, 30), &options.video_encoder_options)
++                .map_err(|e| std::io::Error::other(format!("{e:?}")))?;
++        if info.name() != "h264_videotoolbox" {
++            return Err("required VideoToolbox encoder unavailable".into());
++        }
++        let input = backend
++            .negotiate_encoder_input(&info)
++            .map_err(|e| std::io::Error::other(format!("{e:?}")))?;
++        if !input.is_hardware() {
++            return Err("required hardware-frame interop unavailable".into());
++        }
++        let renderer =
++            SkiaEncoderFrameRenderer::new(&ctx, SkiaFrameExport::Auto, &input, 3840, 2160)?;
++        if renderer.path() != FrameExportPath::HardwareFrames {
++            return Err("hardware frame negotiation mismatch".into());
++        }
++        drop(renderer);
++        if mode == "raw-hardware" {
++            let mut preview = Previewer::new(&video, &options)?;
++            let mut renderer =
++                SkiaEncoderFrameRenderer::new(&ctx, SkiaFrameExport::Auto, &input, 3840, 2160)?;
++            let mut stdout = std::io::stdout().lock();
++            for index in 0..frames {
++                let tree = preview.svg_tree(WARMUP + index)?;
++                let frame = renderer.render_tree(&tree, Grid::BACKGROUND_COLOR)?;
++                let downloaded = frame
++                    .download()
++                    .map_err(|e| std::io::Error::other(format!("{e:?}")))?;
++                let raw = unsafe { &*downloaded.as_ptr() };
++                if raw.format != fframes::ffmpeg_sys_fframes::AVPixelFormat::AV_PIX_FMT_BGRA as i32
++                    || raw.width != 3840
++                    || raw.height != 2160
++                    || raw.linesize[0] < 3840 * 4
++                {
++                    return Err("hardware reference download has unexpected format".into());
++                }
++                for y in 0..2160 {
++                    let row = unsafe {
++                        std::slice::from_raw_parts(
++                            raw.data[0].offset((y * raw.linesize[0]) as isize),
++                            3840 * 4,
++                        )
++                    };
++                    stdout.write_all(row)?;
++                }
++            }
++            stdout.flush()?;
++            eprintln!(
++                "{}",
++                serde_json::json!({"mode":"raw-hardware","frames":frames,"source":"actual BGRA hardware frames, explicit reference-only download","zeroCopyProved":false})
++            );
++            return Ok(());
++        }
++        // The comparison diagnostic patch also rejects a fallback in every actual pipeline worker.
++        fframes::render(out, &video, backend, &options)?;
++        fframes::diagnostic_capture::finalize().map_err(|e| format!("{e:?}"))?;
++        println!(
++            "{}",
++            serde_json::json!({"mode":"hardware", "frames":frames, "nodes":NODES,
++            "device":device_name, "rasterizer":"skia-metal", "encoder":"h264_videotoolbox",
++            "allowSoftwareEncoder":false, "requiredPath":"HardwareFrames", "zeroCopyProved":false,
++            "bitrate":bitrate, "gop":30, "colorSemantics":"upstream BT.601 attachments; opaque encoder conversion",
++            "pipeline":"MaxPerformance", "benchmarkTiming":false, "diagnosticCapture":true, "renderingMs":started.elapsed().as_secs_f64()*1000.})
++        );
++    }
++    Ok(())
++}
+--- a/render-bench/vs-remotion/src/bin/handoff-color-controls.rs
++++ b/render-bench/vs-remotion/src/bin/handoff-color-controls.rs
+@@ -0,0 +1,138 @@
++//! Excluded predetermined color/chroma controls, original MaxPerformance pipeline.
++use fframes::{
++    AudioMap, Color, Duration, EncoderOptions, FFramesContext, FFramesLoggerVariant,
++    FFramesRenderBackend, Frame, RenderOptions, Svgr, Video, VideoEncoderInfo,
++};
++use fframes_skia_renderer::{
++    SkiaCacheConfig, SkiaFFramesRenderer, SkiaPipelineConcurrencyPolicy, SkiaPipelineConfig,
++};
++use std::path::Path;
++struct Controls;
++impl Video for Controls {
++    const WIDTH: usize = 256;
++    const HEIGHT: usize = 128;
++    const FPS: usize = 30;
++    const BACKGROUND_COLOR: Color = Color::BLACK;
++    fn duration(&self) -> Duration<'_> {
++        Duration::Frames(39)
++    }
++    fn audio(&self) -> AudioMap<'_> {
++        AudioMap::none()
++    }
++    fn render_frame<'a>(&'a self, frame: Frame, _: &FFramesContext<'a, '_>) -> Svgr<'a> {
++        let colors = [
++            (0, 0, 0),
++            (255, 255, 255),
++            (255, 0, 0),
++            (0, 255, 0),
++            (0, 0, 255),
++            (0, 255, 255),
++            (255, 0, 255),
++            (255, 255, 0),
++        ];
++        let bars: Vec<_> = colors
++            .into_iter()
++            .enumerate()
++            .map(|(i, (r, g, b))| {
++                let fill = Color::rgba(r, g, b, 255);
++                fframes::svgr!(<rect x={i*32} y="0" width="32" height="32" fill={fill}/>)
++            })
++            .collect();
++        let checks: Vec<_> = (0..2048)
++            .map(|i| {
++                let x = (i % 128) * 2;
++                let y = 32 + (i / 128) * 2;
++                let fill = if ((x / 2 + y / 2 + frame.index) % 2) == 0 {
++                    Color::rgba(255, 0, 0, 255)
++                } else {
++                    Color::rgba(0, 255, 255, 255)
++                };
++                fframes::svgr!(<rect x={x} y={y} width="2" height="2" fill={fill}/>)
++            })
++            .collect();
++        let stripes: Vec<_> = (0..256)
++            .map(|x| {
++                let fill = if (x + frame.index) % 2 == 0 {
++                    Color::rgba(0, 255, 0, 255)
++                } else {
++                    Color::rgba(255, 0, 255, 255)
++                };
++                fframes::svgr!(<rect x={x} y="64" width="1" height="32" fill={fill}/>)
++            })
++            .collect();
++        let gray: Vec<_> = (0..256)
++            .map(|x| {
++                let g = ((x + frame.index) % 256) as u8;
++                let fill = Color::rgba(g, g, g, 255);
++                fframes::svgr!(<rect x={x} y="96" width="1" height="32" fill={fill}/>)
++            })
++            .collect();
++        fframes::svgr!(<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 128" width="256" height="128">{bars}{checks}{stripes}{gray}</svg>)
++    }
++}
++fn main() -> Result<(), Box<dyn std::error::Error>> {
++    let args: Vec<_> = std::env::args().collect();
++    if args.len() != 3 {
++        return Err("usage: handoff-color-controls OUTPUT CAPTURE_DIRECTORY".into());
++    }
++    let out = Path::new(&args[1]);
++    let capture = Path::new(&args[2]);
++    if std::env::var_os("FFRAMES_HANDOFF_CAPTURE").as_deref() != Some(capture.as_os_str()) {
++        return Err("capture env and argument must agree".into());
++    }
++    fframes::diagnostic_capture::initialize(capture, 36, 3, 256, 128)
++        .map_err(|e| format!("{e:?}"))?;
++    let device = fframes_skia_renderer::metal::metal_rs::Device::system_default()
++        .ok_or("no Metal device")?;
++    let ctx = fframes_skia_renderer::metal::SkiaMetalCtx::new_with_device(
++        device.clone(),
++        device.new_command_queue(),
++        256,
++        128,
++    )?;
++    let backend = SkiaFFramesRenderer::new(
++        SkiaPipelineConfig {
++            concurrency_policy: SkiaPipelineConcurrencyPolicy::MaxPerformance,
++            cache: SkiaCacheConfig {
++                text_capacity: 100000,
++                geometry_capacity: 100000,
++                geometry_bytes: 100000 * 512,
++            },
++            ..Default::default()
++        },
++        &ctx,
++    );
++    let params = [("allow_sw", "0"), ("threads", "1"), ("bf", "0")];
++    let options = RenderOptions {
++        logger: FFramesLoggerVariant::Silent,
++        frame_range: Some(3..39),
++        load_system_fonts: false,
++        video_encoder_options: EncoderOptions {
++            preferred_encoder: Some("h264_videotoolbox"),
++            codec_params: Some(&params),
++            bitrate: Some(500000000),
++            gop_size: 30,
++            qmin: 0,
++            qmax: 69,
++            ..Default::default()
++        },
++        ..Default::default()
++    };
++    let info = VideoEncoderInfo::for_output(out, (256, 128, 30), &options.video_encoder_options)
++        .map_err(|e| format!("{e:?}"))?;
++    if info.name() != "h264_videotoolbox"
++        || !backend
++            .negotiate_encoder_input(&info)
++            .map_err(|e| format!("{e:?}"))?
++            .is_hardware()
++    {
++        return Err("required hardware unavailable".into());
++    }
++    fframes::render(out, &Controls, backend, &options)?;
++    fframes::diagnostic_capture::finalize().map_err(|e| format!("{e:?}"))?;
++    println!(
++        "{}",
++        serde_json::json!({"benchmarkTiming":false,"frames":36,"sourceFrames":[3,38],"pipeline":"MaxPerformance","encoder":"h264_videotoolbox","bitrate":500000000,"gop":30,"zeroCopyProved":false})
++    );
++    Ok(())
++}

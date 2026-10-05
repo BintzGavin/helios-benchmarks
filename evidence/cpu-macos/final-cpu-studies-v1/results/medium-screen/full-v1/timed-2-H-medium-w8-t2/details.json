@@ -1,0 +1,96 @@
+{
+  "engine": "H",
+  "node": "v24.19.0",
+  "ffmpegArgv": [],
+  "stats": {
+    "frames": 300,
+    "chunks": 8,
+    "workers": 8,
+    "ranges": [
+      {
+        "frames": 34,
+        "preparationMs": 167.82500000000002,
+        "rasterizeMs": 2059.7776669999994,
+        "pixelExtractionMs": 410.4130379999995,
+        "drawMs": 2472.873335000001,
+        "encoderWaitMs": 337.938374,
+        "encodeMs": 11797.262292,
+        "verifyMs": 98.55616700000064
+      },
+      {
+        "frames": 38,
+        "preparationMs": 167.566,
+        "rasterizeMs": 2465.923956000002,
+        "pixelExtractionMs": 471.37620700000093,
+        "drawMs": 2937.8332050000004,
+        "encoderWaitMs": 355.17487399999936,
+        "encodeMs": 12799.838375,
+        "verifyMs": 93.30524999999943
+      },
+      {
+        "frames": 38,
+        "preparationMs": 147.998791,
+        "rasterizeMs": 2821.542667,
+        "pixelExtractionMs": 344.48942000000125,
+        "drawMs": 3169.3668340000013,
+        "encoderWaitMs": 332.7947950000003,
+        "encodeMs": 12857.020834,
+        "verifyMs": 84.45091599999978
+      },
+      {
+        "frames": 38,
+        "preparationMs": 163.53462499999998,
+        "rasterizeMs": 2731.3511689999996,
+        "pixelExtractionMs": 425.6319590000002,
+        "drawMs": 3157.6319210000006,
+        "encoderWaitMs": 386.62108199999994,
+        "encodeMs": 12926.519124999999,
+        "verifyMs": 88.27808300000106
+      },
+      {
+        "frames": 38,
+        "preparationMs": 165.93645800000002,
+        "rasterizeMs": 2714.9826650000014,
+        "pixelExtractionMs": 405.4855380000004,
+        "drawMs": 3120.9862089999997,
+        "encoderWaitMs": 351.50841899999904,
+        "encodeMs": 12954.484165999998,
+        "verifyMs": 84.98999999999978
+      },
+      {
+        "frames": 38,
+        "preparationMs": 146.97862500000002,
+        "rasterizeMs": 2718.502792000001,
+        "pixelExtractionMs": 405.9144129999996,
+        "drawMs": 3125.088246,
+        "encoderWaitMs": 297.30120699999986,
+        "encodeMs": 13012.353665999999,
+        "verifyMs": 86.06354199999987
+      },
+      {
+        "frames": 38,
+        "preparationMs": 146.587917,
+        "rasterizeMs": 3052.3004960000003,
+        "pixelExtractionMs": 384.7009989999999,
+        "drawMs": 3437.754878000001,
+        "encoderWaitMs": 335.3010439999995,
+        "encodeMs": 13087.753584,
+        "verifyMs": 82.44658399999935
+      },
+      {
+        "frames": 38,
+        "preparationMs": 165.218584,
+        "rasterizeMs": 2795.211833,
+        "pixelExtractionMs": 618.2545820000007,
+        "drawMs": 3414.0880809999994,
+        "encoderWaitMs": 369.25729200000114,
+        "encodeMs": 13092.063125,
+        "verifyMs": 78.84991700000137
+      }
+    ],
+    "renderMs": 13540.708166,
+    "finalizeMs": 2903.1941659999993,
+    "finalVerifyMs": 2221.1297909999994
+  },
+  "apiWallNs": 16553526208
+}

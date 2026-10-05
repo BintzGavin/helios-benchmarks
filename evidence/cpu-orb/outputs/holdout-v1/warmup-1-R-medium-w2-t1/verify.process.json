@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/usr/bin/ffprobe",
+    "-v",
+    "error",
+    "-threads",
+    "2",
+    "-count_frames",
+    "-show_streams",
+    "-show_format",
+    "-of",
+    "json",
+    "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/warmup-1-R-medium-w2-t1/output.mp4"
+  ],
+  "exitCode": 0,
+  "wallNs": 7976735914
+}

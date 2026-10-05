@@ -1,0 +1,405 @@
+Splitting the commandline.
+Reading option '-hide_banner' ... matched as option 'hide_banner' (do not show program banner) with argument '1'.
+Reading option '-loglevel' ... matched as option 'loglevel' (set logging level) with argument 'trace'.
+Reading option '-i' ... matched as input url with argument '/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36/original.mp4'.
+Reading option '-map' ... matched as option 'map' (set input stream mapping) with argument '0:v:0'.
+Reading option '-frames:v' ... matched as option 'frames' (set the number of frames to output) with argument '1'.
+Reading option '-c:v' ... matched as option 'c' (select encoder/decoder ('copy' to copy stream without reencoding)) with argument 'copy'.
+Reading option '-bsf:v' ... matched as option 'bsf' (A comma-separated list of bitstream filters) with argument 'trace_headers'.
+Reading option '-f' ... matched as option 'f' (force container format (auto-detected otherwise)) with argument 'null'.
+Reading option '-' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option hide_banner (do not show program banner) with argument 1.
+Applying option loglevel (set logging level) with argument trace.
+Successfully parsed a group of options.
+Parsing a group of options: input url /Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36/original.mp4.
+Successfully parsed a group of options.
+Opening an input file: /Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36/original.mp4.
+[in#0 @ 0x74d018000] Opening '/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36/original.mp4' for reading
+[file @ 0x74d020000] Setting default whitelist 'file,crypto,data'
+Probing mov,mp4,m4a,3gp,3g2,mj2 score:100 size:2048
+Probing mp3 score:1 size:2048
+[in#0 @ 0x74d018000] Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+[in#0 @ 0x74d018000] type:'ftyp' parent:'root' sz: 32 8 18095
+[in#0 @ 0x74d018000] ISO: File Type Major Brand: isom
+[in#0 @ 0x74d018000] type:'moov' parent:'root' sz: 948 40 18095
+[in#0 @ 0x74d018000] type:'mvhd' parent:'moov' sz: 108 8 940
+[in#0 @ 0x74d018000] time scale = 11289600
+[in#0 @ 0x74d018000] type:'trak' parent:'moov' sz: 735 116 940
+[in#0 @ 0x74d018000] type:'tkhd' parent:'trak' sz: 92 8 727
+[in#0 @ 0x74d018000] type:'edts' parent:'trak' sz: 36 100 727
+[in#0 @ 0x74d018000] type:'elst' parent:'edts' sz: 28 8 28
+[in#0 @ 0x74d018000] track[0].edit_count = 1
+[in#0 @ 0x74d018000] duration=13547520 time=0 rate=1.000000
+[in#0 @ 0x74d018000] type:'mdia' parent:'trak' sz: 599 136 727
+[in#0 @ 0x74d018000] type:'mdhd' parent:'mdia' sz: 32 8 591
+[in#0 @ 0x74d018000] type:'hdlr' parent:'mdia' sz: 45 40 591
+[in#0 @ 0x74d018000] ctype=[0][0][0][0]
+[in#0 @ 0x74d018000] stype=vide
+[in#0 @ 0x74d018000] type:'minf' parent:'mdia' sz: 514 85 591
+[in#0 @ 0x74d018000] type:'vmhd' parent:'minf' sz: 20 8 506
+[in#0 @ 0x74d018000] type:'dinf' parent:'minf' sz: 36 28 506
+[in#0 @ 0x74d018000] type:'dref' parent:'dinf' sz: 28 8 28
+[in#0 @ 0x74d018000] Unknown dref type 0x206c7275 size 12
+[in#0 @ 0x74d018000] type:'stbl' parent:'minf' sz: 450 64 506
+[in#0 @ 0x74d018000] type:'stsd' parent:'stbl' sz: 182 8 442
+[in#0 @ 0x74d018000] size=166 4CC=avc1 codec_type=0
+[in#0 @ 0x74d018000] type:'avcC' parent:'stsd' sz: 41 8 80
+[in#0 @ 0x74d018000] type:'colr' parent:'stsd' sz: 19 49 80
+[in#0 @ 0x74d018000] nclx: pri 1 trc 1 matrix 1 full 0
+[in#0 @ 0x74d018000] type:'btrt' parent:'stsd' sz: 20 68 80
+[in#0 @ 0x74d018000] type:'stts' parent:'stbl' sz: 24 190 442
+[in#0 @ 0x74d018000] track[0].stts.entries = 1
+[in#0 @ 0x74d018000] sample_count=36, sample_duration=512
+[in#0 @ 0x74d018000] type:'stss' parent:'stbl' sz: 24 214 442
+[in#0 @ 0x74d018000] keyframe_count = 2
+[in#0 @ 0x74d018000] type:'stsc' parent:'stbl' sz: 28 238 442
+[in#0 @ 0x74d018000] track[0].stsc.entries = 1
+[in#0 @ 0x74d018000] type:'stsz' parent:'stbl' sz: 164 266 442
+[in#0 @ 0x74d018000] sample_size = 0 sample_count = 36
+[in#0 @ 0x74d018000] type:'stco' parent:'stbl' sz: 20 430 442
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 0, offset 3e4, dts 0, size 9072, distance 0, keyframe 1
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 1, offset 2754, dts 512, size 102, distance 1, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 2, offset 27ba, dts 1024, size 102, distance 2, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 3, offset 2820, dts 1536, size 102, distance 3, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 4, offset 2886, dts 2048, size 111, distance 4, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 5, offset 28f5, dts 2560, size 92, distance 5, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 6, offset 2951, dts 3072, size 92, distance 6, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 7, offset 29ad, dts 3584, size 107, distance 7, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 8, offset 2a18, dts 4096, size 92, distance 8, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 9, offset 2a74, dts 4608, size 101, distance 9, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 10, offset 2ad9, dts 5120, size 110, distance 10, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 11, offset 2b47, dts 5632, size 89, distance 11, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 12, offset 2ba0, dts 6144, size 86, distance 12, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 13, offset 2bf6, dts 6656, size 84, distance 13, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 14, offset 2c4a, dts 7168, size 89, distance 14, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 15, offset 2ca3, dts 7680, size 83, distance 15, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 16, offset 2cf6, dts 8192, size 89, distance 16, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 17, offset 2d4f, dts 8704, size 88, distance 17, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 18, offset 2da7, dts 9216, size 92, distance 18, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 19, offset 2e03, dts 9728, size 84, distance 19, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 20, offset 2e57, dts 10240, size 86, distance 20, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 21, offset 2ead, dts 10752, size 91, distance 21, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 22, offset 2f08, dts 11264, size 89, distance 22, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 23, offset 2f61, dts 11776, size 91, distance 23, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 24, offset 2fbc, dts 12288, size 84, distance 24, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 25, offset 3010, dts 12800, size 90, distance 25, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 26, offset 306a, dts 13312, size 90, distance 26, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 27, offset 30c4, dts 13824, size 92, distance 27, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 28, offset 3120, dts 14336, size 89, distance 28, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 29, offset 3179, dts 14848, size 86, distance 29, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 30, offset 31cf, dts 15360, size 4685, distance 0, keyframe 1
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 31, offset 441c, dts 15872, size 118, distance 1, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 32, offset 4492, dts 16384, size 108, distance 2, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 33, offset 44fe, dts 16896, size 131, distance 3, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 34, offset 4581, dts 17408, size 128, distance 4, keyframe 0
+[in#0 @ 0x74d018000] AVIndex stream 0, sample 35, offset 4601, dts 17920, size 174, distance 5, keyframe 0
+[in#0 @ 0x74d018000] Processing st: 0, edit list 0 - media time: 0, duration: 18432
+[in#0 @ 0x74d018000] stts: 0 ctts: 0, tts_index: 0, tts_count: 36
+[in#0 @ 0x74d018000] stts: 512 ctts: 0, tts_index: 1, tts_count: 36
+[in#0 @ 0x74d018000] stts: 1024 ctts: 0, tts_index: 2, tts_count: 36
+[in#0 @ 0x74d018000] stts: 1536 ctts: 0, tts_index: 3, tts_count: 36
+[in#0 @ 0x74d018000] stts: 2048 ctts: 0, tts_index: 4, tts_count: 36
+[in#0 @ 0x74d018000] stts: 2560 ctts: 0, tts_index: 5, tts_count: 36
+[in#0 @ 0x74d018000] stts: 3072 ctts: 0, tts_index: 6, tts_count: 36
+[in#0 @ 0x74d018000] stts: 3584 ctts: 0, tts_index: 7, tts_count: 36
+[in#0 @ 0x74d018000] stts: 4096 ctts: 0, tts_index: 8, tts_count: 36
+[in#0 @ 0x74d018000] stts: 4608 ctts: 0, tts_index: 9, tts_count: 36
+[in#0 @ 0x74d018000] stts: 5120 ctts: 0, tts_index: 10, tts_count: 36
+[in#0 @ 0x74d018000] stts: 5632 ctts: 0, tts_index: 11, tts_count: 36
+[in#0 @ 0x74d018000] stts: 6144 ctts: 0, tts_index: 12, tts_count: 36
+[in#0 @ 0x74d018000] stts: 6656 ctts: 0, tts_index: 13, tts_count: 36
+[in#0 @ 0x74d018000] stts: 7168 ctts: 0, tts_index: 14, tts_count: 36
+[in#0 @ 0x74d018000] stts: 7680 ctts: 0, tts_index: 15, tts_count: 36
+[in#0 @ 0x74d018000] stts: 8192 ctts: 0, tts_index: 16, tts_count: 36
+[in#0 @ 0x74d018000] stts: 8704 ctts: 0, tts_index: 17, tts_count: 36
+[in#0 @ 0x74d018000] stts: 9216 ctts: 0, tts_index: 18, tts_count: 36
+[in#0 @ 0x74d018000] stts: 9728 ctts: 0, tts_index: 19, tts_count: 36
+[in#0 @ 0x74d018000] stts: 10240 ctts: 0, tts_index: 20, tts_count: 36
+[in#0 @ 0x74d018000] stts: 10752 ctts: 0, tts_index: 21, tts_count: 36
+[in#0 @ 0x74d018000] stts: 11264 ctts: 0, tts_index: 22, tts_count: 36
+[in#0 @ 0x74d018000] stts: 11776 ctts: 0, tts_index: 23, tts_count: 36
+[in#0 @ 0x74d018000] stts: 12288 ctts: 0, tts_index: 24, tts_count: 36
+[in#0 @ 0x74d018000] stts: 12800 ctts: 0, tts_index: 25, tts_count: 36
+[in#0 @ 0x74d018000] stts: 13312 ctts: 0, tts_index: 26, tts_count: 36
+[in#0 @ 0x74d018000] stts: 13824 ctts: 0, tts_index: 27, tts_count: 36
+[in#0 @ 0x74d018000] stts: 14336 ctts: 0, tts_index: 28, tts_count: 36
+[in#0 @ 0x74d018000] stts: 14848 ctts: 0, tts_index: 29, tts_count: 36
+[in#0 @ 0x74d018000] stts: 15360 ctts: 0, tts_index: 30, tts_count: 36
+[in#0 @ 0x74d018000] stts: 15872 ctts: 0, tts_index: 31, tts_count: 36
+[in#0 @ 0x74d018000] stts: 16384 ctts: 0, tts_index: 32, tts_count: 36
+[in#0 @ 0x74d018000] stts: 16896 ctts: 0, tts_index: 33, tts_count: 36
+[in#0 @ 0x74d018000] stts: 17408 ctts: 0, tts_index: 34, tts_count: 36
+[in#0 @ 0x74d018000] stts: 17920 ctts: 0, tts_index: 35, tts_count: 36
+[in#0 @ 0x74d018000] type:'udta' parent:'moov' sz: 97 851 940
+[in#0 @ 0x74d018000] type:'meta' parent:'udta' sz: 89 8 89
+[in#0 @ 0x74d018000] type:'hdlr' parent:'meta' sz: 33 8 77
+[in#0 @ 0x74d018000] ctype=[0][0][0][0]
+[in#0 @ 0x74d018000] stype=mdir
+[in#0 @ 0x74d018000] type:'ilst' parent:'meta' sz: 44 41 77
+[in#0 @ 0x74d018000] type:'[169]too' parent:'ilst' sz: 36 8 36
+[in#0 @ 0x74d018000] type:'free' parent:'root' sz: 8 988 18095
+[in#0 @ 0x74d018000] type:'mdat' parent:'root' sz: 17107 996 18095
+[in#0 @ 0x74d018000] on_parse_exit_offset=996
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x74d018000] Before avformat_find_stream_info() pos: 996 bytes read:18095 seeks:0 nb_streams:1
+[h264 @ 0x74d024380] nal_unit_type: 7(SPS), nal_ref_idc: 1
+[h264 @ 0x74d024380] Decoding VUI
+[h264 @ 0x74d024380] nal_unit_type: 8(PPS), nal_ref_idc: 1
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x74d018000] stream 0, sample 0, dts 0
+[h264 @ 0x74d024380] nal_unit_type: 7(SPS), nal_ref_idc: 1
+[h264 @ 0x74d024380] Decoding VUI
+[h264 @ 0x74d024380] nal_unit_type: 8(PPS), nal_ref_idc: 1
+[h264 @ 0x74d024380] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x74d024380] nal_unit_type: 5(IDR), nal_ref_idc: 1
+[h264 @ 0x74d024380] Format yuv420p chosen by get_format().
+[h264 @ 0x74d024380] Reinit context to 256x128, pix_fmt: yuv420p
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x74d018000] All info found
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x74d018000] stream 0: start_time: 0 duration: 1.2
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x74d018000] format: start_time: 0 duration: 1.2 (estimate from stream) bitrate=120 kb/s
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x74d018000] After avformat_find_stream_info() pos: 10068 bytes read:18095 seeks:0 frames:1
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36/original.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.1.102
+  Duration: 00:00:01.20, start: 0.000000, bitrate: 120 kb/s
+  Stream #0:0[0x1](und), 1, 1/15360: Video: h264 (High), 1 reference frame (avc1 / 0x31637661), yuv420p(tv, bt709, progressive, left), 256x128, 0/1, 113 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+Successfully opened the file.
+Parsing a group of options: output url -.
+Applying option map (set input stream mapping) with argument 0:v:0.
+Parsing stream specifier: v:0
+Parsed media type: video; remainder: :0
+Parsed index: 0; remainder: 
+Applying option frames:v (set the number of frames to output) with argument 1.
+Parsing stream specifier: v
+Parsed media type: video; remainder: 
+Applying option c:v (select encoder/decoder ('copy' to copy stream without reencoding)) with argument copy.
+Parsing stream specifier: v
+Parsed media type: video; remainder: 
+Applying option bsf:v (A comma-separated list of bitstream filters) with argument trace_headers.
+Parsing stream specifier: v
+Parsed media type: video; remainder: 
+Applying option f (force container format (auto-detected otherwise)) with argument null.
+Successfully parsed a group of options.
+Opening an output file: -.
+[out#0/null @ 0x74d028180] Adding streams from explicit maps...
+[vost#0:0/copy @ 0x74cc7c000] Created video stream from input stream 0:0
+[trace_headers @ 0x74cc10050] Extradata
+[trace_headers @ 0x74cc10050] nal_unit_type: 7(SPS), nal_ref_idc: 1
+[trace_headers @ 0x74cc10050] nal_unit_type: 8(PPS), nal_ref_idc: 1
+[trace_headers @ 0x74cc10050] 4 bytes left at end of AVCC header.
+[trace_headers @ 0x74cc10050] Sequence Parameter Set
+[trace_headers @ 0x74cc10050] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x74cc10050] 1           nal_ref_idc                                                01 = 1
+[trace_headers @ 0x74cc10050] 3           nal_unit_type                                           00111 = 7
+[trace_headers @ 0x74cc10050] 8           profile_idc                                          01100100 = 100
+[trace_headers @ 0x74cc10050] 16          constraint_set0_flag                                        0 = 0
+[trace_headers @ 0x74cc10050] 17          constraint_set1_flag                                        0 = 0
+[trace_headers @ 0x74cc10050] 18          constraint_set2_flag                                        0 = 0
+[trace_headers @ 0x74cc10050] 19          constraint_set3_flag                                        0 = 0
+[trace_headers @ 0x74cc10050] 20          constraint_set4_flag                                        0 = 0
+[trace_headers @ 0x74cc10050] 21          constraint_set5_flag                                        0 = 0
+[trace_headers @ 0x74cc10050] 22          reserved_zero_2bits                                        00 = 0
+[trace_headers @ 0x74cc10050] 24          level_idc                                            00110011 = 51
+[trace_headers @ 0x74cc10050] 32          seq_parameter_set_id                                        1 = 0
+[trace_headers @ 0x74cc10050] 33          chroma_format_idc                                         010 = 1
+[trace_headers @ 0x74cc10050] 36          bit_depth_luma_minus8                                       1 = 0
+[trace_headers @ 0x74cc10050] 37          bit_depth_chroma_minus8                                     1 = 0
+[trace_headers @ 0x74cc10050] 38          qpprime_y_zero_transform_bypass_flag                        0 = 0
+[trace_headers @ 0x74cc10050] 39          seq_scaling_matrix_present_flag                             0 = 0
+[trace_headers @ 0x74cc10050] 40          log2_max_frame_num_minus4                                 010 = 1
+[trace_headers @ 0x74cc10050] 43          pic_order_cnt_type                                          1 = 0
+[trace_headers @ 0x74cc10050] 44          log2_max_pic_order_cnt_lsb_minus4                         011 = 2
+[trace_headers @ 0x74cc10050] 47          max_num_ref_frames                                        010 = 1
+[trace_headers @ 0x74cc10050] 50          gaps_in_frame_num_allowed_flag                              0 = 0
+[trace_headers @ 0x74cc10050] 51          pic_width_in_mbs_minus1                             000010000 = 15
+[trace_headers @ 0x74cc10050] 60          pic_height_in_map_units_minus1                        0001000 = 7
+[trace_headers @ 0x74cc10050] 67          frame_mbs_only_flag                                         1 = 1
+[trace_headers @ 0x74cc10050] 68          direct_8x8_inference_flag                                   1 = 1
+[trace_headers @ 0x74cc10050] 69          frame_cropping_flag                                         0 = 0
+[trace_headers @ 0x74cc10050] 70          vui_parameters_present_flag                                 1 = 1
+[trace_headers @ 0x74cc10050] 71          aspect_ratio_info_present_flag                              0 = 0
+[trace_headers @ 0x74cc10050] 72          overscan_info_present_flag                                  0 = 0
+[trace_headers @ 0x74cc10050] 73          video_signal_type_present_flag                              1 = 1
+[trace_headers @ 0x74cc10050] 74          video_format                                              101 = 5
+[trace_headers @ 0x74cc10050] 77          video_full_range_flag                                       0 = 0
+[trace_headers @ 0x74cc10050] 78          colour_description_present_flag                             1 = 1
+[trace_headers @ 0x74cc10050] 79          colour_primaries                                     00000001 = 1
+[trace_headers @ 0x74cc10050] 87          transfer_characteristics                             00000001 = 1
+[trace_headers @ 0x74cc10050] 95          matrix_coefficients                                  00000001 = 1
+[trace_headers @ 0x74cc10050] 103         chroma_loc_info_present_flag                                0 = 0
+[trace_headers @ 0x74cc10050] 104         timing_info_present_flag                                    0 = 0
+[trace_headers @ 0x74cc10050] 105         nal_hrd_parameters_present_flag                             0 = 0
+[trace_headers @ 0x74cc10050] 106         vcl_hrd_parameters_present_flag                             0 = 0
+[trace_headers @ 0x74cc10050] 107         pic_struct_present_flag                                     0 = 0
+[trace_headers @ 0x74cc10050] 108         bitstream_restriction_flag                                  0 = 0
+[trace_headers @ 0x74cc10050] 109         rbsp_stop_one_bit                                           1 = 1
+[trace_headers @ 0x74cc10050] 110         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x74cc10050] 111         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x74cc10050] Picture Parameter Set
+[trace_headers @ 0x74cc10050] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x74cc10050] 1           nal_ref_idc                                                01 = 1
+[trace_headers @ 0x74cc10050] 3           nal_unit_type                                           01000 = 8
+[trace_headers @ 0x74cc10050] 8           pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x74cc10050] 9           seq_parameter_set_id                                        1 = 0
+[trace_headers @ 0x74cc10050] 10          entropy_coding_mode_flag                                    1 = 1
+[trace_headers @ 0x74cc10050] 11          bottom_field_pic_order_in_frame_present_flag                0 = 0
+[trace_headers @ 0x74cc10050] 12          num_slice_groups_minus1                                     1 = 0
+[trace_headers @ 0x74cc10050] 13          num_ref_idx_l0_default_active_minus1                        1 = 0
+[trace_headers @ 0x74cc10050] 14          num_ref_idx_l1_default_active_minus1                        1 = 0
+[trace_headers @ 0x74cc10050] 15          weighted_pred_flag                                          0 = 0
+[trace_headers @ 0x74cc10050] 16          weighted_bipred_idc                                        00 = 0
+[trace_headers @ 0x74cc10050] 18          pic_init_qp_minus26                                         1 = 0
+[trace_headers @ 0x74cc10050] 19          pic_init_qs_minus26                                         1 = 0
+[trace_headers @ 0x74cc10050] 20          chroma_qp_index_offset                                      1 = 0
+[trace_headers @ 0x74cc10050] 21          deblocking_filter_control_present_flag                      1 = 1
+[trace_headers @ 0x74cc10050] 22          constrained_intra_pred_flag                                 0 = 0
+[trace_headers @ 0x74cc10050] 23          redundant_pic_cnt_present_flag                              0 = 0
+[trace_headers @ 0x74cc10050] 24          transform_8x8_mode_flag                                     1 = 1
+[trace_headers @ 0x74cc10050] 25          pic_scaling_matrix_present_flag                             0 = 0
+[trace_headers @ 0x74cc10050] 26          second_chroma_qp_index_offset                               1 = 0
+[trace_headers @ 0x74cc10050] 27          rbsp_stop_one_bit                                           1 = 1
+[trace_headers @ 0x74cc10050] 28          rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x74cc10050] 29          rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x74cc10050] 30          rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x74cc10050] 31          rbsp_alignment_zero_bit                                     0 = 0
+Successfully opened the file.
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+Output #0, null, to 'pipe:':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.1.102
+  Stream #0:0(und), 0, 1/15360: Video: h264 (High), 1 reference frame (avc1 / 0x31637661), yuv420p(tv, bt709, progressive, left), 256x128, 0/1, q=2-31, 113 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+[out#0/null @ 0x74d028180] Starting thread...
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x74d014000] Starting thread...
+Press [q] to stop, [?] for help
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x74d018000] stream 0, sample 1, dts 33333
+[trace_headers @ 0x74cc10050] Packet: 9072 bytes, key frame, pts 0, dts 0, duration 512.
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x74d018000] stream 0, sample 2, dts 66667
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x74d018000] stream 0, sample 3, dts 100000
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x74d018000] stream 0, sample 4, dts 133333
+[trace_headers @ 0x74cc10050] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x74d018000] stream 0, sample 5, dts 166667
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x74d018000] stream 0, sample 6, dts 200000
+[trace_headers @ 0x74cc10050] nal_unit_type: 5(IDR), nal_ref_idc: 1
+[trace_headers @ 0x74cc10050] Supplemental Enhancement Information
+[trace_headers @ 0x74cc10050] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x74cc10050] 1           nal_ref_idc                                                00 = 0
+[trace_headers @ 0x74cc10050] 3           nal_unit_type                                           00110 = 6
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x74d018000] stream 0, sample 7, dts 233333
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x74d018000] stream 0, sample 8, dts 266667
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x74d018000] stream 0, sample 9, dts 300000
+[trace_headers @ 0x74cc10050] 8           last_payload_type_byte                               00000101 = 5
+[trace_headers @ 0x74cc10050] 16          last_payload_size_byte                               00110010 = 50
+[trace_headers @ 0x74cc10050] User Data Unregistered
+[trace_headers @ 0x74cc10050] 24          uuid_iso_iec_11578[0]                                01000111 = 71
+[trace_headers @ 0x74cc10050] 32          uuid_iso_iec_11578[1]                                01010110 = 86
+[trace_headers @ 0x74cc10050] 40          uuid_iso_iec_11578[2]                                01001010 = 74
+[trace_headers @ 0x74cc10050] 48          uuid_iso_iec_11578[3]                                11011100 = 220
+[trace_headers @ 0x74cc10050] 56          uuid_iso_iec_11578[4]                                01011100 = 92
+[trace_headers @ 0x74cc10050] 64          uuid_iso_iec_11578[5]                                01001100 = 76
+[trace_headers @ 0x74cc10050] 72          uuid_iso_iec_11578[6]                                01000011 = 67
+[trace_headers @ 0x74cc10050] 80          uuid_iso_iec_11578[7]                                00111111 = 63
+[trace_headers @ 0x74cc10050] 88          uuid_iso_iec_11578[8]                                10010100 = 148
+[trace_headers @ 0x74cc10050] 96          uuid_iso_iec_11578[9]                                11101111 = 239
+[trace_headers @ 0x74cc10050] 104         uuid_iso_iec_11578[10]                               11000101 = 197
+[trace_headers @ 0x74cc10050] 112         uuid_iso_iec_11578[11]                               00010001 = 17
+[trace_headers @ 0x74cc10050] 120         uuid_iso_iec_11578[12]                               00111100 = 60
+[trace_headers @ 0x74cc10050] 128         uuid_iso_iec_11578[13]                               11010001 = 209
+[trace_headers @ 0x74cc10050] 136         uuid_iso_iec_11578[14]                               01000011 = 67
+[trace_headers @ 0x74cc10050] 144         uuid_iso_iec_11578[15]                               10101000 = 168
+[trace_headers @ 0x74cc10050] 152         user_data_payload_byte[0]                            00000001 = 1
+[trace_headers @ 0x74cc10050] 160         user_data_payload_byte[1]                            00000000 = 0
+[trace_headers @ 0x74cc10050] 168         user_data_payload_byte[2]                            00000000 = 0
+[trace_headers @ 0x74cc10050] 176         user_data_payload_byte[3]                            00000000 = 0
+[trace_headers @ 0x74cc10050] 184         user_data_payload_byte[4]                            00000001 = 1
+[trace_headers @ 0x74cc10050] 192         user_data_payload_byte[5]                            00000011 = 3
+[trace_headers @ 0x74cc10050] 200         user_data_payload_byte[6]                            00000000 = 0
+[trace_headers @ 0x74cc10050] 208         user_data_payload_byte[7]                            00000000 = 0
+[trace_headers @ 0x74cc10050] 216         user_data_payload_byte[8]                            00000000 = 0
+[trace_headers @ 0x74cc10050] 224         user_data_payload_byte[9]                            00000001 = 1
+[trace_headers @ 0x74cc10050] 232         user_data_payload_byte[10]                           00000010 = 2
+[trace_headers @ 0x74cc10050] 240         user_data_payload_byte[11]                           00010001 = 17
+[trace_headers @ 0x74cc10050] 248         user_data_payload_byte[12]                           11100001 = 225
+[trace_headers @ 0x74cc10050] 256         user_data_payload_byte[13]                           10100011 = 163
+[trace_headers @ 0x74cc10050] 264         user_data_payload_byte[14]                           00000000 = 0
+[trace_headers @ 0x74cc10050] 272         user_data_payload_byte[15]                           00001011 = 11
+[trace_headers @ 0x74cc10050] 280         user_data_payload_byte[16]                           00000000 = 0
+[trace_headers @ 0x74cc10050] 288         user_data_payload_byte[17]                           00000000 = 0
+[trace_headers @ 0x74cc10050] 296         user_data_payload_byte[18]                           00000000 = 0
+[trace_headers @ 0x74cc10050] 304         user_data_payload_byte[19]                           00000000 = 0
+[trace_headers @ 0x74cc10050] 312         user_data_payload_byte[20]                           00000000 = 0
+[trace_headers @ 0x74cc10050] 320         user_data_payload_byte[21]                           00000000 = 0
+[trace_headers @ 0x74cc10050] 328         user_data_payload_byte[22]                           00110011 = 51
+[trace_headers @ 0x74cc10050] 336         user_data_payload_byte[23]                           01111100 = 124
+[trace_headers @ 0x74cc10050] 344         user_data_payload_byte[24]                           00001100 = 12
+[trace_headers @ 0x74cc10050] 352         user_data_payload_byte[25]                           00000011 = 3
+[trace_headers @ 0x74cc10050] 360         user_data_payload_byte[26]                           10001001 = 137
+[trace_headers @ 0x74cc10050] 368         user_data_payload_byte[27]                           00011101 = 29
+[trace_headers @ 0x74cc10050] 376         user_data_payload_byte[28]                           00000001 = 1
+[trace_headers @ 0x74cc10050] 384         user_data_payload_byte[29]                           00001101 = 13
+[trace_headers @ 0x74cc10050] 392         user_data_payload_byte[30]                           11111111 = 255
+[trace_headers @ 0x74cc10050] 400         user_data_payload_byte[31]                           11111111 = 255
+[trace_headers @ 0x74cc10050] 408         user_data_payload_byte[32]                           11111111 = 255
+[trace_headers @ 0x74cc10050] 416         user_data_payload_byte[33]                           11111111 = 255
+[trace_headers @ 0x74cc10050] 424         rbsp_stop_one_bit                                           1 = 1
+[trace_headers @ 0x74cc10050] 425         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x74cc10050] 426         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x74cc10050] 427         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x74cc10050] 428         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x74cc10050] 429         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x74cc10050] 430         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x74cc10050] 431         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x74cc10050] Slice Header
+[trace_headers @ 0x74cc10050] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x74cc10050] 1           nal_ref_idc                                                01 = 1
+[trace_headers @ 0x74cc10050] 3           nal_unit_type                                           00101 = 5
+[trace_headers @ 0x74cc10050] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x74cc10050] 9           slice_type                                                011 = 2
+[trace_headers @ 0x74cc10050] 12          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x74cc10050] 13          frame_num                                               00000 = 0
+[trace_headers @ 0x74cc10050] 18          idr_pic_id                                                  1 = 0
+[trace_headers @ 0x74cc10050] 19          pic_order_cnt_lsb                                      000000 = 0
+[trace_headers @ 0x74cc10050] 25          no_output_of_prior_pics_flag                                0 = 0
+[trace_headers @ 0x74cc10050] 26          long_term_reference_flag                                    0 = 0
+[trace_headers @ 0x74cc10050] 27          slice_qp_delta                                    00000110101 = -26
+[trace_headers @ 0x74cc10050] 38          disable_deblocking_filter_idc                               1 = 0
+[trace_headers @ 0x74cc10050] 39          slice_alpha_c0_offset_div2                                  1 = 0
+[trace_headers @ 0x74cc10050] 40          slice_beta_offset_div2                                      1 = 0
+[trace_headers @ 0x74cc10050] 41          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x74cc10050] 42          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x74cc10050] 43          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x74cc10050] 44          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x74cc10050] 45          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x74cc10050] 46          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x74cc10050] 47          cabac_alignment_one_bit                                     1 = 1
+[out#0/null @ 0x74d028180] sq: send 0 ts 0.0333333
+[out#0/null @ 0x74d028180] sq: 0 frames_max 1 reached
+[out#0/null @ 0x74d028180] sq: finish 0; head ts 0.0333333
+[out#0/null @ 0x74d028180] sq: finish queue
+[out#0/null @ 0x74d028180] sq: receive 0 ts 0.0333333 queue head 0 ts 0.0333333
+[out#0/null @ 0x74d028180] Muxer returned EOF
+[out#0/null @ 0x74d028180] Terminating thread with return code 0 (success)
+[vist#0:0/h264 @ 0x74d010300] All consumers of this stream are done
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x74d014000] All consumers are done
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x74d014000] Terminating thread with return code 0 (success)
+[out#0/null @ 0x74d028180] Output file #0 (pipe:):
+[out#0/null @ 0x74d028180]   Output stream #0:0 (video): 1 packets muxed (9072 bytes); 
+[out#0/null @ 0x74d028180]   Total: 1 packets (9072 bytes) muxed
+[out#0/null @ 0x74d028180] video:9KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.0 q=-1.0 Lsize=N/A time=00:00:00.30 bitrate=N/A speed=1.15e+03x elapsed=0:00:00.00    
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x74d014000] Input file #0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36/original.mp4):
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x74d014000]   Input stream #0:0 (video): 10 packets read (9973 bytes); 
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x74d014000]   Total: 10 packets (9973 bytes) demuxed
+[AVIOContext @ 0x74d014140] Statistics: 18095 bytes read, 0 seeks
+
+Exiting with exit code 0

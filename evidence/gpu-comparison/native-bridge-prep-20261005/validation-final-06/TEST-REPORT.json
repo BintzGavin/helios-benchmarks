@@ -1,0 +1,576 @@
+{
+  "status": "native bridge source/process preparation passed with subprocess fixtures only",
+  "tests": [
+    {
+      "test": "reference-metal-hevc-300",
+      "passed": true,
+      "expectedRefusal": null,
+      "observedError": null,
+      "secondsExcludedFromBenchmark": 0.814962459000526,
+      "GPUExecuted": false,
+      "sourceUnchanged": true,
+      "publishedFixtureBinding": true,
+      "frames": 300,
+      "pythonMaxRSSBytes": 36798464,
+      "maxPlanarWriterQueuedBytes": 0,
+      "backpressureObservations": 0,
+      "producerRawForwardDrains": 196,
+      "producerMaxForwardQueue": 131068
+    },
+    {
+      "test": "reference-vulkan-h264-300",
+      "passed": true,
+      "expectedRefusal": null,
+      "observedError": null,
+      "secondsExcludedFromBenchmark": 0.7980699589825235,
+      "GPUExecuted": false,
+      "sourceUnchanged": true,
+      "publishedFixtureBinding": true,
+      "frames": 300,
+      "pythonMaxRSSBytes": 37011456,
+      "maxPlanarWriterQueuedBytes": 0,
+      "backpressureObservations": 0,
+      "producerRawForwardDrains": 195,
+      "producerMaxForwardQueue": 131068
+    },
+    {
+      "test": "reference-slow-300",
+      "passed": true,
+      "expectedRefusal": null,
+      "observedError": null,
+      "secondsExcludedFromBenchmark": 11.455749707994983,
+      "GPUExecuted": false,
+      "sourceUnchanged": true,
+      "publishedFixtureBinding": true,
+      "frames": 300,
+      "pythonMaxRSSBytes": 37830656,
+      "maxPlanarWriterQueuedBytes": 114688,
+      "backpressureObservations": 261,
+      "producerRawForwardDrains": 143,
+      "producerMaxForwardQueue": 131070
+    },
+    {
+      "test": "rgba-three",
+      "passed": true,
+      "expectedRefusal": null,
+      "observedError": null,
+      "secondsExcludedFromBenchmark": 0.2016224590188358,
+      "GPUExecuted": false,
+      "sourceUnchanged": true,
+      "publishedFixtureBinding": true,
+      "frames": 3,
+      "pythonMaxRSSBytes": 37863424,
+      "maxPlanarWriterQueuedBytes": 0,
+      "backpressureObservations": 0,
+      "producerRawForwardDrains": 0,
+      "producerMaxForwardQueue": 0
+    },
+    {
+      "test": "encoded-h264-300",
+      "passed": true,
+      "expectedRefusal": null,
+      "observedError": null,
+      "secondsExcludedFromBenchmark": 0.5147870410000905,
+      "GPUExecuted": false,
+      "sourceUnchanged": true,
+      "publishedFixtureBinding": true,
+      "frames": 300,
+      "pythonMaxRSSBytes": 37879808,
+      "maxPlanarWriterQueuedBytes": 0,
+      "backpressureObservations": 0,
+      "producerRawForwardDrains": 0,
+      "producerMaxForwardQueue": 0
+    },
+    {
+      "test": "encoded-hevc-300",
+      "passed": true,
+      "expectedRefusal": null,
+      "observedError": null,
+      "secondsExcludedFromBenchmark": 0.4988068339880556,
+      "GPUExecuted": false,
+      "sourceUnchanged": true,
+      "publishedFixtureBinding": true,
+      "frames": 300,
+      "pythonMaxRSSBytes": 37896192,
+      "maxPlanarWriterQueuedBytes": 0,
+      "backpressureObservations": 0,
+      "producerRawForwardDrains": 0,
+      "producerMaxForwardQueue": 0
+    },
+    {
+      "test": "encoded-cpu-profile-300",
+      "passed": true,
+      "expectedRefusal": null,
+      "observedError": null,
+      "secondsExcludedFromBenchmark": 0.7568257499951869,
+      "GPUExecuted": false,
+      "sourceUnchanged": true,
+      "publishedFixtureBinding": true,
+      "frames": 300,
+      "pythonMaxRSSBytes": 37945344,
+      "maxPlanarWriterQueuedBytes": 0,
+      "backpressureObservations": 0,
+      "producerRawForwardDrains": 0,
+      "producerMaxForwardQueue": 0
+    },
+    {
+      "test": "short-raw",
+      "passed": true,
+      "expectedRefusal": [
+        "RAW_SHORT_FRAME",
+        "DRIVER_EXIT"
+      ],
+      "observedError": "Refusal:RAW_SHORT_FRAME:2:49151",
+      "secondsExcludedFromBenchmark": 1.2040880419954192,
+      "GPUExecuted": false,
+      "sourceUnchanged": true,
+      "publishedFixtureBinding": false
+    },
+    {
+      "test": "extra-raw",
+      "passed": true,
+      "expectedRefusal": [
+        "RAW_EXTRA_BYTES",
+        "RAW_SHORT_FRAME",
+        "DRIVER_EXIT"
+      ],
+      "observedError": "Refusal:RAW_SHORT_FRAME:2:32764",
+      "secondsExcludedFromBenchmark": 1.7264019169961102,
+      "GPUExecuted": false,
+      "sourceUnchanged": true,
+      "publishedFixtureBinding": false
+    },
+    {
+      "test": "fail-after-raw",
+      "passed": true,
+      "expectedRefusal": "DRIVER_EXIT",
+      "observedError": "Refusal:DRIVER_EXIT",
+      "secondsExcludedFromBenchmark": 1.2409231250057928,
+      "GPUExecuted": false,
+      "sourceUnchanged": true,
+      "publishedFixtureBinding": false
+    },
+    {
+      "test": "early-helper-exit",
+      "passed": true,
+      "expectedRefusal": [
+        "RAW_SHORT_FRAME",
+        "DRIVER_EXIT"
+      ],
+      "observedError": "Refusal:RAW_SHORT_FRAME:0:0",
+      "secondsExcludedFromBenchmark": 1.2188873330014758,
+      "GPUExecuted": false,
+      "sourceUnchanged": true,
+      "publishedFixtureBinding": false
+    },
+    {
+      "test": "wrong-protocol",
+      "passed": true,
+      "expectedRefusal": "DRIVER_EXIT",
+      "observedError": "Refusal:DRIVER_EXIT",
+      "secondsExcludedFromBenchmark": 1.2195153750071768,
+      "GPUExecuted": false,
+      "sourceUnchanged": true,
+      "publishedFixtureBinding": false
+    },
+    {
+      "test": "wrong-frame-count",
+      "passed": true,
+      "expectedRefusal": "DRIVER_EXIT",
+      "observedError": "Refusal:DRIVER_EXIT",
+      "secondsExcludedFromBenchmark": 1.237302291992819,
+      "GPUExecuted": false,
+      "sourceUnchanged": true,
+      "publishedFixtureBinding": false
+    },
+    {
+      "test": "wrong-packet-hash",
+      "passed": true,
+      "expectedRefusal": "DRIVER_EXIT",
+      "observedError": "Refusal:DRIVER_EXIT",
+      "secondsExcludedFromBenchmark": 1.2160155000165105,
+      "GPUExecuted": false,
+      "sourceUnchanged": true,
+      "publishedFixtureBinding": false
+    },
+    {
+      "test": "pretend-real-hardware",
+      "passed": true,
+      "expectedRefusal": "DRIVER_EXIT",
+      "observedError": "Refusal:DRIVER_EXIT",
+      "secondsExcludedFromBenchmark": 1.2402184160018805,
+      "GPUExecuted": false,
+      "sourceUnchanged": true,
+      "publishedFixtureBinding": false
+    },
+    {
+      "test": "reverse-driver-ledger",
+      "passed": true,
+      "expectedRefusal": "PRODUCER_SOURCE_ORDER",
+      "observedError": "Refusal:PRODUCER_SOURCE_ORDER",
+      "secondsExcludedFromBenchmark": 0.2139246249862481,
+      "GPUExecuted": false,
+      "sourceUnchanged": true,
+      "publishedFixtureBinding": false
+    },
+    {
+      "test": "broken-encoder",
+      "passed": true,
+      "expectedRefusal": [
+        "BrokenPipeError",
+        "ConnectionResetError",
+        "ENCODER_EXIT"
+      ],
+      "observedError": "BrokenPipeError:[Errno 32] Broken pipe",
+      "secondsExcludedFromBenchmark": 0.19484379200730473,
+      "GPUExecuted": false,
+      "sourceUnchanged": true,
+      "publishedFixtureBinding": false
+    },
+    {
+      "test": "corrupt-reference",
+      "passed": true,
+      "expectedRefusal": "DECODE_SHORT",
+      "observedError": "Refusal:DECODE_SHORT",
+      "secondsExcludedFromBenchmark": 0.21826454097754322,
+      "GPUExecuted": false,
+      "sourceUnchanged": true,
+      "publishedFixtureBinding": false
+    },
+    {
+      "test": "corrupt-before-publish",
+      "passed": true,
+      "expectedRefusal": "PREPUBLISH_HASH",
+      "observedError": "Refusal:PREPUBLISH_HASH",
+      "secondsExcludedFromBenchmark": 0.25101754200295545,
+      "GPUExecuted": false,
+      "sourceUnchanged": true,
+      "publishedFixtureBinding": false
+    },
+    {
+      "test": "fail-before-publish",
+      "passed": true,
+      "expectedRefusal": "INJECTED_BEFORE_PUBLISH",
+      "observedError": "Refusal:INJECTED_BEFORE_PUBLISH",
+      "secondsExcludedFromBenchmark": 0.24613387501449324,
+      "GPUExecuted": false,
+      "sourceUnchanged": true,
+      "publishedFixtureBinding": false
+    },
+    {
+      "test": "race-destination",
+      "passed": true,
+      "expectedRefusal": "File exists",
+      "observedError": "FileExistsError:[Errno 17] File exists: '/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-final-06/race-destination/result'",
+      "secondsExcludedFromBenchmark": 0.25083662499673665,
+      "GPUExecuted": false,
+      "sourceUnchanged": true,
+      "publishedFixtureBinding": false
+    },
+    {
+      "test": "software-fallback",
+      "passed": true,
+      "expectedRefusal": "DRIVER_EXIT",
+      "observedError": "Refusal:DRIVER_EXIT",
+      "secondsExcludedFromBenchmark": 0.19498487500823103,
+      "GPUExecuted": false,
+      "sourceUnchanged": true,
+      "publishedFixtureBinding": false
+    },
+    {
+      "test": "process-group-timeout",
+      "passed": true,
+      "expectedRefusal": "TIMEOUT",
+      "observedError": "Refusal:TIMEOUT",
+      "secondsExcludedFromBenchmark": 2.054822249978315,
+      "GPUExecuted": false,
+      "sourceUnchanged": true,
+      "publishedFixtureBinding": false
+    },
+    {
+      "test": "process-group-cancellation",
+      "passed": true,
+      "expectedRefusal": "CancelledError",
+      "observedError": "CancelledError:",
+      "secondsExcludedFromBenchmark": 1.2262412080017384,
+      "GPUExecuted": false,
+      "sourceUnchanged": true,
+      "publishedFixtureBinding": false
+    },
+    {
+      "test": "output-cap",
+      "passed": true,
+      "expectedRefusal": "ATTEMPT_OUTPUT_CAP",
+      "observedError": "Refusal:ATTEMPT_OUTPUT_CAP",
+      "secondsExcludedFromBenchmark": 0.02837604100932367,
+      "GPUExecuted": false,
+      "sourceUnchanged": true,
+      "publishedFixtureBinding": false
+    },
+    {
+      "test": "source-index-override",
+      "passed": true,
+      "expectedRefusal": "FIXTURE_ENVELOPE",
+      "observedError": "Refusal:FIXTURE_ENVELOPE",
+      "secondsExcludedFromBenchmark": 0.006640874984441325,
+      "GPUExecuted": false,
+      "sourceUnchanged": true,
+      "publishedFixtureBinding": false
+    },
+    {
+      "test": "fixture-qualification-forgery",
+      "passed": true,
+      "expectedRefusal": "EXECUTION_CLASS_NOT_AUTHORITY",
+      "observedError": "Refusal:EXECUTION_CLASS_NOT_AUTHORITY",
+      "secondsExcludedFromBenchmark": 0.005962625000393018,
+      "GPUExecuted": false,
+      "sourceUnchanged": true,
+      "publishedFixtureBinding": false
+    },
+    {
+      "test": "runtime-pin-refusal",
+      "passed": true,
+      "expectedRefusal": "PIN_MISMATCH",
+      "observedError": "Refusal:PIN_MISMATCH:/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_stdout_bridge.mjs",
+      "secondsExcludedFromBenchmark": 0.006431125017115846,
+      "GPUExecuted": false,
+      "sourceUnchanged": true,
+      "publishedFixtureBinding": false
+    },
+    {
+      "test": "existing-destination",
+      "passed": true,
+      "expectedRefusal": "EXISTING_DESTINATION",
+      "observedError": "Refusal:EXISTING_DESTINATION",
+      "secondsExcludedFromBenchmark": 0.006087916990509257,
+      "GPUExecuted": false,
+      "sourceUnchanged": true,
+      "publishedFixtureBinding": false
+    },
+    {
+      "test": "symlink-destination",
+      "passed": true,
+      "expectedRefusal": "OUTPUT_SCOPE",
+      "observedError": "Refusal:OUTPUT_SCOPE",
+      "secondsExcludedFromBenchmark": 0.0062929999839980155,
+      "GPUExecuted": false,
+      "sourceUnchanged": true,
+      "publishedFixtureBinding": false
+    },
+    {
+      "test": "native-no-launch-H-metal-hevc-hardware",
+      "passed": true,
+      "GPUExecuted": false,
+      "nativeHelperStarted": false
+    },
+    {
+      "test": "native-no-launch-H-metal-hevc-reference",
+      "passed": true,
+      "GPUExecuted": false,
+      "nativeHelperStarted": false
+    },
+    {
+      "test": "native-no-launch-H-metal-hevc-profile",
+      "passed": true,
+      "GPUExecuted": false,
+      "nativeHelperStarted": false
+    },
+    {
+      "test": "native-no-launch-H-metal-hevc-positive-nv12",
+      "passed": true,
+      "GPUExecuted": false,
+      "nativeHelperStarted": false
+    },
+    {
+      "test": "native-no-launch-H-metal-hevc-positive-rgba",
+      "passed": true,
+      "GPUExecuted": false,
+      "nativeHelperStarted": false
+    },
+    {
+      "test": "native-no-launch-H-metal-h264-hardware",
+      "passed": true,
+      "GPUExecuted": false,
+      "nativeHelperStarted": false
+    },
+    {
+      "test": "native-no-launch-H-metal-h264-reference",
+      "passed": true,
+      "GPUExecuted": false,
+      "nativeHelperStarted": false
+    },
+    {
+      "test": "native-no-launch-H-metal-h264-profile",
+      "passed": true,
+      "GPUExecuted": false,
+      "nativeHelperStarted": false
+    },
+    {
+      "test": "native-no-launch-H-metal-h264-positive-nv12",
+      "passed": true,
+      "GPUExecuted": false,
+      "nativeHelperStarted": false
+    },
+    {
+      "test": "native-no-launch-H-metal-h264-positive-rgba",
+      "passed": true,
+      "GPUExecuted": false,
+      "nativeHelperStarted": false
+    },
+    {
+      "test": "native-no-launch-H-vulkan-hevc-hardware",
+      "passed": true,
+      "GPUExecuted": false,
+      "nativeHelperStarted": false
+    },
+    {
+      "test": "native-no-launch-H-vulkan-hevc-reference",
+      "passed": true,
+      "GPUExecuted": false,
+      "nativeHelperStarted": false
+    },
+    {
+      "test": "native-no-launch-H-vulkan-hevc-profile",
+      "passed": true,
+      "GPUExecuted": false,
+      "nativeHelperStarted": false
+    },
+    {
+      "test": "native-no-launch-H-vulkan-hevc-positive-nv12",
+      "passed": true,
+      "GPUExecuted": false,
+      "nativeHelperStarted": false
+    },
+    {
+      "test": "native-no-launch-H-vulkan-hevc-positive-rgba",
+      "passed": true,
+      "GPUExecuted": false,
+      "nativeHelperStarted": false
+    },
+    {
+      "test": "native-no-launch-H-vulkan-h264-hardware",
+      "passed": true,
+      "GPUExecuted": false,
+      "nativeHelperStarted": false
+    },
+    {
+      "test": "native-no-launch-H-vulkan-h264-reference",
+      "passed": true,
+      "GPUExecuted": false,
+      "nativeHelperStarted": false
+    },
+    {
+      "test": "native-no-launch-H-vulkan-h264-profile",
+      "passed": true,
+      "GPUExecuted": false,
+      "nativeHelperStarted": false
+    },
+    {
+      "test": "native-no-launch-H-vulkan-h264-positive-nv12",
+      "passed": true,
+      "GPUExecuted": false,
+      "nativeHelperStarted": false
+    },
+    {
+      "test": "native-no-launch-H-vulkan-h264-positive-rgba",
+      "passed": true,
+      "GPUExecuted": false,
+      "nativeHelperStarted": false
+    },
+    {
+      "test": "native-acceptance-forgery",
+      "passed": true,
+      "GPUExecuted": false
+    }
+  ],
+  "testCount": 51,
+  "sourceIndicesUsed": [
+    3,
+    302
+  ],
+  "retainedRawFixtureIndices": [
+    0,
+    299
+  ],
+  "noRenderedPixelCorrespondenceClaimed": true,
+  "helperHardwareFlagsSynthetic": true,
+  "all300IndependentBindings": 3,
+  "codedConformanceAndDecodedInvariance": {
+    "h264": 300,
+    "hevc": 300,
+    "CPUProfileHEVC": 300
+  },
+  "preparationCommands": [
+    {
+      "argv": [
+        "/opt/homebrew/Cellar/ffmpeg/9.0.2/bin/ffmpeg",
+        "-v",
+        "error",
+        "-xerror",
+        "-n",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/fixtures/h264-video.mp4",
+        "-map",
+        "0:v:0",
+        "-c:v",
+        "copy",
+        "-f",
+        "h264",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/fixtures/reference.h264"
+      ],
+      "status": "retained prior successful same-source copy extraction, not repeated"
+    },
+    {
+      "argv": [
+        "/opt/homebrew/Cellar/ffmpeg/9.0.2/bin/ffmpeg",
+        "-v",
+        "error",
+        "-xerror",
+        "-n",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/fixtures/video.mp4",
+        "-map",
+        "0:v:0",
+        "-c:v",
+        "copy",
+        "-f",
+        "hevc",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/fixtures/reference.hevc"
+      ],
+      "status": "retained prior successful same-source copy extraction, not repeated"
+    },
+    {
+      "argv": [
+        "/usr/bin/xcrun",
+        "clang",
+        "-dynamiclib",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/fixtures/cpu_profile.c",
+        "-o",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/fixtures/cpu_profile.dylib"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "taskSettings": {
+        "TMPDIR": "/tmp"
+      },
+      "CPUConstructorOnly": true
+    }
+  ],
+  "CPUProfileLibrary": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/fixtures/cpu_profile.dylib",
+    "bytes": 33472,
+    "sha256": "2a8a5b25732b28096c9acdcadaca5b3e99ec2a943d24bef5350bab8b32049a8c"
+  },
+  "GPUProfileLibrariesNeverLoaded": true,
+  "GPUExports": 0,
+  "newCargoBuild": false,
+  "realDeviceAccepted": false,
+  "hardwareQualified": false,
+  "nativeExecutionDisabled": true,
+  "activeSerialGateBytes": 9663676416,
+  "activeBalancedGateBytes": 16106127360,
+  "streaming6GiBGateDisabled": true,
+  "benchmarkTiming": false,
+  "timingWindowOpen": false
+}

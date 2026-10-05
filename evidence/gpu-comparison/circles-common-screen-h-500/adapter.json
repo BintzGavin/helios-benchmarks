@@ -1,0 +1,86 @@
+{
+  "engine": "H",
+  "mode": "hardware",
+  "frames": 300,
+  "bitrate": 500000000,
+  "sourceFrameRange": [
+    3,
+    303
+  ],
+  "gop": 30,
+  "scene": "Circles99kText1k",
+  "fontSha256": "9ae2da663d64342031e59b5fa680dd355171d021b7ebf83774efc7c0330ae7b5",
+  "executableSha256": "58a6dfd54294015cdf444ab1a27c98f0782221b91d3dfe92cce3520e156bd0b8",
+  "commands": [
+    {
+      "command": "/Users/gavinbintz/.codex/worktrees/gpu-bitrate-budget/helios/packages/portable/native/target/release/helios-gpu",
+      "args": [
+        "encode",
+        "3840",
+        "2160",
+        "30",
+        "1",
+        "500000000",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-h-500/elementary.h264",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-h-500/transfer.jsonl",
+        "",
+        "30",
+        "3"
+      ]
+    },
+    {
+      "command": "/opt/homebrew/bin/ffmpeg",
+      "args": [
+        "-v",
+        "error",
+        "-y",
+        "-r",
+        "30",
+        "-f",
+        "h264",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-h-500/elementary.h264",
+        "-c:v",
+        "copy",
+        "-an",
+        "-video_track_timescale",
+        "30",
+        "-movflags",
+        "+faststart",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-h-500/video.mp4"
+      ]
+    }
+  ],
+  "status": "complete",
+  "zeroCopyProved": false,
+  "rawReadback": false,
+  "commonConverterLane": true,
+  "extraGpuTextureCopy": false,
+  "serialRasterizer": true,
+  "verificationOwner": "run_matrix.py; one full post-export decode plus independent cadence/fidelity gates",
+  "startedAt": "2026-10-03T17:46:43.780Z",
+  "producer": {
+    "code": 0,
+    "signal": null,
+    "stderr": ""
+  },
+  "nativeReceipt": {
+    "bitrate": 500000000,
+    "configuredBitrate": 500000000,
+    "encoder": "videotoolbox",
+    "encoderPool": 3,
+    "explicitRawReadbackBytes": 0,
+    "frames": 300,
+    "gop": 30,
+    "protocol": 4,
+    "rasterizer": "skia-metal",
+    "zeroCopyProved": false
+  },
+  "mux": {
+    "code": 0,
+    "signal": null,
+    "stderr": ""
+  },
+  "exportMs": 60254.688958,
+  "finishedAt": "2026-10-03T17:47:44.037Z"
+}

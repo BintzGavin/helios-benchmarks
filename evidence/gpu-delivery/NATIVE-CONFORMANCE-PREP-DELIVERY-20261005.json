@@ -1,0 +1,52 @@
+{
+  "status": "bounded native H264/HEVC signaling/reference conformance adapter preparation passed",
+  "adapter": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_chroma_conformance.py",
+    "bytes": 19327,
+    "sha256": "b0a36b7852439a78b27365a2846a1b471207f1285fbb9461aa7fa125a21a5088"
+  },
+  "report": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/FINAL-REPORT.json",
+    "bytes": 5158,
+    "sha256": "c986462b129dd0a239bbee84f08a56e31ffdf76654ff9a80c7ff689e4c34a1f0"
+  },
+  "pins": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/EXACT-PINS.json",
+    "bytes": 81089,
+    "sha256": "1b946dc6901e630df65e5ccc1c661ea874479ff9ee93549040b03a78c6418c04"
+  },
+  "manifest": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/RECEIPT-MANIFEST.json",
+    "bytes": 80626,
+    "sha256": "351293f76777cc35b114ffa7e31c4de55fca600adefde431d2a37ff810b90633"
+  },
+  "reviewSourcePackage": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/native-conformance-prep-source-receipts-20261005.zip",
+    "bytes": 18707142,
+    "sha256": "a199fa2c311459bc9068f8c162bf6666c2978ed05605e3cf519d5009fbd8339c",
+    "members": 447,
+    "CRCpassed": true
+  },
+  "allManifestFilesRechecked": true,
+  "resourceGate": {
+    "currentFreeBytes": 1163735040,
+    "full4KNV12Per300FrameReferenceBytes": 3732480000,
+    "full4kRawReferenceGiB": 3.4761428833007812,
+    "minimumRecommendedFreeGiBBeforeOneSerial4KQualification": 6,
+    "recommendedFreeGiBBeforeRetainedBalancedBatch": 12,
+    "estimateBasis": "3.732GB NV12 raw reference per active qualification, ~0.5GB FFV1, ~0.4GB original +0.4GB conformed candidate, profiling/logs and >=1GB spare; balanced8 originals+8conformed roughly6GB plus refs/scratch. Estimates, recalculate against exactnext lane.",
+    "noFullRunsBelowHeadroom": true,
+    "cacheAndDestinationApprovalsRemainPending": true
+  },
+  "remaining": [
+    "fresh all3004K per-codec source/reference/quality/cadence/color/GOP qualification and GPU/fault controls",
+    "fresh shared-adapter modified-F4K qualification; no reuse ofearlier adapter clocks asnew source",
+    "balanced H/F timing afterspace and allgates; includeconformance costs and notify native thread",
+    "full4K HEVC/Vulkan comparisons",
+    "Library publication currentlyblocked12itemattempt; no newIDs orsubstitute",
+    "native Vulkan destination approval remainspending; no pushretry"
+  ],
+  "timingWindowOpen": false,
+  "noNew4KQualification": true,
+  "newLibraryIds": []
+}

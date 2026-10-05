@@ -1,0 +1,10 @@
+{"event":"surface-create","surfaceId":976,"protocol":4,"bitrate":500000000,"configuredBitrate":500000000,"gop":30,"encoderPool":true,"poolCapacity":3,"format":"nv12-video-range","rasterStorage":"private","rawCpuMapCallsInBridge":0}
+{"event":"raster-submitted","frame":0}
+{"event":"conversion-complete","frame":0,"surfaceId":976,"sameIOSurfacePlanes":true,"gpuStartSeconds":126633.387482667,"gpuEndSeconds":126633.387666667}
+{"event":"reference-cpu-readback","frame":0,"bytes":12441600}
+{"event":"raster-submitted","frame":1}
+{"event":"conversion-complete","frame":1,"surfaceId":976,"sameIOSurfacePlanes":true,"gpuStartSeconds":126633.462949917,"gpuEndSeconds":126633.463134500}
+{"event":"reference-cpu-readback","frame":1,"bytes":12441600}
+{"event":"raster-submitted","frame":2}
+{"event":"conversion-complete","frame":2,"surfaceId":976,"sameIOSurfacePlanes":true,"gpuStartSeconds":126633.528828750,"gpuEndSeconds":126633.529014250}
+{"event":"reference-cpu-readback","frame":2,"bytes":12441600}

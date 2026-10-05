@@ -1,0 +1,44 @@
+warning: linker stderr: ld: -ld_classic is deprecated and will be removed in a future release
+  |
+  = note: `#[warn(linker_messages)]` on by default
+
+warning: `fframes` (build script) generated 1 warning
+warning: `svgr-macro` (lib) generated 1 warning (1 duplicate)
+warning: linker stderr: ld: -ld_classic is deprecated and will be removed in a future release
+         ld: ignoring file /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks//QTKit.framework/QTKit.tbd, missing required architecture arm64 in file /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks//QTKit.framework/QTKit.tbd
+  |
+  = note: `#[warn(linker_messages)]` on by default
+
+warning: `fframes-media-dir-macro` (lib) generated 1 warning
+   Compiling fframes_skia_renderer v1.1.0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-current/fframes-skia-renderer)
+   Compiling vs-remotion-bench v1.1.0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-current/render-bench/vs-remotion)
+error[E0277]: `?` couldn't convert the error: `RenderEncodingError: StdError` is not satisfied
+   --> render-bench/vs-remotion/src/bin/textgrid-adapter.rs:135:101
+    |
+ 88 | fn main() -> Result<(), Box<dyn std::error::Error>> {
+    |              -------------------------------------- required `RenderEncodingError: StdError` because of this
+...
+135 |         let info = VideoEncoderInfo::for_output(out, (1920,1080,30), &options.video_encoder_options)?;
+    |                    ---------------------------------------------------------------------------------^ the trait `StdError` is not implemented for `RenderEncodingError`
+    |                    |
+    |                    this has type `Result<_, RenderEncodingError>`
+    |
+    = note: the question mark operation (`?`) implicitly performs a conversion on the error value using the `From` trait
+    = note: required for `Box<dyn StdError>` to implement `From<RenderEncodingError>`
+
+error[E0277]: `?` couldn't convert the error: `RenderEncodingError: StdError` is not satisfied
+   --> render-bench/vs-remotion/src/bin/textgrid-adapter.rs:137:59
+    |
+ 88 | fn main() -> Result<(), Box<dyn std::error::Error>> {
+    |              -------------------------------------- required `RenderEncodingError: StdError` because of this
+...
+137 |         let input = backend.negotiate_encoder_input(&info)?;
+    |                             ------------------------------^ the trait `StdError` is not implemented for `RenderEncodingError`
+    |                             |
+    |                             this has type `Result<_, RenderEncodingError>`
+    |
+    = note: the question mark operation (`?`) implicitly performs a conversion on the error value using the `From` trait
+    = note: required for `Box<dyn StdError>` to implement `From<RenderEncodingError>`
+
+For more information about this error, try `rustc --explain E0277`.
+error: could not compile `vs-remotion-bench` (bin "textgrid-adapter") due to 2 previous errors

@@ -1,0 +1,7 @@
+[vost#0:0/ffv1 @ 0xc2ac28000] Error submitting a packet to the muxer: No space left on device
+    Last message repeated 1 times
+[out#0/matroska @ 0xc2b024180] Error muxing a packet
+[out#0/matroska @ 0xc2b024180] Task finished with error code: -28 (No space left on device)
+[out#0/matroska @ 0xc2b024180] Terminating thread with return code -28 (No space left on device)
+[out#0/matroska @ 0xc2b024180] Error writing trailer: No space left on device
+[out#0/matroska @ 0xc2b024180] Error closing file: No space left on device

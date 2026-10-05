@@ -1,0 +1,5 @@
+{
+  "status": "excluded as final",
+  "reason": "SIGTERM handler and main error path raced while publishing shutdown JSON; EEXIST handler exited before first asynchronous write completed. Corrected by memoizing cleanup/publication and publishing shutdown receipt with no-replace link. All affected attempts retained",
+  "GPUExecuted": false
+}

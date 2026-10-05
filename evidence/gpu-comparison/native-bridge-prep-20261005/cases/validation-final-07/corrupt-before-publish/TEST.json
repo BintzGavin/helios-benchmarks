@@ -1,0 +1,10 @@
+{
+  "test": "corrupt-before-publish",
+  "passed": true,
+  "expectedRefusal": "PREPUBLISH_HASH",
+  "observedError": "Refusal:PREPUBLISH_HASH",
+  "secondsExcludedFromBenchmark": 0.25417808297788724,
+  "GPUExecuted": false,
+  "sourceUnchanged": true,
+  "publishedFixtureBinding": false
+}

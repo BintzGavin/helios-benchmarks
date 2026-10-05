@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualify.py", line 102, in <module>
+    assert profiles['nv12-control']['hookedRawDownloadCalls'] >= 3 and profiles['rgba-control']['hookedRawDownloadCalls'] >= 3
+AssertionError

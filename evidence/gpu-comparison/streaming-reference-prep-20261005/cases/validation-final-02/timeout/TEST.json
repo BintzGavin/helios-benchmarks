@@ -1,0 +1,10 @@
+{
+  "case": "timeout",
+  "passed": true,
+  "expectedRefusal": "TIMEOUT",
+  "observedError": "Refusal: TIMEOUT",
+  "secondsExcludedFromBenchmarks": 0.014649207994807512,
+  "sourceUnchanged": true,
+  "GPUExecuted": false,
+  "atomicFinalExists": false
+}

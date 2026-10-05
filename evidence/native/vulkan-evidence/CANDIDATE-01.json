@@ -1,0 +1,13 @@
+{
+  "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/helper-candidate-01",
+  "sha256": "7e2c4b9052bdb83a1425004751f63d84249ad307eb3c83266cd6e0f6dbb89d6b",
+  "bytes": 17881712,
+  "releaseLto": false,
+  "deploymentTarget": "12.0",
+  "cargoFeatures": [
+    "vulkan"
+  ],
+  "defaultFeatures": false,
+  "qualified": false,
+  "exclusion": "Actual Skia render-target preflight failed GPU_SURFACE_FAILED; missing required transfer-source usage repaired in later source. No scene, speed or quality qualification."
+}

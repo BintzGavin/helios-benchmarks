@@ -1,0 +1,28 @@
+warning: linker stderr: ld: -ld_classic is deprecated and will be removed in a future release
+  |
+  = note: `#[warn(linker_messages)]` on by default
+
+warning: `fframes` (build script) generated 1 warning
+warning: linker stderr: ld: -ld_classic is deprecated and will be removed in a future release
+         ld: ignoring file /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks//QTKit.framework/QTKit.tbd, missing required architecture arm64 in file /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks//QTKit.framework/QTKit.tbd
+  |
+  = note: `#[warn(linker_messages)]` on by default
+
+warning: `svgr-macro` (lib) generated 1 warning (1 duplicate)
+warning: `fframes-media-dir-macro` (lib) generated 1 warning
+   Compiling vs-remotion-bench v1.1.0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-current/render-bench/vs-remotion)
+warning: output of `xcrun` while finding MacOSX.sdk
+  |
+  = note: xcrun: warning: confstr() failed with code 5: couldn't get path of DARWIN_USER_TEMP_DIR; using /tmp instead
+
+warning: linker stderr: cc: confstr() failed with code 5: couldn't get path of DARWIN_USER_TEMP_DIR; using /tmp instead
+         ld: -ld_classic is deprecated and will be removed in a future release
+         
+         ld: ignoring file /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks//QTKit.framework/QTKit.tbd, missing required architecture arm64 in file /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks//QTKit.framework/QTKit.tbd
+  |
+  = note: `#[warn(linker_messages)]` on by default
+
+warning: `vs-remotion-bench` (bin "textgrid-adapter") generated 2 warnings
+    Finished `release` profile [optimized] target(s) in 3.62s
+warning: the following packages contain code that will be rejected by a future version of Rust: block v0.1.6
+note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 1`

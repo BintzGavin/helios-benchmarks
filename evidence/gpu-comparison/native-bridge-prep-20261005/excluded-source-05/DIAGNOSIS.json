@@ -1,0 +1,5 @@
+{
+  "status": "excluded as final",
+  "reason": "Resource monitor tried to stat a same-attempt conformance temporary file after its atomic rename. Corrected by tolerating ENOENT only for concurrently vanished staging files, preserving pin failures and output/disk caps",
+  "GPUExecuted": false
+}

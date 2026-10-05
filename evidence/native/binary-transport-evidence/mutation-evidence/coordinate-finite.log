@@ -1,0 +1,20 @@
+
+running 3 tests
+test tests::utf8_padding_and_known_font_are_independent_boundaries ... ok
+test tests::bounded_reader_and_validation_reject_broken_envelopes ... FAILED
+test tests::command_geometry_paint_stack_count_and_text_are_bounded ... ok
+
+failures:
+
+---- tests::bounded_reader_and_validation_reject_broken_envelopes stdout ----
+
+thread 'tests::bounded_reader_and_validation_reject_broken_envelopes' (4096799) panicked at /private/tmp/helios-gpu-transport-mutants/coordinate-finite.rs:124:9:
+assertion failed: validate(&packet(&[5, f32::NAN.to_bits()]), |_| false).is_err()
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+failures:
+    tests::bounded_reader_and_validation_reject_broken_envelopes
+
+test result: FAILED. 2 passed; 1 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

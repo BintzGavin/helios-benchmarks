@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/Users/gavinbintz/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+    "node_modules/vitest/vitest.mjs",
+    "run",
+    "--config",
+    "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/scheduler-closing-checks-v1/vitest.local-validation.mts",
+    "test/media-streaming.test.ts",
+    "test/sandbox-audio.test.ts",
+    "test/render-readiness.test.ts"
+  ],
+  "cwd": "/private/tmp/helios-scheduler-merge-20261001",
+  "exit_code": 1,
+  "duration_seconds": 0.969
+}

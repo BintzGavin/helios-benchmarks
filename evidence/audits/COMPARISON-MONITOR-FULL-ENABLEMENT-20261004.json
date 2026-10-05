@@ -1,0 +1,48 @@
+{
+  "ownerReceipt": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/FULL-GPU-ENABLEMENT-STATUS-20261004.json",
+  "ownerReceiptSha256": "ca8f9ed97d3153f995cca9e289f51e80d52f6ac97f790f5081fcc800c5f8ff42",
+  "parse": "strict JSON",
+  "independentSavedReceiptChecks": [
+    {
+      "directory": "circles-screen-f-8",
+      "exportSeconds": 25.713300583,
+      "bitrate": 8000000,
+      "pipeline": "MaxPerformance",
+      "requiredPath": "HardwareFrames",
+      "qualityPassed": false,
+      "eligibleForQualifiedSummary": false,
+      "adapterSha256": "fc6c11d685a3253fde84d668f08e8f8744e90721a8cc0179de91d0433f1b37e8",
+      "qualitySha256": "fe376439ad791e087058fca376535cd3f95e6ce4a7f1c1754f7aab2c33c992af"
+    },
+    {
+      "directory": "circles-screen-f-200",
+      "exportSeconds": 25.048320292,
+      "bitrate": 200000000,
+      "pipeline": "MaxPerformance",
+      "requiredPath": "HardwareFrames",
+      "qualityPassed": false,
+      "eligibleForQualifiedSummary": false,
+      "adapterSha256": "31ae6dbd5755c68d91aba424355a1f2d5c7cce5625f19e05831d87d14c581d60",
+      "qualitySha256": "1b733d812d909215f198ea9ae6eee9d00691a81a11aee1c01959ead832c09376"
+    },
+    {
+      "directory": "circles-screen-f-500",
+      "exportSeconds": 27.400868292,
+      "bitrate": 500000000,
+      "pipeline": "MaxPerformance",
+      "requiredPath": "HardwareFrames",
+      "qualityPassed": false,
+      "eligibleForQualifiedSummary": false,
+      "adapterSha256": "a693d19a5dfaee69a0a2ac6a873acb18d09fcbd69b08432070907818e07360e8",
+      "qualitySha256": "aa2f8f7069111b6db8137b5d8355930f1edfe7cd81115c3284e7d47ee22ee03f"
+    }
+  ],
+  "serialLaneIsProductionMaxPerformance": false,
+  "publishedM5ClaimBeaten": false,
+  "scopeClarificationPending": true,
+  "ownerThread": "01a0ff86-ddbd-7703-92b8-781e18082039",
+  "ownerCursor": "d0c051ad-a3b2-4641-b3cb-7583ae2a6e2e:10",
+  "ownerStatus": "idle",
+  "newBuildsExportsTimings": false,
+  "broaderObjectiveComplete": false
+}

@@ -1,0 +1,36 @@
+{
+  "scratch": "/tmp/helios-circle-mutations-OWDYnD",
+  "scope": "six focused TS path/envelope/GOP mutations; native FFI/Metal/concurrency excluded",
+  "receipts": [
+    {
+      "name": "command-cap",
+      "killed": true,
+      "status": 1
+    },
+    {
+      "name": "frame-byte-cap",
+      "killed": true,
+      "status": 1
+    },
+    {
+      "name": "stack-cap",
+      "killed": true,
+      "status": 1
+    },
+    {
+      "name": "construction-transform",
+      "killed": true,
+      "status": 1
+    },
+    {
+      "name": "gop-upper-bound",
+      "killed": true,
+      "status": 1
+    },
+    {
+      "name": "text-budget",
+      "killed": true,
+      "status": 1
+    }
+  ]
+}

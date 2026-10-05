@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "frames": 3,
+  "actualConversionContexts": 3,
+  "deviceRegistryId": 4294968434,
+  "directSkiaTextureImport": true,
+  "extraGpuCopy": false,
+  "peakObservedAVBufferOwnersByContext": {
+    "3": 1,
+    "5": 1,
+    "4": 1
+  },
+  "sourceOwnedThroughConversionFence": true,
+  "observedDestinationOwnersAllReleased": true,
+  "opaqueEncoderOwnershipKnown": false,
+  "zeroCopyProved": false,
+  "benchmarkTiming": false,
+  "coreLedgerSha256": "3225a37524a698461dff1f23c8bb435266bd1237868d893b7597dfe9d0d232fc",
+  "gpuTraceSha256": "f7f861daa0f6eecbe1dc049f2db6cc86380de5267876f489bde3f56aef0fb106",
+  "indexedStages": [
+    {
+      "index": 0,
+      "context": 4,
+      "sourceSurfaceId": 167,
+      "destinationSurfaceId": 209,
+      "gpuStartSeconds": 216684.01196325,
+      "gpuEndSeconds": 216684.01198125
+    },
+    {
+      "index": 1,
+      "context": 5,
+      "sourceSurfaceId": 175,
+      "destinationSurfaceId": 205,
+      "gpuStartSeconds": 216684.009713125,
+      "gpuEndSeconds": 216684.0098595
+    },
+    {
+      "index": 2,
+      "context": 3,
+      "sourceSurfaceId": 186,
+      "destinationSurfaceId": 204,
+      "gpuStartSeconds": 216684.007647917,
+      "gpuEndSeconds": 216684.00766575
+    }
+  ]
+}

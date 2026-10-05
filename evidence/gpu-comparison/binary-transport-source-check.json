@@ -1,0 +1,84 @@
+{
+  "passed": true,
+  "helperActualSha256": "1383da791a588731101f6dd22bea8e911d4bc97243b7f01541214981afc90ecc",
+  "sources": [
+    {
+      "path": "packages/portable/src/gpu.ts",
+      "sha256": "8c6dbb20e23e4fc4b8751371f2ae16ef7480d2eec7af4d901a612ac9f7aea882",
+      "actualSha256": "8c6dbb20e23e4fc4b8751371f2ae16ef7480d2eec7af4d901a612ac9f7aea882",
+      "passed": true
+    },
+    {
+      "path": "packages/portable/src/gpu-commands.ts",
+      "sha256": "bfca2d2211e84cea382fd4895227dbb5dc2772d33737e29b61fa0667119d3b6e",
+      "actualSha256": "bfca2d2211e84cea382fd4895227dbb5dc2772d33737e29b61fa0667119d3b6e",
+      "passed": true
+    },
+    {
+      "path": "packages/portable/native/src/main.rs",
+      "sha256": "9d43b8da06f97121b6b998caebc1c9062b3c69afc115a1e2b6dc4433b523be3c",
+      "actualSha256": "9d43b8da06f97121b6b998caebc1c9062b3c69afc115a1e2b6dc4433b523be3c",
+      "passed": true
+    },
+    {
+      "path": "packages/portable/native/src/binary.rs",
+      "sha256": "87521b21b9370d9a1d4067d3310bc30c80d77d089132cd331b3e42a730d06d43",
+      "actualSha256": "87521b21b9370d9a1d4067d3310bc30c80d77d089132cd331b3e42a730d06d43",
+      "passed": true
+    },
+    {
+      "path": "packages/portable/native/metal.mm",
+      "sha256": "d4ffc5b30b9dd208ee438b1519fb76dee23e33c42ff619b3875eec29afb49ee9",
+      "actualSha256": "d4ffc5b30b9dd208ee438b1519fb76dee23e33c42ff619b3875eec29afb49ee9",
+      "passed": true
+    },
+    {
+      "path": "packages/portable/native/encoder-flight.hpp",
+      "sha256": "e621ea35a3006cf687b50cb5c859b4610c76a0068c0cc0fb09e30985c4c3b02a",
+      "actualSha256": "e621ea35a3006cf687b50cb5c859b4610c76a0068c0cc0fb09e30985c4c3b02a",
+      "passed": true
+    },
+    {
+      "path": "packages/portable/native/build.rs",
+      "sha256": "4316755700b94781f9f9425cf5af3ce4330bdfaf862051e451d34b5d1991d1e6",
+      "actualSha256": "4316755700b94781f9f9425cf5af3ce4330bdfaf862051e451d34b5d1991d1e6",
+      "passed": true
+    },
+    {
+      "path": "packages/portable/native/Cargo.toml",
+      "sha256": "24a3232ef28a9556bd44c0e87aa8c460dda7e8b2be74141246e1bed4b3c933ec",
+      "actualSha256": "24a3232ef28a9556bd44c0e87aa8c460dda7e8b2be74141246e1bed4b3c933ec",
+      "passed": true
+    },
+    {
+      "path": "packages/portable/native/Cargo.lock",
+      "sha256": "46fe52b24821ea898032b88a13cf768d70d2ccea006f18f1843d53f866fd99a4",
+      "actualSha256": "46fe52b24821ea898032b88a13cf768d70d2ccea006f18f1843d53f866fd99a4",
+      "passed": true
+    },
+    {
+      "path": "packages/portable/benchmarks/gpu.ts",
+      "sha256": "880b2385cacfb6984c2de93353f7b60cb71fc60f77e69ab5aa10bc4367769954",
+      "actualSha256": "880b2385cacfb6984c2de93353f7b60cb71fc60f77e69ab5aa10bc4367769954",
+      "passed": true
+    },
+    {
+      "path": "packages/portable/benchmarks/gpu-quality.ts",
+      "sha256": "6c7450272e2c5901eb3a7492e2926194dc8fe4611f5ddd8850cc072c9ae4dad0",
+      "actualSha256": "6c7450272e2c5901eb3a7492e2926194dc8fe4611f5ddd8850cc072c9ae4dad0",
+      "passed": true
+    },
+    {
+      "path": "packages/portable/tests/gpu-transport.test.ts",
+      "sha256": "853287bacbea37dc8aac6eda892adaf336144c603ab8e181de29d2f4c9701e24",
+      "actualSha256": "853287bacbea37dc8aac6eda892adaf336144c603ab8e181de29d2f4c9701e24",
+      "passed": true
+    },
+    {
+      "path": "packages/portable/tests/fixtures/fonts/NotoSans-Regular.ttf",
+      "sha256": "b85c38ecea8a7cfb39c24e395a4007474fa5a4fc864f6ee33309eb4948d232d5",
+      "actualSha256": "b85c38ecea8a7cfb39c24e395a4007474fa5a4fc864f6ee33309eb4948d232d5",
+      "passed": true
+    }
+  ]
+}

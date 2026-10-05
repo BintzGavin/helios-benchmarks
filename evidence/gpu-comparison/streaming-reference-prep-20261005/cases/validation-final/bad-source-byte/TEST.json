@@ -1,0 +1,10 @@
+{
+  "case": "bad-source-byte",
+  "passed": true,
+  "expectedRefusal": "DIRECT_SOURCE_HASH",
+  "observedError": "Refusal: DIRECT_SOURCE_HASH",
+  "secondsExcludedFromBenchmarks": 1.0638238330138847,
+  "sourceUnchanged": true,
+  "GPUExecuted": false,
+  "atomicFinalExists": false
+}

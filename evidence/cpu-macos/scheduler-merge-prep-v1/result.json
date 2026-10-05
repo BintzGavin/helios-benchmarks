@@ -1,0 +1,90 @@
+{
+  "target": "/private/tmp/helios-scheduler-merge-20261001",
+  "branch": "gavin/perf-render-staging",
+  "head": "86b50c8127aaf895a4ee47401b8a6bf6fdf2b71a",
+  "files": [
+    "src/index.ts",
+    "src/tools/memory.ts",
+    "src/tools/sandbox.ts",
+    "src/tools/render-readiness.ts",
+    "test/media-streaming.test.ts",
+    "test/sandbox-audio.test.ts",
+    "test/render-readiness.test.ts",
+    "test-node/render-readiness-bundle.check.mjs"
+  ],
+  "sha256": {
+    "src/index.ts": "431b80bcba0fb7375cca8f1a4642f681dfc3a0b14d09ae680a78221de3062c03",
+    "src/tools/memory.ts": "636134d29ba0750b688285c07076e308294376951a994434f6ace3a1d842087a",
+    "src/tools/sandbox.ts": "c078636ac38421b89e9d69ca0b4ef992dc9cc3e19f118022308e022ce0cff442",
+    "src/tools/render-readiness.ts": "7b535cb2c5f131282cb4c296825fd212cc2c248433e1d1eaad0a7924ca2488d6",
+    "test/media-streaming.test.ts": "c12af96851ecea2782a6aee79732abb4241913c85302958ae7d62ef595a9cd5d",
+    "test/sandbox-audio.test.ts": "d52db893cfa2600ed4bcf45bf32aa2d064b2badabfa1be7f1b92a483806f3370",
+    "test/render-readiness.test.ts": "76b2124ed5508d53db2fc2709a67c0860815e017cca408d1b6e09292ee090a15",
+    "test-node/render-readiness-bundle.check.mjs": "2b1330c066af1c21c2f638cac263805d7130492f26659fcdbdf9ed2e29eb9d2a"
+  },
+  "source_status_unchanged_during_copy_and_verification": true,
+  "exact_copy_verified": true,
+  "changed_paths": [
+    "src/index.ts",
+    "src/tools/memory.ts",
+    "src/tools/sandbox.ts",
+    "src/tools/render-readiness.ts",
+    "test-node/render-readiness-bundle.check.mjs",
+    "test/media-streaming.test.ts",
+    "test/render-readiness.test.ts",
+    "test/sandbox-audio.test.ts"
+  ],
+  "numstat": [
+    "5\t4\tsrc/index.ts",
+    "70\t4\tsrc/tools/memory.ts",
+    "7\t9\tsrc/tools/sandbox.ts",
+    "44\t0\tsrc/tools/render-readiness.ts",
+    "191\t0\ttest/media-streaming.test.ts",
+    "79\t0\ttest/sandbox-audio.test.ts",
+    "49\t0\ttest/render-readiness.test.ts",
+    "34\t0\ttest-node/render-readiness-bundle.check.mjs"
+  ],
+  "diffstat": "8 files changed, 479 insertions(+), 17 deletions(-)",
+  "checks": [
+    {
+      "command": "/usr/bin/git diff --check -- src/index.ts src/tools/memory.ts src/tools/sandbox.ts",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "command": "/usr/bin/git diff --no-index --check /dev/null src/tools/render-readiness.ts",
+      "exit_code": 1,
+      "passed": true,
+      "note": "No whitespace diagnostics; exit 1 is expected for file differences."
+    },
+    {
+      "command": "/usr/bin/git diff --no-index --check /dev/null test/media-streaming.test.ts",
+      "exit_code": 1,
+      "passed": true,
+      "note": "No whitespace diagnostics; exit 1 is expected for file differences."
+    },
+    {
+      "command": "/usr/bin/git diff --no-index --check /dev/null test/sandbox-audio.test.ts",
+      "exit_code": 1,
+      "passed": true,
+      "note": "No whitespace diagnostics; exit 1 is expected for file differences."
+    },
+    {
+      "command": "/usr/bin/git diff --no-index --check /dev/null test/render-readiness.test.ts",
+      "exit_code": 1,
+      "passed": true,
+      "note": "No whitespace diagnostics; exit 1 is expected for file differences."
+    },
+    {
+      "command": "/usr/bin/git diff --no-index --check /dev/null test-node/render-readiness-bundle.check.mjs",
+      "exit_code": 1,
+      "passed": true,
+      "note": "No whitespace diagnostics; exit 1 is expected for file differences."
+    }
+  ],
+  "tests_run": false,
+  "future_checks": [
+    "npx vitest run test/media-streaming.test.ts test/sandbox-audio.test.ts test/render-readiness.test.ts",
+    "node --test test-node/render-readiness-bundle.check.mjs"
+  ]
+}

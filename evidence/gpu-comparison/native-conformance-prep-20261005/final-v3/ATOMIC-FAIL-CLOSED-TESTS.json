@@ -1,0 +1,190 @@
+{
+  "passed": true,
+  "negativeCasesRejected": 28,
+  "idempotentPositiveCases": 2,
+  "cases": [
+    {
+      "codec": "h264",
+      "case": "existing destination",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "h264",
+      "case": "symlink destination",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "h264",
+      "case": "wrong codec",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "h264",
+      "case": "truncated input",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "h264",
+      "case": "frame envelope",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "h264",
+      "case": "packet envelope",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "h264",
+      "case": "post-validation precommit failure",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "h264",
+      "case": "post-validation candidate corruption",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "h264",
+      "case": "destination creation race",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "h264",
+      "case": "malformed actual sample NAL length",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "h264",
+      "case": "other SPS semantic field mutation",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "h264",
+      "case": "non-SPS codec configuration header mutation",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "h264",
+      "case": "PPS configuration payload mutation",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "h264",
+      "case": "CLI receipt/output collision",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "h264",
+      "case": "already-center idempotent",
+      "passed": true,
+      "byteExact": true
+    },
+    {
+      "codec": "hevc",
+      "case": "existing destination",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "hevc",
+      "case": "symlink destination",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "hevc",
+      "case": "wrong codec",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "hevc",
+      "case": "truncated input",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "hevc",
+      "case": "frame envelope",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "hevc",
+      "case": "packet envelope",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "hevc",
+      "case": "post-validation precommit failure",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "hevc",
+      "case": "post-validation candidate corruption",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "hevc",
+      "case": "destination creation race",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "hevc",
+      "case": "malformed actual sample NAL length",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "hevc",
+      "case": "other SPS semantic field mutation",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "hevc",
+      "case": "non-SPS codec configuration header mutation",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "hevc",
+      "case": "PPS configuration payload mutation",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "hevc",
+      "case": "CLI receipt/output collision",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "hevc",
+      "case": "already-center idempotent",
+      "passed": true,
+      "byteExact": true
+    }
+  ],
+  "adapterSha256": "b0a36b7852439a78b27365a2846a1b471207f1285fbb9461aa7fa125a21a5088",
+  "noGPUOrCargoOrEncoderExport": true,
+  "benchmarkTiming": false
+}

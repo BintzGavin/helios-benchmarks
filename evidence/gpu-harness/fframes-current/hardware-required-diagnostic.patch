@@ -1,0 +1,21 @@
+--- a/fframes-skia-renderer/src/frame_export/mod.rs
++++ b/fframes-skia-renderer/src/frame_export/mod.rs
+@@ -266,6 +266,18 @@
+             (target, gpu, queue)
+         };
+ 
++        let actual_path = match &target {
++            Target::Hardware(_) => FrameExportPath::HardwareFrames,
++            Target::Planes { .. } => FrameExportPath::GpuConversion,
++            Target::Rgba { .. } => FrameExportPath::CpuConversion,
++        };
++        if std::env::var_os("COMPARISON_REQUIRE_HARDWARE_FRAMES").is_some() {
++            eprintln!("COMPARISON_ACTUAL_EXPORT_PATH={actual_path:?}");
++            if actual_path != FrameExportPath::HardwareFrames {
++                return Err(FFramesRendererError::Skia("comparison requires hardware frames; fallback refused".to_owned()));
++            }
++        }
++
+         Ok(Self {
+             target: Some(target),
+             render_cache: crate::render::RenderCache::new(),

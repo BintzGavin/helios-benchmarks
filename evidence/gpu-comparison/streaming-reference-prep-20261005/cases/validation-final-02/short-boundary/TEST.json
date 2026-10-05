@@ -1,0 +1,10 @@
+{
+  "case": "short-boundary",
+  "passed": true,
+  "expectedRefusal": "SHORT_FRAME",
+  "observedError": "Refusal: SHORT_FRAME:2:0",
+  "secondsExcludedFromBenchmarks": 1.0540559999935795,
+  "sourceUnchanged": true,
+  "GPUExecuted": false,
+  "atomicFinalExists": false
+}

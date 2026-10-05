@@ -1,0 +1,16 @@
+{
+  "test": "reference-vulkan-h264-300",
+  "passed": true,
+  "expectedRefusal": null,
+  "observedError": null,
+  "secondsExcludedFromBenchmark": 0.791108958015684,
+  "GPUExecuted": false,
+  "sourceUnchanged": true,
+  "publishedFixtureBinding": true,
+  "frames": 300,
+  "pythonMaxRSSBytes": 35405824,
+  "maxPlanarWriterQueuedBytes": 0,
+  "backpressureObservations": 0,
+  "producerRawForwardDrains": 187,
+  "producerMaxForwardQueue": 131070
+}

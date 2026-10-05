@@ -1,0 +1,70 @@
+{
+  "status": "qualified local bounded native Vulkan delivery; publication blocked",
+  "sourceCommit": "63869ba529c89fc1a27f7f55057e4d876c42d26e",
+  "helperSha256": "6679452901c6535cc80b4b762cd6c7c13d222e91fb8212a837ca85e60f4af22b",
+  "buildReady": "BUILD-READY.json",
+  "independentAudit": "INDEPENDENT-AUDIT.json",
+  "qualificationScope": {
+    "device": "Apple M3 Pro",
+    "backend": "Skia Vulkan via pinned MoltenVK1.4.2 -> shared Metal texture -> GPU BT709 NV12 -> required VT",
+    "codecs": [
+      "H264",
+      "HEVC Main8bit"
+    ],
+    "framesPerCodec": 300,
+    "width": 256,
+    "height": 128,
+    "fps": "30000/1001",
+    "requestedConfiguredBitrate": 20000000,
+    "gop": 30,
+    "pool": 3,
+    "jsonProtocol": 8,
+    "binaryProtocol": 9
+  },
+  "verified": [
+    "Exact source/runtime/helper pins and six unchanged historical helpers.",
+    "All300 direct NV12/lossless reference frames and indexed decoded quality/cadence/color for each codec.",
+    "Actual Vulkan submission/fence and ordered conversion/callback/owner release for all300 per codec.",
+    "219 portable checks,9 native Vulkan API checks,5 packet/boundary checks.",
+    "Both positive transfer controls detected;4 Vulkan and5 retained device/encoder/format fault controls refuse atomically.",
+    "Five focused receipt mutations killed after baseline and source restoration."
+  ],
+  "confidence": {
+    "percent": 95,
+    "scope": "Bounded functional native qualification on this host; subjective confidence, not a statistical interval.",
+    "strongestUnmetRequirement": "Full4K quality-qualified fully enabled production comparison remains incomplete.",
+    "largestResidualRisk": "Unqualified scenes/hardware and opaque driver/encoder transfer behavior.",
+    "inference": "No extrapolation from bounded scenes to4K performance or exact published M5 source reproduction."
+  },
+  "limitations": [
+    "20 explicit native/default-helper path skips; no newly rebuilt default Metal helper qualification.",
+    "Frozen helper requires retained canonical runtime path or exact pinned bytes restored there.",
+    "No full4K/performance/published M5/production win; Linux Vulkan Video,Intel/Windows,GPUmedia unsupported.",
+    "No zero-copy proof: mapped pointer intent and opaque transfers unknown."
+  ],
+  "publication": {
+    "status": "blocked-by-automatic-approval-review",
+    "remote": "git@github.com:BintzGavin/helios.git",
+    "pushExecuted": false,
+    "pullRequest": null,
+    "approvalNeeded": "Human explicit approval to push gavin/feat-gpu-vulkan-interop to BintzGavin/helios and open prepared draft PR."
+  },
+  "broaderObjectiveComplete": false,
+  "zeroCopyProved": false,
+  "reviewImage": "qualification-02/review.png",
+  "reviewVideo": "qualification-02/video.mp4",
+  "sourceArchive": {
+    "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualified-source-final.zip",
+    "bytes": 14478367,
+    "sha256": "79255be24f4e86d18d4f5cb2f6afd611a07a50185d299c1dd1ea8b8a3ab22001"
+  },
+  "excludedAttempts": [
+    "candidate01 surface failure",
+    "candidate02 initialization abort",
+    "qualification01 Metal-only profiler missed Vulkan RGBA control",
+    "profile02 recursive diagnostic failure",
+    "vulkan-faults01/02 diagnostic/control failures",
+    "prior ENOSPC/compiler errors",
+    "portable-final01 missing media executable search path"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "sourceCommit": "f89cbd572524b70a709ba3569fa23b0bbc8a0d9c",
+  "argv": [
+    "/opt/homebrew/bin/cargo",
+    "rustc",
+    "--release",
+    "--locked",
+    "-p",
+    "vs-remotion-bench",
+    "--bin",
+    "nv12-color-controls",
+    "--target-dir",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current",
+    "--",
+    "-C",
+    "link-arg=/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/nv12-converter.dylib"
+  ],
+  "cwd": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12",
+  "optimizedUsvgr": "1c2a088217eb3365e965fd8dbd62acf265a07d33",
+  "exactOriginalClaimSource": false,
+  "benchmarkTiming": false,
+  "status": "completed",
+  "startedUnix": 1791141268.454113,
+  "pid": 85531,
+  "returncode": 0,
+  "finishedUnix": 1791141269.950698,
+  "wallSeconds": 1.4965848922729492
+}

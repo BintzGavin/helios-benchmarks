@@ -1,0 +1,17 @@
+{
+  "status": "BLOCKED",
+  "pinsChecked": 187,
+  "mismatchedPins": [],
+  "freeBytes": 1150066688,
+  "requiredFreeBytes": 9663676416,
+  "shortfallBytes": 8513609728,
+  "arithmeticAndSceneChecksPassed": true,
+  "integrationPrerequisites": [
+    "9GiB live free disk for retained-raw one-lane route",
+    "new orchestration integration for explicit codec argument/protocol7 or9; old protocol5 exporter is not reused unmodified",
+    "full-workload profile launch paths/log redirection verified against frozen interposers; profile receipts cannot reuse small-scene scope",
+    "fresh live runtime dependency readSet pinned before launch; authoritative prior build/runtime receipts retained"
+  ],
+  "jobsLaunched": false,
+  "timingWindowOpen": false
+}

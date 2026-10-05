@@ -1,0 +1,150 @@
+{
+  "copiedSources": [
+    {
+      "source": "fframes-setup/fframes-cpu/Cargo.lock",
+      "sourceSha256": "2aeb21d8416d0a6d0758d89453d253df8320355165429507ebc3d21afea67c01",
+      "publicCopy": "fframes-cpu/Cargo.lock",
+      "publicSha256": "2aeb21d8416d0a6d0758d89453d253df8320355165429507ebc3d21afea67c01",
+      "adaptation": "none"
+    },
+    {
+      "source": "remotion-setup/project/package.json",
+      "sourceSha256": "25fc171447ea99f05b872cdcccfe3fb86aee4fbe338a94afa925e4c87b887c66",
+      "publicCopy": "remotion-project/package.json",
+      "publicSha256": "25fc171447ea99f05b872cdcccfe3fb86aee4fbe338a94afa925e4c87b887c66",
+      "adaptation": "none"
+    },
+    {
+      "source": "remotion-setup/project/package-lock.json",
+      "sourceSha256": "643f469798561a9ee6defe1f451581e9ad95febaac1aae6ea5e478b4219d7d0f",
+      "publicCopy": "remotion-project/package-lock.json",
+      "publicSha256": "643f469798561a9ee6defe1f451581e9ad95febaac1aae6ea5e478b4219d7d0f",
+      "adaptation": "none"
+    },
+    {
+      "source": "paired-decode-export-v1/inputs/fframes-textgrid.mjs",
+      "sourceSha256": "e3bc82a2cd5461136a1ee388e2a2e27eaf03937b5f65169c18630bbf9fe8df67",
+      "publicCopy": "fframes-textgrid.mjs",
+      "publicSha256": "e3bc82a2cd5461136a1ee388e2a2e27eaf03937b5f65169c18630bbf9fe8df67",
+      "adaptation": "none"
+    },
+    {
+      "source": "source/fframes/LICENSE.txt",
+      "sourceSha256": "648577feb8515d23cb9c762aafcb295397bc2f3a88f0dc3358c9eafc64c48d33",
+      "publicCopy": "licenses/LICENSE.fframes.txt",
+      "publicSha256": "648577feb8515d23cb9c762aafcb295397bc2f3a88f0dc3358c9eafc64c48d33",
+      "adaptation": "none"
+    },
+    {
+      "source": "helios-repo/LICENSE",
+      "sourceSha256": "4bcc6d1847101b4d9346440c51d22c757a434ffc2d2cfb4f71f1f43a0b640adc",
+      "publicCopy": "licenses/LICENSE.helios.txt",
+      "publicSha256": "4bcc6d1847101b4d9346440c51d22c757a434ffc2d2cfb4f71f1f43a0b640adc",
+      "adaptation": "none"
+    },
+    {
+      "source": "three-engine-v1/worker.mjs",
+      "sourceSha256": "18c90f9d9903f7fe7940203c38c5deac6fa57c4d54118d55381a4ecc2ae99d70",
+      "publicCopy": "helios-worker.mjs",
+      "publicSha256": "18c90f9d9903f7fe7940203c38c5deac6fa57c4d54118d55381a4ecc2ae99d70",
+      "adaptation": "none"
+    },
+    {
+      "source": "remotion-cpu-jpeg-study-v1/worker.mjs",
+      "sourceSha256": "829b0be03fbf7c427bd4551ff41afdddaf62511bdb5c0edd2b73b1f5369bea18",
+      "publicCopy": "remotion-worker-base.mjs",
+      "publicSha256": "829b0be03fbf7c427bd4551ff41afdddaf62511bdb5c0edd2b73b1f5369bea18",
+      "adaptation": "none"
+    },
+    {
+      "source": "remotion-setup/project/src/TextFx.tsx",
+      "sourceSha256": "de5fce60753e64e364a36bc30d2c89c1711f4327eca6639b99a44a4dbd9cb386",
+      "publicCopy": "remotion-project/src/TextFx.tsx",
+      "publicSha256": "de5fce60753e64e364a36bc30d2c89c1711f4327eca6639b99a44a4dbd9cb386",
+      "adaptation": "none"
+    },
+    {
+      "source": "remotion-setup/project/src/TextGrid.tsx",
+      "sourceSha256": "b87d36c2aeca31d5f318c8c8b2c109940e3a88753892281589211335d6db50aa",
+      "publicCopy": "remotion-project/src/TextGrid.tsx",
+      "publicSha256": "b87d36c2aeca31d5f318c8c8b2c109940e3a88753892281589211335d6db50aa",
+      "adaptation": "none"
+    },
+    {
+      "source": "remotion-setup/project/src/Root.tsx",
+      "sourceSha256": "2ac7a75e112329db6732cea04817c2ba0d899e6eba05111679c2a2a38685c241",
+      "publicCopy": "remotion-project/src/Root.tsx",
+      "publicSha256": "2ac7a75e112329db6732cea04817c2ba0d899e6eba05111679c2a2a38685c241",
+      "adaptation": "none"
+    },
+    {
+      "source": "remotion-setup/project/src/index.ts",
+      "sourceSha256": "5462d3268136731ce43bfd7c5072ea1ba48b51fec94fa30076f5044f4b39e4a2",
+      "publicCopy": "remotion-project/src/index.ts",
+      "publicSha256": "5462d3268136731ce43bfd7c5072ea1ba48b51fec94fa30076f5044f4b39e4a2",
+      "adaptation": "none"
+    },
+    {
+      "source": "fframes-setup/fframes-cpu/src/main.rs",
+      "sourceSha256": "384f27d220642436863f2969f6808209d6b1f64ef626245e0780f86f760590bf",
+      "publicCopy": "fframes-cpu/src/main.rs",
+      "publicSha256": "f4b16ccf7f00e3e01679ea2b123c4d1dacdcd3a12020ceed47965cfbaff7e169",
+      "adaptation": "media directory supplied as CLI argument6; workload and encoder logic unchanged"
+    },
+    {
+      "source": "fframes-setup/fframes-cpu/Cargo.toml",
+      "sourceSha256": "bd4be777cf30e70b912cd5c59b1cdb362e4cac06e19c60f18177b5aa741745a4",
+      "publicCopy": "fframes-cpu/Cargo.toml",
+      "publicSha256": "441c87dcb8cbdabba19cadee1c6852b6028c2d04c1d926b41de617ff70ca0fe2",
+      "adaptation": "upstream crate path made relative; features/version unchanged"
+    },
+    {
+      "source": "remotion-cpu-jpeg-study-v1/chrome-cpu.sh",
+      "sourceSha256": "0211a100702b0051ac55dd158d2ae2bfd4380a231a4ba6a1d9c9929a8511c07b",
+      "publicCopy": "chrome-cpu.sh",
+      "publicSha256": "ef3feb6ce4fa62c9212630ba6069127502eb301998d5926df40b6c0291cc6045",
+      "adaptation": "browser executable replaced with launch-time explicit path placeholder"
+    },
+    {
+      "source": "remotion-setup/project/node_modules/@remotion/renderer/LICENSE.md",
+      "sourceSha256": "bd65083b940f61904f6ef298aade918a7cad72a3e35bc406e36fab365844b673",
+      "publicCopy": "licenses/LICENSE.remotion.md",
+      "publicSha256": "bd65083b940f61904f6ef298aade918a7cad72a3e35bc406e36fab365844b673",
+      "adaptation": "none"
+    }
+  ],
+  "reusedHelpers": [
+    {
+      "source": "quality-measurement-v1/run.py",
+      "sha256": "c79fd96125d397a9ab1fa00c3ad919b1a8e265b21cd921d423dd7789ecc4fc5e"
+    },
+    {
+      "source": "quality-clock-revision-v1.py",
+      "sha256": "e8af1da8f01a8c1c63fcf9e9db6fbbd3c78a06da7b9dad4cc44d2b4fc3550dac"
+    },
+    {
+      "source": "final-cpu-studies-v1/run.py",
+      "sha256": "6742c1a10170add2557cbab9c6b8e4305a97daea0863408bb8d5b9fb4042846c"
+    },
+    {
+      "source": "three-engine-v1/run.py",
+      "sha256": "ba2165a288a2048ecf1a1d97436fb7b0a1a8aad9369647f817cc497eb7e24892"
+    }
+  ],
+  "fontIncluded": false,
+  "heliosSourceCommit": "0566d1108f922ea88294d4bbe1f11cdb49849834",
+  "heliosSourceBranch": "gavin/perf-native-cpu-rendering",
+  "heliosRepository": "https://github.com/BintzGavin/helios",
+  "fframesRepository": "https://github.com/dmtrKovalenko/fframes",
+  "fframesRevision": "bacfc3c3212d3d9429468435bfdc1ae2a21c7b3b",
+  "originalDecoderCandidateDiffSha256": "e3fb91187cf98e8a15e8d5ca110d3361f59d41fe423961faf17be2e3ff808011",
+  "fontRequirement": {
+    "relativeSource": "render-bench/vs-remotion/fframes/media/DMSans-Regular.ttf",
+    "sha256": "9ae2da663d64342031e59b5fa680dd355171d021b7ebf83774efc7c0330ae7b5",
+    "licenseVerification": "Font binary is omitted; no font-specific distribution license was verified from this pinned checkout."
+  },
+  "operatorReuse": "Helpers extracted from original tested operators; only explicit paths and corrected common metric clock adapted. Reproduction exports/reference generation not executed during preparation.",
+  "heliosMergedCommit": "ebf8e145538d454479d80f97f8f76893b2fdf96f",
+  "heliosMergedPr": "https://github.com/BintzGavin/helios/pull/5006",
+  "testedHeadAndMergedSourceTreeIdentical": true
+}

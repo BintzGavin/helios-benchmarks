@@ -1,0 +1,10 @@
+{
+  "case": "corrupt-reference",
+  "passed": true,
+  "expectedRefusal": "REFERENCE_DECODE_SHORT",
+  "observedError": "Refusal: REFERENCE_DECODE_SHORT",
+  "secondsExcludedFromBenchmarks": 0.07332337499246933,
+  "sourceUnchanged": true,
+  "GPUExecuted": false,
+  "atomicFinalExists": false
+}

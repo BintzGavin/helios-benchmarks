@@ -1,0 +1,48 @@
+{
+  "name": "@helios-project/core",
+  "version": "5.13.2",
+  "type": "module",
+  "description": "Core library for Helios video engine.",
+  "author": "Gavin Bintz <me@gavinbintz.com>",
+  "license": "ELv2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BintzGavin/helios.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BintzGavin/helios/issues"
+  },
+  "homepage": "https://github.com/BintzGavin/helios#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "video",
+    "animation",
+    "programmatic-video",
+    "video-engine",
+    "web-animations",
+    "css-animations",
+    "waapi",
+    "canvas",
+    "webgl"
+  ],
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^4.0.17"
+  }
+}

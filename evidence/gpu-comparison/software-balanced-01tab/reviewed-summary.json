@@ -1,0 +1,85 @@
+{
+  "status": "qualified",
+  "scene": {
+    "width": 1920,
+    "height": 1080,
+    "frames": 300,
+    "fps": 30,
+    "name": "TextGrid"
+  },
+  "lane": "gpu-raster-software-x264",
+  "limitations": [],
+  "zeroCopyProved": false,
+  "warmupsExcluded": true,
+  "engines": {
+    "H": {
+      "exportSeconds": [
+        26.606769875,
+        26.573021,
+        26.729719041,
+        26.521656584
+      ],
+      "deliveredSeconds": [
+        28.150736875,
+        28.133600042,
+        28.256632,
+        28.019069875
+      ],
+      "medianExportSeconds": 26.5898954375,
+      "medianDeliveredSeconds": 28.142168458500002,
+      "allPass": true,
+      "worstSsimY": 0.995917,
+      "worstPsnr": {
+        "Y": 45.48,
+        "U": 45.66,
+        "V": 45.67
+      }
+    },
+    "F": {
+      "exportSeconds": [
+        31.087529917,
+        31.080260916,
+        31.214042042,
+        31.157180709
+      ],
+      "deliveredSeconds": [
+        32.674999917,
+        32.650671583,
+        32.792970458,
+        32.731710959
+      ],
+      "medianExportSeconds": 31.122355313,
+      "medianDeliveredSeconds": 32.703355438,
+      "allPass": true,
+      "worstSsimY": 0.99528,
+      "worstPsnr": {
+        "Y": 46.33,
+        "U": 46.6,
+        "V": 46.65
+      }
+    },
+    "R": {
+      "exportSeconds": [
+        47.00537525,
+        47.167426375,
+        45.618109542,
+        48.158761458
+      ],
+      "deliveredSeconds": [
+        48.528565291,
+        48.691105042,
+        47.142196459,
+        49.767701667
+      ],
+      "medianExportSeconds": 47.0864008125,
+      "medianDeliveredSeconds": 48.6098351665,
+      "allPass": true,
+      "worstSsimY": 0.995905,
+      "worstPsnr": {
+        "Y": 45.5,
+        "U": 45.7,
+        "V": 45.72
+      }
+    }
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "qualification": "post-run source/bundle snapshot; adapter/browser/reference were bound pre-run, scene/bundle hashes were not separately rechecked before each original export",
+  "capturedAt": "2026-10-03T17:03:32.241761+00:00",
+  "files": [
+    {
+      "path": "sources/remotion-frozen/project/package-lock.json",
+      "sha256": "643f469798561a9ee6defe1f451581e9ad95febaac1aae6ea5e478b4219d7d0f",
+      "bytes": 140912,
+      "sourceMtimeNs": 1790876082929504692
+    },
+    {
+      "path": "sources/remotion-frozen/project/package.json",
+      "sha256": "25fc171447ea99f05b872cdcccfe3fb86aee4fbe338a94afa925e4c87b887c66",
+      "bytes": 432,
+      "sourceMtimeNs": 1790876082929579026
+    },
+    {
+      "path": "sources/remotion-frozen/project/tsconfig.json",
+      "sha256": "cac4277564dc294107b1a78c0d56ae5c8c2a7a2cff42ccda2881af3896c208ea",
+      "bytes": 225,
+      "sourceMtimeNs": 1790876082930244404
+    },
+    {
+      "path": "sources/remotion-frozen/project/public/DMSans-Regular.ttf",
+      "sha256": "9ae2da663d64342031e59b5fa680dd355171d021b7ebf83774efc7c0330ae7b5",
+      "bytes": 72000,
+      "sourceMtimeNs": 1790876082928460145
+    },
+    {
+      "path": "sources/remotion-frozen/project/src/TextFx.tsx",
+      "sha256": "de5fce60753e64e364a36bc30d2c89c1711f4327eca6639b99a44a4dbd9cb386",
+      "bytes": 6657,
+      "sourceMtimeNs": 1790876082929997153
+    },
+    {
+      "path": "sources/remotion-frozen/project/src/TextGrid.tsx",
+      "sha256": "b87d36c2aeca31d5f318c8c8b2c109940e3a88753892281589211335d6db50aa",
+      "bytes": 2478,
+      "sourceMtimeNs": 1790876082930056445
+    },
+    {
+      "path": "sources/remotion-frozen/project/src/Root.tsx",
+      "sha256": "2ac7a75e112329db6732cea04817c2ba0d899e6eba05111679c2a2a38685c241",
+      "bytes": 517,
+      "sourceMtimeNs": 1790876082929907861
+    },
+    {
+      "path": "sources/remotion-frozen/project/src/index.ts",
+      "sha256": "5462d3268136731ce43bfd7c5072ea1ba48b51fec94fa30076f5044f4b39e4a2",
+      "bytes": 105,
+      "sourceMtimeNs": 1790876082930107903
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/251.bundle.js",
+      "sha256": "6c598e92c0cd6bec385b9e6dac00eaa4b59c9e8f1dba7102a6d5ae4c5095b900",
+      "bytes": 6269726,
+      "sourceMtimeNs": 1790876699185473410
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/385.bundle.js",
+      "sha256": "a7df124553b2faecee16fa24be05c64d152ffa0f38350a78dfdd5ca60d5b1ac5",
+      "bytes": 14706,
+      "sourceMtimeNs": 1790876699151478945
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/226.bundle.js",
+      "sha256": "598d202cefb38436c533ee260f25128aa5e9f6c3bbf39ce5cfb4ca90660543f3",
+      "bytes": 195,
+      "sourceMtimeNs": 1790876699151474778
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/892.bundle.js",
+      "sha256": "3a87092122673e46141765ae40fd585731f94c9b7d9dbb86b2db9eb3a1d6f5d5",
+      "bytes": 191,
+      "sourceMtimeNs": 1790876699184470864
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/624.bundle.js",
+      "sha256": "db6e59d678e711c3fe8585ed50b7d413f1539a47036c53b76019de5b7ec28265",
+      "bytes": 327507,
+      "sourceMtimeNs": 1790876699184346530
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/973.bundle.js",
+      "sha256": "fdb41a4e51e38066d2be13b7863fb9df7c8966c692277bb9dac2efc40e67a64e",
+      "bytes": 523498,
+      "sourceMtimeNs": 1790876699151734238
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/892.bundle.js.map",
+      "sha256": "af1e7591d92fdc1d41cdf44e95a0b50dedc1282ee4e30cf925bb54e54865876a",
+      "bytes": 345,
+      "sourceMtimeNs": 1790876699225933534
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/favicon.ico",
+      "sha256": "4b00984723c2fed999967eebf9b59f88350f7ab38716f2faf3587829e0f9be77",
+      "bytes": 104640,
+      "sourceMtimeNs": 1790876700381700119
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/761.bundle.js.map",
+      "sha256": "50702876e14511da7d07de2ad5526727c919c5a4ed728558004b473b67c37973",
+      "bytes": 1901,
+      "sourceMtimeNs": 1790876699194982626
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/index.html",
+      "sha256": "5e76d7c791259b0de8fa078ff2523016a3bd9ce37e8f04bb02b5ad6d3ee9f233",
+      "bytes": 4113,
+      "sourceMtimeNs": 1790876700381011574
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/582.bundle.js",
+      "sha256": "f91e66e0b8131f62fc51846f4dc68e7f45b43c41626ce4f03cbe9561f723d0a5",
+      "bytes": 14557,
+      "sourceMtimeNs": 1790876699151572945
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/bundle.js.map",
+      "sha256": "41c4baca8d29e0ed9b951f49098e4d34f65c57bbce0e348e1d52b4232c271e77",
+      "bytes": 1411147,
+      "sourceMtimeNs": 1790876699184908949
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/872.bundle.js.map",
+      "sha256": "3c028c73f0d49eca996dfe98a622bdc4278367d888df1a5c42883bc1050317df",
+      "bytes": 319671,
+      "sourceMtimeNs": 1790876699195670462
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/155.bundle.js.map",
+      "sha256": "a21a07c4e589ac03189cff2fc8f60aceab6f2090023c6c97b3978367a2c32c5a",
+      "bytes": 755301,
+      "sourceMtimeNs": 1790876699226611579
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/714.bundle.js",
+      "sha256": "0a53a8cc71c2269a562d48c33af5330b484077147dd85967d6d5e93f62720b1c",
+      "bytes": 32947,
+      "sourceMtimeNs": 1790876699151612987
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/845.bundle.js.map",
+      "sha256": "7052c6a73c8520bec8fe26995bf39e5288c549bc95aa29132b6c6f039aeaaeab",
+      "bytes": 9240,
+      "sourceMtimeNs": 1790876699194982542
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/911.bundle.js",
+      "sha256": "d7031788b8cb3c59cb1c70e10f1b11f9b209b6ab9cb4e8214c56d62966654f1a",
+      "bytes": 7821,
+      "sourceMtimeNs": 1790876699151626570
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/911.bundle.js.map",
+      "sha256": "068fc57b7a6061ef4977dceb377357949e1dcdd1ca666d1a771258b2df6f4ea0",
+      "bytes": 7133,
+      "sourceMtimeNs": 1790876699193129408
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/bundle.js",
+      "sha256": "017aa2e64cd22a253fb1d9fe79d3bda74c01d819e66e397523a69af2d6a6cc32",
+      "bytes": 1213720,
+      "sourceMtimeNs": 1790876699151696987
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/304.bundle.js",
+      "sha256": "50ddb83ce5c5b7f46ac5920b8757d88dfe877bae3502f5345caa7a2fbe998fb2",
+      "bytes": 190,
+      "sourceMtimeNs": 1790876699184468780
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/845.bundle.js",
+      "sha256": "a394c498b0b336e666058eabbb95850489c3e352417fbe8bd792e3092461cbea",
+      "bytes": 10555,
+      "sourceMtimeNs": 1790876699151755279
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/63.bundle.js.map",
+      "sha256": "68ee24a7fd7332ea00ec80c6a25f61c501ac973eb4df0fb16c75ffc1c0fff97b",
+      "bytes": 344,
+      "sourceMtimeNs": 1790876699195711879
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/328.bundle.js",
+      "sha256": "086ba9d42f331e6dbbb887ee45bcf3914be970ef6dba97b57d4894d32fa224bf",
+      "bytes": 492458,
+      "sourceMtimeNs": 1790876699151727612
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/161.bundle.js.map",
+      "sha256": "93033084fd4ab8f36a72fdbec475d36b674646dbeac3f8a88d70996589e68ce6",
+      "bytes": 177964,
+      "sourceMtimeNs": 1790876699194924250
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/304.bundle.js.map",
+      "sha256": "69b512057e53d8d7dc6b518a78c033d18616d7d3e149aa1d383a190dea1dff47",
+      "bytes": 346,
+      "sourceMtimeNs": 1790876699195717588
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/208.bundle.js",
+      "sha256": "c4e71851c867c150d0975887a069f913b6a28ef11de250104bd4b77092b99e3a",
+      "bytes": 999601,
+      "sourceMtimeNs": 1790876699151864238
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/161.bundle.js",
+      "sha256": "5627ed30e39974ae9422e3dc1ba430f63cc3687e85ef6121033efa6b2f245322",
+      "bytes": 157715,
+      "sourceMtimeNs": 1790876699151692362
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/251.bundle.js.map",
+      "sha256": "c7762fbc679a4f05d7a555ab1d45a575ec85edfa8f2e19b244f8ce4e15db3734",
+      "bytes": 7081415,
+      "sourceMtimeNs": 1790876699227238958
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/663.bundle.js.map",
+      "sha256": "ddada2fcffc7fabb5703264ede0a4916ad37568203caa7e10a6f5446a97ad91a",
+      "bytes": 53308,
+      "sourceMtimeNs": 1790876699184970241
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/993.bundle.js.map",
+      "sha256": "796c75fae9d07d6f4a77b100e3dddcd67a70f9bc2d9f55b0fd5c896ba1e7298f",
+      "bytes": 105867,
+      "sourceMtimeNs": 1790876699193126116
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/385.bundle.js.map",
+      "sha256": "d3f3332b403edbc1325a682d5e67f6c63ab83026ff4dd4c5682931f329270349",
+      "bytes": 12057,
+      "sourceMtimeNs": 1790876699185051366
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/328.bundle.js.map",
+      "sha256": "350f472813374b94a7e0e80e38e1dda345a4383fde637166f430c46a9756f2db",
+      "bytes": 535932,
+      "sourceMtimeNs": 1790876699194749166
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/226.bundle.js.map",
+      "sha256": "ce30467e733f38a5cd5149f183120ffe55b41239054bcbb6a62873250607ef7a",
+      "bytes": 331,
+      "sourceMtimeNs": 1790876699184738448
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/687.bundle.js",
+      "sha256": "14e2147eec6dcc342f3237af3cca6a4842f71a466bcf02999da3bc6f6e1241c9",
+      "bytes": 171007,
+      "sourceMtimeNs": 1790876699184600156
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/208.bundle.js.map",
+      "sha256": "db10b690b789871eb507fc9a8054ffbcc623ee02094f4366eb22bf709cb9879c",
+      "bytes": 1917657,
+      "sourceMtimeNs": 1790876699195600254
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/687.bundle.js.map",
+      "sha256": "2c0ab1ee26125d07a207dd42641ffaddc73734e0f48cc5335e6487225666c743",
+      "bytes": 151403,
+      "sourceMtimeNs": 1790876699225990284
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/973.bundle.js.map",
+      "sha256": "dbad64533fc90af337a7a7f0f75970951fb870bffd78c96b6335394d88fffda1",
+      "bytes": 615241,
+      "sourceMtimeNs": 1790876699193227575
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/18.bundle.js",
+      "sha256": "679a8ca77818f58e382fc1717284ed52c7c507cb49654f22e282fd361a2ab4c1",
+      "bytes": 713836,
+      "sourceMtimeNs": 1790876699184736531
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/562.bundle.js",
+      "sha256": "ae20f1c554c85b374c2b455289188da52ca65ff857687e509338a3008b1284cb",
+      "bytes": 60688,
+      "sourceMtimeNs": 1790876699151604112
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/714.bundle.js.map",
+      "sha256": "c476899ff06503d26128d5bc3294996ef66cdec4f9b7b4f43fa620b52ff9cce7",
+      "bytes": 26682,
+      "sourceMtimeNs": 1790876699193135408
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/761.bundle.js",
+      "sha256": "77df5cea23296da49357712ff7091a90b6b87921d3bdd794207d30376b1065bb",
+      "bytes": 2275,
+      "sourceMtimeNs": 1790876699151659945
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/562.bundle.js.map",
+      "sha256": "c0f3bb711213fd50c255d1ab3fa3820eb06e14a0f5830a916d63e5079dd2ed63",
+      "bytes": 52534,
+      "sourceMtimeNs": 1790876699193150491
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/155.bundle.js",
+      "sha256": "0e0d4a4015c7f0c6851a6a0f14961e964d8f28f31464bc9353b1966e6815346c",
+      "bytes": 743039,
+      "sourceMtimeNs": 1790876699184686531
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/872.bundle.js",
+      "sha256": "b66c59c1968d8c87e075760bdbecc770b970f59110fe6f9d511c2397217bcc6f",
+      "bytes": 317512,
+      "sourceMtimeNs": 1790876699184547822
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/18.bundle.js.map",
+      "sha256": "f71c0b732acf439a771f59ef86100c9d7959146a5b801bd731c3e962f913933f",
+      "bytes": 756154,
+      "sourceMtimeNs": 1790876699226105952
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/663.bundle.js",
+      "sha256": "88a1adcb17734f46bcae42033d7dfb67963385273c6a8e63f05d6d47483df277",
+      "bytes": 45586,
+      "sourceMtimeNs": 1790876699151570653
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/993.bundle.js",
+      "sha256": "8e4de4d8c97db9982ac5e14c99a130db29f45132ad3cac97201fba5d6748a3e6",
+      "bytes": 98567,
+      "sourceMtimeNs": 1790876699151622778
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/63.bundle.js",
+      "sha256": "232917188e1edd2633e68b74439d94dcf91432b0b83532d484423bd173d200e2",
+      "bytes": 189,
+      "sourceMtimeNs": 1790876699184333571
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/624.bundle.js.map",
+      "sha256": "f3ef69b1fbadda721cc9987e8103fb7a45fd95e83a4d13c0ef9abc4d39bda04d",
+      "bytes": 654262,
+      "sourceMtimeNs": 1790876699195600545
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/582.bundle.js.map",
+      "sha256": "274524a6289babdcaffaeb278c6e8f7166244736d295469d1f9654c6c7fe5e89",
+      "bytes": 12058,
+      "sourceMtimeNs": 1790876699185126200
+    },
+    {
+      "path": "sources/remotion-frozen/bundle/public/DMSans-Regular.ttf",
+      "sha256": "9ae2da663d64342031e59b5fa680dd355171d021b7ebf83774efc7c0330ae7b5",
+      "bytes": 72000,
+      "sourceMtimeNs": 1790876700380068153
+    }
+  ]
+}

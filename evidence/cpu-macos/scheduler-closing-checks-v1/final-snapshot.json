@@ -1,0 +1,15 @@
+{
+  "all_prepared_hashes_match": true,
+  "target_status": {
+    "exit_code": 0,
+    "stdout": " M src/index.ts\n M src/tools/memory.ts\n M src/tools/sandbox.ts\n?? src/tools/render-readiness.ts\n?? test-node/\n?? test/media-streaming.test.ts\n?? test/render-readiness.test.ts\n?? test/sandbox-audio.test.ts\n",
+    "stderr": "git: warning: confstr() failed with code 5: couldn't get path of DARWIN_USER_TEMP_DIR; using /tmp instead\n"
+  },
+  "target_status_unchanged": true,
+  "source_status": {
+    "exit_code": 0,
+    "stdout": " M src/index.ts\n M src/tools/memory.ts\n M src/tools/sandbox.ts\n M test/browse.test.ts\n M test/github.test.ts\n D test/index.spec.ts\n M test/model-router.test.ts\n M test/reddit.test.ts\n M test/swirlbot.test.ts\n?? .DS_Store\n?? promptops/\n?? src/tools/render-readiness.ts\n?? test-node/\n?? test/media-streaming.test.ts\n?? test/render-readiness.test.ts\n?? test/sandbox-audio.test.ts\n",
+    "stderr": "git: warning: confstr() failed with code 5: couldn't get path of DARWIN_USER_TEMP_DIR; using /tmp instead\n"
+  },
+  "source_status_unchanged": true
+}

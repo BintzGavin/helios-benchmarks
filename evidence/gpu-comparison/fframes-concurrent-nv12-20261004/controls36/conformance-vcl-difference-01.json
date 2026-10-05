@@ -1,0 +1,28 @@
+{
+  "attemptExcluded": true,
+  "assertedAllVCLEquality": false,
+  "pairs": [
+    {
+      "i": 0,
+      "oldBytes": 9006,
+      "newBytes": 6786,
+      "oldTail": "000003000003000003000003000003000003000003000003",
+      "newTail": "7271deec12b5ff0a61118f0d83e4260808dff6e15dd22420",
+      "oldHash": "4104f3f576d655e895c2533236e2f71050ab837cdd0d2124c96c348a4fe74c1c",
+      "newHash": "983effdd09f42be7fd2fa2b736857a9e7ecda4aaa0e58f36f14ac9441b2a1b8b",
+      "equalAfterRemovingTrailingZeroBytes": false,
+      "firstDiff": null
+    },
+    {
+      "i": 30,
+      "oldBytes": 4651,
+      "newBytes": 3307,
+      "oldTail": "000003000003000003000003000003000003000003000003",
+      "newTail": "18f795fec32a643aa40a9ff7fe57f9031bbb31b1be94be20",
+      "oldHash": "aa29be083362baaaecf5687a5f9b18181dff14b9c8a29969e809a5e4fed13fa7",
+      "newHash": "b4b6dc829eaa145532fdfaf80b9a535e1cf46f7ff964a1075413db10e721fb3b",
+      "equalAfterRemovingTrailingZeroBytes": false,
+      "firstDiff": null
+    }
+  ]
+}

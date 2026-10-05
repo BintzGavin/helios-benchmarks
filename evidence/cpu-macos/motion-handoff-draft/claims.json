@@ -1,0 +1,28 @@
+{
+  "status": "draft; competitor holdout and merges incomplete",
+  "allowedClaims": [
+    {
+      "id": "native-decoder-medium",
+      "label": "1.59\u00d7 faster delivered medium exports versus the frozen Helios baseline",
+      "exactMedianPairedSpeedup": 1.5882869944569293,
+      "scope": "Experimental native Canvas TextGrid CPU export on Apple M3 Pro; not arbitrary browser compositions",
+      "pairs": 3,
+      "wins": 3,
+      "allTimedPairsByteIdentical": true
+    },
+    {
+      "id": "native-decoder-ultrafast",
+      "label": "1.67\u00d7 faster delivered ultrafast exports versus the frozen Helios baseline",
+      "exactMedianPairedSpeedup": 1.669009825438181,
+      "scope": "Experimental native Canvas TextGrid CPU export on Apple M3 Pro; not arbitrary browser compositions",
+      "pairs": 3,
+      "wins": 3,
+      "allTimedPairsByteIdentical": true
+    }
+  ],
+  "qualityReceipt": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/quality-policy-results-clock-v1.json",
+  "originalTimerData": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/decoder-gain-chart-data.json",
+  "competitorClaims": [],
+  "remoteClaims": [],
+  "mergeReceipts": []
+}

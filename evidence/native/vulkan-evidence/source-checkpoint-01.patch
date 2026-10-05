@@ -1,0 +1,342 @@
+diff --git a/packages/portable/GPU-SPEC.md b/packages/portable/GPU-SPEC.md
+index f5f3604b..ee968243 100644
+--- a/packages/portable/GPU-SPEC.md
++++ b/packages/portable/GPU-SPEC.md
+@@ -25,6 +25,15 @@ The committed portable CPU implementation and its public TypeScript APIs remain
+ - MP4 remuxing uses the HEVC elementary demuxer and `hvc1` sample entry. Before atomic publication, decoded codec, dimensions, full frame count and rational cadence must match the request. Tests verify decoded limited BT.709 color, HEVC Main profile, range, both transports, callbacks and refusal of mismatched helper receipts.
+ - Qualification uses separate source/helper/runtime pins, direct NV12 references, every decoded frame and unchanged quality floors. Small scene qualification is not a full 4K comparison or speed claim; the comparison owner retains its harness and historical clocks.
+ 
++## MoltenVK backend acceptance
++
++- Explicit `backend: 'vulkan'` on macOS arm64 selects a separately built Skia Vulkan helper with pinned public-API MoltenVK. Omitted backend preserves Metal; unknown backends, unavailable runtime or unsupported platforms reject without raster/encoder fallback. Linux Vulkan Video and Windows remain separate unsupported hardware cells.
++- Require an integrated/discrete Vulkan device, graphics queue, `VK_EXT_metal_objects`, portability subset and exact imported/exported Metal texture identity. The Vulkan and retained encoder texture must belong to the same actual Metal GPU. Private raw pixels never pass through JavaScript, a pipe or application CPU conversion in the hardware lane.
++- Actual Skia Vulkan submission precedes a bounded Vulkan fence wait; that completion precedes the retained GPU BT.709 NV12 conversion and hardware VideoToolbox submission. Imported images/device and source texture remain owned until all use finishes; errors drain before releasing resources. Pool/GOP/bitrate/font/Canvas/atomic-publication bounds remain unchanged.
++- Vulkan JSON protocol8/binary9 receipts bind backend, Skia Vulkan rasterizer, MoltenVK Metal-object interop, shared texture, codec and actual required hardware. A Metal receipt or software/unshared bridge rejects before publication. Commands remain HGF5. Both H.264 and HEVC use the retained compressed packet extraction.
++- Runtime installation is optional and checksum pinned, bounded and atomic. Existing different runtime installations are preserved and rejected. The runtime is a local build artifact, never scene input or an implicit global installation.
++- Independent direct NV12/lossless references, decoded every-frame quality/cadence/color, actual GPU/transfer probes and positive/negative controls are required before any performance conclusion. Three setup frames do not qualify the full4K workload or total zero-copy. Vulkan trace sidecar `<trace>.vulkan.jsonl` binds sharing and fence events separately from retained converter/encoder traces.
++
+ ## Bounded encoder overlap acceptance
+ 
+ ### Bounded bitrate controls
+diff --git a/packages/portable/README.md b/packages/portable/README.md
+index bc31e49a..d07b20ba 100644
+--- a/packages/portable/README.md
++++ b/packages/portable/README.md
+@@ -115,7 +115,8 @@ The hardware lane converts sRGB to limited-range BT.709 NV12 on Metal, writes en
+ | Path | Current support |
+ |---|---|
+ | macOS arm64 Metal + VideoToolbox H.264 | Tested on M3 Pro; even dimensions up to 4096 per axis |
+-| macOS Intel, Linux/Vulkan, Windows | Unsupported; explicit GPU requests reject |
++| macOS arm64 Vulkan through MoltenVK | Implementation in qualification; requires the optional pinned runtime and separate Skia Vulkan helper. No performance qualification yet |
++| macOS Intel, Linux Vulkan Video, Windows | Unsupported; explicit GPU requests reject |
+ | macOS arm64 Metal + VideoToolbox HEVC Main | Qualified 300-frame 256×128 color/text/circle scene on M3 Pro; full 4K HEVC comparison remains unqualified |
+ | Other GPU codecs or HEVC Main10 | Unsupported |
+ | Vector/text Plan | Supported through Skia SVG; prepared text uses glyph paths |
+@@ -124,6 +125,8 @@ The hardware lane converts sRGB to limited-range BT.709 NV12 on Metal, writes en
+ | Partial arcs, multiple path contours, stroke/clip/Path2D/images, max-width text, other baselines/styles | Unsupported; reject explicitly |
+ | CPU Canvas module pool | GPU selection rejected; use `renderCanvasVideo` |
+ 
++The experimental Vulkan setup uses `node packages/portable/scripts/setup-vulkan.mjs`, then `node packages/portable/scripts/build-gpu.mjs vulkan`. It installs only the checksum-pinned local MoltenVK runtime and builds a separate `helios-gpu-vulkan` helper. Select it with `gpu: { backend: 'vulkan' }`. Skia Vulkan qualification is still pending; the successful three-frame shared-texture setup probe is not a rendered-scene qualification.
++
+ Canvas GPU text accepts a single shaped run; paragraph bidi layout, fallback fonts and browser text parity are not qualified. The default helper runs one frame at a time with one retained surface. Bitrate is a codec target, not a quality guarantee; dense TextGrid needed substantially more bitrate than an ordinary scene.
+ 
+ Each circle path accepts one full-turn arc, with an optional `closePath`; `fill('nonzero')` and `fill('evenodd')` have the same result for this single contour. Paths retain the transform at construction and use color/alpha at fill time. Nonuniform scaling produces ellipses. `save`/`restore` preserve drawing state independently of the current path. GPU Canvas frames are limited to 120,000 emitted commands, 32 MiB serialized messages, 64 saved states and 20,000 aggregate text characters. The independent font header is limited to 48 MiB encoded/32 MiB decoded bytes; Plan limits remain unchanged.
+diff --git a/packages/portable/native/.gitignore b/packages/portable/native/.gitignore
+index b83d2226..8c5cc808 100644
+--- a/packages/portable/native/.gitignore
++++ b/packages/portable/native/.gitignore
+@@ -1 +1,3 @@
+ /target/
++/target-vulkan/
++/vulkan-runtime
+diff --git a/packages/portable/native/Cargo.toml b/packages/portable/native/Cargo.toml
+index 8271cd5d..2d023bcf 100644
+--- a/packages/portable/native/Cargo.toml
++++ b/packages/portable/native/Cargo.toml
+@@ -4,8 +4,13 @@ version = "0.1.0"
+ edition = "2024"
+ publish = false
+ 
++[features]
++default = ["metal"]
++metal = ["skia-safe/metal", "skia-safe/webp"]
++vulkan = ["skia-safe/vulkan", "skia-safe/gl"]
++
+ [dependencies]
+-skia-safe = { version = "=0.91.0", features = ["metal", "svg", "textlayout", "webp"] }
++skia-safe = { version = "=0.91.0", features = ["svg", "textlayout"] }
+ serde = { version = "1", features = ["derive"] }
+ serde_json = "1"
+ base64 = "0.22"
+diff --git a/packages/portable/native/build.rs b/packages/portable/native/build.rs
+index 76b1e1a5..510a03b9 100644
+--- a/packages/portable/native/build.rs
++++ b/packages/portable/native/build.rs
+@@ -17,4 +17,15 @@ fn main() {
+     ] {
+         println!("cargo:rustc-link-lib=framework={framework}");
+     }
++    #[cfg(feature = "vulkan")]
++    {
++        println!("cargo:rerun-if-changed=vulkan.mm");
++        let runtime = std::fs::canonicalize("vulkan-runtime").expect("Run scripts/setup-vulkan.mjs before building the optional Vulkan helper");
++        cc::Build::new().cpp(true).file("vulkan.mm").include(runtime.join("include"))
++            .flag("-std=c++17").flag("-fobjc-arc").compile("helios_vulkan");
++        let libraries = runtime.join("dynamic/dylib/macOS");
++        println!("cargo:rustc-link-search=native={}", libraries.display());
++        println!("cargo:rustc-link-lib=MoltenVK");
++        println!("cargo:rustc-link-arg=-Wl,-rpath,{}", libraries.display());
++    }
+ }
+diff --git a/packages/portable/native/src/main.rs b/packages/portable/native/src/main.rs
+index 5de1e858..95b1cd68 100644
+--- a/packages/portable/native/src/main.rs
++++ b/packages/portable/native/src/main.rs
+@@ -1,5 +1,7 @@
+ use base64::Engine;
+ mod binary;
++#[cfg(any(all(feature = "metal", feature = "vulkan"), not(any(feature = "metal", feature = "vulkan"))))]
++compile_error!("Select exactly one native raster backend: default Metal or --no-default-features --features vulkan");
+ 
+ #[cfg(test)]
+ mod boundary_tests {
+@@ -31,8 +33,12 @@ mod boundary_tests {
+ }
+ use skia_safe::{
+     Color4f, ColorType, Font, FontMgr, Matrix, Paint, Point, Rect, Typeface,
+-    gpu::{self, SurfaceOrigin, mtl},
++    gpu::{self, SurfaceOrigin},
+ };
++#[cfg(feature = "metal")]
++use skia_safe::gpu::mtl;
++#[cfg(feature = "vulkan")]
++use skia_safe::gpu::vk;
+ use std::{
+     collections::HashMap,
+     ffi::{CString, c_void},
+@@ -75,6 +81,31 @@ impl Drop for Native {
+     }
+ }
+ 
++#[cfg(feature = "vulkan")]
++unsafe extern "C" {
++    fn helios_vk_create(native: *mut c_void, trace: *const i8, capture: *const i8) -> *mut c_void;
++    fn helios_vk_instance(ctx: *mut c_void) -> *mut c_void;
++    fn helios_vk_physical(ctx: *mut c_void) -> *mut c_void;
++    fn helios_vk_device(ctx: *mut c_void) -> *mut c_void;
++    fn helios_vk_queue(ctx: *mut c_void) -> *mut c_void;
++    fn helios_vk_family(ctx: *mut c_void) -> u32;
++    fn helios_vk_image(ctx: *mut c_void) -> u64;
++    fn helios_vk_proc(ctx: *mut c_void, name: *const i8, device: bool) -> *const c_void;
++    fn helios_vk_wait(ctx: *mut c_void, frame: u32) -> bool;
++    fn helios_vk_close(ctx: *mut c_void);
++}
++#[cfg(feature = "vulkan")]
++struct Vulkan(*mut c_void);
++#[cfg(feature = "vulkan")]
++impl Drop for Vulkan { fn drop(&mut self) { unsafe { helios_vk_close(self.0); } } }
++
++fn protocol(codec: &str, binary: bool) -> u32 {
++    if cfg!(feature = "vulkan") { if binary {9} else {8} }
++    else if codec == "hevc" { if binary {7} else {6} }
++    else if binary {5} else {4}
++}
++fn rasterizer() -> &'static str { if cfg!(feature = "vulkan") {"skia-vulkan"} else {"skia-metal"} }
++
+ #[derive(serde::Deserialize)]
+ #[serde(deny_unknown_fields)]
+ struct Command {
+@@ -380,17 +411,44 @@ fn run() -> Result<(), Box<dyn std::error::Error>> {
+             },
+             !raster,
+             trace.as_ptr(),
+-            capture.as_ptr(),
++            if cfg!(feature = "vulkan") { empty.as_ptr() } else { capture.as_ptr() },
+         )
+     });
+     if native.0.is_null() {
+         return Err("GPU_INIT_FAILED: Metal/VideoToolbox hardware initialization failed".into());
+     }
++    #[cfg(feature = "metal")]
+     let backend =
+         unsafe { mtl::BackendContext::new(helios_device(native.0), helios_queue(native.0)) };
++    #[cfg(feature = "metal")]
+     let mut context = gpu::direct_contexts::make_metal(&backend, None).ok_or("SKIA_INIT_FAILED")?;
++    #[cfg(feature = "metal")]
+     let texture = unsafe { mtl::TextureInfo::new(helios_texture(native.0)) };
++    #[cfg(feature = "metal")]
+     let target = gpu::backend_render_targets::make_mtl((width as i32, height as i32), &texture);
++    #[cfg(feature = "vulkan")]
++    let vulkan = Vulkan(unsafe { helios_vk_create(native.0, trace.as_ptr(), capture.as_ptr()) });
++    #[cfg(feature = "vulkan")]
++    if vulkan.0.is_null() { return Err("VULKAN_INIT_FAILED: required hardware sharing unavailable".into()); }
++    #[cfg(feature = "vulkan")]
++    let get_proc = |of: vk::GetProcOf| unsafe { match of {
++        vk::GetProcOf::Instance(_, name) => helios_vk_proc(vulkan.0, name, false),
++        vk::GetProcOf::Device(_, name) => helios_vk_proc(vulkan.0, name, true),
++    }};
++    #[cfg(feature = "vulkan")]
++    let backend = unsafe { vk::BackendContext::new_with_extensions(
++        helios_vk_instance(vulkan.0) as _, helios_vk_physical(vulkan.0) as _, helios_vk_device(vulkan.0) as _,
++        (helios_vk_queue(vulkan.0) as _, helios_vk_family(vulkan.0) as usize), &get_proc,
++        &["VK_KHR_get_physical_device_properties2"], &["VK_KHR_portability_subset", "VK_EXT_metal_objects"],
++    )};
++    #[cfg(feature = "vulkan")]
++    let mut context = unsafe { gpu::direct_contexts::make_vulkan(&backend, None) }.ok_or("SKIA_VULKAN_INIT_FAILED")?;
++    #[cfg(feature = "vulkan")]
++    let target = {
++        let mut info = unsafe { vk::ImageInfo::new(helios_vk_image(vulkan.0) as _, vk::Alloc::default(), vk::ImageTiling::OPTIMAL, vk::ImageLayout::UNDEFINED, vk::Format::R8G8B8A8_UNORM, 1, helios_vk_family(vulkan.0), None, None, None) };
++        info.image_usage_flags = 0x10 | 0x1 | 0x2 | 0x4; // COLOR_ATTACHMENT | TRANSFER_SRC | TRANSFER_DST | SAMPLED.
++        unsafe { gpu::backend_render_targets::make_vk((width as i32, height as i32), &info) }
++    };
+     let mut surface = gpu::surfaces::wrap_backend_render_target(
+         &mut context,
+         &target,
+@@ -403,7 +461,7 @@ fn run() -> Result<(), Box<dyn std::error::Error>> {
+     if probe {
+         println!(
+             "{}",
+-            serde_json::json!({"protocol":if codec == "hevc" {6} else {4},"codec":codec,"bitrate":bitrate,"configuredBitrate":unsafe {helios_configured_bitrate(native.0)},"gop":gop,"encoderPool":encoder_pool,"rasterizer":"skia-metal", "encoder":"videotoolbox", "hardwareRequired":true, "hardwareUsed": unsafe {helios_hardware(native.0)}, "surface":"iosurface-nv12", "zeroCopyProved":false})
++            serde_json::json!({"protocol":protocol(codec,false),"backend":if cfg!(feature = "vulkan") {"vulkan"} else {"metal"},"interop":if cfg!(feature = "vulkan") {"moltenvk-metal-objects"} else {"metal-iosurface"},"sharedTexture":true,"codec":codec,"bitrate":bitrate,"configuredBitrate":unsafe {helios_configured_bitrate(native.0)},"gop":gop,"encoderPool":encoder_pool,"rasterizer":rasterizer(), "encoder":"videotoolbox", "hardwareRequired":true, "hardwareUsed": unsafe {helios_hardware(native.0)}, "surface":"iosurface-nv12", "zeroCopyProved":false})
+         );
+         return Ok(());
+     }
+@@ -448,6 +506,8 @@ fn run() -> Result<(), Box<dyn std::error::Error>> {
+         unsafe {
+             helios_raster_submitted(native.0, count);
+         }
++        #[cfg(feature = "vulkan")]
++        if !unsafe { helios_vk_wait(vulkan.0, count) } { return Err("VULKAN_FENCE_FAILED".into()); }
+         if raster {
+             let info = skia_safe::ImageInfo::new(
+                 (width as i32, height as i32),
+@@ -474,7 +534,7 @@ fn run() -> Result<(), Box<dyn std::error::Error>> {
+     } else {
+         raw.len() as u64
+     };
+-    let receipt = serde_json::json!({"protocol":if codec == "hevc" {if binary_transport {7} else {6}} else {if binary_transport {5} else {4}},"codec":codec,"hardwareRequired":!raster && !reference,"hardwareUsed":!raster && !reference && unsafe {helios_hardware(native.0)},"transport":if binary_transport {"binary"} else {"json"},"bitrate":bitrate,"configuredBitrate":if raster || reference {None} else {Some(unsafe {helios_configured_bitrate(native.0)})},"gop":gop,"encoderPool":encoder_pool,"frames":count,"rasterizer":"skia-metal","encoder":if raster || reference {"none"} else {"videotoolbox"},"explicitRawReadbackBytes":readback * count as u64,"zeroCopyProved":false});
++    let receipt = serde_json::json!({"protocol":protocol(codec,binary_transport),"backend":if cfg!(feature = "vulkan") {"vulkan"} else {"metal"},"interop":if cfg!(feature = "vulkan") {"moltenvk-metal-objects"} else {"metal-iosurface"},"sharedTexture":true,"codec":codec,"hardwareRequired":!raster && !reference,"hardwareUsed":!raster && !reference && unsafe {helios_hardware(native.0)},"transport":if binary_transport {"binary"} else {"json"},"bitrate":bitrate,"configuredBitrate":if raster || reference {None} else {Some(unsafe {helios_configured_bitrate(native.0)})},"gop":gop,"encoderPool":encoder_pool,"frames":count,"rasterizer":rasterizer(),"encoder":if raster || reference {"none"} else {"videotoolbox"},"explicitRawReadbackBytes":readback * count as u64,"zeroCopyProved":false});
+     if raster || reference {
+         eprintln!("{receipt}");
+     } else {
+diff --git a/packages/portable/scripts/build-gpu.mjs b/packages/portable/scripts/build-gpu.mjs
+index e6d4f5d4..037066cf 100644
+--- a/packages/portable/scripts/build-gpu.mjs
++++ b/packages/portable/scripts/build-gpu.mjs
+@@ -1,11 +1,20 @@
+ import { spawnSync } from 'node:child_process';
+ import { fileURLToPath } from 'node:url';
++import { copyFileSync, mkdirSync } from 'node:fs';
++
++const vulkan = process.argv[2] === 'vulkan';
++if (process.argv.length > (vulkan ? 3 : 2)) throw new Error('Usage: build-gpu.mjs [vulkan]');
+ 
+ if (process.platform !== 'darwin' || process.arch !== 'arm64') {
+   console.error('The current native GPU backend supports macOS arm64 only. Existing CPU backends remain available.');
+   process.exit(1);
+ }
+ const manifest = fileURLToPath(new URL('../native/Cargo.toml', import.meta.url));
+-const build = spawnSync('cargo', ['build', '--release', '--locked', '--manifest-path', manifest], { stdio: 'inherit', shell: false });
++const vulkanTarget = fileURLToPath(new URL('../native/target-vulkan', import.meta.url));
++const build = spawnSync('cargo', ['build', '--release', '--locked', ...(vulkan ? ['--no-default-features', '--features', 'vulkan', '--target-dir', vulkanTarget] : []), '--manifest-path', manifest], { stdio: 'inherit', shell: false });
+ if (build.error) { console.error('Rust/Cargo and Apple Command Line Tools are required to build the optional native GPU helper.'); process.exit(1); }
++if (vulkan && build.status === 0) {
++  mkdirSync(fileURLToPath(new URL('../native/target/release', import.meta.url)), { recursive: true });
++  copyFileSync(`${vulkanTarget}/release/helios-gpu`, fileURLToPath(new URL('../native/target/release/helios-gpu-vulkan', import.meta.url)));
++}
+ process.exit(build.status ?? 1);
+diff --git a/packages/portable/src/gpu.ts b/packages/portable/src/gpu.ts
+index 165d69c8..e4037553 100644
+--- a/packages/portable/src/gpu.ts
++++ b/packages/portable/src/gpu.ts
+@@ -35,7 +35,7 @@ function serializeMessage(message: unknown, limit = GPU_LIMITS.frameBytes): stri
+ }
+ 
+ export function validateGpuOptions(options: GpuOptions): void {
+-  if ((options.backend ?? 'metal') !== 'metal') throw new RenderError('GPU_UNSUPPORTED', 'Vulkan encoder surface interoperability is not implemented');
++  if (options.backend !== undefined && options.backend !== 'metal' && options.backend !== 'vulkan') throw new RenderError('GPU_UNSUPPORTED', 'Unsupported GPU backend');
+   if (options.codec !== undefined && options.codec !== 'h264' && options.codec !== 'hevc') throw new RenderError('GPU_UNSUPPORTED', 'Unsupported GPU codec; expected H.264 or HEVC');
+   const bitrate = options.bitrate ?? 20_000_000;
+   if (!Number.isSafeInteger(bitrate) || bitrate < 100_000 || bitrate > 1_000_000_000) throw new RenderError('INVALID_ENCODER', 'Invalid GPU bitrate; expected100,000..1,000,000,000bps');
+@@ -43,7 +43,17 @@ export function validateGpuOptions(options: GpuOptions): void {
+   if (!Number.isSafeInteger(gop) || gop < 1 || gop > 300) throw new RenderError('INVALID_ENCODER', 'Invalid GPU GOP; expected an integer from 1 to 300');
+   if ((options.encoderPool ?? 1) !== 1 && options.encoderPool !== 3) throw new RenderError('INVALID_ENCODER', 'Invalid GPU encoder pool; expected 1 or 3');
+   if (options.transport !== undefined && options.transport !== 'binary' && options.transport !== 'json') throw new RenderError('GPU_UNSUPPORTED', 'Invalid GPU command transport');
+-  if (process.platform !== 'darwin' || process.arch !== 'arm64') throw new RenderError('GPU_UNSUPPORTED', 'Metal GPU encoding requires macOS arm64');
++  if (process.platform !== 'darwin' || process.arch !== 'arm64') throw new RenderError('GPU_UNSUPPORTED', 'Metal and MoltenVK hardware encoding require macOS arm64');
++}
++
++function gpuExecutable(options: GpuOptions): string {
++  return options.executable ?? fileURLToPath(new URL(`../native/target/release/helios-gpu${options.backend === 'vulkan' ? '-vulkan' : ''}`, import.meta.url));
++}
++function receiptProtocol(options: GpuOptions, binary: boolean): number {
++  return options.backend === 'vulkan' ? (binary ? 9 : 8) : options.codec === 'hevc' ? (binary ? 7 : 6) : (binary ? 5 : 4);
++}
++function vulkanReceipt(result: any): boolean {
++  return result.backend === 'vulkan' && result.rasterizer === 'skia-vulkan' && result.interop === 'moltenvk-metal-objects' && result.sharedTexture === true;
+ }
+ 
+ function color(value: unknown, alpha: number): Color {
+@@ -169,25 +179,26 @@ function validateGpuPlan(plan: Plan): void {
+ export async function preflightGpuPlan(plan: Plan, options: RenderOptions): Promise<void> {
+   options.signal?.throwIfAborted(); validateGpuOptions(options.gpu ?? {}); validateGpuPlan(plan);
+   if (plan.width % 2 || plan.height % 2 || plan.width > 4096 || plan.height > 4096) throw new RenderError('GPU_UNSUPPORTED', 'GPU surface dimensions must be even and at most 4096');
+-  await probeGpu(options.gpu?.executable ?? fileURLToPath(new URL('../native/target/release/helios-gpu', import.meta.url)), { ...options, ...options.gpu });
++  await probeGpu(gpuExecutable(options.gpu ?? {}), { ...options, ...options.gpu });
+ }
+ 
+ async function probeGpu(executable: string, options: GpuCanvasOptions): Promise<void> {
+   const hevc = options.codec === 'hevc';
+   const bytes = await runProcess(executable, hevc ? ['probe', 'hevc'] : ['probe'], { signal: options.signal, timeoutMs: 30000, maxBytes: 8192 });
+-  if (hevc) {
++  if (hevc || options.backend === 'vulkan') {
+     let result;
+-    try { result = JSON.parse(bytes.toString()); } catch { throw new RenderError('INVALID_OUTPUT', 'Native HEVC capability receipt is invalid'); }
+-    if (result.protocol !== 6 || result.codec !== 'hevc' || result.encoder !== 'videotoolbox' || result.hardwareRequired !== true || result.hardwareUsed !== true) throw new RenderError('INVALID_OUTPUT', 'Native HEVC capability does not match required hardware codec');
++    try { result = JSON.parse(bytes.toString()); } catch { throw new RenderError('INVALID_OUTPUT', 'Native GPU capability receipt is invalid'); }
++    if (result.protocol !== receiptProtocol(options, false) || result.codec !== (options.codec ?? 'h264') || result.encoder !== 'videotoolbox' || result.hardwareRequired !== true || result.hardwareUsed !== true || (options.backend === 'vulkan' && !vulkanReceipt(result))) throw new RenderError('INVALID_OUTPUT', 'Native GPU capability does not match required backend/hardware codec');
+   }
+ }
+ 
+ /** Explicit lossless readback for the existing pixel-returning API, never the hardware video lane. */
+ export async function renderGpuPlanFrame(plan: Plan, index: number, assets: AssetFiles, options: RenderOptions): Promise<{ pixels: Buffer; png: Buffer; svg: string }> {
+   options.signal?.throwIfAborted(); validateGpuOptions(options.gpu ?? {}); validateGpuPlan(plan);
++  if (options.gpu?.backend === 'vulkan') await probeGpu(gpuExecutable(options.gpu), { ...options, ...options.gpu });
+   const prepared = options.prepared ?? await prepareScene(plan, assets, options);
+   const svg = frameSvg(plan, index, prepared);
+-  const worker = startProcess(options.gpu?.executable ?? fileURLToPath(new URL('../native/target/release/helios-gpu', import.meta.url)), ['raster', String(plan.width), String(plan.height), String(plan.fps.num), String(plan.fps.den), '1000000', '/unused'], { signal: options.signal, timeoutMs: 30000 });
++  const worker = startProcess(gpuExecutable(options.gpu ?? {}), ['raster', String(plan.width), String(plan.height), String(plan.fps.num), String(plan.fps.den), '1000000', '/unused'], { signal: options.signal, timeoutMs: 30000 });
+   const chunks: Buffer[] = []; let bytes = 0;
+   worker.child.stdout.on('data', (chunk: Buffer) => { bytes += chunk.length; if (bytes > plan.width * plan.height * 4) worker.kill(); else chunks.push(chunk); });
+   worker.child.stdin.end(JSON.stringify({ fonts: {} }) + '\n' + JSON.stringify({ svg }) + '\n');
+@@ -208,7 +219,7 @@ async function encodeGpuMessages(plan: Plan, fonts: Record<string, Uint8Array>,
+   // Reject unsupported drawing before opening a device or touching the destination.
+   const first = await frame(start);
+   const binary = Buffer.isBuffer(first);
+-  const executable = options.executable ?? fileURLToPath(new URL('../native/target/release/helios-gpu', import.meta.url));
++  const executable = gpuExecutable(options);
+   await probeGpu(executable, options);
+   const preflightMs = performance.now() - preflightStarted;
+   const destination = resolve(output);
+@@ -236,7 +247,7 @@ async function encodeGpuMessages(plan: Plan, fonts: Record<string, Uint8Array>,
+       }
+       worker.child.stdin.end(); await worker.done;
+       const result = JSON.parse(receipt);
+-      if (result.frames !== end - start || result.encoder !== 'videotoolbox' || (result.codec ?? 'h264') !== codec || result.protocol !== (codec === 'hevc' ? (binary ? 7 : 6) : (binary ? 5 : 4)) || result.transport !== (binary ? 'binary' : 'json') || result.gop !== (options.gop ?? 90) || result.encoderPool !== (options.encoderPool ?? 1) || result.bitrate !== (options.bitrate ?? 20_000_000) || result.configuredBitrate !== result.bitrate || (codec === 'hevc' && (result.hardwareRequired !== true || result.hardwareUsed !== true))) throw new RenderError('INVALID_OUTPUT', 'Native GPU receipt does not match the requested range/codec/protocol/transport/GOP/pool/bitrate/hardware');
++      if (result.frames !== end - start || result.encoder !== 'videotoolbox' || (result.codec ?? 'h264') !== codec || result.protocol !== receiptProtocol(options, binary) || result.transport !== (binary ? 'binary' : 'json') || result.gop !== (options.gop ?? 90) || result.encoderPool !== (options.encoderPool ?? 1) || result.bitrate !== (options.bitrate ?? 20_000_000) || result.configuredBitrate !== result.bitrate || ((codec === 'hevc' || options.backend === 'vulkan') && (result.hardwareRequired !== true || result.hardwareUsed !== true)) || (options.backend === 'vulkan' && !vulkanReceipt(result))) throw new RenderError('INVALID_OUTPUT', 'Native GPU receipt does not match the requested backend/range/codec/protocol/transport/GOP/pool/bitrate/hardware');
+     } catch (error) { worker.kill(); await worker.done.catch(() => {}); throw error; }
+     const nativeProcessMs = performance.now() - nativeStarted, muxStarted = performance.now();
+     await runProcess(options.ffmpeg ?? 'ffmpeg', ['-hide_banner', '-loglevel', 'error', '-y', '-r', `${plan.fps.num}/${plan.fps.den}`, '-f', codec, '-i', elementary, '-c:v', 'copy', ...(codec === 'hevc' ? ['-tag:v', 'hvc1'] : []), '-an', '-video_track_timescale', String(plan.fps.num), '-movflags', '+faststart', staged], { signal: options.signal, timeoutMs: 300000 });
+diff --git a/packages/portable/tests/gpu.test.ts b/packages/portable/tests/gpu.test.ts
+index a50d3451..3a0d02ff 100644
+--- a/packages/portable/tests/gpu.test.ts
++++ b/packages/portable/tests/gpu.test.ts
+@@ -10,7 +10,7 @@ import { renderCanvasModule } from '../src/canvas-pool.js';
+ const scene: CanvasComposition = { width: 64, height: 32, fps: { num: 30000, den: 1001 }, frameCount: 4, background: '#000000', draw(ctx, frame) { ctx.fillStyle = '#ff0000'; ctx.fillRect(frame.index * 4, 8, 8, 8); } };
+ 
+ it('rejects explicit unsupported hardware/codec cells without selecting a CPU fallback', () => {
+-  expect(() => validateGpuOptions({ backend: 'vulkan', codec: 'h264' })).toThrow(/Vulkan/);
++  expect(() => validateGpuOptions({ backend: 'unknown' as any, codec: 'h264' })).toThrow(/backend/);
+   expect(() => validateGpuOptions({ backend: 'metal', codec: 'av1' as any })).toThrow(/codec/);
+   expect(() => validateGpuOptions({ backend: 'metal', codec: 'h264', bitrate: 0 })).toThrow(/bitrate/);
+ });

@@ -1,0 +1,65 @@
+{
+  "status": "next serial4K qualification configuration/resource ledger frozen; launch blocked",
+  "firstLane": "H-metal-hevc",
+  "exactInputPins": 187,
+  "allPinsMatch": true,
+  "acceptedPreparation446FilesUnchanged": true,
+  "acceptedPreparationBytes": 50753953,
+  "configuration": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/serial-4k-qualification-plan-20261005/CONFIG.json",
+    "bytes": 23654,
+    "sha256": "ccaf95381d4ab7a7cb61c84f88b4ac72cd19da19ae2bf919e6ed65391c755255"
+  },
+  "resourceLedger": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/serial-4k-qualification-plan-20261005/RESOURCE-LEDGER.json",
+    "bytes": 3491,
+    "sha256": "d1aca50530aa68f676536eb28e71e958787f3c907fdae4a5c5622237ba210e90"
+  },
+  "streamingProposal": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/serial-4k-qualification-plan-20261005/STREAMING-STORAGE-PROPOSAL.json",
+    "bytes": 2760,
+    "sha256": "3f2107a6e833cc6854a0313d21713336eb6adc85c8c68a99e196c8abf0aabf66"
+  },
+  "inputPins": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/serial-4k-qualification-plan-20261005/EXACT-INPUT-PINS.json",
+    "bytes": 42770,
+    "sha256": "8e725049cad827427f846ccc5ffcb1c32369de7b772ae78715dc925369582266"
+  },
+  "sourceArchive": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/serial-4k-qualification-plan-20261005/source.zip",
+    "bytes": 391318,
+    "sha256": "8332de24d8374a488f42ec3224f8246044522da0d525b97632f733a69479202a",
+    "entries": 160,
+    "crcPassed": true
+  },
+  "readOnlyPreflight": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/serial-4k-qualification-plan-20261005/PREFLIGHT.json",
+    "bytes": 747,
+    "sha256": "8069dff72b5f244db3604b4f083557f959e795c0366564b236f056064bd0c944"
+  },
+  "freeBytesAtPreflight": 1150066688,
+  "retainedRawGateBytes": 9663676416,
+  "freeSpaceShortfallBytes": 8513609728,
+  "streamingConsumerImplemented": false,
+  "streamingStorageTestsRun": false,
+  "launchIntegrationQualified": false,
+  "newFull4KQualification": false,
+  "newGpuExport": false,
+  "newEncoderRun": false,
+  "newDecode": false,
+  "newCargoBuild": false,
+  "timingWindowOpen": false,
+  "benchmarkTiming": false,
+  "newLibraryIds": [],
+  "broaderObjectiveComplete": false,
+  "remainingBlockers": [
+    "insufficient disk for9GiB incremental gate",
+    "bounded codec-aware orchestration and profile logging integration not yet implemented/qualified",
+    "native streaming reference consumer is design only; active gate unchanged",
+    "fresh per-codec all3004K reference/quality/cadence/color/GPU/ownership/invariance gates remain",
+    "balanced timing needs gates,15GiB free retention budget and prior window notification",
+    "no matched fframes HEVC adapter or Linux Vulkan Video host; no M5 reproduction/win",
+    "Library publication unavailable; Vulkan destination approval pending"
+  ],
+  "noAdditionalNativeOptimizationSelected": true
+}

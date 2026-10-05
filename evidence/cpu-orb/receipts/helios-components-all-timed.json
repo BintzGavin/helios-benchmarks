@@ -1,0 +1,210 @@
+{
+  "id": "H-medium-w2-t1",
+  "index": 1,
+  "deliveredWallNs": 69156139448,
+  "stats": {
+    "frames": 300,
+    "chunks": 2,
+    "workers": 2,
+    "ranges": [
+      {
+        "frames": 150,
+        "preparationMs": 41.21701199999998,
+        "rasterizeMs": 17513.34079600001,
+        "pixelExtractionMs": 2995.8436219999903,
+        "drawMs": 20511.19826600005,
+        "encoderWaitMs": 31518.798828999985,
+        "encodeMs": 59664.523825,
+        "verifyMs": 185.05176499999652
+      },
+      {
+        "frames": 150,
+        "preparationMs": 35.74422000000001,
+        "rasterizeMs": 17329.361096000048,
+        "pixelExtractionMs": 2973.265126999973,
+        "drawMs": 20304.599208000025,
+        "encoderWaitMs": 31984.53264199998,
+        "encodeMs": 59833.303302,
+        "verifyMs": 149.20264899999893
+      }
+    ],
+    "renderMs": 60267.289292,
+    "finalizeMs": 8475.910977,
+    "finalVerifyMs": 8012.719773999997
+  }
+}
+{
+  "id": "H-medium-w2-t1",
+  "index": 2,
+  "deliveredWallNs": 69059951412,
+  "stats": {
+    "frames": 300,
+    "chunks": 2,
+    "workers": 2,
+    "ranges": [
+      {
+        "frames": 150,
+        "preparationMs": 35.31751700000001,
+        "rasterizeMs": 17740.294456,
+        "pixelExtractionMs": 2965.9829620000064,
+        "drawMs": 20708.243980999963,
+        "encoderWaitMs": 31113.25353900001,
+        "encodeMs": 59397.984166,
+        "verifyMs": 151.2270040000003
+      },
+      {
+        "frames": 150,
+        "preparationMs": 33.25623300000001,
+        "rasterizeMs": 17782.16558100002,
+        "pixelExtractionMs": 2873.0581439999996,
+        "drawMs": 20657.213351000013,
+        "encoderWaitMs": 31817.06828500001,
+        "encodeMs": 60075.489632,
+        "verifyMs": 148.32143399999768
+      }
+    ],
+    "renderMs": 60500.272472000004,
+    "finalizeMs": 8323.038818999994,
+    "finalVerifyMs": 7861.107874000001
+  }
+}
+{
+  "id": "H-medium-w2-t1",
+  "index": 3,
+  "deliveredWallNs": 69426166154,
+  "stats": {
+    "frames": 300,
+    "chunks": 2,
+    "workers": 2,
+    "ranges": [
+      {
+        "frames": 150,
+        "preparationMs": 36.475367000000006,
+        "rasterizeMs": 17793.571687000025,
+        "pixelExtractionMs": 2826.1974919999743,
+        "drawMs": 20621.752488999988,
+        "encoderWaitMs": 31609.330570000016,
+        "encodeMs": 59900.358840999994,
+        "verifyMs": 148.59000399999786
+      },
+      {
+        "frames": 150,
+        "preparationMs": 32.965569000000016,
+        "rasterizeMs": 18034.387359000015,
+        "pixelExtractionMs": 2839.327175000004,
+        "drawMs": 20875.65752500001,
+        "encoderWaitMs": 31792.351587999983,
+        "encodeMs": 60298.276323,
+        "verifyMs": 147.72714899999846
+      }
+    ],
+    "renderMs": 60722.317654,
+    "finalizeMs": 8467.986664999997,
+    "finalVerifyMs": 7981.524045999999
+  }
+}
+{
+  "id": "H-ultrafast-w2-t1",
+  "index": 1,
+  "deliveredWallNs": 21163641221,
+  "stats": {
+    "frames": 300,
+    "chunks": 2,
+    "workers": 2,
+    "ranges": [
+      {
+        "frames": 150,
+        "preparationMs": 33.832595999999995,
+        "rasterizeMs": 13063.713332999987,
+        "pixelExtractionMs": 1685.423714999995,
+        "drawMs": 14750.712582000002,
+        "encoderWaitMs": 1973.4123590000079,
+        "encodeMs": 16848.150189,
+        "verifyMs": 122.27845199999865
+      },
+      {
+        "frames": 150,
+        "preparationMs": 32.626761999999985,
+        "rasterizeMs": 13218.771399000007,
+        "pixelExtractionMs": 1773.715532000007,
+        "drawMs": 14994.015723999992,
+        "encoderWaitMs": 1922.185460999991,
+        "encodeMs": 17034.45695,
+        "verifyMs": 111.25959700000021
+      }
+    ],
+    "renderMs": 17428.0763,
+    "finalizeMs": 3407.7967500000013,
+    "finalVerifyMs": 2807.0305750000007
+  }
+}
+{
+  "id": "H-ultrafast-w2-t1",
+  "index": 2,
+  "deliveredWallNs": 20704839205,
+  "stats": {
+    "frames": 300,
+    "chunks": 2,
+    "workers": 2,
+    "ranges": [
+      {
+        "frames": 150,
+        "preparationMs": 33.11240799999999,
+        "rasterizeMs": 13013.13986600001,
+        "pixelExtractionMs": 1681.8640960000073,
+        "drawMs": 14696.502631,
+        "encoderWaitMs": 1935.1083160000017,
+        "encodeMs": 16754.592007,
+        "verifyMs": 123.3483899999992
+      },
+      {
+        "frames": 150,
+        "preparationMs": 33.05434200000002,
+        "rasterizeMs": 12937.048510999992,
+        "pixelExtractionMs": 1716.0971170000012,
+        "drawMs": 14654.658425000001,
+        "encoderWaitMs": 1966.8927769999975,
+        "encodeMs": 16754.020267,
+        "verifyMs": 123.13080599999739
+      }
+    ],
+    "renderMs": 17164.400336,
+    "finalizeMs": 3299.283776,
+    "finalVerifyMs": 2674.3700830000016
+  }
+}
+{
+  "id": "H-ultrafast-w2-t1",
+  "index": 3,
+  "deliveredWallNs": 20679705204,
+  "stats": {
+    "frames": 300,
+    "chunks": 2,
+    "workers": 2,
+    "ranges": [
+      {
+        "frames": 150,
+        "preparationMs": 33.34766099999999,
+        "rasterizeMs": 12910.833520999993,
+        "pixelExtractionMs": 1658.161551999999,
+        "drawMs": 14570.446669000008,
+        "encoderWaitMs": 1971.5754779999966,
+        "encodeMs": 16648.223992000003,
+        "verifyMs": 122.92390599999999
+      },
+      {
+        "frames": 150,
+        "preparationMs": 34.857911,
+        "rasterizeMs": 12976.895307000012,
+        "pixelExtractionMs": 1711.2748620000052,
+        "drawMs": 14689.762473999996,
+        "encoderWaitMs": 1957.4566220000072,
+        "encodeMs": 16753.391119,
+        "verifyMs": 117.21239199999764
+      }
+    ],
+    "renderMs": 17148.797404,
+    "finalizeMs": 3279.9445809999997,
+    "finalVerifyMs": 2620.9431710000026
+  }
+}

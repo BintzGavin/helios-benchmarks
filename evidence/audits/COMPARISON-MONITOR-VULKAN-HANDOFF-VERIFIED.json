@@ -1,0 +1,48 @@
+{
+  "status": "owner independent final Vulkan verification audited",
+  "updatedUtc": "2026-10-04T16:54:50.807468+00:00",
+  "ownerReceipt": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/VULKAN-HANDOFF-VERIFICATION-20261004.json",
+  "ownerReceiptSha256": "1539e5b0f7b3d636eb9eb2787a37bd413666b4bba103451610f00d9ec850cd6d",
+  "sourceCommit": "63869ba529c89fc1a27f7f55057e4d876c42d26e",
+  "helperSha256": "6679452901c6535cc80b4b762cd6c7c13d222e91fb8212a837ca85e60f4af22b",
+  "ownerCursor": "d0c051ad-a3b2-4641-b3cb-7583ae2a6e2e:18",
+  "allOwnerPinsAndScopeConsistent": true,
+  "nextGap": {
+    "priority": "fframes full MaxPerformance hardware product chroma/reference qualification",
+    "evidence": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-f-500/quality.json",
+    "retainedScreen": {
+      "exportSeconds": 27.400868292,
+      "minimumSsimY": 0.999168,
+      "minimumPsnrYUV": [
+        49.0,
+        33.36,
+        33.1
+      ],
+      "fixedPsnrUVFloor": 35,
+      "eligible": false
+    },
+    "requiredAction": "Trace the original hardware-target-to-encoder color/chroma contract and establish an independently justified source/reference relationship while preserving full production concurrency. Do not fit references, lower thresholds, or substitute the serial adapter. If a changed converter is needed, label it as a modified pipeline and retain the original lane.",
+    "beforeBalancedTiming": "Full300-frame 4K qualification of intended Metal/HEVC/Vulkan candidate lanes and independently verified references/settings."
+  },
+  "excludedRecorderEvidence": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-binary-recording-profile.json",
+    "sourcePins": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/binary-transport-source-check.json",
+    "scope": "three excluded CPU-only frame recordings; no GPU throughput or total-export bottleneck proof",
+    "jsonRecordAndSerializeMs": [
+      152.737791,
+      137.092125,
+      136.039958
+    ],
+    "binaryRecordMs": [
+      41.350834,
+      33.944458,
+      33.336125
+    ],
+    "binaryBytesPerFrame": 5592444,
+    "noFurtherNativeOptimizationSelected": true
+  },
+  "publicationApprovalStillPending": true,
+  "timingWindow": "closed",
+  "localJobs": [],
+  "broaderObjectiveComplete": false
+}

@@ -1,0 +1,121 @@
+{
+  "status": "prepared-only; GPU run blocked",
+  "tests": "25 tests passed if tests.log says OK",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 42,
+      "sha256": "b36ae5a708540deaf1a97dbde4dd352986656cdb36a36d5ee5e29c586a0b94d5"
+    },
+    {
+      "path": "DM-Sans-NOTICE.txt",
+      "bytes": 1679,
+      "sha256": "8f1993857f640fa9b352843deda8417a84ac6fed4289cfe787400799c322a14e"
+    },
+    {
+      "path": "DM-Sans-OFL.txt",
+      "bytes": 4401,
+      "sha256": "0eb29107fc33184577034899905554c12451f752d2ae327f440081484753008e"
+    },
+    {
+      "path": "DM-Sans.ttf",
+      "bytes": 72000,
+      "sha256": "9ae2da663d64342031e59b5fa680dd355171d021b7ebf83774efc7c0330ae7b5"
+    },
+    {
+      "path": "LICENSE.fframes.txt",
+      "bytes": 1080,
+      "sha256": "a1a1a3dbe48712540fad727043ea06248e58d48539e243f8d76db64aec5bb665"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8113,
+      "sha256": "e0c9cec54952934c2dc2068acea0c8652128e6fb7a00136de1c7038143d73420"
+    },
+    {
+      "path": "REPORT-FFRAMES.md",
+      "bytes": 9695,
+      "sha256": "78aae9fe45178be6c33193c463d38a511792506c0db30ab5b1085fde41ddd005"
+    },
+    {
+      "path": "browser_probe.mjs",
+      "bytes": 2230,
+      "sha256": "6bbed4403ff4fb1883e417babe5b1d1b4610020ea8222ec1f6151f9433b4d80e"
+    },
+    {
+      "path": "evidence/blocked-run.log",
+      "bytes": 76,
+      "sha256": "b3be52753e0a9dfd5997483425f4abb54396ff19915a37ba1935568eee566dfe"
+    },
+    {
+      "path": "evidence/browser-launch-status.json",
+      "bytes": 566,
+      "sha256": "8ee9ae532a562db214908adefc735717c6cb8c20c122a44ca1176424860fb0df"
+    },
+    {
+      "path": "evidence/cloud-encoder-smoke.log",
+      "bytes": 1218,
+      "sha256": "ab91cada252c1d7afe0d5511cfd5a1dda40710f267100b337be04d83a7a76041"
+    },
+    {
+      "path": "evidence/planned-order.json",
+      "bytes": 797,
+      "sha256": "9e664084e7a84b54b4636c524ea09151a6d4cc6a217ae2f6ec1ecb3b4acf878b"
+    },
+    {
+      "path": "evidence/preflight.json",
+      "bytes": 21470,
+      "sha256": "7619a7e645b818dba84987e21a4da38ed159f0c512d98f91724d1735b4cabf8d"
+    },
+    {
+      "path": "evidence/tests.log",
+      "bytes": 4140,
+      "sha256": "b97e26dab60fb9e49f9365faa19cc7bb2b2f45684295be142f09c5ffc23013b8"
+    },
+    {
+      "path": "matrix.template.json",
+      "bytes": 2782,
+      "sha256": "627b2115b1e8f42633875e0933460ffbfdd83ae82602546dabed67643a66ff60"
+    },
+    {
+      "path": "preflight.py",
+      "bytes": 5039,
+      "sha256": "241dfd9feb039517ce83247430cc72a1134a9d217af88bfb3920e5e71252870a"
+    },
+    {
+      "path": "render_helios.mjs",
+      "bytes": 1181,
+      "sha256": "e532d5551120f51b409ca8147a4e5ffc30d4b4b74a15ff564da693f1f28812fd"
+    },
+    {
+      "path": "run_matrix.py",
+      "bytes": 5688,
+      "sha256": "4dce2c80a56493a6fc834df4fa9a5bc014c9d8110458af4a40b45ec98aa613bb"
+    },
+    {
+      "path": "test_runner.py",
+      "bytes": 790,
+      "sha256": "332a7aa81c44ef34127aefe04851b8691b0540333f446578f58e598231922c23"
+    },
+    {
+      "path": "test_validate_video.py",
+      "bytes": 11197,
+      "sha256": "de4e295759b769e27dfd1ceba83c831c736a2c70341c806b7d6b651c5c2cd080"
+    },
+    {
+      "path": "textgrid.html",
+      "bytes": 1043,
+      "sha256": "cdd4d64c404e60e84151dff00d4a537091a88aad6ad411e32408c1a2f71bbd38"
+    },
+    {
+      "path": "textgrid.mjs",
+      "bytes": 1656,
+      "sha256": "cc5f8fe2be81dae1574839082e824c7280ddfec9564a04bc84058a6990ab3ea4"
+    },
+    {
+      "path": "validate_video.py",
+      "bytes": 20756,
+      "sha256": "f5fbf7c131ca8b7c73daa7cd16fbbd50f1f0c102aa7c7d167462f3898830cf6b"
+    }
+  ]
+}

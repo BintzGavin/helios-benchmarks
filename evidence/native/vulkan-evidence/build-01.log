@@ -1,0 +1,141 @@
+   Compiling proc-macro2 v1.0.107
+   Compiling unicode-ident v1.0.26
+   Compiling quote v1.0.47
+   Compiling libc v0.2.190
+   Compiling cfg-if v1.0.5
+   Compiling memchr v2.8.3
+   Compiling zmij v1.0.23
+   Compiling serde_core v1.0.229
+   Compiling glob v0.3.4
+   Compiling bitflags v2.13.2
+   Compiling serde_json v1.0.151
+   Compiling rustix v1.1.5
+   Compiling prettyplease v0.2.37
+   Compiling crc32fast v1.5.2
+   Compiling clang-sys v1.9.1
+   Compiling minimal-lexical v0.2.1
+   Compiling find-msvc-tools v0.1.14
+   Compiling aho-corasick v1.1.5
+   Compiling shlex v2.0.1
+   Compiling regex-syntax v0.8.11
+   Compiling cc v1.6.0
+   Compiling nom v7.1.3
+   Compiling libloading v0.8.9
+   Compiling syn v2.0.119
+   Compiling regex-automata v0.4.18
+   Compiling simd-adler32 v0.3.10
+   Compiling adler2 v2.0.1
+   Compiling either v1.18.0
+   Compiling winnow v1.0.4
+   Compiling bindgen v0.72.1
+   Compiling itertools v0.13.0
+   Compiling toml_parser v1.1.3+spec-1.1.0
+   Compiling miniz_oxide v0.9.1
+   Compiling cexpr v0.6.0
+   Compiling itoa v1.0.18
+   Compiling toml_writer v1.1.2+spec-1.1.0
+   Compiling rustc-hash v2.1.3
+   Compiling libm v0.2.16
+   Compiling winnow v0.7.15
+   Compiling errno v0.3.14
+   Compiling filetime v0.2.29
+   Compiling shlex v1.3.0
+   Compiling log v0.4.34
+   Compiling flate2 v1.1.10
+   Compiling regex v1.13.1
+   Compiling pkg-config v0.3.34
+   Compiling serde_spanned v1.1.1
+   Compiling toml_datetime v0.7.5+spec-1.1.0
+   Compiling heck v0.5.0
+   Compiling syn v3.0.6
+   Compiling serde v1.0.229
+   Compiling xattr v1.6.1
+   Compiling tar v0.4.46
+   Compiling toml v0.9.12+spec-1.1.0
+   Compiling helios-gpu v0.1.0 (/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native)
+   Compiling unicode-script v0.5.8
+   Compiling core_maths v0.1.1
+   Compiling ttf-parser v0.25.1
+   Compiling unicode-ccc v0.4.0
+   Compiling smallvec v1.16.2
+   Compiling bytemuck v1.25.2
+   Compiling percent-encoding v2.3.2
+   Compiling unicode-bidi-mirroring v0.4.0
+   Compiling base64 v0.22.1
+   Compiling unicode-properties v0.1.4
+   Compiling skia-svg-macros v0.1.0
+   Compiling serde_derive v1.0.229
+   Compiling rustybuzz v0.20.1
+warning: helios-gpu@0.1.0: vulkan.mm:29:108: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    29 |         VkExportMetalObjectCreateInfoEXT exportDevice{VK_STRUCTURE_TYPE_EXPORT_METAL_OBJECT_CREATE_INFO_EXT};
+warning: helios-gpu@0.1.0:       |                                                                                                            ^
+warning: helios-gpu@0.1.0: vulkan.mm:31:65: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    31 |         VkApplicationInfo app{VK_STRUCTURE_TYPE_APPLICATION_INFO}; app.pApplicationName="helios-vulkan-interop-probe"; app.apiVersion=VK_API_VERSION_1_1;
+warning: helios-gpu@0.1.0:       |                                                                 ^
+warning: helios-gpu@0.1.0: vulkan.mm:32:71: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    32 |         VkInstanceCreateInfo ic{VK_STRUCTURE_TYPE_INSTANCE_CREATE_INFO}; ic.pNext=&exportDevice; ic.pApplicationInfo=&app; ic.enabledExtensionCount=1; ic.ppEnabledExtensionNames=instExt;
+warning: helios-gpu@0.1.0:       |                                                                       ^
+warning: helios-gpu@0.1.0: vulkan.mm:48:96: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    48 |         float priority=1; VkDeviceQueueCreateInfo qc{VK_STRUCTURE_TYPE_DEVICE_QUEUE_CREATE_INFO}; qc.queueFamilyIndex=family; qc.queueCount=1; qc.pQueuePriorities=&priority;
+warning: helios-gpu@0.1.0:       |                                                                                                ^
+warning: helios-gpu@0.1.0: vulkan.mm:51:67: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    51 |         VkDeviceCreateInfo dc{VK_STRUCTURE_TYPE_DEVICE_CREATE_INFO}; dc.pEnabledFeatures=&features; dc.queueCreateInfoCount=1; dc.pQueueCreateInfos=&qc; dc.enabledExtensionCount=2; dc.ppEnabledExtensionNames=devExt;
+warning: helios-gpu@0.1.0:       |                                                                   ^
+warning: helios-gpu@0.1.0: vulkan.mm:56:109: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    56 |         VkExportMetalObjectCreateInfoEXT exportTexture{VK_STRUCTURE_TYPE_EXPORT_METAL_OBJECT_CREATE_INFO_EXT}; exportTexture.exportObjectType=VK_EXPORT_METAL_OBJECT_TYPE_METAL_TEXTURE_BIT_EXT;
+warning: helios-gpu@0.1.0:       |                                                                                                             ^
+warning: helios-gpu@0.1.0: vulkan.mm:57:91: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    57 |         VkImportMetalTextureInfoEXT import{VK_STRUCTURE_TYPE_IMPORT_METAL_TEXTURE_INFO_EXT}; import.pNext=&exportTexture; import.plane=VK_IMAGE_ASPECT_COLOR_BIT; import.mtlTexture=texture;
+warning: helios-gpu@0.1.0:       |                                                                                           ^
+warning: helios-gpu@0.1.0: vulkan.mm:58:66: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    58 |         VkImageCreateInfo img{VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO}; img.pNext=&import; img.imageType=VK_IMAGE_TYPE_2D; img.format=VK_FORMAT_R8G8B8A8_UNORM; img.extent={uint32_t(texture.width),uint32_t(texture.height),1}; img.mipLevels=1; img.arrayLayers=1; img.samples=VK_SAMPLE_COUNT_1_BIT; img.tiling=VK_IMAGE_TILING_OPTIMAL; img.usage=VK_IMAGE_USAGE_TRANSFER_DST_BIT|VK_IMAGE_USAGE_COLOR_ATTACHMENT_BIT|VK_IMAGE_USAGE_SAMPLED_BIT; img.sharingMode=VK_SHARING_MODE_EXCLUSIVE; img.initialLayout=VK_IMAGE_LAYOUT_UNDEFINED;
+warning: helios-gpu@0.1.0:       |                                                                  ^
+warning: helios-gpu@0.1.0: vulkan.mm:62:93: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    62 |         VkExportMetalTextureInfoEXT exported{VK_STRUCTURE_TYPE_EXPORT_METAL_TEXTURE_INFO_EXT}; exported.image=image; exported.plane=VK_IMAGE_ASPECT_COLOR_BIT;
+warning: helios-gpu@0.1.0:       |                                                                                             ^
+warning: helios-gpu@0.1.0: vulkan.mm:63:87: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    63 |         VkExportMetalObjectsInfoEXT ei{VK_STRUCTURE_TYPE_EXPORT_METAL_OBJECTS_INFO_EXT}; ei.pNext=&exported; exportObjects(device,&ei);
+warning: helios-gpu@0.1.0:       |                                                                                       ^
+warning: helios-gpu@0.1.0: vulkan.mm:66:86: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    66 |         VkExportMetalDeviceInfoEXT gpu{VK_STRUCTURE_TYPE_EXPORT_METAL_DEVICE_INFO_EXT}; ei.pNext=&gpu; exportObjects(device,&ei);
+warning: helios-gpu@0.1.0:       |                                                                                      ^
+warning: helios-gpu@0.1.0: vulkan.mm:68:65: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    68 |         VkFenceCreateInfo fc{VK_STRUCTURE_TYPE_FENCE_CREATE_INFO}; require(vkCreateFence(device,&fc,nullptr,&owner->fence),"fence");
+warning: helios-gpu@0.1.0:       |                                                                 ^
+warning: helios-gpu@0.1.0: 12 warnings generated.
+   Compiling skia-bindings v0.91.0
+error: failed to run custom build command for `skia-bindings v0.91.0`
+
+Caused by:
+  process didn't exit successfully: `/private/tmp/helios-gpu-next-target-01a101cb/release/build/skia-bindings-2d65afa4f1c3469b/build-script-build` (exit status: 101)
+  --- stdout
+  cargo:rerun-if-env-changed=DOCS_RS
+  cargo:rerun-if-env-changed=SKIA_DEBUG
+  cargo:rerun-if-env-changed=SKIA_SOURCE_DIR
+  cargo:rerun-if-env-changed=FORCE_SKIA_BUILD
+  cargo:rerun-if-env-changed=FORCE_SKIA_BINARIES_DOWNLOAD
+  STARTING A FULL BUILD
+  HOST: aarch64-apple-darwin
+  cargo:rerun-if-env-changed=CLANGCC
+  cargo:rerun-if-env-changed=CC
+  cargo:rerun-if-env-changed=CLANGCXX
+  cargo:rerun-if-env-changed=CXX
+  cargo:rerun-if-env-changed=OPT_LEVEL
+  cargo:rerun-if-env-changed=SKIA_USE_SYSTEM_LIBRARIES
+  cargo:rerun-if-env-changed=SDKTARGETSYSROOT
+  cargo:rerun-if-env-changed=SDKROOT
+  cargo:rerun-if-env-changed=MACOSX_DEPLOYMENT_TARGET
+  cargo:rerun-if-env-changed=SKIA_NINJA_COMMAND
+  cargo:rerun-if-env-changed=SKIA_GN_COMMAND
+  Probing 'python'
+  Probing 'python3'
+  Python 3 found: "python3"
+  Synchronizing Skia dependencies
+  DOWNLOADING: https://codeload.github.com/rust-skia/skia/tar.gz/m143-0.90.0
+
+  --- stderr
+  fatal: not a git repository (or any of the parent directories): .git
+
+  thread 'main' (5677255) panicked at /private/tmp/helios-gpu-cargo/registry/src/index.crates.io-1949cf8c6b5b557f/skia-bindings-0.91.0/build_support/binary_cache/download.rs:97:43:
+  called `Result::unwrap()` on an `Err` value: Custom { kind: StorageFull, error: TarError { desc: "failed to unpack `/private/tmp/helios-gpu-cargo/registry/src/index.crates.io-1949cf8c6b5b557f/skia-bindings-0.91.0/skia-m143-0.90.0/src/codec/BUILD.bazel`", io: Custom { kind: StorageFull, error: TarError { desc: "failed to unpack `skia-m143-0.90.0/src/codec/BUILD.bazel` into `/private/tmp/helios-gpu-cargo/registry/src/index.crates.io-1949cf8c6b5b557f/skia-bindings-0.91.0/skia-m143-0.90.0/src/codec/BUILD.bazel`", io: Os { code: 28, kind: StorageFull, message: "No space left on device" } } } } }
+  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

@@ -1,0 +1,10 @@
+{
+  "case": "existing-directory",
+  "passed": true,
+  "expectedRefusal": "EXISTING_DESTINATION",
+  "observedError": "Refusal: EXISTING_DESTINATION",
+  "secondsExcludedFromBenchmarks": 0.01273145800223574,
+  "sourceUnchanged": true,
+  "GPUExecuted": false,
+  "atomicFinalExists": false
+}

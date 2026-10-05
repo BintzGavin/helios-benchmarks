@@ -1,0 +1,102 @@
+{
+  "commands": [
+    {
+      "argv": [
+        "python3",
+        "checkpoint/test_native_bridge.py"
+      ],
+      "exit": 0,
+      "observedStdout": {
+        "status": "native bridge source/process preparation passed with subprocess fixtures only",
+        "tests": 53,
+        "GPUExports": 0
+      }
+    },
+    {
+      "argv": [
+        "python3",
+        "checkpoint/test_native_bridge_additional.py"
+      ],
+      "exit": 0,
+      "observedStdout": {
+        "tests": 10,
+        "GPUExports": 0
+      }
+    }
+  ],
+  "sourceBoundBy": [
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_stdout_bridge.mjs",
+      "bytes": 10863,
+      "sha256": "1ad8d4c1c8ada3156b434c30dea8bf95d8a4cbe0495a3d070ae20cb1163d4ec7"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_bridge_runner.py",
+      "bytes": 22240,
+      "sha256": "19127ad91f34d71177f24cdd0f9ea873ed40e143f57e5d4aac066ca7b59e95a0"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_bridge_fixture.py",
+      "bytes": 2619,
+      "sha256": "2ec00249eea98216c87827733d44e30acc831b7784b5e275898a9e227828cc0f"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_bridge_encoder_fixture.py",
+      "bytes": 531,
+      "sha256": "727ba639afd2d0ef38e2ac0b2855e11dc6f9ac2bca189e69f61830e87da83288"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_bridge_scene_fixture.mjs",
+      "bytes": 335,
+      "sha256": "a1ff3340842441e2420d69bb639e3a012f8052f333fd9ada1e0fad782e7ee0c6"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/test_native_bridge.py",
+      "bytes": 12441,
+      "sha256": "1f55d098497c3d12b58b577d4dfd11c56b990365f1f43048bcf32d3d54a2f06c"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/test_native_bridge_additional.py",
+      "bytes": 9030,
+      "sha256": "1c1b41c69bc19f25f3220f3272668de93f833b3f5edd50af9fc4387283529577"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/freeze_native_bridge_prep.py",
+      "bytes": 13621,
+      "sha256": "7888a5928545f5e768e875f3f4e4c83040482605119b14f52e085369bda536c5"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/codec_orchestration.py",
+      "bytes": 11610,
+      "sha256": "2e68574f43f95d3bc875594bda562e3f61a9e671e8c271bae33eafa8fa6993ee"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/stream_nv12_reference.py",
+      "bytes": 14945,
+      "sha256": "69497d5b77f313b78f2d6c59926dcb89f3b56551adbb8ff84894dac15308cce3"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_chroma_conformance.py",
+      "bytes": 19327,
+      "sha256": "b0a36b7852439a78b27365a2846a1b471207f1285fbb9461aa7fa125a21a5088"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/codec_fixture_scene.mjs",
+      "bytes": 688,
+      "sha256": "c6c8cfe062d6d86c13525867d33650ccbfa194b24fb34012bf57b1c00818efd8"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/circles-scene.mts",
+      "bytes": 1665,
+      "sha256": "4d6cd76f513a233d28e9546310ac927b479f180d57c4cce5a56435accfbb54f7"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/serial-4k-qualification-plan-20261005/source.zip",
+      "bytes": 391318,
+      "sha256": "8332de24d8374a488f42ec3224f8246044522da0d525b97632f733a69479202a"
+    }
+  ],
+  "outerCommandReceiptsTranscribedFromSuccessfulExecResults": true,
+  "actualChildStdoutStderrExitReceipts": "cases/validation-final-07 and cases/validation-extra-final-08",
+  "excludedAttemptsRetained": true
+}

@@ -1,0 +1,36 @@
+{
+  "binary": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/circles-high-quality-adapter",
+  "sha256": "155a6bbb7cb8ccbad46eb2686ceb5edbe7f7de523319f0afe615ad83ce3e8c5b",
+  "source": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-circles-claim/render-bench/vs-remotion/src/bin/circles-high-quality-adapter.rs",
+  "sourceSha256": "ded34a1546615f35e057d1b44c3b78bacff6b16c1d7266192de36d3d2efb34d6",
+  "qualitySettingCeiling": 1000000000,
+  "tests": [
+    {
+      "bitrate": "99999",
+      "returncode": 1,
+      "stderr": "Error: \"bitrate out of range\"\n"
+    },
+    {
+      "bitrate": "1000000001",
+      "returncode": 1,
+      "stderr": "Error: \"bitrate out of range\"\n"
+    },
+    {
+      "bitrate": "9223372036854775808",
+      "returncode": 1,
+      "stderr": "Error: ParseIntError { kind: PosOverflow }\n"
+    },
+    {
+      "bitrate": "-1",
+      "returncode": 1,
+      "stderr": "Error: \"bitrate out of range\"\n"
+    },
+    {
+      "bitrate": "nan",
+      "returncode": 1,
+      "stderr": "Error: ParseIntError { kind: InvalidDigit }\n"
+    }
+  ],
+  "originalCircleBinaryUnchanged": "9235fb93063e5650da61b156666fbfabc5b1714b5439e5f7c217fbc949cc54bd",
+  "originalTextGridBinaryUnchanged": "107757e599c608eaecce016ced13c59236130168c6200189b16582e58572e0bb"
+}

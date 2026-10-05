@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "purpose": "CPU-feed-control",
+  "nativeReceipt": {
+    "kind": "CPU-fixture-synthetic-native-receipt",
+    "protocol": 9,
+    "codec": "hevc",
+    "transport": "binary",
+    "bitrate": 20000000,
+    "configuredBitrate": null,
+    "gop": 30,
+    "encoderPool": 3,
+    "frames": 3,
+    "rasterizer": "skia-vulkan",
+    "encoder": "none",
+    "hardwareRequired": false,
+    "hardwareUsed": false,
+    "explicitRawReadbackBytes": 147456,
+    "zeroCopyProved": false,
+    "GPUExecuted": false,
+    "packetHashes": [
+      "26392559cba8cf6b250f293449ca55c8ac989687fd53087a1d9bfba70c4593f5",
+      "a34b8d01ec6e7081b3afa02e1b42a5f13ef26b617fe94ee32aa3c15191ce1d6f",
+      "1adbc48da6fc3b34b0851af0f8c74dd35ff58374fd42936c66b99278fcb6c343"
+    ]
+  },
+  "frames": [
+    {
+      "index": 0,
+      "sourceIndex": 0,
+      "packetBytes": 320,
+      "sha256": "26392559cba8cf6b250f293449ca55c8ac989687fd53087a1d9bfba70c4593f5"
+    },
+    {
+      "index": 1,
+      "sourceIndex": 1,
+      "packetBytes": 320,
+      "sha256": "a34b8d01ec6e7081b3afa02e1b42a5f13ef26b617fe94ee32aa3c15191ce1d6f"
+    },
+    {
+      "index": 2,
+      "sourceIndex": 2,
+      "packetBytes": 320,
+      "sha256": "1adbc48da6fc3b34b0851af0f8c74dd35ff58374fd42936c66b99278fcb6c343"
+    }
+  ],
+  "feedSha256": "c4ae1cef08559b3a1cdfdee5b208b2c76c45a98f144f25c8fe72d4ab27e12373",
+  "headerBytes": 96024,
+  "GPUExecuted": false,
+  "hardwareFlagsAreSynthetic": true,
+  "benchmarkTiming": false
+}

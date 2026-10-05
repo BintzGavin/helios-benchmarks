@@ -1,0 +1,10 @@
+   Compiling helios-gpu v0.1.0 (/Users/gavinbintz/.codex/worktrees/gpu-circles-gop/helios/packages/portable/native)
+    Finished `release` profile [optimized] target(s) in 3.50s
+     Running unittests src/main.rs (packages/portable/native/target/release/deps/helios_gpu-67c56d88360827f2)
+
+running 2 tests
+test boundary_tests::bounded_lines_admit_exact_limit_and_reject_overflow_before_consuming_it ... ok
+test boundary_tests::direct_native_messages_enforce_path_matrix_and_resource_bounds ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.16s
+

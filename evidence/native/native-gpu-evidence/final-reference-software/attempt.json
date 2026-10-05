@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "purpose": "reference",
+  "mode": "reference-software",
+  "timingQualified": false,
+  "frames": 300,
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "nodes": 3334,
+  "fontSha256": "9ae2da663d64342031e59b5fa680dd355171d021b7ebf83774efc7c0330ae7b5",
+  "nativeSha256": "87aec3f3d39db8956490942429e6a865741c04515ad6b98753aaf6599c197a90",
+  "bitrate": 180000000,
+  "software": {
+    "preset": "medium",
+    "crf": 11,
+    "threads": 2,
+    "colorConversion": "srgb-bt709"
+  },
+  "rawReadback": true,
+  "zeroCopyProved": false,
+  "startedAt": "2026-10-03T14:09:47.097Z",
+  "renderingMs": 4624.577792,
+  "verificationMs": 7456.176917000001,
+  "apiVerificationMs": 0,
+  "output": "/private/tmp/helios-gpu-evidence/final-reference-software/reference.mkv",
+  "finishedAt": "2026-10-03T14:09:59.180Z"
+}

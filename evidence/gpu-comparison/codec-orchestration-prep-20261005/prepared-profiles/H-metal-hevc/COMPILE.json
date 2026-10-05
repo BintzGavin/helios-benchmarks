@@ -1,0 +1,51 @@
+{
+  "command": [
+    "/usr/bin/xcrun",
+    "clang++",
+    "-dynamiclib",
+    "-fobjc-arc",
+    "-std=c++17",
+    "-isysroot",
+    "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+    "-DHELIOS_PROFILE_PATH=\"/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/codec-orchestration-prep-20261005/prepared-profiles/H-metal-hevc/interposer.jsonl\"",
+    "/Users/gavinbintz/.codex/worktrees/gpu-hevc/helios/packages/portable/benchmarks/profile-gpu.mm",
+    "-framework",
+    "Foundation",
+    "-framework",
+    "Metal",
+    "-framework",
+    "CoreVideo",
+    "-framework",
+    "IOSurface",
+    "-o",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/codec-orchestration-prep-20261005/prepared-profiles/H-metal-hevc/transfer-interposer.dylib"
+  ],
+  "exit": 0,
+  "sourcePin": {
+    "path": "/Users/gavinbintz/.codex/worktrees/gpu-hevc/helios/packages/portable/benchmarks/profile-gpu.mm",
+    "bytes": 6282,
+    "sha256": "6ed403ae9f17384fb2ac47a6323b7f71a129410a380b7ff573eaef86dadfd4be"
+  },
+  "compileOnly": true,
+  "libraryNeverLoaded": true,
+  "GPUConstructorExecuted": false,
+  "GPUExecuted": false,
+  "newCargoBuild": false,
+  "benchmarkTiming": false,
+  "intendedLogPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/codec-orchestration-prep-20261005/prepared-profiles/H-metal-hevc/interposer.jsonl",
+  "xcrunPin": {
+    "path": "/usr/bin/xcrun",
+    "bytes": 117392,
+    "sha256": "336abf37d5f57cfddea5e36f8c5157f354776889cd2fee60131c62f756df8f34"
+  },
+  "clangPin": {
+    "path": "/Library/Developer/CommandLineTools/usr/bin/clang",
+    "bytes": 271279344,
+    "sha256": "be5518e9c6736cda8dfc3486ce11e8112a2e08045084260691cf41f57a653f59"
+  },
+  "libraryPin": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/codec-orchestration-prep-20261005/prepared-profiles/H-metal-hevc/transfer-interposer.dylib",
+    "bytes": 54888,
+    "sha256": "c2db658279d0fe755ebb910fb3374237a42b8211e27212c949e011cc34d14d13"
+  }
+}

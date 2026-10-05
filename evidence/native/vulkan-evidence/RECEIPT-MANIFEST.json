@@ -1,0 +1,2143 @@
+{
+  "status": "qualified bounded final-helper03 local delivery; historical failures retained and excluded",
+  "sourceCommit": "63869ba529c89fc1a27f7f55057e4d876c42d26e",
+  "qualifiedHelperSha256": "6679452901c6535cc80b4b762cd6c7c13d222e91fb8212a837ca85e60f4af22b",
+  "excludedHelperCandidates": [
+    "helper-candidate-01",
+    "helper-candidate-02"
+  ],
+  "zeroCopyProved": false,
+  "full4KOrPerformanceQualified": false,
+  "files": [
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/ACCEPTANCE.md",
+      "bytes": 1410,
+      "sha256": "962f38c341102ca2b694b56576cfcd599db30e6184157865aeebe3c63b6fd1c9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/BUILD-READY.json",
+      "bytes": 41051,
+      "sha256": "8c0e05826224ca254875f37c7de6244fc899e0e07b94a2cd85818a0028374bee"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/CANDIDATE-01.json",
+      "bytes": 570,
+      "sha256": "c06aa962670ed968f60f7df51a7d471e76c540cc6960151b97ae7265fd611c27"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/CANDIDATE-02.json",
+      "bytes": 1462,
+      "sha256": "fd3d52dcc813f1b6435c387a12d76974d2450faa47b85a9550bc013ed4b67126"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/CANDIDATE-03.json",
+      "bytes": 1573,
+      "sha256": "c146853145f4694838efad9ae721bc22e84486e7cb4fab1ab4eb7405a5b556aa"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/CHECKPOINT.json",
+      "bytes": 3991,
+      "sha256": "c979ab2fd846819515bcb4e57ca8f6c97a64b5c9db9de926d2cff12aa2a1c357"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/FINAL-REPORT.json",
+      "bytes": 3409,
+      "sha256": "6e0b1956bb1f368002069679d25d6be8a65a835137e5be566d4105ee7c2ce7aa"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/INDEPENDENT-AUDIT.json",
+      "bytes": 1731,
+      "sha256": "68a5eb629618a739489ddeb8c30d07b751a437330c55e1576c7524847cb6be2e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/INSTALLER-CHECKS.json",
+      "bytes": 2916,
+      "sha256": "955d0553137d27edb5764323cc3a892d7cfd408ebef4147a0e95193c329fba18"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/PR-BODY.md",
+      "bytes": 2521,
+      "sha256": "2c058e600a3b236b4af4278e78702a5c082cef9bf043d40e555280d86c00b856"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/RUNTIME.json",
+      "bytes": 10629,
+      "sha256": "9a68f242fbea1409d1b64abca597646a1e8c597d51828e031df12c5c2d3454d1"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/SETUP-REPORT.json",
+      "bytes": 4748,
+      "sha256": "e51927322093c09e29767edc936085f9e0e4655ea4fc084f652e346b9b078d7e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/SOURCE-CHECKPOINT-01.json",
+      "bytes": 48323,
+      "sha256": "73b06c93649987e9bf51324723c88ab5d5e1c8335b6e054f3949d7219fdc11c6"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/acceptance-final-guards.log",
+      "bytes": 256,
+      "sha256": "7743815fb1148efda5ef95206f3b1dcaf27b28eebd21d7d7c898654227908213"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/acceptance-native-01.log",
+      "bytes": 1915,
+      "sha256": "fe649d95816b57f1a23a19fad63077f01023491d5a7342493c2073fa87269bea"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/acceptance-native-02.log",
+      "bytes": 243,
+      "sha256": "9448376f42a9b0b598a4c15e9a72fb9a041630915deb68f2b981bd225566485a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/acceptance-native-03.log",
+      "bytes": 243,
+      "sha256": "c7a77caa57c38b3289b06a6a7fe18d1e30eef2ba4e40a1f0b858e20539495f0a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/build-01.log",
+      "bytes": 9970,
+      "sha256": "10bdaf1db065c446f1d1cf8e6ad3f8b4ae2156af587346fa57736b799d3c547e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/build-02.log",
+      "bytes": 13867,
+      "sha256": "8590d77b4ce69e8cb565efd34abd3cec989ce6347d93ab14466509d147983985"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/build-03.log",
+      "bytes": 14776,
+      "sha256": "e1f73434e5bdee6d057f064b41759c04a7160cc3030665d76ca3e57e1c1cb280"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/build-04.log",
+      "bytes": 9121,
+      "sha256": "6a82110e65e672de7bc0293ab235d390cc66c3ce9b05e8d903154d3a0c4cddc7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/build-06.log",
+      "bytes": 14567,
+      "sha256": "4a3ccfa0568ad780d68e97373e8723c605af655efcb549426a0dec8db41dd761"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/build-07.log",
+      "bytes": 2430,
+      "sha256": "32b914f6db242485e1fa2d2ae6cf980933f7d6b5ff9368e05516a51b887bf2ad"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/build-08.log",
+      "bytes": 67,
+      "sha256": "314153ad626170fc2ed994d18c04ce88491de3acb6840882c8acdb8eb4235b2d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/build-09.log",
+      "bytes": 7315,
+      "sha256": "7ffca83ce49833f8e338d60f43eee57299340e05c8e466218bc33808954a88d3"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/build-10.log",
+      "bytes": 17619,
+      "sha256": "590f99c89068fbfee9f56c3e9cf6059136eae91f278beba46ae2863415aaf6df"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/build-11.log",
+      "bytes": 5140,
+      "sha256": "173693e304488658ce1acc993adbc296732d4cb86b21f946c1fad549ad6b066b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/check-fault-api.mjs",
+      "bytes": 1032,
+      "sha256": "0d6e218d1c2ca634b0b5500692c241dc325a4daa5f7861694404e15d05722bdb"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/check-setup.py",
+      "bytes": 1017,
+      "sha256": "492d8d2f4c3e3c3f48aaedb7ca68d3cb2f9a9cc97bea81c40dde580555598aeb"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/check-vulkan-faults.py",
+      "bytes": 1940,
+      "sha256": "149c0bd9de0eb723294522d0e8298e48c546cb8867d59e4f0099fe3e79d4580a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/fault-vulkan.mm",
+      "bytes": 1437,
+      "sha256": "f2fd3fa1af40adbd810cf946e47b9946eb2e8af17803aa664f9bbe3fd3b4322c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/finalize-local.py",
+      "bytes": 9254,
+      "sha256": "0413d7f39157df11fcec77c6aaf0a0ede855b958eddd5e207e9764792ac082f0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/helper-candidate-01",
+      "bytes": 17881712,
+      "sha256": "7e2c4b9052bdb83a1425004751f63d84249ad307eb3c83266cd6e0f6dbb89d6b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/helper-candidate-02",
+      "bytes": 17816384,
+      "sha256": "355e3c14cb5119ed23d90ddee5d47f2530831427420f4b3ac92604b42d7776a1"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/helper-candidate-03",
+      "bytes": 17816832,
+      "sha256": "6679452901c6535cc80b4b762cd6c7c13d222e91fb8212a837ca85e60f4af22b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/interop-probe",
+      "bytes": 128448,
+      "sha256": "fc29ff7b88dfc972eb364fbdf17f277d76cc799290fa4679daa5468c8464c60d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/interop-probe.mm",
+      "bytes": 8916,
+      "sha256": "11614e8bb430df86af65c50e61547b889d1d187a8b974764ff594db551dd171e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/dynamic/dylib/macOS/MoltenVK_icd.json",
+      "bytes": 179,
+      "sha256": "578ff08cd0d8734619357541771a5abc9c3470ca300030219a971a9e9dbbe466"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/dynamic/dylib/macOS/libMoltenVK.dylib",
+      "bytes": 10925552,
+      "sha256": "aef00b13bcc808adf15b85bef9ae67393d92be7ed5dfe41cad16fa809e4a4c5f"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/MoltenVK/mvk_config.h",
+      "bytes": 1399,
+      "sha256": "af29d0b556f91c5435ab9dd7173d64d2133ff3bdc67f7cf3ce4398ac2c815e18"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/MoltenVK/mvk_datatypes.h",
+      "bytes": 24851,
+      "sha256": "137fb8b9d39719ca013fc459fd873f924c93c28744fb9993acfba64250054fc7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/MoltenVK/mvk_deprecated_api.h",
+      "bytes": 25617,
+      "sha256": "ba263887ae74215a1bc562374e6af6a688fccd4ae3ad9e15ed6befc687038cb0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/MoltenVK/mvk_private_api.h",
+      "bytes": 32404,
+      "sha256": "eb0c20649a3f377723aa8d24ae2de7bf0931d1568d9d16ca152a89bbbf2faa9d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/MoltenVK/mvk_vulkan.h",
+      "bytes": 1707,
+      "sha256": "4559af38c2f9a02c68bf3acbabfc8002e745a6a6f77c5b88ee399de3dd3e4dd2"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/MoltenVK/vk_mvk_moltenvk.h",
+      "bytes": 1815,
+      "sha256": "9e2a2f0ef6cd8404f6b06298be285cbd1f54a7208b3038ea555cad80e3256603"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vk_video/vulkan_video_codec_av1std.h",
+      "bytes": 16694,
+      "sha256": "c75c1d324b97d247aef0008024bc7f3adb98c741ab7f66c882ec38fdacc7ee33"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vk_video/vulkan_video_codec_av1std_decode.h",
+      "bytes": 4257,
+      "sha256": "7e3a1ce177c12546d410f3179ce1b81f2da7a8eba4f525b29cd563ab4099c0e5"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vk_video/vulkan_video_codec_av1std_encode.h",
+      "bytes": 5986,
+      "sha256": "8d166b4543260a38347860443b1a59c7a5e86cdb0d0facaf4c704f667de030e3"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vk_video/vulkan_video_codec_h264std.h",
+      "bytes": 13961,
+      "sha256": "fded484cef9f90fbbd089e0647268f36e5f4292179fbc5428a2c9e8d7709bbe9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vk_video/vulkan_video_codec_h264std_decode.h",
+      "bytes": 2730,
+      "sha256": "37b970c3d80536ad1ac074cfe19b58ee03c3075378e02179e1dc5e4351266821"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vk_video/vulkan_video_codec_h264std_encode.h",
+      "bytes": 6885,
+      "sha256": "227e092b53c4e7ca1a948ed021704511c1ed16040cd6188ff6703e5ae66db64d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vk_video/vulkan_video_codec_h265std.h",
+      "bytes": 23446,
+      "sha256": "0b81f8986ada015ef2e127449eff9d9634899bb59a0a9277a4054e9ec4416c12"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vk_video/vulkan_video_codec_h265std_decode.h",
+      "bytes": 2436,
+      "sha256": "879a0dd370a1b1ad184638906c52bdfe7d80d639fbc5a5baa8b02d7c5b60b147"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vk_video/vulkan_video_codec_h265std_encode.h",
+      "bytes": 7469,
+      "sha256": "abb3e72af22e4e0a3dbe5dff7be1b275949388809fb3987830341e8f495ea1c7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vk_video/vulkan_video_codec_vp9std.h",
+      "bytes": 5391,
+      "sha256": "0a47125865376a3fe7014b69ff6db9d04e30ebf8c4d15664f1d894649ad5c09d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vk_video/vulkan_video_codec_vp9std_decode.h",
+      "bytes": 2378,
+      "sha256": "1ceb1a8d0e3370e508cf688a6e57dc314cd82186b60f3cef420ea4b1b483865d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vk_video/vulkan_video_codecs_common.h",
+      "bytes": 667,
+      "sha256": "d2e7caa396c521d03d491a269572b1d31b925b5127d22fda14199951ebae89f8"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vk_icd.h",
+      "bytes": 8228,
+      "sha256": "ba22828f76de7231e7dfbb5d8564e7a58dd9f5dbeac8c1f0ff6c056c92db744a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vk_layer.h",
+      "bytes": 7182,
+      "sha256": "a9fb1343e7e1fa3456189bf146f2186b8df46c1b1a01f88f8b9ae4cd25b1623c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vk_platform.h",
+      "bytes": 2832,
+      "sha256": "a2cd9085c66776845d2524c3b0e73ccf4827ba046aa6f676c4b8ddbed47d6552"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan.cppm",
+      "bytes": 48865,
+      "sha256": "0636d9b30ba9af217d810603ede7107c6299962383de48b6bc5f116d67aa5487"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan.h",
+      "bytes": 1620,
+      "sha256": "096f50152d0b298d8df84a561a37d8190c8a60af34dff0e2cc8328b24491a640"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan.hpp",
+      "bytes": 1223000,
+      "sha256": "1b381bb1c00c36006ea5d8cb4cce6435702c6e30be784b3420d2edaf1911b1e1"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan_android.h",
+      "bytes": 6337,
+      "sha256": "9dcce545a790b5b1ce00e103ade95c8efa4c8a0bf2ff39865d76a7d2f987aef2"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan_beta.h",
+      "bytes": 17419,
+      "sha256": "bb43577a445c357c3f0c03572b3dd3ebd9fca39914c0092f7d77e942af05d3fc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan_core.h",
+      "bytes": 1355514,
+      "sha256": "a7ac0d7e35e77f642c175af5d36729cfdae2d626d2aaa9145c030a42bd44edc6"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan_directfb.h",
+      "bytes": 1959,
+      "sha256": "efecf5a15380f61c16ef257ed55a998f2cc651789bec22056ccc81d2518daefc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan_enums.hpp",
+      "bytes": 733049,
+      "sha256": "8d5de6fa92ca6ebf72a48cc10f25a83df9c1bd4ca481f3c2028be0e3ee2ab6fa"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan_extension_inspection.hpp",
+      "bytes": 206384,
+      "sha256": "0b21a6d9fee393938e513fc2ebf47a54573ce9bad754cbd7d911944a3442c65d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan_format_traits.hpp",
+      "bytes": 428681,
+      "sha256": "b980aefbb629a1bfebdfd475532f9f2214660a6532c39dffb91c2fe6c38ec0d2"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan_fuchsia.h",
+      "bytes": 12907,
+      "sha256": "17aedccaae68825bfa2954faec1bc9e953b106f1161e1b2ab26ab4cdccf21a06"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan_funcs.hpp",
+      "bytes": 2287170,
+      "sha256": "6beb302c8f8ab26afc4056718f63087f3829f65467a0628ee142844043992136"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan_ggp.h",
+      "bytes": 1946,
+      "sha256": "b68cbbf19b9397ee63dd6ba94526059bd2ff000c66083243758e3a04e215bd2c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan_handles.hpp",
+      "bytes": 1758311,
+      "sha256": "1bfbf0d70d5f6a0a623f5803e3d25fc6ec98095e8ea459c087d2ae28d2ff8cd9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan_hash.hpp",
+      "bytes": 1098745,
+      "sha256": "f225e0fb261fd9c3c567dd596e764d598e64fbc14eb29b7ef383e5b4b10e3da5"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan_hpp_macros.hpp",
+      "bytes": 12019,
+      "sha256": "b9a71f468bde2facb989164186c99e4ec565ca0bc45b3c2675ebb4056a236a4b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan_ios.h",
+      "bytes": 1359,
+      "sha256": "ebaeffc3f4ec0484dcf34753678f1642caf73f6db4e17f11f1b82302151b918c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan_macos.h",
+      "bytes": 1391,
+      "sha256": "3ae5522081741e9021be86727e11949ad8c695e66f75e1c422e577afd7657f59"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan_metal.h",
+      "bytes": 8073,
+      "sha256": "d5fe0caf881cc9c72ea2ba31ca86c684e97cdec6741d6e6298ecbd8f58dc8c5e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan_ohos.h",
+      "bytes": 4113,
+      "sha256": "3cc40f845b5fd75cda0d8a3b1f2782522a3591657f67c656a211b4639eb23b16"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan_raii.hpp",
+      "bytes": 1882478,
+      "sha256": "5336b82c63b6229ff9d05229df44817c9b8533b0e63da5aed435f18399222f1b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan_screen.h",
+      "bytes": 4200,
+      "sha256": "b9e7e7921b4be199c8ecfe518bd71bd8e533adbbab193714c542157b87b10e86"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan_shared.hpp",
+      "bytes": 37350,
+      "sha256": "9fe25e7cae294e71ce1683b15c78a3f57d772a889b7f0e4319e5a8a7b5d94e59"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan_static_assertions.hpp",
+      "bytes": 939019,
+      "sha256": "d66c5b9f332fa2e7da407887a2a90afe599e81c22ff89d9057a44d5d02b23023"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan_structs.hpp",
+      "bytes": 8886873,
+      "sha256": "03d0b7a96fb43ac05b98d829054de685eb148a2facce2e284a4c13fedb997ef4"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan_to_string.hpp",
+      "bytes": 674638,
+      "sha256": "c26500482fc87dbbdcf254cdb00eae33f3dd8bab8a1dd6112e83e6516733d9ae"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan_ubm.h",
+      "bytes": 1878,
+      "sha256": "ac106317c017d1975f26184d3979dba0352f10aa1cfc7ef5373be92fef6bd137"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan_vi.h",
+      "bytes": 1332,
+      "sha256": "a53e35bb1b3113e6ef4932cb9358a27861a198d7865227ecd93555fecc73dd68"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan_video.cppm",
+      "bytes": 2278,
+      "sha256": "aa8f15aa490d52337acf06a0de6165da8c1a589ced8caf732aedbfec7e00d268"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan_video.hpp",
+      "bytes": 271650,
+      "sha256": "0d1166ce914ba96a561c79f0905426419cd833b77d5b1a297f8ebe7d53f637df"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan_wayland.h",
+      "bytes": 1959,
+      "sha256": "6c4146149d45bcbb5a22c7540feaa396ee9a49f077737c7a343c62de5199fbc7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan_win32.h",
+      "bytes": 15764,
+      "sha256": "72f0b6de71287d3b04d12235e4f2fef8f343126f85be4963c516d31d5bb4c099"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan_xcb.h",
+      "bytes": 1973,
+      "sha256": "3d49f5eb52090e72e1cf7cde545088225ac524a2ff1d1f35737e7d944474c1b7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan_xlib.h",
+      "bytes": 1954,
+      "sha256": "3c44e97d3f380eb912e01a79e9667457fdf5e18164f0b09b3c61431f421bc551"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/moltenvk-runtime-final/include/vulkan/vulkan_xlib_xrandr.h",
+      "bytes": 1504,
+      "sha256": "188233d112d812cca1777cfa6c1585073f1f2b033fa08b2f11c8d0757fcc232e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/mutations-final/REPORT.json",
+      "bytes": 710,
+      "sha256": "d737add19a32e29cf179d7d269907ef735c74832fa40250119874056f9976a21"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/mutations-final/backend-field.stderr",
+      "bytes": 1348,
+      "sha256": "02899944282f833e6f7ddec65aaea29fdf46214db5a38bcf5770e1a16065cc30"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/mutations-final/backend-field.stdout",
+      "bytes": 525,
+      "sha256": "ffd306db5b309e5ababe3f6e760c869f5e353c3186560b24f5ae25d32ef68ca1"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/mutations-final/baseline.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/mutations-final/baseline.stdout",
+      "bytes": 243,
+      "sha256": "0de7ec90cd7b0b0425d8f457c00007c5206174905bfe0a8c5bdf4a85849ca175"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/mutations-final/capability-hardware.stderr",
+      "bytes": 796,
+      "sha256": "0218076bdbf94559b05184cd087caf2776e2ff854d213aa58fe6bb2ecc3a2ab2"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/mutations-final/capability-hardware.stdout",
+      "bytes": 422,
+      "sha256": "f27030c34c0717e8ada1381a67b83b37d28c0ca2f31f4b5f8664a78dcb707b3d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/mutations-final/interop.stderr",
+      "bytes": 1348,
+      "sha256": "02899944282f833e6f7ddec65aaea29fdf46214db5a38bcf5770e1a16065cc30"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/mutations-final/interop.stdout",
+      "bytes": 525,
+      "sha256": "49fddc19786f0be9009053b0f2bc791e61067d5f1d5a33286190250f26615e47"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/mutations-final/shared-texture.stderr",
+      "bytes": 1348,
+      "sha256": "02899944282f833e6f7ddec65aaea29fdf46214db5a38bcf5770e1a16065cc30"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/mutations-final/shared-texture.stdout",
+      "bytes": 525,
+      "sha256": "59afd3d79bfcc5826f151bd6c9ec640aeebad99ee8f8e6cd04fd7ce5a4225552"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/mutations-final/vulkan-protocol.stderr",
+      "bytes": 2617,
+      "sha256": "00a822ba6b61f1f4a158666997e0b0c9b9648e7961d05414b030bc18e55628a2"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/mutations-final/vulkan-protocol.stdout",
+      "bytes": 933,
+      "sha256": "85a6d0b28bd6d7a55e2fab7528e945a4f8a96cc1a2b2c098f7109ce1e46afea5"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/native-packet-final.log",
+      "bytes": 5818,
+      "sha256": "2f50434a15985cd8a3507b912bf5fbbd12835296532f077ad7501b645133283d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/portable-final-01.log",
+      "bytes": 13432,
+      "sha256": "ffebcf0106d2146ee1b9e4b9358af1f949ce76d25b77c350291836c8fd62ad05"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/portable-final-02.log",
+      "bytes": 277,
+      "sha256": "1596d872b1629db7ddcb72d48297eb4e963ac30c0fecd871ccbf94a3d8a71356"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/portable-unit-01.log",
+      "bytes": 277,
+      "sha256": "5392f5edaa11e246ebe55ea047f3006868778b6c9d9bf888ba08cff7cd86b6c1"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/prepare-qualification.mjs",
+      "bytes": 3623,
+      "sha256": "b06767e51adcf4b1944fdfabbafcd9b93327eb6fd7e31b61ddcb7eb3eb4e6eac"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/probe-01.stderr",
+      "bytes": 5838,
+      "sha256": "5b9002ce150067f1c8c8add239b68f971f918c4fb493482d939d2cd5f50e135d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/probe-trace.jsonl",
+      "bytes": 2050,
+      "sha256": "12ac39f9dabbc05e934ab41b5ece7af423d86399fa9d287788aed306303588d6"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/probe.h264",
+      "bytes": 383,
+      "sha256": "773e61c7d12bcf2404ecc87d92a565473610405be11fa5964d24b46e353fe392"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/probe.mp4",
+      "bytes": 1246,
+      "sha256": "0b428e3107ef0faf5fa0dba1485ef92e4ac76c37dc2a3b754313c3523e8be38f"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/probe.stderr",
+      "bytes": 6061,
+      "sha256": "72cef09225a75f4973d25a65803cd1fb4bcb74bdf0c697a819865701445ab14b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/probe.stdout",
+      "bytes": 212,
+      "sha256": "ac7da310d96421d04e80f9bbd8c8470c9480b4773ac3055b084f0ab2acd7ed49"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-02/compile-hardware.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-02/compile-hardware.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-02/executions.json",
+      "bytes": 1984,
+      "sha256": "9fc3b4576356eca9d7f05fa94c0c19122a4acddafb57124aad3a9e32b0c01a0a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-02/hardware-profile.jsonl",
+      "bytes": 286,
+      "sha256": "bb8d3744bee666f774d78bd43e2c28479cb6cda65220b19f934a853aa4206840"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-02/hardware-trace.jsonl",
+      "bytes": 289,
+      "sha256": "9d2e501afe8a0e8c5c8ea1dba5aa233ce70dc68990e6161045f73d5eaf270f4c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-02/hardware.dylib",
+      "bytes": 56544,
+      "sha256": "6aeaadcc664eed9d7dfea795e1bb6171b647107433620d23c2d0fbfd29d0e64f"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-02/hardware.stderr",
+      "bytes": 5879,
+      "sha256": "a577fff6e8cf25ba04776f1bb39f05b968a92652f635778d62d49cc9779ec12b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-02/hardware.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-02/profile-gpu-recursive-excluded.mm",
+      "bytes": 10273,
+      "sha256": "4777d51b386e11629c9f027b2d72bc2e523117d70ba824330d44532c104b1e45"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-02/profiled-300.hevc",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-02.summary.log",
+      "bytes": 534,
+      "sha256": "6301cf91ffb68b86e2714a2c9a370a73ad33e596bb07acd81a673c89b5ae6dd0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-03/REPORT.json",
+      "bytes": 2655,
+      "sha256": "662e742762129e00b96f08e1e736056caa637cbde6de030e40f84c940520d2aa"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-03/compile-hardware.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-03/compile-hardware.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-03/compile-nv12-control.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-03/compile-nv12-control.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-03/compile-rgba-control.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-03/compile-rgba-control.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-03/executions.json",
+      "bytes": 5746,
+      "sha256": "90ce05c87fddb3ab8d3fa51cb4b7824764181dcb09d0ea97f5ac909e175b1d8b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-03/hardware-profile.jsonl",
+      "bytes": 149898,
+      "sha256": "a4aebe2d066d42c1894fab8f64560a134d871fcdfa15fca26cb3dd1dc727c382"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-03/hardware-trace.jsonl",
+      "bytes": 169845,
+      "sha256": "3ba74766c4a7f1cb21aef4c9dfd5167e3d297999755afbcb677011a521cf5dba"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-03/hardware-trace.jsonl.vulkan.jsonl",
+      "bytes": 13811,
+      "sha256": "928503d9de7e21c7bf786ac547877387159f3f03f0eb87b1ebb0a503a3f76beb"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-03/hardware.dylib",
+      "bytes": 56752,
+      "sha256": "2a97ded5c16e4a5d9f8052b74cbb81cfa506984c7b1dc2fd12401f99cf831151"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-03/hardware.stderr",
+      "bytes": 6061,
+      "sha256": "72cef09225a75f4973d25a65803cd1fb4bcb74bdf0c697a819865701445ab14b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-03/hardware.stdout",
+      "bytes": 360,
+      "sha256": "4a19ba4c885fe77a6d75a3785ecf16eded7613f8e5e716b8c6b2c2d9200eefba"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-03/nv12-control-profile.jsonl",
+      "bytes": 4248,
+      "sha256": "538e0e376aff674ba52fc478751fb26ca98fb7709077ef44820f8af7d7861a25"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-03/nv12-control-trace.jsonl",
+      "bytes": 1042,
+      "sha256": "036691edb62ed2730e5fe5d70dbd91edd4d5c33de9d87f2dc7394a4608eb0be3"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-03/nv12-control-trace.jsonl.vulkan.jsonl",
+      "bytes": 253,
+      "sha256": "04122507c167aa895472b1c8bc0c3fa5d9f3307089020834ce0a79b80cac3c04"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-03/nv12-control.dylib",
+      "bytes": 56752,
+      "sha256": "8df74773da64294a23a80e7d5ecaf54b9bc6e5a405c603ef3750d564114fe199"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-03/nv12-control.stderr",
+      "bytes": 6414,
+      "sha256": "4d756fb74e6e2a09bbd8c35edbf89af488db0d33de1ce4c817b86b5d59964288"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-03/nv12.raw",
+      "bytes": 147456,
+      "sha256": "081866005fe852de68b40d3251fd8689bb86c00315a185c4b1c38ac6584aa1b7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-03/profiled-300.hevc",
+      "bytes": 281371,
+      "sha256": "48cd39fee762c6642f6943fe9a4bf3757485ea39d7643ad33b40375983aef6e3"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-03/rgba-control-profile.jsonl",
+      "bytes": 2155,
+      "sha256": "49f9482a9b126f2f025d7013d124602a617bdadf3fbb1bc5478a9ce4df3887e5"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-03/rgba-control-trace.jsonl",
+      "bytes": 117,
+      "sha256": "ea44b94bfece250938af934c82438053fb9db80e1176f1bcd60b9bb7ea869088"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-03/rgba-control-trace.jsonl.vulkan.jsonl",
+      "bytes": 253,
+      "sha256": "04122507c167aa895472b1c8bc0c3fa5d9f3307089020834ce0a79b80cac3c04"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-03/rgba-control.dylib",
+      "bytes": 56752,
+      "sha256": "3f2b604da32891f73d2f272ff0b4bab547ac2eed46d6c4f9ed5041684b942f80"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-03/rgba-control.stderr",
+      "bytes": 6414,
+      "sha256": "9077c4a0d22e51a9e6bbd257f36832285900bbf0ac256a1ed8fab90ca16b766b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-03/rgba.raw",
+      "bytes": 393216,
+      "sha256": "d187d5cb02eca0939761004e379e2652004250c82156e4c783d6806f6924dbf7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-03.summary.log",
+      "bytes": 2269,
+      "sha256": "5de9a9fc57f7ae0c2935a1471db7b19f410bfd9bd92e4c90681d387db68fce3e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-vulkan-02.py",
+      "bytes": 3692,
+      "sha256": "ac1554c668301b87876dc6f2e85c18667971561a6e1c769b657626c5f457d71d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/CONFIG.json",
+      "bytes": 511,
+      "sha256": "67742b99b0366675b5154fef91064288f44b3fa49626f094a43dc6e0a3c785bb"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/decoded-cadence.json",
+      "bytes": 30787,
+      "sha256": "3b52481ff9d79af99df09dd9554284c4da0b5c24d4bf27be7dc8310c08b80a47"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/direct-byte-binding.json",
+      "bytes": 52700,
+      "sha256": "ebacb8381efbe89fdac08c75be2eb225c246f1756efc66399a892617024ba4fe"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/executions.json",
+      "bytes": 8225,
+      "sha256": "fee82f928818b50c2b2dc3e047454dc40bee9b39cd006fd4a5417b15942af0a9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/frames-3.bin",
+      "bytes": 759928,
+      "sha256": "702b1c9a77b21b2b3c368040b8c29239f8126d40a6ec42d3d07a39dced49116c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/frames-300.bin",
+      "bytes": 854968,
+      "sha256": "ad105606bde09872454e17d9e1908616d2ed65e024c00f7e9bdb0d0243e110ce"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/hardware-profile.jsonl",
+      "bytes": 67683,
+      "sha256": "5a3d7703208422f5645243102865dcfacb7c6748ddabea003e4a720790602002"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/hardware-trace.jsonl",
+      "bytes": 171333,
+      "sha256": "b2b7836554f1e4f1954a01cfcd6fc67f7c43c3c81d2ddaa39de33d6966c1bec1"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/hardware-trace.jsonl.vulkan.jsonl",
+      "bytes": 13811,
+      "sha256": "928503d9de7e21c7bf786ac547877387159f3f03f0eb87b1ebb0a503a3f76beb"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/hardware.dylib",
+      "bytes": 54880,
+      "sha256": "bc486731f50588985e706262f5ca61be24d2bec02c73a3d0afb67d4f758cb066"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/logs/api-encode-profiled.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/logs/api-encode-profiled.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/logs/compile-hardware.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/logs/compile-hardware.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/logs/compile-nv12-control.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/logs/compile-nv12-control.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/logs/compile-rgba-control.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/logs/compile-rgba-control.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/logs/decoded-cadence.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/logs/direct-reference.stderr",
+      "bytes": 6418,
+      "sha256": "8e6597a215fa0a18ebf018229b744495a71d74239ee91506a216fb10edd023cf"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/logs/every-frame-quality.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/logs/every-frame-quality.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/logs/lossless-direct-binding.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/logs/lossless-reference.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/logs/lossless-reference.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/logs/nv12-positive-control.stderr",
+      "bytes": 6414,
+      "sha256": "4d756fb74e6e2a09bbd8c35edbf89af488db0d33de1ce4c817b86b5d59964288"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/logs/prepare.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/logs/prepare.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/logs/rgba-positive-control.stderr",
+      "bytes": 6414,
+      "sha256": "9077c4a0d22e51a9e6bbd257f36832285900bbf0ac256a1ed8fab90ca16b766b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/nv12-control-profile.jsonl",
+      "bytes": 3225,
+      "sha256": "ef40c62de8c39288a539f322d673252b291fb243bc3196d5c55080eccd69cf34"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/nv12-control-trace.jsonl",
+      "bytes": 1042,
+      "sha256": "e04f0622b2b2954b320b47e2c2059c0e9367562e455fac86bf9b389295713eb6"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/nv12-control-trace.jsonl.vulkan.jsonl",
+      "bytes": 253,
+      "sha256": "04122507c167aa895472b1c8bc0c3fa5d9f3307089020834ce0a79b80cac3c04"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/nv12-control.dylib",
+      "bytes": 54880,
+      "sha256": "bf3fdd64d7c2633a406a3e6ff4f20716c90ed0b6078d89d1e3961dcea8c6f48f"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/nv12-control.raw",
+      "bytes": 147456,
+      "sha256": "081866005fe852de68b40d3251fd8689bb86c00315a185c4b1c38ac6584aa1b7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/profile-gpu-metal-only.mm",
+      "bytes": 6282,
+      "sha256": "6ed403ae9f17384fb2ac47a6323b7f71a129410a380b7ff573eaef86dadfd4be"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/profiled-helper",
+      "bytes": 315,
+      "sha256": "afe3bf54caccfc9196c895eda8373d970681a4d424a680e522f8bef21f68d361"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/psnr.txt",
+      "bytes": 31992,
+      "sha256": "e655c0dc1175219b8fc8073f21f8f67db3f09c572e7b8e4e690cd6c029269cd7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/reference-direct.yuv",
+      "bytes": 14745600,
+      "sha256": "dd1b3f019167d646b6335d829481b2852e8d72cf7935a02cd3f9480cc0a1faab"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/reference-framemd5.txt",
+      "bytes": 24220,
+      "sha256": "1cba60f171f0ff3ba577a18e2992f663e525f5ca4696c2f8cb4e3546b800269a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/reference-trace.jsonl",
+      "bytes": 77059,
+      "sha256": "e1757458173ecd06468c4708e401447d5692e0996baa01bd697ed405bdb05f89"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/reference-trace.jsonl.vulkan.jsonl",
+      "bytes": 13811,
+      "sha256": "928503d9de7e21c7bf786ac547877387159f3f03f0eb87b1ebb0a503a3f76beb"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/reference.mkv",
+      "bytes": 460013,
+      "sha256": "0662a03bf2e1e37bd08b2b796ea8d9aac5597bbc866a84b01cc1e92e6ac8f772"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/reference.nv12",
+      "bytes": 14745600,
+      "sha256": "4f8429472e98618a18b8a46a1aa8f0430e5df9cba63359cb4050408e516d918a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/rgba-control-profile.jsonl",
+      "bytes": 307,
+      "sha256": "4b637aed87b64d76005b8a2e223a6e8ad76dc81553c100f07b0dbbde53b3c88f"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/rgba-control-trace.jsonl",
+      "bytes": 117,
+      "sha256": "ea44b94bfece250938af934c82438053fb9db80e1176f1bcd60b9bb7ea869088"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/rgba-control-trace.jsonl.vulkan.jsonl",
+      "bytes": 253,
+      "sha256": "04122507c167aa895472b1c8bc0c3fa5d9f3307089020834ce0a79b80cac3c04"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/rgba-control.dylib",
+      "bytes": 54880,
+      "sha256": "ad840060e3f8a454917728580a1fce18f0b8963b4f36df752fec3304f05d28d6"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/rgba-control.raw",
+      "bytes": 393216,
+      "sha256": "d187d5cb02eca0939761004e379e2652004250c82156e4c783d6806f6924dbf7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/ssim.txt",
+      "bytes": 19092,
+      "sha256": "399690703d473de3c574995719fce5e3d211bc09bcf77201bd457e07eac90d36"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01/video.mp4",
+      "bytes": 258926,
+      "sha256": "8c98c8f74dffe8b5c929b49e90ea01bf3e79687db677f884a51f11b3a783b228"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-01.summary.log",
+      "bytes": 324,
+      "sha256": "ed845c5f693c9c7f2bbf832897b93e4fead4617f377edf023dbcfddab1fc7a86"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/CONFIG.json",
+      "bytes": 511,
+      "sha256": "67742b99b0366675b5154fef91064288f44b3fa49626f094a43dc6e0a3c785bb"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/H264-REPORT.json",
+      "bytes": 1636,
+      "sha256": "2c92ad3ba66db9db53e6fff52f0882c6a4186a482feb74b7c91e5fcd3970cb90"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/REPORT.json",
+      "bytes": 24849,
+      "sha256": "2487392d8834b5d36fd5056729fae2681dae81d8e80234eea5e24d8443d80ef9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/capture-3-trace.jsonl",
+      "bytes": 2050,
+      "sha256": "0ba8ead7a2ac9e5f9293fd5f657c06b23a9837d3cca9056a6d3f119bc93bd3fb"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/capture-3-trace.jsonl.vulkan.jsonl",
+      "bytes": 253,
+      "sha256": "04122507c167aa895472b1c8bc0c3fa5d9f3307089020834ce0a79b80cac3c04"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/capture-3.gputrace/IOSurface-302-0-0",
+      "bytes": 49984,
+      "sha256": "d9aa3b02f9f906b39a6f24287687ac1c3406d58d7b5d9cc5a92a7c458dbac9d0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/capture-3.gputrace/IOSurface-303-1-0",
+      "bytes": 49984,
+      "sha256": "93368e641bfa477202d0d6624a54e3230f4c8ecde735f3e85e5b223241b5886f"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/capture-3.gputrace/IOSurface-322-0-0",
+      "bytes": 49984,
+      "sha256": "d9aa3b02f9f906b39a6f24287687ac1c3406d58d7b5d9cc5a92a7c458dbac9d0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/capture-3.gputrace/IOSurface-323-1-0",
+      "bytes": 49984,
+      "sha256": "93368e641bfa477202d0d6624a54e3230f4c8ecde735f3e85e5b223241b5886f"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/capture-3.gputrace/IOSurface-323-1-1",
+      "bytes": 49984,
+      "sha256": "2bc9c3c50365d8405452dcc9f243a93cd4e0ef21b64bfa88c28edd7fdea81c73"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/capture-3.gputrace/IOSurface-333-0-0",
+      "bytes": 49984,
+      "sha256": "b324035057fcd97d4a8a435e4144bbe4177358b6cc496f3e980e56edd5ceefcf"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/capture-3.gputrace/MTLHeap-271-0",
+      "bytes": 524288,
+      "sha256": "ffff1d32a76db483a9e371e624284c181f4340027b607054cfd2741ef46ccf34"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/capture-3.gputrace/MTLHeap-271-1",
+      "bytes": 524288,
+      "sha256": "ffff1d32a76db483a9e371e624284c181f4340027b607054cfd2741ef46ccf34"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/capture-3.gputrace/MTLHeap-271-2",
+      "bytes": 524288,
+      "sha256": "8a211aa2fe0877b7e21d3f5772cc0309f2c4d49adf9b81788bfaf45287a2c0c3"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/capture-3.gputrace/MTLHeap-271-3",
+      "bytes": 524288,
+      "sha256": "8a211aa2fe0877b7e21d3f5772cc0309f2c4d49adf9b81788bfaf45287a2c0c3"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/capture-3.gputrace/MTLHeap-271-4",
+      "bytes": 524288,
+      "sha256": "50d540949b92d8ac8bf4f39e91eaaa6973813c68dde5458369c79972278b5451"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/capture-3.gputrace/MTLHeap-271-5",
+      "bytes": 524288,
+      "sha256": "50d540949b92d8ac8bf4f39e91eaaa6973813c68dde5458369c79972278b5451"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/capture-3.gputrace/MTLHeap-271-6",
+      "bytes": 524288,
+      "sha256": "50d540949b92d8ac8bf4f39e91eaaa6973813c68dde5458369c79972278b5451"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/capture-3.gputrace/MTLHeap-271-7",
+      "bytes": 524288,
+      "sha256": "50d540949b92d8ac8bf4f39e91eaaa6973813c68dde5458369c79972278b5451"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/capture-3.gputrace/MTLTexture-293-0-mipmap0-slice0",
+      "bytes": 4210688,
+      "sha256": "44066a252ed8b1e06c9ec6f60f7f0373d1da13925115150883996792d53db684"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/capture-3.gputrace/MTLTexture-3-0-mipmap0-slice0",
+      "bytes": 147456,
+      "sha256": "94c23a4b4e2cd4acd0044a62a3c76e3eaa636db89bd5a21222552dfc286f34ca"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/capture-3.gputrace/capture",
+      "bytes": 108896,
+      "sha256": "66989c357748addbfa1d03898e258468c49bf0b440a839f4de9f18120815066d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/capture-3.gputrace/delta-device-resources-0xb32c78000",
+      "bytes": 1848,
+      "sha256": "14a183702a64d3e3bc43bc1727fd5284c5d05aff18bbb8df593c4cb17fe6f4a8"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/capture-3.gputrace/device-resources-0xb32c78000",
+      "bytes": 13076,
+      "sha256": "99a0eb00ad16a70b66d569bb60be1f95288fb0c2d975e0331e04d452adb10fcb"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/capture-3.gputrace/index",
+      "bytes": 16294,
+      "sha256": "ae8cdc6c6fbfa80293a35af9ecb6a490b2a97bbdfa1bc56229938cf9f8b66b86"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/capture-3.gputrace/metadata",
+      "bytes": 1143,
+      "sha256": "361ab1c4468260d71993519d306cab881533a080cb23ca63025f19904d9adf49"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/capture-3.gputrace/startup-0-platform",
+      "bytes": 252,
+      "sha256": "94079c06b53aaf7a6a82837814d3e484644d6d6a7d726cf9184ba0fa64445f83"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/capture-3.gputrace/startup-1-platform",
+      "bytes": 8,
+      "sha256": "307bca216804762e9741cc4d56a78333351e51a2b9ba29b1b623c5c07df79550"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/capture-3.gputrace/store0",
+      "bytes": 30293,
+      "sha256": "8ae19a4693dd78afa95693a21da9f2659df49ac7a2f0b2faf10522b910bb468f"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/capture-3.gputrace/unsorted-capture",
+      "bytes": 114260,
+      "sha256": "83d97dc8f1451bbea927321b6742471f94e7676573e477d336cc22d44c2c3c6d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/capture-3.gputrace/unused-device-resources-0xb32c78000",
+      "bytes": 69152,
+      "sha256": "cdbe896d9dfedcd484656ab24359737218e783e3fbd955886f4af89556795f82"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/capture-3.hevc",
+      "bytes": 4449,
+      "sha256": "019f21d003af2170201ab6d15e3c325ad17b306592f581cf1f861864db90983d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/decoded-cadence.json",
+      "bytes": 30787,
+      "sha256": "3b52481ff9d79af99df09dd9554284c4da0b5c24d4bf27be7dc8310c08b80a47"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/direct-byte-binding.json",
+      "bytes": 52700,
+      "sha256": "d49626e2409b8a21e57df35f594e62d25786cf5021bdaf5817efc56cd1d7be92"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/executions.json",
+      "bytes": 18118,
+      "sha256": "eb57e5254b21176d8bbbe9e4570bbfd01c097107029fc2bdb28259161cda2f59"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/fault-bitrate.dylib",
+      "bytes": 33680,
+      "sha256": "09bca6cae0c9312f45a4931c55b4fafca392dd5a349f4c998237eafb736b9c4c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/fault-device.dylib",
+      "bytes": 33424,
+      "sha256": "a50da6b27122a81651bb599e66be9c23773064ae0c1bd0d680436e2742dd81f7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/fault-encoder.dylib",
+      "bytes": 33536,
+      "sha256": "9e4e7a8246efb02ba4f6e8c6d5a7dd0c8acafa19eba427ba04b14024a95cb2c0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/fault-hardware.dylib",
+      "bytes": 33768,
+      "sha256": "e9efae05da0d5d00235a5d36ab765aa8a3e49f04fa96e38a24c7fb3ed1a2d7bc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/fault-hevc_format.dylib",
+      "bytes": 33528,
+      "sha256": "ee5c057aa3be7a120bf22c3a1375912f42906dc38f235767297d706bf87e6745"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/fault-preserved.mp4",
+      "bytes": 21,
+      "sha256": "1ba9a37e8f644235c5546496aeccefe3e74729e0c8ab2cfb6bc5b7273c1ae606"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/format-fault-api.json",
+      "bytes": 70,
+      "sha256": "6e3f01fe410a2a0171a6e61d97d039f18ecd1a1fefba9d49b5eb682944253bb8"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/format-fault-helper",
+      "bytes": 324,
+      "sha256": "611f56cb520d32a929435a7a4d47d96f98b64c9c2605419b9fc1ad18e4eafda5"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/frames-3.bin",
+      "bytes": 759928,
+      "sha256": "702b1c9a77b21b2b3c368040b8c29239f8126d40a6ec42d3d07a39dced49116c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/frames-300.bin",
+      "bytes": 854968,
+      "sha256": "ad105606bde09872454e17d9e1908616d2ed65e024c00f7e9bdb0d0243e110ce"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-api.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-api.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-cadence.json",
+      "bytes": 30716,
+      "sha256": "1b61e3a9d74434de35703f359aa973dbd1ac04522d1856711d6058f4f7d4c02a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-cadence.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-compile.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-compile.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-direct-reference.stderr",
+      "bytes": 6418,
+      "sha256": "cd48ed44322f76d064ffa31f179762eea7f22e8e48c4696ea4e8093d72c9e35b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-executions.json",
+      "bytes": 3681,
+      "sha256": "fd557b8d53c0710afa356d81550cd9f74a29baff956e2389bf4de467ca06e2ab"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-hardware-trace.jsonl",
+      "bytes": 170310,
+      "sha256": "7249f11b25041e4146b66299855ec3362c3863f00b395c9c3e67eb06986fc808"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-hardware-trace.jsonl.vulkan.jsonl",
+      "bytes": 13811,
+      "sha256": "928503d9de7e21c7bf786ac547877387159f3f03f0eb87b1ebb0a503a3f76beb"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-profile.dylib",
+      "bytes": 56752,
+      "sha256": "6d0fc0cbb650527745c65d85fdd54f78e8c666dde276416ab079ee566bd71c5f"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-profile.jsonl",
+      "bytes": 150183,
+      "sha256": "1e8b41b88c21006b2ce19227799ebd4c7504f81ca9302023bdd7bd76d7eceae0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-profiled-helper",
+      "bytes": 319,
+      "sha256": "78d662e2046f283008513eaed622e7789b7fb7f4d64bf45851cc133523c7d317"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-psnr.txt",
+      "bytes": 31992,
+      "sha256": "701a06c1fde0dff3fee7d97f04227776b2c2658627bf0f4bd5f9ff8335603cf0"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-quality.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-quality.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-reference-trace.jsonl",
+      "bytes": 77059,
+      "sha256": "153708ca9e343c6d19887c55f372f266f8891a91d6d6531b9f5106fdd73513a9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-reference-trace.jsonl.vulkan.jsonl",
+      "bytes": 13811,
+      "sha256": "928503d9de7e21c7bf786ac547877387159f3f03f0eb87b1ebb0a503a3f76beb"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-reference.nv12",
+      "bytes": 14745600,
+      "sha256": "4f8429472e98618a18b8a46a1aa8f0430e5df9cba63359cb4050408e516d918a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-ssim.txt",
+      "bytes": 19092,
+      "sha256": "6828aef75051eab172c0d3c9d2b8192506a80a63934f9aebb2eaef7d029ce9b7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/h264-video.mp4",
+      "bytes": 281246,
+      "sha256": "f65e6ecee56dd723354aa213b73deaaed1d7967a5893adf4d723a1a04447b0eb"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/hardware-profile.jsonl",
+      "bytes": 150183,
+      "sha256": "b8ae1be18ae7e351530bf0108e8ce995e491d8697e08a558cc6c2312476ef539"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/hardware-trace.jsonl",
+      "bytes": 169881,
+      "sha256": "7988fb0eb9873e92eab5e925caf9a6500c76c6587a22e600cb6d692012f6f292"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/hardware-trace.jsonl.vulkan.jsonl",
+      "bytes": 13811,
+      "sha256": "928503d9de7e21c7bf786ac547877387159f3f03f0eb87b1ebb0a503a3f76beb"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/hardware.dylib",
+      "bytes": 56752,
+      "sha256": "2bfbf2dd7382b4469d931a0f8cc79538502e8d222df75fa0ffdf361f73e78a05"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/api-encode-profiled.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/api-encode-profiled.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/compile-fault-BITRATE.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/compile-fault-BITRATE.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/compile-fault-DEVICE.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/compile-fault-DEVICE.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/compile-fault-ENCODER.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/compile-fault-ENCODER.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/compile-fault-HARDWARE.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/compile-fault-HARDWARE.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/compile-fault-HEVC_FORMAT.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/compile-fault-HEVC_FORMAT.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/compile-hardware.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/compile-hardware.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/compile-nv12-control.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/compile-nv12-control.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/compile-rgba-control.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/compile-rgba-control.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/decoded-cadence.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/direct-reference.stderr",
+      "bytes": 6418,
+      "sha256": "8e6597a215fa0a18ebf018229b744495a71d74239ee91506a216fb10edd023cf"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/every-frame-quality.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/every-frame-quality.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/fault-BITRATE.stderr",
+      "bytes": 88,
+      "sha256": "f0b3e165d6c00d86ac7638f9ca3a05e0f51de378fedad99c673fb465b1848d39"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/fault-BITRATE.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/fault-DEVICE.stderr",
+      "bytes": 67,
+      "sha256": "ddd5533c76dc10b4dff36bfdf24fdf32ac3a8f25402b1b08646fffb16b820e8e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/fault-DEVICE.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/fault-ENCODER.stderr",
+      "bytes": 67,
+      "sha256": "ddd5533c76dc10b4dff36bfdf24fdf32ac3a8f25402b1b08646fffb16b820e8e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/fault-ENCODER.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/fault-HARDWARE.stderr",
+      "bytes": 67,
+      "sha256": "ddd5533c76dc10b4dff36bfdf24fdf32ac3a8f25402b1b08646fffb16b820e8e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/fault-HARDWARE.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/format-fault-public-api.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/format-fault-public-api.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/lossless-direct-binding.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/lossless-reference.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/lossless-reference.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/metal-capture-3-excluded.stderr",
+      "bytes": 6061,
+      "sha256": "72cef09225a75f4973d25a65803cd1fb4bcb74bdf0c697a819865701445ab14b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/metal-capture-3-excluded.stdout",
+      "bytes": 358,
+      "sha256": "851f15a902173b994262ffb3cce2ca53741bea12def20d89c7cf2af0de343c72"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/nv12-positive-control.stderr",
+      "bytes": 6414,
+      "sha256": "4d756fb74e6e2a09bbd8c35edbf89af488db0d33de1ce4c817b86b5d59964288"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/prepare.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/prepare.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/review-image.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/review-image.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/logs/rgba-positive-control.stderr",
+      "bytes": 6414,
+      "sha256": "9077c4a0d22e51a9e6bbd257f36832285900bbf0ac256a1ed8fab90ca16b766b"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/nv12-control-profile.jsonl",
+      "bytes": 4248,
+      "sha256": "16e3826f050f08437f1c2ff057ec79688d6355d3d516449a8fdea38f40866bd8"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/nv12-control-trace.jsonl",
+      "bytes": 1042,
+      "sha256": "d15a5920281685d0f4470a5f4749e09c35e1592bcb96532307bebdda34616a47"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/nv12-control-trace.jsonl.vulkan.jsonl",
+      "bytes": 253,
+      "sha256": "04122507c167aa895472b1c8bc0c3fa5d9f3307089020834ce0a79b80cac3c04"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/nv12-control.dylib",
+      "bytes": 56752,
+      "sha256": "1f9a690f6a46dc1bb37e5c0f925b18d1ce0b5d778ecd721381e6acf500a116a9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/nv12-control.raw",
+      "bytes": 147456,
+      "sha256": "081866005fe852de68b40d3251fd8689bb86c00315a185c4b1c38ac6584aa1b7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/prepare-qualification-executed.mjs",
+      "bytes": 3416,
+      "sha256": "1fe985349229ccb20953751fbdf91a70183474ea1d80f00d0ea18c5be50c31ea"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/profiled-helper",
+      "bytes": 315,
+      "sha256": "0a63c59a99e14f4a66e009c2b206223c9be1a612d30a64bc0bd54dcf5d7fd8f9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/psnr.txt",
+      "bytes": 31992,
+      "sha256": "e655c0dc1175219b8fc8073f21f8f67db3f09c572e7b8e4e690cd6c029269cd7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/reference-cadence.json",
+      "bytes": 295647,
+      "sha256": "0be9bcf2c53872ab89a45d24144e48b357a059dbb7ecda3d5965efca768269ab"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/reference-direct.yuv",
+      "bytes": 14745600,
+      "sha256": "dd1b3f019167d646b6335d829481b2852e8d72cf7935a02cd3f9480cc0a1faab"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/reference-framemd5.txt",
+      "bytes": 24220,
+      "sha256": "1cba60f171f0ff3ba577a18e2992f663e525f5ca4696c2f8cb4e3546b800269a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/reference-trace.jsonl",
+      "bytes": 77059,
+      "sha256": "923c3501b61b06bcdab6d4f852c534fcb848440bffb62332295d75f5f56b09d6"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/reference-trace.jsonl.vulkan.jsonl",
+      "bytes": 13811,
+      "sha256": "928503d9de7e21c7bf786ac547877387159f3f03f0eb87b1ebb0a503a3f76beb"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/reference.mkv",
+      "bytes": 460013,
+      "sha256": "9e758fc18db3c4c2677a7535c197603e5791d4c34af53933bcd80bf8237b7b7f"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/reference.nv12",
+      "bytes": 14745600,
+      "sha256": "4f8429472e98618a18b8a46a1aa8f0430e5df9cba63359cb4050408e516d918a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/review.png",
+      "bytes": 6697,
+      "sha256": "645826715752d85fc105f149099ace1e1d681d5526fab20135d5b694b77535cb"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/rgba-control-profile.jsonl",
+      "bytes": 2155,
+      "sha256": "3e7ddd3548fdf57ec93af6ee6abcca85525193ac0dff2716f05e708546f665e3"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/rgba-control-trace.jsonl",
+      "bytes": 117,
+      "sha256": "ea44b94bfece250938af934c82438053fb9db80e1176f1bcd60b9bb7ea869088"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/rgba-control-trace.jsonl.vulkan.jsonl",
+      "bytes": 253,
+      "sha256": "04122507c167aa895472b1c8bc0c3fa5d9f3307089020834ce0a79b80cac3c04"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/rgba-control.dylib",
+      "bytes": 56752,
+      "sha256": "f290f9e935b48967a13e88441e9acaad21011b4ae14cc087b8af4d5d834c9531"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/rgba-control.raw",
+      "bytes": 393216,
+      "sha256": "d187d5cb02eca0939761004e379e2652004250c82156e4c783d6806f6924dbf7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/ssim.txt",
+      "bytes": 19092,
+      "sha256": "399690703d473de3c574995719fce5e3d211bc09bcf77201bd457e07eac90d36"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02/video.mp4",
+      "bytes": 258926,
+      "sha256": "4c088d17edceeca6c3cf23b72b8d73c2546f038e40cf676ffa3d519361b86d16"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-02.summary.log",
+      "bytes": 285,
+      "sha256": "fbb72b1061a9fe668a28a34af3d4f9db713b1ea8d874a986f9f44ea2c007f511"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualification-h264-02.summary.log",
+      "bytes": 1544,
+      "sha256": "9144f26eb19b458e286db1d01d55eaf5ed4346779d6c83d82ed68ac7c699554d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualified-source-final.zip",
+      "bytes": 14478367,
+      "sha256": "79255be24f4e86d18d4f5cb2f6afd611a07a50185d299c1dd1ea8b8a3ab22001"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualify-h264.py",
+      "bytes": 5780,
+      "sha256": "4d3827933b46e6551b969e9d909710cd50f83161ef8c72cda79a818df17e5cf9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/qualify.py",
+      "bytes": 13906,
+      "sha256": "4ff38e91eb3edbddc68673879de04fb2f0f0128942851356eb7e21dec00d098e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/skia-probe-01.stderr",
+      "bytes": 6080,
+      "sha256": "b2559eaa71a8815e9c0dfb1e3fb6abb062ceea33b996efa6ec911bd3e2fffc94"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/skia-probe-01.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/skia-probe-02.stderr",
+      "bytes": 6061,
+      "sha256": "9989af6ffd85104b1ed44d9563c5ccf7b51d15119dbfc56f3dcc29161d9124c7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/skia-probe-02.stdout",
+      "bytes": 322,
+      "sha256": "f202601f1b9945be8610cb8bb94eaf46c6b5f9f1b8dc6c2a052e0ad37b608d4a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/source-checkpoint-01.patch",
+      "bytes": 27404,
+      "sha256": "c2f2f6f3d21a6d777c6316b664a0c4b4e28a3f7b2fd1ad8197ac01cf66a15ac7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/source-checkpoint-01.zip",
+      "bytes": 14474117,
+      "sha256": "f2a58d389dd57bbb6ba4535beee74f30d0b8b7002b342aaa9037be989b680ee6"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-candidate02.mm",
+      "bytes": 9597,
+      "sha256": "cff1924b5f15cad5b1643d7c2f61696e5c13a4c508ccbdcca96b1af06413811c"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-01/baseline-api.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-01/baseline-api.stdout",
+      "bytes": 78,
+      "sha256": "8f74847f1851527cbe385587489739a6508b178cf326ad85162f5d909d328314"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-01/baseline-probe.stderr",
+      "bytes": 6061,
+      "sha256": "9989af6ffd85104b1ed44d9563c5ccf7b51d15119dbfc56f3dcc29161d9124c7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-01/baseline-probe.stdout",
+      "bytes": 322,
+      "sha256": "11eae11160d370ac2b90e83aa918031f595c0f7517d5a254bc300994dd33596e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-01/baseline.mp4",
+      "bytes": 1103,
+      "sha256": "460351b98148db3153c89f7ef42c7f337cd40d2b7cb0a30bd3521b0fb89cf007"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-01/compile-CPU.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-01/compile-CPU.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-01/cpu-helper",
+      "bytes": 310,
+      "sha256": "d4184f38d45040446157c1619da692bcdbcb0f53121f99a0eaf8e2dd37b2944f"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-01/cpu.dylib",
+      "bytes": 33656,
+      "sha256": "3de2e8d59c00a49d7236efadf72153cc746d1c72bf50cb3bd1d722bc7effa6fe"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-01/fault-recursive-excluded.mm",
+      "bytes": 1610,
+      "sha256": "4c77640f4efdb0a2cf94818bed20eed4e940ca70b220e20796951037703794e4"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-01/native-CPU.stderr",
+      "bytes": 5600,
+      "sha256": "4c1d6970c04d1a77cc638d6990ef227a08d4ecf1b05ad237ad984a9fbf33c349"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-01/native-CPU.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-01.summary.log",
+      "bytes": 493,
+      "sha256": "4b08f9550427d11c20eaff381a1e1abbb58a49b3fd3ed7f83b8a8b9beed68103"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-02/baseline-api.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-02/baseline-api.stdout",
+      "bytes": 78,
+      "sha256": "8f74847f1851527cbe385587489739a6508b178cf326ad85162f5d909d328314"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-02/baseline-probe.stderr",
+      "bytes": 6061,
+      "sha256": "9989af6ffd85104b1ed44d9563c5ccf7b51d15119dbfc56f3dcc29161d9124c7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-02/baseline-probe.stdout",
+      "bytes": 322,
+      "sha256": "11eae11160d370ac2b90e83aa918031f595c0f7517d5a254bc300994dd33596e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-02/baseline.mp4",
+      "bytes": 1103,
+      "sha256": "736cc6a137587f8a906e3be86acb5b90505c040bc14259abcc7982fe683e9e57"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-02/compile-CPU.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-02/compile-CPU.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-02/cpu-helper",
+      "bytes": 310,
+      "sha256": "1d6cbdd0328c8957f91b66e09e5e1197ab8f2a663ee0ee8ed0dc4ca0961c33c1"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-02/cpu.dylib",
+      "bytes": 33736,
+      "sha256": "2dc10875612aece5ce5eac91cf2d48859e760d291ea02b31d8762297ec804f64"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-02/native-CPU.stderr",
+      "bytes": 5608,
+      "sha256": "f0f823eb40eea934fc0e69e6527fc089015c1e6cc8c36e16ee4d350f0b5d25e8"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-02/native-CPU.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-02.summary.log",
+      "bytes": 493,
+      "sha256": "4b08f9550427d11c20eaff381a1e1abbb58a49b3fd3ed7f83b8a8b9beed68103"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/REPORT.json",
+      "bytes": 914,
+      "sha256": "6fc1583218c8beefe3ee7aef41f2840bb6bc98f508b9aad2e86e1ec2e8af7e41"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/api-CPU.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/api-CPU.stdout",
+      "bytes": 88,
+      "sha256": "dac566d0891201a9e02392f46bb51d089e77306d9418e4e087f89af91baf7688"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/api-EXTENSION.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/api-EXTENSION.stdout",
+      "bytes": 88,
+      "sha256": "dac566d0891201a9e02392f46bb51d089e77306d9418e4e087f89af91baf7688"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/api-FENCE.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/api-FENCE.stdout",
+      "bytes": 88,
+      "sha256": "dac566d0891201a9e02392f46bb51d089e77306d9418e4e087f89af91baf7688"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/api-IMAGE.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/api-IMAGE.stdout",
+      "bytes": 88,
+      "sha256": "dac566d0891201a9e02392f46bb51d089e77306d9418e4e087f89af91baf7688"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/baseline-api.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/baseline-api.stdout",
+      "bytes": 78,
+      "sha256": "8f74847f1851527cbe385587489739a6508b178cf326ad85162f5d909d328314"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/baseline-probe.stderr",
+      "bytes": 6061,
+      "sha256": "9989af6ffd85104b1ed44d9563c5ccf7b51d15119dbfc56f3dcc29161d9124c7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/baseline-probe.stdout",
+      "bytes": 322,
+      "sha256": "11eae11160d370ac2b90e83aa918031f595c0f7517d5a254bc300994dd33596e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/baseline.mp4",
+      "bytes": 1103,
+      "sha256": "71b7e068faa3c72be1b48df2ab3e642fb935065317b3388a38351d2e673b4149"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/compile-CPU.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/compile-CPU.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/compile-EXTENSION.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/compile-EXTENSION.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/compile-FENCE.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/compile-FENCE.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/compile-IMAGE.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/compile-IMAGE.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/cpu-helper",
+      "bytes": 310,
+      "sha256": "57df9e8d7de8f46f81346e2288d1ce43fb0d54c525edc544315b9e52a4cdfc92"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/cpu-preserved.mp4",
+      "bytes": 21,
+      "sha256": "1ba9a37e8f644235c5546496aeccefe3e74729e0c8ab2cfb6bc5b7273c1ae606"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/cpu.dylib",
+      "bytes": 33736,
+      "sha256": "9f75abe590606145af3f0e0af448970d4d21b595a4c1c6be7e5ccf407bbf3105"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/extension-helper",
+      "bytes": 316,
+      "sha256": "bf0f41bdb8f5b11ecf25a3206d415717c949d0bf4f09d6b8ce44b5544ffaa3de"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/extension-preserved.mp4",
+      "bytes": 21,
+      "sha256": "1ba9a37e8f644235c5546496aeccefe3e74729e0c8ab2cfb6bc5b7273c1ae606"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/extension.dylib",
+      "bytes": 33744,
+      "sha256": "796c03869333cfd934e5a4e3ac7e10e7971ac9357e8cd8778a669167ae2ead0a"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/fence-helper",
+      "bytes": 312,
+      "sha256": "1facd946c54cf8d72d34270949b695d559b236e1925840c078d23067ccd9c7e4"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/fence-preserved.mp4",
+      "bytes": 21,
+      "sha256": "1ba9a37e8f644235c5546496aeccefe3e74729e0c8ab2cfb6bc5b7273c1ae606"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/fence-probe-still-passes.stderr",
+      "bytes": 6061,
+      "sha256": "9989af6ffd85104b1ed44d9563c5ccf7b51d15119dbfc56f3dcc29161d9124c7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/fence-probe-still-passes.stdout",
+      "bytes": 322,
+      "sha256": "11eae11160d370ac2b90e83aa918031f595c0f7517d5a254bc300994dd33596e"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/fence.dylib",
+      "bytes": 33784,
+      "sha256": "9659e5f0f4b31ac39f67ac3e930717cd44dc2ab122aa65fd964a9cdb9da86b02"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/image-helper",
+      "bytes": 312,
+      "sha256": "33a1ecce61f678e14961d1319f1cacb095422656632d1b9f4be10eccb5f98739"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/image-preserved.mp4",
+      "bytes": 21,
+      "sha256": "1ba9a37e8f644235c5546496aeccefe3e74729e0c8ab2cfb6bc5b7273c1ae606"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/image.dylib",
+      "bytes": 33768,
+      "sha256": "380de2addc4d3b234307e4e13bfbdf1da5a00d4a121321f9b0b4c24551019f83"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/native-CPU.stderr",
+      "bytes": 5803,
+      "sha256": "96665349cabd008cbbee5ecf7dc98e3c81f37851820565b9fde9cf1779617a6d"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/native-CPU.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/native-EXTENSION.stderr",
+      "bytes": 5817,
+      "sha256": "3656f5f313826284ec974f8c142ae9848a1631ea5e1f4f13c8bd81a9a6bd1ea7"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/native-EXTENSION.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/native-IMAGE.stderr",
+      "bytes": 6162,
+      "sha256": "24bbe1d7c77cf9cc3c91c4567bf836644ca9f909bc8ee52c4bd8ff3b184f99e8"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03/native-IMAGE.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/vulkan-faults-03.summary.log",
+      "bytes": 764,
+      "sha256": "28eaf2ede793dfaf2fc73d4902e3cf3850060d62369de84341e9a40d2005843a"
+    }
+  ]
+}

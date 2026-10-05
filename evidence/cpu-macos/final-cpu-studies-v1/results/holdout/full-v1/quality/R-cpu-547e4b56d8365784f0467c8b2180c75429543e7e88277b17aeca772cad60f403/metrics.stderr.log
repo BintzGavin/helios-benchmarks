@@ -1,0 +1,55 @@
+ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers
+  built with Apple clang version 21.0.0 (clang-2100.3.34.2)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/9.0.2 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gpl --enable-libsvtav1 --enable-libopus --enable-libx264 --enable-libmp3lame --enable-libdav1d --enable-libvmaf --enable-libvpx --enable-libx265 --enable-openssl --enable-videotoolbox --enable-audiotoolbox --enable-neon
+  libavutil      61.  1.102 / 61.  1.102
+  libavcodec     63.  1.102 / 63.  1.102
+  libavformat    63.  1.102 / 63.  1.102
+  libavdevice    63.  1.102 / 63.  1.102
+  libavfilter    12.  1.102 / 12.  1.102
+  libswscale     10.  1.102 / 10.  1.102
+  libswresample   7.  1.102 /  7.  1.102
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/final-cpu-studies-v1/results/holdout/full-v1/warmup-1-R-medium-w11-t8/output.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.1.102
+    comment         : Made with Remotion 4.0.529
+  Duration: 00:00:10.00, start: 0.000000, bitrate: 121012 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, smpte170m/unknown/unknown, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 121007 kb/s, 30 fps, 30 tbr, 90k tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc63.1.102 libx264
+    Side data:
+      ICC Profile: (456 bytes)
+Input #1, nut, from '/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/quality-measurement-v1/results/full-v1/references/R-cpu/reference.nut':
+  Metadata:
+    encoder         : Lavf63.1.102
+  Duration: 00:00:09.97, start: 0.000000, bitrate: 209850 kb/s
+  Stream #1:0: Video: ffv1 (FFV1 / 0x31564646), yuv420p, 1920x1080, 30 fps, 30 tbr, 61440 tbn
+    Metadata:
+      encoder         : Lavc63.1.102 ffv1
+Stream mapping:
+  Stream #0:0 (h264) -> settb:default
+  Stream #1:0 (ffv1) -> settb:default
+  psnr:default -> Stream #0:0 (wrapped_avframe)
+  ssim:default -> Stream #0:1 (wrapped_avframe)
+Output #0, null, to 'pipe:':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    comment         : Made with Remotion 4.0.529
+    encoder         : Lavf63.1.102
+  Stream #0:0: Video: wrapped_avframe, yuv420p(tv, smpte170m/unknown/unknown, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 30 fps, 30 tbn (default)
+    Metadata:
+      encoder         : Lavc63.1.102 wrapped_avframe
+    Side data:
+      ICC Profile: (456 bytes)
+  Stream #0:1: Video: wrapped_avframe, yuv420p(tv, smpte170m/unknown/unknown, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 30 fps, 30 tbn
+    Metadata:
+      encoder         : Lavc63.1.102 wrapped_avframe
+frame=   30 fps=0.0 q=-0.0 q=-0.0 size=N/A time=00:00:01.00 bitrate=N/A speed=1.99x elapsed=0:00:00.50    frame=   79 fps= 78 q=-0.0 q=-0.0 size=N/A time=00:00:02.63 bitrate=N/A speed=2.61x elapsed=0:00:01.00    frame=  118 fps= 78 q=-0.0 q=-0.0 size=N/A time=00:00:03.93 bitrate=N/A speed= 2.6x elapsed=0:00:01.51    frame=  167 fps= 83 q=-0.0 q=-0.0 size=N/A time=00:00:05.56 bitrate=N/A speed=2.76x elapsed=0:00:02.01    frame=  214 fps= 85 q=-0.0 q=-0.0 size=N/A time=00:00:07.13 bitrate=N/A speed=2.83x elapsed=0:00:02.52    frame=  264 fps= 87 q=-0.0 q=-0.0 size=N/A time=00:00:08.80 bitrate=N/A speed=2.91x elapsed=0:00:03.02    [Parsed_ssim_7 @ 0x9f301a400] SSIM Y:0.996935 (25.136235) U:0.983156 (17.735504) V:0.983066 (17.712311) All:0.992327 (21.150441)
+[Parsed_psnr_6 @ 0x9f301a340] PSNR y:46.028100 u:44.448445 v:44.365992 average:45.418012 min:44.747285 max:47.146069
+[out#0/null @ 0x9f3018480] video:248KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=  300 fps= 89 q=-0.0 Lq=-0.0 size=N/A time=00:00:10.00 bitrate=N/A speed=2.96x elapsed=0:00:03.37    

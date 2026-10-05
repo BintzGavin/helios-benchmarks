@@ -1,0 +1,10 @@
+{
+  "test": "fail-before-publish",
+  "passed": true,
+  "expectedRefusal": "INJECTED_BEFORE_PUBLISH",
+  "observedError": "Refusal:INJECTED_BEFORE_PUBLISH",
+  "secondsExcludedFromBenchmark": 0.24723745801020414,
+  "GPUExecuted": false,
+  "sourceUnchanged": true,
+  "publishedFixtureBinding": false
+}

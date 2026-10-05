@@ -1,0 +1,53 @@
+{
+  "producerCommand": [
+    "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/fframes-setup/cargo-target/release/helios-fframes-cpu-comparison",
+    "--raw-yuv",
+    "medium",
+    "11",
+    "1",
+    "2"
+  ],
+  "consumerCommand": [
+    "/opt/homebrew/bin/ffmpeg",
+    "-v",
+    "error",
+    "-nostdin",
+    "-n",
+    "-threads",
+    "4",
+    "-filter_threads",
+    "1",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "yuv420p",
+    "-video_size",
+    "1920x1080",
+    "-framerate",
+    "30",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "ffv1",
+    "-level",
+    "3",
+    "-g",
+    "1",
+    "-threads",
+    "4",
+    "-pix_fmt",
+    "yuv420p",
+    "-colorspace",
+    "smpte170m",
+    "-color_range",
+    "tv",
+    "-fs",
+    "1153433600",
+    "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/quality-measurement-v1/results/full-v1/references/F/reference.nut"
+  ],
+  "exitCodes": {
+    "producer": 0,
+    "consumer": 0
+  }
+}

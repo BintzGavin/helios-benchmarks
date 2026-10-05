@@ -1,0 +1,21 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Matched 1080p TextGrid</title>
+<style>html,body{margin:0;width:1920px;height:1080px;background:#0b1020}canvas{display:block}</style>
+<canvas width="1920" height="1080"></canvas>
+<script type="module">
+import {TEXT_GRID,drawTextGrid} from './textgrid.mjs';
+const canvas=document.querySelector('canvas'), ctx=canvas.getContext('2d');
+window.fixture={...TEXT_GRID,fontSha256:'9ae2da663d64342031e59b5fa680dd355171d021b7ebf83774efc7c0330ae7b5',background:'#0b1020'};
+window.sceneReady=(async()=>{
+  const font=new FontFace('BenchDM','url(./DM-Sans.ttf)');
+  await font.load();document.fonts.add(font);await document.fonts.ready;
+  window.renderAt=(seconds)=>{
+    const index=Math.round(seconds*TEXT_GRID.fps);
+    if(index<0||index>=TEXT_GRID.frames)throw new Error('Outside benchmark cadence');
+    ctx.globalAlpha=1;ctx.fillStyle='#0b1020';ctx.fillRect(0,0,canvas.width,canvas.height);
+    drawTextGrid(ctx,{index,fonts:{dm:'BenchDM'}});ctx.globalAlpha=1;
+  };
+  window.renderAt(0);
+})();
+</script>

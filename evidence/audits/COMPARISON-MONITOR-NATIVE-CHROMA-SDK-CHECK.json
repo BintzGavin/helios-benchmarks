@@ -1,0 +1,21 @@
+{
+  "scope": "read-only SDK corroboration of native chroma-siting contract check",
+  "SDKpins": [
+    {
+      "path": "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CVImageBuffer.h",
+      "bytes": 31241,
+      "sha256": "2681eaec4bdd7df82695a70c147cf317b4a824ba1ce63dc068361617b2e344ee"
+    },
+    {
+      "path": "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/VideoToolbox.framework/Headers/VTCompressionProperties.h",
+      "bytes": 103070,
+      "sha256": "f81706765ae80dfa6118acd08141ff40b6d9ccd83591e5fe8236f82b9b3fc1d2"
+    }
+  ],
+  "SDKDefinesCenterAsFullyCentered": true,
+  "SDKDefinesLeftAsHorizontalLeftCositedVerticalCentered": true,
+  "VTCompressionHeaderChromaLocationPropertyFound": false,
+  "VTHeaderSearchIsNotProofOfAllRuntimeEncoderCapabilities": true,
+  "correspondingNativeCheckSha256": "78d0359f5315e6def8cb5dcd9c63701ded712016223e4a1c7b35f66c989716e6",
+  "noEncoderOrExportRun": true
+}

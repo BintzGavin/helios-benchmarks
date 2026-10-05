@@ -1,0 +1,10 @@
+{
+  "test": "existing-destination",
+  "passed": true,
+  "expectedRefusal": "EXISTING_DESTINATION",
+  "observedError": "Refusal:EXISTING_DESTINATION",
+  "secondsExcludedFromBenchmark": 0.006087916990509257,
+  "GPUExecuted": false,
+  "sourceUnchanged": true,
+  "publishedFixtureBinding": false
+}

@@ -1,0 +1,16 @@
+# Corrections, exclusions and open work
+
+- CPU Remotion adjacent-frame metric alignment was corrected using saved media; old metric failures and corrected receipts remain. Original clocks were unchanged. JPEG80 fails the quality floor; JPEG100 was used for the qualified comparison.
+- fframes ultrafast stream-copy edit-list repair is mandatory for the delivered CPU lane. Both original and repaired artifacts and exact repair cost remain.
+- Old native GPU color/oracle errors and a Remotion black-frame reference are retained and explicitly superseded by corrected references. Do not use the old reference for qualified comparisons.
+- Original concurrent fframes4K chroma failures remain excluded even after same-stream capture removed separate-raster ambiguity. No private VideoToolbox oracle or encoder-bug claim is established.
+- Native equal2×2 centered sampling versus historical default-left/unspecified signaling requires a separately labeled correction. Historical numerical qualification/clocks/byte bindings remain unchanged. Correct metadata may alter display interpretation; decoded RGB invariance is not claimed.
+- Only final-v3 is the frozen executed native-conformance preparation; earlier candidates/final/final-v2 are historical retained attempts. Final adapter`b0a36b7852439a78b27365a2846a1b471207f1285fbb9461aa7fa125a21a5088` has28 failure and2 idempotent receipts, both small-scene codecs, full syntax/non-SPS/decoded-YUV binding and independent centered controls. Preparation is not fresh4K qualification.
+- Streaming preparation29 saved tests, codec preparation69 saved CPU checks, bridge preparation63 saved process tests are CPU/fixture acceptance only. Source commands3–302 differ from copied fixture ordinals0–299; fixture hashes do not establish actual rendered-pixel correspondence. Fresh GPU profile libraries were not loaded in those CPU preparations. Direct-child reaping/control heartbeat checks are not OS-wide descendant-cessation proof.
+- Native full4K H.264/HEVC/Vulkan, fully enabled balanced production comparison, matched F HEVC, exact M5 measured source/hardware, Linux Vulkan Video and other unsupported paths remain open. No end-to-end zero-copy proof exists.
+- Library's required ordered upload route was unavailable before prepare; no new Library IDs were created. Public GitHub evidence here is a distinct authorized publication, not proof of Library delivery.
+- The Linux Orb compact package omits raw media and uses an earlier index than the final full remote tree. Full raw evidence is not claimed to be published here. Transformed review videos are excluded from exact-byte verification.
+- Reclaimed elementary intermediates are represented by byte-exact reconstruction receipts, not secretly regenerated artifacts. Original retained media/receipts are published wherever locally available.
+- Active native-metal-hevc-live-20261005 work is excluded from this frozen publication pending its terminal delivery. The benchmark owner retains experiment and conformance ownership.
+
+Archived reports describe knowledge at their original dates and may still say HEVC/Vulkan were unsupported. The newer bounded backend qualification report supersedes that availability statement within its measured scope. Never rewrite an old report to make historical qualifications look broader.

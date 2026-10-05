@@ -1,0 +1,33 @@
+{
+  "passingBaseline": true,
+  "mutants": [
+    {
+      "mutation": "probe-codec",
+      "exit": 1,
+      "caughtByAssertion": true
+    },
+    {
+      "mutation": "probe-protocol",
+      "exit": 1,
+      "caughtByAssertion": true
+    },
+    {
+      "mutation": "probe-hardware-used",
+      "exit": 1,
+      "caughtByAssertion": true
+    },
+    {
+      "mutation": "completion-codec",
+      "exit": 1,
+      "caughtByAssertion": true
+    },
+    {
+      "mutation": "completion-hardware",
+      "exit": 1,
+      "caughtByAssertion": true
+    }
+  ],
+  "restoredSourceSha256": "1c19891fe3e9db7c56bbbea4d69e9e7e30dc4228bef551a374177370320352b8",
+  "restoredTestsPassed": true,
+  "scope": "HEVC capability/completion codec, protocol and hardware guards; native format and initialization checked separately with real fault interposers"
+}

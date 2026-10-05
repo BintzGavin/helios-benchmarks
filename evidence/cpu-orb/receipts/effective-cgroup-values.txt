@@ -1,0 +1,8 @@
+self scope memory.max
+workload cpu.max memory.max
+max 100000
+3221225472
+amp slice cpu.max cpuset memory.max
+max 100000
+0-1
+max

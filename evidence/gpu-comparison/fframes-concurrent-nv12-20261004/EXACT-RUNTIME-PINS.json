@@ -1,0 +1,545 @@
+{
+  "workingDirectory": "/Users/gavinbintz/Documents/Codex/2026-10-02/task",
+  "relativeConverterInstallName": "sources/fframes-concurrent-nv12/nv12-converter.dylib",
+  "runtime": [
+    {
+      "helper": {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/circles-concurrent-nv12",
+        "bytes": 38000704,
+        "sha256": "665ce943531be9a35d61aa7629e12646e280d0568c1ca6a576816f15963210a8"
+      },
+      "command": [
+        "/usr/bin/otool",
+        "-L",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/circles-concurrent-nv12"
+      ],
+      "returncode": 0,
+      "stdout": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/circles-concurrent-nv12:\n\t/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo (compatibility version 1.2.0, current version 726.2.0)\n\t/usr/lib/libc++.1.dylib (compatibility version 1.0.0, current version 2000.67.0)\n\t/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices (compatibility version 1.0.0, current version 66.0.0)\n\t/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL (compatibility version 1.0.0, current version 1.0.0)\n\t/System/Library/Frameworks/Metal.framework/Versions/A/Metal (compatibility version 1.0.0, current version 370.64.2)\n\t/System/Library/Frameworks/MetalKit.framework/Versions/A/MetalKit (compatibility version 1.0.0, current version 172.5.0)\n\t/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (compatibility version 300.0.0, current version 4201.0.0)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1356.0.0)\n\t/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics (compatibility version 64.0.0, current version 1965.2.3)\n\t/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (compatibility version 150.0.0, current version 4201.0.0)\n\t/usr/lib/libobjc.A.dylib (compatibility version 1.0.0, current version 228.0.0)\n\t/usr/lib/libz.1.dylib (compatibility version 1.0.0, current version 1.2.12)\n\t/opt/homebrew/opt/x264/lib/libx264.165.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox (compatibility version 1.0.0, current version 1000.0.0)\n\t/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation (compatibility version 1.0.0, current version 2.0.0)\n\t/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia (compatibility version 1.0.0, current version 3290.6.5)\n\t/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices (compatibility version 1.0.0, current version 1226.0.0)\n\t/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore (compatibility version 1.2.0, current version 1193.49.3)\n\t/System/Library/Frameworks/Security.framework/Versions/A/Security (compatibility version 1.0.0, current version 61901.60.40)\n\t/System/Library/Frameworks/VideoToolbox.framework/Versions/A/VideoToolbox (compatibility version 1.0.0, current version 3290.6.5)\n\t/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit (compatibility version 45.0.0, current version 2685.30.107)\n\t/System/Library/Frameworks/OpenCL.framework/Versions/A/OpenCL (compatibility version 1.0.0, current version 1.0.0)\n\t/System/Library/Frameworks/VideoDecodeAcceleration.framework/Versions/A/VideoDecodeAcceleration (compatibility version 1.0.0, current version 1.0.0)\n\t/usr/lib/libiconv.2.dylib (compatibility version 7.0.0, current version 7.0.0)\n\tsources/fframes-concurrent-nv12/nv12-converter.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText (compatibility version 1.0.0, current version 877.2.0)\n",
+      "stderr": "otool: warning: confstr() failed with code 5: couldn't get path of DARWIN_USER_TEMP_DIR; using /tmp instead\n",
+      "libraries": [
+        {
+          "installName": "/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo",
+          "resolvedPath": "/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/usr/lib/libc++.1.dylib",
+          "resolvedPath": "/usr/lib/libc++.1.dylib",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices",
+          "resolvedPath": "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "resolvedPath": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "resolvedPath": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/MetalKit.framework/Versions/A/MetalKit",
+          "resolvedPath": "/System/Library/Frameworks/MetalKit.framework/Versions/A/MetalKit",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "resolvedPath": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/usr/lib/libSystem.B.dylib",
+          "resolvedPath": "/usr/lib/libSystem.B.dylib",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+          "resolvedPath": "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "resolvedPath": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/usr/lib/libobjc.A.dylib",
+          "resolvedPath": "/usr/lib/libobjc.A.dylib",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/usr/lib/libz.1.dylib",
+          "resolvedPath": "/usr/lib/libz.1.dylib",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/opt/homebrew/opt/x264/lib/libx264.165.dylib",
+          "resolvedPath": "/opt/homebrew/opt/x264/lib/libx264.165.dylib",
+          "sha256": "dd765b37f50d44d3ce9593c2c1c2424b48bedac01c7999e93cef87e018bc65b4",
+          "readableBytes": true,
+          "sharedCacheBytesNotMaterialized": false
+        },
+        {
+          "installName": "/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox",
+          "resolvedPath": "/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation",
+          "resolvedPath": "/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia",
+          "resolvedPath": "/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+          "resolvedPath": "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore",
+          "resolvedPath": "/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+          "resolvedPath": "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/VideoToolbox.framework/Versions/A/VideoToolbox",
+          "resolvedPath": "/System/Library/Frameworks/VideoToolbox.framework/Versions/A/VideoToolbox",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "resolvedPath": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/OpenCL.framework/Versions/A/OpenCL",
+          "resolvedPath": "/System/Library/Frameworks/OpenCL.framework/Versions/A/OpenCL",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/VideoDecodeAcceleration.framework/Versions/A/VideoDecodeAcceleration",
+          "resolvedPath": "/System/Library/Frameworks/VideoDecodeAcceleration.framework/Versions/A/VideoDecodeAcceleration",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/usr/lib/libiconv.2.dylib",
+          "resolvedPath": "/usr/lib/libiconv.2.dylib",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "sources/fframes-concurrent-nv12/nv12-converter.dylib",
+          "resolvedPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/nv12-converter.dylib",
+          "sha256": "11522ab92e119b84f9af86b9abf5864263c774a21ac7505b82a6556b6e9e132d",
+          "readableBytes": true,
+          "sharedCacheBytesNotMaterialized": false
+        },
+        {
+          "installName": "/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText",
+          "resolvedPath": "/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        }
+      ]
+    },
+    {
+      "helper": {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/nv12-color-controls",
+        "bytes": 36228336,
+        "sha256": "ea36969d384cfb1de3fe5b02da832cab97003301ab3a7818133c82b942f363f3"
+      },
+      "command": [
+        "/usr/bin/otool",
+        "-L",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/nv12-color-controls"
+      ],
+      "returncode": 0,
+      "stdout": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/nv12-color-controls:\n\t/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo (compatibility version 1.2.0, current version 726.2.0)\n\t/usr/lib/libc++.1.dylib (compatibility version 1.0.0, current version 2000.67.0)\n\t/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices (compatibility version 1.0.0, current version 66.0.0)\n\t/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL (compatibility version 1.0.0, current version 1.0.0)\n\t/System/Library/Frameworks/Metal.framework/Versions/A/Metal (compatibility version 1.0.0, current version 370.64.2)\n\t/System/Library/Frameworks/MetalKit.framework/Versions/A/MetalKit (compatibility version 1.0.0, current version 172.5.0)\n\t/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (compatibility version 300.0.0, current version 4201.0.0)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1356.0.0)\n\t/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics (compatibility version 64.0.0, current version 1965.2.3)\n\t/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (compatibility version 150.0.0, current version 4201.0.0)\n\t/usr/lib/libobjc.A.dylib (compatibility version 1.0.0, current version 228.0.0)\n\t/usr/lib/libz.1.dylib (compatibility version 1.0.0, current version 1.2.12)\n\t/opt/homebrew/opt/x264/lib/libx264.165.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox (compatibility version 1.0.0, current version 1000.0.0)\n\t/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation (compatibility version 1.0.0, current version 2.0.0)\n\t/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia (compatibility version 1.0.0, current version 3290.6.5)\n\t/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices (compatibility version 1.0.0, current version 1226.0.0)\n\t/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore (compatibility version 1.2.0, current version 1193.49.3)\n\t/System/Library/Frameworks/Security.framework/Versions/A/Security (compatibility version 1.0.0, current version 61901.60.40)\n\t/System/Library/Frameworks/VideoToolbox.framework/Versions/A/VideoToolbox (compatibility version 1.0.0, current version 3290.6.5)\n\t/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit (compatibility version 45.0.0, current version 2685.30.107)\n\t/System/Library/Frameworks/OpenCL.framework/Versions/A/OpenCL (compatibility version 1.0.0, current version 1.0.0)\n\t/System/Library/Frameworks/VideoDecodeAcceleration.framework/Versions/A/VideoDecodeAcceleration (compatibility version 1.0.0, current version 1.0.0)\n\t/usr/lib/libiconv.2.dylib (compatibility version 7.0.0, current version 7.0.0)\n\tsources/fframes-concurrent-nv12/nv12-converter.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText (compatibility version 1.0.0, current version 877.2.0)\n",
+      "stderr": "otool: warning: confstr() failed with code 5: couldn't get path of DARWIN_USER_TEMP_DIR; using /tmp instead\n",
+      "libraries": [
+        {
+          "installName": "/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo",
+          "resolvedPath": "/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/usr/lib/libc++.1.dylib",
+          "resolvedPath": "/usr/lib/libc++.1.dylib",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices",
+          "resolvedPath": "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "resolvedPath": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "resolvedPath": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/MetalKit.framework/Versions/A/MetalKit",
+          "resolvedPath": "/System/Library/Frameworks/MetalKit.framework/Versions/A/MetalKit",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "resolvedPath": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/usr/lib/libSystem.B.dylib",
+          "resolvedPath": "/usr/lib/libSystem.B.dylib",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+          "resolvedPath": "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "resolvedPath": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/usr/lib/libobjc.A.dylib",
+          "resolvedPath": "/usr/lib/libobjc.A.dylib",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/usr/lib/libz.1.dylib",
+          "resolvedPath": "/usr/lib/libz.1.dylib",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/opt/homebrew/opt/x264/lib/libx264.165.dylib",
+          "resolvedPath": "/opt/homebrew/opt/x264/lib/libx264.165.dylib",
+          "sha256": "dd765b37f50d44d3ce9593c2c1c2424b48bedac01c7999e93cef87e018bc65b4",
+          "readableBytes": true,
+          "sharedCacheBytesNotMaterialized": false
+        },
+        {
+          "installName": "/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox",
+          "resolvedPath": "/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation",
+          "resolvedPath": "/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia",
+          "resolvedPath": "/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+          "resolvedPath": "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore",
+          "resolvedPath": "/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+          "resolvedPath": "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/VideoToolbox.framework/Versions/A/VideoToolbox",
+          "resolvedPath": "/System/Library/Frameworks/VideoToolbox.framework/Versions/A/VideoToolbox",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "resolvedPath": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/OpenCL.framework/Versions/A/OpenCL",
+          "resolvedPath": "/System/Library/Frameworks/OpenCL.framework/Versions/A/OpenCL",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/VideoDecodeAcceleration.framework/Versions/A/VideoDecodeAcceleration",
+          "resolvedPath": "/System/Library/Frameworks/VideoDecodeAcceleration.framework/Versions/A/VideoDecodeAcceleration",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/usr/lib/libiconv.2.dylib",
+          "resolvedPath": "/usr/lib/libiconv.2.dylib",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "sources/fframes-concurrent-nv12/nv12-converter.dylib",
+          "resolvedPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/nv12-converter.dylib",
+          "sha256": "11522ab92e119b84f9af86b9abf5864263c774a21ac7505b82a6556b6e9e132d",
+          "readableBytes": true,
+          "sharedCacheBytesNotMaterialized": false
+        },
+        {
+          "installName": "/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText",
+          "resolvedPath": "/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        }
+      ]
+    },
+    {
+      "helper": {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/nv12-converter.dylib",
+        "bytes": 76472,
+        "sha256": "11522ab92e119b84f9af86b9abf5864263c774a21ac7505b82a6556b6e9e132d"
+      },
+      "command": [
+        "/usr/bin/otool",
+        "-L",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/nv12-converter.dylib"
+      ],
+      "returncode": 0,
+      "stdout": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/nv12-converter.dylib:\n\tsources/fframes-concurrent-nv12/nv12-converter.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (compatibility version 300.0.0, current version 4201.0.0)\n\t/System/Library/Frameworks/Metal.framework/Versions/A/Metal (compatibility version 1.0.0, current version 370.64.2)\n\t/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo (compatibility version 1.2.0, current version 726.2.0)\n\t/System/Library/Frameworks/IOSurface.framework/Versions/A/IOSurface (compatibility version 1.0.0, current version 1.0.0)\n\t/usr/lib/libobjc.A.dylib (compatibility version 1.0.0, current version 228.0.0)\n\t/usr/lib/libc++.1.dylib (compatibility version 1.0.0, current version 2000.67.0)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1356.0.0)\n\t/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (compatibility version 150.0.0, current version 4201.0.0)\n",
+      "stderr": "otool: warning: confstr() failed with code 5: couldn't get path of DARWIN_USER_TEMP_DIR; using /tmp instead\n",
+      "libraries": [
+        {
+          "installName": "sources/fframes-concurrent-nv12/nv12-converter.dylib",
+          "resolvedPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/nv12-converter.dylib",
+          "sha256": "11522ab92e119b84f9af86b9abf5864263c774a21ac7505b82a6556b6e9e132d",
+          "readableBytes": true,
+          "sharedCacheBytesNotMaterialized": false
+        },
+        {
+          "installName": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "resolvedPath": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "resolvedPath": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo",
+          "resolvedPath": "/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/IOSurface.framework/Versions/A/IOSurface",
+          "resolvedPath": "/System/Library/Frameworks/IOSurface.framework/Versions/A/IOSurface",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/usr/lib/libobjc.A.dylib",
+          "resolvedPath": "/usr/lib/libobjc.A.dylib",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/usr/lib/libc++.1.dylib",
+          "resolvedPath": "/usr/lib/libc++.1.dylib",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/usr/lib/libSystem.B.dylib",
+          "resolvedPath": "/usr/lib/libSystem.B.dylib",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        },
+        {
+          "installName": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "resolvedPath": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "sha256": null,
+          "readableBytes": false,
+          "sharedCacheBytesNotMaterialized": true
+        }
+      ]
+    }
+  ],
+  "host": [
+    {
+      "command": [
+        "/usr/bin/sw_vers"
+      ],
+      "returncode": 0,
+      "stdout": "ProductName:\t\tmacOS\nProductVersion:\t\t26.3\nBuildVersion:\t\t25D125\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/usr/sbin/system_profiler",
+        "SPHardwareDataType",
+        "SPDisplaysDataType",
+        "-json"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"SPDisplaysDataType\" : [\n    {\n      \"_name\" : \"Apple M3 Pro\",\n      \"spdisplays_metal\" : \"spdisplays_supported\",\n      \"spdisplays_vendor\" : \"sppci_vendor_Apple\",\n      \"sppci_bus\" : \"spdisplays_builtin\",\n      \"sppci_cores\" : \"14\",\n      \"sppci_device_type\" : \"spdisplays_gpu\",\n      \"sppci_model\" : \"Apple M3 Pro\"\n    }\n  ],\n  \"SPHardwareDataType\" : [\n    {\n      \"_name\" : \"hardware_overview\",\n      \"boot_rom_version\" : \"13822.81.10\",\n      \"chip_type\" : \"Apple M3 Pro\",\n      \"machine_model\" : \"Mac15,6\",\n      \"machine_name\" : \"MacBook Pro\",\n      \"model_number\" : \"MRX33LL/A\",\n      \"number_processors\" : \"proc 11:5:6\",\n      \"os_loader_version\" : \"13822.81.10\",\n      \"physical_memory\" : \"18 GB\",\n      \"platform_UUID\" : \"67A1AA70-524B-56BC-8B14-A5D72B02B495\",\n      \"provisioning_UDID\" : \"00006030-000E715C1A79001C\",\n      \"serial_number\" : \"DLVW0YGQ3H\"\n    }\n  ]\n}",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-version"
+      ],
+      "returncode": 0,
+      "stdout": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers\nbuilt with Apple clang version 21.0.0 (clang-2100.3.34.2)\nconfiguration: --prefix=/opt/homebrew/Cellar/ffmpeg/9.0.2 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gpl --enable-libsvtav1 --enable-libopus --enable-libx264 --enable-libmp3lame --enable-libdav1d --enable-libvmaf --enable-libvpx --enable-libx265 --enable-openssl --enable-videotoolbox --enable-audiotoolbox --enable-neon\nlibavutil      61.  1.102 / 61.  1.102\nlibavcodec     63.  1.102 / 63.  1.102\nlibavformat    63.  1.102 / 63.  1.102\nlibavdevice    63.  1.102 / 63.  1.102\nlibavfilter    12.  1.102 / 12.  1.102\nlibswscale     10.  1.102 / 10.  1.102\nlibswresample   7.  1.102 /  7.  1.102\n\nExiting with exit code 0\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/opt/homebrew/bin/ffprobe",
+        "-version"
+      ],
+      "returncode": 0,
+      "stdout": "ffprobe version 9.0.2 Copyright (c) 2007-2026 the FFmpeg developers\nbuilt with Apple clang version 21.0.0 (clang-2100.3.34.2)\nconfiguration: --prefix=/opt/homebrew/Cellar/ffmpeg/9.0.2 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gpl --enable-libsvtav1 --enable-libopus --enable-libx264 --enable-libmp3lame --enable-libdav1d --enable-libvmaf --enable-libvpx --enable-libx265 --enable-openssl --enable-videotoolbox --enable-audiotoolbox --enable-neon\nlibavutil      61.  1.102 / 61.  1.102\nlibavcodec     63.  1.102 / 63.  1.102\nlibavformat    63.  1.102 / 63.  1.102\nlibavdevice    63.  1.102 / 63.  1.102\nlibavfilter    12.  1.102 / 12.  1.102\nlibswscale     10.  1.102 / 10.  1.102\nlibswresample   7.  1.102 /  7.  1.102\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/usr/bin/clang++",
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": "Apple clang version 17.0.0 (clang-1700.6.3.2)\nTarget: arm64-apple-darwin25.3.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin\n",
+      "stderr": "clang++: warning: confstr() failed with code 5: couldn't get path of DARWIN_USER_TEMP_DIR; using /tmp instead\n"
+    }
+  ],
+  "validationTools": [
+    {
+      "path": "/opt/homebrew/Cellar/ffmpeg/9.0.2/bin/ffmpeg",
+      "bytes": 426512,
+      "sha256": "1ede5c7fd4e97d832ec69c97c78231875de7d69c55423158f5f4a4d923227dd5"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/ffmpeg/9.0.2/bin/ffprobe",
+      "bytes": 253488,
+      "sha256": "258fa480850eec6cf7b6831b2d3edd164cdd2f9ddb7a14965dc9fdaf9d175ff7"
+    }
+  ],
+  "noProcessEnvironmentInspected": true
+}

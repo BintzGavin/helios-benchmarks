@@ -1,0 +1,211 @@
+{
+  "status": "balanced receipt audit passed",
+  "timingWindow": "closed by explicit owner message",
+  "nativeDeliveryComplete": true,
+  "fullComparisonFinalPackagingPending": true,
+  "scene": {
+    "width": 3840,
+    "height": 2160,
+    "frames": 300,
+    "fps": 30,
+    "name": "Circles99kText1k",
+    "source_start": 3
+  },
+  "lane": "hardware-common-converter-adapter",
+  "encoding": {
+    "codec": "required-videotoolbox-h264",
+    "color": "srgb-bt709-limited-nv12",
+    "pool": 3,
+    "gop": 30,
+    "bitrate": 300000000
+  },
+  "order": "HFFHFHHF",
+  "manifestPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-300-balanced/manifest.json",
+  "manifestSha256": "0e9e2c74d97db39aabf3655f16274bd89e6fab1b8125d47a63c14dcde6b30e10",
+  "summary": {
+    "H": {
+      "exportMedian": 21.1336678125,
+      "deliveredMedian": 25.5339021875,
+      "exportRange": [
+        20.118268542,
+        22.077710834
+      ]
+    },
+    "F": {
+      "exportMedian": 81.721465333,
+      "deliveredMedian": 86.1813760625,
+      "exportRange": [
+        80.64284175,
+        82.770407208
+      ]
+    }
+  },
+  "receipts": [
+    {
+      "round": 1,
+      "engine": "H",
+      "exportSeconds": 20.118268542,
+      "deliveredSeconds": 24.42104525,
+      "helperSha256": "1383da791a588731101f6dd22bea8e911d4bc97243b7f01541214981afc90ecc",
+      "qualityPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-300-balanced/timed-1-H/quality.json",
+      "qualitySha256": "973d5a7fb1e996bac975258fe209a8ca71750b26a859e7e2a5509a18a49477b5",
+      "contractPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-300-balanced/timed-1-H/hardware-contract.json",
+      "contractSha256": "ff11e4123dfda3a8513c8e025ee2c1168951dc4fd08d898a571b8e3a6f402780",
+      "minimumSSIM": {
+        "Y": 0.996243
+      },
+      "minimumPSNR": {
+        "psnr_y": 41.14,
+        "psnr_u": 41.11,
+        "psnr_v": 41.01
+      }
+    },
+    {
+      "round": 1,
+      "engine": "F",
+      "exportSeconds": 80.64284175,
+      "deliveredSeconds": 84.947410708,
+      "helperSha256": "0e788dc176e7577f3736eb335e9b7cf0ce0189f592659abd1afa940619549f4d",
+      "qualityPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-300-balanced/timed-1-F/quality.json",
+      "qualitySha256": "89e43a6f5473ee6547dae5dece729810927340ffcc4aaec6c093a6a340965fc9",
+      "contractPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-300-balanced/timed-1-F/hardware-contract.json",
+      "contractSha256": "5cd3535e06e653664ec953238661764b57adbb0f1c7ea22d728df9b74c6215f2",
+      "minimumSSIM": {
+        "Y": 0.995262
+      },
+      "minimumPSNR": {
+        "psnr_y": 40.27,
+        "psnr_u": 40.63,
+        "psnr_v": 40.52
+      }
+    },
+    {
+      "round": 2,
+      "engine": "F",
+      "exportSeconds": 81.487102,
+      "deliveredSeconds": 85.789147875,
+      "helperSha256": "0e788dc176e7577f3736eb335e9b7cf0ce0189f592659abd1afa940619549f4d",
+      "qualityPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-300-balanced/timed-2-F/quality.json",
+      "qualitySha256": "6aa4d84e8a3ce3a99b2cf9296a1fa8379dde69f3a203af134198478a5969e66f",
+      "contractPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-300-balanced/timed-2-F/hardware-contract.json",
+      "contractSha256": "639e4829f4c4514811c4450237214a5e54da0cf2b1c0c93ceb153fcd5775a3ef",
+      "minimumSSIM": {
+        "Y": 0.995262
+      },
+      "minimumPSNR": {
+        "psnr_y": 40.27,
+        "psnr_u": 40.63,
+        "psnr_v": 40.52
+      }
+    },
+    {
+      "round": 2,
+      "engine": "H",
+      "exportSeconds": 21.114672917,
+      "deliveredSeconds": 25.519998209,
+      "helperSha256": "1383da791a588731101f6dd22bea8e911d4bc97243b7f01541214981afc90ecc",
+      "qualityPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-300-balanced/timed-2-H/quality.json",
+      "qualitySha256": "0530f5ebc3dd9fc6df05e3a061c1e60d15b74b2fdc1d6c1a132998b92edb311f",
+      "contractPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-300-balanced/timed-2-H/hardware-contract.json",
+      "contractSha256": "09fe6a134f8bcd23ca65904fa9002dda866490dd0a7551d2c015ef8226d8ce85",
+      "minimumSSIM": {
+        "Y": 0.996243
+      },
+      "minimumPSNR": {
+        "psnr_y": 41.14,
+        "psnr_u": 41.11,
+        "psnr_v": 41.01
+      }
+    },
+    {
+      "round": 3,
+      "engine": "F",
+      "exportSeconds": 81.955828666,
+      "deliveredSeconds": 86.57360425,
+      "helperSha256": "0e788dc176e7577f3736eb335e9b7cf0ce0189f592659abd1afa940619549f4d",
+      "qualityPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-300-balanced/timed-3-F/quality.json",
+      "qualitySha256": "f13d5969c320e6139989476586a99d563b12f9bac0cbba4500091db9cd8f8ec7",
+      "contractPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-300-balanced/timed-3-F/hardware-contract.json",
+      "contractSha256": "611028950b5992c6b26436a59cad2c8f21737404419a246ea437fbda3066f42e",
+      "minimumSSIM": {
+        "Y": 0.995265
+      },
+      "minimumPSNR": {
+        "psnr_y": 40.27,
+        "psnr_u": 40.63,
+        "psnr_v": 40.53
+      }
+    },
+    {
+      "round": 3,
+      "engine": "H",
+      "exportSeconds": 21.152662708,
+      "deliveredSeconds": 25.547806166,
+      "helperSha256": "1383da791a588731101f6dd22bea8e911d4bc97243b7f01541214981afc90ecc",
+      "qualityPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-300-balanced/timed-3-H/quality.json",
+      "qualitySha256": "a5a8b432576232aa79ae091435780c1c075401850cb2c3d1bc961ba1adf1a79d",
+      "contractPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-300-balanced/timed-3-H/hardware-contract.json",
+      "contractSha256": "e7048839e1bcc07a25f0165592915f50a227f8dba2b5b3f3532fb5b2211e53eb",
+      "minimumSSIM": {
+        "Y": 0.996243
+      },
+      "minimumPSNR": {
+        "psnr_y": 41.14,
+        "psnr_u": 41.11,
+        "psnr_v": 41.01
+      }
+    },
+    {
+      "round": 4,
+      "engine": "H",
+      "exportSeconds": 22.077710834,
+      "deliveredSeconds": 26.69930025,
+      "helperSha256": "1383da791a588731101f6dd22bea8e911d4bc97243b7f01541214981afc90ecc",
+      "qualityPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-300-balanced/timed-4-H/quality.json",
+      "qualitySha256": "b9d81a625e837825a18171eef307a66272a7e4835bd2220846a55b9356bbb42e",
+      "contractPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-300-balanced/timed-4-H/hardware-contract.json",
+      "contractSha256": "f252cdecf444a7ec1cbdcff4f692c8710a7b4e7ecc8fc1765a2a8b8e67095e35",
+      "minimumSSIM": {
+        "Y": 0.996243
+      },
+      "minimumPSNR": {
+        "psnr_y": 41.14,
+        "psnr_u": 41.11,
+        "psnr_v": 41.01
+      }
+    },
+    {
+      "round": 4,
+      "engine": "F",
+      "exportSeconds": 82.770407208,
+      "deliveredSeconds": 87.133435208,
+      "helperSha256": "0e788dc176e7577f3736eb335e9b7cf0ce0189f592659abd1afa940619549f4d",
+      "qualityPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-300-balanced/timed-4-F/quality.json",
+      "qualitySha256": "4b3af856a950e8ee39efd56b96c491896eb616fc274493a3911a13c34f48efed",
+      "contractPath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-300-balanced/timed-4-F/hardware-contract.json",
+      "contractSha256": "c88e1907b63fc1e77733109bed3f700565d8aab7df22c1847781f9c7251b6c6b",
+      "minimumSSIM": {
+        "Y": 0.995269
+      },
+      "minimumPSNR": {
+        "psnr_y": 40.27,
+        "psnr_u": 40.63,
+        "psnr_v": 40.52
+      }
+    }
+  ],
+  "exportIntervalRatioFtoH": 3.86688510759424,
+  "allFourPairsHeliosShorter": true,
+  "scopeLimitations": [
+    "Documented public-scene replication, not exact unrecoverable uncommitted source of the M5Max claim",
+    "Whole export pipeline, not isolated GPU throughput",
+    "F uses optimizedSVG and serial Skia0.153.3 hardware surfaces plus one disclosed additionalGPUcopy into common converter; original product MaxPerformance pipeline is separate",
+    "H uses TS Canvas binary transport and Skia0.91",
+    "Own lossless references permit renderer antialias/text differences; F independent raster variance remains recorded",
+    "No total zero-copy claim; hidden transfers unknown",
+    "Matched300Mbps is lowest tested passing shared setting, not proof of global optimal bitrate; settings differ from separate8Mbps/M5Max single-run claim"
+  ],
+  "originalProductWinClaim": false,
+  "publishedM5WinClaim": false,
+  "zeroCopyProved": false
+}

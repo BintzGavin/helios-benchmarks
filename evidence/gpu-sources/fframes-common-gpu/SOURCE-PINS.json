@@ -1,0 +1,12 @@
+{
+  "origin": "frozen native pool commit17b175fee7007ef89eba801543b60c3ca47618ac; standardMetal/CoreVideo/VT CAPI only, noHelios Skia libraries",
+  "changes": "GPU BGRA-to-RGBA import before unchanged explicitBT709/NV12 conversion+requiredVT pool; extraGPUtexturecopy disclosed",
+  "sourceHashes": {
+    "encoder-flight.hpp": "e621ea35a3006cf687b50cb5c859b4610c76a0068c0cc0fb09e30985c4c3b02a",
+    "pool-frozen-encoder-flight.hpp": "e621ea35a3006cf687b50cb5c859b4610c76a0068c0cc0fb09e30985c4c3b02a",
+    "common-converter.mm": "d1471d68bdfe0a5f8b43a3140d5f783cce946b7b73e37f251bc319bdf048807a",
+    "pool-frozen-metal.mm": "84be393441671bb9a3f979d5b97f7f01d185200ec950a895e7ff4d0cc7da519d"
+  },
+  "zeroCopyProved": false,
+  "benchmarkTiming": false
+}

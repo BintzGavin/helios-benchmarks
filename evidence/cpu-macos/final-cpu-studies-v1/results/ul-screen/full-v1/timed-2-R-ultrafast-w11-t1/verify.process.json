@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/opt/homebrew/bin/ffprobe",
+    "-v",
+    "error",
+    "-threads",
+    "8",
+    "-count_frames",
+    "-show_streams",
+    "-show_format",
+    "-of",
+    "json",
+    "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/final-cpu-studies-v1/results/ul-screen/full-v1/timed-2-R-ultrafast-w11-t1/output.mp4"
+  ],
+  "exitCode": 0,
+  "wallNs": 724772417
+}

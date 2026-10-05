@@ -1,0 +1,279 @@
+   Compiling proc-macro2 v1.0.95
+   Compiling unicode-ident v1.0.18
+   Compiling libc v0.2.189
+   Compiling autocfg v1.4.0
+   Compiling cfg-if v1.0.0
+   Compiling memchr v2.7.4
+   Compiling bitflags v2.13.2
+   Compiling version_check v0.9.5
+   Compiling minimal-lexical v0.2.1
+   Compiling glob v0.3.2
+   Compiling log v0.4.27
+   Compiling prettyplease v0.2.32
+   Compiling regex-syntax v0.8.11
+   Compiling libloading v0.8.6
+   Compiling bindgen v0.72.1
+   Compiling either v1.15.0
+   Compiling rustc-hash v2.1.1
+   Compiling clang-sys v1.8.1
+   Compiling num-traits v0.2.19
+   Compiling nom v7.1.3
+   Compiling aho-corasick v1.1.3
+   Compiling itertools v0.13.0
+   Compiling find-msvc-tools v0.1.14
+   Compiling shlex v2.0.1
+   Compiling shlex v1.3.0
+   Compiling cc v1.5.1
+   Compiling slotmap v1.0.7
+   Compiling simd-adler32 v0.3.7
+   Compiling pkg-config v0.3.32
+   Compiling crossbeam-utils v0.8.21
+   Compiling quote v1.0.40
+   Compiling arrayvec v0.7.6
+   Compiling syn v2.0.100
+   Compiling adler2 v2.0.0
+   Compiling regex-automata v0.4.18
+   Compiling miniz_oxide v0.8.8
+   Compiling ahash v0.8.11
+   Compiling cexpr v0.6.0
+   Compiling crc32fast v1.4.2
+   Compiling flate2 v1.1.1
+   Compiling smallvec v1.15.1
+   Compiling serde_core v1.0.228
+   Compiling num-integer v0.1.46
+   Compiling num_cpus v1.17.0
+   Compiling crossbeam-epoch v0.9.18
+   Compiling equivalent v1.0.2
+   Compiling rayon-core v1.12.1
+   Compiling num-bigint v0.4.6
+   Compiling crossbeam-deque v0.8.6
+   Compiling either_n v0.2.0
+   Compiling anyhow v1.0.98
+   Compiling serde_json v1.0.140
+   Compiling itoa v1.0.15
+   Compiling once_cell v1.21.3
+   Compiling paste v1.0.15
+   Compiling rustix v1.0.5
+   Compiling errno v0.3.11
+   Compiling regex v1.13.1
+   Compiling num-rational v0.4.2
+   Compiling aligned-vec v0.5.0
+   Compiling serde v1.0.228
+   Compiling tinyvec_macros v0.1.1
+   Compiling float-cmp v0.9.0
+   Compiling ttf-parser v0.20.0
+   Compiling weezl v0.1.8
+   Compiling foldhash v0.1.5
+   Compiling allocator-api2 v0.2.21
+   Compiling built v0.7.7
+   Compiling thiserror v1.0.69
+   Compiling strict-num v0.1.1
+   Compiling syn-helpers v0.5.0
+   Compiling rav1e v0.7.1
+   Compiling hashbrown v0.15.2
+   Compiling tinyvec v1.9.0
+   Compiling v_frame v0.3.8
+   Compiling rayon v1.10.0
+   Compiling kurbo v0.8.3
+   Compiling fdeflate v0.3.7
+   Compiling getrandom v0.2.15
+   Compiling memmap2 v0.9.5
+   Compiling bytemuck_derive v1.9.3
+   Compiling profiling-procmacros v1.0.16
+   Compiling self-rust-tokenize-derive v0.3.4
+   Compiling thiserror-impl v1.0.69
+   Compiling slab v0.4.9
+   Compiling unicode-properties v0.1.3
+   Compiling winnow v1.0.4
+   Compiling unicode-bidi-mirroring v0.1.0
+   Compiling siphasher v0.3.11
+   Compiling unicode-script v0.5.7
+   Compiling arrayref v0.3.9
+   Compiling unicode-ccc v0.1.2
+   Compiling color_quant v1.1.0
+   Compiling hashbrown v0.17.1
+   Compiling bitflags v1.3.2
+   Compiling zerocopy v0.7.35
+   Compiling png v0.17.16
+   Compiling bytemuck v1.22.0
+   Compiling indexmap v2.14.2
+   Compiling toml_parser v1.1.3+spec-1.1.0
+   Compiling rustybuzz v0.12.1
+   Compiling rgb v0.8.50
+   Compiling tiny-skia-path v0.11.4
+   Compiling svgrtypes v0.46.0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgrtypes)
+   Compiling maybe-rayon v0.1.1
+   Compiling self-rust-tokenize v0.3.4
+   Compiling xattr v1.5.0
+   Compiling profiling v1.0.16
+   Compiling fontdb v0.16.2
+   Compiling arg_enum_proc_macro v0.3.4
+   Compiling num-derive v0.4.2
+   Compiling av1-grain v0.2.3
+   Compiling lru v0.14.0
+   Compiling toml_datetime v1.1.1+spec-1.1.0
+   Compiling serde_spanned v1.1.1
+   Compiling kurbo v0.11.1
+   Compiling itertools v0.12.1
+   Compiling filetime v0.2.25
+   Compiling simd_helpers v0.1.0
+   Compiling lock_api v0.4.12
+   Compiling simplecss v0.2.2
+   Compiling ryu v1.0.20
+   Compiling pico-args v0.5.0
+   Compiling bitstream-io v2.6.0
+   Compiling toml_datetime v0.6.8
+   Compiling zune-core v0.4.12
+   Compiling unicode-bidi v0.3.18
+   Compiling futures-sink v0.3.31
+   Compiling new_debug_unreachable v1.0.6
+   Compiling winnow v0.7.13
+   Compiling toml_writer v1.1.2+spec-1.1.0
+   Compiling quick-error v2.0.1
+   Compiling roxmltree v0.20.0
+   Compiling noop_proc_macro v0.3.0
+   Compiling data-url v0.3.1
+   Compiling siphasher v1.0.1
+   Compiling futures-core v0.3.31
+   Compiling xmlwriter v0.1.0
+   Compiling imgref v1.11.0
+   Compiling bytecount v0.6.8
+   Compiling parking_lot_core v0.9.10
+   Compiling ffmpeg-sys-fframes v9.0.0
+   Compiling base64 v0.21.7
+   Compiling jpeg-decoder v0.3.1
+   Compiling unicode-vo v0.1.0
+   Compiling usvgr v0.46.0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr)
+   Compiling nom_locate v4.2.0
+   Compiling loop9 v0.1.5
+   Compiling futures-channel v0.3.31
+   Compiling toml v1.1.6+spec-1.1.0
+   Compiling zune-jpeg v0.4.14
+   Compiling toml_edit v0.22.24
+   Compiling tar v0.4.46
+   Compiling futures-macro v0.3.31
+   Compiling zune-inflate v0.2.54
+   Compiling avif-serialize v0.8.3
+   Compiling half v2.6.0
+   Compiling typewit_proc_macros v1.8.1
+   Compiling futures-io v0.3.31
+   Compiling bit_field v0.10.2
+   Compiling lebe v0.5.2
+   Compiling getrandom v0.3.2
+   Compiling futures-task v0.3.31
+   Compiling heck v0.5.0
+   Compiling byteorder-lite v0.1.0
+   Compiling pin-utils v0.1.0
+   Compiling pin-project-lite v0.2.16
+   Compiling portable-atomic v1.15.0
+   Compiling scopeguard v1.2.0
+   Compiling image-webp v0.2.1
+   Compiling image v0.25.6
+   Compiling skia-bindings v0.153.3
+   Compiling futures-util v0.3.31
+   Compiling exr v1.73.0
+   Compiling typewit v1.11.0
+   Compiling proc-macro-crate v3.3.0
+   Compiling tiff v0.9.1
+   Compiling webvtt-parser v1.1.0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-circles-claim/webvtt-parser)
+   Compiling qoi v0.4.1
+   Compiling gif v0.13.1
+   Compiling serde_derive v1.0.228
+   Compiling ravif v0.11.12
+   Compiling num-complex v0.4.6
+   Compiling core-foundation-sys v0.8.7
+   Compiling unicode-width v0.2.2
+   Compiling ttf-parser v0.25.1
+   Compiling libm v0.2.11
+   Compiling base64 v0.22.1
+   Compiling console v0.16.6
+   Compiling core-foundation v0.10.0
+   Compiling futures-executor v0.3.31
+   Compiling parking_lot v0.12.3
+   Compiling konst_kernel v0.3.15
+   Compiling fframes-media v1.1.0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-circles-claim/fframes-media)
+   Compiling tiny-skia v0.11.4
+   Compiling gif v0.12.0
+   Compiling foreign-types-macros v0.2.3
+   Compiling pin-project-internal v1.1.10
+   Compiling num-iter v0.1.45
+   Compiling malloc_buf v0.0.6
+   Compiling syn v3.0.6
+   Compiling unit-prefix v0.5.2
+   Compiling rust-fuzzy-search v0.1.1
+   Compiling static_assertions v1.1.0
+   Compiling mutate_once v0.1.1
+   Compiling foreign-types-shared v0.3.1
+   Compiling konst_proc_macros v0.3.10
+   Compiling fframes v1.1.0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-circles-claim/fframes)
+   Compiling lazy_static v1.5.0
+   Compiling const_panic v0.2.12
+   Compiling svgr-macro v1.1.0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-circles-claim/svgr-macro)
+   Compiling konst v0.3.16
+   Compiling colored v2.2.0
+   Compiling foreign-types v0.5.0
+   Compiling kamadak-exif v0.6.1
+   Compiling svgr v0.46.0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr)
+   Compiling pin-project v1.1.10
+warning: a method with this name may be added to the standard library in the future
+  --> /Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/src/filter/iir_blur.rs:62:25
+   |
+62 |     let data = src.data.as_mut_slice();
+   |                         ^^^^^^^^^^^^
+   |
+   = help: call with fully qualified syntax `as_mut_slice(...)` to keep using the current method
+   = warning: once this associated item is added to the standard library, the ambiguity may cause an error or change in behavior!
+   = note: for more information, see issue #48919 <https://github.com/rust-lang/rust/issues/48919>
+   = note: `#[warn(unstable_name_collisions)]` (part of `#[warn(future_incompatible)]`) on by default
+
+   Compiling microfft v0.6.0
+   Compiling indicatif v0.18.6
+   Compiling skia-svg-macros v0.2.0
+   Compiling objc v0.2.7
+   Compiling num v0.4.3
+   Compiling fframes-media-dir-macro v1.1.0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-circles-claim/media-dir-macro)
+   Compiling uuid v1.16.0
+   Compiling futures v0.3.31
+   Compiling core-graphics-types v0.2.0
+   Compiling memmap v0.7.0
+   Compiling rangemap v1.5.1
+   Compiling block v0.1.6
+   Compiling base64 v0.23.1
+   Compiling percent-encoding v2.3.1
+   Compiling metal v0.32.0
+   Compiling thingbuf v0.1.6
+warning: linker stderr: ld: ignoring file '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/QTKit.framework/QTKit.tbd': tapi error: missing required architecture arm64 in file /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/System/Library/Frameworks/QTKit.framework/Versions/A/QTKit.tbd
+  |
+  = note: `#[warn(linker_messages)]` on by default
+
+   Compiling skia-safe v0.153.3
+warning: `fframes-media-dir-macro` (lib) generated 1 warning
+warning: `svgr` (lib) generated 1 warning
+   Compiling fframes_skia_renderer v1.1.0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-circles-claim/fframes-skia-renderer)
+   Compiling vs-remotion-bench v1.1.0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-circles-claim/render-bench/vs-remotion)
+warning: unused import: `StaticMediaProvider`
+ --> render-bench/vs-remotion/src/bin/circles-adapter.rs:6:49
+  |
+6 |     FFramesRenderBackend, Frame, RenderOptions, StaticMediaProvider, Svgr, Transform, Video,
+  |                                                 ^^^^^^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `SkiaBackend`
+  --> render-bench/vs-remotion/src/bin/circles-adapter.rs:10:5
+   |
+10 |     SkiaBackend, SkiaCacheConfig, SkiaFFramesRenderer, SkiaPipelineConcurrencyPolicy,
+   |     ^^^^^^^^^^^
+
+warning: function `cpu_backend` is never used
+  --> render-bench/vs-remotion/src/bin/circles-adapter.rs:33:4
+   |
+33 | fn cpu_backend() -> CpuRenderingBackend {
+   |    ^^^^^^^^^^^
+   |
+   = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: `vs-remotion-bench` (bin "circles-adapter") generated 4 warnings (1 duplicate) (run `cargo fix --bin "circles-adapter" -p vs-remotion-bench` to apply 2 suggestions)
+    Finished `release` profile [optimized] target(s) in 42.76s
+warning: the following packages contain code that will be rejected by a future version of Rust: block v0.1.6
+note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 1`

@@ -1,0 +1,78 @@
+{
+  "preparationOnly": true,
+  "noNewGpuExportOr4KQualification": true,
+  "frames": 300,
+  "width": 256,
+  "height": 128,
+  "fps": "30000/1001",
+  "center": {
+    "physicalCentroid": [
+      0.5,
+      0.5
+    ],
+    "equal2x2Weights": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "locationCodeTopBottom": [
+      1,
+      1
+    ]
+  },
+  "color": "sRGB EOTF then BT709 OETF, 709 limited Y16+219luma,U/V128+224chroma",
+  "nominalTolerance": 1,
+  "RGBStorage": "RGBA8Unorm pinned metal.mm; no alternate channel fitting",
+  "controlSources": "retained separate3 same-scene RGBA and NV12 controls at frames0/150/299; not a fresh same-stream GPU test",
+  "solidControlCoordinates": [
+    [
+      16,
+      16
+    ],
+    [
+      240,
+      16
+    ],
+    [
+      16,
+      120
+    ],
+    [
+      240,
+      80
+    ]
+  ],
+  "solidColors": [
+    [
+      255,
+      0,
+      0
+    ],
+    [
+      0,
+      255,
+      0
+    ],
+    [
+      0,
+      0,
+      255
+    ],
+    [
+      255,
+      255,
+      255
+    ]
+  ],
+  "floorsUnchanged": {
+    "ssimY": 0.995,
+    "psnrY": 40,
+    "psnrU": 35,
+    "psnrV": 35
+  },
+  "mandatoryConformanceCopyAndParserCostIncludedInFutureExportClocks": true,
+  "nativePool": 3,
+  "modifiedFPoolPerContext": 64,
+  "atomicOutput": "reject existing destination; private temporary candidate; link only after metadata/payload gates; no replace"
+}

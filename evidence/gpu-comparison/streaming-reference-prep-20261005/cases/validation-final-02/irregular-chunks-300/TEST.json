@@ -1,0 +1,15 @@
+{
+  "case": "irregular-chunks-300",
+  "passed": true,
+  "expectedRefusal": null,
+  "observedError": null,
+  "secondsExcludedFromBenchmarks": 0.48736649999045767,
+  "sourceUnchanged": true,
+  "GPUExecuted": false,
+  "atomicFinalExists": true,
+  "frames": 300,
+  "maxWriterQueuedBytes": 98304,
+  "drainCalls": 300,
+  "backpressureObservations": 4,
+  "selfMaxRSSBytes": 33685504
+}

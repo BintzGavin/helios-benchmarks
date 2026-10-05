@@ -1,0 +1,10 @@
+{
+  "test": "pretend-real-hardware",
+  "passed": true,
+  "expectedRefusal": "DRIVER_EXIT",
+  "observedError": "Refusal:DRIVER_EXIT",
+  "secondsExcludedFromBenchmark": 1.2088030409940984,
+  "GPUExecuted": false,
+  "sourceUnchanged": true,
+  "publishedFixtureBinding": false
+}

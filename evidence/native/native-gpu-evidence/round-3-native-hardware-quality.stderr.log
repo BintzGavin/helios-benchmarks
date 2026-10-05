@@ -1,0 +1,27 @@
+/Users/gavinbintz/.codex/worktrees/native-gpu-rendering/helios/packages/portable/benchmarks/gpu-quality.ts:21
+  if (!Number.isInteger(num) || !Number.isInteger(den) || num <= 0 || den <= 0 || decoded.frames.length !== 300 || stream.color_range !== 'tv' || stream.color_space !== 'bt709' || stream.color_transfer !== 'bt709' || stream.color_primaries !== 'bt709') throw new Error('Quality input violates delivery color/time-base contract');
+                                                                                                                                                                                                                                                                   ^
+
+Error: Quality input violates delivery color/time-base contract
+    at <anonymous> (/Users/gavinbintz/.codex/worktrees/native-gpu-rendering/helios/packages/portable/benchmarks/gpu-quality.ts:21:260)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+
+Node.js v22.23.1
+       24.67 real        45.24 user         0.45 sys
+           107364352  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               25878  page reclaims
+                 418  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                 758  messages sent
+                 756  messages received
+                   0  signals received
+                 501  voluntary context switches
+               38522  involuntary context switches
+          1073011836  instructions retired
+           389458425  cycles elapsed
+            27642448  peak memory footprint

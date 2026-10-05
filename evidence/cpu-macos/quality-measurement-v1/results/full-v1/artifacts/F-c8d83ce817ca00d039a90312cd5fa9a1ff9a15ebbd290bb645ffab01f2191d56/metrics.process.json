@@ -1,0 +1,30 @@
+{
+  "command": [
+    "/opt/homebrew/bin/ffmpeg",
+    "-v",
+    "info",
+    "-nostdin",
+    "-threads",
+    "4",
+    "-i",
+    "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/three-engine-v1/results/full-v1/ultrafast-warmup-1-F/output.mp4",
+    "-threads",
+    "4",
+    "-i",
+    "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/quality-measurement-v1/results/full-v1/references/F/reference.nut",
+    "-filter_complex_threads",
+    "4",
+    "-filter_complex",
+    "[0:v]setpts=N/(30*TB),split=2[o1][o2];[1:v]setpts=N/(30*TB),split=2[r1][r2];[o1][r1]psnr=stats_file=psnr.stats:stats_version=2:output_max=1:shortest=1[p];[o2][r2]ssim=stats_file=ssim.stats:shortest=1[s]",
+    "-map",
+    "[p]",
+    "-map",
+    "[s]",
+    "-fps_mode",
+    "passthrough",
+    "-f",
+    "null",
+    "-"
+  ],
+  "exitCode": 0
+}

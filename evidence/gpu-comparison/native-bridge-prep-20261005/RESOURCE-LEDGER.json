@@ -1,0 +1,34 @@
+{
+  "status": "bounded CPU fixture measurements only; no 4K extrapolation accepted",
+  "activeSerialGateBytes": 9663676416,
+  "activeBalancedGateBytes": 16106127360,
+  "proposedStreamingGateBytes": 6442450944,
+  "streamingGateEnabled": false,
+  "freeBytesAtFreeze": 995188736,
+  "rawFixtureBytes": 14745600,
+  "CPUFixtureDimensions": [
+    256,
+    128
+  ],
+  "CPUFixtureFrames": 300,
+  "referenceFrameBytes": 49152,
+  "pythonMaxRSSBytes": 38027264,
+  "maxPlanarWriterQueueBytes": 114688,
+  "maxProducerStdoutWriterQueueBytes": 131070,
+  "fixtureOutputCapBytes": 33554432,
+  "fixtureTimeoutSeconds": 30,
+  "fixtureMinFreeBytes": 268435456,
+  "geometrySourceOrderMemoryActualGPUAcceptance": false,
+  "newCargoBuild": false,
+  "GPUExports": 0,
+  "oldArtifactsDeleted": false,
+  "diskGatesLowered": false,
+  "nextRealDeviceResourceRequirements": {
+    "minimumSerialFreeBytes": 9663676416,
+    "minimumBalancedFreeBytes": 16106127360,
+    "rawNV12Per4KFrameBytes": 12441600,
+    "referenceNV12Per300FramesBytes": 3732480000,
+    "retainedRawBudgetBytes": 9663676416,
+    "actual4KPeakMemory": "unqualified"
+  }
+}

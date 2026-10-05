@@ -1,0 +1,21 @@
+{
+  "status": "retained initial successful source generation; excluded as current tests",
+  "sourcesReconstructedExactlyFromRecordedEdits": [
+    {
+      "file": "nv12_fixture_worker.py",
+      "sha256": "a3891b0c99ae2768f00cf1e06f5d5f5afc70a2c426dc651cbbb1d1c81c8b1abe",
+      "matchesInitialPin": true
+    },
+    {
+      "file": "stream_nv12_reference.py",
+      "sha256": "f492e891e1931dd7a315f13803348d0b18350123ce32d9951d93db679cff538a",
+      "matchesInitialPin": true
+    },
+    {
+      "file": "test_stream_nv12_reference.py",
+      "sha256": "37a1e2d1d43c0bdd8a1aa45dddc96ca5d39779239d0d903a0e0134ca879851e3",
+      "matchesInitialPin": true
+    }
+  ],
+  "reason": "superseded by process-group cleanup strengthening and final control-result handling; no GPU/benchmark result"
+}

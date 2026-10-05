@@ -1,0 +1,22 @@
+[package]
+name = "tiktok-example"
+version = "1.0.1"
+edition = "2024"
+
+[dependencies]
+fframes = { workspace = true, features = ["vpx", "opus"] }
+tiktok-media ={path="./media"}
+libm="0.2.8"
+
+[features]
+default=["renderer"]
+renderer = ["fframes/compile-time-svgtree", "fframes/cli"]
+
+[lib]
+name = "tiktok_example"
+path = "src/lib.rs"
+
+[[bin]]
+name = "tiktok_example_bin"
+path = "src/main.rs"
+required-features=["renderer"]

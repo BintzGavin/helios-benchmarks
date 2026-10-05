@@ -1,0 +1,21 @@
+{
+  "argv": [
+    "cargo",
+    "build",
+    "--release",
+    "--locked",
+    "-p",
+    "vs-remotion-bench",
+    "--target-dir",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes"
+  ],
+  "pid": 30157,
+  "cwd": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes",
+  "cargo_home": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/cargo-home",
+  "kind": "release-build",
+  "benchmark_timing": false,
+  "status": "failed",
+  "returncode": null,
+  "terminal_status_evidence": "Native implementation thread checked former PID absent; origin independently inspected ffmpeg/Skia build stderr ending in failed git-sync-deps and cargo build failure. Terminal exit code was not saved by the interrupted supervisor.",
+  "blocker": "Skia dependency synchronization failed resolving chromium.googlesource.com and skia.googlesource.com; see fframes-build.stderr.log"
+}

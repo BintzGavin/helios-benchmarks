@@ -1,0 +1,96 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-encoder-pool/helios/packages/portable/src/gpu.ts",
+      "expected": "4a16fcbbccaf089ccea10d013295a5d4191968d44662874b9faeafb86652e1dd",
+      "actual": "4a16fcbbccaf089ccea10d013295a5d4191968d44662874b9faeafb86652e1dd",
+      "passed": true
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-encoder-pool/helios/packages/portable/native/src/main.rs",
+      "expected": "df2a70ae2cb90bb1d5b333616104b957b8433b60baa0233601d58bedad4d67ba",
+      "actual": "df2a70ae2cb90bb1d5b333616104b957b8433b60baa0233601d58bedad4d67ba",
+      "passed": true
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-encoder-pool/helios/packages/portable/native/metal.mm",
+      "expected": "84be393441671bb9a3f979d5b97f7f01d185200ec950a895e7ff4d0cc7da519d",
+      "actual": "84be393441671bb9a3f979d5b97f7f01d185200ec950a895e7ff4d0cc7da519d",
+      "passed": true
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-encoder-pool/helios/packages/portable/native/encoder-flight.hpp",
+      "expected": "e621ea35a3006cf687b50cb5c859b4610c76a0068c0cc0fb09e30985c4c3b02a",
+      "actual": "e621ea35a3006cf687b50cb5c859b4610c76a0068c0cc0fb09e30985c4c3b02a",
+      "passed": true
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-encoder-pool/helios/packages/portable/native/build.rs",
+      "expected": "4316755700b94781f9f9425cf5af3ce4330bdfaf862051e451d34b5d1991d1e6",
+      "actual": "4316755700b94781f9f9425cf5af3ce4330bdfaf862051e451d34b5d1991d1e6",
+      "passed": true
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-encoder-pool/helios/packages/portable/native/Cargo.toml",
+      "expected": "24a3232ef28a9556bd44c0e87aa8c460dda7e8b2be74141246e1bed4b3c933ec",
+      "actual": "24a3232ef28a9556bd44c0e87aa8c460dda7e8b2be74141246e1bed4b3c933ec",
+      "passed": true
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-encoder-pool/helios/packages/portable/native/Cargo.lock",
+      "expected": "46fe52b24821ea898032b88a13cf768d70d2ccea006f18f1843d53f866fd99a4",
+      "actual": "46fe52b24821ea898032b88a13cf768d70d2ccea006f18f1843d53f866fd99a4",
+      "passed": true
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-encoder-pool/helios/packages/portable/native/fault-pool.mm",
+      "expected": "0dbf0156696565815e3fc2e749b3b6a1434965fbb698150b1df32d503ee1bfe7",
+      "actual": "0dbf0156696565815e3fc2e749b3b6a1434965fbb698150b1df32d503ee1bfe7",
+      "passed": true
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-encoder-pool/helios/packages/portable/native/tests/encoder-flight.cpp",
+      "expected": "e3a13fcdaaeffbc552d374b9b1cab6b63bafb1ed767cf0e6363807aaaae1611b",
+      "actual": "e3a13fcdaaeffbc552d374b9b1cab6b63bafb1ed767cf0e6363807aaaae1611b",
+      "passed": true
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-encoder-pool/helios/packages/portable/scripts/check-gpu-pool.mjs",
+      "expected": "24de2237a23f61e4d56e1616ff2373bdf42c543a56e6c2ce957f8cde86285f97",
+      "actual": "24de2237a23f61e4d56e1616ff2373bdf42c543a56e6c2ce957f8cde86285f97",
+      "passed": true
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-encoder-pool/helios/packages/portable/benchmarks/gpu.ts",
+      "expected": "17165c6f94b81e06e45e01c16f97d6bdc17ba2e9b92be545565a1c3c62139317",
+      "actual": "17165c6f94b81e06e45e01c16f97d6bdc17ba2e9b92be545565a1c3c62139317",
+      "passed": true
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-encoder-pool/helios/packages/portable/benchmarks/gpu-quality.ts",
+      "expected": "403f66ca39c1d6a1a183bc698783267ce144ef1459a26b43b36e51e5c7976248",
+      "actual": "403f66ca39c1d6a1a183bc698783267ce144ef1459a26b43b36e51e5c7976248",
+      "passed": true
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-encoder-pool/helios/packages/portable/benchmarks/profile-gpu.mm",
+      "expected": "6ed403ae9f17384fb2ac47a6323b7f71a129410a380b7ff573eaef86dadfd4be",
+      "actual": "6ed403ae9f17384fb2ac47a6323b7f71a129410a380b7ff573eaef86dadfd4be",
+      "passed": true
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-encoder-pool/helios/packages/portable/tests/gpu-pool.test.ts",
+      "expected": "e3d14d34e33ddc9939fc06d5a53d4c682f54d3b6517b1e320d69fec3302477c4",
+      "actual": "e3d14d34e33ddc9939fc06d5a53d4c682f54d3b6517b1e320d69fec3302477c4",
+      "passed": true
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-encoder-pool/helios/packages/portable/tests/gpu-pool-native.test.ts",
+      "expected": "0349a652b49d2f119e837c92a241784ca40f1ce147c47c24fbf2e56133856bd2",
+      "actual": "0349a652b49d2f119e837c92a241784ca40f1ce147c47c24fbf2e56133856bd2",
+      "passed": true
+    }
+  ],
+  "scope": "independent source/executable binding only; new4K qualification pending"
+}

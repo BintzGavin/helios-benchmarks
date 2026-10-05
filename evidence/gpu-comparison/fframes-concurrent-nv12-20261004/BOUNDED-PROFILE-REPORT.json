@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "scope": "separate excluded 3-frame actual GPU profile, not 4K profile yet",
+  "uncaptured": {
+    "interposer-installed": 1,
+    "IOSurfaceGetBaseAddress": 18,
+    "IOSurfaceGetBaseAddressOfPlane": 167,
+    "buffer-contents-unknown-intent": 6
+  },
+  "positiveControls": {
+    "interposer-installed": 1,
+    "IOSurfaceGetBaseAddress": 18,
+    "IOSurfaceGetBaseAddressOfPlane": 245,
+    "buffer-contents-unknown-intent": 9,
+    "texture-to-buffer": 3,
+    "CVPixelBufferLockBaseAddress": 3,
+    "IOSurfaceLock": 3,
+    "CVPixelBufferGetBaseAddressOfPlane": 6
+  },
+  "positiveRGBABytes": 393216,
+  "metalCaptureBytes": 5309157,
+  "systemPointerQueriesIntentUnknown": true,
+  "unhookedDriverEncoderTransfersUnknown": true,
+  "hookScope": "CV/IOSurface map and pointer APIs; concrete probed Metal texture getBytes variant and texture-to-buffer selector; buffer contents intent unknown",
+  "zeroCopyProved": false,
+  "benchmarkTiming": false,
+  "converterSha256": "11522ab92e119b84f9af86b9abf5864263c774a21ac7505b82a6556b6e9e132d"
+}

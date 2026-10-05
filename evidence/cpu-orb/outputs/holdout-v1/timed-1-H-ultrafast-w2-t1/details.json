@@ -1,0 +1,36 @@
+{
+  "engine": "H",
+  "node": "v24.19.0",
+  "ffmpegArgv": [],
+  "stats": {
+    "frames": 300,
+    "chunks": 2,
+    "workers": 2,
+    "ranges": [
+      {
+        "frames": 150,
+        "preparationMs": 33.832595999999995,
+        "rasterizeMs": 13063.713332999987,
+        "pixelExtractionMs": 1685.423714999995,
+        "drawMs": 14750.712582000002,
+        "encoderWaitMs": 1973.4123590000079,
+        "encodeMs": 16848.150189,
+        "verifyMs": 122.27845199999865
+      },
+      {
+        "frames": 150,
+        "preparationMs": 32.626761999999985,
+        "rasterizeMs": 13218.771399000007,
+        "pixelExtractionMs": 1773.715532000007,
+        "drawMs": 14994.015723999992,
+        "encoderWaitMs": 1922.185460999991,
+        "encodeMs": 17034.45695,
+        "verifyMs": 111.25959700000021
+      }
+    ],
+    "renderMs": 17428.0763,
+    "finalizeMs": 3407.7967500000013,
+    "finalVerifyMs": 2807.0305750000007
+  },
+  "apiWallNs": 20907603885
+}

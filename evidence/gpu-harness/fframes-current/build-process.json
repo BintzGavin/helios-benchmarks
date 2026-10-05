@@ -1,0 +1,21 @@
+{
+  "sourceCommit": "f89cbd572524b70a709ba3569fa23b0bbc8a0d9c",
+  "argv": [
+    "/opt/homebrew/bin/cargo",
+    "build",
+    "--release",
+    "--locked",
+    "-p",
+    "vs-remotion-bench",
+    "--target-dir",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current"
+  ],
+  "cwd": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-current",
+  "benchmarkTiming": false,
+  "status": "completed",
+  "startedUnix": 1791038939.132071,
+  "pid": 76303,
+  "returncode": 0,
+  "finishedUnix": 1791038984.534134,
+  "wallSeconds": 45.40206289291382
+}

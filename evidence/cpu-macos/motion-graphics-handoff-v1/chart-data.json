@@ -1,0 +1,103 @@
+{
+  "scope": {
+    "hardware": "Apple M3 Pro, 11 available logical CPUs, macOS arm64",
+    "workload": "Native Canvas / CPU SVG / strict CPU DOM TextGrid; 3334 labels; DM Sans; 1920x1080; 300 frames; 30 fps",
+    "encoding": "software libx264 CRF11; medium and ultrafast; GOP24; BT.601 TV YUV420P",
+    "fidelity": "every frame SSIM Y>=.995 and PSNR Y>=40dB/U>=35dB/V>=35dB against own lossless rasterizer reference",
+    "rasterizersDiffer": true,
+    "arbitraryBrowserCompositionsProven": false,
+    "remoteSuperiorityProven": false
+  },
+  "summary": [
+    {
+      "preset": "medium",
+      "originalDeliveredWallNs": {
+        "H": [
+          11990895250,
+          11883339541,
+          12093428833
+        ],
+        "F": [
+          15197427542,
+          15203560167,
+          15769708541
+        ],
+        "R": [
+          24181038583,
+          23864236959,
+          24039981583
+        ]
+      },
+      "medianDeliveredWallNs": {
+        "H": 11990895250,
+        "F": 15203560167,
+        "R": 24039981583
+      },
+      "medianSeconds": {
+        "H": 11.99089525,
+        "F": 15.203560167,
+        "R": 24.039981583
+      },
+      "ratioOfMediansFOverH": 1.2679253592011823,
+      "ratioOfMediansROverH": 2.004852938983017,
+      "withinRoundFOverH": [
+        1.267413919073307,
+        1.279401309248511,
+        1.3039898575305902
+      ],
+      "withinRoundROverH": [
+        2.0166166144266833,
+        2.0082096347296488,
+        1.9878548850761655
+      ],
+      "heliosWinsVsF": 3,
+      "heliosWinsVsR": 3
+    },
+    {
+      "preset": "ultrafast",
+      "originalDeliveredWallNs": {
+        "H": [
+          4210728167,
+          4540987958,
+          3757034500
+        ],
+        "F": [
+          7357826791,
+          7618406083,
+          6988056042
+        ],
+        "R": [
+          17995099333,
+          18383750583,
+          18165699834
+        ]
+      },
+      "medianDeliveredWallNs": {
+        "H": 4210728167,
+        "F": 7357826791,
+        "R": 18165699834
+      },
+      "medianSeconds": {
+        "H": 4.210728167,
+        "F": 7.357826791,
+        "R": 18.165699834
+      },
+      "ratioOfMediansFOverH": 1.7474000930917848,
+      "ratioOfMediansROverH": 4.31414689182903,
+      "withinRoundFOverH": [
+        1.7474000930917848,
+        1.6776979268527714,
+        1.8599925132441557
+      ],
+      "withinRoundROverH": [
+        4.273631215149396,
+        4.04840328867483,
+        4.835116588362443
+      ],
+      "heliosWinsVsF": 3,
+      "heliosWinsVsR": 3
+    }
+  ],
+  "originalTimersPreserved": true,
+  "screeningTimesUsedForClaims": false
+}

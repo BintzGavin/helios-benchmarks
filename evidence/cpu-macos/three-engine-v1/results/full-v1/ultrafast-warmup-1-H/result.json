@@ -1,0 +1,170 @@
+{
+  "engine": "H",
+  "preset": "ultrafast",
+  "phase": "warmup",
+  "index": 1,
+  "directory": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/three-engine-v1/results/full-v1/ultrafast-warmup-1-H",
+  "workers": 6,
+  "encoderThreads": 4,
+  "status": "complete",
+  "components": {
+    "engineProcess": {
+      "command": [
+        "/Users/gavinbintz/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/three-engine-v1/worker.mjs",
+        "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/three-engine-v1/results/full-v1/ultrafast-warmup-1-H/config.json"
+      ],
+      "exitCode": 0,
+      "wallNs": 5233346375
+    }
+  },
+  "compositionSha256": "e106f60729fa290c2a030f3c7ad1509205ddcf69f2a6c16503f94126b486529a",
+  "deliveredWallNs": 5234065417,
+  "details": {
+    "engine": "H",
+    "node": "v24.19.0",
+    "ffmpegArgv": [],
+    "stats": {
+      "frames": 300,
+      "chunks": 6,
+      "workers": 6,
+      "ranges": [
+        {
+          "frames": 50,
+          "preparationMs": 160.36845799999998,
+          "rasterizeMs": 2441.8341669999995,
+          "pixelExtractionMs": 377.25283100000024,
+          "drawMs": 2823.679992,
+          "encoderWaitMs": 458.09125299999835,
+          "encodeMs": 3347.120167,
+          "verifyMs": 70.8254579999998
+        },
+        {
+          "frames": 50,
+          "preparationMs": 176.790208,
+          "rasterizeMs": 2523.0513360000004,
+          "pixelExtractionMs": 387.5192959999993,
+          "drawMs": 2911.394207,
+          "encoderWaitMs": 405.84962400000023,
+          "encodeMs": 3370.425667,
+          "verifyMs": 59.52854099999968
+        },
+        {
+          "frames": 50,
+          "preparationMs": 144.2825,
+          "rasterizeMs": 2530.0443340000006,
+          "pixelExtractionMs": 377.5136670000006,
+          "drawMs": 2908.273288999999,
+          "encoderWaitMs": 440.98462599999993,
+          "encodeMs": 3412.410833,
+          "verifyMs": 63.547665999999936
+        },
+        {
+          "frames": 50,
+          "preparationMs": 173.79458300000002,
+          "rasterizeMs": 2508.9339159999995,
+          "pixelExtractionMs": 432.58278799999965,
+          "drawMs": 2942.158289,
+          "encoderWaitMs": 401.9217490000003,
+          "encodeMs": 3391.207,
+          "verifyMs": 66.58641699999998
+        },
+        {
+          "frames": 50,
+          "preparationMs": 149.44041700000002,
+          "rasterizeMs": 2600.001331000001,
+          "pixelExtractionMs": 381.7700840000012,
+          "drawMs": 2982.9558310000016,
+          "encoderWaitMs": 423.9662020000001,
+          "encodeMs": 3458.074375,
+          "verifyMs": 48.94791600000008
+        },
+        {
+          "frames": 50,
+          "preparationMs": 166.53175,
+          "rasterizeMs": 2600.001373999999,
+          "pixelExtractionMs": 404.1144589999996,
+          "drawMs": 3004.87642,
+          "encoderWaitMs": 429.8843330000009,
+          "encodeMs": 3481.3347919999997,
+          "verifyMs": 43.55970900000011
+        }
+      ],
+      "renderMs": 3866.9272920000003,
+      "finalizeMs": 985.134333,
+      "finalVerifyMs": 598.5237500000003
+    },
+    "apiWallNs": 5082259209
+  },
+  "verificationPolicy": "compiled H finalVerifyMs (8-thread full decode); internal checks retained",
+  "encoding": {
+    "rawUserSei": "x264 - core 165 r3222 b35605a - H.264/MPEG-4 AVC codec - Copyleft 2003-2025 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=4 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=24 keyint_min=2 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=11.0 qcomp=0.60 qpmin=15 qpmax=60 qpstep=4 ip_ratio=1.40 aq=0",
+    "parameters": {
+      "cabac": "0",
+      "ref": "1",
+      "deblock": "0:0:0",
+      "analyse": "0:0",
+      "me": "dia",
+      "subme": "0",
+      "psy": "1",
+      "psy_rd": "1.00:0.00",
+      "mixed_ref": "0",
+      "me_range": "16",
+      "chroma_me": "1",
+      "trellis": "0",
+      "x8dct": "0",
+      "cqm": "0",
+      "deadzone": "21,11",
+      "fast_pskip": "1",
+      "chroma_qp_offset": "0",
+      "threads": "4",
+      "lookahead_threads": "1",
+      "sliced_threads": "0",
+      "nr": "0",
+      "decimate": "1",
+      "interlaced": "0",
+      "bluray_compat": "0",
+      "constrained_intra": "0",
+      "bframes": "0",
+      "weightp": "0",
+      "keyint": "24",
+      "keyint_min": "2",
+      "scenecut": "0",
+      "intra_refresh": "0",
+      "rc": "crf",
+      "mbtree": "0",
+      "crf": "11.0",
+      "qcomp": "0.60",
+      "qpmin": "15",
+      "qpmax": "60",
+      "qpstep": "4",
+      "ip_ratio": "1.40",
+      "aq": "0"
+    },
+    "expected": {
+      "threads": 4,
+      "bframes": 0,
+      "keyint": 24,
+      "crf": 11,
+      "qpmin": 15,
+      "qpmax": 60,
+      "qcomp": 0.6,
+      "qpstep": 4,
+      "scenecut": 0,
+      "cabac": 0,
+      "ref": 1,
+      "subme": 0,
+      "trellis": 0
+    },
+    "presetLiteralAvailable": false
+  },
+  "sourceRuntimeUnchanged": true,
+  "outputs": [
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/three-engine-v1/results/full-v1/ultrafast-warmup-1-H/output.mp4",
+      "bytes": 196211916,
+      "sha256": "67110a23e7d7602d9e003577931b9e6294bef76a6a6afc01077ce3b13f64fb1d"
+    }
+  ],
+  "retainedOutputBytes": 2035296964
+}

@@ -1,0 +1,34 @@
+{
+  "recordsVerified": 12,
+  "sourceRuntimeBindingsVerified": 740,
+  "outputBytesRehashed": 1926454024,
+  "originalTimersPreserved": true,
+  "requiredGpuStagesSoftware": true,
+  "qualityAndCadence": "pending",
+  "summary": {
+    "jpeg80-c6": {
+      "deliveredWallNs": [
+        21006291834,
+        21266979917,
+        22679112291
+      ],
+      "medianSeconds": 21.266979917
+    },
+    "jpeg100-c6": {
+      "deliveredWallNs": [
+        23741996958,
+        25746354792,
+        25436063292
+      ],
+      "medianSeconds": 25.436063292
+    },
+    "jpeg100-c11": {
+      "deliveredWallNs": [
+        24417357459,
+        25154446083,
+        24030359584
+      ],
+      "medianSeconds": 24.417357459
+    }
+  }
+}

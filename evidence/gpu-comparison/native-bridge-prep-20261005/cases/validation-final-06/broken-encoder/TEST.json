@@ -1,0 +1,14 @@
+{
+  "test": "broken-encoder",
+  "passed": true,
+  "expectedRefusal": [
+    "BrokenPipeError",
+    "ConnectionResetError",
+    "ENCODER_EXIT"
+  ],
+  "observedError": "BrokenPipeError:[Errno 32] Broken pipe",
+  "secondsExcludedFromBenchmark": 0.19484379200730473,
+  "GPUExecuted": false,
+  "sourceUnchanged": true,
+  "publishedFixtureBinding": false
+}

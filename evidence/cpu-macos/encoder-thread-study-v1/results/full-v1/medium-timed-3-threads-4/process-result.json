@@ -1,0 +1,21 @@
+{
+  "profile": "medium",
+  "phase": "timed",
+  "index": 3,
+  "encoderThreadsPerWorker": 4,
+  "aggregateEncoderThreads": 16,
+  "command": [
+    "/Users/gavinbintz/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+    "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/encoder-thread-study-v1/worker.mjs",
+    "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/encoder-thread-study-v1/results/full-v1/medium-timed-3-threads-4/config.json"
+  ],
+  "exitCode": 0,
+  "directory": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/encoder-thread-study-v1/results/full-v1/medium-timed-3-threads-4",
+  "compositionSha256": "eb9b7798725a6f1836181819e5248c6290cd9e23abd3fba0773af4e9667947ba",
+  "externalProcessWallNs": 12464957958,
+  "externalProcessWallMs": 12464.957958,
+  "outputBytes": 143111849,
+  "outputSha256": "22a31038cadb72e1f0c937e8ba3569a066d296be89f4f66f499ebf981f3d5eba",
+  "sourceUnchanged": true,
+  "retainedOutputBytes": 1717333196
+}

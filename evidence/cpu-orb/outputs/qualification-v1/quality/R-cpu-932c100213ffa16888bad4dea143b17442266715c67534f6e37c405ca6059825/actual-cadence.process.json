@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/usr/bin/ffprobe",
+    "-v",
+    "error",
+    "-threads",
+    "2",
+    "-select_streams",
+    "v:0",
+    "-show_frames",
+    "-show_streams",
+    "-show_entries",
+    "frame=pts,best_effort_timestamp,pkt_dts,duration,pkt_duration,key_frame,pict_type:stream=codec_name,codec_type,width,height,pix_fmt,color_space,color_range,time_base,start_pts,duration_ts,avg_frame_rate,r_frame_rate,nb_frames",
+    "-of",
+    "json",
+    "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/qualification-v1/qualification-1-R-medium-w2-t1/output.mp4"
+  ],
+  "exitCode": 0
+}

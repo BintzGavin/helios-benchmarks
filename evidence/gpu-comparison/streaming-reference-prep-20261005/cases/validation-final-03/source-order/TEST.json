@@ -1,0 +1,10 @@
+{
+  "case": "source-order",
+  "passed": true,
+  "expectedRefusal": "PRODUCER_SOURCE_ORDER",
+  "observedError": "Refusal: PRODUCER_SOURCE_ORDER",
+  "secondsExcludedFromBenchmarks": 0.06470854100189172,
+  "sourceUnchanged": true,
+  "GPUExecuted": false,
+  "atomicFinalExists": false
+}

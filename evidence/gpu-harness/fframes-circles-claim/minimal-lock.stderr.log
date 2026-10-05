@@ -1,0 +1,8 @@
+     Locking 3 packages to latest compatible versions
+      Adding svgr v0.46.0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr)
+      Adding svgrtypes v0.46.0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgrtypes)
+      Adding usvgr v0.46.0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr)
+error: failed to download `ab_glyph v0.2.32`
+
+Caused by:
+  attempting to make an HTTP request, but --offline was specified

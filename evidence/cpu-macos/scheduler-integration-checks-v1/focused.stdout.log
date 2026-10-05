@@ -1,0 +1,23 @@
+
+ RUN  v3.2.4 /private/tmp/helios-scheduler-merge-20261001
+
+[vpw:debug] Adding `enable_nodejs_tty_module` compatibility flag during tests as this feature is needed to support the Vitest runner.
+[vpw:debug] Adding `enable_nodejs_fs_module` compatibility flag during tests as this feature is needed to support the Vitest runner.
+[vpw:debug] Adding `enable_nodejs_http_modules` compatibility flag during tests as this feature is needed to support the Vitest runner.
+[vpw:debug] Adding `enable_nodejs_perf_hooks_module` compatibility flag during tests as this feature is needed to support the Vitest runner.
+[vpw:info] Starting isolated runtimes for ../../../Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/scheduler-closing-checks-v1/vitest.local-validation.mts...
+ ✓ test/render-readiness.test.ts (5 tests) 79ms
+stdout | test/sandbox-audio.test.ts > gates rendering on composition readiness and stops Vite when readiness fails
+[Sandbox] Starting unified OpenCode render: 5s at 30fps, 1280x720
+
+ ✓ test/sandbox-audio.test.ts (5 tests) 126ms
+ ✓ test/media-streaming.test.ts (10 tests) 2810ms
+   ✓ internal media streaming > uploads multiple unknown-length parts in order with a short final part  885ms
+   ✓ internal media streaming > streams a 140 MiB download through the Worker without whole-file buffering  1750ms
+
+ Test Files  3 passed (3)
+      Tests  20 passed (20)
+   Start at  17:22:47
+   Duration  4.62s (transform 155ms, setup 0ms, collect 805ms, tests 3.02s, environment 0ms, prepare 360ms)
+
+[vpw:debug] Shutting down runtimes...

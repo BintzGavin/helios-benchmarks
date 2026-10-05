@@ -1,0 +1,368 @@
+[
+  {
+    "referenceKey": "H",
+    "outputSha256": "47ed717af6c671c2574a716540ce846d1eade6089bb438a0be923c62cba2f569",
+    "referenceSha256": "697f2704dae427a0c4804f34a601fbc98f0e1e07c5f9d62dc9e00b66d2cd278f",
+    "status": "complete",
+    "minima": {
+      "minSsimY": "0.996564",
+      "minPsnrY": "45.88",
+      "minPsnrU": "46.0",
+      "minPsnrV": "45.93"
+    },
+    "violations": [],
+    "passedExistingFidelityAndCadencePolicy": true,
+    "cadence": {
+      "timeBase": "1/30",
+      "decodedFrames": 300,
+      "expectedFrames": 300,
+      "matchesExact30fps300Frames": true,
+      "issues": [],
+      "firstFrame": {
+        "index": 0,
+        "pts": 0,
+        "ptsSecondsExact": "0",
+        "expectedSecondsExact": "0",
+        "deltaSecondsExact": null,
+        "durationTicks": 1,
+        "bestEffortTimestamp": 0,
+        "pktDts": 0,
+        "pictureType": "I"
+      },
+      "lastFrame": {
+        "index": 299,
+        "pts": 299,
+        "ptsSecondsExact": "299/30",
+        "expectedSecondsExact": "299/30",
+        "deltaSecondsExact": "1/30",
+        "durationTicks": 1,
+        "bestEffortTimestamp": 299,
+        "pktDts": null,
+        "pictureType": "P"
+      }
+    },
+    "quality": {
+      "framesMeasured": 300,
+      "psnr": {
+        "pooledMse": 1.3759000000000012,
+        "pooledDb": 46.74493490214327,
+        "ffmpegReportedAggregateDb": "46.745414",
+        "precision": "per-frame and derived pooled metrics use FFmpeg text precision; aggregate line retained separately",
+        "meanFiniteFrameDb": 46.81226666666666,
+        "infiniteFrameCount": 0,
+        "minimumFrameDb": "45.91",
+        "worstFrameIndex": 298
+      },
+      "ssim": {
+        "meanAll": 0.9939949466666674,
+        "minimumAll": 0.992485,
+        "worstFrameIndex": 298
+      }
+    }
+  },
+  {
+    "referenceKey": "F",
+    "outputSha256": "c20fd2a82fcf1803101de04504536e17ae77d49e4b1e7230760cee5bb1b616bc",
+    "referenceSha256": "055b9f1ac8513a1ee2dfc51be057b135dde4208b9aab04f5cc75610bfcc06413",
+    "status": "complete",
+    "minima": {
+      "minSsimY": "0.995885",
+      "minPsnrY": "46.01",
+      "minPsnrU": "46.58",
+      "minPsnrV": "46.6"
+    },
+    "violations": [],
+    "passedExistingFidelityAndCadencePolicy": true,
+    "cadence": {
+      "timeBase": "1/15360",
+      "decodedFrames": 300,
+      "expectedFrames": 300,
+      "matchesExact30fps300Frames": true,
+      "issues": [],
+      "firstFrame": {
+        "index": 0,
+        "pts": 0,
+        "ptsSecondsExact": "0",
+        "expectedSecondsExact": "0",
+        "deltaSecondsExact": null,
+        "durationTicks": 512,
+        "bestEffortTimestamp": 0,
+        "pktDts": 0,
+        "pictureType": "I"
+      },
+      "lastFrame": {
+        "index": 299,
+        "pts": 153088,
+        "ptsSecondsExact": "299/30",
+        "expectedSecondsExact": "299/30",
+        "deltaSecondsExact": "1/30",
+        "durationTicks": 512,
+        "bestEffortTimestamp": 153088,
+        "pktDts": null,
+        "pictureType": "P"
+      }
+    },
+    "quality": {
+      "framesMeasured": 300,
+      "psnr": {
+        "pooledMse": 1.2639666666666658,
+        "pooledDb": 47.11344739986114,
+        "ffmpegReportedAggregateDb": "47.113295",
+        "precision": "per-frame and derived pooled metrics use FFmpeg text precision; aggregate line retained separately",
+        "meanFiniteFrameDb": 47.19360000000004,
+        "infiniteFrameCount": 0,
+        "minimumFrameDb": "46.20",
+        "worstFrameIndex": 184
+      },
+      "ssim": {
+        "meanAll": 0.9944637700000001,
+        "minimumAll": 0.993036,
+        "worstFrameIndex": 298
+      }
+    }
+  },
+  {
+    "referenceKey": "R-cpu",
+    "outputSha256": "932c100213ffa16888bad4dea143b17442266715c67534f6e37c405ca6059825",
+    "referenceSha256": "e654734c407233c6e2adf34ce1a78787736fc1d310d4d7eff3f0cde395c4cdb0",
+    "status": "complete",
+    "minima": {
+      "minSsimY": "0.995812",
+      "minPsnrY": "45.81",
+      "minPsnrU": "45.06",
+      "minPsnrV": "44.85"
+    },
+    "violations": [],
+    "passedExistingFidelityAndCadencePolicy": true,
+    "cadence": {
+      "timeBase": "1/90000",
+      "decodedFrames": 300,
+      "expectedFrames": 300,
+      "matchesExact30fps300Frames": true,
+      "issues": [],
+      "firstFrame": {
+        "index": 0,
+        "pts": 0,
+        "ptsSecondsExact": "0",
+        "expectedSecondsExact": "0",
+        "deltaSecondsExact": null,
+        "durationTicks": 3000,
+        "bestEffortTimestamp": 0,
+        "pktDts": 0,
+        "pictureType": "I"
+      },
+      "lastFrame": {
+        "index": 299,
+        "pts": 897000,
+        "ptsSecondsExact": "299/30",
+        "expectedSecondsExact": "299/30",
+        "deltaSecondsExact": "1/30",
+        "durationTicks": 3000,
+        "bestEffortTimestamp": 897000,
+        "pktDts": null,
+        "pictureType": "P"
+      }
+    },
+    "quality": {
+      "framesMeasured": 300,
+      "psnr": {
+        "pooledMse": 1.5494000000000006,
+        "pooledDb": 46.22916809237205,
+        "ffmpegReportedAggregateDb": "46.230030",
+        "precision": "per-frame and derived pooled metrics use FFmpeg text precision; aggregate line retained separately",
+        "meanFiniteFrameDb": 46.26679999999998,
+        "infiniteFrameCount": 0,
+        "minimumFrameDb": "45.51",
+        "worstFrameIndex": 299
+      },
+      "ssim": {
+        "meanAll": 0.9924245900000004,
+        "minimumAll": 0.990903,
+        "worstFrameIndex": 299
+      }
+    }
+  },
+  {
+    "referenceKey": "H",
+    "outputSha256": "ad82e6bc13985f428ea2e527da9efcf776985cfbec50acbec9f8439a3b4c4112",
+    "referenceSha256": "697f2704dae427a0c4804f34a601fbc98f0e1e07c5f9d62dc9e00b66d2cd278f",
+    "status": "complete",
+    "minima": {
+      "minSsimY": "0.996119",
+      "minPsnrY": "47.08",
+      "minPsnrU": "46.09",
+      "minPsnrV": "46.04"
+    },
+    "violations": [],
+    "passedExistingFidelityAndCadencePolicy": true,
+    "cadence": {
+      "timeBase": "1/30",
+      "decodedFrames": 300,
+      "expectedFrames": 300,
+      "matchesExact30fps300Frames": true,
+      "issues": [],
+      "firstFrame": {
+        "index": 0,
+        "pts": 0,
+        "ptsSecondsExact": "0",
+        "expectedSecondsExact": "0",
+        "deltaSecondsExact": null,
+        "durationTicks": 1,
+        "bestEffortTimestamp": 0,
+        "pktDts": 0,
+        "pictureType": "I"
+      },
+      "lastFrame": {
+        "index": 299,
+        "pts": 299,
+        "ptsSecondsExact": "299/30",
+        "expectedSecondsExact": "299/30",
+        "deltaSecondsExact": "1/30",
+        "durationTicks": 1,
+        "bestEffortTimestamp": 299,
+        "pktDts": 299,
+        "pictureType": "P"
+      }
+    },
+    "quality": {
+      "framesMeasured": 300,
+      "psnr": {
+        "pooledMse": 1.2934666666666688,
+        "pooledDb": 47.01325119674073,
+        "ffmpegReportedAggregateDb": "47.012273",
+        "precision": "per-frame and derived pooled metrics use FFmpeg text precision; aggregate line retained separately",
+        "meanFiniteFrameDb": 47.043600000000076,
+        "infiniteFrameCount": 0,
+        "minimumFrameDb": "46.74",
+        "worstFrameIndex": 112
+      },
+      "ssim": {
+        "meanAll": 0.9928283299999998,
+        "minimumAll": 0.992195,
+        "worstFrameIndex": 269
+      }
+    }
+  },
+  {
+    "referenceKey": "F",
+    "outputSha256": "760dbd4bd588f8c244d2c486e39cc10e8d2d1cf6676e64d0efa23cd85a320706",
+    "referenceSha256": "055b9f1ac8513a1ee2dfc51be057b135dde4208b9aab04f5cc75610bfcc06413",
+    "status": "complete",
+    "minima": {
+      "minSsimY": "0.996283",
+      "minPsnrY": "47.16",
+      "minPsnrU": "46.29",
+      "minPsnrV": "46.3"
+    },
+    "violations": [],
+    "passedExistingFidelityAndCadencePolicy": true,
+    "cadence": {
+      "timeBase": "1/15360",
+      "decodedFrames": 300,
+      "expectedFrames": 300,
+      "matchesExact30fps300Frames": true,
+      "issues": [],
+      "firstFrame": {
+        "index": 0,
+        "pts": 0,
+        "ptsSecondsExact": "0",
+        "expectedSecondsExact": "0",
+        "deltaSecondsExact": null,
+        "durationTicks": 512,
+        "bestEffortTimestamp": 0,
+        "pktDts": 0,
+        "pictureType": "I"
+      },
+      "lastFrame": {
+        "index": 299,
+        "pts": 153088,
+        "ptsSecondsExact": "299/30",
+        "expectedSecondsExact": "299/30",
+        "deltaSecondsExact": "1/30",
+        "durationTicks": 512,
+        "bestEffortTimestamp": 153088,
+        "pktDts": 153088,
+        "pictureType": "P"
+      }
+    },
+    "quality": {
+      "framesMeasured": 300,
+      "psnr": {
+        "pooledMse": 1.1855333333333307,
+        "pooledDb": 47.39166591436697,
+        "ffmpegReportedAggregateDb": "47.392341",
+        "precision": "per-frame and derived pooled metrics use FFmpeg text precision; aggregate line retained separately",
+        "meanFiniteFrameDb": 47.41173333333338,
+        "infiniteFrameCount": 0,
+        "minimumFrameDb": "46.86",
+        "worstFrameIndex": 98
+      },
+      "ssim": {
+        "meanAll": 0.9937128366666673,
+        "minimumAll": 0.99302,
+        "worstFrameIndex": 296
+      }
+    }
+  },
+  {
+    "referenceKey": "R-cpu",
+    "outputSha256": "8b827706fc2566c10eb0c3b45635a040bc1e7bdca9d41c8d807d2cbff284b2da",
+    "referenceSha256": "e654734c407233c6e2adf34ce1a78787736fc1d310d4d7eff3f0cde395c4cdb0",
+    "status": "complete",
+    "minima": {
+      "minSsimY": "0.996127",
+      "minPsnrY": "47.04",
+      "minPsnrU": "45.04",
+      "minPsnrV": "44.98"
+    },
+    "violations": [],
+    "passedExistingFidelityAndCadencePolicy": true,
+    "cadence": {
+      "timeBase": "1/90000",
+      "decodedFrames": 300,
+      "expectedFrames": 300,
+      "matchesExact30fps300Frames": true,
+      "issues": [],
+      "firstFrame": {
+        "index": 0,
+        "pts": 0,
+        "ptsSecondsExact": "0",
+        "expectedSecondsExact": "0",
+        "deltaSecondsExact": null,
+        "durationTicks": 3000,
+        "bestEffortTimestamp": 0,
+        "pktDts": 0,
+        "pictureType": "I"
+      },
+      "lastFrame": {
+        "index": 299,
+        "pts": 897000,
+        "ptsSecondsExact": "299/30",
+        "expectedSecondsExact": "299/30",
+        "deltaSecondsExact": "1/30",
+        "durationTicks": 3000,
+        "bestEffortTimestamp": 897000,
+        "pktDts": 897000,
+        "pictureType": "P"
+      }
+    },
+    "quality": {
+      "framesMeasured": 300,
+      "psnr": {
+        "pooledMse": 1.400266666666668,
+        "pooledDb": 46.66869610308572,
+        "ffmpegReportedAggregateDb": "46.669497",
+        "precision": "per-frame and derived pooled metrics use FFmpeg text precision; aggregate line retained separately",
+        "meanFiniteFrameDb": 46.67909999999994,
+        "infiniteFrameCount": 0,
+        "minimumFrameDb": "46.27",
+        "worstFrameIndex": 3
+      },
+      "ssim": {
+        "meanAll": 0.99185376,
+        "minimumAll": 0.991217,
+        "worstFrameIndex": 243
+      }
+    }
+  }
+]

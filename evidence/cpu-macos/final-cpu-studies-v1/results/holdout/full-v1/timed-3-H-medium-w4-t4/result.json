@@ -1,0 +1,165 @@
+{
+  "id": "H-medium-w4-t4",
+  "engine": "H",
+  "workers": 4,
+  "encoderThreads": 4,
+  "preset": "medium",
+  "jpegQuality": null,
+  "phase": "timed",
+  "index": 3,
+  "directory": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/final-cpu-studies-v1/results/holdout/full-v1/timed-3-H-medium-w4-t4",
+  "status": "complete",
+  "components": {
+    "engine": {
+      "command": [
+        "/Users/gavinbintz/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/three-engine-v1/worker.mjs",
+        "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/final-cpu-studies-v1/results/holdout/full-v1/timed-3-H-medium-w4-t4/config.json"
+      ],
+      "exitCode": 0,
+      "wallNs": 12092985792
+    }
+  },
+  "encoderThreadScope": "per segment/worker encoder",
+  "initialAggregateEncoderThreads": 16,
+  "compositionSha256": "e106f60729fa290c2a030f3c7ad1509205ddcf69f2a6c16503f94126b486529a",
+  "details": {
+    "engine": "H",
+    "node": "v24.19.0",
+    "ffmpegArgv": [],
+    "stats": {
+      "frames": 300,
+      "chunks": 4,
+      "workers": 4,
+      "ranges": [
+        {
+          "frames": 75,
+          "preparationMs": 93.90324999999999,
+          "rasterizeMs": 3774.400043000001,
+          "pixelExtractionMs": 639.2247489999974,
+          "drawMs": 4414.308541999997,
+          "encoderWaitMs": 992.8472939999982,
+          "encodeMs": 9439.413041,
+          "verifyMs": 99.5989580000005
+        },
+        {
+          "frames": 75,
+          "preparationMs": 89.35216699999998,
+          "rasterizeMs": 3948.995502,
+          "pixelExtractionMs": 670.9579189999984,
+          "drawMs": 4620.640207999997,
+          "encoderWaitMs": 887.0779159999964,
+          "encodeMs": 9531.063541,
+          "verifyMs": 72.83449999999903
+        },
+        {
+          "frames": 75,
+          "preparationMs": 94.519792,
+          "rasterizeMs": 3983.8730000000023,
+          "pixelExtractionMs": 666.5213809999976,
+          "drawMs": 4651.101708999999,
+          "encoderWaitMs": 834.4325409999999,
+          "encodeMs": 9563.510166,
+          "verifyMs": 70.12291600000026
+        },
+        {
+          "frames": 75,
+          "preparationMs": 93.987875,
+          "rasterizeMs": 3749.038252999997,
+          "pixelExtractionMs": 745.9814189999985,
+          "drawMs": 4495.744754000002,
+          "encoderWaitMs": 1022.2694599999977,
+          "encodeMs": 9568.82025,
+          "verifyMs": 68.30441599999904
+        }
+      ],
+      "renderMs": 9841.266458,
+      "finalizeMs": 2008.4045420000002,
+      "finalVerifyMs": 1677.399958
+    },
+    "apiWallNs": 11956905166
+  },
+  "deliveredWallNs": 12093428833,
+  "encoding": {
+    "rawUserSei": "x264 - core 165 r3222 b35605a - H.264/MPEG-4 AVC codec - Copyleft 2003-2025 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=4 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=24 keyint_min=2 scenecut=40 intra_refresh=0 rc_lookahead=24 rc=crf mbtree=1 crf=11.0 qcomp=0.60 qpmin=15 qpmax=60 qpstep=4 ip_ratio=1.40 aq=1:1.00",
+    "parameters": {
+      "cabac": "1",
+      "ref": "3",
+      "deblock": "1:0:0",
+      "analyse": "0x3:0x113",
+      "me": "hex",
+      "subme": "7",
+      "psy": "1",
+      "psy_rd": "1.00:0.00",
+      "mixed_ref": "1",
+      "me_range": "16",
+      "chroma_me": "1",
+      "trellis": "1",
+      "x8dct": "1",
+      "cqm": "0",
+      "deadzone": "21,11",
+      "fast_pskip": "1",
+      "chroma_qp_offset": "-2",
+      "threads": "4",
+      "lookahead_threads": "1",
+      "sliced_threads": "0",
+      "nr": "0",
+      "decimate": "1",
+      "interlaced": "0",
+      "bluray_compat": "0",
+      "constrained_intra": "0",
+      "bframes": "3",
+      "b_pyramid": "2",
+      "b_adapt": "1",
+      "b_bias": "0",
+      "direct": "1",
+      "weightb": "1",
+      "open_gop": "0",
+      "weightp": "2",
+      "keyint": "24",
+      "keyint_min": "2",
+      "scenecut": "40",
+      "intra_refresh": "0",
+      "rc_lookahead": "24",
+      "rc": "crf",
+      "mbtree": "1",
+      "crf": "11.0",
+      "qcomp": "0.60",
+      "qpmin": "15",
+      "qpmax": "60",
+      "qpstep": "4",
+      "ip_ratio": "1.40",
+      "aq": "1:1.00"
+    },
+    "expected": {
+      "threads": 4,
+      "bframes": 3,
+      "keyint": 24,
+      "crf": 11,
+      "qpmin": 15,
+      "qpmax": 60,
+      "qcomp": 0.6,
+      "qpstep": 4,
+      "scenecut": 40,
+      "cabac": 1,
+      "ref": 3,
+      "subme": 7,
+      "trellis": 1
+    },
+    "presetLiteralAvailable": false
+  },
+  "outputs": [
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/final-cpu-studies-v1/results/holdout/full-v1/timed-3-H-medium-w4-t4/output.mp4",
+      "bytes": 143111849,
+      "sha256": "22a31038cadb72e1f0c937e8ba3569a066d296be89f4f66f499ebf981f3d5eba"
+    }
+  ],
+  "retainedLogicalMp4Bytes": 1681839414,
+  "physicalMp4Storage": {
+    "uniqueInodeBytes": 462487180,
+    "reportedAllocatedBytes": 462495744
+  },
+  "qualityArtifact": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/final-cpu-studies-v1/results/holdout/full-v1/quality/H-22a31038cadb72e1f0c937e8ba3569a066d296be89f4f66f499ebf981f3d5eba/measurement.json",
+  "eligible": true
+}

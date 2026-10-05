@@ -1,0 +1,15 @@
+{
+  "helios": {
+    "repo": "BintzGavin/helios",
+    "base": "main",
+    "branch": "gavin/perf-native-cpu-rendering",
+    "draftTitle": "feat: add native CPU rendering with parallel output validation"
+  },
+  "scheduler": {
+    "repo": "BintzGavin/durable-objects-requests-scheduler",
+    "base": "master",
+    "branch": "gavin/perf-render-staging",
+    "draftTitle": "perf: streamline render staging and readiness"
+  },
+  "status": "descriptions prepared; no PRs created; closing validation pending"
+}

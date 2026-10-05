@@ -1,0 +1,17 @@
+failed to load config from /Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/scheduler-closing-checks-v1/vitest.local-validation.mts
+
+⎯⎯⎯⎯⎯⎯⎯ Startup Error ⎯⎯⎯⎯⎯⎯⎯⎯
+Error: Dynamic require of "node:assert" is not supported
+    at file:///Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/scheduler-closing-checks-v1/vitest.local-validation.mts.timestamp-1790888893632-89dd989d8a40c.mjs:11:9
+    at node_modules/@cloudflare/vitest-pool-workers/dist/config/index.cjs (file:///Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/scheduler-closing-checks-v1/vitest.local-validation.mts.timestamp-1790888893632-89dd989d8a40c.mjs:73:39)
+    at __require2 (file:///Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/scheduler-closing-checks-v1/vitest.local-validation.mts.timestamp-1790888893632-89dd989d8a40c.mjs:14:50)
+    at file:///Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/scheduler-closing-checks-v1/vitest.local-validation.mts.timestamp-1790888893632-89dd989d8a40c.mjs:248:29
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:643:26
+    at async loadConfigFromBundledFile (file:///private/tmp/helios-scheduler-merge-20261001/node_modules/vite/dist/node/chunks/config.js:35909:12)
+    at async bundleAndLoadConfigFile (file:///private/tmp/helios-scheduler-merge-20261001/node_modules/vite/dist/node/chunks/config.js:35797:17)
+    at async loadConfigFromFile (file:///private/tmp/helios-scheduler-merge-20261001/node_modules/vite/dist/node/chunks/config.js:35764:42)
+    at async resolveConfig (file:///private/tmp/helios-scheduler-merge-20261001/node_modules/vite/dist/node/chunks/config.js:35413:22)
+
+
+

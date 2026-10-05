@@ -1,0 +1,53 @@
+ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers
+  built with Apple clang version 21.0.0 (clang-2100.3.34.2)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/9.0.2 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gpl --enable-libsvtav1 --enable-libopus --enable-libx264 --enable-libmp3lame --enable-libdav1d --enable-libvmaf --enable-libvpx --enable-libx265 --enable-openssl --enable-videotoolbox --enable-audiotoolbox --enable-neon
+  libavutil      61.  1.102 / 61.  1.102
+  libavcodec     63.  1.102 / 63.  1.102
+  libavformat    63.  1.102 / 63.  1.102
+  libavdevice    63.  1.102 / 63.  1.102
+  libavfilter    12.  1.102 / 12.  1.102
+  libswscale     10.  1.102 / 10.  1.102
+  libswresample   7.  1.102 /  7.  1.102
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/three-engine-v1/results/full-v1/medium-warmup-1-R/output.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.1.102
+    comment         : Made with Remotion 4.0.529
+  Duration: 00:00:10.00, start: 0.000000, bitrate: 118842 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, smpte170m/unknown/unknown, progressive), 1920x1080, 118837 kb/s, 30 fps, 30 tbr, 90k tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc63.1.102 libx264
+Input #1, nut, from '/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/quality-measurement-v1/results/full-v1/references/R-legacy/reference.nut':
+  Metadata:
+    encoder         : Lavf63.1.102
+  Duration: 00:00:09.97, start: 0.000000, bitrate: 210215 kb/s
+  Stream #1:0: Video: ffv1 (FFV1 / 0x31564646), yuv420p, 1920x1080, 30 fps, 30 tbr, 61440 tbn
+    Metadata:
+      encoder         : Lavc63.1.102 ffv1
+Stream mapping:
+  Stream #0:0 (h264) -> setpts:default
+  Stream #1:0 (ffv1) -> setpts:default
+  psnr:default -> Stream #0:0 (wrapped_avframe)
+  ssim:default -> Stream #0:1 (wrapped_avframe)
+[Parsed_psnr_4 @ 0xb3d01a1c0] not matching timebases found between first input: 1/90000 and second input 1/61440, results may be incorrect!
+[Parsed_ssim_5 @ 0xb3d01a280] not matching timebases found between first input: 1/90000 and second input 1/61440, results may be incorrect!
+Output #0, null, to 'pipe:':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    comment         : Made with Remotion 4.0.529
+    encoder         : Lavf63.1.102
+  Stream #0:0: Video: wrapped_avframe, yuv420p(tv, smpte170m/unknown/unknown, progressive), 1920x1080, q=2-31, 200 kb/s, 30 fps, 30 tbn (default)
+    Metadata:
+      encoder         : Lavc63.1.102 wrapped_avframe
+  Stream #0:1: Video: wrapped_avframe, yuv420p(tv, smpte170m/unknown/unknown, progressive), 1920x1080, q=2-31, 200 kb/s, 30 fps, 30 tbn
+    Metadata:
+      encoder         : Lavc63.1.102 wrapped_avframe
+frame=   31 fps=0.0 q=-0.0 q=-0.0 size=N/A time=00:00:01.00 bitrate=N/A speed=1.98x elapsed=0:00:00.50    frame=   80 fps= 79 q=-0.0 q=-0.0 size=N/A time=00:00:02.63 bitrate=N/A speed=2.61x elapsed=0:00:01.00    frame=  128 fps= 85 q=-0.0 q=-0.0 size=N/A time=00:00:04.23 bitrate=N/A speed= 2.8x elapsed=0:00:01.51    frame=  176 fps= 87 q=-0.0 q=-0.0 size=N/A time=00:00:05.83 bitrate=N/A speed=2.89x elapsed=0:00:02.01    frame=  226 fps= 90 q=-0.0 q=-0.0 size=N/A time=00:00:07.50 bitrate=N/A speed=2.97x elapsed=0:00:02.52    frame=  273 fps= 90 q=-0.0 q=-0.0 size=N/A time=00:00:09.06 bitrate=N/A speed=2.99x elapsed=0:00:03.02    [Parsed_ssim_5 @ 0xb3d01a280] SSIM Y:0.672319 (4.845485) U:0.876440 (9.081211) V:0.871751 (8.919476) All:0.739578 (5.843219)
+[Parsed_psnr_4 @ 0xb3d01a1c0] PSNR y:21.102039 u:34.700796 v:34.580964 average:22.767859 min:22.441830 max:47.331129
+[out#0/null @ 0xb3d018000] video:248KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=  300 fps= 92 q=-0.0 Lq=-0.0 size=N/A time=00:00:09.96 bitrate=N/A speed=3.05x elapsed=0:00:03.26    

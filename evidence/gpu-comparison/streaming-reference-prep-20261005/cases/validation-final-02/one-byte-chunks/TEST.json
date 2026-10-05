@@ -1,0 +1,15 @@
+{
+  "case": "one-byte-chunks",
+  "passed": true,
+  "expectedRefusal": null,
+  "observedError": null,
+  "secondsExcludedFromBenchmarks": 0.14707929201540537,
+  "sourceUnchanged": true,
+  "GPUExecuted": false,
+  "atomicFinalExists": true,
+  "frames": 1,
+  "maxWriterQueuedBytes": 0,
+  "drainCalls": 1,
+  "backpressureObservations": 0,
+  "selfMaxRSSBytes": 35307520
+}

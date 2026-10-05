@@ -1,0 +1,10 @@
+{
+  "case": "gpu-producer-refusal",
+  "passed": true,
+  "expectedRefusal": "FIXTURE_ONLY",
+  "observedError": "Refusal: FIXTURE_ONLY",
+  "secondsExcludedFromBenchmarks": 8.209026418626308e-06,
+  "sourceUnchanged": true,
+  "GPUExecuted": false,
+  "atomicFinalExists": false
+}

@@ -1,0 +1,26 @@
+{
+  "status": "reported_by_comparison_owner_pending_independent_receipt_review",
+  "comparison_owner": "01a0ff86-ddbd-7703-92b8-781e18082039",
+  "workload": "same-host1920x1080TextGrid300frames",
+  "helios": {
+    "frozen_helper_sha256": "87aec3f3d39db8956490942429e6a865741c04515ad6b98753aaf6599c197a90",
+    "bitrate_target": 100000000,
+    "export_seconds": [6.466908, 6.272889, 5.962093, 6.316006],
+    "export_median_seconds_full_precision_reported": 6.294447333,
+    "delivered_median_seconds": 7.9290045415
+  },
+  "fframes": {
+    "bitrate_target": 180000000,
+    "export_seconds": [5.528986, 5.566173, 5.880582, 5.885494],
+    "export_median_seconds_full_precision_reported": 5.7233773335,
+    "delivered_median_seconds": 7.89223825,
+    "requiredHardwareFrames": true
+  },
+  "reported_qualification": "all300-frame quality floors and PTS pass",
+  "delivered_pair_wins": {"helios": 2, "fframes": 2},
+  "delivered_winner_claim": false,
+  "scope": "separate preoptimization TextGrid baseline; different bitrate targets disclosed; not the4K99k-circleM5Max single-run claim",
+  "timing_window": "hardware complete, software balancedH/F/R active",
+  "next_slices": "circle/GOP first only after owner closes timing; encoder-pool overlap separate afterward",
+  "heavy_work_started_here": false
+}

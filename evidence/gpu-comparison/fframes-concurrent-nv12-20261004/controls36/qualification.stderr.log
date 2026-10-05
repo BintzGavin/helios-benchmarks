@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/qualify-concurrent-nv12.py", line 37, in <module>
+    a,ac=vcl(out/'video.mp4');b,bc=vcl(candidate);assert a==b
+                                                         ^^^^
+AssertionError

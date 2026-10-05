@@ -1,0 +1,72 @@
+{
+  "test": "conformance-failure",
+  "passed": true,
+  "refusal": "Refusal:SHARED-CONFORMANCE_EXIT:1",
+  "fixturePin": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/fixtures/full-range-elementary.h265",
+    "bytes": 257581,
+    "sha256": "3f8fd10c53a654598c888e15c5581569bfb7c9ece388c835c877f60eac0d8d8e"
+  },
+  "processes": [
+    {
+      "label": "native-stdout-driver",
+      "argv": [
+        "/opt/homebrew/Cellar/node@22/22.23.1/bin/node",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_stdout_bridge.mjs",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-extra-final-07/conformance-failure/attempt-20d5f6e95d6d4902a3cd1ef97b9bf83d/ISSUED-SPEC.json"
+      ],
+      "pid": 6719,
+      "processGroup": 6719,
+      "spawnMonotonic": 239503.159094166,
+      "exit": 0
+    },
+    {
+      "label": "copy-mux",
+      "argv": [
+        "/opt/homebrew/Cellar/ffmpeg/9.0.2/bin/ffmpeg",
+        "-v",
+        "error",
+        "-xerror",
+        "-n",
+        "-r",
+        "30000/1001",
+        "-f",
+        "hevc",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-extra-final-07/conformance-failure/attempt-20d5f6e95d6d4902a3cd1ef97b9bf83d/elementary.h265",
+        "-c:v",
+        "copy",
+        "-an",
+        "-video_track_timescale",
+        "30000",
+        "-movflags",
+        "+faststart",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-extra-final-07/conformance-failure/attempt-20d5f6e95d6d4902a3cd1ef97b9bf83d/original.mp4"
+      ],
+      "pid": 6721,
+      "processGroup": 6721,
+      "spawnMonotonic": 239503.3440405,
+      "exit": 0
+    },
+    {
+      "label": "shared-conformance",
+      "argv": [
+        "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_chroma_conformance.py",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-extra-final-07/conformance-failure/attempt-20d5f6e95d6d4902a3cd1ef97b9bf83d/original.mp4",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-extra-final-07/conformance-failure/attempt-20d5f6e95d6d4902a3cd1ef97b9bf83d/center.mp4",
+        "--codec",
+        "hevc",
+        "--receipt",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-extra-final-07/conformance-failure/attempt-20d5f6e95d6d4902a3cd1ef97b9bf83d/CONFORMANCE.json"
+      ],
+      "pid": 6722,
+      "processGroup": 6722,
+      "spawnMonotonic": 239503.368101041,
+      "exit": 1
+    }
+  ],
+  "directProcessesReaped": true,
+  "GPUExecuted": false,
+  "hardwareQualified": false
+}

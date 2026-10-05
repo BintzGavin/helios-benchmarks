@@ -1,0 +1,129 @@
+   Compiling proc-macro2 v1.0.107
+   Compiling quote v1.0.47
+   Compiling libc v0.2.190
+   Compiling unicode-ident v1.0.26
+   Compiling cfg-if v1.0.5
+   Compiling memchr v2.8.3
+   Compiling zmij v1.0.23
+   Compiling serde_core v1.0.229
+   Compiling glob v0.3.4
+   Compiling prettyplease v0.2.37
+   Compiling rustix v1.1.5
+   Compiling bitflags v2.13.2
+   Compiling serde_json v1.0.151
+   Compiling regex-syntax v0.8.11
+   Compiling clang-sys v1.9.1
+   Compiling aho-corasick v1.1.5
+   Compiling crc32fast v1.5.2
+   Compiling minimal-lexical v0.2.1
+   Compiling find-msvc-tools v0.1.14
+   Compiling shlex v2.0.1
+   Compiling cc v1.6.0
+   Compiling nom v7.1.3
+   Compiling libloading v0.8.9
+   Compiling regex-automata v0.4.18
+   Compiling bindgen v0.72.1
+   Compiling adler2 v2.0.1
+   Compiling either v1.18.0
+   Compiling simd-adler32 v0.3.10
+   Compiling winnow v1.0.4
+   Compiling miniz_oxide v0.9.1
+   Compiling itertools v0.13.0
+   Compiling errno v0.3.14
+   Compiling toml_parser v1.1.3+spec-1.1.0
+   Compiling filetime v0.2.29
+   Compiling cexpr v0.6.0
+   Compiling syn v2.0.119
+   Compiling libm v0.2.16
+   Compiling itoa v1.0.18
+   Compiling regex v1.13.1
+   Compiling toml_writer v1.1.2+spec-1.1.0
+   Compiling xattr v1.6.1
+   Compiling winnow v0.7.15
+   Compiling rustc-hash v2.1.3
+   Compiling shlex v1.3.0
+   Compiling log v0.4.34
+   Compiling tar v0.4.46
+   Compiling flate2 v1.1.10
+   Compiling heck v0.5.0
+   Compiling pkg-config v0.3.34
+   Compiling syn v3.0.6
+   Compiling serde v1.0.229
+   Compiling toml_datetime v0.7.5+spec-1.1.0
+   Compiling serde_spanned v1.1.1
+   Compiling helios-gpu v0.1.0 (/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native)
+   Compiling unicode-script v0.5.8
+   Compiling toml v0.9.12+spec-1.1.0
+   Compiling smallvec v1.16.2
+   Compiling unicode-bidi-mirroring v0.4.0
+   Compiling percent-encoding v2.3.2
+   Compiling bytemuck v1.25.2
+   Compiling unicode-properties v0.1.4
+   Compiling core_maths v0.1.1
+   Compiling base64 v0.22.1
+   Compiling unicode-ccc v0.4.0
+   Compiling ttf-parser v0.25.1
+   Compiling serde_derive v1.0.229
+   Compiling skia-svg-macros v0.1.0
+   Compiling rustybuzz v0.20.1
+warning: helios-gpu@0.1.0: vulkan.mm:29:108: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    29 |         VkExportMetalObjectCreateInfoEXT exportDevice{VK_STRUCTURE_TYPE_EXPORT_METAL_OBJECT_CREATE_INFO_EXT};
+warning: helios-gpu@0.1.0:       |                                                                                                            ^
+warning: helios-gpu@0.1.0: vulkan.mm:31:65: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    31 |         VkApplicationInfo app{VK_STRUCTURE_TYPE_APPLICATION_INFO}; app.pApplicationName="helios-vulkan-interop-probe"; app.apiVersion=VK_API_VERSION_1_1;
+warning: helios-gpu@0.1.0:       |                                                                 ^
+warning: helios-gpu@0.1.0: vulkan.mm:32:71: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    32 |         VkInstanceCreateInfo ic{VK_STRUCTURE_TYPE_INSTANCE_CREATE_INFO}; ic.pNext=&exportDevice; ic.pApplicationInfo=&app; ic.enabledExtensionCount=1; ic.ppEnabledExtensionNames=instExt;
+warning: helios-gpu@0.1.0:       |                                                                       ^
+warning: helios-gpu@0.1.0: vulkan.mm:48:96: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    48 |         float priority=1; VkDeviceQueueCreateInfo qc{VK_STRUCTURE_TYPE_DEVICE_QUEUE_CREATE_INFO}; qc.queueFamilyIndex=family; qc.queueCount=1; qc.pQueuePriorities=&priority;
+warning: helios-gpu@0.1.0:       |                                                                                                ^
+warning: helios-gpu@0.1.0: vulkan.mm:51:67: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    51 |         VkDeviceCreateInfo dc{VK_STRUCTURE_TYPE_DEVICE_CREATE_INFO}; dc.pEnabledFeatures=&features; dc.queueCreateInfoCount=1; dc.pQueueCreateInfos=&qc; dc.enabledExtensionCount=2; dc.ppEnabledExtensionNames=devExt;
+warning: helios-gpu@0.1.0:       |                                                                   ^
+warning: helios-gpu@0.1.0: vulkan.mm:56:109: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    56 |         VkExportMetalObjectCreateInfoEXT exportTexture{VK_STRUCTURE_TYPE_EXPORT_METAL_OBJECT_CREATE_INFO_EXT}; exportTexture.exportObjectType=VK_EXPORT_METAL_OBJECT_TYPE_METAL_TEXTURE_BIT_EXT;
+warning: helios-gpu@0.1.0:       |                                                                                                             ^
+warning: helios-gpu@0.1.0: vulkan.mm:57:91: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    57 |         VkImportMetalTextureInfoEXT import{VK_STRUCTURE_TYPE_IMPORT_METAL_TEXTURE_INFO_EXT}; import.pNext=&exportTexture; import.plane=VK_IMAGE_ASPECT_COLOR_BIT; import.mtlTexture=texture;
+warning: helios-gpu@0.1.0:       |                                                                                           ^
+warning: helios-gpu@0.1.0: vulkan.mm:58:66: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    58 |         VkImageCreateInfo img{VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO}; img.pNext=&import; img.imageType=VK_IMAGE_TYPE_2D; img.format=VK_FORMAT_R8G8B8A8_UNORM; img.extent={uint32_t(texture.width),uint32_t(texture.height),1}; img.mipLevels=1; img.arrayLayers=1; img.samples=VK_SAMPLE_COUNT_1_BIT; img.tiling=VK_IMAGE_TILING_OPTIMAL; img.usage=VK_IMAGE_USAGE_TRANSFER_SRC_BIT|VK_IMAGE_USAGE_TRANSFER_DST_BIT|VK_IMAGE_USAGE_COLOR_ATTACHMENT_BIT|VK_IMAGE_USAGE_SAMPLED_BIT; img.sharingMode=VK_SHARING_MODE_EXCLUSIVE; img.initialLayout=VK_IMAGE_LAYOUT_UNDEFINED;
+warning: helios-gpu@0.1.0:       |                                                                  ^
+warning: helios-gpu@0.1.0: vulkan.mm:62:93: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    62 |         VkExportMetalTextureInfoEXT exported{VK_STRUCTURE_TYPE_EXPORT_METAL_TEXTURE_INFO_EXT}; exported.image=image; exported.plane=VK_IMAGE_ASPECT_COLOR_BIT;
+warning: helios-gpu@0.1.0:       |                                                                                             ^
+warning: helios-gpu@0.1.0: vulkan.mm:63:87: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    63 |         VkExportMetalObjectsInfoEXT ei{VK_STRUCTURE_TYPE_EXPORT_METAL_OBJECTS_INFO_EXT}; ei.pNext=&exported; exportObjects(device,&ei);
+warning: helios-gpu@0.1.0:       |                                                                                       ^
+warning: helios-gpu@0.1.0: vulkan.mm:66:86: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    66 |         VkExportMetalDeviceInfoEXT gpu{VK_STRUCTURE_TYPE_EXPORT_METAL_DEVICE_INFO_EXT}; ei.pNext=&gpu; exportObjects(device,&ei);
+warning: helios-gpu@0.1.0:       |                                                                                      ^
+warning: helios-gpu@0.1.0: vulkan.mm:77:65: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    77 |         VkFenceCreateInfo fc{VK_STRUCTURE_TYPE_FENCE_CREATE_INFO}; require(vkCreateFence(device,&fc,nullptr,&owner->fence),"fence");
+warning: helios-gpu@0.1.0:       |                                                                 ^
+warning: helios-gpu@0.1.0: 12 warnings generated.
+   Compiling skia-bindings v0.91.0
+error: linking with `cc` failed: exit status: 1
+  |
+  = note:  "cc" "/private/tmp/helios-gpu-next-target-01a101cb/release/build/skia-bindings-3f96114e3116bfde/rustcXU7fyt/symbols.o" "<9 object files omitted>" "/private/tmp/helios-gpu-next-target-01a101cb/release/deps/{libserde_json-e6904ff09f78d765,libitoa-da2661484784619d,libzmij-dad4f327c32540c8,libtar-1b80cc2eb6c0a5e3,libxattr-61769a97e9146af9,librustix-537b631ff872a86d,liberrno-7f3f1cd7bb779d29,libfiletime-7bdbea90c6a6d474,libheck-03e29751ad56832b,libcc-cd3abffefe6f6308,libfind_msvc_tools-6a9a5deb6a788403,libshlex-4a013c689e617308,libbindgen-3a363ba843632043,libprettyplease-b0eda02bcda56f96,libshlex-9bd549994c796c46,librustc_hash-d449587bc28b7630,libitertools-eba212e6b24b3a47,libeither-4b14f765210df6b4,libclang_sys-82358a4c0f1c237b,liblibloading-a915b427b9aa8997,liblibc-680740956c2361f4,libglob-63a50a9dc4060c98,libcexpr-e4c2f308a227c584,libnom-d30473834249b588,libsyn-3af087f5b7e41ee6,liblog-1acbdb2b8cafbfc0,libquote-e48be77d635945b9,libproc_macro2-25c25f8f0ebe180e,libunicode_ident-e0d36da469b515b6}.rlib" "<sysroot>/lib/rustlib/aarch64-apple-darwin/lib/{libproc_macro-*,librustc_literal_escaper-*}.rlib" "/private/tmp/helios-gpu-next-target-01a101cb/release/deps/{libbitflags-db3edfae7ac85d5a,libpkg_config-2a5fe6576457d7a9,libregex-be0a2ef9a013a44f,libregex_automata-dc94936fecb2665f,libaho_corasick-59a946b9ba899e84,libmemchr-46cf8b0490009943,libregex_syntax-d25802931659bf8f,libtoml-d7d4f29a58ccf848,libtoml_writer-28dee58a60c9b45a,libwinnow-52929f57a4e5c0b3,libtoml_parser-94ecad5f9bdc7006,libwinnow-5edb941af1a45f2f,libserde_spanned-41e5e13f8f4555c9,libtoml_datetime-0f58c27447aa4d6e,libserde_core-86d9e5eb561c811b,libflate2-27dae28ac41e424e,libminiz_oxide-8be71503b8a4e8c4,libsimd_adler32-7d312938251925c8,libcrc32fast-6151592a67a29e35,libcfg_if-928a8b7f4cab5a02}.rlib" "<sysroot>/lib/rustlib/aarch64-apple-darwin/lib/{libstd-*,libpanic_unwind-*,libobject-*,libmemchr-*,libaddr2line-*,libgimli-*,libcfg_if-*,librustc_demangle-*,libstd_detect-*,libhashbrown-*,librustc_std_workspace_alloc-*,libminiz_oxide-*,libadler2-*,libunwind-*,liblibc-*,librustc_std_workspace_core-*,liballoc-*,libcore-*,libcompiler_builtins-*}.rlib" "-liconv" "-lSystem" "-lc" "-lm" "-arch" "arm64" "-mmacosx-version-min=12.0.0" "-o" "/private/tmp/helios-gpu-next-target-01a101cb/release/build/skia-bindings-3f96114e3116bfde/build_script_build-3f96114e3116bfde" "-Wl,-dead_strip" "-nodefaultlibs"
+  = note: some arguments are omitted. use `--verbose` to show all linker arguments
+  = note: ld: warning: object file (/opt/homebrew/Cellar/rust/1.97.1/lib/rustlib/aarch64-apple-darwin/lib/libproc_macro-9fd77872bdf05a65.rlib[4](proc_macro-9fd77872bdf05a65.proc_macro.6b38161e9de518af-cgu.0.rcgu.o)) was built for newer 'macOS' version (26.0) than being linked (12.0)
+          ld: warning: object file (/opt/homebrew/Cellar/rust/1.97.1/lib/rustlib/aarch64-apple-darwin/lib/libstd-cbae73a2a9ea889e.rlib[4](std-cbae73a2a9ea889e.std.baab03b253eddc1-cgu.0.rcgu.o)) was built for newer 'macOS' version (26.0) than being linked (12.0)
+          ld: warning: object file (/opt/homebrew/Cellar/rust/1.97.1/lib/rustlib/aarch64-apple-darwin/lib/libpanic_unwind-dee0a2ae3c2e2626.rlib[4](panic_unwind-dee0a2ae3c2e2626.panic_unwind.b1fb6437cdbab858-cgu.0.rcgu.o)) was built for newer 'macOS' version (26.0) than being linked (12.0)
+          ld: warning: object file (/opt/homebrew/Cellar/rust/1.97.1/lib/rustlib/aarch64-apple-darwin/lib/libobject-b16b6fd7543b0411.rlib[4](object-b16b6fd7543b0411.object.98f2221f9e069d4a-cgu.0.rcgu.o)) was built for newer 'macOS' version (26.0) than being linked (12.0)
+          ld: warning: object file (/opt/homebrew/Cellar/rust/1.97.1/lib/rustlib/aarch64-apple-darwin/lib/libaddr2line-c110a9a15f9b2592.rlib[4](addr2line-c110a9a15f9b2592.addr2line.56e45749b3d00793-cgu.0.rcgu.o)) was built for newer 'macOS' version (26.0) than being linked (12.0)
+          ld: warning: object file (/opt/homebrew/Cellar/rust/1.97.1/lib/rustlib/aarch64-apple-darwin/lib/libgimli-ac0cd1b7057bbde8.rlib[4](gimli-ac0cd1b7057bbde8.gimli.5454f83e2cec4165-cgu.0.rcgu.o)) was built for newer 'macOS' version (26.0) than being linked (12.0)
+          ld: warning: object file (/opt/homebrew/Cellar/rust/1.97.1/lib/rustlib/aarch64-apple-darwin/lib/librustc_demangle-912bf8003be978d0.rlib[4](rustc_demangle-912bf8003be978d0.rustc_demangle.7b777fc23505e076-cgu.0.rcgu.o)) was built for newer 'macOS' version (26.0) than being linked (12.0)
+          ld: warning: object file (/opt/homebrew/Cellar/rust/1.97.1/lib/rustlib/aarch64-apple-darwin/lib/libhashbrown-e25d96bdb422244e.rlib[4](hashbrown-e25d96bdb422244e.hashbrown.4289b5e3075b72dd-cgu.0.rcgu.o)) was built for newer 'macOS' version (26.0) than being linked (12.0)
+          ld: warning: object file (/opt/homebrew/Cellar/rust/1.97.1/lib/rustlib/aarch64-apple-darwin/lib/libminiz_oxide-33a2d9c6433ed574.rlib[4](miniz_oxide-33a2d9c6433ed574.miniz_oxide.97ed5ba79fdd8d5-cgu.0.rcgu.o)) was built for newer 'macOS' version (26.0) than being linked (12.0)
+          ld: warning: object file (/opt/homebrew/Cellar/rust/1.97.1/lib/rustlib/aarch64-apple-darwin/lib/libadler2-e6bb8462f52aeb45.rlib[4](adler2-e6bb8462f52aeb45.adler2.f7804c7867593aae-cgu.0.rcgu.o)) was built for newer 'macOS' version (26.0) than being linked (12.0)
+          ld: warning: object file (/opt/homebrew/Cellar/rust/1.97.1/lib/rustlib/aarch64-apple-darwin/lib/liballoc-7ede31b2640a6dac.rlib[4](alloc-7ede31b2640a6dac.alloc.2e33f66dc5e331eb-cgu.0.rcgu.o)) was built for newer 'macOS' version (26.0) than being linked (12.0)
+          ld: warning: object file (/opt/homebrew/Cellar/rust/1.97.1/lib/rustlib/aarch64-apple-darwin/lib/libcore-1cde0f96743b0308.rlib[4](core-1cde0f96743b0308.core.7ef55acc681f1df7-cgu.0.rcgu.o)) was built for newer 'macOS' version (26.0) than being linked (12.0)
+          ld: warning: object file (/opt/homebrew/Cellar/rust/1.97.1/lib/rustlib/aarch64-apple-darwin/lib/libcompiler_builtins-d3eb2d83a0f9f63a.rlib[20](compiler_builtins-d3eb2d83a0f9f63a.compiler_builtins.3eb55f489c2182e3-cgu.016.rcgu.o)) was built for newer 'macOS' version (26.0) than being linked (12.0)
+          ld: warning: object file (/opt/homebrew/Cellar/rust/1.97.1/lib/rustlib/aarch64-apple-darwin/lib/libcompiler_builtins-d3eb2d83a0f9f63a.rlib[204](compiler_builtins-d3eb2d83a0f9f63a.compiler_builtins.3eb55f489c2182e3-cgu.200.rcgu.o)) was built for newer 'macOS' version (26.0) than being linked (12.0)
+          ld: write() failed, errno=28
+          clang: error: linker command failed with exit code 1 (use -v to see invocation)
+          
+
+error: could not compile `skia-bindings` (build script) due to 1 previous error

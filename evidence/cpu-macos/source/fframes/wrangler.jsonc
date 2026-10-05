@@ -1,0 +1,9 @@
+// landing/ as static assets on Cloudflare. Workers Builds runs `wrangler deploy` for main
+// and `wrangler preview` for pull requests, which needs the (empty) previews block.
+{
+  "name": "fframes",
+  "account_id": "86ddf0334885d2955aa80c778509d857",
+  "compatibility_date": "2026-09-01",
+  "assets": { "directory": "./landing" },
+  "previews": {}
+}

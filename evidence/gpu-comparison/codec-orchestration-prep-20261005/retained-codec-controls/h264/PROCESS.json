@@ -1,0 +1,26 @@
+{
+  "command": [
+    "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_chroma_conformance.py",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/codec-orchestration-prep-20261005/retained-codec-controls/h264/original.mp4",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/codec-orchestration-prep-20261005/retained-codec-controls/h264/center.mp4",
+    "--codec",
+    "h264",
+    "--receipt",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/codec-orchestration-prep-20261005/retained-codec-controls/h264/CONFORMANCE.json"
+  ],
+  "exit": 0,
+  "source": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/fixtures/h264-video.mp4",
+    "bytes": 281246,
+    "sha256": "f65e6ecee56dd723354aa213b73deaaed1d7967a5893adf4d723a1a04447b0eb"
+  },
+  "copiedSource": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/codec-orchestration-prep-20261005/retained-codec-controls/h264/original.mp4",
+    "bytes": 281246,
+    "sha256": "f65e6ecee56dd723354aa213b73deaaed1d7967a5893adf4d723a1a04447b0eb"
+  },
+  "GPUExecuted": false,
+  "benchmarkTiming": false,
+  "timingWindowOpen": false
+}

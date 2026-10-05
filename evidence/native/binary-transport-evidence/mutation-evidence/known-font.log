@@ -1,0 +1,20 @@
+
+running 3 tests
+test tests::bounded_reader_and_validation_reject_broken_envelopes ... ok
+test tests::utf8_padding_and_known_font_are_independent_boundaries ... FAILED
+test tests::command_geometry_paint_stack_count_and_text_are_bounded ... ok
+
+failures:
+
+---- tests::utf8_padding_and_known_font_are_independent_boundaries stdout ----
+
+thread 'tests::utf8_padding_and_known_font_are_independent_boundaries' (4096968) panicked at /private/tmp/helios-gpu-transport-mutants/known-font.rs:134:63:
+assertion failed: validate(&text, |_| false).is_err()
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+failures:
+    tests::utf8_padding_and_known_font_are_independent_boundaries
+
+test result: FAILED. 2 passed; 1 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

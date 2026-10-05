@@ -1,0 +1,217 @@
+{
+  "study": "paired-decode-export-v1",
+  "scope": "Experimental native Canvas TextGrid CPU export on Apple M3 Pro; not arbitrary browser compositions",
+  "sourceChange": "Full final output decoder threads=min(8,availableParallelism()); packet probes retain one thread",
+  "hardwareAvailableLogicalCpus": 11,
+  "scene": {
+    "width": 1920,
+    "height": 1080,
+    "frames": 300,
+    "fps": 30,
+    "crf": 11
+  },
+  "timing": "Original external fresh-process wall time including final decode; warmups excluded",
+  "timerOrigin": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/paired-decode-export-v1/results/full-v1/manifest.json",
+  "timerValuesCopiedWithoutModification": true,
+  "profiles": [
+    {
+      "profile": "medium",
+      "pairs": [
+        {
+          "pair": 1,
+          "order": [
+            "baseline",
+            "candidate"
+          ],
+          "baselineWallNs": 20852242125,
+          "candidateWallNs": 14027632708,
+          "baselineOverCandidate": 1.4865118412394633,
+          "identicalOutputSha256": "207d74a366880dea3ecab92a0e9970365887c1f99a4d08e6b2b381581f7365e1",
+          "originalPairReceipt": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/paired-decode-export-v1/results/full-v1/medium-timed-pair-1.json",
+          "components": {
+            "baseline": {
+              "renderMs": 10473.355792,
+              "finalizeMs": 10175.601042,
+              "finalVerifyMs": 9861.22275,
+              "frames": 300,
+              "chunks": 4,
+              "workers": 4
+            },
+            "candidate": {
+              "renderMs": 11726.384334,
+              "finalizeMs": 2122.415083,
+              "finalVerifyMs": 1708.9601669999993,
+              "frames": 300,
+              "chunks": 4,
+              "workers": 4
+            }
+          }
+        },
+        {
+          "pair": 2,
+          "order": [
+            "candidate",
+            "baseline"
+          ],
+          "baselineWallNs": 24393039250,
+          "candidateWallNs": 13285577959,
+          "baselineOverCandidate": 1.8360540523926183,
+          "identicalOutputSha256": "207d74a366880dea3ecab92a0e9970365887c1f99a4d08e6b2b381581f7365e1",
+          "originalPairReceipt": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/paired-decode-export-v1/results/full-v1/medium-timed-pair-2.json",
+          "components": {
+            "candidate": {
+              "renderMs": 10879.406084,
+              "finalizeMs": 2096.4689160000016,
+              "finalVerifyMs": 1701.6536250000008,
+              "frames": 300,
+              "chunks": 4,
+              "workers": 4
+            },
+            "baseline": {
+              "renderMs": 12093.877333,
+              "finalizeMs": 11671.642625,
+              "finalVerifyMs": 11334.355875,
+              "frames": 300,
+              "chunks": 4,
+              "workers": 4
+            }
+          }
+        },
+        {
+          "pair": 3,
+          "order": [
+            "baseline",
+            "candidate"
+          ],
+          "baselineWallNs": 23750524750,
+          "candidateWallNs": 14953547333,
+          "baselineOverCandidate": 1.5882869944569293,
+          "identicalOutputSha256": "207d74a366880dea3ecab92a0e9970365887c1f99a4d08e6b2b381581f7365e1",
+          "originalPairReceipt": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/paired-decode-export-v1/results/full-v1/medium-timed-pair-3.json",
+          "components": {
+            "baseline": {
+              "renderMs": 12386.2525,
+              "finalizeMs": 10938.188959,
+              "finalVerifyMs": 10588.868583000001,
+              "frames": 300,
+              "chunks": 4,
+              "workers": 4
+            },
+            "candidate": {
+              "renderMs": 12433.474667,
+              "finalizeMs": 2188.8046250000007,
+              "finalVerifyMs": 1837.3472500000007,
+              "frames": 300,
+              "chunks": 4,
+              "workers": 4
+            }
+          }
+        }
+      ],
+      "medianPairedSpeedup": 1.5882869944569293,
+      "candidateWins": 3
+    },
+    {
+      "profile": "ultrafast",
+      "pairs": [
+        {
+          "pair": 1,
+          "order": [
+            "baseline",
+            "candidate"
+          ],
+          "baselineWallNs": 7153433500,
+          "candidateWallNs": 4412644625,
+          "baselineOverCandidate": 1.621121596666081,
+          "identicalOutputSha256": "67110a23e7d7602d9e003577931b9e6294bef76a6a6afc01077ce3b13f64fb1d",
+          "originalPairReceipt": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/paired-decode-export-v1/results/full-v1/ultrafast-timed-pair-1.json",
+          "components": {
+            "baseline": {
+              "renderMs": 3417.706333,
+              "finalizeMs": 3545.071334,
+              "finalVerifyMs": 3270.553792,
+              "frames": 300,
+              "chunks": 6,
+              "workers": 6
+            },
+            "candidate": {
+              "renderMs": 3371.762458,
+              "finalizeMs": 862.5861670000004,
+              "finalVerifyMs": 615.4976670000001,
+              "frames": 300,
+              "chunks": 6,
+              "workers": 6
+            }
+          }
+        },
+        {
+          "pair": 2,
+          "order": [
+            "candidate",
+            "baseline"
+          ],
+          "baselineWallNs": 7279797833,
+          "candidateWallNs": 4361746541,
+          "baselineOverCandidate": 1.669009825438181,
+          "identicalOutputSha256": "67110a23e7d7602d9e003577931b9e6294bef76a6a6afc01077ce3b13f64fb1d",
+          "originalPairReceipt": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/paired-decode-export-v1/results/full-v1/ultrafast-timed-pair-2.json",
+          "components": {
+            "candidate": {
+              "renderMs": 3343.885375,
+              "finalizeMs": 830.4434580000006,
+              "finalVerifyMs": 547.1036250000002,
+              "frames": 300,
+              "chunks": 6,
+              "workers": 6
+            },
+            "baseline": {
+              "renderMs": 3464.203417,
+              "finalizeMs": 3635.6754580000006,
+              "finalVerifyMs": 3319.9199999999996,
+              "frames": 300,
+              "chunks": 6,
+              "workers": 6
+            }
+          }
+        },
+        {
+          "pair": 3,
+          "order": [
+            "baseline",
+            "candidate"
+          ],
+          "baselineWallNs": 8009522291,
+          "candidateWallNs": 4700159459,
+          "baselineOverCandidate": 1.704095863314411,
+          "identicalOutputSha256": "67110a23e7d7602d9e003577931b9e6294bef76a6a6afc01077ce3b13f64fb1d",
+          "originalPairReceipt": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/paired-decode-export-v1/results/full-v1/ultrafast-timed-pair-3.json",
+          "components": {
+            "baseline": {
+              "renderMs": 4173.782291,
+              "finalizeMs": 3634.810875,
+              "finalVerifyMs": 3361.1090000000004,
+              "frames": 300,
+              "chunks": 6,
+              "workers": 6
+            },
+            "candidate": {
+              "renderMs": 3618.32675,
+              "finalizeMs": 897.8609580000002,
+              "finalVerifyMs": 614.2209580000003,
+              "frames": 300,
+              "chunks": 6,
+              "workers": 6
+            }
+          }
+        }
+      ],
+      "medianPairedSpeedup": 1.669009825438181,
+      "candidateWins": 3
+    }
+  ],
+  "competitorSuperiorityProven": false,
+  "remoteGainProven": false,
+  "publicationState": "Local paired decoder gain qualified for every-frame codec fidelity and exact cadence; public reproduction and competitor holdout remain pending",
+  "qualityPolicyReceipt": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/quality-policy-results-clock-v1.json",
+  "allPairedOutputsPassExistingFidelityAndCadencePolicy": true
+}

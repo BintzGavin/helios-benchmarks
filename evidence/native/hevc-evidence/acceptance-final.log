@@ -1,0 +1,34 @@
+
+ RUN  v4.1.8 /Users/gavinbintz/.codex/worktrees/gpu-hevc/helios
+
+ ❯ packages/portable/tests/gpu-hevc.test.ts (6 tests | 2 failed) 2439ms
+   × refuses stale, wrong-codec and software capability receipts before replacing the destination 572ms
+   × refuses stale, wrong-codec and software completion receipts without publishing output 3ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  packages/portable/tests/gpu-hevc.test.ts > refuses stale, wrong-codec and software capability receipts before replacing the destination
+Error: ENOSPC: no space left on device, open '/tmp/helios-hevc-contract-UzGwM8/helper'
+ ❯ packages/portable/tests/gpu-hevc.test.ts:32:7
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+ FAIL  packages/portable/tests/gpu-hevc.test.ts > refuses stale, wrong-codec and software completion receipts without publishing output
+Error: ENOSPC: no space left on device, mkdtemp '/tmp/helios-hevc-receipt-jb7YQn'
+ ❯ packages/portable/tests/gpu-hevc.test.ts:42:21
+     40|
+     41| it.runIf(supported)('refuses stale, wrong-codec and software completio…
+     42|   const directory = await mkdtemp(join(tmpdir(), 'helios-hevc-receipt-…
+       |                     ^
+     43|   try {
+     44|     const executable = join(directory, 'helper'), output = join(direct…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  2 failed | 4 passed (6)
+   Start at  14:00:52
+   Duration  2.94s (transform 171ms, setup 0ms, import 351ms, tests 2.44s, environment 0ms)
+

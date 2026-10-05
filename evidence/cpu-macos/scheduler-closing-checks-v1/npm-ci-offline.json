@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/Users/gavinbintz/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+    "/opt/homebrew/lib/node_modules/npm/bin/npm-cli.js",
+    "ci",
+    "--ignore-scripts",
+    "--offline"
+  ],
+  "cwd": "/private/tmp/helios-scheduler-merge-20261001",
+  "exit_code": 0,
+  "duration_seconds": 4.975
+}

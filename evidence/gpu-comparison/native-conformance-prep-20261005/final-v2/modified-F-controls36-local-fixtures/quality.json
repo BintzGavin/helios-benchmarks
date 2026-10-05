@@ -1,0 +1,1044 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-10-04T22:38:14.116845+00:00",
+  "engine": "modified-F-controls36-shared-conformance",
+  "scene": "predeterminedNV12controls",
+  "expected": {
+    "width": 256,
+    "height": 128,
+    "frames": 36,
+    "fps": "30",
+    "pts_seconds": "n/fps, n=0..frames-1"
+  },
+  "candidate": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/center.mp4",
+    "bytes": 18096,
+    "sha256": "0e3469e06769172b0757647535ee2912d9cafda14c23d8526d66ade9ef27eff1",
+    "probe": {
+      "passed": true,
+      "errors": [],
+      "decoded_frame_count": 36,
+      "stream": {
+        "codec_name": "h264",
+        "width": 256,
+        "height": 128,
+        "pix_fmt": "yuv420p",
+        "color_range": "tv",
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "chroma_location": "center",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/15360",
+        "nb_frames": "36",
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler"
+        }
+      },
+      "strict_timing": true,
+      "pts_audit": [
+        {
+          "frame_zero_based": 0,
+          "pts": 0,
+          "seconds_exact": "0",
+          "expected_seconds_exact": "0"
+        },
+        {
+          "frame_zero_based": 1,
+          "pts": 512,
+          "seconds_exact": "1/30",
+          "expected_seconds_exact": "1/30"
+        },
+        {
+          "frame_zero_based": 2,
+          "pts": 1024,
+          "seconds_exact": "1/15",
+          "expected_seconds_exact": "1/15"
+        },
+        {
+          "frame_zero_based": 3,
+          "pts": 1536,
+          "seconds_exact": "1/10",
+          "expected_seconds_exact": "1/10"
+        },
+        {
+          "frame_zero_based": 4,
+          "pts": 2048,
+          "seconds_exact": "2/15",
+          "expected_seconds_exact": "2/15"
+        },
+        {
+          "frame_zero_based": 5,
+          "pts": 2560,
+          "seconds_exact": "1/6",
+          "expected_seconds_exact": "1/6"
+        },
+        {
+          "frame_zero_based": 6,
+          "pts": 3072,
+          "seconds_exact": "1/5",
+          "expected_seconds_exact": "1/5"
+        },
+        {
+          "frame_zero_based": 7,
+          "pts": 3584,
+          "seconds_exact": "7/30",
+          "expected_seconds_exact": "7/30"
+        },
+        {
+          "frame_zero_based": 8,
+          "pts": 4096,
+          "seconds_exact": "4/15",
+          "expected_seconds_exact": "4/15"
+        },
+        {
+          "frame_zero_based": 9,
+          "pts": 4608,
+          "seconds_exact": "3/10",
+          "expected_seconds_exact": "3/10"
+        },
+        {
+          "frame_zero_based": 10,
+          "pts": 5120,
+          "seconds_exact": "1/3",
+          "expected_seconds_exact": "1/3"
+        },
+        {
+          "frame_zero_based": 11,
+          "pts": 5632,
+          "seconds_exact": "11/30",
+          "expected_seconds_exact": "11/30"
+        },
+        {
+          "frame_zero_based": 12,
+          "pts": 6144,
+          "seconds_exact": "2/5",
+          "expected_seconds_exact": "2/5"
+        },
+        {
+          "frame_zero_based": 13,
+          "pts": 6656,
+          "seconds_exact": "13/30",
+          "expected_seconds_exact": "13/30"
+        },
+        {
+          "frame_zero_based": 14,
+          "pts": 7168,
+          "seconds_exact": "7/15",
+          "expected_seconds_exact": "7/15"
+        },
+        {
+          "frame_zero_based": 15,
+          "pts": 7680,
+          "seconds_exact": "1/2",
+          "expected_seconds_exact": "1/2"
+        },
+        {
+          "frame_zero_based": 16,
+          "pts": 8192,
+          "seconds_exact": "8/15",
+          "expected_seconds_exact": "8/15"
+        },
+        {
+          "frame_zero_based": 17,
+          "pts": 8704,
+          "seconds_exact": "17/30",
+          "expected_seconds_exact": "17/30"
+        },
+        {
+          "frame_zero_based": 18,
+          "pts": 9216,
+          "seconds_exact": "3/5",
+          "expected_seconds_exact": "3/5"
+        },
+        {
+          "frame_zero_based": 19,
+          "pts": 9728,
+          "seconds_exact": "19/30",
+          "expected_seconds_exact": "19/30"
+        },
+        {
+          "frame_zero_based": 20,
+          "pts": 10240,
+          "seconds_exact": "2/3",
+          "expected_seconds_exact": "2/3"
+        },
+        {
+          "frame_zero_based": 21,
+          "pts": 10752,
+          "seconds_exact": "7/10",
+          "expected_seconds_exact": "7/10"
+        },
+        {
+          "frame_zero_based": 22,
+          "pts": 11264,
+          "seconds_exact": "11/15",
+          "expected_seconds_exact": "11/15"
+        },
+        {
+          "frame_zero_based": 23,
+          "pts": 11776,
+          "seconds_exact": "23/30",
+          "expected_seconds_exact": "23/30"
+        },
+        {
+          "frame_zero_based": 24,
+          "pts": 12288,
+          "seconds_exact": "4/5",
+          "expected_seconds_exact": "4/5"
+        },
+        {
+          "frame_zero_based": 25,
+          "pts": 12800,
+          "seconds_exact": "5/6",
+          "expected_seconds_exact": "5/6"
+        },
+        {
+          "frame_zero_based": 26,
+          "pts": 13312,
+          "seconds_exact": "13/15",
+          "expected_seconds_exact": "13/15"
+        },
+        {
+          "frame_zero_based": 27,
+          "pts": 13824,
+          "seconds_exact": "9/10",
+          "expected_seconds_exact": "9/10"
+        },
+        {
+          "frame_zero_based": 28,
+          "pts": 14336,
+          "seconds_exact": "14/15",
+          "expected_seconds_exact": "14/15"
+        },
+        {
+          "frame_zero_based": 29,
+          "pts": 14848,
+          "seconds_exact": "29/30",
+          "expected_seconds_exact": "29/30"
+        },
+        {
+          "frame_zero_based": 30,
+          "pts": 15360,
+          "seconds_exact": "1",
+          "expected_seconds_exact": "1"
+        },
+        {
+          "frame_zero_based": 31,
+          "pts": 15872,
+          "seconds_exact": "31/30",
+          "expected_seconds_exact": "31/30"
+        },
+        {
+          "frame_zero_based": 32,
+          "pts": 16384,
+          "seconds_exact": "16/15",
+          "expected_seconds_exact": "16/15"
+        },
+        {
+          "frame_zero_based": 33,
+          "pts": 16896,
+          "seconds_exact": "11/10",
+          "expected_seconds_exact": "11/10"
+        },
+        {
+          "frame_zero_based": 34,
+          "pts": 17408,
+          "seconds_exact": "17/15",
+          "expected_seconds_exact": "17/15"
+        },
+        {
+          "frame_zero_based": 35,
+          "pts": 17920,
+          "seconds_exact": "7/6",
+          "expected_seconds_exact": "7/6"
+        }
+      ]
+    },
+    "decode": {
+      "passed": true,
+      "errors": []
+    }
+  },
+  "reference": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/fixtures/modified-F-controls36/reference-direct-nv12.mkv",
+    "bytes": 195759,
+    "sha256": "5a86621b37b464ab8f145d4905d6dee57508a8d7ef3ea022665b652e8576bed6",
+    "engine": "modified-F-controls36-shared-conformance",
+    "probe": {
+      "passed": true,
+      "errors": [],
+      "decoded_frame_count": 36,
+      "stream": {
+        "codec_name": "ffv1",
+        "width": 256,
+        "height": 128,
+        "pix_fmt": "yuv420p",
+        "color_range": "tv",
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "chroma_location": "center",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/1000",
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "ENCODER": "Lavc63.1.102 ffv1",
+          "DURATION": "00:00:01.200000000"
+        }
+      },
+      "strict_timing": false,
+      "pts_audit": []
+    },
+    "decode": {
+      "passed": true,
+      "errors": []
+    },
+    "lossless_provenance": {
+      "codec": "ffv1",
+      "intrinsically_lossless_codec": true,
+      "caller_attested": false,
+      "caveat": "Neither codec nor attestation establishes the file was produced from this scene/engine or that its upstream source was lossless"
+    }
+  },
+  "quality": {
+    "status": "evaluated",
+    "passed": true,
+    "errors": [],
+    "ssim": {
+      "passed": true,
+      "errors": [],
+      "frame_count": 36,
+      "thresholds": {
+        "Y": 0.995
+      },
+      "minimum": {
+        "Y": 0.999851
+      },
+      "frames": [
+        {
+          "raw": "n:1 Y:1.000000 U:1.000000 V:1.000000 All:1.000000 (86.829132)",
+          "frame_one_based": 1,
+          "Y": 1.0
+        },
+        {
+          "raw": "n:2 Y:1.000000 U:1.000000 V:1.000000 All:1.000000 (86.871920)",
+          "frame_one_based": 2,
+          "Y": 1.0
+        },
+        {
+          "raw": "n:3 Y:1.000000 U:1.000000 V:1.000000 All:1.000000 (83.883173)",
+          "frame_one_based": 3,
+          "Y": 1.0
+        },
+        {
+          "raw": "n:4 Y:1.000000 U:1.000000 V:1.000000 All:1.000000 (84.243416)",
+          "frame_one_based": 4,
+          "Y": 1.0
+        },
+        {
+          "raw": "n:5 Y:1.000000 U:1.000000 V:1.000000 All:1.000000 (83.840173)",
+          "frame_one_based": 5,
+          "Y": 1.0
+        },
+        {
+          "raw": "n:6 Y:1.000000 U:1.000000 V:1.000000 All:1.000000 (67.439326)",
+          "frame_one_based": 6,
+          "Y": 1.0
+        },
+        {
+          "raw": "n:7 Y:1.000000 U:1.000000 V:1.000000 All:1.000000 (83.883173)",
+          "frame_one_based": 7,
+          "Y": 1.0
+        },
+        {
+          "raw": "n:8 Y:1.000000 U:1.000000 V:1.000000 All:1.000000 (84.243416)",
+          "frame_one_based": 8,
+          "Y": 1.0
+        },
+        {
+          "raw": "n:9 Y:1.000000 U:1.000000 V:1.000000 All:1.000000 (83.840173)",
+          "frame_one_based": 9,
+          "Y": 1.0
+        },
+        {
+          "raw": "n:10 Y:1.000000 U:1.000000 V:1.000000 All:1.000000 (67.439326)",
+          "frame_one_based": 10,
+          "Y": 1.0
+        },
+        {
+          "raw": "n:11 Y:1.000000 U:1.000000 V:1.000000 All:1.000000 (83.883173)",
+          "frame_one_based": 11,
+          "Y": 1.0
+        },
+        {
+          "raw": "n:12 Y:1.000000 U:1.000000 V:1.000000 All:1.000000 (84.243416)",
+          "frame_one_based": 12,
+          "Y": 1.0
+        },
+        {
+          "raw": "n:13 Y:1.000000 U:1.000000 V:1.000000 All:1.000000 (83.840173)",
+          "frame_one_based": 13,
+          "Y": 1.0
+        },
+        {
+          "raw": "n:14 Y:0.999993 U:1.000000 V:1.000000 All:0.999995 (53.303203)",
+          "frame_one_based": 14,
+          "Y": 0.999993
+        },
+        {
+          "raw": "n:15 Y:0.999999 U:1.000000 V:1.000000 All:0.999999 (60.768481)",
+          "frame_one_based": 15,
+          "Y": 0.999999
+        },
+        {
+          "raw": "n:16 Y:0.999990 U:1.000000 V:1.000000 All:0.999994 (51.891778)",
+          "frame_one_based": 16,
+          "Y": 0.99999
+        },
+        {
+          "raw": "n:17 Y:0.999990 U:1.000000 V:1.000000 All:0.999993 (51.783211)",
+          "frame_one_based": 17,
+          "Y": 0.99999
+        },
+        {
+          "raw": "n:18 Y:0.999990 U:1.000000 V:1.000000 All:0.999993 (51.658468)",
+          "frame_one_based": 18,
+          "Y": 0.99999
+        },
+        {
+          "raw": "n:19 Y:0.999992 U:1.000000 V:1.000000 All:0.999994 (52.487562)",
+          "frame_one_based": 19,
+          "Y": 0.999992
+        },
+        {
+          "raw": "n:20 Y:0.999985 U:1.000000 V:1.000000 All:0.999990 (50.024915)",
+          "frame_one_based": 20,
+          "Y": 0.999985
+        },
+        {
+          "raw": "n:21 Y:0.999992 U:1.000000 V:1.000000 All:0.999994 (52.584992)",
+          "frame_one_based": 21,
+          "Y": 0.999992
+        },
+        {
+          "raw": "n:22 Y:0.999992 U:1.000000 V:1.000000 All:0.999994 (52.466367)",
+          "frame_one_based": 22,
+          "Y": 0.999992
+        },
+        {
+          "raw": "n:23 Y:0.999992 U:1.000000 V:1.000000 All:0.999995 (52.619646)",
+          "frame_one_based": 23,
+          "Y": 0.999992
+        },
+        {
+          "raw": "n:24 Y:0.999992 U:1.000000 V:1.000000 All:0.999995 (52.844881)",
+          "frame_one_based": 24,
+          "Y": 0.999992
+        },
+        {
+          "raw": "n:25 Y:0.999986 U:1.000000 V:1.000000 All:0.999990 (50.163017)",
+          "frame_one_based": 25,
+          "Y": 0.999986
+        },
+        {
+          "raw": "n:26 Y:0.999992 U:1.000000 V:1.000000 All:0.999995 (52.685298)",
+          "frame_one_based": 26,
+          "Y": 0.999992
+        },
+        {
+          "raw": "n:27 Y:0.999992 U:1.000000 V:1.000000 All:0.999995 (52.835348)",
+          "frame_one_based": 27,
+          "Y": 0.999992
+        },
+        {
+          "raw": "n:28 Y:0.999992 U:1.000000 V:1.000000 All:0.999995 (52.858376)",
+          "frame_one_based": 28,
+          "Y": 0.999992
+        },
+        {
+          "raw": "n:29 Y:0.999992 U:1.000000 V:1.000000 All:0.999995 (52.909236)",
+          "frame_one_based": 29,
+          "Y": 0.999992
+        },
+        {
+          "raw": "n:30 Y:0.999979 U:1.000000 V:1.000000 All:0.999986 (48.634345)",
+          "frame_one_based": 30,
+          "Y": 0.999979
+        },
+        {
+          "raw": "n:31 Y:0.999851 U:0.999711 V:0.999987 All:0.999850 (38.238979)",
+          "frame_one_based": 31,
+          "Y": 0.999851
+        },
+        {
+          "raw": "n:32 Y:0.999899 U:0.999706 V:0.999986 All:0.999882 (39.265696)",
+          "frame_one_based": 32,
+          "Y": 0.999899
+        },
+        {
+          "raw": "n:33 Y:0.999908 U:0.999702 V:0.999986 All:0.999887 (39.458563)",
+          "frame_one_based": 33,
+          "Y": 0.999908
+        },
+        {
+          "raw": "n:34 Y:0.999926 U:0.999658 V:0.999987 All:0.999892 (39.645910)",
+          "frame_one_based": 34,
+          "Y": 0.999926
+        },
+        {
+          "raw": "n:35 Y:0.999946 U:0.999614 V:0.999988 All:0.999898 (39.897965)",
+          "frame_one_based": 35,
+          "Y": 0.999946
+        },
+        {
+          "raw": "n:36 Y:0.999965 U:0.999598 V:0.999988 All:0.999908 (40.359118)",
+          "frame_one_based": 36,
+          "Y": 0.999965
+        }
+      ]
+    },
+    "psnr": {
+      "passed": true,
+      "errors": [],
+      "frame_count": 36,
+      "thresholds": {
+        "psnr_y": 40.0,
+        "psnr_u": 35.0,
+        "psnr_v": 35.0
+      },
+      "minimum": {
+        "psnr_y": 52.49,
+        "psnr_u": 51.27,
+        "psnr_v": 53.66
+      },
+      "frames": [
+        {
+          "raw": "n:1 mse_avg:0.00 mse_y:0.00 mse_u:0.00 mse_v:0.00 psnr_avg:90.28 psnr_y:90.28 psnr_u:inf psnr_v:87.26 ",
+          "frame_one_based": 1,
+          "psnr_y": 90.28,
+          "psnr_u": "inf",
+          "psnr_v": 87.26
+        },
+        {
+          "raw": "n:2 mse_avg:0.00 mse_y:0.00 mse_u:0.00 mse_v:0.00 psnr_avg:90.28 psnr_y:90.28 psnr_u:inf psnr_v:87.26 ",
+          "frame_one_based": 2,
+          "psnr_y": 90.28,
+          "psnr_u": "inf",
+          "psnr_v": 87.26
+        },
+        {
+          "raw": "n:3 mse_avg:0.00 mse_y:0.00 mse_u:0.00 mse_v:0.00 psnr_avg:90.28 psnr_y:90.28 psnr_u:inf psnr_v:87.26 ",
+          "frame_one_based": 3,
+          "psnr_y": 90.28,
+          "psnr_u": "inf",
+          "psnr_v": 87.26
+        },
+        {
+          "raw": "n:4 mse_avg:0.00 mse_y:0.00 mse_u:0.00 mse_v:0.00 psnr_avg:90.28 psnr_y:90.28 psnr_u:inf psnr_v:87.26 ",
+          "frame_one_based": 4,
+          "psnr_y": 90.28,
+          "psnr_u": "inf",
+          "psnr_v": 87.26
+        },
+        {
+          "raw": "n:5 mse_avg:0.00 mse_y:0.00 mse_u:0.00 mse_v:0.00 psnr_avg:90.28 psnr_y:90.28 psnr_u:inf psnr_v:87.26 ",
+          "frame_one_based": 5,
+          "psnr_y": 90.28,
+          "psnr_u": "inf",
+          "psnr_v": 87.26
+        },
+        {
+          "raw": "n:6 mse_avg:0.00 mse_y:0.00 mse_u:0.00 mse_v:0.00 psnr_avg:90.28 psnr_y:90.28 psnr_u:inf psnr_v:87.26 ",
+          "frame_one_based": 6,
+          "psnr_y": 90.28,
+          "psnr_u": "inf",
+          "psnr_v": 87.26
+        },
+        {
+          "raw": "n:7 mse_avg:0.00 mse_y:0.00 mse_u:0.00 mse_v:0.00 psnr_avg:90.28 psnr_y:90.28 psnr_u:inf psnr_v:87.26 ",
+          "frame_one_based": 7,
+          "psnr_y": 90.28,
+          "psnr_u": "inf",
+          "psnr_v": 87.26
+        },
+        {
+          "raw": "n:8 mse_avg:0.00 mse_y:0.00 mse_u:0.00 mse_v:0.00 psnr_avg:90.28 psnr_y:90.28 psnr_u:inf psnr_v:87.26 ",
+          "frame_one_based": 8,
+          "psnr_y": 90.28,
+          "psnr_u": "inf",
+          "psnr_v": 87.26
+        },
+        {
+          "raw": "n:9 mse_avg:0.00 mse_y:0.00 mse_u:0.00 mse_v:0.00 psnr_avg:90.28 psnr_y:90.28 psnr_u:inf psnr_v:87.26 ",
+          "frame_one_based": 9,
+          "psnr_y": 90.28,
+          "psnr_u": "inf",
+          "psnr_v": 87.26
+        },
+        {
+          "raw": "n:10 mse_avg:0.00 mse_y:0.00 mse_u:0.00 mse_v:0.00 psnr_avg:90.28 psnr_y:90.28 psnr_u:inf psnr_v:87.26 ",
+          "frame_one_based": 10,
+          "psnr_y": 90.28,
+          "psnr_u": "inf",
+          "psnr_v": 87.26
+        },
+        {
+          "raw": "n:11 mse_avg:0.00 mse_y:0.00 mse_u:0.00 mse_v:0.00 psnr_avg:90.28 psnr_y:90.28 psnr_u:inf psnr_v:87.26 ",
+          "frame_one_based": 11,
+          "psnr_y": 90.28,
+          "psnr_u": "inf",
+          "psnr_v": 87.26
+        },
+        {
+          "raw": "n:12 mse_avg:0.00 mse_y:0.00 mse_u:0.00 mse_v:0.00 psnr_avg:90.28 psnr_y:90.28 psnr_u:inf psnr_v:87.26 ",
+          "frame_one_based": 12,
+          "psnr_y": 90.28,
+          "psnr_u": "inf",
+          "psnr_v": 87.26
+        },
+        {
+          "raw": "n:13 mse_avg:0.00 mse_y:0.00 mse_u:0.00 mse_v:0.00 psnr_avg:90.28 psnr_y:90.28 psnr_u:inf psnr_v:87.26 ",
+          "frame_one_based": 13,
+          "psnr_y": 90.28,
+          "psnr_u": "inf",
+          "psnr_v": 87.26
+        },
+        {
+          "raw": "n:14 mse_avg:0.00 mse_y:0.00 mse_u:0.00 mse_v:0.00 psnr_avg:79.61 psnr_y:77.97 psnr_u:inf psnr_v:87.26 ",
+          "frame_one_based": 14,
+          "psnr_y": 77.97,
+          "psnr_u": "inf",
+          "psnr_v": 87.26
+        },
+        {
+          "raw": "n:15 mse_avg:0.00 mse_y:0.00 mse_u:0.00 mse_v:0.00 psnr_avg:83.91 psnr_y:82.49 psnr_u:inf psnr_v:87.26 ",
+          "frame_one_based": 15,
+          "psnr_y": 82.49,
+          "psnr_u": "inf",
+          "psnr_v": 87.26
+        },
+        {
+          "raw": "n:16 mse_avg:0.00 mse_y:0.00 mse_u:0.00 mse_v:0.00 psnr_avg:77.12 psnr_y:75.43 psnr_u:inf psnr_v:87.26 ",
+          "frame_one_based": 16,
+          "psnr_y": 75.43,
+          "psnr_u": "inf",
+          "psnr_v": 87.26
+        },
+        {
+          "raw": "n:17 mse_avg:0.00 mse_y:0.00 mse_u:0.00 mse_v:0.00 psnr_avg:76.72 psnr_y:75.02 psnr_u:inf psnr_v:87.26 ",
+          "frame_one_based": 17,
+          "psnr_y": 75.02,
+          "psnr_u": "inf",
+          "psnr_v": 87.26
+        },
+        {
+          "raw": "n:18 mse_avg:0.00 mse_y:0.00 mse_u:0.00 mse_v:0.00 psnr_avg:76.98 psnr_y:75.29 psnr_u:inf psnr_v:87.26 ",
+          "frame_one_based": 18,
+          "psnr_y": 75.29,
+          "psnr_u": "inf",
+          "psnr_v": 87.26
+        },
+        {
+          "raw": "n:19 mse_avg:0.00 mse_y:0.00 mse_u:0.00 mse_v:0.00 psnr_avg:77.56 psnr_y:75.88 psnr_u:inf psnr_v:87.26 ",
+          "frame_one_based": 19,
+          "psnr_y": 75.88,
+          "psnr_u": "inf",
+          "psnr_v": 87.26
+        },
+        {
+          "raw": "n:20 mse_avg:0.00 mse_y:0.00 mse_u:0.00 mse_v:0.00 psnr_avg:77.64 psnr_y:75.96 psnr_u:inf psnr_v:87.26 ",
+          "frame_one_based": 20,
+          "psnr_y": 75.96,
+          "psnr_u": "inf",
+          "psnr_v": 87.26
+        },
+        {
+          "raw": "n:21 mse_avg:0.00 mse_y:0.00 mse_u:0.00 mse_v:0.00 psnr_avg:77.49 psnr_y:75.80 psnr_u:inf psnr_v:87.26 ",
+          "frame_one_based": 21,
+          "psnr_y": 75.8,
+          "psnr_u": "inf",
+          "psnr_v": 87.26
+        },
+        {
+          "raw": "n:22 mse_avg:0.00 mse_y:0.00 mse_u:0.00 mse_v:0.00 psnr_avg:77.72 psnr_y:76.04 psnr_u:inf psnr_v:87.26 ",
+          "frame_one_based": 22,
+          "psnr_y": 76.04,
+          "psnr_u": "inf",
+          "psnr_v": 87.26
+        },
+        {
+          "raw": "n:23 mse_avg:0.00 mse_y:0.00 mse_u:0.00 mse_v:0.00 psnr_avg:77.56 psnr_y:75.88 psnr_u:inf psnr_v:87.26 ",
+          "frame_one_based": 23,
+          "psnr_y": 75.88,
+          "psnr_u": "inf",
+          "psnr_v": 87.26
+        },
+        {
+          "raw": "n:24 mse_avg:0.00 mse_y:0.00 mse_u:0.00 mse_v:0.00 psnr_avg:77.80 psnr_y:76.13 psnr_u:inf psnr_v:87.26 ",
+          "frame_one_based": 24,
+          "psnr_y": 76.13,
+          "psnr_u": "inf",
+          "psnr_v": 87.26
+        },
+        {
+          "raw": "n:25 mse_avg:0.00 mse_y:0.00 mse_u:0.00 mse_v:0.00 psnr_avg:77.72 psnr_y:76.04 psnr_u:inf psnr_v:87.26 ",
+          "frame_one_based": 25,
+          "psnr_y": 76.04,
+          "psnr_u": "inf",
+          "psnr_v": 87.26
+        },
+        {
+          "raw": "n:26 mse_avg:0.00 mse_y:0.00 mse_u:0.00 mse_v:0.00 psnr_avg:77.64 psnr_y:75.96 psnr_u:inf psnr_v:87.26 ",
+          "frame_one_based": 26,
+          "psnr_y": 75.96,
+          "psnr_u": "inf",
+          "psnr_v": 87.26
+        },
+        {
+          "raw": "n:27 mse_avg:0.00 mse_y:0.00 mse_u:0.00 mse_v:0.00 psnr_avg:77.56 psnr_y:75.88 psnr_u:inf psnr_v:87.26 ",
+          "frame_one_based": 27,
+          "psnr_y": 75.88,
+          "psnr_u": "inf",
+          "psnr_v": 87.26
+        },
+        {
+          "raw": "n:28 mse_avg:0.00 mse_y:0.00 mse_u:0.00 mse_v:0.00 psnr_avg:77.89 psnr_y:76.21 psnr_u:inf psnr_v:87.26 ",
+          "frame_one_based": 28,
+          "psnr_y": 76.21,
+          "psnr_u": "inf",
+          "psnr_v": 87.26
+        },
+        {
+          "raw": "n:29 mse_avg:0.00 mse_y:0.00 mse_u:0.00 mse_v:0.00 psnr_avg:77.80 psnr_y:76.13 psnr_u:inf psnr_v:87.26 ",
+          "frame_one_based": 29,
+          "psnr_y": 76.13,
+          "psnr_u": "inf",
+          "psnr_v": 87.26
+        },
+        {
+          "raw": "n:30 mse_avg:0.00 mse_y:0.00 mse_u:0.00 mse_v:0.00 psnr_avg:75.13 psnr_y:73.42 psnr_u:inf psnr_v:87.26 ",
+          "frame_one_based": 30,
+          "psnr_y": 73.42,
+          "psnr_u": "inf",
+          "psnr_v": 87.26
+        },
+        {
+          "raw": "n:31 mse_avg:0.35 mse_y:0.37 mse_u:0.36 mse_v:0.26 psnr_avg:52.73 psnr_y:52.49 psnr_u:52.59 psnr_v:54.06 ",
+          "frame_one_based": 31,
+          "psnr_y": 52.49,
+          "psnr_u": 52.59,
+          "psnr_v": 54.06
+        },
+        {
+          "raw": "n:32 mse_avg:0.35 mse_y:0.36 mse_u:0.36 mse_v:0.28 psnr_avg:52.71 psnr_y:52.54 psnr_u:52.56 psnr_v:53.66 ",
+          "frame_one_based": 32,
+          "psnr_y": 52.54,
+          "psnr_u": 52.56,
+          "psnr_v": 53.66
+        },
+        {
+          "raw": "n:33 mse_avg:0.35 mse_y:0.36 mse_u:0.36 mse_v:0.27 psnr_avg:52.74 psnr_y:52.58 psnr_u:52.51 psnr_v:53.74 ",
+          "frame_one_based": 33,
+          "psnr_y": 52.58,
+          "psnr_u": 52.51,
+          "psnr_v": 53.74
+        },
+        {
+          "raw": "n:34 mse_avg:0.33 mse_y:0.32 mse_u:0.41 mse_v:0.26 psnr_avg:52.96 psnr_y:53.02 psnr_u:51.96 psnr_v:53.99 ",
+          "frame_one_based": 34,
+          "psnr_y": 53.02,
+          "psnr_u": 51.96,
+          "psnr_v": 53.99
+        },
+        {
+          "raw": "n:35 mse_avg:0.31 mse_y:0.28 mse_u:0.46 mse_v:0.24 psnr_avg:53.26 psnr_y:53.58 psnr_u:51.49 psnr_v:54.34 ",
+          "frame_one_based": 35,
+          "psnr_y": 53.58,
+          "psnr_u": 51.49,
+          "psnr_v": 54.34
+        },
+        {
+          "raw": "n:36 mse_avg:0.25 mse_y:0.19 mse_u:0.48 mse_v:0.23 psnr_avg:54.22 psnr_y:55.35 psnr_u:51.27 psnr_v:54.46 ",
+          "frame_one_based": 36,
+          "psnr_y": 55.35,
+          "psnr_u": 51.27,
+          "psnr_v": 54.46
+        }
+      ]
+    },
+    "filter_graph": "[0:v:0]format=pix_fmts=yuv420p,settb=expr=1/30,setpts=N,split=2[ds][dp];[1:v:0]format=pix_fmts=yuv420p,settb=expr=1/30,setpts=N,split=2[rs][rp];[ds][rs]ssim=stats_file=ssim.log:shortest=1:repeatlast=0:eof_action=endall[ss];[dp][rp]psnr=stats_file=psnr.log:stats_version=2:shortest=1:repeatlast=0:eof_action=endall[ps]",
+    "metric_precision": "Thresholds apply to FFmpeg per-frame log values: SSIM 6 decimals, PSNR 2 decimals; near-threshold rounding is not independently resolved",
+    "normalization": {
+      "both_inputs": "format=pix_fmts=yuv420p,settb=expr=1/30,setpts=N",
+      "pairing": "frame ordinal, zero based",
+      "common_time_base": "1/30",
+      "common_pts": "N",
+      "pixel_format": "yuv420p",
+      "resize": "none",
+      "color_conversion": "FFmpeg default pixel-format conversion; no explicit range/matrix/transfer override",
+      "caveat": "Conversion may subsample chroma/reduce bit depth. This is per-engine reference fidelity, not cross-engine pixel identity or a colorimetric/source-render correctness test."
+    },
+    "input_color_metadata": {
+      "candidate": {
+        "pix_fmt": "yuv420p",
+        "color_range": "tv",
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "chroma_location": "center"
+      },
+      "reference": {
+        "pix_fmt": "yuv420p",
+        "color_range": "tv",
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "chroma_location": "center"
+      }
+    }
+  },
+  "scope": "First video stream only; audio/subtitles and cross-engine pixel identity are not assessed",
+  "errors": [],
+  "commands": [
+    {
+      "label": "ffmpeg_version",
+      "argv": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-version"
+      ],
+      "shell_command_for_display": "/opt/homebrew/bin/ffmpeg -version",
+      "cwd": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/quality.evidence",
+      "started_at": "2026-10-04T22:38:14.116956+00:00",
+      "timeout_seconds": 600.0,
+      "stdout_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/quality.evidence/ffmpeg_version.stdout.txt",
+      "stderr_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/quality.evidence/ffmpeg_version.stderr.txt",
+      "returncode": 0,
+      "elapsed_seconds": 0.04386195898405276
+    },
+    {
+      "label": "ffprobe_version",
+      "argv": [
+        "/opt/homebrew/bin/ffprobe",
+        "-version"
+      ],
+      "shell_command_for_display": "/opt/homebrew/bin/ffprobe -version",
+      "cwd": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/quality.evidence",
+      "started_at": "2026-10-04T22:38:14.160889+00:00",
+      "timeout_seconds": 600.0,
+      "stdout_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/quality.evidence/ffprobe_version.stdout.txt",
+      "stderr_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/quality.evidence/ffprobe_version.stderr.txt",
+      "returncode": 0,
+      "elapsed_seconds": 0.02304120798362419
+    },
+    {
+      "label": "candidate_probe",
+      "argv": [
+        "/opt/homebrew/bin/ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_streams",
+        "-show_frames",
+        "-show_entries",
+        "stream=codec_name,width,height,pix_fmt,time_base,avg_frame_rate,r_frame_rate,nb_frames,color_range,color_space,color_transfer,color_primaries,chroma_location:frame=pts,width,height",
+        "-of",
+        "json",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/center.mp4"
+      ],
+      "shell_command_for_display": "/opt/homebrew/bin/ffprobe -v error -select_streams v:0 -show_streams -show_frames -show_entries stream=codec_name,width,height,pix_fmt,time_base,avg_frame_rate,r_frame_rate,nb_frames,color_range,color_space,color_transfer,color_primaries,chroma_location:frame=pts,width,height -of json /Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/center.mp4",
+      "cwd": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/quality.evidence",
+      "started_at": "2026-10-04T22:38:14.184207+00:00",
+      "timeout_seconds": 600.0,
+      "stdout_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/quality.evidence/candidate_probe.stdout.txt",
+      "stderr_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/quality.evidence/candidate_probe.stderr.txt",
+      "returncode": 0,
+      "elapsed_seconds": 0.0459444580192212
+    },
+    {
+      "label": "candidate_decode",
+      "argv": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-hide_banner",
+        "-nostdin",
+        "-loglevel",
+        "error",
+        "-xerror",
+        "-err_detect",
+        "explode",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/center.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-sn",
+        "-dn",
+        "-fps_mode",
+        "passthrough",
+        "-f",
+        "null",
+        "-"
+      ],
+      "shell_command_for_display": "/opt/homebrew/bin/ffmpeg -hide_banner -nostdin -loglevel error -xerror -err_detect explode -i /Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/center.mp4 -map 0:v:0 -an -sn -dn -fps_mode passthrough -f null -",
+      "cwd": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/quality.evidence",
+      "started_at": "2026-10-04T22:38:14.230859+00:00",
+      "timeout_seconds": 600.0,
+      "stdout_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/quality.evidence/candidate_decode.stdout.txt",
+      "stderr_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/quality.evidence/candidate_decode.stderr.txt",
+      "returncode": 0,
+      "elapsed_seconds": 0.04805529201985337
+    },
+    {
+      "label": "reference_probe",
+      "argv": [
+        "/opt/homebrew/bin/ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_streams",
+        "-show_frames",
+        "-show_entries",
+        "stream=codec_name,width,height,pix_fmt,time_base,avg_frame_rate,r_frame_rate,nb_frames,color_range,color_space,color_transfer,color_primaries,chroma_location:frame=pts,width,height",
+        "-of",
+        "json",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/fixtures/modified-F-controls36/reference-direct-nv12.mkv"
+      ],
+      "shell_command_for_display": "/opt/homebrew/bin/ffprobe -v error -select_streams v:0 -show_streams -show_frames -show_entries stream=codec_name,width,height,pix_fmt,time_base,avg_frame_rate,r_frame_rate,nb_frames,color_range,color_space,color_transfer,color_primaries,chroma_location:frame=pts,width,height -of json /Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/fixtures/modified-F-controls36/reference-direct-nv12.mkv",
+      "cwd": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/quality.evidence",
+      "started_at": "2026-10-04T22:38:14.279346+00:00",
+      "timeout_seconds": 600.0,
+      "stdout_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/quality.evidence/reference_probe.stdout.txt",
+      "stderr_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/quality.evidence/reference_probe.stderr.txt",
+      "returncode": 0,
+      "elapsed_seconds": 0.04265633400063962
+    },
+    {
+      "label": "reference_decode",
+      "argv": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-hide_banner",
+        "-nostdin",
+        "-loglevel",
+        "error",
+        "-xerror",
+        "-err_detect",
+        "explode",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/fixtures/modified-F-controls36/reference-direct-nv12.mkv",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-sn",
+        "-dn",
+        "-fps_mode",
+        "passthrough",
+        "-f",
+        "null",
+        "-"
+      ],
+      "shell_command_for_display": "/opt/homebrew/bin/ffmpeg -hide_banner -nostdin -loglevel error -xerror -err_detect explode -i /Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/fixtures/modified-F-controls36/reference-direct-nv12.mkv -map 0:v:0 -an -sn -dn -fps_mode passthrough -f null -",
+      "cwd": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/quality.evidence",
+      "started_at": "2026-10-04T22:38:14.322354+00:00",
+      "timeout_seconds": 600.0,
+      "stdout_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/quality.evidence/reference_decode.stdout.txt",
+      "stderr_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/quality.evidence/reference_decode.stderr.txt",
+      "returncode": 0,
+      "elapsed_seconds": 0.04803216701839119
+    },
+    {
+      "label": "quality",
+      "argv": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-hide_banner",
+        "-nostdin",
+        "-loglevel",
+        "error",
+        "-xerror",
+        "-err_detect",
+        "explode",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/center.mp4",
+        "-err_detect",
+        "explode",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/fixtures/modified-F-controls36/reference-direct-nv12.mkv",
+        "-filter_complex_threads",
+        "1",
+        "-filter_complex",
+        "[0:v:0]format=pix_fmts=yuv420p,settb=expr=1/30,setpts=N,split=2[ds][dp];[1:v:0]format=pix_fmts=yuv420p,settb=expr=1/30,setpts=N,split=2[rs][rp];[ds][rs]ssim=stats_file=ssim.log:shortest=1:repeatlast=0:eof_action=endall[ss];[dp][rp]psnr=stats_file=psnr.log:stats_version=2:shortest=1:repeatlast=0:eof_action=endall[ps]",
+        "-map",
+        "[ss]",
+        "-map",
+        "[ps]",
+        "-an",
+        "-sn",
+        "-dn",
+        "-fps_mode",
+        "passthrough",
+        "-f",
+        "null",
+        "-"
+      ],
+      "shell_command_for_display": "/opt/homebrew/bin/ffmpeg -hide_banner -nostdin -loglevel error -xerror -err_detect explode -i /Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/center.mp4 -err_detect explode -i /Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/fixtures/modified-F-controls36/reference-direct-nv12.mkv -filter_complex_threads 1 -filter_complex '[0:v:0]format=pix_fmts=yuv420p,settb=expr=1/30,setpts=N,split=2[ds][dp];[1:v:0]format=pix_fmts=yuv420p,settb=expr=1/30,setpts=N,split=2[rs][rp];[ds][rs]ssim=stats_file=ssim.log:shortest=1:repeatlast=0:eof_action=endall[ss];[dp][rp]psnr=stats_file=psnr.log:stats_version=2:shortest=1:repeatlast=0:eof_action=endall[ps]' -map '[ss]' -map '[ps]' -an -sn -dn -fps_mode passthrough -f null -",
+      "cwd": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/quality.evidence",
+      "started_at": "2026-10-04T22:38:14.370770+00:00",
+      "timeout_seconds": 600.0,
+      "stdout_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/quality.evidence/quality.stdout.txt",
+      "stderr_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/quality.evidence/quality.stderr.txt",
+      "returncode": 0,
+      "elapsed_seconds": 0.04531412498909049
+    }
+  ],
+  "passed": true,
+  "structure_decode_passed": true,
+  "quality_passed": true,
+  "verdict": "structure_and_quality_pass",
+  "finished_at": "2026-10-04T22:38:14.416722+00:00",
+  "output_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/final-v2/modified-F-controls36-local-fixtures/quality.json"
+}

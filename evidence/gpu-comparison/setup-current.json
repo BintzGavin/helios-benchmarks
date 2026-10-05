@@ -1,0 +1,16 @@
+{
+  "step": "screen-r-software",
+  "argv": [
+    "/opt/homebrew/bin/node",
+    "/Users/gavinbintz/.codex/worktrees/native-gpu-rendering/helios/node_modules/tsx/dist/cli.mjs",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/export-remotion.mts",
+    "software",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/screen-r-software/video.mp4"
+  ],
+  "benchmarkTiming": false,
+  "startedUnix": 1791039981.309356,
+  "status": "complete",
+  "pid": 78734,
+  "returncode": 0,
+  "finishedUnix": 1791040027.158578
+}

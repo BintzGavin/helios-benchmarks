@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "negativeControls": [
+    {
+      "case": "conversion-begin/sourceFenceAlreadyCompleted",
+      "rejected": true
+    },
+    {
+      "case": "conversion-complete/completed",
+      "rejected": true
+    },
+    {
+      "case": "conversion-complete/sameDestinationIOSurfacePlanes",
+      "rejected": true
+    },
+    {
+      "case": "conversion-complete/sameSourceTextureIOSurface",
+      "rejected": true
+    },
+    {
+      "case": "conversion-complete/gpuStartSeconds",
+      "rejected": true
+    },
+    {
+      "case": "source-avbuffer-owner-release/sourcePixelBuffer",
+      "rejected": true
+    },
+    {
+      "case": "avbuffer-owner-release/surfaceId",
+      "rejected": true
+    },
+    {
+      "case": "converter-create/poolThreshold",
+      "rejected": true
+    },
+    {
+      "case": "gpu-complete/sourceIndex",
+      "rejected": true
+    },
+    {
+      "case": "encoder-send-return/segment",
+      "rejected": true
+    },
+    {
+      "case": "encoder-send-return/success",
+      "rejected": true
+    },
+    {
+      "case": "capture-complete/packedBytes",
+      "rejected": true
+    },
+    {
+      "case": "independent predetermined color oracle +3code corruption",
+      "rejected": true
+    },
+    {
+      "case": "SPS/matrix_coefficients",
+      "rejected": true
+    },
+    {
+      "case": "SPS/chroma_sample_loc_type_top_field",
+      "rejected": true
+    },
+    {
+      "case": "SPS/timing_info_present_flag",
+      "rejected": true
+    }
+  ],
+  "mutationsRejected": 16,
+  "baselineMeasured300StageAndLedgerPassed": true,
+  "sourcePins": 168,
+  "helpers": 3,
+  "hardwareFaultControls": 4,
+  "hardwarePoolThresholdRetainedOwnerControl": "smoke3-02/gpu-transfer.jsonl",
+  "benchmarkTiming": false
+}

@@ -1,0 +1,40 @@
+{
+  "lane": "positive4k3",
+  "benchmarkTiming": false,
+  "timingWindowOpen": false,
+  "modifiedPipeline": true,
+  "originalProduct": false,
+  "argv": [
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/circles-concurrent-nv12",
+    "hardware",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/positive4k3/video.mp4",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/font",
+    "3",
+    "300000000"
+  ],
+  "taskSettings": {
+    "FFRAMES_EXPLICIT_NV12": "1",
+    "FFRAMES_HANDOFF_CAPTURE": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/positive4k3/capture",
+    "FFRAMES_NV12_TRACE": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/positive4k3/gpu-transfer.jsonl",
+    "COMPARISON_REQUIRE_HARDWARE_FRAMES": "1",
+    "FFRAMES_NV12_POSITIVE_RGBA": "1",
+    "DYLD_INSERT_LIBRARIES": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/transfer-interposer.dylib",
+    "FFRAMES_EXTERNAL_TRANSFER_LOG": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/positive4k3/interposer.jsonl"
+  },
+  "binarySha256": "665ce943531be9a35d61aa7629e12646e280d0568c1ca6a576816f15963210a8",
+  "converterSha256": "11522ab92e119b84f9af86b9abf5864263c774a21ac7505b82a6556b6e9e132d",
+  "startedUnix": 1791144335.5832179,
+  "resourceCommand": [
+    "/usr/bin/time",
+    "-l",
+    "/usr/bin/env",
+    "DYLD_INSERT_LIBRARIES=/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/transfer-interposer.dylib",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/circles-concurrent-nv12",
+    "hardware",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/positive4k3/video.mp4",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/font",
+    "3",
+    "300000000"
+  ],
+  "pid": 88053
+}

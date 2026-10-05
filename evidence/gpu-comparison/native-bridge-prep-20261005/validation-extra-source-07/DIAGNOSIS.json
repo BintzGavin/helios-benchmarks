@@ -1,0 +1,5 @@
+{
+  "status": "excluded as final audit",
+  "reason": "Independent wait verifier read an intentionally corrupted, unpublished partial BINDING instead of prioritizing the same-attempt FAILURE receipt. Four process/codec plus three direct Node controls passed and retained; corrected verifier excludes partial failed-attempt bindings",
+  "GPUExecuted": false
+}

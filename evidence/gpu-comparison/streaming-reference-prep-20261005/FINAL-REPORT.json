@@ -1,0 +1,43 @@
+{
+  "status": "bounded copied-fixture streaming storage tests passed",
+  "scope": "bounded preparation only",
+  "finalTestReport": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/streaming-reference-prep-20261005/validation-final-03/TEST-REPORT.json",
+    "bytes": 12813,
+    "sha256": "b61c0dcbf63ae78d2e4904d7f4a4911d5b3e6117b7853b1ffeb80a5b4323e719"
+  },
+  "testsPassed": 29,
+  "sourceArchive": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/streaming-reference-prep-20261005/source.zip",
+    "bytes": 362057,
+    "sha256": "d80e8109fc8c60dd8ad48bd3ae2637f7de56a633032dbe7e6d2b7ad2e41c9027",
+    "entries": 9,
+    "crcPassed": true
+  },
+  "sourcePins": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/streaming-reference-prep-20261005/EXACT-SOURCE-PINS.json",
+    "bytes": 1497,
+    "sha256": "d1c1be0d430e8139c89076e83c6db16c73449607991e9c09a3e90358682f5f56"
+  },
+  "acceptedEvidenceUnchanged": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/streaming-reference-prep-20261005/ACCEPTED-EVIDENCE-UNCHANGED.json",
+    "bytes": 1068,
+    "sha256": "b0bc3bbf94d3ac490eff57d6237e5c63ec17c73b2e4060f20f2dfe3424ed2aa9"
+  },
+  "GPUExports": 0,
+  "newCargoBuild": false,
+  "full4KQualification": false,
+  "timingWindowOpen": false,
+  "benchmarkComplete": false,
+  "streaming6GiBGateActivated": false,
+  "activeSerialGateBytes": 9663676416,
+  "activeBalancedGateBytes": 16106127360,
+  "newLibraryIds": [],
+  "nativePublicationApproval": "pending; no push retry",
+  "remaining": "actual GPU orchestration/streaming bridge and bounded hardware tests; fresh all3004Kqualification; enoughdisk andtimingnotification; Library/native publication blockers",
+  "resourceLedger": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/streaming-reference-prep-20261005/RESOURCE-LEDGER.json",
+    "bytes": 2909,
+    "sha256": "7c3e703eb0ecbf6bdf1f53bd822cd7d9d66eee1909ae77769f1dfb2dbc7135cf"
+  }
+}

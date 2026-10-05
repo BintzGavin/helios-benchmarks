@@ -1,0 +1,63 @@
+{
+  "status": "completed-subprocess-fixture",
+  "executionClass": "subprocess-fixture",
+  "hardwareQualified": false,
+  "realDeviceAccepted": false,
+  "GPUExecuted": false,
+  "simulatedNativeContract": {
+    "kind": "BRIDGE_CPU_SYNTHETIC",
+    "GPUExecuted": false,
+    "protocol": 7,
+    "codec": "hevc",
+    "transport": "binary",
+    "frames": 3,
+    "encoderPool": 3,
+    "gop": 30,
+    "bitrate": 20000000,
+    "configuredBitrate": null,
+    "rasterizer": "skia-metal",
+    "encoder": "none",
+    "hardwareUsed": false,
+    "hardwareRequired": false,
+    "explicitRawReadbackBytes": 147456,
+    "packetHashes": [
+      "975a0dc660e98446730afc6803dbc5d525ec300d5aceeeeef04668591486613b",
+      "6d6610dbc4f593e8365be83e0a9ed1aea72886dd80871e6afbe6b280f748e300",
+      "6d727c894cddbd4573661a8f17e0609a26dfc5dcd80a7ec1577383e1a3ff7bf0"
+    ]
+  },
+  "frameIdentities": [
+    {
+      "index": 0,
+      "sourceIndex": 3,
+      "packetBytes": 320,
+      "packetSha256": "975a0dc660e98446730afc6803dbc5d525ec300d5aceeeeef04668591486613b"
+    },
+    {
+      "index": 1,
+      "sourceIndex": 4,
+      "packetBytes": 320,
+      "packetSha256": "6d6610dbc4f593e8365be83e0a9ed1aea72886dd80871e6afbe6b280f748e300"
+    },
+    {
+      "index": 2,
+      "sourceIndex": 5,
+      "packetBytes": 320,
+      "packetSha256": "6d727c894cddbd4573661a8f17e0609a26dfc5dcd80a7ec1577383e1a3ff7bf0"
+    }
+  ],
+  "headerSha256": "0bf27770e2ef231a29429f9dbcab907ef5d3e81232c0d784cc114cd5172a5b09",
+  "combinedFeedSha256": "239acd2e577913e29a2638f7de26051bb2ee197d6b84889cd59d936b6c8509c0",
+  "rawBytes": 147456,
+  "packetDrainCalls": 1,
+  "maxPacketQueue": 96024,
+  "rawForwardDrains": 0,
+  "maxForwardQueue": 16388,
+  "helperPid": 6608,
+  "helperExit": {
+    "code": 0,
+    "signal": null
+  },
+  "helperWaitCompleted": true,
+  "sourceIndexScope": "commands use actual draw indices3..; raw/coded payload is retained fixture ordinal data, not rendered by the helper"
+}

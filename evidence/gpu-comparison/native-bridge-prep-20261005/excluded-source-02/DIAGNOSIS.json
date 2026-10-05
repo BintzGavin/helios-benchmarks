@@ -1,0 +1,5 @@
+{
+  "status": "excluded as final generation",
+  "reason": "Seven positive CPU cases passed. Extra-byte control was correctly refused by driver RAW_OUTPUT_CAP, causing upstream truncation; test expected only end-of-stream extra/driver exit instead of typed partial frame. Final generation adds explicit helper diagnostics and process group cleanup proof",
+  "GPUExecuted": false
+}

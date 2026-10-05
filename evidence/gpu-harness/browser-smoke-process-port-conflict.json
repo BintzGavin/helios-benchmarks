@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "node",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/preparation/unpacked/helios-gpu-comparison-prep/browser_probe.mjs",
+    "/Users/gavinbintz/Developer/helios/node_modules/playwright-core/index.mjs",
+    "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/browser-host.json",
+    "http://127.0.0.1:8765/textgrid.html"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "",
+  "kind": "capability-smoke-only",
+  "benchmark_timing": false
+}

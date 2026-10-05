@@ -1,0 +1,2422 @@
+{
+  "passed": true,
+  "frames": 300,
+  "actualConversionContexts": 3,
+  "deviceRegistryId": 4294968434,
+  "directSkiaTextureImport": true,
+  "extraGpuCopy": false,
+  "peakObservedAVBufferOwnersByContext": {
+    "5": 2,
+    "6": 2,
+    "4": 2
+  },
+  "sourceOwnedThroughConversionFence": true,
+  "observedDestinationOwnersAllReleased": true,
+  "opaqueEncoderOwnershipKnown": false,
+  "zeroCopyProved": false,
+  "benchmarkTiming": false,
+  "coreLedgerSha256": "ccf24b5acd31c67ac4961b3288f972a61e79e4a22614e210bff829dd0b64c7aa",
+  "gpuTraceSha256": "f3831f6793aaebd3320a9096c8c5d4d355ea4ae58a0ec552a3aa376a604f7671",
+  "indexedStages": [
+    {
+      "index": 0,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217501.911965125,
+      "gpuEndSeconds": 217501.912400417
+    },
+    {
+      "index": 1,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217502.351733125,
+      "gpuEndSeconds": 217502.352127625
+    },
+    {
+      "index": 2,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217502.808761917,
+      "gpuEndSeconds": 217502.8091795
+    },
+    {
+      "index": 3,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217503.159773,
+      "gpuEndSeconds": 217503.160216167
+    },
+    {
+      "index": 4,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217503.552086625,
+      "gpuEndSeconds": 217503.55249375
+    },
+    {
+      "index": 5,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217503.811706875,
+      "gpuEndSeconds": 217503.812189
+    },
+    {
+      "index": 6,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217504.245471667,
+      "gpuEndSeconds": 217504.2458635
+    },
+    {
+      "index": 7,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217504.7810345,
+      "gpuEndSeconds": 217504.781535042
+    },
+    {
+      "index": 8,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217505.041769375,
+      "gpuEndSeconds": 217505.042196875
+    },
+    {
+      "index": 9,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217505.4883305,
+      "gpuEndSeconds": 217505.488754417
+    },
+    {
+      "index": 10,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217505.852245375,
+      "gpuEndSeconds": 217505.853063125
+    },
+    {
+      "index": 11,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217506.163117042,
+      "gpuEndSeconds": 217506.163577
+    },
+    {
+      "index": 12,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217506.562387625,
+      "gpuEndSeconds": 217506.562821042
+    },
+    {
+      "index": 13,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217507.056061125,
+      "gpuEndSeconds": 217507.056527875
+    },
+    {
+      "index": 14,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217507.368005042,
+      "gpuEndSeconds": 217507.368412292
+    },
+    {
+      "index": 15,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217507.826287667,
+      "gpuEndSeconds": 217507.826672792
+    },
+    {
+      "index": 16,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217508.138675875,
+      "gpuEndSeconds": 217508.139106292
+    },
+    {
+      "index": 17,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217508.479960125,
+      "gpuEndSeconds": 217508.48048375
+    },
+    {
+      "index": 18,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217508.72406125,
+      "gpuEndSeconds": 217508.72447525
+    },
+    {
+      "index": 19,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217509.1774615,
+      "gpuEndSeconds": 217509.177908125
+    },
+    {
+      "index": 20,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217509.596056875,
+      "gpuEndSeconds": 217509.596508875
+    },
+    {
+      "index": 21,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217509.905618375,
+      "gpuEndSeconds": 217509.906057625
+    },
+    {
+      "index": 22,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217510.346337917,
+      "gpuEndSeconds": 217510.346888792
+    },
+    {
+      "index": 23,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217510.74261675,
+      "gpuEndSeconds": 217510.743032625
+    },
+    {
+      "index": 24,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217511.022856625,
+      "gpuEndSeconds": 217511.023250375
+    },
+    {
+      "index": 25,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217511.420447292,
+      "gpuEndSeconds": 217511.420908667
+    },
+    {
+      "index": 26,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217511.759311125,
+      "gpuEndSeconds": 217511.759741625
+    },
+    {
+      "index": 27,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217512.099254625,
+      "gpuEndSeconds": 217512.099721375
+    },
+    {
+      "index": 28,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217512.5460525,
+      "gpuEndSeconds": 217512.5466135
+    },
+    {
+      "index": 29,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217512.801794375,
+      "gpuEndSeconds": 217512.802229167
+    },
+    {
+      "index": 30,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217513.228224375,
+      "gpuEndSeconds": 217513.22865825
+    },
+    {
+      "index": 31,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217513.599351542,
+      "gpuEndSeconds": 217513.599811375
+    },
+    {
+      "index": 32,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217513.851806042,
+      "gpuEndSeconds": 217513.852286625
+    },
+    {
+      "index": 33,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217514.264791167,
+      "gpuEndSeconds": 217514.265320875
+    },
+    {
+      "index": 34,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217514.545630375,
+      "gpuEndSeconds": 217514.546044542
+    },
+    {
+      "index": 35,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217514.955933792,
+      "gpuEndSeconds": 217514.95642575
+    },
+    {
+      "index": 36,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217515.34501725,
+      "gpuEndSeconds": 217515.34553575
+    },
+    {
+      "index": 37,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217515.6103085,
+      "gpuEndSeconds": 217515.610725
+    },
+    {
+      "index": 38,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217516.015330375,
+      "gpuEndSeconds": 217516.01579475
+    },
+    {
+      "index": 39,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217516.42979,
+      "gpuEndSeconds": 217516.430272375
+    },
+    {
+      "index": 40,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217516.696766375,
+      "gpuEndSeconds": 217516.697245667
+    },
+    {
+      "index": 41,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217517.104816625,
+      "gpuEndSeconds": 217517.10535575
+    },
+    {
+      "index": 42,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217517.503151042,
+      "gpuEndSeconds": 217517.503681375
+    },
+    {
+      "index": 43,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217517.788755292,
+      "gpuEndSeconds": 217517.7892125
+    },
+    {
+      "index": 44,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217518.198809292,
+      "gpuEndSeconds": 217518.199308625
+    },
+    {
+      "index": 45,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217518.46947625,
+      "gpuEndSeconds": 217518.469912917
+    },
+    {
+      "index": 46,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217518.877873125,
+      "gpuEndSeconds": 217518.878367625
+    },
+    {
+      "index": 47,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217519.330450125,
+      "gpuEndSeconds": 217519.33089875
+    },
+    {
+      "index": 48,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 48,
+      "gpuStartSeconds": 217519.59961775,
+      "gpuEndSeconds": 217519.60008825
+    },
+    {
+      "index": 49,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 48,
+      "gpuStartSeconds": 217520.046655292,
+      "gpuEndSeconds": 217520.047155125
+    },
+    {
+      "index": 50,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217520.41448775,
+      "gpuEndSeconds": 217520.414889625
+    },
+    {
+      "index": 51,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217520.7210015,
+      "gpuEndSeconds": 217520.721374917
+    },
+    {
+      "index": 52,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217521.161492125,
+      "gpuEndSeconds": 217521.161930125
+    },
+    {
+      "index": 53,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217521.500713125,
+      "gpuEndSeconds": 217521.501151
+    },
+    {
+      "index": 54,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 48,
+      "gpuStartSeconds": 217521.912059125,
+      "gpuEndSeconds": 217521.912784792
+    },
+    {
+      "index": 55,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 48,
+      "gpuStartSeconds": 217522.38150975,
+      "gpuEndSeconds": 217522.381955792
+    },
+    {
+      "index": 56,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217522.705419917,
+      "gpuEndSeconds": 217522.705840042
+    },
+    {
+      "index": 57,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 482,
+      "gpuStartSeconds": 217523.130605375,
+      "gpuEndSeconds": 217523.131162167
+    },
+    {
+      "index": 58,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 48,
+      "gpuStartSeconds": 217523.419727042,
+      "gpuEndSeconds": 217523.4203825
+    },
+    {
+      "index": 59,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217523.960885667,
+      "gpuEndSeconds": 217523.961481125
+    },
+    {
+      "index": 60,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217501.5781665,
+      "gpuEndSeconds": 217501.578571667
+    },
+    {
+      "index": 61,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217502.137224167,
+      "gpuEndSeconds": 217502.13767425
+    },
+    {
+      "index": 62,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217502.68890875,
+      "gpuEndSeconds": 217502.689367375
+    },
+    {
+      "index": 63,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217502.93825825,
+      "gpuEndSeconds": 217502.938697542
+    },
+    {
+      "index": 64,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217503.338783,
+      "gpuEndSeconds": 217503.339185625
+    },
+    {
+      "index": 65,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217503.608913917,
+      "gpuEndSeconds": 217503.60934275
+    },
+    {
+      "index": 66,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217504.017878625,
+      "gpuEndSeconds": 217504.018362542
+    },
+    {
+      "index": 67,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217504.519091542,
+      "gpuEndSeconds": 217504.519880167
+    },
+    {
+      "index": 68,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217504.8025385,
+      "gpuEndSeconds": 217504.80301975
+    },
+    {
+      "index": 69,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217505.258463875,
+      "gpuEndSeconds": 217505.258870375
+    },
+    {
+      "index": 70,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217505.646724125,
+      "gpuEndSeconds": 217505.647177375
+    },
+    {
+      "index": 71,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217505.933375042,
+      "gpuEndSeconds": 217505.93379475
+    },
+    {
+      "index": 72,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217506.350739667,
+      "gpuEndSeconds": 217506.351226167
+    },
+    {
+      "index": 73,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217506.728164167,
+      "gpuEndSeconds": 217506.728605792
+    },
+    {
+      "index": 74,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217507.092861667,
+      "gpuEndSeconds": 217507.093324875
+    },
+    {
+      "index": 75,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217507.607235375,
+      "gpuEndSeconds": 217507.607640542
+    },
+    {
+      "index": 76,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217507.940172375,
+      "gpuEndSeconds": 217507.940596167
+    },
+    {
+      "index": 77,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217508.278222042,
+      "gpuEndSeconds": 217508.278693375
+    },
+    {
+      "index": 78,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217508.679682917,
+      "gpuEndSeconds": 217508.680235375
+    },
+    {
+      "index": 79,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217508.952841375,
+      "gpuEndSeconds": 217508.953572542
+    },
+    {
+      "index": 80,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217509.432271542,
+      "gpuEndSeconds": 217509.432739625
+    },
+    {
+      "index": 81,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217509.814802625,
+      "gpuEndSeconds": 217509.815220125
+    },
+    {
+      "index": 82,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217510.132365625,
+      "gpuEndSeconds": 217510.132818667
+    },
+    {
+      "index": 83,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217510.531700542,
+      "gpuEndSeconds": 217510.53223825
+    },
+    {
+      "index": 84,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217510.825804,
+      "gpuEndSeconds": 217510.826214167
+    },
+    {
+      "index": 85,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217511.205111,
+      "gpuEndSeconds": 217511.205545375
+    },
+    {
+      "index": 86,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217511.570693625,
+      "gpuEndSeconds": 217511.571150625
+    },
+    {
+      "index": 87,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217511.86832075,
+      "gpuEndSeconds": 217511.868732667
+    },
+    {
+      "index": 88,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217512.299880375,
+      "gpuEndSeconds": 217512.300388875
+    },
+    {
+      "index": 89,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217512.561310792,
+      "gpuEndSeconds": 217512.561848042
+    },
+    {
+      "index": 90,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217512.98045525,
+      "gpuEndSeconds": 217512.980931042
+    },
+    {
+      "index": 91,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217513.24152075,
+      "gpuEndSeconds": 217513.241972125
+    },
+    {
+      "index": 92,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217513.6290425,
+      "gpuEndSeconds": 217513.62949575
+    },
+    {
+      "index": 93,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217514.055497,
+      "gpuEndSeconds": 217514.055910875
+    },
+    {
+      "index": 94,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217514.3128835,
+      "gpuEndSeconds": 217514.31345175
+    },
+    {
+      "index": 95,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217514.752184875,
+      "gpuEndSeconds": 217514.75266625
+    },
+    {
+      "index": 96,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217515.139211167,
+      "gpuEndSeconds": 217515.14201475
+    },
+    {
+      "index": 97,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217515.396841375,
+      "gpuEndSeconds": 217515.3973115
+    },
+    {
+      "index": 98,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217515.792172125,
+      "gpuEndSeconds": 217515.7927255
+    },
+    {
+      "index": 99,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217516.218981542,
+      "gpuEndSeconds": 217516.219354625
+    },
+    {
+      "index": 100,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217516.468804292,
+      "gpuEndSeconds": 217516.469296125
+    },
+    {
+      "index": 101,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217516.90552525,
+      "gpuEndSeconds": 217516.905978375
+    },
+    {
+      "index": 102,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217517.299875125,
+      "gpuEndSeconds": 217517.300385167
+    },
+    {
+      "index": 103,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217517.56347875,
+      "gpuEndSeconds": 217517.563944917
+    },
+    {
+      "index": 104,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217518.009005292,
+      "gpuEndSeconds": 217518.00943775
+    },
+    {
+      "index": 105,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217518.2807595,
+      "gpuEndSeconds": 217518.281152
+    },
+    {
+      "index": 106,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 187,
+      "gpuStartSeconds": 217518.654268375,
+      "gpuEndSeconds": 217518.654758292
+    },
+    {
+      "index": 107,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217519.09787975,
+      "gpuEndSeconds": 217519.09831775
+    },
+    {
+      "index": 108,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217519.36795875,
+      "gpuEndSeconds": 217519.36838625
+    },
+    {
+      "index": 109,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217519.812433625,
+      "gpuEndSeconds": 217519.81291025
+    },
+    {
+      "index": 110,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 187,
+      "gpuStartSeconds": 217520.200581417,
+      "gpuEndSeconds": 217520.200985625
+    },
+    {
+      "index": 111,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 482,
+      "gpuStartSeconds": 217520.503575375,
+      "gpuEndSeconds": 217520.5040035
+    },
+    {
+      "index": 112,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 48,
+      "gpuStartSeconds": 217520.916204125,
+      "gpuEndSeconds": 217520.916740375
+    },
+    {
+      "index": 113,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217521.278701125,
+      "gpuEndSeconds": 217521.2791235
+    },
+    {
+      "index": 114,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217521.664238,
+      "gpuEndSeconds": 217521.665465375
+    },
+    {
+      "index": 115,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 48,
+      "gpuStartSeconds": 217522.163700625,
+      "gpuEndSeconds": 217522.164305875
+    },
+    {
+      "index": 116,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217522.480975042,
+      "gpuEndSeconds": 217522.481397542
+    },
+    {
+      "index": 117,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 482,
+      "gpuStartSeconds": 217522.904253542,
+      "gpuEndSeconds": 217522.904680875
+    },
+    {
+      "index": 118,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 48,
+      "gpuStartSeconds": 217523.197846375,
+      "gpuEndSeconds": 217523.19823825
+    },
+    {
+      "index": 119,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217523.701498667,
+      "gpuEndSeconds": 217523.702034542
+    },
+    {
+      "index": 120,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217501.94934025,
+      "gpuEndSeconds": 217501.949786625
+    },
+    {
+      "index": 121,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217502.456939292,
+      "gpuEndSeconds": 217502.457359125
+    },
+    {
+      "index": 122,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217502.710213625,
+      "gpuEndSeconds": 217502.710646292
+    },
+    {
+      "index": 123,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217503.135268792,
+      "gpuEndSeconds": 217503.135824125
+    },
+    {
+      "index": 124,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217503.41030025,
+      "gpuEndSeconds": 217503.410693625
+    },
+    {
+      "index": 125,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217503.794522125,
+      "gpuEndSeconds": 217503.795124
+    },
+    {
+      "index": 126,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217504.250417167,
+      "gpuEndSeconds": 217504.25089075
+    },
+    {
+      "index": 127,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217504.557160917,
+      "gpuEndSeconds": 217504.557581375
+    },
+    {
+      "index": 128,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217505.019878375,
+      "gpuEndSeconds": 217505.02040075
+    },
+    {
+      "index": 129,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217505.430613167,
+      "gpuEndSeconds": 217505.431039375
+    },
+    {
+      "index": 130,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217505.713341875,
+      "gpuEndSeconds": 217505.713785667
+    },
+    {
+      "index": 131,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217506.142418125,
+      "gpuEndSeconds": 217506.142913
+    },
+    {
+      "index": 132,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217506.51433375,
+      "gpuEndSeconds": 217506.514793
+    },
+    {
+      "index": 133,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217506.800629292,
+      "gpuEndSeconds": 217506.801081417
+    },
+    {
+      "index": 134,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217507.369112792,
+      "gpuEndSeconds": 217507.36952225
+    },
+    {
+      "index": 135,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217507.747263875,
+      "gpuEndSeconds": 217507.747682292
+    },
+    {
+      "index": 136,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217508.0576065,
+      "gpuEndSeconds": 217508.058050125
+    },
+    {
+      "index": 137,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217508.496896625,
+      "gpuEndSeconds": 217508.497351042
+    },
+    {
+      "index": 138,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217508.905125792,
+      "gpuEndSeconds": 217508.90557575
+    },
+    {
+      "index": 139,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217509.186659,
+      "gpuEndSeconds": 217509.187089125
+    },
+    {
+      "index": 140,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217509.707697875,
+      "gpuEndSeconds": 217509.7083075
+    },
+    {
+      "index": 141,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217510.014107292,
+      "gpuEndSeconds": 217510.014516
+    },
+    {
+      "index": 142,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217510.3157065,
+      "gpuEndSeconds": 217510.316140292
+    },
+    {
+      "index": 143,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217510.621667417,
+      "gpuEndSeconds": 217510.622081
+    },
+    {
+      "index": 144,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217510.984172875,
+      "gpuEndSeconds": 217510.984615875
+    },
+    {
+      "index": 145,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217511.36846725,
+      "gpuEndSeconds": 217511.368972625
+    },
+    {
+      "index": 146,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217511.636797875,
+      "gpuEndSeconds": 217511.637214542
+    },
+    {
+      "index": 147,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217512.089496875,
+      "gpuEndSeconds": 217512.089955375
+    },
+    {
+      "index": 148,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217512.343826875,
+      "gpuEndSeconds": 217512.3442325
+    },
+    {
+      "index": 149,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217512.7780925,
+      "gpuEndSeconds": 217512.778571875
+    },
+    {
+      "index": 150,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217513.17332725,
+      "gpuEndSeconds": 217513.173730625
+    },
+    {
+      "index": 151,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217513.4445595,
+      "gpuEndSeconds": 217513.4450085
+    },
+    {
+      "index": 152,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217513.864115667,
+      "gpuEndSeconds": 217513.864528792
+    },
+    {
+      "index": 153,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217514.290953417,
+      "gpuEndSeconds": 217514.2915155
+    },
+    {
+      "index": 154,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217514.714409542,
+      "gpuEndSeconds": 217514.71488825
+    },
+    {
+      "index": 155,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217514.979691292,
+      "gpuEndSeconds": 217514.980293917
+    },
+    {
+      "index": 156,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217515.375804875,
+      "gpuEndSeconds": 217515.376323375
+    },
+    {
+      "index": 157,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217515.776449625,
+      "gpuEndSeconds": 217515.7770435
+    },
+    {
+      "index": 158,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217516.024967125,
+      "gpuEndSeconds": 217516.025381
+    },
+    {
+      "index": 159,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217516.453337125,
+      "gpuEndSeconds": 217516.454468917
+    },
+    {
+      "index": 160,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217516.86559975,
+      "gpuEndSeconds": 217516.86603275
+    },
+    {
+      "index": 161,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217517.130953875,
+      "gpuEndSeconds": 217517.131400625
+    },
+    {
+      "index": 162,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217517.552301625,
+      "gpuEndSeconds": 217517.55278375
+    },
+    {
+      "index": 163,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217517.897123625,
+      "gpuEndSeconds": 217517.897548
+    },
+    {
+      "index": 164,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217518.215913542,
+      "gpuEndSeconds": 217518.216380042
+    },
+    {
+      "index": 165,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217518.646413875,
+      "gpuEndSeconds": 217518.646884875
+    },
+    {
+      "index": 166,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217518.901814,
+      "gpuEndSeconds": 217518.902267542
+    },
+    {
+      "index": 167,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217519.365914917,
+      "gpuEndSeconds": 217519.366330125
+    },
+    {
+      "index": 168,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 187,
+      "gpuStartSeconds": 217519.77428875,
+      "gpuEndSeconds": 217519.7747445
+    },
+    {
+      "index": 169,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 482,
+      "gpuStartSeconds": 217520.051001625,
+      "gpuEndSeconds": 217520.051433375
+    },
+    {
+      "index": 170,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 48,
+      "gpuStartSeconds": 217520.47876925,
+      "gpuEndSeconds": 217520.47925725
+    },
+    {
+      "index": 171,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217520.861264792,
+      "gpuEndSeconds": 217520.861720375
+    },
+    {
+      "index": 172,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217521.151994875,
+      "gpuEndSeconds": 217521.15247775
+    },
+    {
+      "index": 173,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217521.663969542,
+      "gpuEndSeconds": 217521.66549575
+    },
+    {
+      "index": 174,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217521.996498167,
+      "gpuEndSeconds": 217521.99693375
+    },
+    {
+      "index": 175,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 482,
+      "gpuStartSeconds": 217522.451450917,
+      "gpuEndSeconds": 217522.453579667
+    },
+    {
+      "index": 176,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 48,
+      "gpuStartSeconds": 217522.829322167,
+      "gpuEndSeconds": 217522.829995167
+    },
+    {
+      "index": 177,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217523.147644292,
+      "gpuEndSeconds": 217523.148019125
+    },
+    {
+      "index": 178,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 482,
+      "gpuStartSeconds": 217523.627293542,
+      "gpuEndSeconds": 217523.627878125
+    },
+    {
+      "index": 179,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 48,
+      "gpuStartSeconds": 217523.978683042,
+      "gpuEndSeconds": 217523.979104792
+    },
+    {
+      "index": 180,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217501.530070125,
+      "gpuEndSeconds": 217501.530536417
+    },
+    {
+      "index": 181,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217502.268182,
+      "gpuEndSeconds": 217502.268655625
+    },
+    {
+      "index": 182,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217502.484863667,
+      "gpuEndSeconds": 217502.485642292
+    },
+    {
+      "index": 183,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217502.920804167,
+      "gpuEndSeconds": 217502.921251542
+    },
+    {
+      "index": 184,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217503.205594792,
+      "gpuEndSeconds": 217503.206005875
+    },
+    {
+      "index": 185,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217503.577356625,
+      "gpuEndSeconds": 217503.577832917
+    },
+    {
+      "index": 186,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217504.010687417,
+      "gpuEndSeconds": 217504.011106
+    },
+    {
+      "index": 187,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217504.276619542,
+      "gpuEndSeconds": 217504.277079667
+    },
+    {
+      "index": 188,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217504.782038625,
+      "gpuEndSeconds": 217504.782531792
+    },
+    {
+      "index": 189,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217505.225020167,
+      "gpuEndSeconds": 217505.225579917
+    },
+    {
+      "index": 190,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217505.497597875,
+      "gpuEndSeconds": 217505.497998
+    },
+    {
+      "index": 191,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217505.90687675,
+      "gpuEndSeconds": 217505.90730475
+    },
+    {
+      "index": 192,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217506.30377025,
+      "gpuEndSeconds": 217506.30421625
+    },
+    {
+      "index": 193,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217506.597749875,
+      "gpuEndSeconds": 217506.598150625
+    },
+    {
+      "index": 194,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217507.0890025,
+      "gpuEndSeconds": 217507.089517625
+    },
+    {
+      "index": 195,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217507.538514875,
+      "gpuEndSeconds": 217507.53893025
+    },
+    {
+      "index": 196,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217507.827883292,
+      "gpuEndSeconds": 217507.82829875
+    },
+    {
+      "index": 197,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217508.26630775,
+      "gpuEndSeconds": 217508.26682075
+    },
+    {
+      "index": 198,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217508.5266515,
+      "gpuEndSeconds": 217508.527032625
+    },
+    {
+      "index": 199,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217508.948662792,
+      "gpuEndSeconds": 217508.94914125
+    },
+    {
+      "index": 200,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217509.3230585,
+      "gpuEndSeconds": 217509.323493875
+    },
+    {
+      "index": 201,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217509.71759125,
+      "gpuEndSeconds": 217509.718006375
+    },
+    {
+      "index": 202,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217510.116015042,
+      "gpuEndSeconds": 217510.116455
+    },
+    {
+      "index": 203,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217510.414471,
+      "gpuEndSeconds": 217510.414864625
+    },
+    {
+      "index": 204,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217510.77461875,
+      "gpuEndSeconds": 217510.775076375
+    },
+    {
+      "index": 205,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217511.160487,
+      "gpuEndSeconds": 217511.160919917
+    },
+    {
+      "index": 206,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217511.42395075,
+      "gpuEndSeconds": 217511.424376875
+    },
+    {
+      "index": 207,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217511.863728625,
+      "gpuEndSeconds": 217511.864237292
+    },
+    {
+      "index": 208,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217512.154289,
+      "gpuEndSeconds": 217512.154679625
+    },
+    {
+      "index": 209,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217512.542953292,
+      "gpuEndSeconds": 217512.543375
+    },
+    {
+      "index": 210,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217513.013987375,
+      "gpuEndSeconds": 217513.0144405
+    },
+    {
+      "index": 211,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217513.471592625,
+      "gpuEndSeconds": 217513.472001292
+    },
+    {
+      "index": 212,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217513.82735175,
+      "gpuEndSeconds": 217513.827816125
+    },
+    {
+      "index": 213,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217514.096207542,
+      "gpuEndSeconds": 217514.096623375
+    },
+    {
+      "index": 214,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217514.5178465,
+      "gpuEndSeconds": 217514.5189635
+    },
+    {
+      "index": 215,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217514.920908875,
+      "gpuEndSeconds": 217514.921402
+    },
+    {
+      "index": 216,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217515.170073375,
+      "gpuEndSeconds": 217515.172693875
+    },
+    {
+      "index": 217,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217515.557334417,
+      "gpuEndSeconds": 217515.557822
+    },
+    {
+      "index": 218,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217515.806590042,
+      "gpuEndSeconds": 217515.807022
+    },
+    {
+      "index": 219,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217516.232335417,
+      "gpuEndSeconds": 217516.232841
+    },
+    {
+      "index": 220,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217516.6572405,
+      "gpuEndSeconds": 217516.657715667
+    },
+    {
+      "index": 221,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217516.924897042,
+      "gpuEndSeconds": 217516.9253375
+    },
+    {
+      "index": 222,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217517.330693625,
+      "gpuEndSeconds": 217517.331125125
+    },
+    {
+      "index": 223,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217517.704973792,
+      "gpuEndSeconds": 217517.7053955
+    },
+    {
+      "index": 224,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217517.986680375,
+      "gpuEndSeconds": 217517.987157875
+    },
+    {
+      "index": 225,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217518.420860292,
+      "gpuEndSeconds": 217518.421316875
+    },
+    {
+      "index": 226,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 48,
+      "gpuStartSeconds": 217518.677871917,
+      "gpuEndSeconds": 217518.678287292
+    },
+    {
+      "index": 227,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 482,
+      "gpuStartSeconds": 217519.114567167,
+      "gpuEndSeconds": 217519.115357292
+    },
+    {
+      "index": 228,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217519.561517625,
+      "gpuEndSeconds": 217519.56198275
+    },
+    {
+      "index": 229,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217519.829613042,
+      "gpuEndSeconds": 217519.830102792
+    },
+    {
+      "index": 230,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217520.276123292,
+      "gpuEndSeconds": 217520.276564875
+    },
+    {
+      "index": 231,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 187,
+      "gpuStartSeconds": 217520.629517125,
+      "gpuEndSeconds": 217520.6299275
+    },
+    {
+      "index": 232,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 482,
+      "gpuStartSeconds": 217520.9217495,
+      "gpuEndSeconds": 217520.92218175
+    },
+    {
+      "index": 233,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 482,
+      "gpuStartSeconds": 217521.381350875,
+      "gpuEndSeconds": 217521.38188475
+    },
+    {
+      "index": 234,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 187,
+      "gpuStartSeconds": 217521.705411125,
+      "gpuEndSeconds": 217521.705873
+    },
+    {
+      "index": 235,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 482,
+      "gpuStartSeconds": 217522.22251575,
+      "gpuEndSeconds": 217522.22303675
+    },
+    {
+      "index": 236,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 48,
+      "gpuStartSeconds": 217522.614265,
+      "gpuEndSeconds": 217522.61471075
+    },
+    {
+      "index": 237,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217522.92520625,
+      "gpuEndSeconds": 217522.925603667
+    },
+    {
+      "index": 238,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 482,
+      "gpuStartSeconds": 217523.3569815,
+      "gpuEndSeconds": 217523.357640667
+    },
+    {
+      "index": 239,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 48,
+      "gpuStartSeconds": 217523.718582875,
+      "gpuEndSeconds": 217523.718986167
+    },
+    {
+      "index": 240,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217501.773220542,
+      "gpuEndSeconds": 217501.773623875
+    },
+    {
+      "index": 241,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217502.240519875,
+      "gpuEndSeconds": 217502.241135375
+    },
+    {
+      "index": 242,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217502.593607667,
+      "gpuEndSeconds": 217502.594030375
+    },
+    {
+      "index": 243,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217503.0086095,
+      "gpuEndSeconds": 217503.008981625
+    },
+    {
+      "index": 244,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217503.373533167,
+      "gpuEndSeconds": 217503.37392225
+    },
+    {
+      "index": 245,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217503.77478525,
+      "gpuEndSeconds": 217503.775324042
+    },
+    {
+      "index": 246,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217504.042026375,
+      "gpuEndSeconds": 217504.042496875
+    },
+    {
+      "index": 247,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217504.528949042,
+      "gpuEndSeconds": 217504.52994425
+    },
+    {
+      "index": 248,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217505.008494125,
+      "gpuEndSeconds": 217505.008911417
+    },
+    {
+      "index": 249,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217505.26987675,
+      "gpuEndSeconds": 217505.270287417
+    },
+    {
+      "index": 250,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217505.692306375,
+      "gpuEndSeconds": 217505.692800625
+    },
+    {
+      "index": 251,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217506.094021125,
+      "gpuEndSeconds": 217506.094452875
+    },
+    {
+      "index": 252,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217506.376958,
+      "gpuEndSeconds": 217506.377380375
+    },
+    {
+      "index": 253,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217506.77243275,
+      "gpuEndSeconds": 217506.772951875
+    },
+    {
+      "index": 254,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217507.330758625,
+      "gpuEndSeconds": 217507.331237917
+    },
+    {
+      "index": 255,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217507.601339667,
+      "gpuEndSeconds": 217507.601940375
+    },
+    {
+      "index": 256,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217508.054286292,
+      "gpuEndSeconds": 217508.054752125
+    },
+    {
+      "index": 257,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217508.335729,
+      "gpuEndSeconds": 217508.336143375
+    },
+    {
+      "index": 258,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217508.703086167,
+      "gpuEndSeconds": 217508.703680292
+    },
+    {
+      "index": 259,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217509.11522875,
+      "gpuEndSeconds": 217509.115686125
+    },
+    {
+      "index": 260,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217509.445067125,
+      "gpuEndSeconds": 217509.445506
+    },
+    {
+      "index": 261,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217509.929565625,
+      "gpuEndSeconds": 217509.930007042
+    },
+    {
+      "index": 262,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217510.207184875,
+      "gpuEndSeconds": 217510.207609625
+    },
+    {
+      "index": 263,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217510.558386292,
+      "gpuEndSeconds": 217510.558824042
+    },
+    {
+      "index": 264,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217510.951353667,
+      "gpuEndSeconds": 217510.951805875
+    },
+    {
+      "index": 265,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217511.216909125,
+      "gpuEndSeconds": 217511.217330292
+    },
+    {
+      "index": 266,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217511.6297905,
+      "gpuEndSeconds": 217511.630283042
+    },
+    {
+      "index": 267,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217511.96125225,
+      "gpuEndSeconds": 217511.9616755
+    },
+    {
+      "index": 268,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217512.3147795,
+      "gpuEndSeconds": 217512.315310167
+    },
+    {
+      "index": 269,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217512.77088075,
+      "gpuEndSeconds": 217512.77136925
+    },
+    {
+      "index": 270,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217513.023198375,
+      "gpuEndSeconds": 217513.023617667
+    },
+    {
+      "index": 271,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217513.382933875,
+      "gpuEndSeconds": 217513.383357125
+    },
+    {
+      "index": 272,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217513.66217775,
+      "gpuEndSeconds": 217513.662634417
+    },
+    {
+      "index": 273,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217514.0866505,
+      "gpuEndSeconds": 217514.088062625
+    },
+    {
+      "index": 274,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217514.497156875,
+      "gpuEndSeconds": 217514.49769475
+    },
+    {
+      "index": 275,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217514.768282,
+      "gpuEndSeconds": 217514.76874125
+    },
+    {
+      "index": 276,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217515.178714,
+      "gpuEndSeconds": 217515.179139792
+    },
+    {
+      "index": 277,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217515.583937125,
+      "gpuEndSeconds": 217515.584458875
+    },
+    {
+      "index": 278,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217515.989241167,
+      "gpuEndSeconds": 217515.99090925
+    },
+    {
+      "index": 279,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217516.254114792,
+      "gpuEndSeconds": 217516.254610875
+    },
+    {
+      "index": 280,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217516.676321875,
+      "gpuEndSeconds": 217516.676850875
+    },
+    {
+      "index": 281,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217517.08935675,
+      "gpuEndSeconds": 217517.089816542
+    },
+    {
+      "index": 282,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217517.344060167,
+      "gpuEndSeconds": 217517.344536625
+    },
+    {
+      "index": 283,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217517.783174125,
+      "gpuEndSeconds": 217517.783620375
+    },
+    {
+      "index": 284,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217518.088958542,
+      "gpuEndSeconds": 217518.089382625
+    },
+    {
+      "index": 285,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217518.4312705,
+      "gpuEndSeconds": 217518.431857042
+    },
+    {
+      "index": 286,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217518.8854945,
+      "gpuEndSeconds": 217518.8862085
+    },
+    {
+      "index": 287,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 48,
+      "gpuStartSeconds": 217519.139462625,
+      "gpuEndSeconds": 217519.139905875
+    },
+    {
+      "index": 288,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 482,
+      "gpuStartSeconds": 217519.609271542,
+      "gpuEndSeconds": 217519.609869042
+    },
+    {
+      "index": 289,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217519.985390125,
+      "gpuEndSeconds": 217519.98579175
+    },
+    {
+      "index": 290,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 10,
+      "gpuStartSeconds": 217520.286405875,
+      "gpuEndSeconds": 217520.286841417
+    },
+    {
+      "index": 291,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 275,
+      "gpuStartSeconds": 217520.680943125,
+      "gpuEndSeconds": 217520.68138325
+    },
+    {
+      "index": 292,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 187,
+      "gpuStartSeconds": 217521.059465792,
+      "gpuEndSeconds": 217521.059881292
+    },
+    {
+      "index": 293,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 48,
+      "gpuStartSeconds": 217521.40038025,
+      "gpuEndSeconds": 217521.400835375
+    },
+    {
+      "index": 294,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 482,
+      "gpuStartSeconds": 217521.958832667,
+      "gpuEndSeconds": 217521.959525417
+    },
+    {
+      "index": 295,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217522.242689292,
+      "gpuEndSeconds": 217522.243120792
+    },
+    {
+      "index": 296,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 482,
+      "gpuStartSeconds": 217522.669252167,
+      "gpuEndSeconds": 217522.669884667
+    },
+    {
+      "index": 297,
+      "context": 4,
+      "sourceSurfaceId": 103,
+      "destinationSurfaceId": 48,
+      "gpuStartSeconds": 217523.021973125,
+      "gpuEndSeconds": 217523.022367667
+    },
+    {
+      "index": 298,
+      "context": 6,
+      "sourceSurfaceId": 76,
+      "destinationSurfaceId": 236,
+      "gpuStartSeconds": 217523.374391125,
+      "gpuEndSeconds": 217523.3749975
+    },
+    {
+      "index": 299,
+      "context": 5,
+      "sourceSurfaceId": 165,
+      "destinationSurfaceId": 482,
+      "gpuStartSeconds": 217523.839457417,
+      "gpuEndSeconds": 217523.83989525
+    }
+  ]
+}

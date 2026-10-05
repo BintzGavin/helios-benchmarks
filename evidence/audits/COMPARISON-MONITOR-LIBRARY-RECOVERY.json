@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-10-03T19:33:56.060034+00:00",
+  "recoveryReceipt": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/LIBRARY-RECOVERY.json",
+  "recoveryReceiptSha256": "c363988289708964abc458b32d33286aba527b07e15b66ea7bae66d2148cac73",
+  "status": "blocked-before-prepare",
+  "attempts": [
+    {
+      "environment": "workspace sandbox",
+      "exitCode": 1,
+      "stderr": "library upload failed: hosted apps tools/list request failed: DNS",
+      "stdoutBytes": 0
+    },
+    {
+      "environment": "approved host network",
+      "exitCode": 1,
+      "stderr": "library upload failed: Library prepare_uploads is not available",
+      "stdoutBytes": 0
+    }
+  ],
+  "ownerToolsListed": [
+    "mcp__codex_apps__library_prepare_uploads",
+    "mcp__codex_apps__library_finalize_uploads"
+  ],
+  "localToolMetadataMatches": [],
+  "distinction": "Owner preparation/finalization tools are listed; required refreshed helper route cannot access preparation. Local metadata does not expose these tools.",
+  "requiredRoute": "refreshed library_upload.py ordered batch -> prepare_uploads -> byte transfer -> finalize_uploads -> identity/xattrs",
+  "directRoutePermitted": false,
+  "newConfirmedLibraryIds": [],
+  "checkpointLibraryId": "libfile_cd84375e4648819195364136245484c6",
+  "originalSourceLibraryId": "libfile_19c903c1d7508191ac4881f0e96e4229",
+  "packageBindingsMatchPreviouslyAuditedDelivery": true,
+  "archiveBytesRehashedThisHeartbeat": false,
+  "ownerThread": "01a0ff86-ddbd-7703-92b8-781e18082039",
+  "ownerStatus": "idle",
+  "waitCursor": "d0c051ad-a3b2-4641-b3cb-7583ae2a6e2e:9",
+  "noLocalJobs": true,
+  "broaderObjectiveComplete": false,
+  "heartbeatRemainsActive": true
+}

@@ -1,0 +1,10 @@
+{
+  "case": "expected-order-guard",
+  "passed": true,
+  "expectedRefusal": "EXPECTED_ORDER",
+  "observedError": "Refusal: EXPECTED_ORDER",
+  "secondsExcludedFromBenchmarks": 0.011982249998254701,
+  "sourceUnchanged": true,
+  "GPUExecuted": false,
+  "atomicFinalExists": false
+}

@@ -1,0 +1,29 @@
+{
+  "scope": "excluded CPU command preparation probe; no GPU render, no throughput claim; one cold and two subsequent frames",
+  "records": [
+    {
+      "frame": 3,
+      "commands": 100061,
+      "bytes": 13809844,
+      "recordMs": 118.82150000000001,
+      "stringifyMs": 42.467625,
+      "totalMs": 161.289125
+    },
+    {
+      "frame": 4,
+      "commands": 100061,
+      "bytes": 13757073,
+      "recordMs": 101.94900000000007,
+      "stringifyMs": 42.5932499999999,
+      "totalMs": 144.54224999999997
+    },
+    {
+      "frame": 302,
+      "commands": 100061,
+      "bytes": 13770492,
+      "recordMs": 99.996083,
+      "stringifyMs": 42.69404199999997,
+      "totalMs": 142.69012499999997
+    }
+  ]
+}

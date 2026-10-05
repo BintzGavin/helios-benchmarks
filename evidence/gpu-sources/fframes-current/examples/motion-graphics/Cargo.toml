@@ -1,0 +1,40 @@
+[package]
+name = "motion-graphics-example"
+version = "1.1.0"
+edition = "2024"
+
+[dependencies]
+fframes = { workspace = true, features = ["h264", "libav-agree-gpl"] }
+clap = { version = "4.3.4", features = ["derive"] }
+
+# Keep FFmpeg source fallbacks portable across CI runner CPUs (see README).
+[target.'cfg(not(any(target_arch = "wasm32", windows)))'.dependencies]
+fframes = { workspace = true, features = ["build-portable"] }
+
+[features]
+default = ["renderer"]
+renderer = ["fframes/compile-time-svgtree", "fframes/cli"]
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+name = "motion_graphics_example"
+path = "src/lib.rs"
+doctest = false
+
+[[bin]]
+name = "motion_graphics_example_bin"
+path = "src/main.rs"
+required-features = ["renderer"]
+
+[[bin]]
+name = "quote"
+path = "src/bin/quote.rs"
+required-features = ["renderer"]
+
+[[bin]]
+name = "install_scene"
+path = "src/bin/install_scene.rs"
+required-features = ["renderer"]
+
+[lints]
+workspace = true

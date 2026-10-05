@@ -1,0 +1,55 @@
+{
+  "status": "qualified-textgrid-and-separate4k-adapter-results-delivery-blocked",
+  "preparedLibraryId": "libfile_19c903c1d7508191ac4881f0e96e4229",
+  "nativeImplementation": {
+    "featurePr": "https://github.com/BintzGavin/helios/pull/5009",
+    "featureMerge": "5299bf7f9ad69f54c25b26b0b0774fbcc7d5f723",
+    "oraclePr": "https://github.com/BintzGavin/helios/pull/5010",
+    "oracleMerge": "2d9bc89453214d8d659cbe81d6cc97d01100ac7f",
+    "mergesExternal": true,
+    "helperSha256": "87aec3f3d39db8956490942429e6a865741c04515ad6b98753aaf6599c197a90"
+  },
+  "textGrid": {
+    "hardware": "qualified four balanced pairs complete",
+    "software": "qualified four balanced rounds running; Remotion1tab",
+    "failedExcluded": "Remotion8tab warmup failed; no timed rounds in aborted first series"
+  },
+  "separate4kClaim": "not yet replicated; public circle/GOP extension and pinned optimized usvgr needed",
+  "unsupported": [
+    "Vulkan encoder interoperability",
+    "HEVC in Helios",
+    "Intel/Windows native path",
+    "GPU image/video nodes",
+    "broad Canvas paths"
+  ],
+  "claimBeaten": false,
+  "zeroCopyProved": false,
+  "TextGridComplete": true,
+  "published4KClaimBeaten": false,
+  "circleGopBuildReady": {
+    "pr": "https://github.com/BintzGavin/helios/pull/5011",
+    "commit": "ed0cc7575cb4ce2d2e19be943ca5b4e54363ba39",
+    "helperSha256": "4b2b2598a4604be3104e284fec7d5d1cc3368acf1917e3e1e23ce76a1f0ac6ca"
+  },
+  "circles300ReferencesComplete": true,
+  "circles8MbpsQuality": {
+    "H": "failed",
+    "F": "failed",
+    "timedSummaryEligible": false
+  },
+  "LibrarySave": "blocked-before-prepare-no-confirmed-new-IDs",
+  "next": "higher-bitrate circle quality screens; child pool then command-transport optimization; qualify new receipts before timed comparison",
+  "fourKConfig": "comparison/circles-common-binary-300-config.json",
+  "fourKManifest": "comparison/circles-common-binary-300-balanced/manifest.json",
+  "fourKSceneReplication": true,
+  "publishedM5ClaimBeaten": false,
+  "librarySaveBlocked": true,
+  "timingWindowClosed": true,
+  "entireRequestedObjectiveCompleted": false,
+  "remaining": [
+    "Native Library save route unavailable; no new deliverable IDs",
+    "Published M5Max single-run claim not beaten/comparable",
+    "Original4Kfframes product lane quality not qualified; common serial adapter results separate",
+    "Vulkan encoder interop/HEVC and other documented unsupported paths"
+  ]
+}

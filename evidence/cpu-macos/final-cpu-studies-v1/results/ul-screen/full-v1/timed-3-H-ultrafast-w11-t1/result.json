@@ -1,0 +1,228 @@
+{
+  "id": "H-ultrafast-w11-t1",
+  "engine": "H",
+  "workers": 11,
+  "encoderThreads": 1,
+  "preset": "ultrafast",
+  "jpegQuality": null,
+  "phase": "timed",
+  "index": 3,
+  "directory": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/final-cpu-studies-v1/results/ul-screen/full-v1/timed-3-H-ultrafast-w11-t1",
+  "status": "complete",
+  "components": {
+    "engine": {
+      "command": [
+        "/Users/gavinbintz/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/three-engine-v1/worker.mjs",
+        "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/final-cpu-studies-v1/results/ul-screen/full-v1/timed-3-H-ultrafast-w11-t1/config.json"
+      ],
+      "exitCode": 0,
+      "wallNs": 4203999584
+    }
+  },
+  "encoderThreadScope": "per segment/worker encoder",
+  "initialAggregateEncoderThreads": 11,
+  "compositionSha256": "e106f60729fa290c2a030f3c7ad1509205ddcf69f2a6c16503f94126b486529a",
+  "details": {
+    "engine": "H",
+    "node": "v24.19.0",
+    "ffmpegArgv": [],
+    "stats": {
+      "frames": 300,
+      "chunks": 11,
+      "workers": 11,
+      "ranges": [
+        {
+          "frames": 20,
+          "preparationMs": 181.39370800000003,
+          "rasterizeMs": 1459.3988759999997,
+          "pixelExtractionMs": 272.3127509999998,
+          "drawMs": 1732.102709000001,
+          "encoderWaitMs": 249.71862700000003,
+          "encodeMs": 2042.2783750000003,
+          "verifyMs": 59.74900000000025
+        },
+        {
+          "frames": 28,
+          "preparationMs": 143.33479199999996,
+          "rasterizeMs": 2014.577249,
+          "pixelExtractionMs": 294.7844169999997,
+          "drawMs": 2309.796835999999,
+          "encoderWaitMs": 350.0317529999998,
+          "encodeMs": 2708.753333,
+          "verifyMs": 42.57574999999997
+        },
+        {
+          "frames": 28,
+          "preparationMs": 172.0295,
+          "rasterizeMs": 1893.5480830000013,
+          "pixelExtractionMs": 347.1387090000005,
+          "drawMs": 2241.810542000001,
+          "encoderWaitMs": 395.96320800000086,
+          "encodeMs": 2694.608,
+          "verifyMs": 51.23633299999983
+        },
+        {
+          "frames": 28,
+          "preparationMs": 164.26587499999997,
+          "rasterizeMs": 1866.1989109999997,
+          "pixelExtractionMs": 360.37762500000105,
+          "drawMs": 2227.07492,
+          "encoderWaitMs": 387.59833099999975,
+          "encodeMs": 2671.3234580000003,
+          "verifyMs": 45.09333400000014
+        },
+        {
+          "frames": 28,
+          "preparationMs": 149.110166,
+          "rasterizeMs": 1966.9320399999997,
+          "pixelExtractionMs": 352.98779200000075,
+          "drawMs": 2320.3579989999985,
+          "encoderWaitMs": 353.74808300000035,
+          "encodeMs": 2723.0836670000003,
+          "verifyMs": 44.1318339999998
+        },
+        {
+          "frames": 28,
+          "preparationMs": 194.21999999999997,
+          "rasterizeMs": 1898.9833309999992,
+          "pixelExtractionMs": 406.13216699999913,
+          "drawMs": 2305.544419000001,
+          "encoderWaitMs": 351.32637499999913,
+          "encodeMs": 2720.805791,
+          "verifyMs": 49.692041999999674
+        },
+        {
+          "frames": 28,
+          "preparationMs": 110.251541,
+          "rasterizeMs": 2074.556875000001,
+          "pixelExtractionMs": 411.7844959999995,
+          "drawMs": 2486.7273329999994,
+          "encoderWaitMs": 299.1600409999987,
+          "encodeMs": 2845.333708,
+          "verifyMs": 40.11679200000026
+        },
+        {
+          "frames": 28,
+          "preparationMs": 145.439667,
+          "rasterizeMs": 2000.1879989999998,
+          "pixelExtractionMs": 348.7104559999991,
+          "drawMs": 2349.40654,
+          "encoderWaitMs": 422.2868729999999,
+          "encodeMs": 2819.7984579999998,
+          "verifyMs": 40.964166999999634
+        },
+        {
+          "frames": 28,
+          "preparationMs": 163.23020900000003,
+          "rasterizeMs": 2013.8396650000002,
+          "pixelExtractionMs": 360.7219159999995,
+          "drawMs": 2375.0451219999995,
+          "encoderWaitMs": 382.88612599999936,
+          "encodeMs": 2809.989125,
+          "verifyMs": 40.504583999999795
+        },
+        {
+          "frames": 28,
+          "preparationMs": 164.251417,
+          "rasterizeMs": 2097.653,
+          "pixelExtractionMs": 307.40337800000015,
+          "drawMs": 2405.511127999999,
+          "encoderWaitMs": 323.30891299999945,
+          "encodeMs": 2789.802709,
+          "verifyMs": 37.70283399999971
+        },
+        {
+          "frames": 28,
+          "preparationMs": 151.93183299999998,
+          "rasterizeMs": 2128.2611689999994,
+          "pixelExtractionMs": 295.5307910000003,
+          "drawMs": 2424.233667000001,
+          "encoderWaitMs": 317.9197919999996,
+          "encodeMs": 2788.85975,
+          "verifyMs": 38.16825000000017
+        }
+      ],
+      "renderMs": 3204.190625,
+      "finalizeMs": 822.5594999999998,
+      "finalVerifyMs": 532.5848340000002
+    },
+    "apiWallNs": 4111045583
+  },
+  "deliveredWallNs": 4204519125,
+  "encoding": {
+    "rawUserSei": "x264 - core 165 r3222 b35605a - H.264/MPEG-4 AVC codec - Copyleft 2003-2025 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=1 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=24 keyint_min=2 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=11.0 qcomp=0.60 qpmin=15 qpmax=60 qpstep=4 ip_ratio=1.40 aq=0",
+    "parameters": {
+      "cabac": "0",
+      "ref": "1",
+      "deblock": "0:0:0",
+      "analyse": "0:0",
+      "me": "dia",
+      "subme": "0",
+      "psy": "1",
+      "psy_rd": "1.00:0.00",
+      "mixed_ref": "0",
+      "me_range": "16",
+      "chroma_me": "1",
+      "trellis": "0",
+      "x8dct": "0",
+      "cqm": "0",
+      "deadzone": "21,11",
+      "fast_pskip": "1",
+      "chroma_qp_offset": "0",
+      "threads": "1",
+      "lookahead_threads": "1",
+      "sliced_threads": "0",
+      "nr": "0",
+      "decimate": "1",
+      "interlaced": "0",
+      "bluray_compat": "0",
+      "constrained_intra": "0",
+      "bframes": "0",
+      "weightp": "0",
+      "keyint": "24",
+      "keyint_min": "2",
+      "scenecut": "0",
+      "intra_refresh": "0",
+      "rc": "crf",
+      "mbtree": "0",
+      "crf": "11.0",
+      "qcomp": "0.60",
+      "qpmin": "15",
+      "qpmax": "60",
+      "qpstep": "4",
+      "ip_ratio": "1.40",
+      "aq": "0"
+    },
+    "expected": {
+      "threads": 1,
+      "bframes": 0,
+      "keyint": 24,
+      "crf": 11,
+      "qpmin": 15,
+      "qpmax": 60,
+      "qcomp": 0.6,
+      "qpstep": 4,
+      "scenecut": 0,
+      "cabac": 0,
+      "ref": 1,
+      "subme": 0,
+      "trellis": 0
+    },
+    "presetLiteralAvailable": false
+  },
+  "outputs": [
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/final-cpu-studies-v1/results/ul-screen/full-v1/timed-3-H-ultrafast-w11-t1/output.mp4",
+      "bytes": 196577294,
+      "sha256": "4c7930813a23cfbfc254d85f937bf4bc17895db07d6dbdd559baa40ad1744fff"
+    }
+  ],
+  "retainedLogicalMp4Bytes": 8206910046,
+  "physicalMp4Storage": {
+    "uniqueInodeBytes": 1912366245,
+    "reportedAllocatedBytes": 1912389632
+  },
+  "qualityArtifact": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/final-cpu-studies-v1/results/ul-screen/full-v1/quality/H-4c7930813a23cfbfc254d85f937bf4bc17895db07d6dbdd559baa40ad1744fff/measurement.json",
+  "eligible": true
+}

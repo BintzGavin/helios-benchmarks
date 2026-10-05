@@ -1,0 +1,9 @@
+file:///private/tmp/helios-gpu-evidence/run-final.mjs:21
+  if (result.exit !== 0) throw new Error(`${name} failed; inspect retained receipts`);
+                               ^
+
+Error: round-3-native-hardware-quality failed; inspect retained receipts
+    at run (file:///private/tmp/helios-gpu-evidence/run-final.mjs:21:32)
+    at async file:///private/tmp/helios-gpu-evidence/run-final.mjs:50:5
+
+Node.js v22.23.1

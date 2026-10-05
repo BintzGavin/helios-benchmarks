@@ -1,0 +1,20 @@
+
+running 3 tests
+test tests::utf8_padding_and_known_font_are_independent_boundaries ... ok
+test tests::command_geometry_paint_stack_count_and_text_are_bounded ... ok
+test tests::bounded_reader_and_validation_reject_broken_envelopes ... FAILED
+
+failures:
+
+---- tests::bounded_reader_and_validation_reject_broken_envelopes stdout ----
+
+thread 'tests::bounded_reader_and_validation_reject_broken_envelopes' (4096726) panicked at /private/tmp/helios-gpu-transport-mutants/allocated-envelope.rs:126:104:
+assertion failed: output.is_empty()
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+failures:
+    tests::bounded_reader_and_validation_reject_broken_envelopes
+
+test result: FAILED. 2 passed; 1 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.10s
+

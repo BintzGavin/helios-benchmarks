@@ -1,0 +1,74 @@
+{
+  "purpose": "CPU-feed-control",
+  "pythonExecutable": "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+  "command": [
+    "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/codec_fixture_helper.py",
+    "reference-binary",
+    "256",
+    "128",
+    "30000",
+    "1001",
+    "20000000",
+    "/unused",
+    "vulkan-synthetic-trace",
+    "",
+    "30",
+    "3",
+    "hevc"
+  ],
+  "recorderModule": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/dist/gpu.js",
+  "sceneModule": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/codec_fixture_scene.mjs",
+  "font": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/preparation/unpacked/helios-gpu-comparison-prep/DM-Sans.ttf",
+    "bytes": 72000,
+    "sha256": "9ae2da663d64342031e59b5fa680dd355171d021b7ebf83774efc7c0330ae7b5"
+  },
+  "protocol": 9,
+  "codec": "hevc",
+  "backend": "vulkan",
+  "frames": 3,
+  "width": 256,
+  "height": 128,
+  "bitrate": 20000000,
+  "outputDirectory": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/codec-orchestration-prep-20261005/cpu-feed-controls/vulkan-hevc-reference-binary",
+  "benchmarkTiming": false,
+  "taskSettings": {},
+  "pins": [
+    {
+      "path": "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+      "bytes": 34640,
+      "sha256": "4f00ea2ad53d62437a6a3946b73c73614a97e8accdc5b96dc095ea1a0d9c6a56"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/node@22/22.23.1/bin/node",
+      "bytes": 67024,
+      "sha256": "d9d8b2f7b67c73ef75d90ec7a981be82f2242fc5a1a26c217e250b00ed97c849"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/codec_fixture_helper.py",
+      "bytes": 2159,
+      "sha256": "31429901e0efa75fd264a7c1d4d4b2948205320022208ab76d5b2f2a1faf8219"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_codec_feed.mjs",
+      "bytes": 5620,
+      "sha256": "225457a9b51d3c8924d3c73dbaa42353b4ae13052bea126d633076ff2d0fa1d0"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/codec_fixture_scene.mjs",
+      "bytes": 688,
+      "sha256": "c6c8cfe062d6d86c13525867d33650ccbfa194b24fb34012bf57b1c00818efd8"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/dist/gpu.js",
+      "bytes": 20126,
+      "sha256": "235b8b57fe8e45b543c9deefb91f38ec5febe5f8b79e4abc45931ec41a5d55e2"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/preparation/unpacked/helios-gpu-comparison-prep/DM-Sans.ttf",
+      "bytes": 72000,
+      "sha256": "9ae2da663d64342031e59b5fa680dd355171d021b7ebf83774efc7c0330ae7b5"
+    }
+  ]
+}

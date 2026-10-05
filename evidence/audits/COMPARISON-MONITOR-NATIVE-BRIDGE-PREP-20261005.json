@@ -1,0 +1,126 @@
+{
+  "status": "independent saved CPU bridge preparation audit passed",
+  "manifestEntries": 1351,
+  "manifestBytes": 70374370,
+  "symlinksChecked": 3,
+  "sourceRuntimePins": 206,
+  "CPUProfilePinChecked": true,
+  "archives": [
+    {
+      "sha256": "c1e57501c33d726573d181072699021d37237ae8fcb1914c8bae989b27aafb5b",
+      "entries": 27,
+      "CRCpassed": true
+    },
+    {
+      "sha256": "3c760b6c6be15e8594492437f8d6265f2defcdd37e1b2d582b05aed79f837b89",
+      "entries": 1352,
+      "CRCpassed": true
+    }
+  ],
+  "finalGenerations": [
+    "validation-final-07",
+    "validation-extra-final-08"
+  ],
+  "savedTestsPassed": 63,
+  "testsNotRerun": true,
+  "rawFixtureFramesRecomputed": 900,
+  "rawBindingChecks": [
+    {
+      "case": "reference-metal-hevc-300",
+      "frames": 300,
+      "rawAndPlanarHashesRecomputed": true,
+      "savedInverseDecodeMatched": true,
+      "writerPeak": 0,
+      "producerPeak": 131068,
+      "backpressure": 0,
+      "RSSBytes": 36864000
+    },
+    {
+      "case": "reference-vulkan-h264-300",
+      "frames": 300,
+      "rawAndPlanarHashesRecomputed": true,
+      "savedInverseDecodeMatched": true,
+      "writerPeak": 0,
+      "producerPeak": 131068,
+      "backpressure": 0,
+      "RSSBytes": 37142528
+    },
+    {
+      "case": "reference-slow-300",
+      "frames": 300,
+      "rawAndPlanarHashesRecomputed": true,
+      "savedInverseDecodeMatched": true,
+      "writerPeak": 114688,
+      "producerPeak": 131070,
+      "backpressure": 261,
+      "RSSBytes": 37912576
+    }
+  ],
+  "codecSavedDecodeChecks": [
+    {
+      "case": "encoded-h264-300",
+      "savedDecodedFramesEqual": 300,
+      "actualCandidateSHARechecked": true,
+      "newDecodeRun": false
+    },
+    {
+      "case": "encoded-hevc-300",
+      "savedDecodedFramesEqual": 300,
+      "actualCandidateSHARechecked": true,
+      "newDecodeRun": false
+    },
+    {
+      "case": "encoded-cpu-profile-300",
+      "savedDecodedFramesEqual": 300,
+      "actualCandidateSHARechecked": true,
+      "newDecodeRun": false
+    }
+  ],
+  "freshNALSemanticAuditNotRepeated": true,
+  "GPUProfileLibrariesNotLoaded": true,
+  "realDeviceDisabledSourceGuardsChecked": true,
+  "actualGPUNativeBridgeQualified": false,
+  "allOSDescendantCessationProved": false,
+  "directWaitAndControlledHeartbeatReceiptsOnly": true,
+  "resourceLedger": {
+    "status": "bounded CPU fixture measurements only; no 4K extrapolation accepted",
+    "activeSerialGateBytes": 9663676416,
+    "activeBalancedGateBytes": 16106127360,
+    "proposedStreamingGateBytes": 6442450944,
+    "streamingGateEnabled": false,
+    "freeBytesAtFreeze": 995188736,
+    "rawFixtureBytes": 14745600,
+    "CPUFixtureDimensions": [
+      256,
+      128
+    ],
+    "CPUFixtureFrames": 300,
+    "referenceFrameBytes": 49152,
+    "pythonMaxRSSBytes": 38027264,
+    "maxPlanarWriterQueueBytes": 114688,
+    "maxProducerStdoutWriterQueueBytes": 131070,
+    "fixtureOutputCapBytes": 33554432,
+    "fixtureTimeoutSeconds": 30,
+    "fixtureMinFreeBytes": 268435456,
+    "geometrySourceOrderMemoryActualGPUAcceptance": false,
+    "newCargoBuild": false,
+    "GPUExports": 0,
+    "oldArtifactsDeleted": false,
+    "diskGatesLowered": false,
+    "nextRealDeviceResourceRequirements": {
+      "minimumSerialFreeBytes": 9663676416,
+      "minimumBalancedFreeBytes": 16106127360,
+      "rawNV12Per4KFrameBytes": 12441600,
+      "referenceNV12Per300FramesBytes": 3732480000,
+      "retainedRawBudgetBytes": 9663676416,
+      "actual4KPeakMemory": "unqualified"
+    }
+  },
+  "deliveryManifestSHA": "8f5532fe8ee91072ddeae679a19c6deba88d89a03854a0ad1115c89b23807cfd",
+  "deliveryReportSHA": "407c40ab6302c9b51ab8e1d26f6f97e9967c3e20efec0cc2a5656282f5867327",
+  "nativeHelperRebuilt": false,
+  "newGPUExportDecodeTiming": false,
+  "ownerRetainsHarness": true,
+  "broadObjectiveComplete": false,
+  "freeBytesAtWake": 965111808
+}

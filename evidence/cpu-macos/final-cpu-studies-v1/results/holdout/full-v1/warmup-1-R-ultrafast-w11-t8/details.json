@@ -1,0 +1,163 @@
+{
+  "engine": "R",
+  "node": "v24.19.0",
+  "ffmpegArgv": [
+    {
+      "type": "stitcher",
+      "copying": false,
+      "executable": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/three-engine-v1/results/full-v1/binaries/ffmpeg",
+      "args": [
+        "-r",
+        "30",
+        "-f",
+        "image2",
+        "-s",
+        "1920x1080",
+        "-start_number",
+        "0",
+        "-i",
+        "/tmp/react-motion-renderZHaHYk/element-%03d.jpeg",
+        "-an",
+        "-c:v",
+        "libx264",
+        "-pix_fmt",
+        "yuv420p",
+        "-preset",
+        "ultrafast",
+        "-g",
+        "24",
+        "-video_track_timescale",
+        "90000",
+        "-crf",
+        "11",
+        "-map_metadata",
+        "-1",
+        "-metadata",
+        "comment=Made with Remotion 4.0.529",
+        "-y",
+        "-f",
+        "mp4",
+        "-threads:v",
+        "8",
+        "-bf",
+        "0",
+        "-sc_threshold",
+        "0",
+        "-qmin",
+        "15",
+        "-qmax",
+        "60",
+        "-qcomp",
+        "0.6",
+        "-qdiff",
+        "4",
+        "-vf",
+        "scale=out_color_matrix=bt601:out_range=tv,format=yuv420p",
+        "-colorspace:v",
+        "smpte170m",
+        "-color_range",
+        "tv",
+        "/tmp/remotion-v4.0.529-assets6rw3s9dpmg/remotion-stitch-temp-dir/fast-start-intermediate.remotion-in-progress"
+      ]
+    }
+  ],
+  "progress": [
+    {
+      "elapsedNs": 656759208,
+      "encodedDoneIn": null,
+      "encodedFrames": 0,
+      "renderedDoneIn": null,
+      "renderedFrames": 1,
+      "renderEstimatedTime": 194051,
+      "stitchStage": "encoding",
+      "progress": 0
+    },
+    {
+      "elapsedNs": 2328683292,
+      "encodedDoneIn": null,
+      "encodedFrames": 0,
+      "renderedDoneIn": null,
+      "renderedFrames": 50,
+      "renderEstimatedTime": 11605,
+      "stitchStage": "encoding",
+      "progress": 0.12
+    },
+    {
+      "elapsedNs": 4423713292,
+      "encodedDoneIn": null,
+      "encodedFrames": 0,
+      "renderedDoneIn": null,
+      "renderedFrames": 100,
+      "renderEstimatedTime": 8832,
+      "stitchStage": "encoding",
+      "progress": 0.23
+    },
+    {
+      "elapsedNs": 6328608375,
+      "encodedDoneIn": null,
+      "encodedFrames": 0,
+      "renderedDoneIn": null,
+      "renderedFrames": 150,
+      "renderEstimatedTime": 6321,
+      "stitchStage": "encoding",
+      "progress": 0.35
+    },
+    {
+      "elapsedNs": 8341290833,
+      "encodedDoneIn": null,
+      "encodedFrames": 0,
+      "renderedDoneIn": null,
+      "renderedFrames": 200,
+      "renderEstimatedTime": 4009,
+      "stitchStage": "encoding",
+      "progress": 0.47
+    },
+    {
+      "elapsedNs": 10300135708,
+      "encodedDoneIn": null,
+      "encodedFrames": 0,
+      "renderedDoneIn": null,
+      "renderedFrames": 250,
+      "renderEstimatedTime": 1959,
+      "stitchStage": "encoding",
+      "progress": 0.58
+    },
+    {
+      "elapsedNs": 12003968000,
+      "encodedDoneIn": null,
+      "encodedFrames": 0,
+      "renderedDoneIn": null,
+      "renderedFrames": 300,
+      "renderEstimatedTime": 0,
+      "stitchStage": "encoding",
+      "progress": 0.7
+    }
+  ],
+  "gpuEvidence": {
+    "expectedGpuFlags": [
+      "--disable-gpu",
+      "--disable-gpu-compositing",
+      "--disable-gpu-rasterization"
+    ],
+    "featureStatus": {
+      "gpu_compositing": "disabled_software",
+      "rasterization": "disabled_software",
+      "2d_canvas": "enabled",
+      "webgl": "enabled_readback",
+      "webgpu": "unavailable_software",
+      "video_decode": "enabled",
+      "video_encode": "enabled",
+      "skia_graphite": "disabled_off"
+    },
+    "glRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver-5.0.0)",
+    "glVendor": "Google Inc. (Google)",
+    "admissionPassed": true,
+    "missingFlags": [],
+    "invalidRequiredStages": []
+  },
+  "browserOpenNs": 102105084,
+  "gpuQueryNs": 46009625,
+  "selectCompositionNs": 86975875,
+  "renderMediaNs": 16557707167,
+  "browserCloseNs": 178746958
+}

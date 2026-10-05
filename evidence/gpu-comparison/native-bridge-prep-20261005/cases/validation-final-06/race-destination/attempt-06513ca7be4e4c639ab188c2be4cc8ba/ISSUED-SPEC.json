@@ -1,0 +1,149 @@
+{
+  "executionClass": "subprocess-fixture",
+  "hardwareQualified": false,
+  "realDeviceAccepted": false,
+  "GPUExecuted": false,
+  "mode": "reference",
+  "codec": "hevc",
+  "backend": "metal",
+  "protocol": 7,
+  "width": 256,
+  "height": 128,
+  "frames": 3,
+  "sourceStart": 3,
+  "fpsNum": 30000,
+  "fpsDen": 1001,
+  "bitrate": 20000000,
+  "timeoutSeconds": 30,
+  "outputCapBytes": 33554432,
+  "rawFixture": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/fixtures/reference.nv12",
+    "bytes": 14745600,
+    "sha256": "4f8429472e98618a18b8a46a1aa8f0430e5df9cba63359cb4050408e516d918a"
+  },
+  "elementaryFixture": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/fixtures/reference.hevc",
+    "bytes": 257591,
+    "sha256": "7cedd21fa019e2930397396d7fa0f8afd5bbd38f1e21feb273acfcfbadbbb18b"
+  },
+  "font": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/preparation/unpacked/helios-gpu-comparison-prep/DM-Sans.ttf",
+    "bytes": 72000,
+    "sha256": "9ae2da663d64342031e59b5fa680dd355171d021b7ebf83774efc7c0330ae7b5"
+  },
+  "sceneModule": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_bridge_scene_fixture.mjs",
+  "recorderModule": "/Users/gavinbintz/.codex/worktrees/gpu-hevc/helios/packages/portable/dist/gpu.js",
+  "pins": [
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_stdout_bridge.mjs",
+      "bytes": 9951,
+      "sha256": "5c1a18cdc05c5b100e53b47cc6dd8fe1d5636eebd98ba6c01b8492974805a51a"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_bridge_fixture.py",
+      "bytes": 2619,
+      "sha256": "2ec00249eea98216c87827733d44e30acc831b7784b5e275898a9e227828cc0f"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/node@22/22.23.1/bin/node",
+      "bytes": 67024,
+      "sha256": "d9d8b2f7b67c73ef75d90ec7a981be82f2242fc5a1a26c217e250b00ed97c849"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+      "bytes": 34640,
+      "sha256": "4f00ea2ad53d62437a6a3946b73c73614a97e8accdc5b96dc095ea1a0d9c6a56"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/ffmpeg/9.0.2/bin/ffmpeg",
+      "bytes": 426512,
+      "sha256": "1ede5c7fd4e97d832ec69c97c78231875de7d69c55423158f5f4a4d923227dd5"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/ffmpeg/9.0.2/bin/ffprobe",
+      "bytes": 253488,
+      "sha256": "258fa480850eec6cf7b6831b2d3edd164cdd2f9ddb7a14965dc9fdaf9d175ff7"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_chroma_conformance.py",
+      "bytes": 19327,
+      "sha256": "b0a36b7852439a78b27365a2846a1b471207f1285fbb9461aa7fa125a21a5088"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_bridge_runner.py",
+      "bytes": 21543,
+      "sha256": "016bac166ca9938327af4c57ab0e1717234bfb031d8dadadcfbe23db5e841e19"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_bridge_encoder_fixture.py",
+      "bytes": 531,
+      "sha256": "727ba639afd2d0ef38e2ac0b2855e11dc6f9ac2bca189e69f61830e87da83288"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/test_native_bridge.py",
+      "bytes": 11969,
+      "sha256": "7704000f5118731d08ca8fa91e1cb64b779e06dbba48ba6e88fddd2bc11b63e0"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_bridge_scene_fixture.mjs",
+      "bytes": 335,
+      "sha256": "a1ff3340842441e2420d69bb639e3a012f8052f333fd9ada1e0fad782e7ee0c6"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/codec_fixture_scene.mjs",
+      "bytes": 688,
+      "sha256": "c6c8cfe062d6d86c13525867d33650ccbfa194b24fb34012bf57b1c00818efd8"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/fixtures/reference.nv12",
+      "bytes": 14745600,
+      "sha256": "4f8429472e98618a18b8a46a1aa8f0430e5df9cba63359cb4050408e516d918a"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/fixtures/cpu_profile.dylib",
+      "bytes": 33472,
+      "sha256": "2a8a5b25732b28096c9acdcadaca5b3e99ec2a943d24bef5350bab8b32049a8c"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/fixtures/cpu_profile.c",
+      "bytes": 287,
+      "sha256": "bc4c54badb230869bcb8d83a1118fb22cf91db31cf13fda6e42de2ba37ad6f6a"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/preparation/unpacked/helios-gpu-comparison-prep/DM-Sans.ttf",
+      "bytes": 72000,
+      "sha256": "9ae2da663d64342031e59b5fa680dd355171d021b7ebf83774efc7c0330ae7b5"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-hevc/helios/packages/portable/dist/gpu.js",
+      "bytes": 19402,
+      "sha256": "98ca35388bf4def80569dd4a9cd1577150e7398b5f1b06711487c1d6fc275089"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/fixtures/reference.hevc",
+      "bytes": 257591,
+      "sha256": "7cedd21fa019e2930397396d7fa0f8afd5bbd38f1e21feb273acfcfbadbbb18b"
+    }
+  ],
+  "benchmarkTiming": false,
+  "timingWindowOpen": false,
+  "testControl": "race-destination",
+  "python": "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+  "nativeCommand": [
+    "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/native_bridge_fixture.py",
+    "reference-binary",
+    "256",
+    "128",
+    "30000",
+    "1001",
+    "20000000",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-final-06/race-destination/attempt-06513ca7be4e4c639ab188c2be4cc8ba/elementary.h265",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-final-06/race-destination/attempt-06513ca7be4e4c639ab188c2be4cc8ba/gpu-transfer-not-actual.jsonl",
+    "",
+    "30",
+    "3",
+    "hevc"
+  ],
+  "attemptDirectory": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-final-06/race-destination/attempt-06513ca7be4e4c639ab188c2be4cc8ba"
+}

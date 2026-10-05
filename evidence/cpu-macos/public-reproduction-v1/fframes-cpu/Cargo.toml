@@ -1,0 +1,7 @@
+[package]
+name = "helios-fframes-cpu-comparison"
+version = "0.1.0"
+edition = "2024"
+[workspace]
+[dependencies]
+fframes = { path = "../../fframes/fframes", features = ["h264", "libav-agree-gpl", "compile-time-svgtree"] }

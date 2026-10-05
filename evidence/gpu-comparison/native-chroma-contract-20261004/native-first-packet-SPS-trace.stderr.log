@@ -1,0 +1,1012 @@
+Splitting the commandline.
+Reading option '-hide_banner' ... matched as option 'hide_banner' (do not show program banner) with argument '1'.
+Reading option '-loglevel' ... matched as option 'loglevel' (set logging level) with argument 'trace'.
+Reading option '-i' ... matched as input url with argument '/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-screen-h-300/video.mp4'.
+Reading option '-map' ... matched as option 'map' (set input stream mapping) with argument '0:v:0'.
+Reading option '-frames:v' ... matched as option 'frames' (set the number of frames to output) with argument '1'.
+Reading option '-c:v' ... matched as option 'c' (select encoder/decoder ('copy' to copy stream without reencoding)) with argument 'copy'.
+Reading option '-bsf:v' ... matched as option 'bsf' (A comma-separated list of bitstream filters) with argument 'trace_headers'.
+Reading option '-f' ... matched as option 'f' (force container format (auto-detected otherwise)) with argument 'null'.
+Reading option '-' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option hide_banner (do not show program banner) with argument 1.
+Applying option loglevel (set logging level) with argument trace.
+Successfully parsed a group of options.
+Parsing a group of options: input url /Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-screen-h-300/video.mp4.
+Successfully parsed a group of options.
+Opening an input file: /Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-screen-h-300/video.mp4.
+[in#0 @ 0x9c6c14000] Opening '/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-screen-h-300/video.mp4' for reading
+[file @ 0x9c7018000] Setting default whitelist 'file,crypto,data'
+Probing mov,mp4,m4a,3gp,3g2,mj2 score:100 size:2048
+[in#0 @ 0x9c6c14000] Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+[in#0 @ 0x9c6c14000] type:'ftyp' parent:'root' sz: 32 8 376641173
+[in#0 @ 0x9c6c14000] ISO: File Type Major Brand: isom
+[in#0 @ 0x9c6c14000] type:'moov' parent:'root' sz: 3234 40 376641173
+[in#0 @ 0x9c6c14000] type:'mvhd' parent:'moov' sz: 108 8 3226
+[in#0 @ 0x9c6c14000] time scale = 1000
+[in#0 @ 0x9c6c14000] type:'trak' parent:'moov' sz: 3021 116 3226
+[in#0 @ 0x9c6c14000] type:'tkhd' parent:'trak' sz: 92 8 3013
+[in#0 @ 0x9c6c14000] type:'edts' parent:'trak' sz: 36 100 3013
+[in#0 @ 0x9c6c14000] type:'elst' parent:'edts' sz: 28 8 28
+[in#0 @ 0x9c6c14000] track[0].edit_count = 1
+[in#0 @ 0x9c6c14000] duration=10000 time=0 rate=1.000000
+[in#0 @ 0x9c6c14000] type:'mdia' parent:'trak' sz: 2885 136 3013
+[in#0 @ 0x9c6c14000] type:'mdhd' parent:'mdia' sz: 32 8 2877
+[in#0 @ 0x9c6c14000] type:'hdlr' parent:'mdia' sz: 45 40 2877
+[in#0 @ 0x9c6c14000] ctype=[0][0][0][0]
+[in#0 @ 0x9c6c14000] stype=vide
+[in#0 @ 0x9c6c14000] type:'minf' parent:'mdia' sz: 2800 85 2877
+[in#0 @ 0x9c6c14000] type:'vmhd' parent:'minf' sz: 20 8 2792
+[in#0 @ 0x9c6c14000] type:'dinf' parent:'minf' sz: 36 28 2792
+[in#0 @ 0x9c6c14000] type:'dref' parent:'dinf' sz: 28 8 28
+[in#0 @ 0x9c6c14000] Unknown dref type 0x206c7275 size 12
+[in#0 @ 0x9c6c14000] type:'stbl' parent:'minf' sz: 2736 64 2792
+[in#0 @ 0x9c6c14000] type:'stsd' parent:'stbl' sz: 184 8 2728
+[in#0 @ 0x9c6c14000] size=168 4CC=avc1 codec_type=0
+[in#0 @ 0x9c6c14000] type:'avcC' parent:'stsd' sz: 43 8 82
+[in#0 @ 0x9c6c14000] type:'colr' parent:'stsd' sz: 19 51 82
+[in#0 @ 0x9c6c14000] nclx: pri 1 trc 1 matrix 1 full 0
+[in#0 @ 0x9c6c14000] type:'btrt' parent:'stsd' sz: 20 70 82
+[in#0 @ 0x9c6c14000] type:'stts' parent:'stbl' sz: 24 192 2728
+[in#0 @ 0x9c6c14000] track[0].stts.entries = 1
+[in#0 @ 0x9c6c14000] sample_count=300, sample_duration=1
+[in#0 @ 0x9c6c14000] type:'stss' parent:'stbl' sz: 56 216 2728
+[in#0 @ 0x9c6c14000] keyframe_count = 10
+[in#0 @ 0x9c6c14000] type:'stsc' parent:'stbl' sz: 28 272 2728
+[in#0 @ 0x9c6c14000] track[0].stsc.entries = 1
+[in#0 @ 0x9c6c14000] type:'stsz' parent:'stbl' sz: 1220 300 2728
+[in#0 @ 0x9c6c14000] sample_size = 0 sample_count = 300
+[in#0 @ 0x9c6c14000] type:'stco' parent:'stbl' sz: 1216 1520 2728
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 0, offset cd2, dts 0, size 2109790, distance 0, keyframe 1
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 1, offset 203e30, dts 1, size 3264041, distance 1, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 2, offset 520c59, dts 2, size 2843724, distance 2, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 3, offset 7d70a5, dts 3, size 2247786, distance 3, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 4, offset 9fbd0f, dts 4, size 1976348, distance 4, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 5, offset bde52b, dts 5, size 1532143, distance 5, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 6, offset d5461a, dts 6, size 1344833, distance 6, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 7, offset e9cb5b, dts 7, size 1339442, distance 7, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 8, offset fe3b8d, dts 8, size 1287133, distance 8, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 9, offset 111df6a, dts 9, size 1279903, distance 9, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 10, offset 1256709, dts 10, size 1126755, distance 10, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 11, offset 136986c, dts 11, size 1202876, distance 11, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 12, offset 148f328, dts 12, size 1283583, distance 12, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 13, offset 15c8927, dts 13, size 1205510, distance 13, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 14, offset 16eee2d, dts 14, size 1189399, distance 14, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 15, offset 1811444, dts 15, size 1131060, distance 15, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 16, offset 1925678, dts 16, size 1204351, distance 16, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 17, offset 1a4b6f7, dts 17, size 1278679, distance 17, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 18, offset 1b839ce, dts 18, size 1098153, distance 18, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 19, offset 1c8fb77, dts 19, size 1107575, distance 19, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 20, offset 1d9e1ee, dts 20, size 1066017, distance 20, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 21, offset 1ea260f, dts 21, size 1098131, distance 21, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 22, offset 1fae7a2, dts 22, size 1146391, distance 22, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 23, offset 20c65b9, dts 23, size 1127863, distance 23, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 24, offset 21d9b70, dts 24, size 1125068, distance 24, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 25, offset 22ec63c, dts 25, size 1036985, distance 25, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 26, offset 23e98f5, dts 26, size 1097407, distance 26, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 27, offset 24f57b4, dts 27, size 1186099, distance 27, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 28, offset 26170e7, dts 28, size 1132363, distance 28, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 29, offset 272b832, dts 29, size 1117108, distance 29, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 30, offset 283c3e6, dts 30, size 1312947, distance 0, keyframe 1
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 31, offset 297cc99, dts 31, size 1088659, distance 1, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 32, offset 2a8692c, dts 32, size 1183580, distance 2, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 33, offset 2ba7888, dts 33, size 1105802, distance 3, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 34, offset 2cb5812, dts 34, size 1116629, distance 4, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 35, offset 2dc61e7, dts 35, size 1047681, distance 5, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 36, offset 2ec5e68, dts 36, size 1100403, distance 6, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 37, offset 2fd28db, dts 37, size 1159315, distance 7, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 38, offset 30ed96e, dts 38, size 1094844, distance 8, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 39, offset 31f8e2a, dts 39, size 1121177, distance 9, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 40, offset 330a9c3, dts 40, size 1068646, distance 10, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 41, offset 340f829, dts 41, size 1082728, distance 11, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 42, offset 3517d91, dts 42, size 1153663, distance 12, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 43, offset 3631810, dts 43, size 1114656, distance 13, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 44, offset 3741a30, dts 44, size 1143106, distance 14, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 45, offset 3858b72, dts 45, size 1042802, distance 15, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 46, offset 39574e4, dts 46, size 1078806, distance 16, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 47, offset 3a5eafa, dts 47, size 1275452, distance 17, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 48, offset 3b96136, dts 48, size 1230612, distance 18, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 49, offset 3cc284a, dts 49, size 1215156, distance 19, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 50, offset 3deb2fe, dts 50, size 1126200, distance 20, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 51, offset 3efe236, dts 51, size 1213968, distance 21, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 52, offset 4026846, dts 52, size 1275866, distance 22, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 53, offset 415e020, dts 53, size 1194862, distance 23, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 54, offset 4281b8e, dts 54, size 1195632, distance 24, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 55, offset 43a59fe, dts 55, size 1149919, distance 25, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 56, offset 44be5dd, dts 56, size 1211296, distance 26, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 57, offset 45e617d, dts 57, size 1260203, distance 27, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 58, offset 4719c28, dts 58, size 1200418, distance 28, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 59, offset 483ed4a, dts 59, size 1216147, distance 29, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 60, offset 4967bdd, dts 60, size 1444402, distance 0, keyframe 1
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 61, offset 4ac860f, dts 61, size 1190374, distance 1, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 62, offset 4beaff5, dts 62, size 1266247, distance 2, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 63, offset 4d2023c, dts 63, size 1200123, distance 3, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 64, offset 4e45237, dts 64, size 1228956, distance 4, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 65, offset 4f712d3, dts 65, size 1150480, distance 5, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 66, offset 508a0e3, dts 66, size 1194337, distance 6, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 67, offset 51ada44, dts 67, size 1275417, distance 7, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 68, offset 52e505d, dts 68, size 1239252, distance 8, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 69, offset 5413931, dts 69, size 1199855, distance 9, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 70, offset 5538820, dts 70, size 1118260, distance 10, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 71, offset 5649854, dts 71, size 1194323, distance 11, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 72, offset 576d1a7, dts 72, size 1287765, distance 12, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 73, offset 58a77fc, dts 73, size 1221236, distance 13, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 74, offset 59d1a70, dts 74, size 1201329, distance 14, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 75, offset 5af6f21, dts 75, size 1135290, distance 15, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 76, offset 5c0c1db, dts 76, size 1202592, distance 16, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 77, offset 5d31b7b, dts 77, size 1251605, distance 17, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 78, offset 5e63490, dts 78, size 1199914, distance 18, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 79, offset 5f883ba, dts 79, size 1213993, distance 19, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 80, offset 60b09e3, dts 80, size 1143682, distance 20, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 81, offset 61c7d65, dts 81, size 1194542, distance 21, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 82, offset 62eb793, dts 82, size 1258093, distance 22, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 83, offset 641ea00, dts 83, size 1213524, distance 23, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 84, offset 6546e54, dts 84, size 1248541, distance 24, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 85, offset 6677b71, dts 85, size 1123303, distance 25, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 86, offset 6789f58, dts 86, size 1168302, distance 26, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 87, offset 68a7306, dts 87, size 1272238, distance 27, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 88, offset 69ddcb4, dts 88, size 1238912, distance 28, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 89, offset 6b0c434, dts 89, size 1225270, distance 29, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 90, offset 6c3766a, dts 90, size 1411571, distance 0, keyframe 1
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 91, offset 6d9005d, dts 91, size 1174994, distance 1, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 92, offset 6eaee2f, dts 92, size 1287601, distance 2, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 93, offset 6fe93e0, dts 93, size 1192732, distance 3, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 94, offset 710c6fc, dts 94, size 1193497, distance 4, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 95, offset 722fd15, dts 95, size 1145418, distance 5, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 96, offset 734775f, dts 96, size 1206097, distance 6, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 97, offset 746deb0, dts 97, size 1248022, distance 7, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 98, offset 759e9c6, dts 98, size 1197437, distance 8, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 99, offset 76c2f43, dts 99, size 1213506, distance 9, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 100, offset 77eb385, dts 100, size 1162615, distance 10, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 101, offset 79070fc, dts 101, size 1186481, distance 11, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 102, offset 7a28bad, dts 102, size 1322497, distance 12, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 103, offset 7b6b9ae, dts 103, size 1294086, distance 13, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 104, offset 7ca78b4, dts 104, size 1316128, distance 14, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 105, offset 7de8dd4, dts 105, size 1130168, distance 15, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 106, offset 7efcc8c, dts 106, size 1263509, distance 16, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 107, offset 8031421, dts 107, size 1343716, distance 17, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 108, offset 8179505, dts 108, size 1277416, distance 18, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 109, offset 82b12ed, dts 109, size 1279611, distance 19, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 110, offset 83e9968, dts 110, size 1180937, distance 20, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 111, offset 8509e71, dts 111, size 1270605, distance 21, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 112, offset 86401be, dts 112, size 1366186, distance 22, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 113, offset 878da68, dts 113, size 1267519, distance 23, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 114, offset 88c31a7, dts 114, size 1258932, distance 24, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 115, offset 89f675b, dts 115, size 1190245, distance 25, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 116, offset 8b190c0, dts 116, size 1268153, distance 26, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 117, offset 8c4ea79, dts 117, size 1343291, distance 27, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 118, offset 8d969b4, dts 118, size 1258917, distance 28, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 119, offset 8ec9f59, dts 119, size 1259854, distance 29, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 120, offset 8ffd8a7, dts 120, size 1532028, distance 0, keyframe 1
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 121, offset 9173923, dts 121, size 1246305, distance 1, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 122, offset 92a3d84, dts 122, size 1327355, distance 2, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 123, offset 93e7e7f, dts 123, size 1290257, distance 3, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 124, offset 9522e90, dts 124, size 1300710, distance 4, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 125, offset 9660776, dts 125, size 1175275, distance 5, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 126, offset 977f661, dts 126, size 1246719, distance 6, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 127, offset 98afc60, dts 127, size 1353812, distance 7, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 128, offset 99fa4b4, dts 128, size 1303144, distance 8, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 129, offset 9b3871c, dts 129, size 1285136, distance 9, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 130, offset 9c7232c, dts 130, size 1184072, distance 10, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 131, offset 9d93474, dts 131, size 1258857, distance 11, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 132, offset 9ec69dd, dts 132, size 1357501, distance 12, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 133, offset a01209a, dts 133, size 1273543, distance 13, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 134, offset a148f61, dts 134, size 1287059, distance 14, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 135, offset a2832f4, dts 135, size 1196507, distance 15, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 136, offset a3a74cf, dts 136, size 1262856, distance 16, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 137, offset a4db9d7, dts 137, size 1330825, distance 17, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 138, offset a620860, dts 138, size 1265696, distance 18, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 139, offset a755880, dts 139, size 1285678, distance 19, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 140, offset a88f6ae, dts 140, size 1207726, distance 20, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 141, offset a9b645c, dts 141, size 1258358, distance 21, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 142, offset aae97d2, dts 142, size 1321753, distance 22, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 143, offset ac2c2eb, dts 143, size 1281074, distance 23, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 144, offset ad64f1d, dts 144, size 1305621, distance 24, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 145, offset aea3b32, dts 145, size 1208538, distance 25, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 146, offset afcac0c, dts 146, size 1255757, distance 26, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 147, offset b0fd559, dts 147, size 1334990, distance 27, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 148, offset b243427, dts 148, size 1305510, distance 28, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 149, offset b381fcd, dts 149, size 1292738, distance 29, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 150, offset b4bd98f, dts 150, size 1464470, distance 0, keyframe 1
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 151, offset b623225, dts 151, size 1271263, distance 1, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 152, offset b759804, dts 152, size 1348734, distance 2, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 153, offset b8a2c82, dts 153, size 1259536, distance 3, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 154, offset b9d6492, dts 154, size 1267617, distance 4, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 155, offset bb0bc33, dts 155, size 1204651, distance 5, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 156, offset bc31dde, dts 156, size 1274285, distance 6, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 157, offset bd68f8b, dts 157, size 1332190, distance 7, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 158, offset beae369, dts 158, size 1254650, distance 8, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 159, offset bfe0863, dts 159, size 1281302, distance 9, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 160, offset c119579, dts 160, size 1212430, distance 10, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 161, offset c241587, dts 161, size 1260145, distance 11, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 162, offset c374ff8, dts 162, size 1342424, distance 12, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 163, offset c4bcbd0, dts 163, size 1287724, distance 13, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 164, offset c5f71fc, dts 164, size 1297104, distance 14, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 165, offset c733ccc, dts 165, size 1198573, distance 15, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 166, offset c8586b9, dts 166, size 1250700, distance 16, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 167, offset c989c45, dts 167, size 1346949, distance 17, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 168, offset cad29ca, dts 168, size 1308468, distance 18, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 169, offset cc120fe, dts 169, size 1195110, distance 19, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 170, offset cd35d64, dts 170, size 1122019, distance 20, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 171, offset ce47c47, dts 171, size 1270295, distance 21, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 172, offset cf7de5e, dts 172, size 1372610, distance 22, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 173, offset d0cd020, dts 173, size 1200428, distance 23, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 174, offset d1f214c, dts 174, size 1189139, distance 24, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 175, offset d31465f, dts 175, size 1128658, distance 25, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 176, offset d427f31, dts 176, size 1272779, distance 26, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 177, offset d55eafc, dts 177, size 1329726, distance 27, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 178, offset d6a353a, dts 178, size 1256868, distance 28, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 179, offset d7d62de, dts 179, size 1298655, distance 29, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 180, offset d9133bd, dts 180, size 1507439, distance 0, keyframe 1
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 181, offset da8342c, dts 181, size 1239055, distance 1, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 182, offset dbb1c3b, dts 182, size 1257954, distance 2, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 183, offset dce4e1d, dts 183, size 1228020, distance 3, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 184, offset de10b11, dts 184, size 1238364, distance 4, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 185, offset df3f06d, dts 185, size 1129118, distance 5, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 186, offset e052b0b, dts 186, size 1187584, distance 6, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 187, offset e174a0b, dts 187, size 1276408, distance 7, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 188, offset e2ac403, dts 188, size 1231201, distance 8, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 189, offset e3d8d64, dts 189, size 1219578, distance 9, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 190, offset e50295e, dts 190, size 1132433, distance 10, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 191, offset e6170ef, dts 191, size 1180600, distance 11, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 192, offset e7374a7, dts 192, size 1281456, distance 12, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 193, offset e870257, dts 193, size 1214619, distance 13, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 194, offset e998af2, dts 194, size 1208018, distance 14, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 195, offset eabf9c4, dts 195, size 1136658, distance 15, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 196, offset ebd51d6, dts 196, size 1206883, distance 16, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 197, offset ecfbc39, dts 197, size 1244965, distance 17, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 198, offset ee2bb5e, dts 198, size 1186472, distance 18, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 199, offset ef4d606, dts 199, size 1214018, distance 19, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 200, offset f075c48, dts 200, size 1154691, distance 20, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 201, offset f18facb, dts 201, size 1206246, distance 21, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 202, offset f2b62b1, dts 202, size 1253824, distance 22, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 203, offset f3e8471, dts 203, size 1212383, distance 23, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 204, offset f510450, dts 204, size 1237996, distance 24, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 205, offset f63e83c, dts 205, size 1131846, distance 25, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 206, offset f752d82, dts 206, size 1195949, distance 26, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 207, offset f876d2f, dts 207, size 1275272, distance 27, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 208, offset f9ae2b7, dts 208, size 1225192, distance 28, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 209, offset fad949f, dts 209, size 1220977, distance 29, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 210, offset fc03610, dts 210, size 1413913, distance 0, keyframe 1
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 211, offset fd5c929, dts 211, size 1192377, distance 1, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 212, offset fe7fae2, dts 212, size 1296497, distance 2, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 213, offset ffbc353, dts 213, size 1193175, distance 3, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 214, offset 100df82a, dts 214, size 1189236, distance 4, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 215, offset 10201d9e, dts 215, size 1137046, distance 5, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 216, offset 10317734, dts 216, size 1216474, distance 6, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 217, offset 1044070e, dts 217, size 1271204, distance 7, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 218, offset 10576cb2, dts 218, size 1188563, distance 8, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 219, offset 10698f85, dts 219, size 1199149, distance 9, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 220, offset 107bdbb2, dts 220, size 1152291, distance 10, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 221, offset 108d70d5, dts 221, size 1182104, distance 11, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 222, offset 109f7a6d, dts 222, size 1255351, distance 12, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 223, offset 10b2a224, dts 223, size 1223026, distance 13, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 224, offset 10c54b96, dts 224, size 1239917, distance 14, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 225, offset 10d83703, dts 225, size 1126205, distance 15, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 226, offset 10e96640, dts 226, size 1181950, distance 16, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 227, offset 10fb6f3e, dts 227, size 1276758, distance 17, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 228, offset 110eea94, dts 228, size 1242338, distance 18, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 229, offset 1121df76, dts 229, size 1210191, distance 19, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 230, offset 113456c5, dts 230, size 1114640, distance 20, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 231, offset 114558d5, dts 231, size 1203300, distance 21, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 232, offset 1157b539, dts 232, size 1293151, distance 22, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 233, offset 116b7098, dts 233, size 1201382, distance 23, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 234, offset 117dc57e, dts 234, size 1205657, distance 24, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 235, offset 11902b17, dts 235, size 1126125, distance 25, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 236, offset 11a15a04, dts 236, size 1183510, distance 26, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 237, offset 11b3691a, dts 237, size 1261092, distance 27, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 238, offset 11c6a73e, dts 238, size 1190126, distance 28, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 239, offset 11d8d02c, dts 239, size 1228385, distance 29, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 240, offset 11eb8e8d, dts 240, size 1445385, distance 0, keyframe 1
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 241, offset 12019c96, dts 241, size 1175534, distance 1, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 242, offset 12138c84, dts 242, size 1241744, distance 2, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 243, offset 12267f14, dts 243, size 1210385, distance 3, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 244, offset 1238f725, dts 244, size 1235414, distance 4, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 245, offset 124bd0fb, dts 245, size 1147336, distance 5, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 246, offset 125d52c3, dts 246, size 1184019, distance 6, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 247, offset 126f63d6, dts 247, size 1254375, distance 7, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 248, offset 128287bd, dts 248, size 1241957, distance 8, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 249, offset 12957b22, dts 249, size 1211842, distance 9, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 250, offset 12a7f8e4, dts 250, size 1122580, distance 10, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 251, offset 12b919f8, dts 251, size 1202471, distance 11, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 252, offset 12cb731f, dts 252, size 1355452, distance 12, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 253, offset 12e021db, dts 253, size 1252815, distance 13, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 254, offset 12f33faa, dts 254, size 1195784, distance 14, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 255, offset 13057eb2, dts 255, size 1145220, distance 15, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 256, offset 1316f836, dts 256, size 1272852, distance 16, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 257, offset 132a644a, dts 257, size 1330329, distance 17, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 258, offset 133eb0e3, dts 258, size 1249332, distance 18, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 259, offset 1351c117, dts 259, size 1280413, distance 19, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 260, offset 13654ab4, dts 260, size 1216211, distance 20, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 261, offset 1377d987, dts 261, size 1259177, distance 21, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 262, offset 138b1030, dts 262, size 1343163, distance 22, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 263, offset 139f8eeb, dts 263, size 1281085, distance 23, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 264, offset 13b31b28, dts 264, size 1300719, distance 24, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 265, offset 13c6f417, dts 265, size 1197901, distance 25, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 266, offset 13d93b64, dts 266, size 1258632, distance 26, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 267, offset 13ec6fec, dts 267, size 1349241, distance 27, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 268, offset 14010665, dts 268, size 1296176, distance 28, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 269, offset 1414cd95, dts 269, size 1291949, distance 29, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 270, offset 14288442, dts 270, size 1485385, distance 0, keyframe 1
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 271, offset 143f2e8b, dts 271, size 1248620, distance 1, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 272, offset 14523bf7, dts 272, size 1358767, distance 2, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 273, offset 1466f7a6, dts 273, size 1279021, distance 3, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 274, offset 147a7bd3, dts 274, size 1272023, distance 4, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 275, offset 148de4aa, dts 275, size 1190295, distance 5, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 276, offset 14a00e41, dts 276, size 1280674, distance 6, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 277, offset 14b398e3, dts 277, size 1334800, distance 7, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 278, offset 14c7f6f3, dts 278, size 1248607, distance 8, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 279, offset 14db0452, dts 279, size 1299060, distance 9, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 280, offset 14eed6c6, dts 280, size 1203277, distance 10, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 281, offset 15013313, dts 281, size 1247197, distance 11, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 282, offset 15143af0, dts 282, size 1330289, distance 12, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 283, offset 15288761, dts 283, size 1294240, distance 13, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 284, offset 153c4701, dts 284, size 1309809, distance 14, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 285, offset 15504372, dts 285, size 1207360, distance 15, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 286, offset 1562afb2, dts 286, size 1245461, distance 16, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 287, offset 1575b0c7, dts 287, size 1344974, distance 17, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 288, offset 158a3695, dts 288, size 1296920, distance 18, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 289, offset 159e00ad, dts 289, size 1286022, distance 19, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 290, offset 15b1a033, dts 290, size 1201242, distance 20, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 291, offset 15c3f48d, dts 291, size 1266978, distance 21, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 292, offset 15d749af, dts 292, size 1349766, distance 22, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 293, offset 15ebe235, dts 293, size 1274339, distance 23, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 294, offset 15ff5418, dts 294, size 1266689, distance 24, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 295, offset 1612a819, dts 295, size 1196567, distance 25, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 296, offset 1624ea30, dts 296, size 1274702, distance 26, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 297, offset 16385d7e, dts 297, size 1309644, distance 27, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 298, offset 164c594a, dts 298, size 1253163, distance 28, keyframe 0
+[in#0 @ 0x9c6c14000] AVIndex stream 0, sample 299, offset 165f7875, dts 299, size 1285664, distance 29, keyframe 0
+[in#0 @ 0x9c6c14000] Processing st: 0, edit list 0 - media time: 0, duration: 300
+[in#0 @ 0x9c6c14000] stts: 0 ctts: 0, tts_index: 0, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 1 ctts: 0, tts_index: 1, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 2 ctts: 0, tts_index: 2, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 3 ctts: 0, tts_index: 3, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 4 ctts: 0, tts_index: 4, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 5 ctts: 0, tts_index: 5, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 6 ctts: 0, tts_index: 6, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 7 ctts: 0, tts_index: 7, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 8 ctts: 0, tts_index: 8, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 9 ctts: 0, tts_index: 9, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 10 ctts: 0, tts_index: 10, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 11 ctts: 0, tts_index: 11, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 12 ctts: 0, tts_index: 12, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 13 ctts: 0, tts_index: 13, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 14 ctts: 0, tts_index: 14, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 15 ctts: 0, tts_index: 15, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 16 ctts: 0, tts_index: 16, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 17 ctts: 0, tts_index: 17, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 18 ctts: 0, tts_index: 18, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 19 ctts: 0, tts_index: 19, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 20 ctts: 0, tts_index: 20, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 21 ctts: 0, tts_index: 21, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 22 ctts: 0, tts_index: 22, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 23 ctts: 0, tts_index: 23, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 24 ctts: 0, tts_index: 24, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 25 ctts: 0, tts_index: 25, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 26 ctts: 0, tts_index: 26, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 27 ctts: 0, tts_index: 27, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 28 ctts: 0, tts_index: 28, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 29 ctts: 0, tts_index: 29, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 30 ctts: 0, tts_index: 30, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 31 ctts: 0, tts_index: 31, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 32 ctts: 0, tts_index: 32, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 33 ctts: 0, tts_index: 33, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 34 ctts: 0, tts_index: 34, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 35 ctts: 0, tts_index: 35, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 36 ctts: 0, tts_index: 36, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 37 ctts: 0, tts_index: 37, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 38 ctts: 0, tts_index: 38, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 39 ctts: 0, tts_index: 39, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 40 ctts: 0, tts_index: 40, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 41 ctts: 0, tts_index: 41, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 42 ctts: 0, tts_index: 42, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 43 ctts: 0, tts_index: 43, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 44 ctts: 0, tts_index: 44, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 45 ctts: 0, tts_index: 45, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 46 ctts: 0, tts_index: 46, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 47 ctts: 0, tts_index: 47, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 48 ctts: 0, tts_index: 48, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 49 ctts: 0, tts_index: 49, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 50 ctts: 0, tts_index: 50, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 51 ctts: 0, tts_index: 51, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 52 ctts: 0, tts_index: 52, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 53 ctts: 0, tts_index: 53, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 54 ctts: 0, tts_index: 54, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 55 ctts: 0, tts_index: 55, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 56 ctts: 0, tts_index: 56, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 57 ctts: 0, tts_index: 57, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 58 ctts: 0, tts_index: 58, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 59 ctts: 0, tts_index: 59, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 60 ctts: 0, tts_index: 60, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 61 ctts: 0, tts_index: 61, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 62 ctts: 0, tts_index: 62, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 63 ctts: 0, tts_index: 63, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 64 ctts: 0, tts_index: 64, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 65 ctts: 0, tts_index: 65, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 66 ctts: 0, tts_index: 66, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 67 ctts: 0, tts_index: 67, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 68 ctts: 0, tts_index: 68, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 69 ctts: 0, tts_index: 69, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 70 ctts: 0, tts_index: 70, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 71 ctts: 0, tts_index: 71, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 72 ctts: 0, tts_index: 72, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 73 ctts: 0, tts_index: 73, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 74 ctts: 0, tts_index: 74, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 75 ctts: 0, tts_index: 75, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 76 ctts: 0, tts_index: 76, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 77 ctts: 0, tts_index: 77, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 78 ctts: 0, tts_index: 78, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 79 ctts: 0, tts_index: 79, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 80 ctts: 0, tts_index: 80, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 81 ctts: 0, tts_index: 81, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 82 ctts: 0, tts_index: 82, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 83 ctts: 0, tts_index: 83, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 84 ctts: 0, tts_index: 84, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 85 ctts: 0, tts_index: 85, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 86 ctts: 0, tts_index: 86, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 87 ctts: 0, tts_index: 87, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 88 ctts: 0, tts_index: 88, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 89 ctts: 0, tts_index: 89, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 90 ctts: 0, tts_index: 90, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 91 ctts: 0, tts_index: 91, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 92 ctts: 0, tts_index: 92, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 93 ctts: 0, tts_index: 93, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 94 ctts: 0, tts_index: 94, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 95 ctts: 0, tts_index: 95, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 96 ctts: 0, tts_index: 96, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 97 ctts: 0, tts_index: 97, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 98 ctts: 0, tts_index: 98, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 99 ctts: 0, tts_index: 99, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 100 ctts: 0, tts_index: 100, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 101 ctts: 0, tts_index: 101, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 102 ctts: 0, tts_index: 102, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 103 ctts: 0, tts_index: 103, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 104 ctts: 0, tts_index: 104, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 105 ctts: 0, tts_index: 105, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 106 ctts: 0, tts_index: 106, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 107 ctts: 0, tts_index: 107, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 108 ctts: 0, tts_index: 108, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 109 ctts: 0, tts_index: 109, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 110 ctts: 0, tts_index: 110, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 111 ctts: 0, tts_index: 111, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 112 ctts: 0, tts_index: 112, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 113 ctts: 0, tts_index: 113, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 114 ctts: 0, tts_index: 114, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 115 ctts: 0, tts_index: 115, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 116 ctts: 0, tts_index: 116, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 117 ctts: 0, tts_index: 117, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 118 ctts: 0, tts_index: 118, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 119 ctts: 0, tts_index: 119, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 120 ctts: 0, tts_index: 120, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 121 ctts: 0, tts_index: 121, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 122 ctts: 0, tts_index: 122, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 123 ctts: 0, tts_index: 123, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 124 ctts: 0, tts_index: 124, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 125 ctts: 0, tts_index: 125, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 126 ctts: 0, tts_index: 126, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 127 ctts: 0, tts_index: 127, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 128 ctts: 0, tts_index: 128, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 129 ctts: 0, tts_index: 129, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 130 ctts: 0, tts_index: 130, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 131 ctts: 0, tts_index: 131, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 132 ctts: 0, tts_index: 132, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 133 ctts: 0, tts_index: 133, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 134 ctts: 0, tts_index: 134, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 135 ctts: 0, tts_index: 135, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 136 ctts: 0, tts_index: 136, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 137 ctts: 0, tts_index: 137, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 138 ctts: 0, tts_index: 138, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 139 ctts: 0, tts_index: 139, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 140 ctts: 0, tts_index: 140, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 141 ctts: 0, tts_index: 141, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 142 ctts: 0, tts_index: 142, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 143 ctts: 0, tts_index: 143, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 144 ctts: 0, tts_index: 144, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 145 ctts: 0, tts_index: 145, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 146 ctts: 0, tts_index: 146, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 147 ctts: 0, tts_index: 147, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 148 ctts: 0, tts_index: 148, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 149 ctts: 0, tts_index: 149, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 150 ctts: 0, tts_index: 150, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 151 ctts: 0, tts_index: 151, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 152 ctts: 0, tts_index: 152, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 153 ctts: 0, tts_index: 153, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 154 ctts: 0, tts_index: 154, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 155 ctts: 0, tts_index: 155, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 156 ctts: 0, tts_index: 156, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 157 ctts: 0, tts_index: 157, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 158 ctts: 0, tts_index: 158, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 159 ctts: 0, tts_index: 159, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 160 ctts: 0, tts_index: 160, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 161 ctts: 0, tts_index: 161, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 162 ctts: 0, tts_index: 162, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 163 ctts: 0, tts_index: 163, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 164 ctts: 0, tts_index: 164, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 165 ctts: 0, tts_index: 165, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 166 ctts: 0, tts_index: 166, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 167 ctts: 0, tts_index: 167, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 168 ctts: 0, tts_index: 168, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 169 ctts: 0, tts_index: 169, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 170 ctts: 0, tts_index: 170, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 171 ctts: 0, tts_index: 171, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 172 ctts: 0, tts_index: 172, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 173 ctts: 0, tts_index: 173, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 174 ctts: 0, tts_index: 174, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 175 ctts: 0, tts_index: 175, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 176 ctts: 0, tts_index: 176, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 177 ctts: 0, tts_index: 177, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 178 ctts: 0, tts_index: 178, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 179 ctts: 0, tts_index: 179, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 180 ctts: 0, tts_index: 180, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 181 ctts: 0, tts_index: 181, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 182 ctts: 0, tts_index: 182, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 183 ctts: 0, tts_index: 183, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 184 ctts: 0, tts_index: 184, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 185 ctts: 0, tts_index: 185, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 186 ctts: 0, tts_index: 186, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 187 ctts: 0, tts_index: 187, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 188 ctts: 0, tts_index: 188, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 189 ctts: 0, tts_index: 189, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 190 ctts: 0, tts_index: 190, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 191 ctts: 0, tts_index: 191, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 192 ctts: 0, tts_index: 192, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 193 ctts: 0, tts_index: 193, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 194 ctts: 0, tts_index: 194, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 195 ctts: 0, tts_index: 195, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 196 ctts: 0, tts_index: 196, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 197 ctts: 0, tts_index: 197, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 198 ctts: 0, tts_index: 198, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 199 ctts: 0, tts_index: 199, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 200 ctts: 0, tts_index: 200, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 201 ctts: 0, tts_index: 201, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 202 ctts: 0, tts_index: 202, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 203 ctts: 0, tts_index: 203, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 204 ctts: 0, tts_index: 204, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 205 ctts: 0, tts_index: 205, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 206 ctts: 0, tts_index: 206, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 207 ctts: 0, tts_index: 207, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 208 ctts: 0, tts_index: 208, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 209 ctts: 0, tts_index: 209, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 210 ctts: 0, tts_index: 210, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 211 ctts: 0, tts_index: 211, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 212 ctts: 0, tts_index: 212, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 213 ctts: 0, tts_index: 213, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 214 ctts: 0, tts_index: 214, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 215 ctts: 0, tts_index: 215, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 216 ctts: 0, tts_index: 216, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 217 ctts: 0, tts_index: 217, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 218 ctts: 0, tts_index: 218, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 219 ctts: 0, tts_index: 219, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 220 ctts: 0, tts_index: 220, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 221 ctts: 0, tts_index: 221, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 222 ctts: 0, tts_index: 222, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 223 ctts: 0, tts_index: 223, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 224 ctts: 0, tts_index: 224, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 225 ctts: 0, tts_index: 225, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 226 ctts: 0, tts_index: 226, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 227 ctts: 0, tts_index: 227, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 228 ctts: 0, tts_index: 228, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 229 ctts: 0, tts_index: 229, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 230 ctts: 0, tts_index: 230, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 231 ctts: 0, tts_index: 231, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 232 ctts: 0, tts_index: 232, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 233 ctts: 0, tts_index: 233, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 234 ctts: 0, tts_index: 234, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 235 ctts: 0, tts_index: 235, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 236 ctts: 0, tts_index: 236, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 237 ctts: 0, tts_index: 237, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 238 ctts: 0, tts_index: 238, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 239 ctts: 0, tts_index: 239, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 240 ctts: 0, tts_index: 240, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 241 ctts: 0, tts_index: 241, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 242 ctts: 0, tts_index: 242, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 243 ctts: 0, tts_index: 243, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 244 ctts: 0, tts_index: 244, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 245 ctts: 0, tts_index: 245, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 246 ctts: 0, tts_index: 246, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 247 ctts: 0, tts_index: 247, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 248 ctts: 0, tts_index: 248, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 249 ctts: 0, tts_index: 249, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 250 ctts: 0, tts_index: 250, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 251 ctts: 0, tts_index: 251, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 252 ctts: 0, tts_index: 252, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 253 ctts: 0, tts_index: 253, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 254 ctts: 0, tts_index: 254, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 255 ctts: 0, tts_index: 255, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 256 ctts: 0, tts_index: 256, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 257 ctts: 0, tts_index: 257, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 258 ctts: 0, tts_index: 258, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 259 ctts: 0, tts_index: 259, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 260 ctts: 0, tts_index: 260, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 261 ctts: 0, tts_index: 261, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 262 ctts: 0, tts_index: 262, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 263 ctts: 0, tts_index: 263, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 264 ctts: 0, tts_index: 264, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 265 ctts: 0, tts_index: 265, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 266 ctts: 0, tts_index: 266, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 267 ctts: 0, tts_index: 267, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 268 ctts: 0, tts_index: 268, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 269 ctts: 0, tts_index: 269, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 270 ctts: 0, tts_index: 270, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 271 ctts: 0, tts_index: 271, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 272 ctts: 0, tts_index: 272, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 273 ctts: 0, tts_index: 273, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 274 ctts: 0, tts_index: 274, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 275 ctts: 0, tts_index: 275, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 276 ctts: 0, tts_index: 276, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 277 ctts: 0, tts_index: 277, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 278 ctts: 0, tts_index: 278, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 279 ctts: 0, tts_index: 279, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 280 ctts: 0, tts_index: 280, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 281 ctts: 0, tts_index: 281, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 282 ctts: 0, tts_index: 282, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 283 ctts: 0, tts_index: 283, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 284 ctts: 0, tts_index: 284, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 285 ctts: 0, tts_index: 285, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 286 ctts: 0, tts_index: 286, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 287 ctts: 0, tts_index: 287, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 288 ctts: 0, tts_index: 288, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 289 ctts: 0, tts_index: 289, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 290 ctts: 0, tts_index: 290, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 291 ctts: 0, tts_index: 291, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 292 ctts: 0, tts_index: 292, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 293 ctts: 0, tts_index: 293, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 294 ctts: 0, tts_index: 294, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 295 ctts: 0, tts_index: 295, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 296 ctts: 0, tts_index: 296, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 297 ctts: 0, tts_index: 297, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 298 ctts: 0, tts_index: 298, tts_count: 300
+[in#0 @ 0x9c6c14000] stts: 299 ctts: 0, tts_index: 299, tts_count: 300
+[in#0 @ 0x9c6c14000] type:'udta' parent:'moov' sz: 97 3137 3226
+[in#0 @ 0x9c6c14000] type:'meta' parent:'udta' sz: 89 8 89
+[in#0 @ 0x9c6c14000] type:'hdlr' parent:'meta' sz: 33 8 77
+[in#0 @ 0x9c6c14000] ctype=[0][0][0][0]
+[in#0 @ 0x9c6c14000] stype=mdir
+[in#0 @ 0x9c6c14000] type:'ilst' parent:'meta' sz: 44 41 77
+[in#0 @ 0x9c6c14000] type:'[169]too' parent:'ilst' sz: 36 8 36
+[in#0 @ 0x9c6c14000] type:'free' parent:'root' sz: 8 3274 376641173
+[in#0 @ 0x9c6c14000] type:'mdat' parent:'root' sz: 376637899 3282 376641173
+[in#0 @ 0x9c6c14000] on_parse_exit_offset=3282
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x9c6c14000] Before avformat_find_stream_info() pos: 3282 bytes read:32768 seeks:0 nb_streams:1
+[h264 @ 0x9c703c380] nal_unit_type: 7(SPS), nal_ref_idc: 1
+[h264 @ 0x9c703c380] Decoding VUI
+[h264 @ 0x9c703c380] nal_unit_type: 8(PPS), nal_ref_idc: 1
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x9c6c14000] stream 0, sample 0, dts 0
+[h264 @ 0x9c703c380] nal_unit_type: 7(SPS), nal_ref_idc: 1
+[h264 @ 0x9c703c380] Decoding VUI
+[h264 @ 0x9c703c380] nal_unit_type: 8(PPS), nal_ref_idc: 1
+[h264 @ 0x9c703c380] Decoding VUI
+[h264 @ 0x9c703c380] nal_unit_type: 7(SPS), nal_ref_idc: 1
+[h264 @ 0x9c703c380] nal_unit_type: 8(PPS), nal_ref_idc: 1
+[h264 @ 0x9c703c380] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x9c703c380] nal_unit_type: 5(IDR), nal_ref_idc: 1
+[h264 @ 0x9c703c380] Decoding VUI
+[h264 @ 0x9c703c380] Format yuv420p chosen by get_format().
+[h264 @ 0x9c703c380] Reinit context to 3840x2160, pix_fmt: yuv420p
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x9c6c14000] All info found
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x9c6c14000] stream 0: start_time: 0 duration: 10
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x9c6c14000] format: start_time: 0 duration: 10 (estimate from stream) bitrate=301312 kb/s
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x9c6c14000] After avformat_find_stream_info() pos: 2113072 bytes read:2113072 seeks:0 frames:1
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-screen-h-300/video.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.1.102
+  Duration: 00:00:10.00, start: 0.000000, bitrate: 301312 kb/s
+  Stream #0:0[0x1](und), 1, 1/30: Video: h264 (High), 1 reference frame (avc1 / 0x31637661), yuv420p(tv, bt709, progressive, left), 3840x2160, 0/1, 301310 kb/s, 30 fps, 30 tbr, 30 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+Successfully opened the file.
+Parsing a group of options: output url -.
+Applying option map (set input stream mapping) with argument 0:v:0.
+Parsing stream specifier: v:0
+Parsed media type: video; remainder: :0
+Parsed index: 0; remainder: 
+Applying option frames:v (set the number of frames to output) with argument 1.
+Parsing stream specifier: v
+Parsed media type: video; remainder: 
+Applying option c:v (select encoder/decoder ('copy' to copy stream without reencoding)) with argument copy.
+Parsing stream specifier: v
+Parsed media type: video; remainder: 
+Applying option bsf:v (A comma-separated list of bitstream filters) with argument trace_headers.
+Parsing stream specifier: v
+Parsed media type: video; remainder: 
+Applying option f (force container format (auto-detected otherwise)) with argument null.
+Successfully parsed a group of options.
+Opening an output file: -.
+[out#0/null @ 0x9c6c04600] Adding streams from explicit maps...
+[vost#0:0/copy @ 0x9c6c88000] Created video stream from input stream 0:0
+[trace_headers @ 0x9c7014050] Extradata
+[trace_headers @ 0x9c7014050] nal_unit_type: 7(SPS), nal_ref_idc: 1
+[trace_headers @ 0x9c7014050] nal_unit_type: 8(PPS), nal_ref_idc: 1
+[trace_headers @ 0x9c7014050] 4 bytes left at end of AVCC header.
+[trace_headers @ 0x9c7014050] Sequence Parameter Set
+[trace_headers @ 0x9c7014050] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x9c7014050] 1           nal_ref_idc                                                01 = 1
+[trace_headers @ 0x9c7014050] 3           nal_unit_type                                           00111 = 7
+[trace_headers @ 0x9c7014050] 8           profile_idc                                          01100100 = 100
+[trace_headers @ 0x9c7014050] 16          constraint_set0_flag                                        0 = 0
+[trace_headers @ 0x9c7014050] 17          constraint_set1_flag                                        0 = 0
+[trace_headers @ 0x9c7014050] 18          constraint_set2_flag                                        0 = 0
+[trace_headers @ 0x9c7014050] 19          constraint_set3_flag                                        0 = 0
+[trace_headers @ 0x9c7014050] 20          constraint_set4_flag                                        0 = 0
+[trace_headers @ 0x9c7014050] 21          constraint_set5_flag                                        0 = 0
+[trace_headers @ 0x9c7014050] 22          reserved_zero_2bits                                        00 = 0
+[trace_headers @ 0x9c7014050] 24          level_idc                                            00110011 = 51
+[trace_headers @ 0x9c7014050] 32          seq_parameter_set_id                                        1 = 0
+[trace_headers @ 0x9c7014050] 33          chroma_format_idc                                         010 = 1
+[trace_headers @ 0x9c7014050] 36          bit_depth_luma_minus8                                       1 = 0
+[trace_headers @ 0x9c7014050] 37          bit_depth_chroma_minus8                                     1 = 0
+[trace_headers @ 0x9c7014050] 38          qpprime_y_zero_transform_bypass_flag                        0 = 0
+[trace_headers @ 0x9c7014050] 39          seq_scaling_matrix_present_flag                             0 = 0
+[trace_headers @ 0x9c7014050] 40          log2_max_frame_num_minus4                                 010 = 1
+[trace_headers @ 0x9c7014050] 43          pic_order_cnt_type                                          1 = 0
+[trace_headers @ 0x9c7014050] 44          log2_max_pic_order_cnt_lsb_minus4                         011 = 2
+[trace_headers @ 0x9c7014050] 47          max_num_ref_frames                                        010 = 1
+[trace_headers @ 0x9c7014050] 50          gaps_in_frame_num_allowed_flag                              0 = 0
+[trace_headers @ 0x9c7014050] 51          pic_width_in_mbs_minus1                       000000011110000 = 239
+[trace_headers @ 0x9c7014050] 66          pic_height_in_map_units_minus1                000000010000111 = 134
+[trace_headers @ 0x9c7014050] 81          frame_mbs_only_flag                                         1 = 1
+[trace_headers @ 0x9c7014050] 82          direct_8x8_inference_flag                                   1 = 1
+[trace_headers @ 0x9c7014050] 83          frame_cropping_flag                                         0 = 0
+[trace_headers @ 0x9c7014050] 84          vui_parameters_present_flag                                 1 = 1
+[trace_headers @ 0x9c7014050] 85          aspect_ratio_info_present_flag                              0 = 0
+[trace_headers @ 0x9c7014050] 86          overscan_info_present_flag                                  0 = 0
+[trace_headers @ 0x9c7014050] 87          video_signal_type_present_flag                              1 = 1
+[trace_headers @ 0x9c7014050] 88          video_format                                              101 = 5
+[trace_headers @ 0x9c7014050] 91          video_full_range_flag                                       0 = 0
+[trace_headers @ 0x9c7014050] 92          colour_description_present_flag                             1 = 1
+[trace_headers @ 0x9c7014050] 93          colour_primaries                                     00000001 = 1
+[trace_headers @ 0x9c7014050] 101         transfer_characteristics                             00000001 = 1
+[trace_headers @ 0x9c7014050] 109         matrix_coefficients                                  00000001 = 1
+[trace_headers @ 0x9c7014050] 117         chroma_loc_info_present_flag                                0 = 0
+[trace_headers @ 0x9c7014050] 118         timing_info_present_flag                                    0 = 0
+[trace_headers @ 0x9c7014050] 119         nal_hrd_parameters_present_flag                             0 = 0
+[trace_headers @ 0x9c7014050] 120         vcl_hrd_parameters_present_flag                             0 = 0
+[trace_headers @ 0x9c7014050] 121         pic_struct_present_flag                                     0 = 0
+[trace_headers @ 0x9c7014050] 122         bitstream_restriction_flag                                  0 = 0
+[trace_headers @ 0x9c7014050] 123         rbsp_stop_one_bit                                           1 = 1
+[trace_headers @ 0x9c7014050] 124         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x9c7014050] 125         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x9c7014050] 126         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x9c7014050] 127         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x9c7014050] Picture Parameter Set
+[trace_headers @ 0x9c7014050] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x9c7014050] 1           nal_ref_idc                                                01 = 1
+[trace_headers @ 0x9c7014050] 3           nal_unit_type                                           01000 = 8
+[trace_headers @ 0x9c7014050] 8           pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x9c7014050] 9           seq_parameter_set_id                                        1 = 0
+[trace_headers @ 0x9c7014050] 10          entropy_coding_mode_flag                                    1 = 1
+[trace_headers @ 0x9c7014050] 11          bottom_field_pic_order_in_frame_present_flag                0 = 0
+[trace_headers @ 0x9c7014050] 12          num_slice_groups_minus1                                     1 = 0
+[trace_headers @ 0x9c7014050] 13          num_ref_idx_l0_default_active_minus1                        1 = 0
+[trace_headers @ 0x9c7014050] 14          num_ref_idx_l1_default_active_minus1                        1 = 0
+[trace_headers @ 0x9c7014050] 15          weighted_pred_flag                                          0 = 0
+[trace_headers @ 0x9c7014050] 16          weighted_bipred_idc                                        00 = 0
+[trace_headers @ 0x9c7014050] 18          pic_init_qp_minus26                                         1 = 0
+[trace_headers @ 0x9c7014050] 19          pic_init_qs_minus26                                         1 = 0
+[trace_headers @ 0x9c7014050] 20          chroma_qp_index_offset                                      1 = 0
+[trace_headers @ 0x9c7014050] 21          deblocking_filter_control_present_flag                      1 = 1
+[trace_headers @ 0x9c7014050] 22          constrained_intra_pred_flag                                 0 = 0
+[trace_headers @ 0x9c7014050] 23          redundant_pic_cnt_present_flag                              0 = 0
+[trace_headers @ 0x9c7014050] 24          transform_8x8_mode_flag                                     1 = 1
+[trace_headers @ 0x9c7014050] 25          pic_scaling_matrix_present_flag                             0 = 0
+[trace_headers @ 0x9c7014050] 26          second_chroma_qp_index_offset                               1 = 0
+[trace_headers @ 0x9c7014050] 27          rbsp_stop_one_bit                                           1 = 1
+[trace_headers @ 0x9c7014050] 28          rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x9c7014050] 29          rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x9c7014050] 30          rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x9c7014050] 31          rbsp_alignment_zero_bit                                     0 = 0
+Successfully opened the file.
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+Output #0, null, to 'pipe:':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.1.102
+  Stream #0:0(und), 0, 1/30: Video: h264 (High), 1 reference frame (avc1 / 0x31637661), yuv420p(tv, bt709, progressive, left), 3840x2160, 0/1, q=2-31, 301310 kb/s, 30 fps, 30 tbr, 30 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+[out#0/null @ 0x9c6c04600] Starting thread...
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x9c6c10000] Starting thread...
+Press [q] to stop, [?] for help
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x9c6c14000] stream 0, sample 1, dts 33333
+[trace_headers @ 0x9c7014050] Packet: 2109790 bytes, key frame, pts 0, dts 0, duration 1.
+[trace_headers @ 0x9c7014050] nal_unit_type: 7(SPS), nal_ref_idc: 1
+[trace_headers @ 0x9c7014050] nal_unit_type: 8(PPS), nal_ref_idc: 1
+[trace_headers @ 0x9c7014050] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[trace_headers @ 0x9c7014050] nal_unit_type: 5(IDR), nal_ref_idc: 1
+[h264 @ 0x9c703c700] Decoding VUI
+[trace_headers @ 0x9c7014050] Sequence Parameter Set
+[trace_headers @ 0x9c7014050] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x9c7014050] 1           nal_ref_idc                                                01 = 1
+[trace_headers @ 0x9c7014050] 3           nal_unit_type                                           00111 = 7
+[trace_headers @ 0x9c7014050] 8           profile_idc                                          01100100 = 100
+[trace_headers @ 0x9c7014050] 16          constraint_set0_flag                                        0 = 0
+[trace_headers @ 0x9c7014050] 17          constraint_set1_flag                                        0 = 0
+[trace_headers @ 0x9c7014050] 18          constraint_set2_flag                                        0 = 0
+[trace_headers @ 0x9c7014050] 19          constraint_set3_flag                                        0 = 0
+[trace_headers @ 0x9c7014050] 20          constraint_set4_flag                                        0 = 0
+[trace_headers @ 0x9c7014050] 21          constraint_set5_flag                                        0 = 0
+[trace_headers @ 0x9c7014050] 22          reserved_zero_2bits                                        00 = 0
+[trace_headers @ 0x9c7014050] 24          level_idc                                            00110011 = 51
+[trace_headers @ 0x9c7014050] 32          seq_parameter_set_id                                        1 = 0
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x9c6c14000] stream 0, sample 2, dts 66667
+[trace_headers @ 0x9c7014050] 33          chroma_format_idc                                         010 = 1
+[trace_headers @ 0x9c7014050] 36          bit_depth_luma_minus8                                       1 = 0
+[trace_headers @ 0x9c7014050] 37          bit_depth_chroma_minus8                                     1 = 0
+[trace_headers @ 0x9c7014050] 38          qpprime_y_zero_transform_bypass_flag                        0 = 0
+[trace_headers @ 0x9c7014050] 39          seq_scaling_matrix_present_flag                             0 = 0
+[trace_headers @ 0x9c7014050] 40          log2_max_frame_num_minus4                                 010 = 1
+[trace_headers @ 0x9c7014050] 43          pic_order_cnt_type                                          1 = 0
+[trace_headers @ 0x9c7014050] 44          log2_max_pic_order_cnt_lsb_minus4                         011 = 2
+[trace_headers @ 0x9c7014050] 47          max_num_ref_frames                                        010 = 1
+[trace_headers @ 0x9c7014050] 50          gaps_in_frame_num_allowed_flag                              0 = 0
+[trace_headers @ 0x9c7014050] 51          pic_width_in_mbs_minus1                       000000011110000 = 239
+[trace_headers @ 0x9c7014050] 66          pic_height_in_map_units_minus1                000000010000111 = 134
+[trace_headers @ 0x9c7014050] 81          frame_mbs_only_flag                                         1 = 1
+[trace_headers @ 0x9c7014050] 82          direct_8x8_inference_flag                                   1 = 1
+[trace_headers @ 0x9c7014050] 83          frame_cropping_flag                                         0 = 0
+[trace_headers @ 0x9c7014050] 84          vui_parameters_present_flag                                 1 = 1
+[trace_headers @ 0x9c7014050] 85          aspect_ratio_info_present_flag                              0 = 0
+[trace_headers @ 0x9c7014050] 86          overscan_info_present_flag                                  0 = 0
+[trace_headers @ 0x9c7014050] 87          video_signal_type_present_flag                              1 = 1
+[trace_headers @ 0x9c7014050] 88          video_format                                              101 = 5
+[trace_headers @ 0x9c7014050] 91          video_full_range_flag                                       0 = 0
+[trace_headers @ 0x9c7014050] 92          colour_description_present_flag                             1 = 1
+[trace_headers @ 0x9c7014050] 93          colour_primaries                                     00000001 = 1
+[trace_headers @ 0x9c7014050] 101         transfer_characteristics                             00000001 = 1
+[trace_headers @ 0x9c7014050] 109         matrix_coefficients                                  00000001 = 1
+[trace_headers @ 0x9c7014050] 117         chroma_loc_info_present_flag                                0 = 0
+[trace_headers @ 0x9c7014050] 118         timing_info_present_flag                                    0 = 0
+[trace_headers @ 0x9c7014050] 119         nal_hrd_parameters_present_flag                             0 = 0
+[trace_headers @ 0x9c7014050] 120         vcl_hrd_parameters_present_flag                             0 = 0
+[trace_headers @ 0x9c7014050] 121         pic_struct_present_flag                                     0 = 0
+[trace_headers @ 0x9c7014050] 122         bitstream_restriction_flag                                  0 = 0
+[trace_headers @ 0x9c7014050] 123         rbsp_stop_one_bit                                           1 = 1
+[trace_headers @ 0x9c7014050] 124         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x9c7014050] 125         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x9c7014050] 126         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x9c7014050] 127         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x9c7014050] Picture Parameter Set
+[trace_headers @ 0x9c7014050] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x9c7014050] 1           nal_ref_idc                                                01 = 1
+[trace_headers @ 0x9c7014050] 3           nal_unit_type                                           01000 = 8
+[trace_headers @ 0x9c7014050] 8           pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x9c7014050] 9           seq_parameter_set_id                                        1 = 0
+[trace_headers @ 0x9c7014050] 10          entropy_coding_mode_flag                                    1 = 1
+[trace_headers @ 0x9c7014050] 11          bottom_field_pic_order_in_frame_present_flag                0 = 0
+[trace_headers @ 0x9c7014050] 12          num_slice_groups_minus1                                     1 = 0
+[trace_headers @ 0x9c7014050] 13          num_ref_idx_l0_default_active_minus1                        1 = 0
+[trace_headers @ 0x9c7014050] 14          num_ref_idx_l1_default_active_minus1                        1 = 0
+[trace_headers @ 0x9c7014050] 15          weighted_pred_flag                                          0 = 0
+[trace_headers @ 0x9c7014050] 16          weighted_bipred_idc                                        00 = 0
+[trace_headers @ 0x9c7014050] 18          pic_init_qp_minus26                                         1 = 0
+[trace_headers @ 0x9c7014050] 19          pic_init_qs_minus26                                         1 = 0
+[trace_headers @ 0x9c7014050] 20          chroma_qp_index_offset                                      1 = 0
+[trace_headers @ 0x9c7014050] 21          deblocking_filter_control_present_flag                      1 = 1
+[trace_headers @ 0x9c7014050] 22          constrained_intra_pred_flag                                 0 = 0
+[trace_headers @ 0x9c7014050] 23          redundant_pic_cnt_present_flag                              0 = 0
+[trace_headers @ 0x9c7014050] 24          transform_8x8_mode_flag                                     1 = 1
+[trace_headers @ 0x9c7014050] 25          pic_scaling_matrix_present_flag                             0 = 0
+[trace_headers @ 0x9c7014050] 26          second_chroma_qp_index_offset                               1 = 0
+[trace_headers @ 0x9c7014050] 27          rbsp_stop_one_bit                                           1 = 1
+[trace_headers @ 0x9c7014050] 28          rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x9c7014050] 29          rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x9c7014050] 30          rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x9c7014050] 31          rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x9c7014050] Supplemental Enhancement Information
+[trace_headers @ 0x9c7014050] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x9c7014050] 1           nal_ref_idc                                                00 = 0
+[trace_headers @ 0x9c7014050] 3           nal_unit_type                                           00110 = 6
+[trace_headers @ 0x9c7014050] 8           last_payload_type_byte                               00000101 = 5
+[trace_headers @ 0x9c7014050] 16          last_payload_size_byte                               00110010 = 50
+[trace_headers @ 0x9c7014050] User Data Unregistered
+[trace_headers @ 0x9c7014050] 24          uuid_iso_iec_11578[0]                                01000111 = 71
+[trace_headers @ 0x9c7014050] 32          uuid_iso_iec_11578[1]                                01010110 = 86
+[trace_headers @ 0x9c7014050] 40          uuid_iso_iec_11578[2]                                01001010 = 74
+[trace_headers @ 0x9c7014050] 48          uuid_iso_iec_11578[3]                                11011100 = 220
+[trace_headers @ 0x9c7014050] 56          uuid_iso_iec_11578[4]                                01011100 = 92
+[trace_headers @ 0x9c7014050] 64          uuid_iso_iec_11578[5]                                01001100 = 76
+[trace_headers @ 0x9c7014050] 72          uuid_iso_iec_11578[6]                                01000011 = 67
+[trace_headers @ 0x9c7014050] 80          uuid_iso_iec_11578[7]                                00111111 = 63
+[trace_headers @ 0x9c7014050] 88          uuid_iso_iec_11578[8]                                10010100 = 148
+[trace_headers @ 0x9c7014050] 96          uuid_iso_iec_11578[9]                                11101111 = 239
+[trace_headers @ 0x9c7014050] 104         uuid_iso_iec_11578[10]                               11000101 = 197
+[trace_headers @ 0x9c7014050] 112         uuid_iso_iec_11578[11]                               00010001 = 17
+[trace_headers @ 0x9c7014050] 120         uuid_iso_iec_11578[12]                               00111100 = 60
+[trace_headers @ 0x9c7014050] 128         uuid_iso_iec_11578[13]                               11010001 = 209
+[trace_headers @ 0x9c7014050] 136         uuid_iso_iec_11578[14]                               01000011 = 67
+[trace_headers @ 0x9c7014050] 144         uuid_iso_iec_11578[15]                               10101000 = 168
+[trace_headers @ 0x9c7014050] 152         user_data_payload_byte[0]                            00000001 = 1
+[trace_headers @ 0x9c7014050] 160         user_data_payload_byte[1]                            00000000 = 0
+[trace_headers @ 0x9c7014050] 168         user_data_payload_byte[2]                            00000000 = 0
+[trace_headers @ 0x9c7014050] 176         user_data_payload_byte[3]                            00000000 = 0
+[trace_headers @ 0x9c7014050] 184         user_data_payload_byte[4]                            00000001 = 1
+[trace_headers @ 0x9c7014050] 192         user_data_payload_byte[5]                            00000011 = 3
+[trace_headers @ 0x9c7014050] 200         user_data_payload_byte[6]                            00000000 = 0
+[trace_headers @ 0x9c7014050] 208         user_data_payload_byte[7]                            00000000 = 0
+[trace_headers @ 0x9c7014050] 216         user_data_payload_byte[8]                            00000000 = 0
+[trace_headers @ 0x9c7014050] 224         user_data_payload_byte[9]                            00000011 = 3
+[trace_headers @ 0x9c7014050] 232         user_data_payload_byte[10]                           00000010 = 2
+[trace_headers @ 0x9c7014050] 240         user_data_payload_byte[11]                           00010001 = 17
+[trace_headers @ 0x9c7014050] 248         user_data_payload_byte[12]                           11100001 = 225
+[trace_headers @ 0x9c7014050] 256         user_data_payload_byte[13]                           10100011 = 163
+[trace_headers @ 0x9c7014050] 264         user_data_payload_byte[14]                           00000000 = 0
+[trace_headers @ 0x9c7014050] 272         user_data_payload_byte[15]                           00001011 = 11
+[trace_headers @ 0x9c7014050] 280         user_data_payload_byte[16]                           00000000 = 0
+[trace_headers @ 0x9c7014050] 288         user_data_payload_byte[17]                           00000000 = 0
+[trace_headers @ 0x9c7014050] 296         user_data_payload_byte[18]                           00000000 = 0
+[trace_headers @ 0x9c7014050] 304         user_data_payload_byte[19]                           00000000 = 0
+[trace_headers @ 0x9c7014050] 312         user_data_payload_byte[20]                           00000000 = 0
+[trace_headers @ 0x9c7014050] 320         user_data_payload_byte[21]                           00000000 = 0
+[trace_headers @ 0x9c7014050] 328         user_data_payload_byte[22]                           00100101 = 37
+[trace_headers @ 0x9c7014050] 336         user_data_payload_byte[23]                           11101110 = 238
+[trace_headers @ 0x9c7014050] 344         user_data_payload_byte[24]                           00001100 = 12
+[trace_headers @ 0x9c7014050] 352         user_data_payload_byte[25]                           00000011 = 3
+[trace_headers @ 0x9c7014050] 360         user_data_payload_byte[26]                           10001001 = 137
+[trace_headers @ 0x9c7014050] 368         user_data_payload_byte[27]                           00011101 = 29
+[trace_headers @ 0x9c7014050] 376         user_data_payload_byte[28]                           00000001 = 1
+[trace_headers @ 0x9c7014050] 384         user_data_payload_byte[29]                           00001101 = 13
+[trace_headers @ 0x9c7014050] 392         user_data_payload_byte[30]                           11111111 = 255
+[trace_headers @ 0x9c7014050] 400         user_data_payload_byte[31]                           11111111 = 255
+[trace_headers @ 0x9c7014050] 408         user_data_payload_byte[32]                           11111111 = 255
+[trace_headers @ 0x9c7014050] 416         user_data_payload_byte[33]                           11111111 = 255
+[trace_headers @ 0x9c7014050] 424         rbsp_stop_one_bit                                           1 = 1
+[trace_headers @ 0x9c7014050] 425         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x9c7014050] 426         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x9c7014050] 427         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x9c7014050] 428         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x9c7014050] 429         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x9c7014050] 430         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x9c7014050] 431         rbsp_alignment_zero_bit                                     0 = 0
+[h264 @ 0x9c703c700] Decoding VUI
+[trace_headers @ 0x9c7014050] Slice Header
+[trace_headers @ 0x9c7014050] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x9c7014050] 1           nal_ref_idc                                                01 = 1
+[trace_headers @ 0x9c7014050] 3           nal_unit_type                                           00101 = 5
+[trace_headers @ 0x9c7014050] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x9c7014050] 9           slice_type                                                011 = 2
+[trace_headers @ 0x9c7014050] 12          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x9c7014050] 13          frame_num                                               00000 = 0
+[trace_headers @ 0x9c7014050] 18          idr_pic_id                                                  1 = 0
+[trace_headers @ 0x9c7014050] 19          pic_order_cnt_lsb                                      000000 = 0
+[trace_headers @ 0x9c7014050] 25          no_output_of_prior_pics_flag                                0 = 0
+[trace_headers @ 0x9c7014050] 26          long_term_reference_flag                                    0 = 0
+[trace_headers @ 0x9c7014050] 27          slice_qp_delta                                    00000100001 = -16
+[trace_headers @ 0x9c7014050] 38          disable_deblocking_filter_idc                               1 = 0
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x9c6c14000] stream 0, sample 3, dts 100000
+[trace_headers @ 0x9c7014050] 39          slice_alpha_c0_offset_div2                                  1 = 0
+[trace_headers @ 0x9c7014050] 40          slice_beta_offset_div2                                      1 = 0
+[trace_headers @ 0x9c7014050] 41          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x9c7014050] 42          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x9c7014050] 43          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x9c7014050] 44          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x9c7014050] 45          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x9c7014050] 46          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x9c7014050] 47          cabac_alignment_one_bit                                     1 = 1
+[out#0/null @ 0x9c6c04600] sq: send 0 ts 0.0333333
+[out#0/null @ 0x9c6c04600] sq: 0 frames_max 1 reached
+[out#0/null @ 0x9c6c04600] sq: finish 0; head ts 0.0333333
+[out#0/null @ 0x9c6c04600] sq: finish queue
+[out#0/null @ 0x9c6c04600] sq: receive 0 ts 0.0333333 queue head 0 ts 0.0333333
+[out#0/null @ 0x9c6c04600] Muxer returned EOF
+[out#0/null @ 0x9c6c04600] Terminating thread with return code 0 (success)
+[h264 @ 0x9c703c700] Decoding VUI
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x9c6c10000] Terminating thread with return code 0 (success)
+[out#0/null @ 0x9c6c04600] Output file #0 (pipe:):
+[out#0/null @ 0x9c6c04600]   Output stream #0:0 (video): 1 packets muxed (2109790 bytes); 
+[out#0/null @ 0x9c6c04600]   Total: 1 packets (2109790 bytes) muxed
+[out#0/null @ 0x9c6c04600] video:2060KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.0 q=-1.0 Lsize=N/A time=00:00:00.10 bitrate=N/A speed=67.8x elapsed=0:00:00.00    
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x9c6c10000] Input file #0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-screen-h-300/video.mp4):
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x9c6c10000]   Input stream #0:0 (video): 4 packets read (10465341 bytes); 
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x9c6c10000]   Total: 4 packets (10465341 bytes) demuxed
+[AVIOContext @ 0x9c6c10140] Statistics: 10468623 bytes read, 0 seeks
+
+Exiting with exit code 0

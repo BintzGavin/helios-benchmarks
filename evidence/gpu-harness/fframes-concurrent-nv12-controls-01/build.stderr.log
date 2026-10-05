@@ -1,0 +1,35 @@
+warning: linker stderr: ld: -ld_classic is deprecated and will be removed in a future release
+  |
+  = note: `#[warn(linker_messages)]` on by default
+
+warning: `fframes` (build script) generated 1 warning
+warning: a method with this name may be added to the standard library in the future
+  --> /Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/src/filter/iir_blur.rs:62:25
+   |
+62 |     let data = src.data.as_mut_slice();
+   |                         ^^^^^^^^^^^^
+   |
+   = help: call with fully qualified syntax `as_mut_slice(...)` to keep using the current method
+   = warning: once this associated item is added to the standard library, the ambiguity may cause an error or change in behavior!
+   = note: for more information, see issue #48919 <https://github.com/rust-lang/rust/issues/48919>
+   = note: `#[warn(unstable_name_collisions)]` (part of `#[warn(future_incompatible)]`) on by default
+
+warning: linker stderr: ld: -ld_classic is deprecated and will be removed in a future release
+         ld: ignoring file /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks//QTKit.framework/QTKit.tbd, missing required architecture arm64 in file /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks//QTKit.framework/QTKit.tbd
+  |
+  = note: `#[warn(linker_messages)]` on by default
+
+warning: `svgr-macro` (lib) generated 1 warning (1 duplicate)
+warning: `svgr` (lib) generated 1 warning
+warning: `fframes-media-dir-macro` (lib) generated 1 warning
+   Compiling vs-remotion-bench v1.1.0 (/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/render-bench/vs-remotion)
+warning: linker stderr: ld: -ld_classic is deprecated and will be removed in a future release
+         
+         ld: ignoring file /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks//QTKit.framework/QTKit.tbd, missing required architecture arm64 in file /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks//QTKit.framework/QTKit.tbd
+  |
+  = note: `#[warn(linker_messages)]` on by default
+
+warning: `vs-remotion-bench` (bin "nv12-color-controls") generated 1 warning
+    Finished `release` profile [optimized] target(s) in 1.43s
+warning: the following packages contain code that will be rejected by a future version of Rust: block v0.1.6
+note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 1`

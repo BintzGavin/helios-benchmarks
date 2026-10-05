@@ -1,0 +1,233 @@
+{
+  "id": "F-ultrafast-w2-t1",
+  "engine": "F",
+  "workers": 2,
+  "encoderThreads": 1,
+  "preset": "ultrafast",
+  "jpegQuality": null,
+  "phase": "warmup",
+  "index": 1,
+  "directory": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/warmup-1-F-ultrafast-w2-t1",
+  "status": "complete",
+  "components": {
+    "engine": {
+      "command": [
+        "/home/user/benchmark-work/fframes-cpu/target/release/helios-fframes-cpu-comparison",
+        "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/warmup-1-F-ultrafast-w2-t1/output.mp4",
+        "ultrafast",
+        "11",
+        "2",
+        "1",
+        "/home/user/benchmark-work/fframes/render-bench/vs-remotion/fframes/media"
+      ],
+      "exitCode": 0,
+      "wallNs": 35894123797
+    },
+    "repair": {
+      "command": [
+        "/usr/bin/ffmpeg",
+        "-v",
+        "error",
+        "-y",
+        "-ignore_editlist",
+        "1",
+        "-i",
+        "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/warmup-1-F-ultrafast-w2-t1/original.mp4",
+        "-map",
+        "0:v:0",
+        "-c:v",
+        "copy",
+        "-an",
+        "-use_editlist",
+        "0",
+        "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/warmup-1-F-ultrafast-w2-t1/output.mp4"
+      ],
+      "exitCode": 0,
+      "wallNs": 317796361
+    },
+    "verify": {
+      "command": [
+        "/usr/bin/ffprobe",
+        "-v",
+        "error",
+        "-threads",
+        "2",
+        "-count_frames",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/warmup-1-F-ultrafast-w2-t1/output.mp4"
+      ],
+      "exitCode": 0,
+      "wallNs": 2886712088
+    }
+  },
+  "encoderThreadScope": "per segment/worker encoder",
+  "initialAggregateEncoderThreads": 2,
+  "verifiedProbe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "Constrained Baseline",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 1920,
+        "height": 1080,
+        "coded_width": 1920,
+        "coded_height": 1088,
+        "closed_captions": 0,
+        "film_grain": 0,
+        "has_b_frames": 0,
+        "pix_fmt": "yuv420p",
+        "level": 40,
+        "color_range": "tv",
+        "color_space": "smpte170m",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 153600,
+        "duration": "10.000000",
+        "bit_rate": "180882668",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "300",
+        "nb_read_frames": "300",
+        "extradata_size": 43,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/warmup-1-F-ultrafast-w2-t1/output.mp4",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "10.000000",
+      "size": "226106587",
+      "bit_rate": "180885269",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf59.27.100"
+      }
+    }
+  },
+  "deliveredWallNs": 39099349173,
+  "encoding": {
+    "rawUserSei": "x264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=1 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=24 keyint_min=2 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=11.0 qcomp=0.60 qpmin=15 qpmax=60 qpstep=4 ip_ratio=1.40 aq=0",
+    "parameters": {
+      "cabac": "0",
+      "ref": "1",
+      "deblock": "0:0:0",
+      "analyse": "0:0",
+      "me": "dia",
+      "subme": "0",
+      "psy": "1",
+      "psy_rd": "1.00:0.00",
+      "mixed_ref": "0",
+      "me_range": "16",
+      "chroma_me": "1",
+      "trellis": "0",
+      "x8dct": "0",
+      "cqm": "0",
+      "deadzone": "21,11",
+      "fast_pskip": "1",
+      "chroma_qp_offset": "0",
+      "threads": "1",
+      "lookahead_threads": "1",
+      "sliced_threads": "0",
+      "nr": "0",
+      "decimate": "1",
+      "interlaced": "0",
+      "bluray_compat": "0",
+      "constrained_intra": "0",
+      "bframes": "0",
+      "weightp": "0",
+      "keyint": "24",
+      "keyint_min": "2",
+      "scenecut": "0",
+      "intra_refresh": "0",
+      "rc": "crf",
+      "mbtree": "0",
+      "crf": "11.0",
+      "qcomp": "0.60",
+      "qpmin": "15",
+      "qpmax": "60",
+      "qpstep": "4",
+      "ip_ratio": "1.40",
+      "aq": "0"
+    },
+    "expected": {
+      "threads": 1,
+      "bframes": 0,
+      "keyint": 24,
+      "crf": 11,
+      "qpmin": 15,
+      "qpmax": 60,
+      "qcomp": 0.6,
+      "qpstep": 4,
+      "scenecut": 0,
+      "cabac": 0,
+      "ref": 1,
+      "subme": 0,
+      "trellis": 0
+    },
+    "presetLiteralAvailable": false
+  },
+  "outputs": [
+    {
+      "path": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/warmup-1-F-ultrafast-w2-t1/original.mp4",
+      "bytes": 226106622,
+      "sha256": "218b09581f98c992039362e4d98715e0d5e98595fcc31ba9ad72eb1cdc32d7ee"
+    },
+    {
+      "path": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/warmup-1-F-ultrafast-w2-t1/output.mp4",
+      "bytes": 226106587,
+      "sha256": "760dbd4bd588f8c244d2c486e39cc10e8d2d1cf6676e64d0efa23cd85a320706"
+    }
+  ],
+  "retainedLogicalMp4Bytes": 2467463515,
+  "physicalMp4Storage": {
+    "uniqueInodeBytes": 1102445557,
+    "reportedAllocatedBytes": 1102458880
+  },
+  "qualityArtifact": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/quality/F-760dbd4bd588f8c244d2c486e39cc10e8d2d1cf6676e64d0efa23cd85a320706/measurement.json",
+  "eligible": true
+}

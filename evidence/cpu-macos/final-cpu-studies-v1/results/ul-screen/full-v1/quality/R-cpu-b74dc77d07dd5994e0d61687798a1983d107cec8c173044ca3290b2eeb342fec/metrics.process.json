@@ -1,0 +1,30 @@
+{
+  "command": [
+    "/opt/homebrew/bin/ffmpeg",
+    "-v",
+    "info",
+    "-nostdin",
+    "-threads",
+    "4",
+    "-i",
+    "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/final-cpu-studies-v1/results/ul-screen/full-v1/warmup-1-R-ultrafast-w6-t8/output.mp4",
+    "-threads",
+    "4",
+    "-i",
+    "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/quality-measurement-v1/results/full-v1/references/R-cpu/reference.nut",
+    "-filter_complex_threads",
+    "4",
+    "-filter_complex",
+    "[0:v]settb=expr=1/30,setpts=N,split=2[o1][o2];[1:v]settb=expr=1/30,setpts=N,split=2[r1][r2];[o1][r1]psnr=stats_file=psnr.stats:stats_version=2:output_max=1:shortest=1[p];[o2][r2]ssim=stats_file=ssim.stats:shortest=1[s]",
+    "-map",
+    "[p]",
+    "-map",
+    "[s]",
+    "-fps_mode",
+    "passthrough",
+    "-f",
+    "null",
+    "-"
+  ],
+  "exitCode": 0
+}

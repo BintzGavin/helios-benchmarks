@@ -1,0 +1,48 @@
+{
+  "engine": "F",
+  "mode": "hardware",
+  "frames": 300,
+  "bitrate": 100000000,
+  "fontSha256": "9ae2da663d64342031e59b5fa680dd355171d021b7ebf83774efc7c0330ae7b5",
+  "executableSha256": "5b8be5e7da6625a784b953ea60ff76121cb4922f2629b4def0cd84f129e71ba4",
+  "commands": [
+    {
+      "command": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/textgrid-adapter",
+      "args": [
+        "hardware",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/screen-f-hardware/video.mp4",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/font",
+        "300",
+        "100000000"
+      ]
+    }
+  ],
+  "status": "complete",
+  "zeroCopyProved": false,
+  "rawReadback": false,
+  "verificationOwner": "run_matrix.py; one full post-export decode plus independent cadence/fidelity gates",
+  "startedAt": "2026-10-03T15:06:16.223Z",
+  "producer": {
+    "code": 0,
+    "signal": null,
+    "stderr": "[h264_videotoolbox @ 0xb691b8000] This device does not support the qmax option. Value ignored.\n[h264_videotoolbox @ 0xb691b8000] This device does not support the qmax option. Value ignored.\nCOMPARISON_ACTUAL_EXPORT_PATH=HardwareFrames\n[h264_videotoolbox @ 0xb691b8000] This device does not support the qmax option. Value ignored.\n[h264_videotoolbox @ 0xb691b8000] This device does not support the qmax option. Value ignored.\nCOMPARISON_ACTUAL_EXPORT_PATH=HardwareFrames\nCOMPARISON_ACTUAL_EXPORT_PATH=HardwareFrames\nCOMPARISON_ACTUAL_EXPORT_PATH=HardwareFrames\n"
+  },
+  "nativeReceipt": {
+    "allowSoftwareEncoder": false,
+    "bitrate": 100000000,
+    "colorSemantics": "upstream BT.601 attachments; opaque encoder conversion",
+    "device": "Apple M3 Pro",
+    "encoder": "h264_videotoolbox",
+    "frames": 300,
+    "gop": 90,
+    "mode": "hardware",
+    "nodes": 3334,
+    "pipeline": "MaxPerformance",
+    "rasterizer": "skia-metal",
+    "renderingMs": 5005.857083000001,
+    "requiredPath": "HardwareFrames",
+    "zeroCopyProved": false
+  },
+  "exportMs": 5027.132334,
+  "finishedAt": "2026-10-03T15:06:21.253Z"
+}

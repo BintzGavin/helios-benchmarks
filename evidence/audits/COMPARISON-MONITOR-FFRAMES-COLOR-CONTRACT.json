@@ -1,0 +1,28 @@
+{
+  "status": "pinned owner read-only color-contract report audited",
+  "updatedUtc": "2026-10-04T17:55:31.715663+00:00",
+  "ownerReceipt": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/FFRAMES-COLOR-CONTRACT-INVESTIGATION-20261004.json",
+  "ownerReceiptSha256": "6989896fb81ed5eec810088125f3c1e8e973eb775c914a1356e7c0007009cfe8",
+  "readSetPinsVerified": 11,
+  "ownerCursor": "d0c051ad-a3b2-4641-b3cb-7583ae2a6e2e:21",
+  "ownership": "comparison harness retained; no handoff",
+  "referenceLimitation": "Separate serialBGRA->FFmpeg BT601 reference is not same-stream or exact internalVT YUV oracle.",
+  "simpleBt601Bt709TagMismatchEstablished": false,
+  "preciseChromaCauseResolved": false,
+  "all12ExistingDiagnosticsFailed": true,
+  "nextBoundedSlice": {
+    "purpose": "Separate source-raster variation and the opaque BGRA-to-encoder conversion contract before balanced timing.",
+    "requirements": [
+      "Freeze a separately labeled excluded diagnostic adapter/source/binary; do not alter previous binary/source/output receipts.",
+      "Capture source frames at the hardware-target-to-encoder boundary in the actual MaxPerformance pipeline, retaining source index and segment order, GPU completion and pixel-buffer lifetime.",
+      "Preserve generator count, GPU contexts, bounded queues and segmented encoders; raw capture overhead is explicitly excluded from performance measurement.",
+      "Use independent predetermined color/chroma patterns and declared conversion rules to test reference validity; do not fit a reference to compressed benchmark candidates.",
+      "If opaque VideoToolbox preprocessing cannot be bound independently, retain that limitation and original failed lane. An explicit NV12 converter is a modified pipeline and must retain full production concurrency with separate pins/quality/transfer evidence.",
+      "Only after all300 matched-scene 4K quality/cadence/color/reference gates pass may a balanced timing window be opened."
+    ],
+    "executionNotStarted": true
+  },
+  "noLocalJobs": true,
+  "noPushOrPr": true,
+  "broaderObjectiveComplete": false
+}

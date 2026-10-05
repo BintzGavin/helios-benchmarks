@@ -1,0 +1,1492 @@
+{
+  "new_files_checked": 123,
+  "failures": [],
+  "commands": [
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/README.md"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/SPEC.md"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/LICENSE.fframes.txt"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/PERFORMANCE.md"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/cases.json"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/chromium-entry.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/chromium.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/cloudflare/PROTOCOL.md"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/cloudflare/build-capsule.py"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/cloudflare/common.py"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/cloudflare/compare.py"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/cloudflare/diagnostics.mjs"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/cloudflare/fixtures/scheduler-square.html"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/cloudflare/lifecycle.mjs"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/cloudflare/observe.mjs"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/cloudflare/prepare.py"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/cloudflare/probe.mjs"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/cloudflare/qualification.py"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/cloudflare/qualify.py"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/cloudflare/readiness-container.cjs.txt"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/cloudflare/readiness-probe.mjs"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/cloudflare/recover.mjs"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/cloudflare/recovery-inspect.py"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/cloudflare/resume-check.py"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/cloudflare/resume.mjs"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/cloudflare/retention.py"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/cloudflare/run-remote.mjs"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/cloudflare/transfer.mjs"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/cloudflare/worker.mjs"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/compare.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/corpus.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/fframes-quality.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/fframes-textgrid.mjs"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/fframes.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/opacity.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/profile.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/quality.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/benchmarks/run.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/deploy/Dockerfile"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/deploy/Dockerfile.full"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/deploy/vercel-function.mjs"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/deploy/vercel.json"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/deploy/verify-runtime.mjs"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/examples/vercel-caller.mjs"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/examples/workflow.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/package.json"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/scripts/build-codecs.sh"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/scripts/prepare-deployment.mjs"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/scripts/qualify-service.mjs"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/scripts/setup-private-vm.sh"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/scripts/setup-vercel-s3.sh"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/src/auth.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/src/backend.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/src/canvas-pool.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/src/canvas-worker.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/src/canvas.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/src/cli.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/src/client.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/src/index.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/src/jobs.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/src/media.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/src/plan.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/src/process.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/src/render.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/src/s3-storage.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/src/server.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/src/skia-binding.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/src/skia.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/src/storage.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/src/text.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/src/vendor.d.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/api.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/auth.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/canvas-pool.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/canvas.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/cli.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/client.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/cloudflare-benchmark.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/cloudflare-diagnostics.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/cloudflare-lifecycle.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/cloudflare-observer.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/cloudflare-probe.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/cloudflare-qualification.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/cloudflare-readiness.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/cloudflare-recovery.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/cloudflare-resume.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/cloudflare-retention.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/cloudflare-rounds.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/cloudflare-transfer.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/color.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/features.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/fframes-fixture.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/fixtures/canvas-composition.mjs"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/fixtures/fault-worker.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/fixtures/fonts/NotoSans-Regular.ttf"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/fixtures/fonts/NotoSansArabic-Regular.ttf"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/fixtures/fonts/NotoSansCJKsc-Regular.otf"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/fixtures/fonts/NotoSansDevanagari-Regular.ttf"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/fixtures/fonts/OFL-CJK.txt"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/fixtures/fonts/OFL-Noto.txt"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/fixtures/fonts/PROVENANCE.md"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/fixtures/harfbuzz-oracles.json"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/http.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/jobs.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/media.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/path.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/plan.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/process-recovery.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/recovery.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/render.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/s3.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/skia.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/text-oracle.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tests/text.test.ts"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/packages/portable/tsconfig.json"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/docs/rfcs/2026-09-09-portable-rendering-evidence.md"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/docs/rfcs/2026-09-09-portable-rendering-performance.md"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/docs/rfcs/2026-09-29-cpu-rendering-benchmark-goal.md"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/docs/rfcs/2026-09-30-cpu-rendering-results.md"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/docs/rfcs/2026-09-30-fframes-claimed-benchmark-audit.md"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/docs/rfcs/2026-09-30-scheduler-cpu-benchmark.md"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/docs/rfcs/2026-09-30-three-engine-cpu-qualification-results.md"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--no-index",
+        "--check",
+        "--",
+        "/dev/null",
+        "/Users/gavinbintz/.codex/worktrees/cpu-native-rendering/helios/docs/rfcs/2026-10-01-cpu-benchmarks.md"
+      ],
+      "exit_status": 1
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "diff",
+        "--check",
+        "--",
+        "package-lock.json"
+      ],
+      "exit_status": 0
+    }
+  ]
+}

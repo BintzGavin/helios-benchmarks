@@ -1,0 +1,16 @@
+{
+  "test": "reference-slow-300",
+  "passed": true,
+  "expectedRefusal": null,
+  "observedError": null,
+  "secondsExcludedFromBenchmark": 11.449432666995563,
+  "GPUExecuted": false,
+  "sourceUnchanged": true,
+  "publishedFixtureBinding": true,
+  "frames": 300,
+  "pythonMaxRSSBytes": 38010880,
+  "maxPlanarWriterQueuedBytes": 114688,
+  "backpressureObservations": 261,
+  "producerRawForwardDrains": 138,
+  "producerMaxForwardQueue": 131070
+}

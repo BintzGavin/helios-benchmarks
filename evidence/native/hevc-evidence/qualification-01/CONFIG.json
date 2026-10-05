@@ -1,0 +1,25 @@
+{
+  "scene": "HEVC-color-text-circle-contract",
+  "width": 256,
+  "height": 128,
+  "fps": {
+    "num": 30000,
+    "den": 1001
+  },
+  "frames": 300,
+  "sourceFrames": "0..299",
+  "codec": "hevc",
+  "bitrate": 20000000,
+  "gop": 30,
+  "encoderPool": 3,
+  "transport": "binary",
+  "fontSha256": "b85c38ecea8a7cfb39c24e395a4007474fa5a4fc864f6ee33309eb4948d232d5",
+  "floors": {
+    "ssimY": 0.995,
+    "psnrY": 40,
+    "psnrU": 35,
+    "psnrV": 35
+  },
+  "benchmarkTiming": false,
+  "zeroCopyProved": false
+}

@@ -1,0 +1,25 @@
+[h264_videotoolbox @ 0x9831d8000] This device does not support the qmax option. Value ignored.
+[h264_videotoolbox @ 0x9831d8000] This device does not support the qmax option. Value ignored.
+[h264_videotoolbox @ 0x9831d8000] This device does not support the qmax option. Value ignored.
+[h264_videotoolbox @ 0x9831d8000] This device does not support the qmax option. Value ignored.
+COMPARISON_ACTUAL_EXPORT_PATH=HardwareFrames
+COMPARISON_ACTUAL_EXPORT_PATH=HardwareFrames
+COMPARISON_ACTUAL_EXPORT_PATH=HardwareFrames
+        0.23 real         0.05 user         0.04 sys
+            61095936  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                4905  page reclaims
+                  55  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   4  voluntary context switches
+                1063  involuntary context switches
+           912842727  instructions retired
+           393825361  cycles elapsed
+           203162248  peak memory footprint

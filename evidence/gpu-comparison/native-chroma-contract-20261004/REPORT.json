@@ -1,0 +1,306 @@
+{
+  "status": "confirmed native physical centered2x2 versus absent/defaultleft SPS and unspecified reference metadata; new aligned lane correction required",
+  "readOnlyExistingEvidence": true,
+  "newBuildExportDecodeOrTiming": false,
+  "timingWindowOpen": false,
+  "readSet": [
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-screen-h-300/quality.json",
+      "bytes": 190167,
+      "sha256": "338695080313a176f1d4570b0ef59987bb37bc4467c890638b8a81c398503477"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-screen-h-300/adapter.json",
+      "bytes": 2346,
+      "sha256": "9466a66ae7d8785daa2101e81a9bf6dfe1e0cc627a5072c01c3a9a39d4832c7a"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-screen-h-300/video.mp4",
+      "bytes": 376641173,
+      "sha256": "e5be3c42d3005d53172813c78c4e3ea10f0da3536598bce58c0604d3d7b5cfb7"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-reference-h/reference.mkv",
+      "bytes": 515450662,
+      "sha256": "20d90cd5638387f4a5a7bf60028c9af380d1b8f7085612aa4c511177465727b3"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/native/target/release/helios-gpu",
+      "bytes": 17914208,
+      "sha256": "1383da791a588731101f6dd22bea8e911d4bc97243b7f01541214981afc90ecc"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/native/metal.mm",
+      "bytes": 20102,
+      "sha256": "d4ffc5b30b9dd208ee438b1519fb76dee23e33c42ff619b3875eec29afb49ee9"
+    },
+    {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native/metal.mm",
+      "bytes": 20830,
+      "sha256": "3d3a8d645fe82b842629cd3625c09c827a1779eec58dc1187bc515f8c13d2fee"
+    }
+  ],
+  "savedNumericQualityPassed": true,
+  "oldByteBindingsClocksVideosUnchanged": true,
+  "source": {
+    "nativeHelper": {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/native/target/release/helios-gpu",
+      "bytes": 17914208,
+      "sha256": "1383da791a588731101f6dd22bea8e911d4bc97243b7f01541214981afc90ecc"
+    },
+    "oldMetal": {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/native/metal.mm",
+      "bytes": 20102,
+      "sha256": "d4ffc5b30b9dd208ee438b1519fb76dee23e33c42ff619b3875eec29afb49ee9"
+    },
+    "currentVulkanMetal": {
+      "path": "/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native/metal.mm",
+      "bytes": 20830,
+      "sha256": "3d3a8d645fe82b842629cd3625c09c827a1779eec58dc1187bc515f8c13d2fee"
+    },
+    "conversionShaderBytesEqual": true,
+    "predictedPhysicalCenter": "2x2 samples at offsets(0,0),(1,0),(0,1),(1,1), equalweights center(0.5,0.5)",
+    "chromaMath": "sum4 chroma *56 = mean *224",
+    "CoreVideoChromaLocationAttachmentsPresent": false
+  },
+  "SPS": {
+    "command": [
+      "/opt/homebrew/bin/ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "trace",
+      "-i",
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-screen-h-300/video.mp4",
+      "-map",
+      "0:v:0",
+      "-frames:v",
+      "1",
+      "-c:v",
+      "copy",
+      "-bsf:v",
+      "trace_headers",
+      "-f",
+      "null",
+      "-"
+    ],
+    "returncode": 0,
+    "fields": [
+      [
+        "forbidden_zero_bit",
+        0
+      ],
+      [
+        "nal_ref_idc",
+        1
+      ],
+      [
+        "nal_unit_type",
+        7
+      ],
+      [
+        "profile_idc",
+        100
+      ],
+      [
+        "constraint_set0_flag",
+        0
+      ],
+      [
+        "constraint_set1_flag",
+        0
+      ],
+      [
+        "constraint_set2_flag",
+        0
+      ],
+      [
+        "constraint_set3_flag",
+        0
+      ],
+      [
+        "constraint_set4_flag",
+        0
+      ],
+      [
+        "constraint_set5_flag",
+        0
+      ],
+      [
+        "reserved_zero_2bits",
+        0
+      ],
+      [
+        "level_idc",
+        51
+      ],
+      [
+        "seq_parameter_set_id",
+        0
+      ],
+      [
+        "chroma_format_idc",
+        1
+      ],
+      [
+        "bit_depth_luma_minus8",
+        0
+      ],
+      [
+        "bit_depth_chroma_minus8",
+        0
+      ],
+      [
+        "qpprime_y_zero_transform_bypass_flag",
+        0
+      ],
+      [
+        "seq_scaling_matrix_present_flag",
+        0
+      ],
+      [
+        "log2_max_frame_num_minus4",
+        1
+      ],
+      [
+        "pic_order_cnt_type",
+        0
+      ],
+      [
+        "log2_max_pic_order_cnt_lsb_minus4",
+        2
+      ],
+      [
+        "max_num_ref_frames",
+        1
+      ],
+      [
+        "gaps_in_frame_num_allowed_flag",
+        0
+      ],
+      [
+        "pic_width_in_mbs_minus1",
+        239
+      ],
+      [
+        "pic_height_in_map_units_minus1",
+        134
+      ],
+      [
+        "frame_mbs_only_flag",
+        1
+      ],
+      [
+        "direct_8x8_inference_flag",
+        1
+      ],
+      [
+        "frame_cropping_flag",
+        0
+      ],
+      [
+        "vui_parameters_present_flag",
+        1
+      ],
+      [
+        "aspect_ratio_info_present_flag",
+        0
+      ],
+      [
+        "overscan_info_present_flag",
+        0
+      ],
+      [
+        "video_signal_type_present_flag",
+        1
+      ],
+      [
+        "video_format",
+        5
+      ],
+      [
+        "video_full_range_flag",
+        0
+      ],
+      [
+        "colour_description_present_flag",
+        1
+      ],
+      [
+        "colour_primaries",
+        1
+      ],
+      [
+        "transfer_characteristics",
+        1
+      ],
+      [
+        "matrix_coefficients",
+        1
+      ],
+      [
+        "chroma_loc_info_present_flag",
+        0
+      ],
+      [
+        "timing_info_present_flag",
+        0
+      ],
+      [
+        "nal_hrd_parameters_present_flag",
+        0
+      ],
+      [
+        "vcl_hrd_parameters_present_flag",
+        0
+      ],
+      [
+        "pic_struct_present_flag",
+        0
+      ],
+      [
+        "bitstream_restriction_flag",
+        0
+      ],
+      [
+        "rbsp_stop_one_bit",
+        1
+      ],
+      [
+        "rbsp_alignment_zero_bit",
+        0
+      ],
+      [
+        "rbsp_alignment_zero_bit",
+        0
+      ],
+      [
+        "rbsp_alignment_zero_bit",
+        0
+      ],
+      [
+        "rbsp_alignment_zero_bit",
+        0
+      ]
+    ],
+    "flagPresent": false,
+    "decodedSavedMetadata": "left",
+    "inference": "absent explicit siting signals defaultleft despite centered equal2x2 physical samples"
+  },
+  "oldReferenceSavedMetadata": null,
+  "modifiedFReferenceAndSPSMetadata": "center; independently qualified current lane",
+  "oldNumericQualityInvalidated": false,
+  "matchedColorContractCurrentlyAligned": false,
+  "nextBoundedNativeConformanceSlice": {
+    "scope": "separate owner harness signaling/reference correction, no native helper rebuild/optimization",
+    "predeterminedControls": "use centered2x2 independent RGB controls and the unchanged sRGB->BT709 limited formula; no fitting to encoded pixels/floors",
+    "candidateCorrection": "new SPS-only conformed H264 outputs in fresh lane with full syntax/allremainingRBSP/PPS/everyVCL/allDecoded invariance; correct lossless reference siting tags with per-frame rawNV12 binding and decoded-byte equality",
+    "HEVCDistinct": "codec-specific SPS/VUI semantic and raw payload/decoded invariance validation required; H264 filter result not extrapolated",
+    "requiredFreshQualification": "all3004K reference binding and same quality/cadence/color/GOP gates; source/helper/adapter/reference pins; frozen old lane preserved",
+    "timedCost": "include mandatory signaling/template/copy mux in new export/delivery clocks; exclude independent decode and reference diagnostics",
+    "nativeConcurrency": "pool3 retained; comparison discloses F64/context and3contexts/5+5workers/queue10",
+    "resourceGate": "enoughspace before new output/reference/quality runs; no timingwindow now"
+  },
+  "zeroCopyProved": false,
+  "noProductBugOrPerformanceClaim": true,
+  "freeBytes": 1251917824
+}

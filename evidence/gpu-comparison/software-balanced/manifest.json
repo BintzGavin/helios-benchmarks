@@ -1,0 +1,283 @@
+{
+  "config": {
+    "scene": {
+      "width": 1920,
+      "height": 1080,
+      "frames": 300,
+      "fps": 30,
+      "name": "TextGrid"
+    },
+    "lane": "gpu-raster-software-x264",
+    "four_balanced_rounds": true,
+    "quality_floors": {
+      "ssimY": 0.995,
+      "psnrY": 40,
+      "psnrU": 35,
+      "psnrV": 35
+    },
+    "timingContract": "fresh adapter process startup, font/scene/raster/conversion/transport/encode/mux/write plus one supervisor full decode; quality excluded",
+    "engines": [
+      {
+        "id": "H",
+        "command": [
+          "/opt/homebrew/bin/node",
+          "/Users/gavinbintz/.codex/worktrees/native-gpu-rendering/helios/node_modules/tsx/dist/cli.mjs",
+          "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/export-comparison.mts",
+          "H",
+          "software",
+          "{output}",
+          "300",
+          "100000000"
+        ],
+        "cwd": "/Users/gavinbintz/Documents/Codex/2026-10-02/task",
+        "source_pin": "478035260fb5c0ae5a391e9b66bacee19a7a9ffa",
+        "backend": "Metal/Skia",
+        "codec": "libx264 medium CRF11 threads2",
+        "ready": true,
+        "reference": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/final-reference-software/reference.mkv",
+        "reference_sha256": "3a6ca3529b3810a651da445074d95acaea5d79eaf2636de2d4ad86f9fe10b046",
+        "gpu_evidence": "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/native-gpu-evidence/full-profile.stdout.json",
+        "runtime_attestation_reviewed": true,
+        "screen_quality": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/screen-h-software/quality.json",
+        "screen_quality_sha256": "1b1d2173866b23241caa7fd21227caf07a4b5390b85c14c238e510ef8985fc37",
+        "screen_quality_passed": true,
+        "file_bindings": [
+          {
+            "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/export-comparison.mts",
+            "sha256": "47bf1e66ae83608cc26c0ca77d5e99c9013a039355cf099b2dc6772101e437e8"
+          },
+          {
+            "path": "/Users/gavinbintz/.codex/worktrees/native-gpu-rendering/helios/packages/portable/src/render.ts",
+            "sha256": "9515947614a68352082527c259a134ad99c8810459175632cc8579b2118d41f8"
+          },
+          {
+            "path": "/Users/gavinbintz/.codex/worktrees/native-gpu-rendering/helios/packages/portable/src/gpu.ts",
+            "sha256": "cdd2de59073569bb6aacc3b7d87be25b01b5be7ae0fe2e829c825fa70a247437"
+          },
+          {
+            "path": "/Users/gavinbintz/.codex/worktrees/native-gpu-rendering/helios/packages/portable/benchmarks/fframes-textgrid.mjs",
+            "sha256": "e3bc82a2cd5461136a1ee388e2a2e27eaf03937b5f65169c18630bbf9fe8df67"
+          },
+          {
+            "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/font/DMSans-Regular.ttf",
+            "sha256": "9ae2da663d64342031e59b5fa680dd355171d021b7ebf83774efc7c0330ae7b5"
+          },
+          {
+            "path": "/Users/gavinbintz/.codex/worktrees/native-gpu-rendering/helios/packages/portable/native/target/release/helios-gpu",
+            "sha256": "87aec3f3d39db8956490942429e6a865741c04515ad6b98753aaf6599c197a90"
+          }
+        ]
+      },
+      {
+        "id": "F",
+        "command": [
+          "/opt/homebrew/bin/node",
+          "/Users/gavinbintz/.codex/worktrees/native-gpu-rendering/helios/node_modules/tsx/dist/cli.mjs",
+          "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/export-comparison.mts",
+          "F",
+          "software",
+          "{output}",
+          "300",
+          "180000000"
+        ],
+        "cwd": "/Users/gavinbintz/Documents/Codex/2026-10-02/task",
+        "source_pin": "f89cbd572524b70a709ba3569fa23b0bbc8a0d9c",
+        "backend": "Metal/Skia",
+        "codec": "libx264 medium CRF11 threads2",
+        "ready": true,
+        "reference": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/reference-f-software/reference.mkv",
+        "reference_sha256": "a151908cdbfcca78a9487658e6d69d6009a910f4e6d3f9a41dc9ef38576cba5f",
+        "gpu_evidence": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-gpu-attestation.json",
+        "runtime_attestation_reviewed": true,
+        "screen_quality": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/screen-f-software-03/quality.json",
+        "screen_quality_sha256": "0498a05df336eeea4ff943cb71f021f0d96083914b4b11f0c5227118bbf0e42a",
+        "screen_quality_passed": true,
+        "file_bindings": [
+          {
+            "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/export-comparison.mts",
+            "sha256": "47bf1e66ae83608cc26c0ca77d5e99c9013a039355cf099b2dc6772101e437e8"
+          },
+          {
+            "path": "/Users/gavinbintz/.codex/worktrees/native-gpu-rendering/helios/packages/portable/src/render.ts",
+            "sha256": "9515947614a68352082527c259a134ad99c8810459175632cc8579b2118d41f8"
+          },
+          {
+            "path": "/Users/gavinbintz/.codex/worktrees/native-gpu-rendering/helios/packages/portable/src/gpu.ts",
+            "sha256": "cdd2de59073569bb6aacc3b7d87be25b01b5be7ae0fe2e829c825fa70a247437"
+          },
+          {
+            "path": "/Users/gavinbintz/.codex/worktrees/native-gpu-rendering/helios/packages/portable/benchmarks/fframes-textgrid.mjs",
+            "sha256": "e3bc82a2cd5461136a1ee388e2a2e27eaf03937b5f65169c18630bbf9fe8df67"
+          },
+          {
+            "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/font/DMSans-Regular.ttf",
+            "sha256": "9ae2da663d64342031e59b5fa680dd355171d021b7ebf83774efc7c0330ae7b5"
+          },
+          {
+            "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/textgrid-adapter",
+            "sha256": "107757e599c608eaecce016ced13c59236130168c6200189b16582e58572e0bb"
+          }
+        ]
+      },
+      {
+        "id": "R",
+        "command": [
+          "/opt/homebrew/bin/node",
+          "/Users/gavinbintz/.codex/worktrees/native-gpu-rendering/helios/node_modules/tsx/dist/cli.mjs",
+          "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/export-remotion.mts",
+          "software",
+          "{output}"
+        ],
+        "cwd": "/Users/gavinbintz/Documents/Codex/2026-10-02/task",
+        "source_pin": "Remotion4.0.529/Chromium154.0.8037.97",
+        "backend": "Chromium ANGLE Metal",
+        "codec": "libx264 medium CRF11 threads2",
+        "ready": true,
+        "reference": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/reference-r-software-02/reference.mkv",
+        "reference_sha256": "de721004a3ae0ac67bee7b39aa5a07db56e8d70efc8cf0357416d9ae27f61bc9",
+        "gpu_evidence": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/remotion-gpu-attestation.json",
+        "runtime_attestation_reviewed": true,
+        "screen_quality": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/screen-r-software/quality-02.json",
+        "screen_quality_sha256": "96811f5354194cf8051118a17e643475bc0205b74bcc421f967541e60dd08be8",
+        "screen_quality_passed": true,
+        "file_bindings": [
+          {
+            "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/export-remotion.mts",
+            "sha256": "ff41b6a0ef3a8ad4f0a59f0552b9fd715ba8f85bbead98c700cc08fe28f82a21"
+          },
+          {
+            "path": "/Users/gavinbintz/.codex/worktrees/native-gpu-rendering/helios/packages/portable/src/render.ts",
+            "sha256": "9515947614a68352082527c259a134ad99c8810459175632cc8579b2118d41f8"
+          },
+          {
+            "path": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+            "sha256": "5c336c15b01b400bf971ee4539506692a075292b8dde3e90f3b735815ac97a38"
+          }
+        ]
+      }
+    ],
+    "limitations": []
+  },
+  "config_sha256": "8c950c05c7419cdacaef20f888fe5af53e9aba2290a73c55a51ace40ac202ecd",
+  "preflight": {
+    "schema": 1,
+    "created_utc": "2026-10-03T02:14:30.245575+00:00",
+    "system": "Darwin",
+    "devices": [],
+    "physical_gpu_observed": true,
+    "encoder_probes": [
+      {
+        "codec": "h264_videotoolbox",
+        "encode_succeeded": true,
+        "hardware_qualified": true,
+        "process": {
+          "argv": [
+            "ffmpeg",
+            "-hide_banner",
+            "-loglevel",
+            "error",
+            "-y",
+            "-f",
+            "lavfi",
+            "-i",
+            "testsrc2=size=128x128:rate=30",
+            "-frames:v",
+            "2",
+            "-c:v",
+            "h264_videotoolbox",
+            "-allow_sw",
+            "0",
+            "/tmp/helios-gpu-probe-kzrww436/h264_videotoolbox.mp4"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      },
+      {
+        "codec": "hevc_videotoolbox",
+        "encode_succeeded": true,
+        "hardware_qualified": true,
+        "process": {
+          "argv": [
+            "ffmpeg",
+            "-hide_banner",
+            "-loglevel",
+            "error",
+            "-y",
+            "-f",
+            "lavfi",
+            "-i",
+            "testsrc2=size=128x128:rate=30",
+            "-frames:v",
+            "2",
+            "-c:v",
+            "hevc_videotoolbox",
+            "-allow_sw",
+            "0",
+            "/tmp/helios-gpu-probe-kzrww436/hevc_videotoolbox.mp4"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      }
+    ],
+    "hardware_encoder_available": true,
+    "browser_gpu_attested": false,
+    "notes": [
+      "Encoder registration is not hardware availability.",
+      "Browser renderer GPU use requires separate browser/scene attestation.",
+      "An encode probe validates a backend, not benchmark speed, fidelity, or another engine's use of that backend.",
+      "No software rasterizer or software encoder fallback counts as a GPU result."
+    ]
+  },
+  "created_utc": "2026-10-03T15:31:52.528513+00:00",
+  "results": [
+    {
+      "phase": "warmup",
+      "round": 0,
+      "engine": "H",
+      "command": [
+        "/opt/homebrew/bin/node",
+        "/Users/gavinbintz/.codex/worktrees/native-gpu-rendering/helios/node_modules/tsx/dist/cli.mjs",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/export-comparison.mts",
+        "H",
+        "software",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/software-balanced/warmup-0-H/output.mp4",
+        "300",
+        "100000000"
+      ],
+      "export_ns": 26678089750,
+      "delivered_ns": 28192528542,
+      "decode_returncode": 0,
+      "output_sha256": "0ba71d9cca61fc4d4ff9cdbc9ffe273f11460de3c33885d4b17f7bb984085928",
+      "bytes": 136903477,
+      "quality_status": "passed"
+    },
+    {
+      "phase": "warmup",
+      "round": 0,
+      "engine": "F",
+      "command": [
+        "/opt/homebrew/bin/node",
+        "/Users/gavinbintz/.codex/worktrees/native-gpu-rendering/helios/node_modules/tsx/dist/cli.mjs",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/export-comparison.mts",
+        "F",
+        "software",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/software-balanced/warmup-0-F/output.mp4",
+        "300",
+        "180000000"
+      ],
+      "export_ns": 31258187375,
+      "delivered_ns": 32843877542,
+      "decode_returncode": 0,
+      "output_sha256": "44fc2e80ce304baec0c7eaf9c70c3b86f7779ff556d4f3a52eae451485394108",
+      "bytes": 145756741,
+      "quality_status": "passed"
+    }
+  ],
+  "status": "aborted-before-timed-rounds",
+  "failure": "Remotion eight-tab warmup browser crash/incomplete frame82; failed child terminated after pending internal retries prevented exit",
+  "timedResults": []
+}

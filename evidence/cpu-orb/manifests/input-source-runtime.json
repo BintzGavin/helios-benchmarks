@@ -1,0 +1,66 @@
+{
+  "study": "CPU-only Linux TextGrid comparison on one Amp a1.small Orb",
+  "reproductionBundle": {
+    "url": "https://www.heliosrender.com/benchmarks/cpu-2026-10-01/benchmark-reproduction.zip",
+    "bytes": 297712,
+    "sha256": "19415647a9696a034b46a8ff0cb7f98f481d6a49504a44d39e0127cbd3a50261"
+  },
+  "helios": {
+    "repository": "https://github.com/BintzGavin/helios",
+    "mergeCommit": "ebf8e145538d454479d80f97f8f76893b2fdf96f",
+    "testedSourceHead": "0566d1108f922ea88294d4bbe1f11cdb49849834",
+    "portableTreeBothCommits": "bba6de4d9bfde1df81c37f4c1a9199978dc1047c",
+    "portableFilesBothCommits": 115,
+    "historicalCandidateCompiledModulesChecked": 9,
+    "allCheckedCompiledModulesByteIdentical": true,
+    "canvasRuntime": "@napi-rs/canvas 1.0.9, linux-x64-gnu"
+  },
+  "fframes": {
+    "repository": "https://github.com/dmtrKovalenko/fframes",
+    "commit": "bacfc3c3212d3d9429468435bfdc1ae2a21c7b3b",
+    "binarySha256": "c57a3fbfe2ad6fdafa11e58fba35e24375faa3f04ffd3b787f9dc0a24f124d44",
+    "build": "Rust 1.90.0, Cargo 1.90.0, ffmpeg-sys-next 9.0.0 vendored FFmpeg build, GCC 12.2.0",
+    "adaptation": "Only Cargo path ../../fframes/fframes to ../fframes/fframes; bundled main.rs and Cargo.lock unchanged"
+  },
+  "remotion": {
+    "version": "4.0.529",
+    "renderer": "@remotion/renderer 4.0.529",
+    "compositor": "@remotion/compositor-linux-x64-gnu 4.0.529",
+    "timedImageFormat": "JPEG100"
+  },
+  "font": {
+    "name": "DM Sans Regular",
+    "sha256": "9ae2da663d64342031e59b5fa680dd355171d021b7ebf83774efc7c0330ae7b5"
+  },
+  "workload": {"labels": 3334, "width": 1920, "height": 1080, "frames": 300, "fps": 30},
+  "machine": {
+    "architecture": "x86_64",
+    "cpu": "Intel(R) Xeon(R) Processor @ 2.60GHz",
+    "sockets": 1,
+    "physicalCores": 1,
+    "threadsPerCore": 2,
+    "logicalCpus": 2,
+    "availableParallelism": 2,
+    "cpuset": "0-1",
+    "cpuQuota": "unlimited (cpu.max: max 100000)",
+    "memoryLimitBytes": 3221225472,
+    "os": "Debian GNU/Linux 12 (bookworm)",
+    "kernel": "Linux 6.1.158+ x86_64"
+  },
+  "runtime": {
+    "benchmarkNode": "v24.19.0",
+    "heliosBuildNode": "v26.10.0",
+    "npm": "10.9.9",
+    "chromeForTesting": "149.0.7790.0",
+    "systemFfmpegAndFfprobe": "5.1.9-0+deb12u1",
+    "systemLibx264": "core 164 r3095 baee400",
+    "rustc": "1.90.0",
+    "cargo": "1.90.0",
+    "gcc": "12.2.0",
+    "clang": "14.0.6",
+    "cmake": "3.25.1"
+  },
+  "executableSha256Receipt": "receipts/executable-hashes.txt",
+  "boundInputHashes": "outputs/holdout-v1/manifest.json#sourceRuntimeSha256",
+  "runnerAdaptationDiff": "receipts/linux-runner-adaptation.diff"
+}

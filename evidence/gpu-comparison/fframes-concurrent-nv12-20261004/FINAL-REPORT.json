@@ -1,0 +1,265 @@
+{
+  "status": "modified production-concurrent NV12 functional/4K quality/full-workload transfer profile qualified; performance not measured",
+  "broaderObjectiveComplete": false,
+  "owner": "root comparison harness",
+  "timingWindowOpen": false,
+  "benchmarkTiming": false,
+  "newBalancedTimingAttempts": 0,
+  "originalProduct": false,
+  "publishedM5Reproduction": false,
+  "publishedM5ClaimBeaten": false,
+  "zeroCopyProved": false,
+  "helpers": [
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/circles-concurrent-nv12",
+      "immutableCopy": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/frozen-circles-concurrent-nv12",
+      "sha256": "665ce943531be9a35d61aa7629e12646e280d0568c1ca6a576816f15963210a8",
+      "bytes": 38000704
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/nv12-color-controls",
+      "immutableCopy": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/frozen-nv12-color-controls",
+      "sha256": "ea36969d384cfb1de3fe5b02da832cab97003301ab3a7818133c82b942f363f3",
+      "bytes": 36228336
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/nv12-converter.dylib",
+      "immutableCopy": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/frozen-nv12-converter.dylib",
+      "sha256": "11522ab92e119b84f9af86b9abf5864263c774a21ac7505b82a6556b6e9e132d",
+      "bytes": 76472
+    }
+  ],
+  "sourceArchive": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/source.zip",
+    "bytes": 18804500,
+    "sha256": "c611d61e38a756c724df25eda3c446db16d2dd1518be8d5f5d18366aeb9c6958"
+  },
+  "dependencySourcePins": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/DEPENDENCY-SOURCE-PINS.json",
+    "bytes": 92242,
+    "sha256": "bd49c0f2d30890e3ef16a2842569acc94b2a4539ecf892fa1ac46381005b6a09"
+  },
+  "runtimePins": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/EXACT-RUNTIME-PINS.json",
+    "bytes": 33047,
+    "sha256": "9fbdab96719ec093d8276bc7a095489a40c61c9295cecdf0ba0790570eb6b759"
+  },
+  "harnessPins": [
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/run-concurrent-nv12.py",
+      "bytes": 3669,
+      "sha256": "94d213981b453078af004efb7acd9fffb60f0404643c04be583a802cd7fa1184"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/audit-concurrent-nv12.py",
+      "bytes": 7559,
+      "sha256": "19edc739fe61983742b6226c9315affeff9c3ae8412a1ef6a44ecbd674a78d93"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/audit-concurrent-gpu.py",
+      "bytes": 6115,
+      "sha256": "6ba5372b866c1e65a6d5ec4639a7902102f1a1b27247abe5bd7348035a7ff3b0"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/audit-concurrent-4k-profile.py",
+      "bytes": 3412,
+      "sha256": "3bb88e646b4812ee972d4c1fc13a65d44c35485dfb113041bd822c8e8a3ecffe"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/conform-nv12-chroma.py",
+      "bytes": 4984,
+      "sha256": "dc40a3b282b5e7f2ee1da4208e8e6162e99b09317c867fb7e3cc4bd51d5b037e"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/audit-nv12-conformance.py",
+      "bytes": 3448,
+      "sha256": "50be23ffe994419c4d29357f4c5f4af1297f3d04bb028609abf9ffeaf6bdefbc"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/qualify-concurrent-nv12.py",
+      "bytes": 5860,
+      "sha256": "290b97debffe90777dc9aa97e54023bd991bce2c18945ea74ccbf5266a154e04"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/requalify-concurrent-nv12-reference.py",
+      "bytes": 5436,
+      "sha256": "5b470724affc935b6279e04bea8418eee8ce0db5959166627708b0028bafc211"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/test-concurrent-nv12-acceptance.py",
+      "bytes": 4630,
+      "sha256": "6f8993dacb8d1762e86b2626e5b89e55fafe56b44b1c65fcde38a5aaeaa4e124"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/nv12-transfer-interposer.mm",
+      "bytes": 4512,
+      "sha256": "57b45b277537a8fe0122281ebbadc3cc41a67829ab636839bb1541f285339af8"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/build-fframes-concurrent-nv12-01.py",
+      "bytes": 1873,
+      "sha256": "73106a0368892f77d06fa1ba0a4e7f0929a8c4a14e34fc0e9c179ce880d41dbf"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/build-fframes-concurrent-nv12-controls-01.py",
+      "bytes": 1878,
+      "sha256": "cc41797ab5f1194efe5a2263452e63c07987bae4b550fd3e0b88d5d6ca6ae79b"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/recover-failed-reference-storage.py",
+      "bytes": 2949,
+      "sha256": "a1155ee3bd5a19484b55a339da68b57ab2ed3c6112f33c5b12c7b919d6cf0e8a"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/finalize-concurrent-nv12.py",
+      "bytes": 18773,
+      "sha256": "eb607e3bfc1b67b2500552dedf0900f6b5ad2e1f23d2f81ba9152f9251428cca"
+    }
+  ],
+  "workload": {
+    "scene": "99000circles+1000digits",
+    "width": 3840,
+    "height": 2160,
+    "frames": 300,
+    "fps": "30/1",
+    "sourceFrames": "3..302",
+    "nonuniformScale": "1000x1000 ->3840x2160",
+    "painterOrder": "circles before text",
+    "audio": false,
+    "font": [
+      {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/font/DMSans-Regular.ttf",
+        "bytes": 72000,
+        "sha256": "9ae2da663d64342031e59b5fa680dd355171d021b7ebf83774efc7c0330ae7b5"
+      }
+    ]
+  },
+  "contract": {
+    "gpuContexts": 3,
+    "generators": 5,
+    "encoderWorkers": 5,
+    "queueSize": 10,
+    "segments": 5,
+    "framesPerSegment": 60,
+    "nv12PoolAllocationThresholdPerContext": 64,
+    "nativeComparisonPoolThreshold": 3,
+    "poolExhaustion": "fail closed",
+    "encoder": "required VideoToolbox H264, allow_sw0",
+    "bitrateRequested": 300000000,
+    "gopRequested": 30,
+    "conversion": "direct Skia Metal BGRA texture ->GPU sRGB EOTF/BT709 OETF/limited NV12; centered2x2 chroma box",
+    "sourceCompletion": "flush_submit_and_sync_cpu",
+    "conversionCompletion": "Metal waitUntilCompleted successful before send/source release",
+    "destinationLifetime": "CoreVideo pool and AVBuffer owner, opaque VT retention unknown",
+    "mandatorySPSConformance": "independent full SPS parser confirms only chroma location fields; all VCL payload and decoded bytes unchanged; parameter-template/copy mux included in future export/delivery clocks",
+    "matchedNativeContractIdentical": false
+  },
+  "qualification": {
+    "reference": {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/circles300/reference-direct-nv12-02.mkv",
+      "bytes": 513310433,
+      "sha256": "d6c192deb1b0562cfe5e67229c70d31194b4116192b31b10074f99b0e5eef68e"
+    },
+    "candidate": {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/circles300/video-center.mp4",
+      "bytes": 384897107,
+      "sha256": "e5eb75231b3dcf2647506287a7aeea1c4bb8755c107e3c58900f5b79c90e5dd9"
+    },
+    "originalCandidate": {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/circles300/video.mp4",
+      "bytes": 384897077,
+      "sha256": "1a9a1041e03039b927966b7bf1dabeff9ce31cc283b37f6fecd4fdfd8841cd46"
+    },
+    "directByteBinding": {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/circles300/DIRECT-NV12-REFERENCE-BINDING.json",
+      "bytes": 85820,
+      "sha256": "92938d4354978614c55e7cf4acb8be9771f4669adf7a0283de0703f6507786d5"
+    },
+    "frames": 300,
+    "zeroBindingMismatches": true,
+    "noReferenceColorArithmetic": true,
+    "ssimYMinimum": {
+      "Y": 0.995261
+    },
+    "psnrMinimum": {
+      "psnr_y": 40.23,
+      "psnr_u": 40.54,
+      "psnr_v": 40.48
+    },
+    "floorsUnchanged": {
+      "ssimY": 0.995,
+      "psnrY": 40,
+      "psnrU": 35,
+      "psnrV": 35
+    },
+    "allFramesPassed": true,
+    "margin": "luma PSNR40.23 narrowly exceeds40; every future timed candidate requires its own all-frame gate",
+    "controls36": {
+      "ssim": {
+        "Y": 0.999851
+      },
+      "psnr": {
+        "psnr_y": 52.49,
+        "psnr_u": 51.27,
+        "psnr_v": 53.66
+      },
+      "independentOracleWithinOneCode": true
+    },
+    "cadenceColorGopAudit": {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/circles300/SPS-FIELD-CADENCE-AUDIT.json",
+      "bytes": 7612,
+      "sha256": "989bedc7ec1bed855aa8fdfa6204f882c808993f72c89dc9ecf2bd2581b84e81"
+    }
+  },
+  "GPU": {
+    "full300TransferProfile": {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/FULL-4K-TRANSFER-PROFILE.json",
+      "bytes": 4336,
+      "sha256": "f8aee991ebe4312c1d64f4242201f56eeb62f03a7613865bdc247a4bf4ebd410"
+    },
+    "captureReadbackOff": true,
+    "hookedRawDownloadsObserved": 0,
+    "three4KPositiveControlsDetected": true,
+    "full300ConversionsAndLifetimesPassed": true,
+    "additionalGpuCopy": false,
+    "opaqueUnhookedCopiesUnknown": true,
+    "zeroCopyProved": false,
+    "actualMetalCapture": "bounded256x128 capture3 succeeds; separate4K capture attempt failed ENOSPC/excluded",
+    "profilingAndControlClocksExcluded": true
+  },
+  "tests": {
+    "receiptMutationsRejected": 16,
+    "actualFaultRefusals": 4,
+    "actualPoolThresholdRetainedSecondOwnerAndReuseTestPassed": true,
+    "newReleaseBinariesBuiltAndExecuted": true,
+    "newCargoFullSuiteClippyNotRun": "compiler cache/disk constraint; no upstream general-product CI claim"
+  },
+  "excluded": [
+    "all reference-capture/control/profile clocks",
+    "initial DYLD-through-time profiler attempt",
+    "direct h264_metadata attempt shortening VCL tails",
+    "failed initial ENOSPC FFV1 reference",
+    "failed initial4K positive attempt",
+    "failed4K Metal capture; partial500MB retained",
+    "no clock reconstructed as benchmark"
+  ],
+  "sourceLibraryId": "libfile_19c903c1d7508191ac4881f0e96e4229",
+  "historicalCheckpointLibraryId": "libfile_cd84375e4648819195364136245484c6",
+  "newLibraryDeliverableIds": [],
+  "libraryBlocker": "supported Library helper prepare_uploads unavailable; no substitute upload route",
+  "remaining": [
+    "balanced matched Helios/modified concurrent fframes exports with mandatory conformance included",
+    "full4K nativeHEVC/Vulkan qualification and matched performance",
+    "original-product chroma quality still fails unchanged floors; no product win",
+    "publishedM5 benchmark not beaten",
+    "Library publication helper blocked",
+    "native Vulkan PR push destination approval remains with native thread"
+  ],
+  "storage": {
+    "freeBytes": 432685056,
+    "remainingBalancedMediaEstimate": "several GiB; insufficient free disk for retained balanced outputs/references",
+    "taskOwnedCompilerArchivesOnlyReclaimed": true,
+    "failedReferenceRetainedByteExactlyViaAPFSClone": true
+  },
+  "noOptimizationSelected": true
+}

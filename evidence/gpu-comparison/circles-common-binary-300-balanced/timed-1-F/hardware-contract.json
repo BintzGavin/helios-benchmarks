@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "errors": [],
+  "frames": 300,
+  "keyframeIndices": [
+    0,
+    30,
+    60,
+    90,
+    120,
+    150,
+    180,
+    210,
+    240,
+    270
+  ],
+  "maximumDecodedSpacing": 30,
+  "requestedGop": 30,
+  "surfaceConfiguration": [
+    {
+      "event": "surface-create",
+      "surfaceId": 257,
+      "protocol": 4,
+      "bitrate": 300000000,
+      "configuredBitrate": 300000000,
+      "gop": 30,
+      "encoderPool": true,
+      "poolCapacity": 3,
+      "format": "nv12-video-range",
+      "rasterStorage": "private",
+      "rawCpuMapCallsInBridge": 0
+    }
+  ],
+  "encoderFinish": [
+    {
+      "event": "encoder-finish",
+      "frames": 300,
+      "capacity": 3,
+      "peakInFlight": 1,
+      "allCallbacksComplete": true
+    }
+  ],
+  "zeroCopyProved": false,
+  "command": [
+    "/opt/homebrew/bin/ffprobe",
+    "-v",
+    "error",
+    "-select_streams",
+    "v:0",
+    "-show_streams",
+    "-show_frames",
+    "-show_entries",
+    "stream=pix_fmt,color_range,color_space,color_transfer,color_primaries:frame=key_frame",
+    "-of",
+    "json",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-binary-300-balanced/timed-1-F/output.mp4"
+  ]
+}

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/qualify-concurrent-nv12.py", line 39, in <module>
+    p.stdin.write(plane)
+    ~~~~~~~~~~~~~^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe

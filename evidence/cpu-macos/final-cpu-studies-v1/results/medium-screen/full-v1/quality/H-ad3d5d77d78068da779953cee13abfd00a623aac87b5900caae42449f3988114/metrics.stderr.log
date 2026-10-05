@@ -1,0 +1,49 @@
+ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers
+  built with Apple clang version 21.0.0 (clang-2100.3.34.2)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/9.0.2 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gpl --enable-libsvtav1 --enable-libopus --enable-libx264 --enable-libmp3lame --enable-libdav1d --enable-libvmaf --enable-libvpx --enable-libx265 --enable-openssl --enable-videotoolbox --enable-audiotoolbox --enable-neon
+  libavutil      61.  1.102 / 61.  1.102
+  libavcodec     63.  1.102 / 63.  1.102
+  libavformat    63.  1.102 / 63.  1.102
+  libavdevice    63.  1.102 / 63.  1.102
+  libavfilter    12.  1.102 / 12.  1.102
+  libswscale     10.  1.102 / 10.  1.102
+  libswresample   7.  1.102 /  7.  1.102
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/final-cpu-studies-v1/results/medium-screen/full-v1/warmup-1-H-medium-w8-t2/output.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.1.102
+  Duration: 00:00:10.00, start: 0.000000, bitrate: 113705 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, smpte170m/unknown/unknown, progressive), 1920x1080, 113700 kb/s, 30 fps, 30 tbr, 30 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc63.1.102 libx264
+Input #1, nut, from '/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/quality-measurement-v1/results/full-v1/references/H/reference.nut':
+  Metadata:
+    encoder         : Lavf63.1.102
+  Duration: 00:00:09.97, start: 0.000000, bitrate: 194614 kb/s
+  Stream #1:0: Video: ffv1 (FFV1 / 0x31564646), yuv420p, 1920x1080, 30 fps, 30 tbr, 61440 tbn
+    Metadata:
+      encoder         : Lavc63.1.102 ffv1
+Stream mapping:
+  Stream #0:0 (h264) -> settb:default
+  Stream #1:0 (ffv1) -> settb:default
+  psnr:default -> Stream #0:0 (wrapped_avframe)
+  ssim:default -> Stream #0:1 (wrapped_avframe)
+Output #0, null, to 'pipe:':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.1.102
+  Stream #0:0: Video: wrapped_avframe, yuv420p(tv, smpte170m/unknown/unknown, progressive), 1920x1080, q=2-31, 200 kb/s, 30 fps, 30 tbn (default)
+    Metadata:
+      encoder         : Lavc63.1.102 wrapped_avframe
+  Stream #0:1: Video: wrapped_avframe, yuv420p(tv, smpte170m/unknown/unknown, progressive), 1920x1080, q=2-31, 200 kb/s, 30 fps, 30 tbn
+    Metadata:
+      encoder         : Lavc63.1.102 wrapped_avframe
+frame=   25 fps=0.0 q=-0.0 q=-0.0 size=N/A time=00:00:00.83 bitrate=N/A speed=1.65x elapsed=0:00:00.50    frame=   64 fps= 64 q=-0.0 q=-0.0 size=N/A time=00:00:02.13 bitrate=N/A speed=2.12x elapsed=0:00:01.00    frame=  110 fps= 73 q=-0.0 q=-0.0 size=N/A time=00:00:03.66 bitrate=N/A speed=2.43x elapsed=0:00:01.50    frame=  157 fps= 78 q=-0.0 q=-0.0 size=N/A time=00:00:05.23 bitrate=N/A speed= 2.6x elapsed=0:00:02.01    frame=  201 fps= 80 q=-0.0 q=-0.0 size=N/A time=00:00:06.70 bitrate=N/A speed=2.66x elapsed=0:00:02.51    frame=  243 fps= 80 q=-0.0 q=-0.0 size=N/A time=00:00:08.10 bitrate=N/A speed=2.68x elapsed=0:00:03.02    frame=  285 fps= 81 q=-0.0 q=-0.0 size=N/A time=00:00:09.50 bitrate=N/A speed= 2.7x elapsed=0:00:03.52    [Parsed_ssim_7 @ 0xc9701a400] SSIM Y:0.997195 (25.520555) U:0.987369 (18.985461) V:0.987536 (19.043440) All:0.993947 (22.180565)
+[Parsed_psnr_6 @ 0xc9701a340] PSNR y:46.602759 u:46.910552 v:46.902504 average:46.701673 min:45.934983 max:49.330330
+[out#0/null @ 0xc97018480] video:248KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=  300 fps= 82 q=-0.0 Lq=-0.0 size=N/A time=00:00:10.00 bitrate=N/A speed=2.73x elapsed=0:00:03.66    

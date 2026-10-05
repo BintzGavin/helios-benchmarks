@@ -1,0 +1,1681 @@
+{
+  "files": [
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/Cargo.toml",
+      "bytes": 1749,
+      "sha256": "8b5e6eb0e2a653046d078ee470d0682fe980733251b5d1d8be30e187fd1f110f",
+      "archiveName": "path-overrides/svgr/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/benches/repeating_svg_benchmark.rs",
+      "bytes": 19763,
+      "sha256": "eead716ff51fe71759ab520e4b5904ef61da39635be810b2ccd81a6fea29b3c0",
+      "archiveName": "path-overrides/svgr/benches/repeating_svg_benchmark.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/benches/static_cache.rs",
+      "bytes": 8185,
+      "sha256": "cda4d418b31b3f32cde918579124b505fbc74bba7554008373a44370aa03de40",
+      "archiveName": "path-overrides/svgr/benches/static_cache.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/benches/static_cache_benchmark.rs",
+      "bytes": 7537,
+      "sha256": "2caeb21a49d7d40fe67a85f9c0933b245db5c832ade4e4910f00e06a34761756",
+      "archiveName": "path-overrides/svgr/benches/static_cache_benchmark.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/examples/custom_href_resolver.rs",
+      "bytes": 1277,
+      "sha256": "bcfcc23a38b5be5d415f3b40d4141479ab6b8f2beb271d0a87c1cbde5cad52c4",
+      "archiveName": "path-overrides/svgr/examples/custom_href_resolver.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/examples/draw_bboxes.rs",
+      "bytes": 2833,
+      "sha256": "a9754e18cbe9b0de0178af0386431e318f65b888417d480d39ff89ebdfdb060f",
+      "archiveName": "path-overrides/svgr/examples/draw_bboxes.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/examples/minimal.rs",
+      "bytes": 1126,
+      "sha256": "9e988fccf0419dc05eeae4e2145a70d1fd1e86facb16dad24f44fff060e7951d",
+      "archiveName": "path-overrides/svgr/examples/minimal.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/src/blit.rs",
+      "bytes": 12051,
+      "sha256": "5290b39da58c5f84e642c730e3b57f8f3bd6a0bb85b8969f7640ef300fc96d3f",
+      "archiveName": "path-overrides/svgr/src/blit.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/src/cache.rs",
+      "bytes": 24504,
+      "sha256": "942888bed83971f37c7500fd599f5c9adcd70ff3dd3d5bfe52b533ee40989faf",
+      "archiveName": "path-overrides/svgr/src/cache.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/src/clip.rs",
+      "bytes": 4337,
+      "sha256": "fa2a9616ba38fad4a75462fd974e497c58dfe0602f5ba33af539b898e23c82d6",
+      "archiveName": "path-overrides/svgr/src/clip.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/src/filter/box_blur.rs",
+      "bytes": 17195,
+      "sha256": "93ec585fe609ae67616a9df733f1bdc919b0e083c93f2b405715dd3545f0b5c1",
+      "archiveName": "path-overrides/svgr/src/filter/box_blur.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/src/filter/color_matrix.rs",
+      "bytes": 4638,
+      "sha256": "e00f236effaa2aca7db1672bb6d6e1e98c6c5529ec505884963d83d705f2fcfc",
+      "archiveName": "path-overrides/svgr/src/filter/color_matrix.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/src/filter/component_transfer.rs",
+      "bytes": 2372,
+      "sha256": "02479f5c90483089a9a896a741394367ca4470438464e74627c39691a9f0a51a",
+      "archiveName": "path-overrides/svgr/src/filter/component_transfer.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/src/filter/composite.rs",
+      "bytes": 1523,
+      "sha256": "b3874310c780c1be805115c8fc08ebd08bc1c45d3582a3bc84d768cb10a44b42",
+      "archiveName": "path-overrides/svgr/src/filter/composite.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/src/filter/convolve_matrix.rs",
+      "bytes": 3719,
+      "sha256": "c7870bf5f2b112daf738ba12e88c124f9a079a9ea6f69a96694ee5f5c63a396f",
+      "archiveName": "path-overrides/svgr/src/filter/convolve_matrix.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/src/filter/displacement_map.rs",
+      "bytes": 1965,
+      "sha256": "d45d582458c8974a28f019f21be890e53cf559fac6e4add2fcf16982c8914f2c",
+      "archiveName": "path-overrides/svgr/src/filter/displacement_map.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/src/filter/iir_blur.rs",
+      "bytes": 4328,
+      "sha256": "15ae97c336a1916ed0c720570c310200e22061694e9ff2b52e592dd2e0dda8e9",
+      "archiveName": "path-overrides/svgr/src/filter/iir_blur.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/src/filter/lighting.rs",
+      "bytes": 14265,
+      "sha256": "47f6c1135892823c79dd11ed35fc4ccf9070886502cd235ed391e9e427f046e4",
+      "archiveName": "path-overrides/svgr/src/filter/lighting.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/src/filter/mod.rs",
+      "bytes": 40687,
+      "sha256": "5331a62b23934efe3f12542ee503aaa6d19beb00716f7276f01616bd5f75698b",
+      "archiveName": "path-overrides/svgr/src/filter/mod.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/src/filter/morphology.rs",
+      "bytes": 2574,
+      "sha256": "26459bbd494482cdaef0be64a3fa47af52e7848a92af371b0f7178f6b0aed1c2",
+      "archiveName": "path-overrides/svgr/src/filter/morphology.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/src/filter/turbulence.rs",
+      "bytes": 8420,
+      "sha256": "21bc722ae4fff0ca90aa4a8484e1022703d51a1465e82254f2801635fbf12445",
+      "archiveName": "path-overrides/svgr/src/filter/turbulence.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/src/geom.rs",
+      "bytes": 2359,
+      "sha256": "338a051a62f4cd7f4360e339037c3fadd73c0db6f730940ef2537928d4075244",
+      "archiveName": "path-overrides/svgr/src/geom.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/src/image.rs",
+      "bytes": 8280,
+      "sha256": "5b1ae1797db0a79244e72b3de60dda7b7edc86506c514e1e470b509af53624c7",
+      "archiveName": "path-overrides/svgr/src/image.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/src/lib.rs",
+      "bytes": 2413,
+      "sha256": "17b23d831f8531f82bc4f08674c180758c13c6853ef9914512e5fef0b0b31990",
+      "archiveName": "path-overrides/svgr/src/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/src/main.rs",
+      "bytes": 27766,
+      "sha256": "66b9e64db4a4393a22b9e5e05bca131f189f23c68abde66da0bc6e6796d59bff",
+      "archiveName": "path-overrides/svgr/src/main.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/src/mask.rs",
+      "bytes": 2422,
+      "sha256": "ba289b26171162e88599e222e35a7eab89170101ecbd843815c6e947e3320153",
+      "archiveName": "path-overrides/svgr/src/mask.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/src/path.rs",
+      "bytes": 7545,
+      "sha256": "eeb47f325ba17f5a0f69a2c58ee58dedfe778b12f6041eb1129c91d9c22c05c4",
+      "archiveName": "path-overrides/svgr/src/path.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/src/render.rs",
+      "bytes": 17489,
+      "sha256": "4c0180fddfc4406210c40c413e5e59da65fc5fcaf018fe93c99a1c9afc7d4d80",
+      "archiveName": "path-overrides/svgr/src/render.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/tests/integration/extra.rs",
+      "bytes": 1688,
+      "sha256": "327b53b749e73e41ad804b829e2380ca6469c4e6b6cf9cd8e289c23202b05e28",
+      "archiveName": "path-overrides/svgr/tests/integration/extra.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/tests/integration/main.rs",
+      "bytes": 11379,
+      "sha256": "ed6bdc336579983a847710dbddadc5d9fa13014e19c4395b2a53d35c255fc1ab",
+      "archiveName": "path-overrides/svgr/tests/integration/main.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/svgr/tests/integration/render.rs",
+      "bytes": 206834,
+      "sha256": "802d625df302292c0c828fd91a6f3473a76cbaf2d93ca53004f13854c557b8a6",
+      "archiveName": "path-overrides/svgr/tests/integration/render.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/Cargo.toml",
+      "bytes": 1988,
+      "sha256": "e1dfb7247ebe0b2e6266ed06a29daf0324f457891195a038e10fb9046047a683",
+      "archiveName": "path-overrides/usvgr/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/codegen/Cargo.toml",
+      "bytes": 260,
+      "sha256": "8bc96d80c6064ab655a05c22505c313563a79a972f3ec762085c1d770fec11c2",
+      "archiveName": "path-overrides/usvgr/codegen/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/codegen/main.rs",
+      "bytes": 5322,
+      "sha256": "7249b89ab453b3c5e0519284f529eb512ef5cdb7076e399ed05527dc9c803117",
+      "archiveName": "path-overrides/usvgr/codegen/main.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/src/hashers.rs",
+      "bytes": 2406,
+      "sha256": "c85c87ab388547c66e2344552fb05d87b18b62f9951c9aa0d63485ca0f1f318f",
+      "archiveName": "path-overrides/usvgr/src/hashers.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/src/lib.rs",
+      "bytes": 2780,
+      "sha256": "6c4ba23e57119f479d529c37ef98eb069f4da554f5735530f5b163506d376c0a",
+      "archiveName": "path-overrides/usvgr/src/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/src/main.rs",
+      "bytes": 18551,
+      "sha256": "da6374c5d4d1cc88c87cd08ef90b73f6feaf232a3256e284120b2cddc390f413",
+      "archiveName": "path-overrides/usvgr/src/main.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/src/parser/clippath.rs",
+      "bytes": 4017,
+      "sha256": "3c93f43f6497c93982462fa653538e3ac72a95087a3467cfddbbc1f946d9dcf3",
+      "archiveName": "path-overrides/usvgr/src/parser/clippath.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/src/parser/converter.rs",
+      "bytes": 30258,
+      "sha256": "347dc3204fb92c0bf0f26679d7cd05d55852fc6515c443f0a8b9a27a5186cb13",
+      "archiveName": "path-overrides/usvgr/src/parser/converter.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/src/parser/filter.rs",
+      "bytes": 42999,
+      "sha256": "043b08cde799d207da70e771be8ce8f6fa6cf7947e040071a7c4de81fc7e535e",
+      "archiveName": "path-overrides/usvgr/src/parser/filter.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/src/parser/image.rs",
+      "bytes": 6090,
+      "sha256": "c1a28caa879e3d41013bee07181644457592258009c1364f3b13c07e275bd2a3",
+      "archiveName": "path-overrides/usvgr/src/parser/image.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/src/parser/marker.rs",
+      "bytes": 15898,
+      "sha256": "a826b3929d347de4c5a3d680460beb16db4a5a7c5e7516dae5ab9877884a701e",
+      "archiveName": "path-overrides/usvgr/src/parser/marker.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/src/parser/mask.rs",
+      "bytes": 4852,
+      "sha256": "647b05aaf514bbeb487f7595253ee4800c73569a21cb1b187c2e7a15306150f6",
+      "archiveName": "path-overrides/usvgr/src/parser/mask.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/src/parser/mod.rs",
+      "bytes": 6814,
+      "sha256": "53299e0c1c82f982c4f51a83bdf704f0be269c2a8a272d974c2130c10ce80117",
+      "archiveName": "path-overrides/usvgr/src/parser/mod.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/src/parser/options.rs",
+      "bytes": 3594,
+      "sha256": "f968cac620f73961ef900dd6b0aed8d847e06f3aabc7477e471137c520d7e8c8",
+      "archiveName": "path-overrides/usvgr/src/parser/options.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/src/parser/paint_server.rs",
+      "bytes": 32905,
+      "sha256": "31536d068223f8799ab5bd1fb1c24243afd9dd62f55d3eceed2b2f02e015ca2b",
+      "archiveName": "path-overrides/usvgr/src/parser/paint_server.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/src/parser/shapes.rs",
+      "bytes": 18665,
+      "sha256": "be8cc4aed1e7a5e9bf0251df8d80cfb806876ceeb0216b1838555edfbf0ff187",
+      "archiveName": "path-overrides/usvgr/src/parser/shapes.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/src/parser/style.rs",
+      "bytes": 9793,
+      "sha256": "cb68d71621ae0f698491ad76977a865b8c75aa2d733e2daedf98d4c2a88c8806",
+      "archiveName": "path-overrides/usvgr/src/parser/style.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/src/parser/svgtree/mod.rs",
+      "bytes": 48151,
+      "sha256": "402e3bbb8ca60c03aaa9101fba4e5d1db8d58022c9702261fbb71a96cecd0108",
+      "archiveName": "path-overrides/usvgr/src/parser/svgtree/mod.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/src/parser/svgtree/names.rs",
+      "bytes": 19453,
+      "sha256": "b6856c1e33d57c498440a51598990d165c91aedeca1fd49eafcfeec1fc67329f",
+      "archiveName": "path-overrides/usvgr/src/parser/svgtree/names.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/src/parser/svgtree/parse.rs",
+      "bytes": 31183,
+      "sha256": "921fcedaf3347d6e0d76a3ba39a9f986cac3a517b80de0e61a336ee2979e7486",
+      "archiveName": "path-overrides/usvgr/src/parser/svgtree/parse.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/src/parser/svgtree/text.rs",
+      "bytes": 12278,
+      "sha256": "62832b1ed6a66cfc422a102841e5270cc1fe35b6c186371de56f2c7e8742b9e4",
+      "archiveName": "path-overrides/usvgr/src/parser/svgtree/text.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/src/parser/switch.rs",
+      "bytes": 5095,
+      "sha256": "af9e3ee5268a807b761172bd6ae8d1f833fdefc8ebaf67fc88b228e2a2f673e3",
+      "archiveName": "path-overrides/usvgr/src/parser/switch.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/src/parser/text.rs",
+      "bytes": 29054,
+      "sha256": "a81466223bb51439ed234be53017e5b96fd9db4c7aa884050c2e7bbea0b18f19",
+      "archiveName": "path-overrides/usvgr/src/parser/text.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/src/parser/units.rs",
+      "bytes": 5102,
+      "sha256": "3e16c1476cedba9829f4050f2a28fd32889d2927dbe1a7ec7976197886439739",
+      "archiveName": "path-overrides/usvgr/src/parser/units.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/src/parser/use_node.rs",
+      "bytes": 12156,
+      "sha256": "d447945226dad683711cb389372119ad1932bf6f0c73999922f76ebd734e3c7b",
+      "archiveName": "path-overrides/usvgr/src/parser/use_node.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/src/text_to_paths.rs",
+      "bytes": 59278,
+      "sha256": "3e8d112cf556371b59cb60f4e92268538f8336dceb4693894788dd88b9c407fd",
+      "archiveName": "path-overrides/usvgr/src/text_to_paths.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/src/tree/filter.rs",
+      "bytes": 31950,
+      "sha256": "21def329f46c09a16989226f83ae7da20d3343820c5f44d2e9b37c23255feea0",
+      "archiveName": "path-overrides/usvgr/src/tree/filter.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/src/tree/geom.rs",
+      "bytes": 5318,
+      "sha256": "6fe84e7228deb0c3af464ab3faba31907e16163d05fc35aa59783841642ce3f6",
+      "archiveName": "path-overrides/usvgr/src/tree/geom.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/src/tree/mod.rs",
+      "bytes": 59637,
+      "sha256": "afdd833ab62768d5d8adf15c807d8710ceefae984931c3a2bc760299dc16ce3b",
+      "archiveName": "path-overrides/usvgr/src/tree/mod.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/src/tree/text.rs",
+      "bytes": 16530,
+      "sha256": "cebdaefe9881b82e02037211827380bb1ed9273a4d4e442261fca106be992244",
+      "archiveName": "path-overrides/usvgr/src/tree/text.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/src/writer.rs",
+      "bytes": 61746,
+      "sha256": "d5ee4fbf969405977b4990aaee241e695bf6d34dc58ea2639ff23bea4e054608",
+      "archiveName": "path-overrides/usvgr/src/writer.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/tests/parser.rs",
+      "bytes": 5527,
+      "sha256": "6df39503b55534bd6603112c020875583767c29a69331078c298a41919aadc69",
+      "archiveName": "path-overrides/usvgr/tests/parser.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/svgr-1c2a088217eb3365e965fd8dbd62acf265a07d33/crates/usvgr/tests/write.rs",
+      "bytes": 4450,
+      "sha256": "8b8b083aca74a663f54fafbefe977f2453c570b184a8db2699c963a7789e1343",
+      "archiveName": "path-overrides/usvgr/tests/write.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/.cargo/config.toml",
+      "bytes": 243,
+      "sha256": "a7d80841bead904fe2a05f9fac06a0eec528e443c7ae0effea0b7ffef9e3a821",
+      "archiveName": "workspace/.cargo/config.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/cargo-fframes/Cargo.toml",
+      "bytes": 461,
+      "sha256": "f33c299630e6c43485585c30b2dc6ec20655eac9d8176b9d91198450c691e68d",
+      "archiveName": "workspace/cargo-fframes/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/cargo-fframes/src/main.rs",
+      "bytes": 22385,
+      "sha256": "75ddd023af920c7c5d7e393cbeee0ace6f6fe4192df54460a4dab1f6bec3b4c9",
+      "archiveName": "workspace/cargo-fframes/src/main.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/e2e/Cargo.lock",
+      "bytes": 56356,
+      "sha256": "b357a6b1116bb556286b719707cf160dc19fad1609bccf7a38ece2a7bd206aa7",
+      "archiveName": "workspace/e2e/Cargo.lock"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/e2e/Cargo.toml",
+      "bytes": 220,
+      "sha256": "e9778ac8f67fc78193222f690add8b456105f1ed013f5e5bedce673631c273ad",
+      "archiveName": "workspace/e2e/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/e2e/src/lib.rs",
+      "bytes": 43,
+      "sha256": "526759577eb1b7fef6395945213211489e845fc7f21698ec67cc73c933c3ce58",
+      "archiveName": "workspace/e2e/src/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/e2e/src/test_video.rs",
+      "bytes": 3431,
+      "sha256": "5847d87515f403f2e871693927d4f07d15584b1a218a275a6c1b3f5b24a7479e",
+      "archiveName": "workspace/e2e/src/test_video.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/e2e/tests/render_smoke.rs",
+      "bytes": 3374,
+      "sha256": "c62e9c2fcb670d6e201a2369d153c22af6dff9b3a664f9965abcf5e9efa7de77",
+      "archiveName": "workspace/e2e/tests/render_smoke.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/e2e/tests/tests.rs",
+      "bytes": 3252,
+      "sha256": "b32072c8d1300a9aae79674a9cf5f328d572006d5de7e9ce50f32b623fd8616f",
+      "archiveName": "workspace/e2e/tests/tests.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/audio-announce/Cargo.toml",
+      "bytes": 1076,
+      "sha256": "09eddb3e47d5c1c04fcc35c986ca9002ec28ba751e92d6f285c66bfaabb3733c",
+      "archiveName": "workspace/examples/audio-announce/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/audio-announce/editor/editor-bridge/Cargo.lock",
+      "bytes": 68519,
+      "sha256": "e180e48736021561f1c3877f4cd3631e6f7c5a96a97347932cf798f93b47155b",
+      "archiveName": "workspace/examples/audio-announce/editor/editor-bridge/Cargo.lock"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/audio-announce/editor/editor-bridge/Cargo.toml",
+      "bytes": 426,
+      "sha256": "c8d36df9e46034f808ac858f813182eb980d0b8178c6ad8f44f12485eac139d0",
+      "archiveName": "workspace/examples/audio-announce/editor/editor-bridge/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/audio-announce/editor/editor-bridge/lib.rs",
+      "bytes": 595,
+      "sha256": "99da26d4a1dde6d0b9243aadd8b79115d4d1fe16bdfe88079ef681238e95eb18",
+      "archiveName": "workspace/examples/audio-announce/editor/editor-bridge/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/audio-announce/src/audio_announce.rs",
+      "bytes": 6091,
+      "sha256": "c55a2391b426df1a1471d5fc1e44d688542acdd43f759c974f2831a27f414049",
+      "archiveName": "workspace/examples/audio-announce/src/audio_announce.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/audio-announce/src/lib.rs",
+      "bytes": 71,
+      "sha256": "0971b0e152b79811b82acbe0d12be0e11e79076cd18b3577d02799dab99748a0",
+      "archiveName": "workspace/examples/audio-announce/src/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/audio-announce/src/main.rs",
+      "bytes": 2505,
+      "sha256": "5cb08843375a3ff11b48585e0ce87c503294bf06e9184fdf6c73f8a35f958026",
+      "archiveName": "workspace/examples/audio-announce/src/main.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/audio-announce/src/svg_waves.rs",
+      "bytes": 3015,
+      "sha256": "be677a1410f72da4ad4c30224db1f1af91007df3d5250d757fc9f4eadd11f68e",
+      "archiveName": "workspace/examples/audio-announce/src/svg_waves.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/beta/Cargo.toml",
+      "bytes": 1442,
+      "sha256": "d7bf0c3556af1dfc754709d700d79bd1fae64202c50926a113ac7827627451ef",
+      "archiveName": "workspace/examples/beta/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/beta/editor/editor-bridge/Cargo.lock",
+      "bytes": 61554,
+      "sha256": "63c7f08ba4d380146fa0ee047f0efffaf75d7036348f7c6093296beef5e7a6e7",
+      "archiveName": "workspace/examples/beta/editor/editor-bridge/Cargo.lock"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/beta/editor/editor-bridge/Cargo.toml",
+      "bytes": 704,
+      "sha256": "bda2724738ea0c3c5e2a68a7bcef0d6a7a43387df0d94c389dad2f5c3e972670",
+      "archiveName": "workspace/examples/beta/editor/editor-bridge/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/beta/editor/editor-bridge/lib.rs",
+      "bytes": 1573,
+      "sha256": "9c4799dffecde80a139d98bdbc89111dc28a79c7af3e7729604387bec55d7fde",
+      "archiveName": "workspace/examples/beta/editor/editor-bridge/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/beta/src/beta.rs",
+      "bytes": 3262,
+      "sha256": "84ee9fc0de0171ce080d462f3a3b45aee30719217101974a5841f3fe7f5a6838",
+      "archiveName": "workspace/examples/beta/src/beta.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/beta/src/code_demo.rs",
+      "bytes": 11741,
+      "sha256": "3a71b26ae416d4595ad05cb135f651450b57b74b7bda103a7f5ddd720fd29e83",
+      "archiveName": "workspace/examples/beta/src/code_demo.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/beta/src/end.rs",
+      "bytes": 1805,
+      "sha256": "46cb0e340fc1fe273c41de615ec6eec1ed8d5baa38e4af0a600544b9bec64916",
+      "archiveName": "workspace/examples/beta/src/end.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/beta/src/examples.rs",
+      "bytes": 5580,
+      "sha256": "fc6db4f5e53ebe140a8ea086c2120a7c107d4db222e52eaa2744c6e43377d3cc",
+      "archiveName": "workspace/examples/beta/src/examples.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/beta/src/github.rs",
+      "bytes": 1267,
+      "sha256": "391473bd65d3ae6420acaa011852d117de854862e39a54d62f59326d1b9e26d1",
+      "archiveName": "workspace/examples/beta/src/github.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/beta/src/iphone.rs",
+      "bytes": 10594,
+      "sha256": "1067851d2aecf601093547a6a4ed0ad7d2412ec7ea1c54767207f006e5bcea19",
+      "archiveName": "workspace/examples/beta/src/iphone.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/beta/src/lib.rs",
+      "bytes": 226,
+      "sha256": "e8e84fd402c59e8045eb06bd945373097003539994a507b17a29e618c8a20094",
+      "archiveName": "workspace/examples/beta/src/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/beta/src/main.rs",
+      "bytes": 2607,
+      "sha256": "68567a8698f8aa16276bf91770d5fefbb5db03c3e9a23f8ad967ba3bde64b375",
+      "archiveName": "workspace/examples/beta/src/main.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/beta/src/rendering.rs",
+      "bytes": 2756,
+      "sha256": "d0fe0c7cb07cccf8ce72ff0b4fac33451735680fe76009687db04cf591896378",
+      "archiveName": "workspace/examples/beta/src/rendering.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/conference-splash-screen/Cargo.lock",
+      "bytes": 76391,
+      "sha256": "3ef4188dd94e6ec933d0afe8017edc0fdee88e0bddcdd78059e97f03c165f49f",
+      "archiveName": "workspace/examples/conference-splash-screen/Cargo.lock"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/conference-splash-screen/Cargo.toml",
+      "bytes": 942,
+      "sha256": "2e509d0162b34936e44d3e2b6331e1105957b4148e1ac5b91e9efea24ea85314",
+      "archiveName": "workspace/examples/conference-splash-screen/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/conference-splash-screen/editor/editor-bridge/Cargo.lock",
+      "bytes": 68510,
+      "sha256": "7bbbd1f13fa1a5f128fba10c7b3e1492073136c94fbba851c2072cac6976bb4b",
+      "archiveName": "workspace/examples/conference-splash-screen/editor/editor-bridge/Cargo.lock"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/conference-splash-screen/editor/editor-bridge/Cargo.toml",
+      "bytes": 503,
+      "sha256": "fc04a51ebe3fdc199d6ece09efe921a20f94bfe2aa0c0e704f45dc39f1145214",
+      "archiveName": "workspace/examples/conference-splash-screen/editor/editor-bridge/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/conference-splash-screen/editor/editor-bridge/lib.rs",
+      "bytes": 1423,
+      "sha256": "009081d3caf838f543399cfc07d451fd22ad36dd1797a42e5a8eb6be015b3297",
+      "archiveName": "workspace/examples/conference-splash-screen/editor/editor-bridge/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/conference-splash-screen/src/bin/render_all.rs",
+      "bytes": 2334,
+      "sha256": "f2de9480db4dffb2d135cfe6dd9103ae6365dbf169381a7bccc92d30338847ed",
+      "archiveName": "workspace/examples/conference-splash-screen/src/bin/render_all.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/conference-splash-screen/src/conference.rs",
+      "bytes": 1254,
+      "sha256": "21492a9c2bb96be76e1804f1acc1bb233fafc217d7dcce2486acf1420f509e34",
+      "archiveName": "workspace/examples/conference-splash-screen/src/conference.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/conference-splash-screen/src/lib.rs",
+      "bytes": 169,
+      "sha256": "ef6fd7e596ec8534f23acd8862d01bc3e73c251d3502044137a2b5eb5655ed8f",
+      "archiveName": "workspace/examples/conference-splash-screen/src/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/conference-splash-screen/src/main.rs",
+      "bytes": 1848,
+      "sha256": "fba1b098d2b9d8defef3d2894f184adf566da336cb681a89d6fae0ca9d17441f",
+      "archiveName": "workspace/examples/conference-splash-screen/src/main.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/conference-splash-screen/src/media.rs",
+      "bytes": 124,
+      "sha256": "e3d84f8503924e6ea9823dea4cf5e61a5ea7ec8b71e1066506bfe0dc6430d568",
+      "archiveName": "workspace/examples/conference-splash-screen/src/media.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/conference-splash-screen/src/speaker_screen.rs",
+      "bytes": 6862,
+      "sha256": "5831a3e344061d60dd3623e10f430940503de3d01c89627b4265ccae2a6492b8",
+      "archiveName": "workspace/examples/conference-splash-screen/src/speaker_screen.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/conference-splash-screen/src/sponsor_screen.rs",
+      "bytes": 7501,
+      "sha256": "44a20a8fcc6a510603a6163a1de95f49afeb865393e93d641aeed7490d66f1ae",
+      "archiveName": "workspace/examples/conference-splash-screen/src/sponsor_screen.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/conference-splash-screen/src/talks.rs",
+      "bytes": 2165,
+      "sha256": "67fa363a989ebbb4bd08483aaab32b173e8d2bb3a3cab9813f884ab51134ecac",
+      "archiveName": "workspace/examples/conference-splash-screen/src/talks.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/fframes-intro/Cargo.toml",
+      "bytes": 1031,
+      "sha256": "f299a15ca8effec4836254f7a76eeaf9894e0c3bb0d338b08411e165b9344478",
+      "archiveName": "workspace/examples/fframes-intro/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/fframes-intro/build.rs",
+      "bytes": 995,
+      "sha256": "95299d3ec0a40d7714907b42cf163ea79409912889107ebb1933c5a01cf7ec0e",
+      "archiveName": "workspace/examples/fframes-intro/build.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/fframes-intro/src/beat.rs",
+      "bytes": 3359,
+      "sha256": "d78bd6f17aeec8b5f1abfd9202dc61ea80f7cb3fa595db8a86abeabb92534266",
+      "archiveName": "workspace/examples/fframes-intro/src/beat.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/fframes-intro/src/facts.rs",
+      "bytes": 1277,
+      "sha256": "61fbff45f2dbf42856a6d91476bb67edc4167ea748802afc7ae8af53461c337f",
+      "archiveName": "workspace/examples/fframes-intro/src/facts.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/fframes-intro/src/lib.rs",
+      "bytes": 7799,
+      "sha256": "5f7349b89ee0efcbb5d7078b91963debb7a31893ba58b42b3ae5fc3723272ee8",
+      "archiveName": "workspace/examples/fframes-intro/src/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/fframes-intro/src/main.rs",
+      "bytes": 2435,
+      "sha256": "c551fc6236ded2c4947c8e11f0c208c6100b4eec27e7b63a03a8ca5dbf1d1200",
+      "archiveName": "workspace/examples/fframes-intro/src/main.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/fframes-intro/src/scenes/agents.rs",
+      "bytes": 11953,
+      "sha256": "0f3de6a30d5490c419f8c707bd7d65d3291d61a8e2a5108041d46324ca71b975",
+      "archiveName": "workspace/examples/fframes-intro/src/scenes/agents.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/fframes-intro/src/scenes/benchmark.rs",
+      "bytes": 7987,
+      "sha256": "42ad2990dd6ec2e8b6f387291601abd86e12648f0846c266d0b355ba9b2c136a",
+      "archiveName": "workspace/examples/fframes-intro/src/scenes/benchmark.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/fframes-intro/src/scenes/code.rs",
+      "bytes": 7118,
+      "sha256": "b3c85f4b883e34c1058721318b3147fd2e2b318e4173d23156967fa61b270bd0",
+      "archiveName": "workspace/examples/fframes-intro/src/scenes/code.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/fframes-intro/src/scenes/done.rs",
+      "bytes": 1462,
+      "sha256": "654e998a45d6586a1a8e0db04b4dd6f2e12a6823b6fbd8d75b3f280e30114311",
+      "archiveName": "workspace/examples/fframes-intro/src/scenes/done.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/fframes-intro/src/scenes/gpu.rs",
+      "bytes": 4738,
+      "sha256": "e1e4b9487452c8c8cb441542dc6f460c7e1b2f8fb2a168bb23c399f10a1b7f9c",
+      "archiveName": "workspace/examples/fframes-intro/src/scenes/gpu.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/fframes-intro/src/scenes/image.rs",
+      "bytes": 2142,
+      "sha256": "f83c5ca74865a8418510b54b8598c7b516179d7057451e2eae522712dcf9b5e8",
+      "archiveName": "workspace/examples/fframes-intro/src/scenes/image.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/fframes-intro/src/scenes/mod.rs",
+      "bytes": 1603,
+      "sha256": "df338c042f48af4e45b11e8bb78756d4dc4619c6ae860ef9ab00ce0307cb2d25",
+      "archiveName": "workspace/examples/fframes-intro/src/scenes/mod.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/fframes-intro/src/scenes/origin.rs",
+      "bytes": 12821,
+      "sha256": "6fbf3f3292ea77be7b9f66d3e2612130489d94d7ec011095117d79d134552c99",
+      "archiveName": "workspace/examples/fframes-intro/src/scenes/origin.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/fframes-intro/src/scenes/outro.rs",
+      "bytes": 4999,
+      "sha256": "d03a5bc6cb103a0c3416ed0f795b1723c339730608af88ad7b238e6fea97beeb",
+      "archiveName": "workspace/examples/fframes-intro/src/scenes/outro.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/fframes-intro/src/scenes/preview.rs",
+      "bytes": 7899,
+      "sha256": "ca91929856f1631fc19605560d8ba30acd07ee3e474ddcd692c13a9a0677b8a8",
+      "archiveName": "workspace/examples/fframes-intro/src/scenes/preview.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/fframes-intro/src/scenes/prompt.rs",
+      "bytes": 4836,
+      "sha256": "735005cbce7e7776e53051bb3d6ef62766285ffee27371c82dd6aeec57288003",
+      "archiveName": "workspace/examples/fframes-intro/src/scenes/prompt.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/fframes-intro/src/scenes/recap.rs",
+      "bytes": 2215,
+      "sha256": "9d2eb6bc161911c64df06f51df2ca14f30b36e30a984146960ee73d3729e23f7",
+      "archiveName": "workspace/examples/fframes-intro/src/scenes/recap.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/fframes-intro/src/scenes/render.rs",
+      "bytes": 5258,
+      "sha256": "7e63ae5f819d080370c366ec4f0561f664d4439e08bcee10ef34f821c1a06dcf",
+      "archiveName": "workspace/examples/fframes-intro/src/scenes/render.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/fframes-intro/src/scenes/scale.rs",
+      "bytes": 4127,
+      "sha256": "0e16ac578f4c21b9d1cb5551425af01ea5998ef078960b9b5373034251d43edd",
+      "archiveName": "workspace/examples/fframes-intro/src/scenes/scale.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/fframes-intro/src/scenes/shader.rs",
+      "bytes": 3514,
+      "sha256": "0fa639c7a6040be3a4f7b6576fc45a0054943c845cea3e1c1529dcf4d9a4e348",
+      "archiveName": "workspace/examples/fframes-intro/src/scenes/shader.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/fframes-intro/src/scenes/text.rs",
+      "bytes": 2731,
+      "sha256": "775fa51d6070c20e2930d1a263320860571eee1e7770b5237970749358b7b0a7",
+      "archiveName": "workspace/examples/fframes-intro/src/scenes/text.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/fframes-intro/src/scenes/video.rs",
+      "bytes": 5554,
+      "sha256": "1741180d41beaa870a5ce7ccd3e07e65b8336b608b99d9588c20256f5ead4b9b",
+      "archiveName": "workspace/examples/fframes-intro/src/scenes/video.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/fframes-intro/src/shaders.rs",
+      "bytes": 773,
+      "sha256": "2ff2ecaf48c3a6b8dcff7ec605ec6ca2a2e1a11d00dc50fcc9ad4c8f586df4a6",
+      "archiveName": "workspace/examples/fframes-intro/src/shaders.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/fframes-intro/src/ui.rs",
+      "bytes": 8787,
+      "sha256": "c5208f8c20ca2afbc4d111ff5282095400c16dcf595d172ce8c56bd1a9715b78",
+      "archiveName": "workspace/examples/fframes-intro/src/ui.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/hello-world/Cargo.lock",
+      "bytes": 76391,
+      "sha256": "3ef4188dd94e6ec933d0afe8017edc0fdee88e0bddcdd78059e97f03c165f49f",
+      "archiveName": "workspace/examples/hello-world/Cargo.lock"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/hello-world/Cargo.toml",
+      "bytes": 759,
+      "sha256": "753a4680d67092a2601bcf2128d734048eec0d2bf7985c4d05f34956f38ef772",
+      "archiveName": "workspace/examples/hello-world/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/hello-world/editor/editor-bridge/Cargo.lock",
+      "bytes": 68510,
+      "sha256": "7bbbd1f13fa1a5f128fba10c7b3e1492073136c94fbba851c2072cac6976bb4b",
+      "archiveName": "workspace/examples/hello-world/editor/editor-bridge/Cargo.lock"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/hello-world/editor/editor-bridge/Cargo.toml",
+      "bytes": 534,
+      "sha256": "7dc882f0ed9d3cd771343032b09285082ca38750d63d89eae6de74cf39f7ee49",
+      "archiveName": "workspace/examples/hello-world/editor/editor-bridge/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/hello-world/editor/editor-bridge/lib.rs",
+      "bytes": 594,
+      "sha256": "207f75e7769ca3f56adfe0aace1021f85c26b7778e05b819633eb014426c1967",
+      "archiveName": "workspace/examples/hello-world/editor/editor-bridge/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/hello-world/src/hello_world.rs",
+      "bytes": 3201,
+      "sha256": "1697a43545b5f3b5dea5b4ff6fd19fe2e6525be2660363a7249d745bcfdaf59e",
+      "archiveName": "workspace/examples/hello-world/src/hello_world.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/hello-world/src/hello_world_multiscene.rs",
+      "bytes": 3390,
+      "sha256": "636f95c847abe13d89406bc47a46af400abf2899134b9d2bef8b599acee2aaa6",
+      "archiveName": "workspace/examples/hello-world/src/hello_world_multiscene.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/hello-world/src/lib.rs",
+      "bytes": 45,
+      "sha256": "dd8ec3da216474d6b43315e5ee27695e205be84065e00774e9b15f76d4a12554",
+      "archiveName": "workspace/examples/hello-world/src/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/hello-world/src/main.rs",
+      "bytes": 1289,
+      "sha256": "8051c8bbebae77eb52e8204066ba5f95a03653f88583c519f84cd502c4facb33",
+      "archiveName": "workspace/examples/hello-world/src/main.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/low-poly-art/Cargo.toml",
+      "bytes": 731,
+      "sha256": "d7fb5e0638fb0f7e37dea314f1b7aaabd3acada613a6db05ca2a79987cd74da4",
+      "archiveName": "workspace/examples/low-poly-art/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/low-poly-art/editor/editor-bridge/Cargo.lock",
+      "bytes": 62801,
+      "sha256": "1db4bc694bfc7cf6220343b151a1d105d295ec62a563f49dbdf8664ab4ae10b5",
+      "archiveName": "workspace/examples/low-poly-art/editor/editor-bridge/Cargo.lock"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/low-poly-art/editor/editor-bridge/Cargo.toml",
+      "bytes": 407,
+      "sha256": "dcd12947538bae052534625cee6f985042705fa6bd6d859d040886748ac0fe7b",
+      "archiveName": "workspace/examples/low-poly-art/editor/editor-bridge/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/low-poly-art/editor/editor-bridge/lib.rs",
+      "bytes": 809,
+      "sha256": "7927aa5dc147692215e51e01521c66b184a7b761187dcd0a437671031f56f60d",
+      "archiveName": "workspace/examples/low-poly-art/editor/editor-bridge/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/low-poly-art/src/lib.rs",
+      "bytes": 47,
+      "sha256": "fa9c7ff90e89ba45e0cb9f137a07d566151b6bc38c48a810993c787f6fb0c4af",
+      "archiveName": "workspace/examples/low-poly-art/src/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/low-poly-art/src/low_poly_art.rs",
+      "bytes": 2035,
+      "sha256": "e2ab6360b2c82981c18f8e5efc499e422998c7c527ca3b4cf1407850a7564840",
+      "archiveName": "workspace/examples/low-poly-art/src/low_poly_art.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/low-poly-art/src/low_poly_art/owl.rs",
+      "bytes": 219967,
+      "sha256": "711169ea1c9f798c44be29e589a8e3ccf4fd2d06a602a4f7c5ca9660e23d4675",
+      "archiveName": "workspace/examples/low-poly-art/src/low_poly_art/owl.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/low-poly-art/src/low_poly_art/pelican.rs",
+      "bytes": 198173,
+      "sha256": "c46f330a2a5a5c9968e95971ab3a9fd3b7e48770cc18b61b6bf43c2ce34bc314",
+      "archiveName": "workspace/examples/low-poly-art/src/low_poly_art/pelican.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/low-poly-art/src/low_poly_art/popuga.rs",
+      "bytes": 192430,
+      "sha256": "5957d7f8a9269625435a50f59a2186dc4e91ba959ee7662af3ea74f96a3228c8",
+      "archiveName": "workspace/examples/low-poly-art/src/low_poly_art/popuga.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/low-poly-art/src/low_poly_art/spektacled_owl.rs",
+      "bytes": 202699,
+      "sha256": "46cad15dde652f0fe0587b6eda7d72226a7b776e81b5bfcc58b2b711557282ee",
+      "archiveName": "workspace/examples/low-poly-art/src/low_poly_art/spektacled_owl.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/low-poly-art/src/main.rs",
+      "bytes": 1035,
+      "sha256": "545a2bd0abe63811b9ebe4d8abd255d6417d983d092c59bf5849cc9778989f8b",
+      "archiveName": "workspace/examples/low-poly-art/src/main.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/marketing/Cargo.lock",
+      "bytes": 56451,
+      "sha256": "302b99ae48aecb1c05f0eb52dd20c6d40c8b67707b48a61c31793b41ae0e9f23",
+      "archiveName": "workspace/examples/marketing/Cargo.lock"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/marketing/Cargo.toml",
+      "bytes": 585,
+      "sha256": "59c7f4649841dbc49254db655b3db6c90a349c39dd8065a351ce77166b311dcb",
+      "archiveName": "workspace/examples/marketing/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/marketing/editor/editor-bridge/Cargo.lock",
+      "bytes": 61546,
+      "sha256": "bb9617d329cc555905283e53bbb8042502ce6eb31d299142326ce5d8d18fd817",
+      "archiveName": "workspace/examples/marketing/editor/editor-bridge/Cargo.lock"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/marketing/editor/editor-bridge/Cargo.toml",
+      "bytes": 396,
+      "sha256": "3274f2cdf27565d67e6f8a2fd3b1c075d323e6f6505049c86433bbc3b6dd863d",
+      "archiveName": "workspace/examples/marketing/editor/editor-bridge/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/marketing/editor/editor-bridge/lib.rs",
+      "bytes": 607,
+      "sha256": "776025952989b915805c79e4d29cba86209d55417fbde36e711800a93f78dca9",
+      "archiveName": "workspace/examples/marketing/editor/editor-bridge/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/marketing/src/lib.rs",
+      "bytes": 66,
+      "sha256": "d061e69deb208ca339e326114369e4bc8b911558d601a5ba78814346a3c04074",
+      "archiveName": "workspace/examples/marketing/src/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/marketing/src/main.rs",
+      "bytes": 817,
+      "sha256": "d4a2630c8dd5a71dc9208f1db164aaf9d015dc92ff1943fe2a1eeb1fa635278c",
+      "archiveName": "workspace/examples/marketing/src/main.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/marketing/src/marketing.rs",
+      "bytes": 26179,
+      "sha256": "feab6f7f86dc3f311e636136a6602818bae936d6968c895145c1249b7802479b",
+      "archiveName": "workspace/examples/marketing/src/marketing.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/marketing/src/tests.rs",
+      "bytes": 1306,
+      "sha256": "2ae1687128b3c5966f26f3ea9474b328d192bc691f578449c44178e07ac4fa8a",
+      "archiveName": "workspace/examples/marketing/src/tests.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/motion-graphics/Cargo.toml",
+      "bytes": 937,
+      "sha256": "5e1a6d462d5e6762a05d9ca26835d3a4e7d27e883bb47a38c4f08e1b4a72a1d5",
+      "archiveName": "workspace/examples/motion-graphics/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/motion-graphics/editor/editor-bridge/Cargo.toml",
+      "bytes": 367,
+      "sha256": "64a98951784aa49dcd123e17914e63689476f10b281a1bf819a8f93d79697928",
+      "archiveName": "workspace/examples/motion-graphics/editor/editor-bridge/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/motion-graphics/editor/editor-bridge/lib.rs",
+      "bytes": 545,
+      "sha256": "dc0653da30cfe322fb98f749db34a1df7879126bfcb1a5316260f52c8c294a1f",
+      "archiveName": "workspace/examples/motion-graphics/editor/editor-bridge/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/motion-graphics/src/bin/install_scene.rs",
+      "bytes": 842,
+      "sha256": "0c432e86d417473a7a3ce7ec51f7c107970dc283d838ecef133f4dd3ee696154",
+      "archiveName": "workspace/examples/motion-graphics/src/bin/install_scene.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/motion-graphics/src/bin/quote.rs",
+      "bytes": 1348,
+      "sha256": "a9ce0030948bfa5b58da8b06505fe44d2ee785d97323c3e26ef16a9025df9acb",
+      "archiveName": "workspace/examples/motion-graphics/src/bin/quote.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/motion-graphics/src/install_scene.rs",
+      "bytes": 10949,
+      "sha256": "e18259434172424b95cd542260d3ec2a757427964d8232ab9caf0c313b0f02cf",
+      "archiveName": "workspace/examples/motion-graphics/src/install_scene.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/motion-graphics/src/lib.rs",
+      "bytes": 1856,
+      "sha256": "53260b421a6c83ec3e6c08ce4ad42adc4c8565f2c311dbc409721c86af5c100c",
+      "archiveName": "workspace/examples/motion-graphics/src/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/motion-graphics/src/main.rs",
+      "bytes": 778,
+      "sha256": "03884528e2869dff7b0202146b05cda33d667932f5c99bf40790b90fcdd047fe",
+      "archiveName": "workspace/examples/motion-graphics/src/main.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/motion-graphics/src/motion_graphics.rs",
+      "bytes": 5360,
+      "sha256": "f62cefea8ed3caf8637cb69bbf749cf59ef96850f909de5d1d4087110da9eed7",
+      "archiveName": "workspace/examples/motion-graphics/src/motion_graphics.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/motion-graphics/src/quote_card.rs",
+      "bytes": 5619,
+      "sha256": "7232fe8a98710be647d0bb59721915ad9f565b46e24b06d3d390d50f251d0f80",
+      "archiveName": "workspace/examples/motion-graphics/src/quote_card.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/neon-triangle/Cargo.toml",
+      "bytes": 1222,
+      "sha256": "72d966939d3ff529bc279570c012e220d3bd33f00b95d3fb297889a9d7b28ed5",
+      "archiveName": "workspace/examples/neon-triangle/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/neon-triangle/editor/editor-bridge/Cargo.toml",
+      "bytes": 541,
+      "sha256": "f9aff4a06003acf1fbd54d3fbe26599064e48f057202b6b0c68f04bce72ed80a",
+      "archiveName": "workspace/examples/neon-triangle/editor/editor-bridge/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/neon-triangle/editor/editor-bridge/lib.rs",
+      "bytes": 534,
+      "sha256": "2e39fcdf225a56400be38c41765310c89292c4fc4b15e12077b73cf5c4fb85ff",
+      "archiveName": "workspace/examples/neon-triangle/editor/editor-bridge/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/neon-triangle/src/lib.rs",
+      "bytes": 108,
+      "sha256": "6f83ee268d0422c2b4d2256d67f0bc70935d981d984d1c14305f11a637e3110e",
+      "archiveName": "workspace/examples/neon-triangle/src/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/neon-triangle/src/main.rs",
+      "bytes": 1508,
+      "sha256": "b89b999d3ef1ea3cecaf50c989b51eac2a636d28a5b17e413c6bc800d0e45985",
+      "archiveName": "workspace/examples/neon-triangle/src/main.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/neon-triangle/src/neon_triangle.rs",
+      "bytes": 5057,
+      "sha256": "a2a615423c1489e1bb0f8e8793553970c60be5c7bad99670729b20103b1cb298",
+      "archiveName": "workspace/examples/neon-triangle/src/neon_triangle.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/neon-triangle/src/tests.rs",
+      "bytes": 192,
+      "sha256": "c59483090ce4cebbd99c0156829c163f7ef8dbc520c18d4781e8f92838553c58",
+      "archiveName": "workspace/examples/neon-triangle/src/tests.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/pixel-memory/Cargo.lock",
+      "bytes": 76385,
+      "sha256": "5345bba15b6a96a5428cda91823b502f7ffc860f5949ef0f180c46779ad3a0f5",
+      "archiveName": "workspace/examples/pixel-memory/Cargo.lock"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/pixel-memory/Cargo.toml",
+      "bytes": 1175,
+      "sha256": "67298039edb1cdc700b4dfc66f671a6e99cc8a5b570f30e8656501b2e46eaf54",
+      "archiveName": "workspace/examples/pixel-memory/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/pixel-memory/editor/editor-bridge/Cargo.lock",
+      "bytes": 68492,
+      "sha256": "e62f5a1f415a3336f8db2da66073a610baed11c65af46bab82217e728f7ebc0f",
+      "archiveName": "workspace/examples/pixel-memory/editor/editor-bridge/Cargo.lock"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/pixel-memory/editor/editor-bridge/Cargo.toml",
+      "bytes": 466,
+      "sha256": "f074e06f17ba25b7b2e82765414c40c0531e7edc656434d05c346caf5fc91685",
+      "archiveName": "workspace/examples/pixel-memory/editor/editor-bridge/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/pixel-memory/editor/editor-bridge/lib.rs",
+      "bytes": 1155,
+      "sha256": "f8b0d7e3c1c75279aba2e994071e853083b97add632709ac7d63a320ba8a3c95",
+      "archiveName": "workspace/examples/pixel-memory/editor/editor-bridge/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/pixel-memory/src/bokeh_background.rs",
+      "bytes": 7484,
+      "sha256": "a3b1b66c0832e8ca116cff2bd7a537cd056d0376fc8d4d3b54903d7dd0a4c1e4",
+      "archiveName": "workspace/examples/pixel-memory/src/bokeh_background.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/pixel-memory/src/lib.rs",
+      "bytes": 201,
+      "sha256": "0a44068554cae1c8fc3b6f9e1828a365332b0cc3e4e23af3b0be2e2dbdebbf1d",
+      "archiveName": "workspace/examples/pixel-memory/src/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/pixel-memory/src/main.rs",
+      "bytes": 3526,
+      "sha256": "509ed68bf7bc0764ebfbf374c93b7d042473b02be5bb67cce25d3f4221caa6b9",
+      "archiveName": "workspace/examples/pixel-memory/src/main.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/pixel-memory/src/photo_phrame.rs",
+      "bytes": 1875,
+      "sha256": "59bff95125445c0c35c348e289139dc84f2ed4baef35ab38bf0dae4f8c2bd929",
+      "archiveName": "workspace/examples/pixel-memory/src/photo_phrame.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/pixel-memory/src/pixel_video.rs",
+      "bytes": 6570,
+      "sha256": "f345c39991a2f303d7855bdf1af1d329cbc984a7859f48355dde62bf0688d852",
+      "archiveName": "workspace/examples/pixel-memory/src/pixel_video.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/pixel-memory/src/pixel_video_randomizer.rs",
+      "bytes": 8507,
+      "sha256": "273ff0de585b94c776cf8b271cbc8aa9ee1138bd9c435730c1a11d9654ca9fe1",
+      "archiveName": "workspace/examples/pixel-memory/src/pixel_video_randomizer.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/pixel-memory/src/scenes/fibonnaci_gallery.rs",
+      "bytes": 6933,
+      "sha256": "8f1a1ab43da8ad7b8060fc1221dc288bc9849121722d62f18bd712d826c21e77",
+      "archiveName": "workspace/examples/pixel-memory/src/scenes/fibonnaci_gallery.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/pixel-memory/src/scenes/final_scene.rs",
+      "bytes": 20838,
+      "sha256": "523c39188f09a6e4bf7a368d5b74812f4bd0bd53f8bfb34376ac964560918a29",
+      "archiveName": "workspace/examples/pixel-memory/src/scenes/final_scene.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/pixel-memory/src/scenes/mod.rs",
+      "bytes": 423,
+      "sha256": "defdfb1002c301ce3045c7bb9a676cd4081ac947259e80ec49fdbba6620b32a3",
+      "archiveName": "workspace/examples/pixel-memory/src/scenes/mod.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/pixel-memory/src/scenes/pixel_parallax_grid_photos.rs",
+      "bytes": 6209,
+      "sha256": "e972dd941216f8212ac99746e3de5113e4dde267c80c04694cd33b28d5abcf53",
+      "archiveName": "workspace/examples/pixel-memory/src/scenes/pixel_parallax_grid_photos.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/pixel-memory/src/scenes/pixel_single_video.rs",
+      "bytes": 2932,
+      "sha256": "dd84b309887ef3e9aa40158598c4cf64b6fead0f80e3fc585e8a926a23376f94",
+      "archiveName": "workspace/examples/pixel-memory/src/scenes/pixel_single_video.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/pixel-memory/src/scenes/polariod_development.rs",
+      "bytes": 15867,
+      "sha256": "10b4d47e2cf37fdaac0d2e60db1cb6958d263078c735fcbf919fc2f78e9f2ea1",
+      "archiveName": "workspace/examples/pixel-memory/src/scenes/polariod_development.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/pixel-memory/src/scenes/single_photo_float.rs",
+      "bytes": 6710,
+      "sha256": "2486fac1c39cc79b43dbc93bb9d05f11c954ca03de4a622564bac05b12275602",
+      "archiveName": "workspace/examples/pixel-memory/src/scenes/single_photo_float.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/pixel-memory/src/scenes/spiral_gallery.rs",
+      "bytes": 10742,
+      "sha256": "b46cf578160362fa8ef08e3aa28725c82d6e3c4ddd3ce1e16f5cdc0a8999f51b",
+      "archiveName": "workspace/examples/pixel-memory/src/scenes/spiral_gallery.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/pixel-memory/src/scenes/start_scene.rs",
+      "bytes": 1407,
+      "sha256": "7866a3bd2c8d6dbbdb60cfdec4eb8a5fd486234417745c83c6a0ada87827302d",
+      "archiveName": "workspace/examples/pixel-memory/src/scenes/start_scene.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/podcast/Cargo.toml",
+      "bytes": 773,
+      "sha256": "cc304b99b3eb6c532999a42353dd3cde583dd3721d2fc0f94f06b249c65889f8",
+      "archiveName": "workspace/examples/podcast/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/podcast/editor/editor-bridge/Cargo.lock",
+      "bytes": 64929,
+      "sha256": "5bb0950f6b4844fe85173862c46526702064f43a84c9b877d734b8bc46074599",
+      "archiveName": "workspace/examples/podcast/editor/editor-bridge/Cargo.lock"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/podcast/editor/editor-bridge/Cargo.toml",
+      "bytes": 429,
+      "sha256": "2035c1fd298ab63dfd5e9fa45d46c2e50fd25cd9ec4a063c56c182d2d0e0ab34",
+      "archiveName": "workspace/examples/podcast/editor/editor-bridge/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/podcast/editor/editor-bridge/lib.rs",
+      "bytes": 430,
+      "sha256": "1a40eafb22d96da3c07cd0e10181f7dbb3a890a6bdba3668e642e2a571288208",
+      "archiveName": "workspace/examples/podcast/editor/editor-bridge/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/podcast/src/lib.rs",
+      "bytes": 37,
+      "sha256": "b81fe0be52634e6f6917f63f71c6b2d96ef20aebae9a610e65f9861ff88e53a8",
+      "archiveName": "workspace/examples/podcast/src/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/podcast/src/main.rs",
+      "bytes": 760,
+      "sha256": "b4d16d26157e207699d0be01818584e96be1c5c40c86e8b4fd0f440db8740139",
+      "archiveName": "workspace/examples/podcast/src/main.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/podcast/src/podcast.rs",
+      "bytes": 19321,
+      "sha256": "c2fdb9fc29ee490ee6b2f6f6712f15e278c7ea5def7cde0727bec7228de710bd",
+      "archiveName": "workspace/examples/podcast/src/podcast.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/shaders/Cargo.toml",
+      "bytes": 1204,
+      "sha256": "fff965b515d5c30d81f3e80d8e04a0dbc6e234843ee69a831868dee9a8ca1fd7",
+      "archiveName": "workspace/examples/shaders/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/shaders/editor/editor-bridge/Cargo.toml",
+      "bytes": 523,
+      "sha256": "947f4f27b84649aea1a33f2ed7d844a50685c267ad63cbe033f64a73135477b3",
+      "archiveName": "workspace/examples/shaders/editor/editor-bridge/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/shaders/editor/editor-bridge/lib.rs",
+      "bytes": 493,
+      "sha256": "2bccc8e6aa3c8e846bd801fdb34c9e7d8790bade230553648ad4ea19ace46a4b",
+      "archiveName": "workspace/examples/shaders/editor/editor-bridge/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/shaders/src/lib.rs",
+      "bytes": 96,
+      "sha256": "31de0bdf024205edbbe988538a4439a3a54f33d930483b44e06d2094933988a0",
+      "archiveName": "workspace/examples/shaders/src/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/shaders/src/main.rs",
+      "bytes": 1464,
+      "sha256": "ea37e13299e6ed85c10cd9e9964160aa102135b70c2913bde4c2a856934e555e",
+      "archiveName": "workspace/examples/shaders/src/main.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/shaders/src/shaders.rs",
+      "bytes": 3790,
+      "sha256": "7e68703c1f38d14693cd02841831acfedcf49ee9266ac2e1c01f3d4d1dc82bf0",
+      "archiveName": "workspace/examples/shaders/src/shaders.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/shaders/src/tests.rs",
+      "bytes": 273,
+      "sha256": "29a196cf0bfe36abba3a22a67ce7c01d85f20152f8e6735036f0062342a41866",
+      "archiveName": "workspace/examples/shaders/src/tests.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/signal-lab/Cargo.toml",
+      "bytes": 1022,
+      "sha256": "09f46cfd49a6d88fd454624a87f8a729a8bd5a641706297b7bdf224a3fba0410",
+      "archiveName": "workspace/examples/signal-lab/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/signal-lab/src/lib.rs",
+      "bytes": 11137,
+      "sha256": "50943f595b60948a6df8f8019f9a8bc616e2750f6faac021e48c04a69807b72e",
+      "archiveName": "workspace/examples/signal-lab/src/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/signal-lab/src/main.rs",
+      "bytes": 1851,
+      "sha256": "b1356ad48e0aeb81c4276a4c5f5dbdb4137dfae334543008ab39c53f0dd3142a",
+      "archiveName": "workspace/examples/signal-lab/src/main.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/signal-lab/tests/frames.rs",
+      "bytes": 1842,
+      "sha256": "7b200e29ac9a08bcb93b8d3c3769128eb0a7afc6670407ba75ec3bc6bd1afbeb",
+      "archiveName": "workspace/examples/signal-lab/tests/frames.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/teej-podcast/Cargo.toml",
+      "bytes": 1260,
+      "sha256": "4794cbd25d4a23e5156589cb4257caf43210e3cd611a2036e84e9f566c816640",
+      "archiveName": "workspace/examples/teej-podcast/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/teej-podcast/editor/editor-bridge/Cargo.toml",
+      "bytes": 415,
+      "sha256": "704973aa37665a0b3d64507e793a9a75a18abeccbecb068977558362663ae8f5",
+      "archiveName": "workspace/examples/teej-podcast/editor/editor-bridge/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/teej-podcast/editor/editor-bridge/lib.rs",
+      "bytes": 1275,
+      "sha256": "a0d4f60440a7a7422553f6b78d5aa84224e3e0989b5f6b9e8be27f7ac5bef6c3",
+      "archiveName": "workspace/examples/teej-podcast/editor/editor-bridge/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/teej-podcast/src/chapter.rs",
+      "bytes": 2510,
+      "sha256": "614611a479d47c1a4d6049127ddd9e1c748ee7e2349cb354dde3caabee574a62",
+      "archiveName": "workspace/examples/teej-podcast/src/chapter.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/teej-podcast/src/constants.rs",
+      "bytes": 580,
+      "sha256": "7cdfc294945ff25feaa7329a966e8cf2a32ccb5543c7429710efd265c230fb32",
+      "archiveName": "workspace/examples/teej-podcast/src/constants.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/teej-podcast/src/lib.rs",
+      "bytes": 96,
+      "sha256": "d221f596032752c890bb276aa37d5b322b1d1e11238121f149ddd560e485b195",
+      "archiveName": "workspace/examples/teej-podcast/src/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/teej-podcast/src/main.rs",
+      "bytes": 2739,
+      "sha256": "26e7d7900653bbb0daa2e753afcc124dcad0fec60af479e533eb3f9e3f01077d",
+      "archiveName": "workspace/examples/teej-podcast/src/main.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/teej-podcast/src/teej_podcast.rs",
+      "bytes": 9565,
+      "sha256": "ddb4fc256a275e3078a96e54f555c06d66386d9b2229b0330784774059ea3356",
+      "archiveName": "workspace/examples/teej-podcast/src/teej_podcast.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/tiktok/Cargo.toml",
+      "bytes": 656,
+      "sha256": "8271dc9228e1e9626d96c4961857a14d297835a7ab7699de925c667755ae7ef4",
+      "archiveName": "workspace/examples/tiktok/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/tiktok/editor/editor-bridge/Cargo.lock",
+      "bytes": 60052,
+      "sha256": "cce437e9a63be6a51f4cbf45747c3a48a5278e1dae6038da9699bda3a8d818ab",
+      "archiveName": "workspace/examples/tiktok/editor/editor-bridge/Cargo.lock"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/tiktok/editor/editor-bridge/Cargo.toml",
+      "bytes": 402,
+      "sha256": "4ab9b5f78154cedfe5ddab36f880e454b612b0c5b8a77b9afca1b7a21b1a52e8",
+      "archiveName": "workspace/examples/tiktok/editor/editor-bridge/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/tiktok/editor/editor-bridge/lib.rs",
+      "bytes": 477,
+      "sha256": "70de311e4a6a0df4e92c0c1136c2b80174f1ba5254e214c7ba9c4828af15e2ec",
+      "archiveName": "workspace/examples/tiktok/editor/editor-bridge/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/tiktok/media/Cargo.toml",
+      "bytes": 268,
+      "sha256": "17092a43f5c63778930c0e55424c5ebfa38777d4efb8b7e8be727c0d7a5f18a0",
+      "archiveName": "workspace/examples/tiktok/media/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/tiktok/media/lib.rs",
+      "bytes": 107,
+      "sha256": "9f339f38e2f29a2f472efdcc0176172f358e478a204fdd5267f337788c310f9d",
+      "archiveName": "workspace/examples/tiktok/media/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/tiktok/src/lib.rs",
+      "bytes": 35,
+      "sha256": "4da582648f46aa8e1dd7b7595b1fbe9df4fe8e7eee4cf0e30566dc5c7366db54",
+      "archiveName": "workspace/examples/tiktok/src/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/tiktok/src/main.rs",
+      "bytes": 1182,
+      "sha256": "f74e39d6e8f8d45be2f77667b82a4ef4721fb04e048ed4fc4be59b56e478afce",
+      "archiveName": "workspace/examples/tiktok/src/main.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/examples/tiktok/src/tiktok.rs",
+      "bytes": 6601,
+      "sha256": "c8715f01e3bff889233cdc140d73d293f5a95ab08887cda73efb650bf6b558c1",
+      "archiveName": "workspace/examples/tiktok/src/tiktok.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/fframes-editor-controller/Cargo.toml",
+      "bytes": 815,
+      "sha256": "bb8f1089b390cc5842f6cf7945474b1d573931d4cfa53c71ea28831dcae071e1",
+      "archiveName": "workspace/fframes-editor-controller/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/fframes-editor-controller/src/impl_wasm_bridge_macro.rs",
+      "bytes": 4159,
+      "sha256": "0dc17de9f5fe0be18f9cf55a04d63dec5a5ed26c1bbe8bba1af93add66aa419e",
+      "archiveName": "workspace/fframes-editor-controller/src/impl_wasm_bridge_macro.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/fframes-editor-controller/src/lib.rs",
+      "bytes": 811,
+      "sha256": "79ddac0cb13195324e0b63dd522441d0630adcf1e9c7660ee2be4e8964f035c7",
+      "archiveName": "workspace/fframes-editor-controller/src/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/fframes-editor-controller/src/video_metadata.rs",
+      "bytes": 2187,
+      "sha256": "c6b5eb80331651750e9045848761a6c15c7f81fc6f5685a1549621cf4dde6fc6",
+      "archiveName": "workspace/fframes-editor-controller/src/video_metadata.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/fframes-editor-controller/src/wasm_audio.rs",
+      "bytes": 6179,
+      "sha256": "4c29ccdad56a319633331cfd29dd2491484f9e1f5bc0aa7e7d3957e3290e4a56",
+      "archiveName": "workspace/fframes-editor-controller/src/wasm_audio.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/fframes-editor-controller/src/wasm_editor.rs",
+      "bytes": 11927,
+      "sha256": "9d4248b4021134db3b7172518b99fe23ad293c0c372760974b1a6f0eb86e1855",
+      "archiveName": "workspace/fframes-editor-controller/src/wasm_editor.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/fframes-editor-controller/src/wasm_font_source.rs",
+      "bytes": 6344,
+      "sha256": "118f233f66870aa83e564ac30f0326b216eb7a530e82a140ced7e943be7adfbe",
+      "archiveName": "workspace/fframes-editor-controller/src/wasm_font_source.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/fframes-lyon-renderer/Cargo.toml",
+      "bytes": 335,
+      "sha256": "f389807c44bcd9a0478c398e6103614ddb2bc993c1ee07890c35c971ac6fcefd",
+      "archiveName": "workspace/fframes-lyon-renderer/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/fframes-lyon-renderer/src/gpu_render_backend.rs",
+      "bytes": 20427,
+      "sha256": "a69ec3c16d8789ec0eeb31747cd1af6b745fbd48b7f07fe2b14e066e15ea2a06",
+      "archiveName": "workspace/fframes-lyon-renderer/src/gpu_render_backend.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/fframes-lyon-renderer/src/lib.rs",
+      "bytes": 73,
+      "sha256": "c06a1dcb86926acf9425a60e24f873be57b56d1dced38029886d3e45e84bcfdc",
+      "archiveName": "workspace/fframes-lyon-renderer/src/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/fframes-lyon-renderer/src/tessellator.rs",
+      "bytes": 9437,
+      "sha256": "cba6980f2dc2594b8704c4d68fee8f59f6f5a4028d6754cf2cd74c34d4053c46",
+      "archiveName": "workspace/fframes-lyon-renderer/src/tessellator.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/fframes-native-player/Cargo.toml",
+      "bytes": 1145,
+      "sha256": "74b11d69c7f11aadb7ea37e21671bcf6ace5a6536e5442bffab13db8104445ae",
+      "archiveName": "workspace/fframes-native-player/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/fframes-native-player/examples/audio_sync.rs",
+      "bytes": 3102,
+      "sha256": "9db63034d4ee8f9ac5678d3c6b40abedb36457d4768134ba72504f308180275a",
+      "archiveName": "workspace/fframes-native-player/examples/audio_sync.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/fframes-native-player/examples/hello_world.rs",
+      "bytes": 576,
+      "sha256": "b84ae3ef8b041c1f1393c64abb7827eb75d7df1d4d797a1941b78d8d61797826",
+      "archiveName": "workspace/fframes-native-player/examples/hello_world.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/fframes-native-player/src/app.rs",
+      "bytes": 17052,
+      "sha256": "d064d8d0ee59e0ecb6b8440829d634641d744e81de3f81c268087d8e6a4fb5a0",
+      "archiveName": "workspace/fframes-native-player/src/app.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/fframes-native-player/src/audio.rs",
+      "bytes": 7699,
+      "sha256": "074c3484f53fe3e039530b96e5ac096870f7fd266d70af630a5f04d53de5204e",
+      "archiveName": "workspace/fframes-native-player/src/audio.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/fframes-native-player/src/controls.rs",
+      "bytes": 18203,
+      "sha256": "8599e98010b2caefd69ee57e72a732754b5d56f57f440e9ce9dc8d583416e988",
+      "archiveName": "workspace/fframes-native-player/src/controls.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/fframes-native-player/src/error.rs",
+      "bytes": 1593,
+      "sha256": "9ef4c4037e27db4a482713b9244b36e001d2a3d4a494cf5e643bb449927e7ba1",
+      "archiveName": "workspace/fframes-native-player/src/error.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/fframes-native-player/src/icons.rs",
+      "bytes": 4987,
+      "sha256": "ca9a8c8f58887b48e60d271eedb54d8bcf593e0e613e9cf97d3e9d1307c48a28",
+      "archiveName": "workspace/fframes-native-player/src/icons.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/fframes-native-player/src/lib.rs",
+      "bytes": 8192,
+      "sha256": "12224a83e229bc14ac2eaf1c5bd0db4668f8ffe67738b5831e1d61b32b62286c",
+      "archiveName": "workspace/fframes-native-player/src/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/fframes-native-player/src/options.rs",
+      "bytes": 2570,
+      "sha256": "69e8b4865741e6bb2eec2e6b069dac377235c7c561b01638b832c6892a3baf27",
+      "archiveName": "workspace/fframes-native-player/src/options.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/fframes-native-player/src/presenter.rs",
+      "bytes": 8280,
+      "sha256": "eb0ad9ad448986175ad2ceefabc2ed360392200322308829dbcebd1241419563",
+      "archiveName": "workspace/fframes-native-player/src/presenter.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/fframes-native-player/src/scheduler.rs",
+      "bytes": 6625,
+      "sha256": "1b09c546cd3624de9b97ee59edebdbfdd65c569683a95e201bf6ff715d588186",
+      "archiveName": "workspace/fframes-native-player/src/scheduler.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/fframes-test-utils/Cargo.lock",
+      "bytes": 19275,
+      "sha256": "e47e16742ee93bbe40cabf8f00b6699c326b65c8fa0485c511ac4d94d24f0929",
+      "archiveName": "workspace/fframes-test-utils/Cargo.lock"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/fframes-test-utils/Cargo.toml",
+      "bytes": 386,
+      "sha256": "67e41e21b09a011fa9ec2ae1e4e82359411c5f2a77d23a434593d5aa575a132e",
+      "archiveName": "workspace/fframes-test-utils/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/fframes-test-utils/src/lib.rs",
+      "bytes": 2514,
+      "sha256": "a0898ce9ab576080ba4f10dab7885d2982b31f4bc6b3341485d38303aa1a7728",
+      "archiveName": "workspace/fframes-test-utils/src/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/fframes-test-utils/src/static_hash_spec.rs",
+      "bytes": 6290,
+      "sha256": "7826d07a8f917ab44fe6a064a1af18349d11aacd46b66a06afccc681760ff2de",
+      "archiveName": "workspace/fframes-test-utils/src/static_hash_spec.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/fframes-test-utils/src/svgr_spec.rs",
+      "bytes": 18990,
+      "sha256": "4e5f6532e6e090a84fd19fc6598a9b7cadd9aa443c6c3518376d67c131879af5",
+      "archiveName": "workspace/fframes-test-utils/src/svgr_spec.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/media-dir-macro/Cargo.lock",
+      "bytes": 1120,
+      "sha256": "4f293a71cbe603ae41e1e6769ed9de8758c2a52733b1150f524c371d1947e561",
+      "archiveName": "workspace/media-dir-macro/Cargo.lock"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/media-dir-macro/Cargo.toml",
+      "bytes": 864,
+      "sha256": "1b272dfb0d656d725191441b1f296739b97d392670aa0421f72f0618fea08775",
+      "archiveName": "workspace/media-dir-macro/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/media-dir-macro/src/lib.rs",
+      "bytes": 19365,
+      "sha256": "34da2fdabcc60bec70bdfebb5d894f1f9178b8880e2a574a558464707a2eaea5",
+      "archiveName": "workspace/media-dir-macro/src/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/media-dir-macro/src/parser.rs",
+      "bytes": 925,
+      "sha256": "282095809488899288352883f16846c7cf1dc01eba90fb84c8bc7d63952af242",
+      "archiveName": "workspace/media-dir-macro/src/parser.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/svgr-macro/Cargo.lock",
+      "bytes": 21377,
+      "sha256": "33564f7e6328c7dfeff22454ce978433d2095da7d6ebf37ebd8e4839643dc876",
+      "archiveName": "workspace/svgr-macro/Cargo.lock"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/svgr-macro/Cargo.toml",
+      "bytes": 550,
+      "sha256": "11b68ed90660d382133297db71ce1ef7f0d62fedf40dba648e98b601afac5fcd",
+      "archiveName": "workspace/svgr-macro/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/svgr-macro/src/lib.rs",
+      "bytes": 3214,
+      "sha256": "84bb202fc7008bd27efcb1dd5a243ca1b262db35f9e4b890896124f907113041",
+      "archiveName": "workspace/svgr-macro/src/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/svgr-macro/src/node.rs",
+      "bytes": 6563,
+      "sha256": "9038ef6dee87c14ec96b094b0fce78a737235882851c688b176e6dba8d947bf9",
+      "archiveName": "workspace/svgr-macro/src/node.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/svgr-macro/src/nodes_to_format.rs",
+      "bytes": 1993,
+      "sha256": "c8377c7529e211b11b95f1fbb0876f67489e2250fad7f1b916c2307cd01c927e",
+      "archiveName": "workspace/svgr-macro/src/nodes_to_format.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/svgr-macro/src/nodes_to_svgtree.rs",
+      "bytes": 33795,
+      "sha256": "7413d500e72cc66310ffeff921239c9bcde052d3ad00839379acaa1492b79703",
+      "archiveName": "workspace/svgr-macro/src/nodes_to_svgtree.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/svgr-macro/src/parser.rs",
+      "bytes": 18090,
+      "sha256": "48ebfa5db00b5c17d90bc5aea54478a75756b96f3fd8c0912bfb979903d954cc",
+      "archiveName": "workspace/svgr-macro/src/parser.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/webvtt-parser/Cargo.lock",
+      "bytes": 1264,
+      "sha256": "5d96fca7cf620d0e52b35983152c463970dd30dc2a16969e5b2e0532c7c8fd75",
+      "archiveName": "workspace/webvtt-parser/Cargo.lock"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/webvtt-parser/Cargo.toml",
+      "bytes": 308,
+      "sha256": "c78b1ef8a2e72da24a7fe41de6fbd28af0e6ec7e9312a76e235a87e254ee16b3",
+      "archiveName": "workspace/webvtt-parser/Cargo.toml"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/webvtt-parser/src/cue_settings_parser.rs",
+      "bytes": 3201,
+      "sha256": "69ba4581e5d76fd901d55fa01560c94a10dc5125587c38cd9e08447c6d636b70",
+      "archiveName": "workspace/webvtt-parser/src/cue_settings_parser.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/webvtt-parser/src/error.rs",
+      "bytes": 3402,
+      "sha256": "6f7202e915dcd896224c1209d7695835be3ecb1a890b7c26986317cb5394d56b",
+      "archiveName": "workspace/webvtt-parser/src/error.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/webvtt-parser/src/lib.rs",
+      "bytes": 21797,
+      "sha256": "7b03f359eff7e3a8c2996ceb65043915d6181544d86537b8920ef50be7857ffc",
+      "archiveName": "workspace/webvtt-parser/src/lib.rs"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-concurrent-nv12/webvtt-parser/src/vtt_parser.rs",
+      "bytes": 4302,
+      "sha256": "0c11540dbd643fa541b96b9026263fcc8dd64755d95757ff4cb982ff9266cecf",
+      "archiveName": "workspace/webvtt-parser/src/vtt_parser.rs"
+    }
+  ],
+  "entries": 278,
+  "archive": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/dependency-source-overlay.zip",
+    "bytes": 1024684,
+    "sha256": "1e4dda8238fac5f2df1addeb4ec257289a41fd3283361cfa6d1f8c50d932434b"
+  },
+  "fullCheckoutRequired": true,
+  "baseCommit": "task-owned original same-stream capture over f89cbd572524b70a709ba3569fa23b0bbc8a0d9c",
+  "optimizedSvgr": "1c2a088217eb3365e965fd8dbd62acf265a07d33"
+}

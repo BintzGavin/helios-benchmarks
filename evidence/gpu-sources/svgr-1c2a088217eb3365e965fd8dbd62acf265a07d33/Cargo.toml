@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "crates/svgr",
+    "crates/usvgr",
+    "crates/c-api",
+]
+default-members = ["crates/svgr"]
+resolver = "2"

@@ -1,0 +1,35 @@
+{
+  "inputs": {
+    "medium": {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/local-driver/results/baseline-v1/medium-timed-1/output.mp4",
+      "bytes": 143109303,
+      "sha256": "207d74a366880dea3ecab92a0e9970365887c1f99a4d08e6b2b381581f7365e1"
+    },
+    "ultrafast": {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/local-driver/results/baseline-v1/ultrafast-timed-1/output.mp4",
+      "bytes": 196211916,
+      "sha256": "67110a23e7d7602d9e003577931b9e6294bef76a6a6afc01077ce3b13f64fb1d"
+    }
+  },
+  "rounds": 3,
+  "threads": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "command_template": [
+    "/opt/homebrew/bin/ffprobe",
+    "-v",
+    "error",
+    "-threads",
+    "{threads}",
+    "-count_frames",
+    "-show_streams",
+    "-show_format",
+    "-of",
+    "json",
+    "{input}"
+  ],
+  "timer": "perf_counter_ns"
+}

@@ -1,0 +1,52 @@
+{
+  "producerCommand": [
+    "/Users/gavinbintz/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+    "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/quality-measurement-v1/results/full-v1/reference-source.mjs",
+    "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/quality-measurement-v1/results/full-v1/references/H/reference-request.json"
+  ],
+  "consumerCommand": [
+    "/opt/homebrew/bin/ffmpeg",
+    "-v",
+    "error",
+    "-nostdin",
+    "-n",
+    "-threads",
+    "4",
+    "-filter_threads",
+    "1",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgba",
+    "-video_size",
+    "1920x1080",
+    "-framerate",
+    "30",
+    "-i",
+    "pipe:0",
+    "-vf",
+    "scale=out_color_matrix=bt601:out_range=tv,format=yuv420p",
+    "-an",
+    "-c:v",
+    "ffv1",
+    "-level",
+    "3",
+    "-g",
+    "1",
+    "-threads",
+    "4",
+    "-pix_fmt",
+    "yuv420p",
+    "-colorspace",
+    "smpte170m",
+    "-color_range",
+    "tv",
+    "-fs",
+    "1153433600",
+    "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/quality-measurement-v1/results/full-v1/references/H/reference.nut"
+  ],
+  "exitCodes": {
+    "producer": 0,
+    "consumer": 0
+  }
+}

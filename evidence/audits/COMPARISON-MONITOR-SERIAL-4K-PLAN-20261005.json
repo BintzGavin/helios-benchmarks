@@ -1,0 +1,67 @@
+{
+  "createdUnix": 1791158468.257681,
+  "status": "frozen next-plan pins/resource arithmetic pass; launch remains disabled",
+  "deliveryPins": [
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/serial-4k-qualification-plan-20261005/FINAL-REPORT.json",
+      "bytes": 3030,
+      "sha256": "af3a9e30b93ad7841dfd5f7c52735d423d77ed303e963f83392ca3d7f8498978"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/serial-4k-qualification-plan-20261005/RECEIPT-MANIFEST.json",
+      "bytes": 2151,
+      "sha256": "011d2cedc03ad5a7a8a473351da500a06935ad76ae3f5d6d22c439c8b8526253"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/serial-4k-qualification-plan-source-receipts-20261005.zip",
+      "bytes": 438705,
+      "sha256": "35c8c72ef7b995711a8a59982b4908b8a2d5a78e3b7d93c8c5a575d59d9a6214"
+    }
+  ],
+  "manifest": {
+    "files": 13,
+    "bytes": 550058,
+    "allPinsMatch": true
+  },
+  "exactInputs": 187,
+  "allExactInputPinsMatch": true,
+  "archives": [
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/serial-4k-qualification-plan-20261005/source.zip",
+      "bytes": 391318,
+      "sha256": "8332de24d8374a488f42ec3224f8246044522da0d525b97632f733a69479202a",
+      "members": 160,
+      "CRCpassed": true
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/serial-4k-qualification-plan-source-receipts-20261005.zip",
+      "bytes": 438705,
+      "sha256": "35c8c72ef7b995711a8a59982b4908b8a2d5a78e3b7d93c8c5a575d59d9a6214",
+      "members": 14,
+      "CRCpassed": true
+    }
+  ],
+  "firstLane": "H-metal-hevc",
+  "laneIds": [
+    "H-metal-hevc",
+    "H-metal-h264",
+    "F-modified-concurrent-h264",
+    "H-vulkan-h264",
+    "H-vulkan-hevc"
+  ],
+  "scene": "Circles99kText1k",
+  "all300UnchangedFloorsCadenceColorGOPRequired": true,
+  "protocolCodecHelperCommandsMatch": true,
+  "nativePool": 3,
+  "FPoolPerContext": 64,
+  "retainedRawPeakBudgetBytes": 9503842304,
+  "activeSerialGateBytes": 9663676416,
+  "balancedGateBytes": 16106127360,
+  "streamingProposedGateBytes": 6442450944,
+  "streamingEnabled": false,
+  "launcherIntegrationQualified": false,
+  "resourceGateSupersedesEarlier6And12GiBEstimates": true,
+  "ownerRetainsHarnessAndConformance": true,
+  "newBuildExportDecodeTiming": false,
+  "broadObjectiveComplete": false
+}

@@ -1,0 +1,113 @@
+{
+  "schema": 1,
+  "created_utc": "2026-10-03T02:14:30.245575+00:00",
+  "system": "Darwin",
+  "devices": [],
+  "physical_gpu_observed": true,
+  "inventory": {
+    "uname": {
+      "argv": [
+        "uname",
+        "-a"
+      ],
+      "returncode": 0,
+      "stdout": "Darwin Gavins-MacBook-Pro.local 25.3.0 Darwin Kernel Version 25.3.0: Wed Jan 28 20:54:22 PST 2026; root:xnu-12377.81.4~5/RELEASE_ARM64_T6030 arm64\n",
+      "stderr": ""
+    },
+    "ffmpeg": {
+      "argv": [
+        "ffmpeg",
+        "-version"
+      ],
+      "returncode": 0,
+      "stdout": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers\nbuilt with Apple clang version 21.0.0 (clang-2100.3.34.2)\nconfiguration: --prefix=/opt/homebrew/Cellar/ffmpeg/9.0.2 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gpl --enable-libsvtav1 --enable-libopus --enable-libx264 --enable-libmp3lame --enable-libdav1d --enable-libvmaf --enable-libvpx --enable-libx265 --enable-openssl --enable-videotoolbox --enable-audiotoolbox --enable-neon\nlibavutil      61.  1.102 / 61.  1.102\nlibavcodec     63.  1.102 / 63.  1.102\nlibavformat    63.  1.102 / 63.  1.102\nlibavdevice    63.  1.102 / 63.  1.102\nlibavfilter    12.  1.102 / 12.  1.102\nlibswscale     10.  1.102 / 10.  1.102\nlibswresample   7.  1.102 /  7.  1.102\n\nExiting with exit code 0\n",
+      "stderr": ""
+    },
+    "encoders": {
+      "argv": [
+        "ffmpeg",
+        "-hide_banner",
+        "-encoders"
+      ],
+      "returncode": 0,
+      "stdout": "Encoders:\n V..... = Video\n A..... = Audio\n S..... = Subtitle\n .F.... = Frame-level multithreading\n ..S... = Slice-level multithreading\n ...X.. = Codec is experimental\n ....B. = Supports draw_horiz_band\n .....D = Supports direct rendering method 1\n ------\n V....D a64multi             Multicolor charset for Commodore 64 (codec a64_multi)\n V....D a64multi5            Multicolor charset for Commodore 64, extended with 5th color (colram) (codec a64_multi5)\n V....D alias_pix            Alias/Wavefront PIX image\n V....D amv                  AMV Video\n V....D apng                 APNG (Animated Portable Network Graphics) image\n V....D asv1                 ASUS V1\n V....D asv2                 ASUS V2\n V..... libsvtav1            SVT-AV1(Scalable Video Technology for AV1) encoder (codec av1)\n V....D avrp                 Avid 1:1 10-bit RGB Packer\n V..X.D avui                 Avid Meridien Uncompressed\n VF...D bitpacked            Bitpacked\n V....D bmp                  BMP (Windows and OS/2 bitmap)\n VF...D cfhd                 GoPro CineForm HD\n V....D cinepak              Cinepak\n V....D cljr                 Cirrus Logic AccuPak\n V.S..D vc2                  SMPTE VC-2 (codec dirac)\n VFS..D dnxhd                VC3/DNxHD\n V....D dpx                  DPX (Digital Picture Exchange) image\n VFS..D dvvideo              DV (Digital Video)\n VFS..D dxv                  Resolume DXV\n VF...D exr                  OpenEXR image\n V.S..D ffv1                 FFmpeg video codec #1\n VF...D ffvhuff              Huffyuv FFmpeg variant\n V....D fits                 Flexible Image Transport System\n V....D flashsv              Flash Screen Video\n V....D flashsv2             Flash Screen Video Version 2\n V....D flv                  FLV / Sorenson Spark / Sorenson H.263 (Flash Video) (codec flv1)\n V....D gif                  GIF (Graphics Interchange Format)\n V....D h261                 H.261\n V....D h263                 H.263 / H.263-1996\n V.S..D h263p                H.263+ / H.263-1998 / H.263 version 2\n V....D libx264              libx264 H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10 (codec h264)\n V....D libx264rgb           libx264 H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10 RGB (codec h264)\n V....D h264_videotoolbox    VideoToolbox H.264 Encoder (codec h264)\n VF...D hdr                  HDR (Radiance RGBE format) image\n V....D libx265              libx265 H.265 / HEVC (codec hevc)\n V....D hevc_videotoolbox    VideoToolbox H.265 Encoder (codec hevc)\n VF...D huffyuv              Huffyuv / HuffYUV\n VF...D jpeg2000             JPEG 2000\n VF...D jpegls               JPEG-LS\n VF...D ljpeg                Lossless JPEG\n VFS..D magicyuv             MagicYUV video\n VFS..D mjpeg                MJPEG (Motion JPEG)\n V.S..D mpeg1video           MPEG-1 video\n V.S..D mpeg2video           MPEG-2 video\n V.S..D mpeg4                MPEG-4 part 2\n V....D msmpeg4v2            MPEG-4 part 2 Microsoft variant version 2\n V....D msmpeg4              MPEG-4 part 2 Microsoft variant version 3 (codec msmpeg4v3)\n V....D msrle                Microsoft RLE\n V..... msvideo1             Microsoft Video-1\n V....D pam                  PAM (Portable AnyMap) image\n V....D pbm                  PBM (Portable BitMap) image\n V....D pcx                  PC Paintbrush PCX image\n V..X.D pdv                  PDV (PlayDate Video)\n V....D pfm                  PFM (Portable FloatMap) image\n V....D pgm                  PGM (Portable GrayMap) image\n V....D pgmyuv               PGMYUV (Portable GrayMap YUV) image\n V....D phm                  PHM (Portable HalfFloatMap) image\n VF...D png                  PNG (Portable Network Graphics) image\n V....D ppm                  PPM (Portable PixelMap) image\n VF...D prores               Apple ProRes\n VF...D prores_aw            Apple ProRes (codec prores)\n VFS... prores_ks            Apple ProRes (iCodec Pro) (codec prores)\n V....D prores_videotoolbox  VideoToolbox ProRes Encoder (codec prores)\n VF...D qoi                  QOI (Quite OK Image format) image\n V....D qtrle                QuickTime Animation (RLE) video\n V....D r10k                 AJA Kona 10-bit RGB Codec\n V....D r210                 Uncompressed RGB 10-bit\n VF...D rawvideo             raw video\n V....D roqvideo             id RoQ video (codec roq)\n V....D rpza                 QuickTime video (RPZA)\n V....D rv10                 RealVideo 1.0\n V....D rv20                 RealVideo 2.0\n V....D sgi                  SGI image\n V....D smc                  QuickTime Graphics (SMC)\n V....D snow                 Snow\n V....D speedhq              NewTek SpeedHQ\n V....D sunrast              Sun Rasterfile image\n V....D svq1                 Sorenson Vector Quantizer 1 / Sorenson Video 1 / SVQ1\n V....D targa                Truevision Targa image\n VF...D tiff                 TIFF image\n VF...D utvideo              Ut Video\n VF...D v210                 Uncompressed 4:2:2 10-bit\n V.S..D vbn                  Vizrt Binary Image\n V..... vnull                null video\n V....D libvpx               libvpx VP8 (codec vp8)\n V....D libvpx-vp9           libvpx VP9 (codec vp9)\n VF...D wbmp                 WBMP (Wireless Application Protocol Bitmap) image\n V....D wmv1                 Windows Media Video 7\n V....D wmv2                 Windows Media Video 8\n V..... wrapped_avframe      AVFrame to AVPacket passthrough\n V....D xbm                  XBM (X BitMap) image\n V....D xface                X-face image\n V....D xwd                  XWD (X Window Dump) image\n V....D y41p                 Uncompressed YUV 4:1:1 12-bit\n V....D yuv4                 Uncompressed packed 4:2:0\n VF...D zlib                 LCL (LossLess Codec Library) ZLIB\n V....D zmbv                 Zip Motion Blocks Video\n A....D aac                  AAC (Advanced Audio Coding)\n A..... aac_at               aac (AudioToolbox) (codec aac)\n A....D ac3                  ATSC A/52A (AC-3)\n A....D ac3_fixed            ATSC A/52A (AC-3) (codec ac3)\n A....D adpcm_adx            SEGA CRI ADX ADPCM\n A....D adpcm_argo           ADPCM Argonaut Games\n A....D g722                 G.722 ADPCM (codec adpcm_g722)\n A....D g726                 G.726 ADPCM (codec adpcm_g726)\n A....D g726le               G.726 little endian ADPCM (\"right-justified\") (codec adpcm_g726le)\n A....D adpcm_ima_alp        ADPCM IMA High Voltage Software ALP\n A....D adpcm_ima_amv        ADPCM IMA AMV\n A....D adpcm_ima_apm        ADPCM IMA Ubisoft APM\n A....D adpcm_ima_qt         ADPCM IMA QuickTime\n A....D adpcm_ima_ssi        ADPCM IMA Simon & Schuster Interactive\n A....D adpcm_ima_wav        ADPCM IMA WAV\n A....D adpcm_ima_ws         ADPCM IMA Westwood\n A....D adpcm_ms             ADPCM Microsoft\n A....D adpcm_swf            ADPCM Shockwave Flash\n A....D adpcm_yamaha         ADPCM Yamaha\n A....D alac                 ALAC (Apple Lossless Audio Codec)\n A..... alac_at              alac (AudioToolbox) (codec alac)\n A..... anull                null audio\n A....D aptx                 aptX (Audio Processing Technology for Bluetooth)\n A....D aptx_hd              aptX HD (Audio Processing Technology for Bluetooth)\n A....D comfortnoise         RFC 3389 comfort noise generator\n A....D dfpwm                DFPWM1a audio\n A..X.D dca                  DCA (DTS Coherent Acoustics) (codec dts)\n A....D eac3                 ATSC A/52 E-AC-3\n A....D flac                 FLAC (Free Lossless Audio Codec)\n A....D g723_1               G.723.1\n A..... ilbc_at              ilbc (AudioToolbox) (codec ilbc)\n A..X.D mlp                  MLP (Meridian Lossless Packing)\n A....D mp2                  MP2 (MPEG audio layer 2)\n A....D mp2fixed             MP2 fixed point (MPEG audio layer 2) (codec mp2)\n A....D libmp3lame           libmp3lame MP3 (MPEG audio layer 3) (codec mp3)\n A....D nellymoser           Nellymoser Asao\n A..X.D opus                 Opus\n A....D libopus              libopus Opus (codec opus)\n A....D pcm_alaw             PCM A-law / G.711 A-law\n A..... pcm_alaw_at          pcm_alaw (AudioToolbox) (codec pcm_alaw)\n A....D pcm_bluray           PCM signed 16|20|24-bit big-endian for Blu-ray media\n A....D pcm_dvd              PCM signed 16|20|24-bit big-endian for DVD media\n A....D pcm_f32be            PCM 32-bit floating point big-endian\n A....D pcm_f32le            PCM 32-bit floating point little-endian\n A....D pcm_f64be            PCM 64-bit floating point big-endian\n A....D pcm_f64le            PCM 64-bit floating point little-endian\n A....D pcm_mulaw            PCM mu-law / G.711 mu-law\n A..... pcm_mulaw_at         pcm_mulaw (AudioToolbox) (codec pcm_mulaw)\n A....D pcm_s16be            PCM signed 16-bit big-endian\n A....D pcm_s16be_planar     PCM signed 16-bit big-endian planar\n A....D pcm_s16le            PCM signed 16-bit little-endian\n A....D pcm_s16le_planar     PCM signed 16-bit little-endian planar\n A....D pcm_s24be            PCM signed 24-bit big-endian\n A....D pcm_s24daud          PCM D-Cinema audio signed 24-bit\n A....D pcm_s24le            PCM signed 24-bit little-endian\n A....D pcm_s24le_planar     PCM signed 24-bit little-endian planar\n A....D pcm_s32be            PCM signed 32-bit big-endian\n A....D pcm_s32le            PCM signed 32-bit little-endian\n A....D pcm_s32le_planar     PCM signed 32-bit little-endian planar\n A....D pcm_s64be            PCM signed 64-bit big-endian\n A....D pcm_s64le            PCM signed 64-bit little-endian\n A....D pcm_s8               PCM signed 8-bit\n A....D pcm_s8_planar        PCM signed 8-bit planar\n A....D pcm_u16be            PCM unsigned 16-bit big-endian\n A....D pcm_u16le            PCM unsigned 16-bit little-endian\n A....D pcm_u24be            PCM unsigned 24-bit big-endian\n A....D pcm_u24le            PCM unsigned 24-bit little-endian\n A....D pcm_u32be            PCM unsigned 32-bit big-endian\n A....D pcm_u32le            PCM unsigned 32-bit little-endian\n A....D pcm_u8               PCM unsigned 8-bit\n A....D pcm_vidc             PCM Archimedes VIDC\n A....D real_144             RealAudio 1.0 (14.4K) (codec ra_144)\n A....D roq_dpcm             id RoQ DPCM\n A..X.D s302m                SMPTE 302M\n A....D sbc                  SBC (low-complexity subband codec)\n A..X.D truehd               TrueHD\n A....D tta                  TTA (True Audio)\n A..X.D vorbis               Vorbis\n A....D wavpack              WavPack\n A....D wmav1                Windows Media Audio 1\n A....D wmav2                Windows Media Audio 2\n S..... ssa                  ASS (Advanced SubStation Alpha) subtitle (codec ass)\n S..... ass                  ASS (Advanced SubStation Alpha) subtitle\n S..... dvbsub               DVB subtitles (codec dvb_subtitle)\n S..... dvdsub               DVD subtitles (codec dvd_subtitle)\n S..... mov_text             3GPP Timed Text subtitle\n S..... srt                  SubRip subtitle (codec subrip)\n S..... subrip               SubRip subtitle\n S..... text                 Raw text subtitle\n S..... ttml                 TTML subtitle\n S..... webvtt               WebVTT subtitle\n S..... xsub                 DivX subtitles (XSUB)\n",
+      "stderr": ""
+    },
+    "displays": {
+      "argv": [
+        "system_profiler",
+        "SPDisplaysDataType",
+        "-json"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"SPDisplaysDataType\" : [\n    {\n      \"_name\" : \"Apple M3 Pro\",\n      \"spdisplays_mtlgpufamilysupport\" : \"spdisplays_metal4\",\n      \"spdisplays_ndrvs\" : [\n        {\n          \"_name\" : \"Color LCD\",\n          \"_spdisplays_display-product-id\" : \"a04e\",\n          \"_spdisplays_display-serial-number\" : \"fd626d62\",\n          \"_spdisplays_display-vendor-id\" : \"610\",\n          \"_spdisplays_display-week\" : \"0\",\n          \"_spdisplays_display-year\" : \"0\",\n          \"_spdisplays_displayID\" : \"1\",\n          \"_spdisplays_pixels\" : \"3024 x 1964\",\n          \"_spdisplays_resolution\" : \"1512 x 982 @ 120.00Hz\",\n          \"spdisplays_ambient_brightness\" : \"spdisplays_yes\",\n          \"spdisplays_connection_type\" : \"spdisplays_internal\",\n          \"spdisplays_display_type\" : \"spdisplays_built-in-liquid-retina-xdr\",\n          \"spdisplays_main\" : \"spdisplays_yes\",\n          \"spdisplays_mirror\" : \"spdisplays_off\",\n          \"spdisplays_online\" : \"spdisplays_yes\",\n          \"spdisplays_pixelresolution\" : \"spdisplays_3024x1964Retina\"\n        }\n      ],\n      \"spdisplays_vendor\" : \"sppci_vendor_Apple\",\n      \"sppci_bus\" : \"spdisplays_builtin\",\n      \"sppci_cores\" : \"14\",\n      \"sppci_device_type\" : \"spdisplays_gpu\",\n      \"sppci_model\" : \"Apple M3 Pro\"\n    }\n  ]\n}",
+      "stderr": ""
+    }
+  },
+  "encoder_probes": [
+    {
+      "codec": "h264_videotoolbox",
+      "encode_succeeded": true,
+      "hardware_qualified": true,
+      "process": {
+        "argv": [
+          "ffmpeg",
+          "-hide_banner",
+          "-loglevel",
+          "error",
+          "-y",
+          "-f",
+          "lavfi",
+          "-i",
+          "testsrc2=size=128x128:rate=30",
+          "-frames:v",
+          "2",
+          "-c:v",
+          "h264_videotoolbox",
+          "-allow_sw",
+          "0",
+          "/tmp/helios-gpu-probe-kzrww436/h264_videotoolbox.mp4"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    },
+    {
+      "codec": "hevc_videotoolbox",
+      "encode_succeeded": true,
+      "hardware_qualified": true,
+      "process": {
+        "argv": [
+          "ffmpeg",
+          "-hide_banner",
+          "-loglevel",
+          "error",
+          "-y",
+          "-f",
+          "lavfi",
+          "-i",
+          "testsrc2=size=128x128:rate=30",
+          "-frames:v",
+          "2",
+          "-c:v",
+          "hevc_videotoolbox",
+          "-allow_sw",
+          "0",
+          "/tmp/helios-gpu-probe-kzrww436/hevc_videotoolbox.mp4"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    }
+  ],
+  "hardware_encoder_available": true,
+  "browser_gpu_attested": false,
+  "notes": [
+    "Encoder registration is not hardware availability.",
+    "Browser renderer GPU use requires separate browser/scene attestation.",
+    "An encode probe validates a backend, not benchmark speed, fidelity, or another engine's use of that backend.",
+    "No software rasterizer or software encoder fallback counts as a GPU result."
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "excluded": true,
+  "reason": "FFV1 reference process hit ENOSPC; Python stdin BrokenPipe; export clocks/candidates/NV12 source preserved",
+  "referencePath": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/circles300/reference-direct-nv12.mkv",
+  "bytes": 485490688,
+  "referenceSha256": "6fc24bf0cb665cb32d0582ec6e5588d7e8ddf6078446d36001cd310ce9c910a4",
+  "stderr": "[vost#0:0/ffv1 @ 0xc2ac28000] Error submitting a packet to the muxer: No space left on device\n    Last message repeated 1 times\n[out#0/matroska @ 0xc2b024180] Error muxing a packet\n[out#0/matroska @ 0xc2b024180] Task finished with error code: -28 (No space left on device)\n[out#0/matroska @ 0xc2b024180] Terminating thread with return code -28 (No space left on device)\n[out#0/matroska @ 0xc2b024180] Error writing trailer: No space left on device\n[out#0/matroska @ 0xc2b024180] Error closing file: No space left on device\n",
+  "qualifierSha256": "290b97debffe90777dc9aa97e54023bd991bce2c18945ea74ccbf5266a154e04",
+  "captureRepeating": false
+}

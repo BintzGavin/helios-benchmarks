@@ -1,0 +1,79 @@
+{
+  "engine": "F",
+  "mode": "reference-hardware",
+  "frames": 300,
+  "bitrate": 8000000,
+  "sourceFrameRange": [
+    3,
+    303
+  ],
+  "gop": 30,
+  "scene": "Circles99kText1k",
+  "fontSha256": "9ae2da663d64342031e59b5fa680dd355171d021b7ebf83774efc7c0330ae7b5",
+  "executableSha256": "9235fb93063e5650da61b156666fbfabc5b1714b5439e5f7c217fbc949cc54bd",
+  "commands": [
+    {
+      "command": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-circles-claim/release/circles-adapter",
+      "args": [
+        "raw-hardware",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-reference-f/reference.mkv",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/font",
+        "300",
+        "8000000"
+      ]
+    },
+    {
+      "command": "/opt/homebrew/bin/ffmpeg",
+      "args": [
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-y",
+        "-filter_threads",
+        "1",
+        "-f",
+        "rawvideo",
+        "-pix_fmt",
+        "bgra",
+        "-s",
+        "3840x2160",
+        "-r",
+        "30",
+        "-i",
+        "pipe:0",
+        "-vf",
+        "scale=out_color_matrix=bt601:out_range=tv,format=yuv420p",
+        "-c:v",
+        "ffv1",
+        "-level",
+        "3",
+        "-threads",
+        "2",
+        "-colorspace",
+        "smpte170m",
+        "-color_range",
+        "tv",
+        "-frames:v",
+        "300",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-reference-f/reference.mkv"
+      ]
+    }
+  ],
+  "status": "complete",
+  "zeroCopyProved": false,
+  "rawReadback": true,
+  "verificationOwner": "run_matrix.py; one full post-export decode plus independent cadence/fidelity gates",
+  "startedAt": "2026-10-03T16:47:54.379Z",
+  "producer": {
+    "code": 0,
+    "signal": null,
+    "stderr": "[h264_videotoolbox @ 0xbf2e10000] This device does not support the qmax option. Value ignored.\n[h264_videotoolbox @ 0xbf2e10000] This device does not support the qmax option. Value ignored.\n{\"frames\":300,\"mode\":\"raw-hardware\",\"source\":\"actual BGRA hardware frames, explicit reference-only download\",\"zeroCopyProved\":false}\n"
+  },
+  "encoder": {
+    "code": 0,
+    "signal": null,
+    "stderr": ""
+  },
+  "exportMs": 81699.941167,
+  "finishedAt": "2026-10-03T16:49:16.082Z"
+}

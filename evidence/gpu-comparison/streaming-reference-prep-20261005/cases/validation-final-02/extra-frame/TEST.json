@@ -1,0 +1,10 @@
+{
+  "case": "extra-frame",
+  "passed": true,
+  "expectedRefusal": "EXTRA_BYTES",
+  "observedError": "Refusal: EXTRA_BYTES",
+  "secondsExcludedFromBenchmarks": 1.0574279589927755,
+  "sourceUnchanged": true,
+  "GPUExecuted": false,
+  "atomicFinalExists": false
+}

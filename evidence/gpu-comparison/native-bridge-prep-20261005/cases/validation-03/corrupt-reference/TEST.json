@@ -1,0 +1,10 @@
+{
+  "test": "corrupt-reference",
+  "passed": true,
+  "expectedRefusal": "DECODE_SHORT",
+  "observedError": "Refusal:DECODE_SHORT",
+  "secondsExcludedFromBenchmark": 0.21436266601085663,
+  "GPUExecuted": false,
+  "sourceUnchanged": true,
+  "publishedFixtureBinding": false
+}

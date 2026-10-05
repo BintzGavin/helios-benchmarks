@@ -1,0 +1,90 @@
+{
+  "auditedAt": "2026-10-04T19:01:51.275101+00:00",
+  "status": "independent_saved_evidence_audit_passed; original_product_quality_gate_still_failed",
+  "owner": "Compare Helios GPU performance",
+  "ownerCursor": "d0c051ad-a3b2-4641-b3cb-7583ae2a6e2e:24",
+  "rawRoot": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004",
+  "rawManifestSha256": "523dc3231b666803daaf0420956fafe450c60ea002e8eec1fb9df6d6c001c8a4",
+  "rawFilesVerified": 422,
+  "rawBytesVerified": 1929558516,
+  "sourceFilesVerified": 164,
+  "helpers": [
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/circles-handoff-capture",
+      "bytes": 37999408,
+      "sha256": "4b07df0a91edf704b172548332545331f14182712d1d8a5aa2624573e05b2021"
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/handoff-color-controls",
+      "bytes": 36228000,
+      "sha256": "4f42f00b9174d6bbae74d32fdcc98f4215173f46be6be36874d02e2a60ac312e"
+    }
+  ],
+  "priorFilesVerifiedUnchanged": 11,
+  "harnessFilesVerified": 6,
+  "reviewArchive": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/fframes-original-handoff-review-20261004.zip",
+    "bytes": 19102598,
+    "sha256": "37834efd4c807df4a69ee16ade5ea015dfe3036284b33c8c80134d9b75fb1864",
+    "entries": 96,
+    "CRCpassed": true
+  },
+  "sourceArchiveCRCpassed": true,
+  "lanes": [
+    {
+      "lane": "controls",
+      "frames": 36,
+      "ledgerOrderAndIdentityRechecked": true,
+      "allSavedDirectLosslessPairsEqual": true,
+      "allDecodedCadenceColorGopRowsRechecked": true,
+      "minimum": {
+        "Y": 0.999576,
+        "psnr_y": 48.34,
+        "psnr_u": 16.55,
+        "psnr_v": 14.14
+      },
+      "belowFloorFrameCounts": {
+        "psnr_y": 0,
+        "psnr_u": 36,
+        "psnr_v": 36
+      },
+      "qualityPassed": false
+    },
+    {
+      "lane": "circles300",
+      "frames": 300,
+      "ledgerOrderAndIdentityRechecked": true,
+      "allSavedDirectLosslessPairsEqual": true,
+      "allDecodedCadenceColorGopRowsRechecked": true,
+      "minimum": {
+        "Y": 0.999168,
+        "psnr_y": 49.0,
+        "psnr_u": 33.36,
+        "psnr_v": 33.1
+      },
+      "belowFloorFrameCounts": {
+        "psnr_y": 0,
+        "psnr_u": 296,
+        "psnr_v": 300
+      },
+      "qualityPassed": false
+    }
+  ],
+  "controlRawOracle36FramesRecomputed": true,
+  "solidMaximumCodeValueError": 1,
+  "actualEncoderNV12OracleProved": false,
+  "zeroCopyProved": false,
+  "opaqueEncoderOwnershipKnown": false,
+  "newBenchmarkTimingAttempts": 0,
+  "timingWindowOpen": false,
+  "broaderObjectiveComplete": false,
+  "auditScope": "All saved file sizes/SHA and archive CRC, source/helper/harness/prior pins, all frame ledger identities/order, saved direct/lossless hashes, indexed decoded quality/cadence, and small independent control pixels. No 4K regeneration/decompression/export/decoder/timing repeated. Internal VideoToolbox pre-compression NV12 remains unobserved.",
+  "remainingGate": {
+    "originalLane": "Independently specified/validated original encoder conversion and chroma oracle remains unavailable; no public pre-compression VideoToolbox NV12 exposure identified.",
+    "modifiedPipelineOption": "Separately freeze explicit GPU NV12 conversion with production contexts/concurrency and proper lifetime/fences; qualify all300 before timing. Must be labeled modified pipeline, not original product.",
+    "noFurtherOptimizationSelected": true,
+    "full4KHEVCVulkanPerformanceQualificationPending": true,
+    "vulkanPublication": "Native-thread auto-review push destination approval still pending; no push or workaround here."
+  },
+  "finalReportSha256": "cb093e47ee623820e236b58597907ba86ddc70c78c181ae9103c35ef3aac3dfd"
+}

@@ -1,0 +1,377 @@
+{
+  "passed": true,
+  "frames": 36,
+  "fps": "30/1",
+  "decodedPTSAndDurationExact": true,
+  "expectedColorMetadata": "BT601 limited, left chroma",
+  "transferAndPrimariesUnspecified": true,
+  "keyFrameIndexes": [
+    0,
+    30
+  ],
+  "maximumGopSpacing": 30,
+  "framesIndexed": [
+    {
+      "index": 0,
+      "pts": 0,
+      "ptsSecondsExact": "0",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 1
+    },
+    {
+      "index": 1,
+      "pts": 512,
+      "ptsSecondsExact": "1/30",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 2,
+      "pts": 1024,
+      "ptsSecondsExact": "1/15",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 3,
+      "pts": 1536,
+      "ptsSecondsExact": "1/10",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 4,
+      "pts": 2048,
+      "ptsSecondsExact": "2/15",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 5,
+      "pts": 2560,
+      "ptsSecondsExact": "1/6",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 6,
+      "pts": 3072,
+      "ptsSecondsExact": "1/5",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 7,
+      "pts": 3584,
+      "ptsSecondsExact": "7/30",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 8,
+      "pts": 4096,
+      "ptsSecondsExact": "4/15",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 9,
+      "pts": 4608,
+      "ptsSecondsExact": "3/10",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 10,
+      "pts": 5120,
+      "ptsSecondsExact": "1/3",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 11,
+      "pts": 5632,
+      "ptsSecondsExact": "11/30",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 12,
+      "pts": 6144,
+      "ptsSecondsExact": "2/5",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 13,
+      "pts": 6656,
+      "ptsSecondsExact": "13/30",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 14,
+      "pts": 7168,
+      "ptsSecondsExact": "7/15",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 15,
+      "pts": 7680,
+      "ptsSecondsExact": "1/2",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 16,
+      "pts": 8192,
+      "ptsSecondsExact": "8/15",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 17,
+      "pts": 8704,
+      "ptsSecondsExact": "17/30",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 18,
+      "pts": 9216,
+      "ptsSecondsExact": "3/5",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 19,
+      "pts": 9728,
+      "ptsSecondsExact": "19/30",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 20,
+      "pts": 10240,
+      "ptsSecondsExact": "2/3",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 21,
+      "pts": 10752,
+      "ptsSecondsExact": "7/10",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 22,
+      "pts": 11264,
+      "ptsSecondsExact": "11/15",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 23,
+      "pts": 11776,
+      "ptsSecondsExact": "23/30",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 24,
+      "pts": 12288,
+      "ptsSecondsExact": "4/5",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 25,
+      "pts": 12800,
+      "ptsSecondsExact": "5/6",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 26,
+      "pts": 13312,
+      "ptsSecondsExact": "13/15",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 27,
+      "pts": 13824,
+      "ptsSecondsExact": "9/10",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 28,
+      "pts": 14336,
+      "ptsSecondsExact": "14/15",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 29,
+      "pts": 14848,
+      "ptsSecondsExact": "29/30",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 30,
+      "pts": 15360,
+      "ptsSecondsExact": "1",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 1
+    },
+    {
+      "index": 31,
+      "pts": 15872,
+      "ptsSecondsExact": "31/30",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 32,
+      "pts": 16384,
+      "ptsSecondsExact": "16/15",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 33,
+      "pts": 16896,
+      "ptsSecondsExact": "11/10",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 34,
+      "pts": 17408,
+      "ptsSecondsExact": "17/15",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    },
+    {
+      "index": 35,
+      "pts": 17920,
+      "ptsSecondsExact": "7/6",
+      "duration": 512,
+      "colorRange": "tv",
+      "colorSpace": "smpte170m",
+      "chromaLocation": "left",
+      "keyFrame": 0
+    }
+  ],
+  "candidateSha256": "6d91d7586bf2e170682f29a44f48d00c644fdf62d2e50c0777ac908c1f95020f",
+  "decodedFrameReceiptSha256": "aef8e2fe515e14fba68ed945db48cc1fc044f3796e1530e1783199ea07df1540"
+}

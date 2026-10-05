@@ -1,0 +1,142 @@
+{
+  "passed": true,
+  "negativeCasesRejected": 20,
+  "idempotentPositiveCases": 2,
+  "cases": [
+    {
+      "codec": "h264",
+      "case": "existing destination",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "h264",
+      "case": "symlink destination",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "h264",
+      "case": "wrong codec",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "h264",
+      "case": "truncated input",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "h264",
+      "case": "frame envelope",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "h264",
+      "case": "packet envelope",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "h264",
+      "case": "post-validation precommit failure",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "h264",
+      "case": "post-validation candidate corruption",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "h264",
+      "case": "destination creation race",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "h264",
+      "case": "malformed actual sample NAL length",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "h264",
+      "case": "already-center idempotent",
+      "passed": true,
+      "byteExact": true
+    },
+    {
+      "codec": "hevc",
+      "case": "existing destination",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "hevc",
+      "case": "symlink destination",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "hevc",
+      "case": "wrong codec",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "hevc",
+      "case": "truncated input",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "hevc",
+      "case": "frame envelope",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "hevc",
+      "case": "packet envelope",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "hevc",
+      "case": "post-validation precommit failure",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "hevc",
+      "case": "post-validation candidate corruption",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "hevc",
+      "case": "destination creation race",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "hevc",
+      "case": "malformed actual sample NAL length",
+      "rejected": true,
+      "noTemporaryCandidateLeaked": true
+    },
+    {
+      "codec": "hevc",
+      "case": "already-center idempotent",
+      "passed": true,
+      "byteExact": true
+    }
+  ],
+  "adapterSha256": "b573e6e54a8ac465fc33769f3157327bd175833a6889721efb16161b768a308f",
+  "noGPUOrCargoOrEncoderExport": true,
+  "benchmarkTiming": false
+}

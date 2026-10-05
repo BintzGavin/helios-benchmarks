@@ -1,0 +1,9 @@
+{
+  "attempted": true,
+  "succeeded": false,
+  "executable": "/usr/bin/chromium",
+  "error": "Chromium singleton socket creation failed: Operation not permitted; process aborted",
+  "browser_gpu_result": null,
+  "interpretation": "Restricted runtime prevented browser attestation. No GPU availability is inferred from this browser attempt. Independent actual FFmpeg probes also failed.",
+  "script_after_attempt": "Removed Playwright's default enable-unsafe-swiftshader argument to avoid it in future host probes. Syntax checked only; no second launch attempted."
+}

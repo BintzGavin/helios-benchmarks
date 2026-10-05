@@ -1,0 +1,1112 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-10-04T18:16:16.266166+00:00",
+  "engine": "F-original-MaxPerformance",
+  "scene": "predetermined-color-chroma",
+  "expected": {
+    "width": 256,
+    "height": 128,
+    "frames": 36,
+    "fps": "30",
+    "pts_seconds": "n/fps, n=0..frames-1"
+  },
+  "candidate": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/video.mp4",
+    "bytes": 22911,
+    "sha256": "6d91d7586bf2e170682f29a44f48d00c644fdf62d2e50c0777ac908c1f95020f",
+    "probe": {
+      "passed": true,
+      "errors": [],
+      "decoded_frame_count": 36,
+      "stream": {
+        "codec_name": "h264",
+        "width": 256,
+        "height": 128,
+        "pix_fmt": "yuv420p",
+        "color_range": "tv",
+        "color_space": "smpte170m",
+        "chroma_location": "left",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/15360",
+        "nb_frames": "36",
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler"
+        }
+      },
+      "strict_timing": true,
+      "pts_audit": [
+        {
+          "frame_zero_based": 0,
+          "pts": 0,
+          "seconds_exact": "0",
+          "expected_seconds_exact": "0"
+        },
+        {
+          "frame_zero_based": 1,
+          "pts": 512,
+          "seconds_exact": "1/30",
+          "expected_seconds_exact": "1/30"
+        },
+        {
+          "frame_zero_based": 2,
+          "pts": 1024,
+          "seconds_exact": "1/15",
+          "expected_seconds_exact": "1/15"
+        },
+        {
+          "frame_zero_based": 3,
+          "pts": 1536,
+          "seconds_exact": "1/10",
+          "expected_seconds_exact": "1/10"
+        },
+        {
+          "frame_zero_based": 4,
+          "pts": 2048,
+          "seconds_exact": "2/15",
+          "expected_seconds_exact": "2/15"
+        },
+        {
+          "frame_zero_based": 5,
+          "pts": 2560,
+          "seconds_exact": "1/6",
+          "expected_seconds_exact": "1/6"
+        },
+        {
+          "frame_zero_based": 6,
+          "pts": 3072,
+          "seconds_exact": "1/5",
+          "expected_seconds_exact": "1/5"
+        },
+        {
+          "frame_zero_based": 7,
+          "pts": 3584,
+          "seconds_exact": "7/30",
+          "expected_seconds_exact": "7/30"
+        },
+        {
+          "frame_zero_based": 8,
+          "pts": 4096,
+          "seconds_exact": "4/15",
+          "expected_seconds_exact": "4/15"
+        },
+        {
+          "frame_zero_based": 9,
+          "pts": 4608,
+          "seconds_exact": "3/10",
+          "expected_seconds_exact": "3/10"
+        },
+        {
+          "frame_zero_based": 10,
+          "pts": 5120,
+          "seconds_exact": "1/3",
+          "expected_seconds_exact": "1/3"
+        },
+        {
+          "frame_zero_based": 11,
+          "pts": 5632,
+          "seconds_exact": "11/30",
+          "expected_seconds_exact": "11/30"
+        },
+        {
+          "frame_zero_based": 12,
+          "pts": 6144,
+          "seconds_exact": "2/5",
+          "expected_seconds_exact": "2/5"
+        },
+        {
+          "frame_zero_based": 13,
+          "pts": 6656,
+          "seconds_exact": "13/30",
+          "expected_seconds_exact": "13/30"
+        },
+        {
+          "frame_zero_based": 14,
+          "pts": 7168,
+          "seconds_exact": "7/15",
+          "expected_seconds_exact": "7/15"
+        },
+        {
+          "frame_zero_based": 15,
+          "pts": 7680,
+          "seconds_exact": "1/2",
+          "expected_seconds_exact": "1/2"
+        },
+        {
+          "frame_zero_based": 16,
+          "pts": 8192,
+          "seconds_exact": "8/15",
+          "expected_seconds_exact": "8/15"
+        },
+        {
+          "frame_zero_based": 17,
+          "pts": 8704,
+          "seconds_exact": "17/30",
+          "expected_seconds_exact": "17/30"
+        },
+        {
+          "frame_zero_based": 18,
+          "pts": 9216,
+          "seconds_exact": "3/5",
+          "expected_seconds_exact": "3/5"
+        },
+        {
+          "frame_zero_based": 19,
+          "pts": 9728,
+          "seconds_exact": "19/30",
+          "expected_seconds_exact": "19/30"
+        },
+        {
+          "frame_zero_based": 20,
+          "pts": 10240,
+          "seconds_exact": "2/3",
+          "expected_seconds_exact": "2/3"
+        },
+        {
+          "frame_zero_based": 21,
+          "pts": 10752,
+          "seconds_exact": "7/10",
+          "expected_seconds_exact": "7/10"
+        },
+        {
+          "frame_zero_based": 22,
+          "pts": 11264,
+          "seconds_exact": "11/15",
+          "expected_seconds_exact": "11/15"
+        },
+        {
+          "frame_zero_based": 23,
+          "pts": 11776,
+          "seconds_exact": "23/30",
+          "expected_seconds_exact": "23/30"
+        },
+        {
+          "frame_zero_based": 24,
+          "pts": 12288,
+          "seconds_exact": "4/5",
+          "expected_seconds_exact": "4/5"
+        },
+        {
+          "frame_zero_based": 25,
+          "pts": 12800,
+          "seconds_exact": "5/6",
+          "expected_seconds_exact": "5/6"
+        },
+        {
+          "frame_zero_based": 26,
+          "pts": 13312,
+          "seconds_exact": "13/15",
+          "expected_seconds_exact": "13/15"
+        },
+        {
+          "frame_zero_based": 27,
+          "pts": 13824,
+          "seconds_exact": "9/10",
+          "expected_seconds_exact": "9/10"
+        },
+        {
+          "frame_zero_based": 28,
+          "pts": 14336,
+          "seconds_exact": "14/15",
+          "expected_seconds_exact": "14/15"
+        },
+        {
+          "frame_zero_based": 29,
+          "pts": 14848,
+          "seconds_exact": "29/30",
+          "expected_seconds_exact": "29/30"
+        },
+        {
+          "frame_zero_based": 30,
+          "pts": 15360,
+          "seconds_exact": "1",
+          "expected_seconds_exact": "1"
+        },
+        {
+          "frame_zero_based": 31,
+          "pts": 15872,
+          "seconds_exact": "31/30",
+          "expected_seconds_exact": "31/30"
+        },
+        {
+          "frame_zero_based": 32,
+          "pts": 16384,
+          "seconds_exact": "16/15",
+          "expected_seconds_exact": "16/15"
+        },
+        {
+          "frame_zero_based": 33,
+          "pts": 16896,
+          "seconds_exact": "11/10",
+          "expected_seconds_exact": "11/10"
+        },
+        {
+          "frame_zero_based": 34,
+          "pts": 17408,
+          "seconds_exact": "17/15",
+          "expected_seconds_exact": "17/15"
+        },
+        {
+          "frame_zero_based": 35,
+          "pts": 17920,
+          "seconds_exact": "7/6",
+          "expected_seconds_exact": "7/6"
+        }
+      ]
+    },
+    "decode": {
+      "passed": true,
+      "errors": []
+    }
+  },
+  "reference": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/reference-same-stream-bt601-proxy.mkv",
+    "bytes": 252221,
+    "sha256": "30c9b43f3f97a3c3fbab4ba07b357cbd5b758c7872acaec5b7f15b0fad5ac257",
+    "engine": "F-original-MaxPerformance",
+    "probe": {
+      "passed": true,
+      "errors": [],
+      "decoded_frame_count": 36,
+      "stream": {
+        "codec_name": "ffv1",
+        "width": 256,
+        "height": 128,
+        "pix_fmt": "yuv420p",
+        "color_range": "tv",
+        "color_space": "smpte170m",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/1000",
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "ENCODER": "Lavc63.1.102 ffv1",
+          "DURATION": "00:00:01.200000000"
+        }
+      },
+      "strict_timing": false,
+      "pts_audit": []
+    },
+    "decode": {
+      "passed": true,
+      "errors": []
+    },
+    "lossless_provenance": {
+      "codec": "ffv1",
+      "intrinsically_lossless_codec": true,
+      "caller_attested": false,
+      "caveat": "Neither codec nor attestation establishes the file was produced from this scene/engine or that its upstream source was lossless"
+    }
+  },
+  "quality": {
+    "status": "evaluated",
+    "passed": false,
+    "errors": [],
+    "ssim": {
+      "passed": true,
+      "errors": [],
+      "frame_count": 36,
+      "thresholds": {
+        "Y": 0.995
+      },
+      "minimum": {
+        "Y": 0.999576
+      },
+      "frames": [
+        {
+          "raw": "n:1 Y:0.999964 U:0.858306 V:0.852245 All:0.951734 (13.163630)",
+          "frame_one_based": 1,
+          "Y": 0.999964
+        },
+        {
+          "raw": "n:2 Y:0.999964 U:0.821092 V:0.780227 All:0.933529 (11.773691)",
+          "frame_one_based": 2,
+          "Y": 0.999964
+        },
+        {
+          "raw": "n:3 Y:0.999964 U:0.858306 V:0.852245 All:0.951735 (13.163634)",
+          "frame_one_based": 3,
+          "Y": 0.999964
+        },
+        {
+          "raw": "n:4 Y:0.999964 U:0.821092 V:0.780227 All:0.933529 (11.773688)",
+          "frame_one_based": 4,
+          "Y": 0.999964
+        },
+        {
+          "raw": "n:5 Y:0.999964 U:0.858306 V:0.852245 All:0.951734 (13.163630)",
+          "frame_one_based": 5,
+          "Y": 0.999964
+        },
+        {
+          "raw": "n:6 Y:0.999958 U:0.821092 V:0.780227 All:0.933525 (11.773420)",
+          "frame_one_based": 6,
+          "Y": 0.999958
+        },
+        {
+          "raw": "n:7 Y:0.999964 U:0.858306 V:0.852245 All:0.951735 (13.163634)",
+          "frame_one_based": 7,
+          "Y": 0.999964
+        },
+        {
+          "raw": "n:8 Y:0.999964 U:0.821092 V:0.780227 All:0.933529 (11.773688)",
+          "frame_one_based": 8,
+          "Y": 0.999964
+        },
+        {
+          "raw": "n:9 Y:0.999964 U:0.858306 V:0.852245 All:0.951734 (13.163630)",
+          "frame_one_based": 9,
+          "Y": 0.999964
+        },
+        {
+          "raw": "n:10 Y:0.999964 U:0.821092 V:0.780227 All:0.933529 (11.773691)",
+          "frame_one_based": 10,
+          "Y": 0.999964
+        },
+        {
+          "raw": "n:11 Y:0.999964 U:0.858306 V:0.852245 All:0.951735 (13.163634)",
+          "frame_one_based": 11,
+          "Y": 0.999964
+        },
+        {
+          "raw": "n:12 Y:0.999964 U:0.821092 V:0.780227 All:0.933529 (11.773688)",
+          "frame_one_based": 12,
+          "Y": 0.999964
+        },
+        {
+          "raw": "n:13 Y:0.999958 U:0.858306 V:0.852245 All:0.951730 (13.163259)",
+          "frame_one_based": 13,
+          "Y": 0.999958
+        },
+        {
+          "raw": "n:14 Y:0.999964 U:0.821092 V:0.780227 All:0.933529 (11.773691)",
+          "frame_one_based": 14,
+          "Y": 0.999964
+        },
+        {
+          "raw": "n:15 Y:0.999956 U:0.858306 V:0.852245 All:0.951729 (13.163157)",
+          "frame_one_based": 15,
+          "Y": 0.999956
+        },
+        {
+          "raw": "n:16 Y:0.999962 U:0.821092 V:0.782723 All:0.933943 (11.800844)",
+          "frame_one_based": 16,
+          "Y": 0.999962
+        },
+        {
+          "raw": "n:17 Y:0.999962 U:0.858306 V:0.852245 All:0.951733 (13.163481)",
+          "frame_one_based": 17,
+          "Y": 0.999962
+        },
+        {
+          "raw": "n:18 Y:0.999956 U:0.821092 V:0.782827 All:0.933957 (11.801725)",
+          "frame_one_based": 18,
+          "Y": 0.999956
+        },
+        {
+          "raw": "n:19 Y:0.999962 U:0.858306 V:0.852245 All:0.951733 (13.163488)",
+          "frame_one_based": 19,
+          "Y": 0.999962
+        },
+        {
+          "raw": "n:20 Y:0.999955 U:0.821092 V:0.782932 All:0.933974 (11.802862)",
+          "frame_one_based": 20,
+          "Y": 0.999955
+        },
+        {
+          "raw": "n:21 Y:0.999962 U:0.858306 V:0.852245 All:0.951733 (13.163483)",
+          "frame_one_based": 21,
+          "Y": 0.999962
+        },
+        {
+          "raw": "n:22 Y:0.999956 U:0.821092 V:0.782932 All:0.933974 (11.802869)",
+          "frame_one_based": 22,
+          "Y": 0.999956
+        },
+        {
+          "raw": "n:23 Y:0.999962 U:0.858306 V:0.852245 All:0.951733 (13.163503)",
+          "frame_one_based": 23,
+          "Y": 0.999962
+        },
+        {
+          "raw": "n:24 Y:0.999962 U:0.821092 V:0.782932 All:0.933978 (11.803145)",
+          "frame_one_based": 24,
+          "Y": 0.999962
+        },
+        {
+          "raw": "n:25 Y:0.999956 U:0.858306 V:0.852245 All:0.951729 (13.163131)",
+          "frame_one_based": 25,
+          "Y": 0.999956
+        },
+        {
+          "raw": "n:26 Y:0.999962 U:0.821092 V:0.782827 All:0.933961 (11.802007)",
+          "frame_one_based": 26,
+          "Y": 0.999962
+        },
+        {
+          "raw": "n:27 Y:0.999956 U:0.858306 V:0.852213 All:0.951724 (13.162658)",
+          "frame_one_based": 27,
+          "Y": 0.999956
+        },
+        {
+          "raw": "n:28 Y:0.999962 U:0.821092 V:0.782860 All:0.933967 (11.802358)",
+          "frame_one_based": 28,
+          "Y": 0.999962
+        },
+        {
+          "raw": "n:29 Y:0.999955 U:0.858306 V:0.852223 All:0.951725 (13.162789)",
+          "frame_one_based": 29,
+          "Y": 0.999955
+        },
+        {
+          "raw": "n:30 Y:0.999962 U:0.821092 V:0.782795 All:0.933956 (11.801642)",
+          "frame_one_based": 30,
+          "Y": 0.999962
+        },
+        {
+          "raw": "n:31 Y:0.999576 U:0.859679 V:0.852152 All:0.951689 (13.159573)",
+          "frame_one_based": 31,
+          "Y": 0.999576
+        },
+        {
+          "raw": "n:32 Y:0.999668 U:0.822008 V:0.781400 All:0.933680 (11.783583)",
+          "frame_one_based": 32,
+          "Y": 0.999668
+        },
+        {
+          "raw": "n:33 Y:0.999763 U:0.859564 V:0.852179 All:0.951799 (13.169446)",
+          "frame_one_based": 33,
+          "Y": 0.999763
+        },
+        {
+          "raw": "n:34 Y:0.999764 U:0.821924 V:0.780166 All:0.933524 (11.773367)",
+          "frame_one_based": 34,
+          "Y": 0.999764
+        },
+        {
+          "raw": "n:35 Y:0.999778 U:0.859314 V:0.852231 All:0.951776 (13.167377)",
+          "frame_one_based": 35,
+          "Y": 0.999778
+        },
+        {
+          "raw": "n:36 Y:0.999792 U:0.821769 V:0.780227 All:0.933527 (11.773563)",
+          "frame_one_based": 36,
+          "Y": 0.999792
+        }
+      ]
+    },
+    "psnr": {
+      "passed": false,
+      "errors": [
+        "Frame 1: psnr_u=16.55 < 35.0",
+        "Frame 1: psnr_v=14.14 < 35.0",
+        "Frame 2: psnr_u=16.66 < 35.0",
+        "Frame 2: psnr_v=14.14 < 35.0",
+        "Frame 3: psnr_u=16.55 < 35.0",
+        "Frame 3: psnr_v=14.14 < 35.0",
+        "Frame 4: psnr_u=16.66 < 35.0",
+        "Frame 4: psnr_v=14.14 < 35.0",
+        "Frame 5: psnr_u=16.55 < 35.0",
+        "Frame 5: psnr_v=14.14 < 35.0",
+        "Frame 6: psnr_u=16.66 < 35.0",
+        "Frame 6: psnr_v=14.14 < 35.0",
+        "Frame 7: psnr_u=16.55 < 35.0",
+        "Frame 7: psnr_v=14.14 < 35.0",
+        "Frame 8: psnr_u=16.66 < 35.0",
+        "Frame 8: psnr_v=14.14 < 35.0",
+        "Frame 9: psnr_u=16.55 < 35.0",
+        "Frame 9: psnr_v=14.14 < 35.0",
+        "Frame 10: psnr_u=16.66 < 35.0",
+        "Frame 10: psnr_v=14.14 < 35.0",
+        "Frame 11: psnr_u=16.55 < 35.0",
+        "Frame 11: psnr_v=14.14 < 35.0",
+        "Frame 12: psnr_u=16.66 < 35.0",
+        "Frame 12: psnr_v=14.14 < 35.0",
+        "Frame 13: psnr_u=16.55 < 35.0",
+        "Frame 13: psnr_v=14.14 < 35.0",
+        "Frame 14: psnr_u=16.66 < 35.0",
+        "Frame 14: psnr_v=14.14 < 35.0",
+        "Frame 15: psnr_u=16.55 < 35.0",
+        "Frame 15: psnr_v=14.14 < 35.0",
+        "Frame 16: psnr_u=16.66 < 35.0",
+        "Frame 16: psnr_v=14.22 < 35.0",
+        "Frame 17: psnr_u=16.55 < 35.0",
+        "Frame 17: psnr_v=14.14 < 35.0",
+        "Frame 18: psnr_u=16.66 < 35.0",
+        "Frame 18: psnr_v=14.22 < 35.0",
+        "Frame 19: psnr_u=16.55 < 35.0",
+        "Frame 19: psnr_v=14.14 < 35.0",
+        "Frame 20: psnr_u=16.66 < 35.0",
+        "Frame 20: psnr_v=14.22 < 35.0",
+        "Frame 21: psnr_u=16.55 < 35.0",
+        "Frame 21: psnr_v=14.14 < 35.0",
+        "Frame 22: psnr_u=16.66 < 35.0",
+        "Frame 22: psnr_v=14.22 < 35.0",
+        "Frame 23: psnr_u=16.55 < 35.0",
+        "Frame 23: psnr_v=14.14 < 35.0",
+        "Frame 24: psnr_u=16.66 < 35.0",
+        "Frame 24: psnr_v=14.22 < 35.0",
+        "Frame 25: psnr_u=16.55 < 35.0",
+        "Frame 25: psnr_v=14.14 < 35.0",
+        "Frame 26: psnr_u=16.66 < 35.0",
+        "Frame 26: psnr_v=14.22 < 35.0",
+        "Frame 27: psnr_u=16.55 < 35.0",
+        "Frame 27: psnr_v=14.14 < 35.0",
+        "Frame 28: psnr_u=16.66 < 35.0",
+        "Frame 28: psnr_v=14.22 < 35.0",
+        "Frame 29: psnr_u=16.55 < 35.0",
+        "Frame 29: psnr_v=14.14 < 35.0",
+        "Frame 30: psnr_u=16.66 < 35.0",
+        "Frame 30: psnr_v=14.22 < 35.0",
+        "Frame 31: psnr_u=16.56 < 35.0",
+        "Frame 31: psnr_v=14.14 < 35.0",
+        "Frame 32: psnr_u=16.67 < 35.0",
+        "Frame 32: psnr_v=14.18 < 35.0",
+        "Frame 33: psnr_u=16.56 < 35.0",
+        "Frame 33: psnr_v=14.14 < 35.0",
+        "Frame 34: psnr_u=16.67 < 35.0",
+        "Frame 34: psnr_v=14.14 < 35.0",
+        "Frame 35: psnr_u=16.56 < 35.0",
+        "Frame 35: psnr_v=14.14 < 35.0",
+        "Frame 36: psnr_u=16.67 < 35.0",
+        "Frame 36: psnr_v=14.14 < 35.0"
+      ],
+      "frame_count": 36,
+      "thresholds": {
+        "psnr_y": 40.0,
+        "psnr_u": 35.0,
+        "psnr_v": 35.0
+      },
+      "minimum": {
+        "psnr_y": 48.34,
+        "psnr_u": 16.55,
+        "psnr_v": 14.14
+      },
+      "frames": [
+        {
+          "raw": "n:1 mse_avg:657.58 mse_y:0.00 mse_u:1440.33 mse_v:2505.12 psnr_avg:19.95 psnr_y:73.46 psnr_u:16.55 psnr_v:14.14 ",
+          "frame_one_based": 1,
+          "psnr_y": 73.46,
+          "psnr_u": 16.55,
+          "psnr_v": 14.14
+        },
+        {
+          "raw": "n:2 mse_avg:651.37 mse_y:0.00 mse_u:1403.08 mse_v:2505.12 psnr_avg:19.99 psnr_y:73.46 psnr_u:16.66 psnr_v:14.14 ",
+          "frame_one_based": 2,
+          "psnr_y": 73.46,
+          "psnr_u": 16.66,
+          "psnr_v": 14.14
+        },
+        {
+          "raw": "n:3 mse_avg:657.58 mse_y:0.00 mse_u:1440.33 mse_v:2505.12 psnr_avg:19.95 psnr_y:73.46 psnr_u:16.55 psnr_v:14.14 ",
+          "frame_one_based": 3,
+          "psnr_y": 73.46,
+          "psnr_u": 16.55,
+          "psnr_v": 14.14
+        },
+        {
+          "raw": "n:4 mse_avg:651.37 mse_y:0.00 mse_u:1403.08 mse_v:2505.12 psnr_avg:19.99 psnr_y:73.46 psnr_u:16.66 psnr_v:14.14 ",
+          "frame_one_based": 4,
+          "psnr_y": 73.46,
+          "psnr_u": 16.66,
+          "psnr_v": 14.14
+        },
+        {
+          "raw": "n:5 mse_avg:657.58 mse_y:0.00 mse_u:1440.33 mse_v:2505.12 psnr_avg:19.95 psnr_y:73.46 psnr_u:16.55 psnr_v:14.14 ",
+          "frame_one_based": 5,
+          "psnr_y": 73.46,
+          "psnr_u": 16.55,
+          "psnr_v": 14.14
+        },
+        {
+          "raw": "n:6 mse_avg:651.37 mse_y:0.00 mse_u:1403.08 mse_v:2505.12 psnr_avg:19.99 psnr_y:72.21 psnr_u:16.66 psnr_v:14.14 ",
+          "frame_one_based": 6,
+          "psnr_y": 72.21,
+          "psnr_u": 16.66,
+          "psnr_v": 14.14
+        },
+        {
+          "raw": "n:7 mse_avg:657.58 mse_y:0.00 mse_u:1440.33 mse_v:2505.12 psnr_avg:19.95 psnr_y:73.46 psnr_u:16.55 psnr_v:14.14 ",
+          "frame_one_based": 7,
+          "psnr_y": 73.46,
+          "psnr_u": 16.55,
+          "psnr_v": 14.14
+        },
+        {
+          "raw": "n:8 mse_avg:651.37 mse_y:0.00 mse_u:1403.08 mse_v:2505.12 psnr_avg:19.99 psnr_y:73.46 psnr_u:16.66 psnr_v:14.14 ",
+          "frame_one_based": 8,
+          "psnr_y": 73.46,
+          "psnr_u": 16.66,
+          "psnr_v": 14.14
+        },
+        {
+          "raw": "n:9 mse_avg:657.58 mse_y:0.00 mse_u:1440.33 mse_v:2505.12 psnr_avg:19.95 psnr_y:73.46 psnr_u:16.55 psnr_v:14.14 ",
+          "frame_one_based": 9,
+          "psnr_y": 73.46,
+          "psnr_u": 16.55,
+          "psnr_v": 14.14
+        },
+        {
+          "raw": "n:10 mse_avg:651.37 mse_y:0.00 mse_u:1403.08 mse_v:2505.12 psnr_avg:19.99 psnr_y:73.46 psnr_u:16.66 psnr_v:14.14 ",
+          "frame_one_based": 10,
+          "psnr_y": 73.46,
+          "psnr_u": 16.66,
+          "psnr_v": 14.14
+        },
+        {
+          "raw": "n:11 mse_avg:657.58 mse_y:0.00 mse_u:1440.33 mse_v:2505.12 psnr_avg:19.95 psnr_y:73.46 psnr_u:16.55 psnr_v:14.14 ",
+          "frame_one_based": 11,
+          "psnr_y": 73.46,
+          "psnr_u": 16.55,
+          "psnr_v": 14.14
+        },
+        {
+          "raw": "n:12 mse_avg:651.37 mse_y:0.00 mse_u:1403.08 mse_v:2505.12 psnr_avg:19.99 psnr_y:73.46 psnr_u:16.66 psnr_v:14.14 ",
+          "frame_one_based": 12,
+          "psnr_y": 73.46,
+          "psnr_u": 16.66,
+          "psnr_v": 14.14
+        },
+        {
+          "raw": "n:13 mse_avg:657.58 mse_y:0.00 mse_u:1440.33 mse_v:2505.12 psnr_avg:19.95 psnr_y:72.21 psnr_u:16.55 psnr_v:14.14 ",
+          "frame_one_based": 13,
+          "psnr_y": 72.21,
+          "psnr_u": 16.55,
+          "psnr_v": 14.14
+        },
+        {
+          "raw": "n:14 mse_avg:651.37 mse_y:0.00 mse_u:1403.08 mse_v:2505.12 psnr_avg:19.99 psnr_y:73.46 psnr_u:16.66 psnr_v:14.14 ",
+          "frame_one_based": 14,
+          "psnr_y": 73.46,
+          "psnr_u": 16.66,
+          "psnr_v": 14.14
+        },
+        {
+          "raw": "n:15 mse_avg:657.58 mse_y:0.00 mse_u:1440.33 mse_v:2505.12 psnr_avg:19.95 psnr_y:71.82 psnr_u:16.55 psnr_v:14.14 ",
+          "frame_one_based": 15,
+          "psnr_y": 71.82,
+          "psnr_u": 16.55,
+          "psnr_v": 14.14
+        },
+        {
+          "raw": "n:16 mse_avg:644.06 mse_y:0.00 mse_u:1403.08 mse_v:2461.29 psnr_avg:20.04 psnr_y:72.79 psnr_u:16.66 psnr_v:14.22 ",
+          "frame_one_based": 16,
+          "psnr_y": 72.79,
+          "psnr_u": 16.66,
+          "psnr_v": 14.22
+        },
+        {
+          "raw": "n:17 mse_avg:657.58 mse_y:0.00 mse_u:1440.33 mse_v:2505.12 psnr_avg:19.95 psnr_y:72.79 psnr_u:16.55 psnr_v:14.14 ",
+          "frame_one_based": 17,
+          "psnr_y": 72.79,
+          "psnr_u": 16.55,
+          "psnr_v": 14.14
+        },
+        {
+          "raw": "n:18 mse_avg:643.82 mse_y:0.00 mse_u:1403.08 mse_v:2459.83 psnr_avg:20.04 psnr_y:71.70 psnr_u:16.66 psnr_v:14.22 ",
+          "frame_one_based": 18,
+          "psnr_y": 71.7,
+          "psnr_u": 16.66,
+          "psnr_v": 14.22
+        },
+        {
+          "raw": "n:19 mse_avg:657.58 mse_y:0.00 mse_u:1440.33 mse_v:2505.12 psnr_avg:19.95 psnr_y:72.83 psnr_u:16.55 psnr_v:14.14 ",
+          "frame_one_based": 19,
+          "psnr_y": 72.83,
+          "psnr_u": 16.55,
+          "psnr_v": 14.14
+        },
+        {
+          "raw": "n:20 mse_avg:643.58 mse_y:0.00 mse_u:1403.08 mse_v:2458.37 psnr_avg:20.04 psnr_y:71.67 psnr_u:16.66 psnr_v:14.22 ",
+          "frame_one_based": 20,
+          "psnr_y": 71.67,
+          "psnr_u": 16.66,
+          "psnr_v": 14.22
+        },
+        {
+          "raw": "n:21 mse_avg:657.58 mse_y:0.00 mse_u:1440.33 mse_v:2505.12 psnr_avg:19.95 psnr_y:72.83 psnr_u:16.55 psnr_v:14.14 ",
+          "frame_one_based": 21,
+          "psnr_y": 72.83,
+          "psnr_u": 16.55,
+          "psnr_v": 14.14
+        },
+        {
+          "raw": "n:22 mse_avg:643.58 mse_y:0.00 mse_u:1403.08 mse_v:2458.37 psnr_avg:20.04 psnr_y:71.67 psnr_u:16.66 psnr_v:14.22 ",
+          "frame_one_based": 22,
+          "psnr_y": 71.67,
+          "psnr_u": 16.66,
+          "psnr_v": 14.22
+        },
+        {
+          "raw": "n:23 mse_avg:657.58 mse_y:0.00 mse_u:1440.33 mse_v:2505.12 psnr_avg:19.95 psnr_y:72.87 psnr_u:16.55 psnr_v:14.14 ",
+          "frame_one_based": 23,
+          "psnr_y": 72.87,
+          "psnr_u": 16.55,
+          "psnr_v": 14.14
+        },
+        {
+          "raw": "n:24 mse_avg:643.58 mse_y:0.00 mse_u:1403.08 mse_v:2458.37 psnr_avg:20.04 psnr_y:72.83 psnr_u:16.66 psnr_v:14.22 ",
+          "frame_one_based": 24,
+          "psnr_y": 72.83,
+          "psnr_u": 16.66,
+          "psnr_v": 14.22
+        },
+        {
+          "raw": "n:25 mse_avg:657.58 mse_y:0.00 mse_u:1440.33 mse_v:2505.12 psnr_avg:19.95 psnr_y:71.70 psnr_u:16.55 psnr_v:14.14 ",
+          "frame_one_based": 25,
+          "psnr_y": 71.7,
+          "psnr_u": 16.55,
+          "psnr_v": 14.14
+        },
+        {
+          "raw": "n:26 mse_avg:643.82 mse_y:0.00 mse_u:1403.08 mse_v:2459.83 psnr_avg:20.04 psnr_y:72.91 psnr_u:16.66 psnr_v:14.22 ",
+          "frame_one_based": 26,
+          "psnr_y": 72.91,
+          "psnr_u": 16.66,
+          "psnr_v": 14.22
+        },
+        {
+          "raw": "n:27 mse_avg:657.61 mse_y:0.00 mse_u:1440.33 mse_v:2505.30 psnr_avg:19.95 psnr_y:71.76 psnr_u:16.55 psnr_v:14.14 ",
+          "frame_one_based": 27,
+          "psnr_y": 71.76,
+          "psnr_u": 16.55,
+          "psnr_v": 14.14
+        },
+        {
+          "raw": "n:28 mse_avg:643.73 mse_y:0.00 mse_u:1403.08 mse_v:2459.28 psnr_avg:20.04 psnr_y:72.83 psnr_u:16.66 psnr_v:14.22 ",
+          "frame_one_based": 28,
+          "psnr_y": 72.83,
+          "psnr_u": 16.66,
+          "psnr_v": 14.22
+        },
+        {
+          "raw": "n:29 mse_avg:657.49 mse_y:0.00 mse_u:1440.33 mse_v:2504.57 psnr_avg:19.95 psnr_y:71.70 psnr_u:16.55 psnr_v:14.14 ",
+          "frame_one_based": 29,
+          "psnr_y": 71.7,
+          "psnr_u": 16.55,
+          "psnr_v": 14.14
+        },
+        {
+          "raw": "n:30 mse_avg:643.88 mse_y:0.00 mse_u:1403.08 mse_v:2460.19 psnr_avg:20.04 psnr_y:72.79 psnr_u:16.66 psnr_v:14.22 ",
+          "frame_one_based": 30,
+          "psnr_y": 72.79,
+          "psnr_u": 16.66,
+          "psnr_v": 14.22
+        },
+        {
+          "raw": "n:31 mse_avg:657.95 mse_y:0.95 mse_u:1436.36 mse_v:2507.55 psnr_avg:19.95 psnr_y:48.34 psnr_u:16.56 psnr_v:14.14 ",
+          "frame_one_based": 31,
+          "psnr_y": 48.34,
+          "psnr_u": 16.56,
+          "psnr_v": 14.14
+        },
+        {
+          "raw": "n:32 mse_avg:647.81 mse_y:0.95 mse_u:1399.35 mse_v:2483.71 psnr_avg:20.02 psnr_y:48.36 psnr_u:16.67 psnr_v:14.18 ",
+          "frame_one_based": 32,
+          "psnr_y": 48.36,
+          "psnr_u": 16.67,
+          "psnr_v": 14.18
+        },
+        {
+          "raw": "n:33 mse_avg:657.69 mse_y:0.61 mse_u:1436.58 mse_v:2507.11 psnr_avg:19.95 psnr_y:50.29 psnr_u:16.56 psnr_v:14.14 ",
+          "frame_one_based": 33,
+          "psnr_y": 50.29,
+          "psnr_u": 16.56,
+          "psnr_v": 14.14
+        },
+        {
+          "raw": "n:34 mse_avg:651.38 mse_y:0.61 mse_u:1399.68 mse_v:2506.18 psnr_avg:19.99 psnr_y:50.30 psnr_u:16.67 psnr_v:14.14 ",
+          "frame_one_based": 34,
+          "psnr_y": 50.3,
+          "psnr_u": 16.67,
+          "psnr_v": 14.14
+        },
+        {
+          "raw": "n:35 mse_avg:657.52 mse_y:0.56 mse_u:1437.17 mse_v:2505.73 psnr_avg:19.95 psnr_y:50.65 psnr_u:16.56 psnr_v:14.14 ",
+          "frame_one_based": 35,
+          "psnr_y": 50.65,
+          "psnr_u": 16.56,
+          "psnr_v": 14.14
+        },
+        {
+          "raw": "n:36 mse_avg:651.21 mse_y:0.50 mse_u:1400.28 mse_v:2504.97 psnr_avg:19.99 psnr_y:51.11 psnr_u:16.67 psnr_v:14.14 ",
+          "frame_one_based": 36,
+          "psnr_y": 51.11,
+          "psnr_u": 16.67,
+          "psnr_v": 14.14
+        }
+      ]
+    },
+    "filter_graph": "[0:v:0]format=pix_fmts=yuv420p,settb=expr=1/30,setpts=N,split=2[ds][dp];[1:v:0]format=pix_fmts=yuv420p,settb=expr=1/30,setpts=N,split=2[rs][rp];[ds][rs]ssim=stats_file=ssim.log:shortest=1:repeatlast=0:eof_action=endall[ss];[dp][rp]psnr=stats_file=psnr.log:stats_version=2:shortest=1:repeatlast=0:eof_action=endall[ps]",
+    "metric_precision": "Thresholds apply to FFmpeg per-frame log values: SSIM 6 decimals, PSNR 2 decimals; near-threshold rounding is not independently resolved",
+    "normalization": {
+      "both_inputs": "format=pix_fmts=yuv420p,settb=expr=1/30,setpts=N",
+      "pairing": "frame ordinal, zero based",
+      "common_time_base": "1/30",
+      "common_pts": "N",
+      "pixel_format": "yuv420p",
+      "resize": "none",
+      "color_conversion": "FFmpeg default pixel-format conversion; no explicit range/matrix/transfer override",
+      "caveat": "Conversion may subsample chroma/reduce bit depth. This is per-engine reference fidelity, not cross-engine pixel identity or a colorimetric/source-render correctness test."
+    },
+    "input_color_metadata": {
+      "candidate": {
+        "pix_fmt": "yuv420p",
+        "color_range": "tv",
+        "color_space": "smpte170m",
+        "color_transfer": null,
+        "color_primaries": null,
+        "chroma_location": "left"
+      },
+      "reference": {
+        "pix_fmt": "yuv420p",
+        "color_range": "tv",
+        "color_space": "smpte170m",
+        "color_transfer": null,
+        "color_primaries": null,
+        "chroma_location": null
+      }
+    }
+  },
+  "scope": "First video stream only; audio/subtitles and cross-engine pixel identity are not assessed",
+  "errors": [],
+  "commands": [
+    {
+      "label": "ffmpeg_version",
+      "argv": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-version"
+      ],
+      "shell_command_for_display": "/opt/homebrew/bin/ffmpeg -version",
+      "cwd": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/quality.evidence",
+      "started_at": "2026-10-04T18:16:16.266255+00:00",
+      "timeout_seconds": 600.0,
+      "stdout_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/quality.evidence/ffmpeg_version.stdout.txt",
+      "stderr_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/quality.evidence/ffmpeg_version.stderr.txt",
+      "returncode": 0,
+      "elapsed_seconds": 0.037934624997433275
+    },
+    {
+      "label": "ffprobe_version",
+      "argv": [
+        "/opt/homebrew/bin/ffprobe",
+        "-version"
+      ],
+      "shell_command_for_display": "/opt/homebrew/bin/ffprobe -version",
+      "cwd": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/quality.evidence",
+      "started_at": "2026-10-04T18:16:16.304245+00:00",
+      "timeout_seconds": 600.0,
+      "stdout_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/quality.evidence/ffprobe_version.stdout.txt",
+      "stderr_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/quality.evidence/ffprobe_version.stderr.txt",
+      "returncode": 0,
+      "elapsed_seconds": 0.041040334006538615
+    },
+    {
+      "label": "candidate_probe",
+      "argv": [
+        "/opt/homebrew/bin/ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_streams",
+        "-show_frames",
+        "-show_entries",
+        "stream=codec_name,width,height,pix_fmt,time_base,avg_frame_rate,r_frame_rate,nb_frames,color_range,color_space,color_transfer,color_primaries,chroma_location:frame=pts,width,height",
+        "-of",
+        "json",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/video.mp4"
+      ],
+      "shell_command_for_display": "/opt/homebrew/bin/ffprobe -v error -select_streams v:0 -show_streams -show_frames -show_entries stream=codec_name,width,height,pix_fmt,time_base,avg_frame_rate,r_frame_rate,nb_frames,color_range,color_space,color_transfer,color_primaries,chroma_location:frame=pts,width,height -of json /Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/video.mp4",
+      "cwd": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/quality.evidence",
+      "started_at": "2026-10-04T18:16:16.345691+00:00",
+      "timeout_seconds": 600.0,
+      "stdout_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/quality.evidence/candidate_probe.stdout.txt",
+      "stderr_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/quality.evidence/candidate_probe.stderr.txt",
+      "returncode": 0,
+      "elapsed_seconds": 0.0377814160019625
+    },
+    {
+      "label": "candidate_decode",
+      "argv": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-hide_banner",
+        "-nostdin",
+        "-loglevel",
+        "error",
+        "-xerror",
+        "-err_detect",
+        "explode",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/video.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-sn",
+        "-dn",
+        "-fps_mode",
+        "passthrough",
+        "-f",
+        "null",
+        "-"
+      ],
+      "shell_command_for_display": "/opt/homebrew/bin/ffmpeg -hide_banner -nostdin -loglevel error -xerror -err_detect explode -i /Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/video.mp4 -map 0:v:0 -an -sn -dn -fps_mode passthrough -f null -",
+      "cwd": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/quality.evidence",
+      "started_at": "2026-10-04T18:16:16.384035+00:00",
+      "timeout_seconds": 600.0,
+      "stdout_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/quality.evidence/candidate_decode.stdout.txt",
+      "stderr_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/quality.evidence/candidate_decode.stderr.txt",
+      "returncode": 0,
+      "elapsed_seconds": 0.039579708012752235
+    },
+    {
+      "label": "reference_probe",
+      "argv": [
+        "/opt/homebrew/bin/ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_streams",
+        "-show_frames",
+        "-show_entries",
+        "stream=codec_name,width,height,pix_fmt,time_base,avg_frame_rate,r_frame_rate,nb_frames,color_range,color_space,color_transfer,color_primaries,chroma_location:frame=pts,width,height",
+        "-of",
+        "json",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/reference-same-stream-bt601-proxy.mkv"
+      ],
+      "shell_command_for_display": "/opt/homebrew/bin/ffprobe -v error -select_streams v:0 -show_streams -show_frames -show_entries stream=codec_name,width,height,pix_fmt,time_base,avg_frame_rate,r_frame_rate,nb_frames,color_range,color_space,color_transfer,color_primaries,chroma_location:frame=pts,width,height -of json /Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/reference-same-stream-bt601-proxy.mkv",
+      "cwd": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/quality.evidence",
+      "started_at": "2026-10-04T18:16:16.424015+00:00",
+      "timeout_seconds": 600.0,
+      "stdout_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/quality.evidence/reference_probe.stdout.txt",
+      "stderr_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/quality.evidence/reference_probe.stderr.txt",
+      "returncode": 0,
+      "elapsed_seconds": 0.0384699999995064
+    },
+    {
+      "label": "reference_decode",
+      "argv": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-hide_banner",
+        "-nostdin",
+        "-loglevel",
+        "error",
+        "-xerror",
+        "-err_detect",
+        "explode",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/reference-same-stream-bt601-proxy.mkv",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-sn",
+        "-dn",
+        "-fps_mode",
+        "passthrough",
+        "-f",
+        "null",
+        "-"
+      ],
+      "shell_command_for_display": "/opt/homebrew/bin/ffmpeg -hide_banner -nostdin -loglevel error -xerror -err_detect explode -i /Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/reference-same-stream-bt601-proxy.mkv -map 0:v:0 -an -sn -dn -fps_mode passthrough -f null -",
+      "cwd": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/quality.evidence",
+      "started_at": "2026-10-04T18:16:16.462827+00:00",
+      "timeout_seconds": 600.0,
+      "stdout_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/quality.evidence/reference_decode.stdout.txt",
+      "stderr_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/quality.evidence/reference_decode.stderr.txt",
+      "returncode": 0,
+      "elapsed_seconds": 0.04009362502256408
+    },
+    {
+      "label": "quality",
+      "argv": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-hide_banner",
+        "-nostdin",
+        "-loglevel",
+        "error",
+        "-xerror",
+        "-err_detect",
+        "explode",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/video.mp4",
+        "-err_detect",
+        "explode",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/reference-same-stream-bt601-proxy.mkv",
+        "-filter_complex_threads",
+        "1",
+        "-filter_complex",
+        "[0:v:0]format=pix_fmts=yuv420p,settb=expr=1/30,setpts=N,split=2[ds][dp];[1:v:0]format=pix_fmts=yuv420p,settb=expr=1/30,setpts=N,split=2[rs][rp];[ds][rs]ssim=stats_file=ssim.log:shortest=1:repeatlast=0:eof_action=endall[ss];[dp][rp]psnr=stats_file=psnr.log:stats_version=2:shortest=1:repeatlast=0:eof_action=endall[ps]",
+        "-map",
+        "[ss]",
+        "-map",
+        "[ps]",
+        "-an",
+        "-sn",
+        "-dn",
+        "-fps_mode",
+        "passthrough",
+        "-f",
+        "null",
+        "-"
+      ],
+      "shell_command_for_display": "/opt/homebrew/bin/ffmpeg -hide_banner -nostdin -loglevel error -xerror -err_detect explode -i /Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/video.mp4 -err_detect explode -i /Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/reference-same-stream-bt601-proxy.mkv -filter_complex_threads 1 -filter_complex '[0:v:0]format=pix_fmts=yuv420p,settb=expr=1/30,setpts=N,split=2[ds][dp];[1:v:0]format=pix_fmts=yuv420p,settb=expr=1/30,setpts=N,split=2[rs][rp];[ds][rs]ssim=stats_file=ssim.log:shortest=1:repeatlast=0:eof_action=endall[ss];[dp][rp]psnr=stats_file=psnr.log:stats_version=2:shortest=1:repeatlast=0:eof_action=endall[ps]' -map '[ss]' -map '[ps]' -an -sn -dn -fps_mode passthrough -f null -",
+      "cwd": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/quality.evidence",
+      "started_at": "2026-10-04T18:16:16.503247+00:00",
+      "timeout_seconds": 600.0,
+      "stdout_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/quality.evidence/quality.stdout.txt",
+      "stderr_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/quality.evidence/quality.stderr.txt",
+      "returncode": 0,
+      "elapsed_seconds": 0.04010716697666794
+    }
+  ],
+  "passed": false,
+  "structure_decode_passed": true,
+  "quality_passed": false,
+  "verdict": "fail",
+  "finished_at": "2026-10-04T18:16:16.543984+00:00",
+  "output_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/quality.json"
+}

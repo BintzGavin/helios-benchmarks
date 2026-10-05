@@ -1,0 +1,235 @@
+{
+  "id": "H-medium-w11-t1",
+  "engine": "H",
+  "workers": 11,
+  "encoderThreads": 1,
+  "preset": "medium",
+  "jpegQuality": null,
+  "phase": "timed",
+  "index": 1,
+  "directory": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/final-cpu-studies-v1/results/medium-screen/full-v1/timed-1-H-medium-w11-t1",
+  "status": "complete",
+  "components": {
+    "engine": {
+      "command": [
+        "/Users/gavinbintz/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/three-engine-v1/worker.mjs",
+        "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/final-cpu-studies-v1/results/medium-screen/full-v1/timed-1-H-medium-w11-t1/config.json"
+      ],
+      "exitCode": 0,
+      "wallNs": 13047698292
+    }
+  },
+  "encoderThreadScope": "per segment/worker encoder",
+  "initialAggregateEncoderThreads": 11,
+  "compositionSha256": "e106f60729fa290c2a030f3c7ad1509205ddcf69f2a6c16503f94126b486529a",
+  "details": {
+    "engine": "H",
+    "node": "v24.19.0",
+    "ffmpegArgv": [],
+    "stats": {
+      "frames": 300,
+      "chunks": 11,
+      "workers": 11,
+      "ranges": [
+        {
+          "frames": 20,
+          "preparationMs": 167.16479199999998,
+          "rasterizeMs": 1033.845999,
+          "pixelExtractionMs": 217.97191499999997,
+          "drawMs": 1252.2456680000003,
+          "encoderWaitMs": 330.6150839999998,
+          "encodeMs": 7646.771291,
+          "verifyMs": 92.08387500000026
+        },
+        {
+          "frames": 28,
+          "preparationMs": 147.160792,
+          "rasterizeMs": 1350.3492109999997,
+          "pixelExtractionMs": 259.32637599999975,
+          "drawMs": 1610.1555850000007,
+          "encoderWaitMs": 379.9891680000003,
+          "encodeMs": 9685.351167,
+          "verifyMs": 97.19400000000132
+        },
+        {
+          "frames": 28,
+          "preparationMs": 161.602208,
+          "rasterizeMs": 1653.7900369999995,
+          "pixelExtractionMs": 319.5169589999995,
+          "drawMs": 1974.0622880000003,
+          "encoderWaitMs": 399.95628599999975,
+          "encodeMs": 9718.933,
+          "verifyMs": 89.35091699999975
+        },
+        {
+          "frames": 28,
+          "preparationMs": 160.932542,
+          "rasterizeMs": 1841.6371660000002,
+          "pixelExtractionMs": 332.3437869999998,
+          "drawMs": 2174.4823740000006,
+          "encoderWaitMs": 343.0107509999998,
+          "encodeMs": 9701.710332999999,
+          "verifyMs": 92.14233299999978
+        },
+        {
+          "frames": 28,
+          "preparationMs": 153.93908299999998,
+          "rasterizeMs": 1556.2069580000002,
+          "pixelExtractionMs": 260.5510810000008,
+          "drawMs": 1817.1597509999995,
+          "encoderWaitMs": 400.3785430000005,
+          "encodeMs": 9711.646792,
+          "verifyMs": 83.78691600000093
+        },
+        {
+          "frames": 28,
+          "preparationMs": 152.66929100000002,
+          "rasterizeMs": 1613.0241249999992,
+          "pixelExtractionMs": 262.92004500000075,
+          "drawMs": 1876.3941640000003,
+          "encoderWaitMs": 450.12041799999946,
+          "encodeMs": 9764.395375,
+          "verifyMs": 84.56029200000012
+        },
+        {
+          "frames": 28,
+          "preparationMs": 169.37112499999998,
+          "rasterizeMs": 1581.892583,
+          "pixelExtractionMs": 304.55441499999995,
+          "drawMs": 1886.9314579999996,
+          "encoderWaitMs": 409.26766799999973,
+          "encodeMs": 9761.001375,
+          "verifyMs": 79.5102079999997
+        },
+        {
+          "frames": 28,
+          "preparationMs": 176.612709,
+          "rasterizeMs": 1660.9317099999998,
+          "pixelExtractionMs": 274.7081239999993,
+          "drawMs": 1936.0754590000008,
+          "encoderWaitMs": 425.4000399999993,
+          "encodeMs": 9782.73575,
+          "verifyMs": 71.01883300000009
+        },
+        {
+          "frames": 28,
+          "preparationMs": 151.31858300000002,
+          "rasterizeMs": 1689.8131259999984,
+          "pixelExtractionMs": 279.78491599999955,
+          "drawMs": 1970.0886699999999,
+          "encoderWaitMs": 412.9745419999993,
+          "encodeMs": 9822.245083,
+          "verifyMs": 73.73770899999909
+        },
+        {
+          "frames": 28,
+          "preparationMs": 167.080584,
+          "rasterizeMs": 1677.8112109999997,
+          "pixelExtractionMs": 243.03258400000067,
+          "drawMs": 1921.2879619999997,
+          "encoderWaitMs": 415.4706250000006,
+          "encodeMs": 9823.610291,
+          "verifyMs": 68.10658400000102
+        },
+        {
+          "frames": 28,
+          "preparationMs": 159.37824999999998,
+          "rasterizeMs": 1604.9426700000004,
+          "pixelExtractionMs": 380.01941800000026,
+          "drawMs": 1985.469878,
+          "encoderWaitMs": 438.35521400000033,
+          "encodeMs": 9904.5715,
+          "verifyMs": 64.88079199999993
+        }
+      ],
+      "renderMs": 10373.741291999999,
+      "finalizeMs": 2396.9569169999995,
+      "finalVerifyMs": 1758.6359999999986
+    },
+    "apiWallNs": 12955667167
+  },
+  "deliveredWallNs": 13048411458,
+  "encoding": {
+    "rawUserSei": "x264 - core 165 r3222 b35605a - H.264/MPEG-4 AVC codec - Copyleft 2003-2025 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=1 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=24 keyint_min=2 scenecut=40 intra_refresh=0 rc_lookahead=24 rc=crf mbtree=1 crf=11.0 qcomp=0.60 qpmin=15 qpmax=60 qpstep=4 ip_ratio=1.40 aq=1:1.00",
+    "parameters": {
+      "cabac": "1",
+      "ref": "3",
+      "deblock": "1:0:0",
+      "analyse": "0x3:0x113",
+      "me": "hex",
+      "subme": "7",
+      "psy": "1",
+      "psy_rd": "1.00:0.00",
+      "mixed_ref": "1",
+      "me_range": "16",
+      "chroma_me": "1",
+      "trellis": "1",
+      "x8dct": "1",
+      "cqm": "0",
+      "deadzone": "21,11",
+      "fast_pskip": "1",
+      "chroma_qp_offset": "-2",
+      "threads": "1",
+      "lookahead_threads": "1",
+      "sliced_threads": "0",
+      "nr": "0",
+      "decimate": "1",
+      "interlaced": "0",
+      "bluray_compat": "0",
+      "constrained_intra": "0",
+      "bframes": "3",
+      "b_pyramid": "2",
+      "b_adapt": "1",
+      "b_bias": "0",
+      "direct": "1",
+      "weightb": "1",
+      "open_gop": "0",
+      "weightp": "2",
+      "keyint": "24",
+      "keyint_min": "2",
+      "scenecut": "40",
+      "intra_refresh": "0",
+      "rc_lookahead": "24",
+      "rc": "crf",
+      "mbtree": "1",
+      "crf": "11.0",
+      "qcomp": "0.60",
+      "qpmin": "15",
+      "qpmax": "60",
+      "qpstep": "4",
+      "ip_ratio": "1.40",
+      "aq": "1:1.00"
+    },
+    "expected": {
+      "threads": 1,
+      "bframes": 3,
+      "keyint": 24,
+      "crf": 11,
+      "qpmin": 15,
+      "qpmax": 60,
+      "qcomp": 0.6,
+      "qpstep": 4,
+      "scenecut": 40,
+      "cabac": 1,
+      "ref": 3,
+      "subme": 7,
+      "trellis": 1
+    },
+    "presetLiteralAvailable": false
+  },
+  "outputs": [
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/final-cpu-studies-v1/results/medium-screen/full-v1/timed-1-H-medium-w11-t1/output.mp4",
+      "bytes": 143606836,
+      "sha256": "915aa484276d261600354393de8383e8edb339d62caf3c55edb1264be53ccd5c"
+    }
+  ],
+  "retainedLogicalMp4Bytes": 1144797056,
+  "physicalMp4Storage": {
+    "uniqueInodeBytes": 572398528,
+    "reportedAllocatedBytes": 572411904
+  },
+  "qualityArtifact": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/final-cpu-studies-v1/results/medium-screen/full-v1/quality/H-915aa484276d261600354393de8383e8edb339d62caf3c55edb1264be53ccd5c/measurement.json",
+  "eligible": true
+}

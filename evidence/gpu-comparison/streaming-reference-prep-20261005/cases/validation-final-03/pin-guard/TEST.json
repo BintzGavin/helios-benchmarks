@@ -1,0 +1,10 @@
+{
+  "case": "pin-guard",
+  "passed": true,
+  "expectedRefusal": "PIN_MISMATCH",
+  "observedError": "Refusal: PIN_MISMATCH: /Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/streaming-reference-prep-20261005/fixtures/reference.nv12",
+  "secondsExcludedFromBenchmarks": 0.005628000013530254,
+  "sourceUnchanged": true,
+  "GPUExecuted": false,
+  "atomicFinalExists": false
+}

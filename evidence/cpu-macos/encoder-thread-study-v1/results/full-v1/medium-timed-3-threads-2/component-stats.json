@@ -1,0 +1,53 @@
+{
+  "stats": {
+    "frames": 300,
+    "chunks": 4,
+    "workers": 4,
+    "ranges": [
+      {
+        "frames": 75,
+        "preparationMs": 86.90754100000001,
+        "rasterizeMs": 2962.8234979999993,
+        "pixelExtractionMs": 508.7206279999999,
+        "drawMs": 3472.3723749999995,
+        "encoderWaitMs": 1900.535169,
+        "encodeMs": 10675.335292,
+        "verifyMs": 79.64520900000025
+      },
+      {
+        "frames": 75,
+        "preparationMs": 91.7675,
+        "rasterizeMs": 2887.889039000001,
+        "pixelExtractionMs": 509.60333700000183,
+        "drawMs": 3398.3218329999995,
+        "encoderWaitMs": 1993.2807039999989,
+        "encodeMs": 10730.409917,
+        "verifyMs": 74.11625000000095
+      },
+      {
+        "frames": 75,
+        "preparationMs": 91.72341700000001,
+        "rasterizeMs": 3014.442457999996,
+        "pixelExtractionMs": 483.19370799999746,
+        "drawMs": 3498.4613739999995,
+        "encoderWaitMs": 1941.6253790000012,
+        "encodeMs": 10782.667,
+        "verifyMs": 69.9913749999996
+      },
+      {
+        "frames": 75,
+        "preparationMs": 90.059125,
+        "rasterizeMs": 2882.9768319999985,
+        "pixelExtractionMs": 474.12424799999826,
+        "drawMs": 3357.8873370000015,
+        "encoderWaitMs": 2167.5647940000003,
+        "encodeMs": 10866.573875,
+        "verifyMs": 68.08104099999946
+      }
+    ],
+    "renderMs": 11136.408667,
+    "finalizeMs": 1974.8457909999997,
+    "finalVerifyMs": 1618.0196250000008
+  },
+  "node": "v24.19.0"
+}

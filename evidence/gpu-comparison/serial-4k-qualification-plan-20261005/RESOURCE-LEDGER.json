@@ -1,0 +1,76 @@
+{
+  "observedFreeBytes": 1154617344,
+  "calculation": "3840*2160*3/2*300",
+  "directFrameBytes": 12441600,
+  "direct300Bytes": 3732480000,
+  "entries": [
+    {
+      "item": "directNV12 retained raw or compressed capture cap",
+      "budgetBytes": 3732480000,
+      "retention": "retain; exactly300 frames; F capture same-stream; compressed representation overhead counts toward cap and can refuse run"
+    },
+    {
+      "item": "FFV1 centered lossless reference cap",
+      "budgetBytes": 1073741824,
+      "retention": "retain; budget cap not promised compression ratio"
+    },
+    {
+      "item": "elementary stream cap",
+      "budgetBytes": 536870912,
+      "retention": "retain native stream; F reservation conservative"
+    },
+    {
+      "item": "original MP4 cap",
+      "budgetBytes": 536870912,
+      "retention": "retain"
+    },
+    {
+      "item": "conformed MP4 cap",
+      "budgetBytes": 536870912,
+      "retention": "retain"
+    },
+    {
+      "item": "atomic conformance temporary cap",
+      "budgetBytes": 536870912,
+      "retention": "scratch; failed artifact retained within cap"
+    },
+    {
+      "item": "excluded full300 profile candidate cap",
+      "budgetBytes": 536870912,
+      "retention": "retain separate uncaptured hardware profile video"
+    },
+    {
+      "item": "uncaptured profiler/control receipts cap",
+      "budgetBytes": 536870912,
+      "retention": "retain; bounded logs; no large gputrace in this budget"
+    },
+    {
+      "item": "three-frame RGBA/NV12 positive-control outputs cap",
+      "budgetBytes": 268435456,
+      "retention": "retain; raw RGBA99532800 plus NV1237324800 bytes and small encoded/control artifacts"
+    },
+    {
+      "item": "indexed probe/hash/quality/log cap",
+      "budgetBytes": 134217728,
+      "retention": "retain; streaming decoded hashes, no persisted decoded raw"
+    },
+    {
+      "item": "free disk reserve",
+      "budgetBytes": 1073741824,
+      "retention": "not output allocation"
+    }
+  ],
+  "retainedRawPeakBudgetBytes": 9503842304,
+  "retainedRawGateBytes": 9663676416,
+  "rawGateMarginBytes": 159834112,
+  "streamingProposedPeakBytes": 5771362304,
+  "streamingProposedGateBytes": 6442450944,
+  "streamingEnabled": false,
+  "balancedEightOutputBudgetBytes": 15569256448,
+  "balancedGateBytes": 16106127360,
+  "balancedScope": "8 native/F elementary+original+conformed outputs at0.5GiB each,0.5GiB conformance temporary,1GiB logs,1GiB reserve; refs must already exist. Extra profiling/reference/capture space added separately. Earlier12GiB estimate superseded for this retention plan.",
+  "failurePolicy": "predict remaining budget before each stage; monitor own output tree size and free disk; stop before1GiB reserve/cap exhaustion; retain partial/error files; no evidence deletion; next attempt needs newly sufficient headroom. Caps are ceilings that can refuse a run, not estimates of codec byte maxima.",
+  "serialPolicy": "check current free space anew before every lane, including outputs retained by prior lanes;9GiB is incremental per active lane, not permission to run all5 on one9GiB disk.",
+  "capturePolicy": "actual 3-frame GPU capture needs a separate measured allocation gate; prior4K capture ENOSPC retained; no successful4K capture inferred; large capture not required to count uncaptured transfer proof but actual scene GPU proof still mandatory",
+  "cachePurge": "9 unrelated ignored-cache approvals pending; nominal4.31GiB gain is not assumed and does not guarantee9GiB"
+}

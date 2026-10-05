@@ -1,0 +1,66 @@
+{
+  "zeroCopyProved": false,
+  "scope": "excluded3-frame hardware probe; system/driver andunhookedcopies unknown",
+  "phases": [
+    {
+      "name": "NV12-reference-positive-control",
+      "counts": {
+        "profiler-hooks-installed": 1,
+        "IOSurfaceGetBaseAddress": 15,
+        "IOSurfaceGetBaseAddressOfPlane": 58,
+        "CVPixelBufferLockBaseAddress": 4,
+        "IOSurfaceLock": 4,
+        "CVPixelBufferGetBaseAddressOfPlane": 8
+      },
+      "observedDownloadEvents": []
+    },
+    {
+      "name": "actual4Kcommon-hardware",
+      "counts": {
+        "profiler-hooks-installed": 1,
+        "IOSurfaceGetBaseAddress": 9,
+        "IOSurfaceGetBaseAddressOfPlane": 469,
+        "MTLBufferContentsAccessIntentUnknown": 23717
+      },
+      "observedDownloadEvents": []
+    },
+    {
+      "name": "RGBA-download-positive-control",
+      "counts": {
+        "profiler-hooks-installed": 1,
+        "MTLBufferContentsAccessIntentUnknown": 23720,
+        "MTLBlitTextureToBuffer": 3
+      },
+      "observedDownloadEvents": [
+        {
+          "event": "MTLBlitTextureToBuffer",
+          "resourceExtentBytes": 33177600,
+          "timeSeconds": 174031.893452
+        },
+        {
+          "event": "MTLBlitTextureToBuffer",
+          "resourceExtentBytes": 33177600,
+          "timeSeconds": 174032.208203
+        },
+        {
+          "event": "MTLBlitTextureToBuffer",
+          "resourceExtentBytes": 33177600,
+          "timeSeconds": 174032.512545
+        }
+      ]
+    }
+  ],
+  "passed": true,
+  "gpuImports": 3,
+  "gpuConversions": 3,
+  "encoderCallbacks": 3,
+  "orderedFinish": {
+    "event": "encoder-finish",
+    "frames": 3,
+    "capacity": 3,
+    "peakInFlight": 1,
+    "allCallbacksComplete": true
+  },
+  "interposerSha256": "04c58a60cce437700b889e135b2633090eaa5b91add9e46ba3c44cc3fb9d480c",
+  "extraGpuTextureCopy": true
+}

@@ -1,0 +1,40 @@
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  packages/portable/tests/gpu-vulkan.test.ts > rejects stale, Metal, software and unshared Vulkan capabilities before encoding
+AssertionError: expected true to be false // Object.is equality
+
+- Expected
++ Received
+
+- false
++ true
+
+ ❯ packages/portable/tests/gpu-vulkan.test.ts:68:35
+     66|       await expect(renderGpuCanvasVideo(scene, output, { backend: 'vul…
+     67|       expect(await readFile(output, 'utf8')).toBe('preserved destinati…
+     68|       expect(existsSync(encoded)).toBe(false);
+       |                                   ^
+     69|     }
+     70|   } finally { await rm(directory, { recursive: true, force: true }); }
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+ FAIL  packages/portable/tests/gpu-vulkan.test.ts > rejects wrong Vulkan completion backend, protocol, sharing and hardware without publishing
+AssertionError: expected RenderError: Media process failed (254) { …(2) } to match object { code: 'INVALID_OUTPUT' }
+(2 matching properties omitted from actual)
+
+- Expected
++ Received
+
+- {
+-   "code": "INVALID_OUTPUT",
++ RenderError {
++   "code": "MEDIA_PROCESS",
+  }
+
+ ❯ packages/portable/tests/gpu-vulkan.test.ts:83:90
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯
+

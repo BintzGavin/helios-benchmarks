@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/check-vulkan-faults.py", line 19, in <module>
+    p=run('native-'+kind,[str(wrapper),'probe','hevc'],1)
+  File "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/check-vulkan-faults.py", line 10, in run
+    assert p.returncode==expected,(name,p.returncode)
+AssertionError: ('native-CPU', -6)

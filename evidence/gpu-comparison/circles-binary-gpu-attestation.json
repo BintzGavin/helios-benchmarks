@@ -1,0 +1,106 @@
+{
+  "passed": true,
+  "scope": "excluded 3-frame full4K circle probes; capture effects separately retained; unknown opaque/driver/unhooked copies remain",
+  "phases": [
+    {
+      "name": "capture-enabled-hardware-snapshot-overhead",
+      "counts": {
+        "profiler-hooks-installed": 1,
+        "IOSurfaceGetBaseAddress": 3,
+        "MTLBufferContentsAccessIntentUnknown": 6,
+        "MTLBlitBufferToTexture": 3,
+        "IOSurfaceGetBaseAddressOfPlane": 48,
+        "IOSurfaceLock": 12
+      },
+      "observedDownloadEvents": []
+    },
+    {
+      "name": "NV12-reference-positive-control",
+      "counts": {
+        "profiler-hooks-installed": 1,
+        "IOSurfaceGetBaseAddress": 1,
+        "MTLBufferContentsAccessIntentUnknown": 6,
+        "MTLBlitBufferToTexture": 3,
+        "IOSurfaceGetBaseAddressOfPlane": 26,
+        "CVPixelBufferLockBaseAddress": 3,
+        "IOSurfaceLock": 3,
+        "CVPixelBufferGetBaseAddressOfPlane": 6
+      },
+      "observedDownloadEvents": []
+    },
+    {
+      "name": "RGBA-download-positive-control",
+      "counts": {
+        "profiler-hooks-installed": 1,
+        "MTLBufferContentsAccessIntentUnknown": 9,
+        "MTLBlitBufferToTexture": 3,
+        "MTLBlitTextureToBuffer": 3
+      },
+      "observedDownloadEvents": [
+        {
+          "event": "MTLBlitTextureToBuffer",
+          "resourceExtentBytes": 33177600,
+          "timeSeconds": 176603.320542
+        },
+        {
+          "event": "MTLBlitTextureToBuffer",
+          "resourceExtentBytes": 33177600,
+          "timeSeconds": 176603.424265
+        },
+        {
+          "event": "MTLBlitTextureToBuffer",
+          "resourceExtentBytes": 33177600,
+          "timeSeconds": 176603.51915
+        }
+      ]
+    },
+    {
+      "name": "uncaptured-hardware",
+      "counts": {
+        "profiler-hooks-installed": 1,
+        "IOSurfaceGetBaseAddress": 3,
+        "MTLBufferContentsAccessIntentUnknown": 6,
+        "MTLBlitBufferToTexture": 3,
+        "IOSurfaceGetBaseAddressOfPlane": 36
+      },
+      "observedDownloadEvents": []
+    }
+  ],
+  "nativeReceipt": {
+    "bitrate": 500000000,
+    "configuredBitrate": 500000000,
+    "encoder": "videotoolbox",
+    "encoderPool": 3,
+    "explicitRawReadbackBytes": 0,
+    "frames": 3,
+    "gop": 30,
+    "protocol": 5,
+    "rasterizer": "skia-metal",
+    "transport": "binary",
+    "zeroCopyProved": false
+  },
+  "gpuConversions": 3,
+  "encoderCallbacks": 3,
+  "orderedFinish": {
+    "event": "encoder-finish",
+    "frames": 3,
+    "capacity": 3,
+    "peakInFlight": 2,
+    "allCallbacksComplete": true
+  },
+  "traceSha256": "ad81208664ff0ef8d61e087f9203c19ff3239d00d4b1002c93245b532911492c",
+  "rawInterposerSha256": "1ba737b5c6320a19ad4997699b662181ac72e9b3267797c40ff49306d0047fe1",
+  "interposerSha256": "e3e39a408eb092b9dfe1d7da1ae87c54ef12617cc6d1a6d7543e191ea3112196",
+  "metalCapture": {
+    "path": "comparison/circles-binary-profile-h/actual-metal.gputrace",
+    "regularFiles": 21,
+    "bytes": 81586697,
+    "snapshotOverheadExcludedFromTransferInference": true
+  },
+  "zeroCopyProved": false,
+  "helper": "/Users/gavinbintz/.codex/worktrees/gpu-binary-transport/helios/packages/portable/native/target/release/helios-gpu",
+  "helperSha256": "1383da791a588731101f6dd22bea8e911d4bc97243b7f01541214981afc90ecc",
+  "sourceCommit": "449933aec6516697457a3163a2cf6b1b68a57a96",
+  "sourceCheck": "comparison/binary-transport-source-check.json",
+  "sourceCheckSha256": "9117acf44f5d1fce70a826a280956e23934b2e9f97515871f6694e8d1bec36d0"
+}

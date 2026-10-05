@@ -1,0 +1,122 @@
+{
+  "passed": true,
+  "sourceGpuWritesOnly": true,
+  "referenceOnlyCpuDownload": true,
+  "tests": "four solidcolors/channelorder, quantizedmidtone BT709transfer, exactgeometry/format/nullrejection, source release before conversion",
+  "referenceSha256": "789dbf8d47af2946077da2f6a28edd851c1edc818f701cca61a8853f51750ff8",
+  "expectedFormulaCorrection": "initial verifier mistakenly used112 instead of224 chroma span; actualGPU bytes unchanged, corrected independent limited-range formula matches",
+  "rows": [
+    {
+      "inputRgb": [
+        255,
+        0,
+        0
+      ],
+      "expectedYUV": [
+        63,
+        102,
+        240
+      ],
+      "actualUniqueYUV": [
+        [
+          63
+        ],
+        [
+          102
+        ],
+        [
+          240
+        ]
+      ],
+      "maximumError": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inputRgb": [
+        0,
+        255,
+        0
+      ],
+      "expectedYUV": [
+        173,
+        42,
+        26
+      ],
+      "actualUniqueYUV": [
+        [
+          173
+        ],
+        [
+          42
+        ],
+        [
+          26
+        ]
+      ],
+      "maximumError": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inputRgb": [
+        0,
+        0,
+        255
+      ],
+      "expectedYUV": [
+        32,
+        240,
+        118
+      ],
+      "actualUniqueYUV": [
+        [
+          32
+        ],
+        [
+          240
+        ],
+        [
+          118
+        ]
+      ],
+      "maximumError": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inputRgb": [
+        64,
+        128,
+        191
+      ],
+      "expectedYUV": [
+        107,
+        165,
+        96
+      ],
+      "actualUniqueYUV": [
+        [
+          107
+        ],
+        [
+          165
+        ],
+        [
+          96
+        ]
+      ],
+      "maximumError": [
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

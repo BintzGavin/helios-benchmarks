@@ -1,0 +1,52 @@
+{
+  "producerCommand": [
+    "/home/user/benchmark-work/node-v24.19.0-linux-x64/bin/node",
+    "/home/user/benchmark-work/repro-linux/reference-source.mjs",
+    "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/quality-reference/references/H/reference-request.json"
+  ],
+  "consumerCommand": [
+    "/usr/bin/ffmpeg",
+    "-v",
+    "error",
+    "-nostdin",
+    "-n",
+    "-threads",
+    "2",
+    "-filter_threads",
+    "1",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgba",
+    "-video_size",
+    "1920x1080",
+    "-framerate",
+    "30",
+    "-i",
+    "pipe:0",
+    "-vf",
+    "scale=out_color_matrix=bt601:out_range=tv,format=yuv420p",
+    "-an",
+    "-c:v",
+    "ffv1",
+    "-level",
+    "3",
+    "-g",
+    "1",
+    "-threads",
+    "2",
+    "-pix_fmt",
+    "yuv420p",
+    "-colorspace",
+    "smpte170m",
+    "-color_range",
+    "tv",
+    "-fs",
+    "1153433600",
+    "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/quality-reference/references/H/reference.nut"
+  ],
+  "exitCodes": {
+    "producer": 0,
+    "consumer": 0
+  }
+}

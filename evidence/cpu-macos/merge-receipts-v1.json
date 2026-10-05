@@ -1,0 +1,45 @@
+{
+  "receipts": [
+    {
+      "repository": "BintzGavin/helios",
+      "pr": 5006,
+      "head": "0566d1108f922ea88294d4bbe1f11cdb49849834",
+      "merge": "ebf8e145538d454479d80f97f8f76893b2fdf96f",
+      "mergedAt": "2026-10-01T21:25:52Z",
+      "paths": [
+        "packages/portable"
+      ],
+      "testedHeadAndMergedSourceTreeIdentical": true,
+      "verifiedFileCount": 115,
+      "treeReceiptSha256": "1f344f423843a330198d437673d16d111294e4af18971f95f621582891f39bd3",
+      "state": "MERGED",
+      "url": "https://github.com/BintzGavin/helios/pull/5006",
+      "noManualDeploymentPerformed": true
+    },
+    {
+      "repository": "BintzGavin/durable-objects-requests-scheduler",
+      "pr": 45,
+      "head": "8029704f67abc3cae84dd83945e36a877b5e2d8e",
+      "merge": "597ab652c4d57f7abe021e0e643cf54b222a1e7b",
+      "mergedAt": "2026-10-01T21:29:19Z",
+      "paths": [
+        "src/index.ts",
+        "src/tools/memory.ts",
+        "src/tools/sandbox.ts",
+        "src/tools/render-readiness.ts",
+        "test/media-streaming.test.ts",
+        "test/sandbox-audio.test.ts",
+        "test/render-readiness.test.ts",
+        "test-node/render-readiness-bundle.check.mjs"
+      ],
+      "testedHeadAndMergedSourceTreeIdentical": true,
+      "verifiedFileCount": 8,
+      "treeReceiptSha256": "185c6ea421c2d229c5d4dfa9706a3d7b68751fd598229ee3d679c095744d14c3",
+      "state": "MERGED",
+      "url": "https://github.com/BintzGavin/durable-objects-requests-scheduler/pull/45",
+      "noManualDeploymentPerformed": true
+    }
+  ],
+  "githubStatusSource": "Direct gh pr view returned MERGED with these head/merge/time values on 2026-10-01.",
+  "verification": "Fetched merge commits compared with already checked/tested heads; no exports or tests rerun; original dirty worktrees untouched."
+}

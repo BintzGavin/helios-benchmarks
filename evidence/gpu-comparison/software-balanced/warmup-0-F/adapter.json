@@ -1,0 +1,92 @@
+{
+  "engine": "F",
+  "mode": "software",
+  "frames": 300,
+  "bitrate": 180000000,
+  "fontSha256": "9ae2da663d64342031e59b5fa680dd355171d021b7ebf83774efc7c0330ae7b5",
+  "executableSha256": "107757e599c608eaecce016ced13c59236130168c6200189b16582e58572e0bb",
+  "commands": [
+    {
+      "command": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/textgrid-adapter",
+      "args": [
+        "raw",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/software-balanced/warmup-0-F/output.mp4",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/font",
+        "300",
+        "180000000"
+      ]
+    },
+    {
+      "command": "/opt/homebrew/bin/ffmpeg",
+      "args": [
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-y",
+        "-filter_threads",
+        "1",
+        "-f",
+        "rawvideo",
+        "-pix_fmt",
+        "rgba",
+        "-s",
+        "1920x1080",
+        "-r",
+        "30/1",
+        "-i",
+        "pipe:0",
+        "-an",
+        "-vf",
+        "scale=out_color_matrix=bt709:out_range=pc,format=yuv444p,colorspace=ispace=bt709:iprimaries=bt709:itrc=srgb:irange=pc:all=bt709:range=tv:format=yuv420p",
+        "-c:v",
+        "libx264",
+        "-preset",
+        "medium",
+        "-threads",
+        "2",
+        "-crf",
+        "11",
+        "-pix_fmt",
+        "yuv420p",
+        "-color_primaries",
+        "bt709",
+        "-color_trc",
+        "bt709",
+        "-colorspace",
+        "bt709",
+        "-color_range",
+        "tv",
+        "-bf",
+        "0",
+        "-g",
+        "90",
+        "-sc_threshold",
+        "0",
+        "-video_track_timescale",
+        "30",
+        "-frames:v",
+        "300",
+        "-movflags",
+        "+faststart",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/software-balanced/warmup-0-F/output.mp4"
+      ]
+    }
+  ],
+  "status": "complete",
+  "zeroCopyProved": false,
+  "rawReadback": true,
+  "verificationOwner": "run_matrix.py; one full post-export decode plus independent cadence/fidelity gates",
+  "startedAt": "2026-10-03T15:32:41.447Z",
+  "producer": {
+    "code": 0,
+    "signal": null,
+    "stderr": "{\"device\":\"Apple M3 Pro\",\"explicitRawReadbackBytes\":2488320000,\"frames\":300,\"mode\":\"raw\",\"rasterizer\":\"skia-metal\",\"renderingMs\":25471.699875,\"zeroCopyProved\":false}\n"
+  },
+  "encoder": {
+    "code": 0,
+    "signal": null,
+    "stderr": ""
+  },
+  "exportMs": 30906.857833000002,
+  "finishedAt": "2026-10-03T15:33:12.356Z"
+}

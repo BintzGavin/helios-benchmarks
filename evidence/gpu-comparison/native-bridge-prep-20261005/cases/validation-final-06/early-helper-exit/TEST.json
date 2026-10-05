@@ -1,0 +1,13 @@
+{
+  "test": "early-helper-exit",
+  "passed": true,
+  "expectedRefusal": [
+    "RAW_SHORT_FRAME",
+    "DRIVER_EXIT"
+  ],
+  "observedError": "Refusal:RAW_SHORT_FRAME:0:0",
+  "secondsExcludedFromBenchmark": 1.2188873330014758,
+  "GPUExecuted": false,
+  "sourceUnchanged": true,
+  "publishedFixtureBinding": false
+}

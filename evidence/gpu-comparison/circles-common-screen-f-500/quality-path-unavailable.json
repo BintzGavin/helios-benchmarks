@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-10-03T18:07:15.830292+00:00",
+  "engine": "F",
+  "scene": "Circles99kText1k",
+  "expected": {
+    "width": 3840,
+    "height": 2160,
+    "frames": 300,
+    "fps": "30",
+    "pts_seconds": "n/fps, n=0..frames-1"
+  },
+  "candidate": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-500/video.mp4",
+    "bytes": 629006407,
+    "sha256": "97c185947d57213e2ca20fe8083f5cecf1f0e18a8fa1dd0c2a38aa0b1b371b4a",
+    "probe": {
+      "passed": false,
+      "errors": [
+        "Invalid ffprobe JSON: Expecting value: line 1 column 1 (char 0)",
+        "ffprobe failed: [Errno 2] No such file or directory: 'ffprobe'"
+      ],
+      "stream": {}
+    },
+    "decode": {
+      "passed": false,
+      "errors": [
+        "Full decode failed or reported errors; see retained command and stderr"
+      ]
+    }
+  },
+  "reference": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-reference-f/reference.mkv",
+    "bytes": 513310548,
+    "sha256": "5180e73b4d0fa3446dd52a77dfc019a7b6e8b80ea03c777e28b4f6b3927717a1",
+    "engine": "F",
+    "probe": {
+      "passed": false,
+      "errors": [
+        "Invalid ffprobe JSON: Expecting value: line 1 column 1 (char 0)",
+        "ffprobe failed: [Errno 2] No such file or directory: 'ffprobe'"
+      ],
+      "stream": {}
+    },
+    "decode": {
+      "passed": false,
+      "errors": [
+        "Full decode failed or reported errors; see retained command and stderr"
+      ]
+    },
+    "lossless_provenance": {
+      "codec": null,
+      "intrinsically_lossless_codec": false,
+      "caller_attested": false,
+      "caveat": "Neither codec nor attestation establishes the file was produced from this scene/engine or that its upstream source was lossless"
+    }
+  },
+  "quality": {
+    "status": "blocked",
+    "passed": false,
+    "reason": "Reference prerequisites must pass"
+  },
+  "scope": "First video stream only; audio/subtitles and cross-engine pixel identity are not assessed",
+  "errors": [
+    "Cannot run ffmpeg",
+    "Cannot run ffprobe",
+    "Reference is not an intrinsically lossless codec; explicit --reference-lossless-attested is required"
+  ],
+  "commands": [
+    {
+      "label": "ffmpeg_version",
+      "argv": [
+        "ffmpeg",
+        "-version"
+      ],
+      "shell_command_for_display": "ffmpeg -version",
+      "cwd": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-500/quality.evidence",
+      "started_at": "2026-10-03T18:07:15.830733+00:00",
+      "timeout_seconds": 600.0,
+      "stdout_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-500/quality.evidence/ffmpeg_version.stdout.txt",
+      "stderr_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-500/quality.evidence/ffmpeg_version.stderr.txt",
+      "returncode": null,
+      "error": "[Errno 2] No such file or directory: 'ffmpeg'",
+      "elapsed_seconds": 0.005091417000000001
+    },
+    {
+      "label": "ffprobe_version",
+      "argv": [
+        "ffprobe",
+        "-version"
+      ],
+      "shell_command_for_display": "ffprobe -version",
+      "cwd": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-500/quality.evidence",
+      "started_at": "2026-10-03T18:07:15.835947+00:00",
+      "timeout_seconds": 600.0,
+      "stdout_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-500/quality.evidence/ffprobe_version.stdout.txt",
+      "stderr_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-500/quality.evidence/ffprobe_version.stderr.txt",
+      "returncode": null,
+      "error": "[Errno 2] No such file or directory: 'ffprobe'",
+      "elapsed_seconds": 0.0018437499999999912
+    },
+    {
+      "label": "candidate_probe",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_streams",
+        "-show_frames",
+        "-show_entries",
+        "stream=codec_name,width,height,pix_fmt,time_base,avg_frame_rate,r_frame_rate,nb_frames,color_range,color_space,color_transfer,color_primaries,chroma_location:frame=pts,width,height",
+        "-of",
+        "json",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-500/video.mp4"
+      ],
+      "shell_command_for_display": "ffprobe -v error -select_streams v:0 -show_streams -show_frames -show_entries stream=codec_name,width,height,pix_fmt,time_base,avg_frame_rate,r_frame_rate,nb_frames,color_range,color_space,color_transfer,color_primaries,chroma_location:frame=pts,width,height -of json /Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-500/video.mp4",
+      "cwd": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-500/quality.evidence",
+      "started_at": "2026-10-03T18:07:16.286746+00:00",
+      "timeout_seconds": 600.0,
+      "stdout_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-500/quality.evidence/candidate_probe.stdout.txt",
+      "stderr_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-500/quality.evidence/candidate_probe.stderr.txt",
+      "returncode": null,
+      "error": "[Errno 2] No such file or directory: 'ffprobe'",
+      "elapsed_seconds": 0.0015759590000000712
+    },
+    {
+      "label": "candidate_decode",
+      "argv": [
+        "ffmpeg",
+        "-hide_banner",
+        "-nostdin",
+        "-loglevel",
+        "error",
+        "-xerror",
+        "-err_detect",
+        "explode",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-500/video.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-sn",
+        "-dn",
+        "-fps_mode",
+        "passthrough",
+        "-f",
+        "null",
+        "-"
+      ],
+      "shell_command_for_display": "ffmpeg -hide_banner -nostdin -loglevel error -xerror -err_detect explode -i /Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-500/video.mp4 -map 0:v:0 -an -sn -dn -fps_mode passthrough -f null -",
+      "cwd": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-500/quality.evidence",
+      "started_at": "2026-10-03T18:07:16.288648+00:00",
+      "timeout_seconds": 600.0,
+      "stdout_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-500/quality.evidence/candidate_decode.stdout.txt",
+      "stderr_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-500/quality.evidence/candidate_decode.stderr.txt",
+      "returncode": null,
+      "error": "[Errno 2] No such file or directory: 'ffmpeg'",
+      "elapsed_seconds": 0.0012689169999999805
+    },
+    {
+      "label": "reference_probe",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_streams",
+        "-show_frames",
+        "-show_entries",
+        "stream=codec_name,width,height,pix_fmt,time_base,avg_frame_rate,r_frame_rate,nb_frames,color_range,color_space,color_transfer,color_primaries,chroma_location:frame=pts,width,height",
+        "-of",
+        "json",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-reference-f/reference.mkv"
+      ],
+      "shell_command_for_display": "ffprobe -v error -select_streams v:0 -show_streams -show_frames -show_entries stream=codec_name,width,height,pix_fmt,time_base,avg_frame_rate,r_frame_rate,nb_frames,color_range,color_space,color_transfer,color_primaries,chroma_location:frame=pts,width,height -of json /Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-reference-f/reference.mkv",
+      "cwd": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-500/quality.evidence",
+      "started_at": "2026-10-03T18:07:16.627250+00:00",
+      "timeout_seconds": 600.0,
+      "stdout_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-500/quality.evidence/reference_probe.stdout.txt",
+      "stderr_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-500/quality.evidence/reference_probe.stderr.txt",
+      "returncode": null,
+      "error": "[Errno 2] No such file or directory: 'ffprobe'",
+      "elapsed_seconds": 0.0015841250000000473
+    },
+    {
+      "label": "reference_decode",
+      "argv": [
+        "ffmpeg",
+        "-hide_banner",
+        "-nostdin",
+        "-loglevel",
+        "error",
+        "-xerror",
+        "-err_detect",
+        "explode",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-reference-f/reference.mkv",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-sn",
+        "-dn",
+        "-fps_mode",
+        "passthrough",
+        "-f",
+        "null",
+        "-"
+      ],
+      "shell_command_for_display": "ffmpeg -hide_banner -nostdin -loglevel error -xerror -err_detect explode -i /Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-reference-f/reference.mkv -map 0:v:0 -an -sn -dn -fps_mode passthrough -f null -",
+      "cwd": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-500/quality.evidence",
+      "started_at": "2026-10-03T18:07:16.629117+00:00",
+      "timeout_seconds": 600.0,
+      "stdout_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-500/quality.evidence/reference_decode.stdout.txt",
+      "stderr_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-500/quality.evidence/reference_decode.stderr.txt",
+      "returncode": null,
+      "error": "[Errno 2] No such file or directory: 'ffmpeg'",
+      "elapsed_seconds": 0.00111949999999994
+    }
+  ],
+  "passed": false,
+  "structure_decode_passed": false,
+  "quality_passed": false,
+  "verdict": "fail",
+  "finished_at": "2026-10-03T18:07:16.630366+00:00",
+  "output_path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-500/quality.json"
+}

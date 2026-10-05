@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/opt/homebrew/bin/ffprobe",
+    "-v",
+    "error",
+    "-threads",
+    "4",
+    "-select_streams",
+    "v:0",
+    "-show_frames",
+    "-show_streams",
+    "-show_entries",
+    "frame=pts,best_effort_timestamp,pkt_dts,duration,pkt_duration,key_frame,pict_type:stream=codec_name,codec_type,width,height,pix_fmt,color_space,color_range,time_base,start_pts,duration_ts,avg_frame_rate,r_frame_rate,nb_frames",
+    "-of",
+    "json",
+    "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/final-cpu-studies-v1/results/ul-screen/full-v1/warmup-1-R-ultrafast-w6-t1/output.mp4"
+  ],
+  "exitCode": 0
+}

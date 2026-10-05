@@ -1,0 +1,10 @@
+{
+  "test": "wrong-packet-hash",
+  "passed": true,
+  "expectedRefusal": "DRIVER_EXIT",
+  "observedError": "Refusal:DRIVER_EXIT",
+  "secondsExcludedFromBenchmark": 1.2160155000165105,
+  "GPUExecuted": false,
+  "sourceUnchanged": true,
+  "publishedFixtureBinding": false
+}

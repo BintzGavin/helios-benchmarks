@@ -1,0 +1,24 @@
+[
+  {
+    "mode": "encode-binary",
+    "args": [
+      "encode-binary",
+      "3840",
+      "2160",
+      "30",
+      "1",
+      "500000000",
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-binary-profile-h-uncaptured/profile.h264",
+      "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-binary-profile-h-uncaptured/encode-binary.transfer.jsonl",
+      "",
+      "30",
+      "3"
+    ],
+    "stdoutBytes": 225,
+    "stdoutSha256": "63085d053fc2ec76072f7ac626e4742d202211472e496895bc1c79ad984a76c7",
+    "stdout": "{\"bitrate\":500000000,\"configuredBitrate\":500000000,\"encoder\":\"videotoolbox\",\"encoderPool\":3,\"explicitRawReadbackBytes\":0,\"frames\":3,\"gop\":30,\"protocol\":5,\"rasterizer\":\"skia-metal\",\"transport\":\"binary\",\"zeroCopyProved\":false}\n",
+    "stderr": "",
+    "status": "complete",
+    "referenceOnlyDownloads": false
+  }
+]

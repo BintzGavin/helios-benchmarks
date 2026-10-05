@@ -1,0 +1,10 @@
+{
+  "test": "race-destination",
+  "passed": true,
+  "expectedRefusal": "File exists",
+  "observedError": "FileExistsError:[Errno 17] File exists: '/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-final-06/race-destination/result'",
+  "secondsExcludedFromBenchmark": 0.25083662499673665,
+  "GPUExecuted": false,
+  "sourceUnchanged": true,
+  "publishedFixtureBinding": false
+}

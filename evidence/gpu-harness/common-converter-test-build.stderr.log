@@ -1,0 +1,4 @@
+sources/fframes-common-gpu/test-import.mm:20:39: error: no member named 'string' in namespace 'std'
+   20 |   assert(argc==3);bool reference=std::string(argv[1])=="reference";
+      |                                  ~~~~~^
+1 error generated.

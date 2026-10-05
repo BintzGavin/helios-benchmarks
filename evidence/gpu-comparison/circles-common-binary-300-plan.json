@@ -1,0 +1,65 @@
+{
+  "lane": "hardware-common-converter-adapter",
+  "scene": {
+    "width": 3840,
+    "height": 2160,
+    "frames": 300,
+    "fps": 30,
+    "name": "Circles99kText1k",
+    "source_start": 3
+  },
+  "runs": [
+    [
+      "warmup",
+      0,
+      "H"
+    ],
+    [
+      "warmup",
+      0,
+      "F"
+    ],
+    [
+      "timed",
+      1,
+      "H"
+    ],
+    [
+      "timed",
+      1,
+      "F"
+    ],
+    [
+      "timed",
+      2,
+      "F"
+    ],
+    [
+      "timed",
+      2,
+      "H"
+    ],
+    [
+      "timed",
+      3,
+      "F"
+    ],
+    [
+      "timed",
+      3,
+      "H"
+    ],
+    [
+      "timed",
+      4,
+      "H"
+    ],
+    [
+      "timed",
+      4,
+      "F"
+    ]
+  ],
+  "status": "dry-run-only",
+  "performance_results": null
+}

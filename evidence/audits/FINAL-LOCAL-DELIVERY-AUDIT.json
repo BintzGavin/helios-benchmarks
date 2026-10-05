@@ -1,0 +1,30 @@
+{
+  "deliveryManifest": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/FINAL-DELIVERY.json",
+  "deliveryManifestSha256": "6a3ec92808d1b0ec94055ba916ed41747da1b4bbc805f4668768666eb9de2b2b",
+  "combinedReport": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/helios-gpu-comparison-results-20261003.md",
+  "combinedReportSha256": "7da31d886569142ef221a57287f9dab50586128687a73e9af5dd65a85a5e853d",
+  "textgridReport": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/helios-gpu-textgrid-results-20261003.md",
+  "packages": [
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/helios-gpu-textgrid-source-receipts-v2-20261003.zip",
+      "bytes": 51758803,
+      "sha256": "e9da70012f70fe5029b350e924aaebe1f8b03ccc66025237d193309ebb07ac15",
+      "archiveCrcOwnerVerified": true
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/deliverables/helios-gpu-4k-source-receipts-20261003.zip",
+      "bytes": 31700371,
+      "sha256": "913168c5e7768276831e51671ebe8bcb0a9dfec42a13a44d7fec3c338a06afd0",
+      "archiveCrcOwnerVerified": true
+    }
+  ],
+  "libraryDeliveryConfirmed": false,
+  "newLibraryIds": [],
+  "publishedM5ClaimBeaten": false,
+  "zeroCopyProved": false,
+  "broaderObjectiveComplete": false,
+  "timingWindowClosed": true,
+  "frozenHelpersPreserved": true,
+  "checkpointLibraryIdentityPreserved": "libfile_cd84375e4648819195364136245484c6",
+  "owner": "01a0ff86-ddbd-7703-92b8-781e18082039"
+}

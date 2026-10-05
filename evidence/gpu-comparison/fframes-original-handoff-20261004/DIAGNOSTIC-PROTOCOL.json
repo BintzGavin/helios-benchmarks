@@ -1,0 +1,103 @@
+{
+  "benchmarkTiming": false,
+  "timingWindowOpen": false,
+  "sameStreamOriginalHardwareInput": true,
+  "conversion": "scale=out_color_matrix=bt601:out_range=tv,format=yuv420p",
+  "conversionMatchesRetainedReferenceProtocol": true,
+  "proxyIsActualEncoderNV12Oracle": false,
+  "floorsUnchanged": {
+    "ssimY": 0.995,
+    "psnrY": 40,
+    "psnrU": 35,
+    "psnrV": 35
+  },
+  "fullScene": {
+    "width": 3840,
+    "height": 2160,
+    "frames": 300,
+    "fps": "30/1",
+    "sourceFramesInclusive": [
+      3,
+      302
+    ],
+    "circles": 99000,
+    "digits": 1000,
+    "bitrate": 500000000,
+    "gop": 30,
+    "requiredEncoder": "h264_videotoolbox",
+    "pipeline": "MaxPerformance"
+  },
+  "controls": [
+    "8 solid RGB bars",
+    "2x2 red-cyan checker",
+    "1pixel green-magenta stripe",
+    "per-frame gray ramp"
+  ],
+  "reason": "Disentangle exact candidate source raster from independent-render variance; characterize opaque encoder conversion without fitting the benchmark reference.",
+  "qualityFailureDoesNotProveVideoToolboxInternalConversionWrong": true,
+  "harness": [
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/run-fframes-handoff.py",
+      "sha256": "dedf6bc6e1d196ffdc049f6682bae491bbb32ae8d33f033e8c2cc46266e2e046",
+      "bytes": 2250
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/audit-fframes-handoff.py",
+      "sha256": "6afe161521ac9cb72103ad00208b83a678ab6e84d5a26536d1241e916e7f203d",
+      "bytes": 6964
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/qualify-fframes-handoff.py",
+      "sha256": "d6f3c5952bc24f8a016a85de32f09f223ae01e76d2d4946ba52c112dc72b7ce3",
+      "bytes": 5200
+    },
+    {
+      "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/checkpoint/test_fframes_handoff.py",
+      "sha256": "d426fd7e8a6ecfba49aef9bd960317e201c159eaf56ae95667ed24fdc51b8cf2",
+      "bytes": 2566
+    }
+  ],
+  "runtime": [
+    {
+      "path": "/opt/homebrew/Cellar/ffmpeg/9.0.2/bin/ffmpeg",
+      "sha256": "1ede5c7fd4e97d832ec69c97c78231875de7d69c55423158f5f4a4d923227dd5",
+      "version": [
+        "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+        "built with Apple clang version 21.0.0 (clang-2100.3.34.2)"
+      ]
+    },
+    {
+      "path": "/opt/homebrew/Cellar/ffmpeg/9.0.2/bin/ffprobe",
+      "sha256": "258fa480850eec6cf7b6831b2d3edd164cdd2f9ddb7a14965dc9fdaf9d175ff7",
+      "version": [
+        "ffprobe version 9.0.2 Copyright (c) 2007-2026 the FFmpeg developers",
+        "built with Apple clang version 21.0.0 (clang-2100.3.34.2)"
+      ]
+    },
+    {
+      "path": "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+      "sha256": "4f00ea2ad53d62437a6a3946b73c73614a97e8accdc5b96dc095ea1a0d9c6a56",
+      "version": [
+        "Python 3.14.6"
+      ]
+    },
+    {
+      "path": "/opt/homebrew/Cellar/rust/1.97.1/bin/rustc",
+      "sha256": "d69d40bfd2e11825feb3538512b6ffcd63de91c35ec36bb876849f0f9f8fe6bd",
+      "version": [
+        "rustc 1.97.1 (8bab26f4f 2026-07-14) (Homebrew)"
+      ]
+    },
+    {
+      "path": "/opt/homebrew/Cellar/rust/1.97.1/bin/cargo",
+      "sha256": "b7a341737d8777ef0e21a71f0af90723ccf692914255110c12bbcfed79d75a53",
+      "version": [
+        "cargo 1.97.1 (c980f4866 2026-06-30) (Homebrew)"
+      ]
+    }
+  ],
+  "host": {
+    "system": "{\n  \"SPDisplaysDataType\" : [\n    {\n      \"_name\" : \"Apple M3 Pro\",\n      \"spdisplays_metal\" : \"spdisplays_supported\",\n      \"spdisplays_vendor\" : \"sppci_vendor_Apple\",\n      \"sppci_bus\" : \"spdisplays_builtin\",\n      \"sppci_cores\" : \"14\",\n      \"sppci_device_type\" : \"spdisplays_gpu\",\n      \"sppci_model\" : \"Apple M3 Pro\"\n    }\n  ],\n  \"SPHardwareDataType\" : [\n    {\n      \"_name\" : \"hardware_overview\",\n      \"boot_rom_version\" : \"13822.81.10\",\n      \"chip_type\" : \"Apple M3 Pro\",\n      \"machine_model\" : \"Mac15,6\",\n      \"machine_name\" : \"MacBook Pro\",\n      \"model_number\" : \"MRX33LL/A\",\n      \"number_processors\" : \"proc 11:5:6\",\n      \"os_loader_version\" : \"13822.81.10\",\n      \"physical_memory\" : \"18 GB\",\n      \"platform_UUID\" : \"67A1AA70-524B-56BC-8B14-A5D72B02B495\",\n      \"provisioning_UDID\" : \"00006030-000E715C1A79001C\",\n      \"serial_number\" : \"DLVW0YGQ3H\"\n    }\n  ]\n}",
+    "swVers": "ProductName:\t\tmacOS\nProductVersion:\t\t26.3\nBuildVersion:\t\t25D125\n"
+  }
+}

@@ -1,0 +1,259 @@
+   Compiling helios-gpu v0.1.0 (/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native)
+warning: helios-gpu@0.1.0: vulkan.mm:63:62: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    63 |         VK_STRUCTURE_TYPE_EXPORT_METAL_OBJECT_CREATE_INFO_EXT};
+warning: helios-gpu@0.1.0:       |                                                              ^
+warning: helios-gpu@0.1.0: vulkan.mm:66:61: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    66 |     VkApplicationInfo app{VK_STRUCTURE_TYPE_APPLICATION_INFO};
+warning: helios-gpu@0.1.0:       |                                                             ^
+warning: helios-gpu@0.1.0: vulkan.mm:69:67: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:    69 |     VkInstanceCreateInfo ic{VK_STRUCTURE_TYPE_INSTANCE_CREATE_INFO};
+warning: helios-gpu@0.1.0:       |                                                                   ^
+warning: helios-gpu@0.1.0: vulkan.mm:74:73: error: extraneous ')' after condition, expected a statement
+warning: helios-gpu@0.1.0:    74 |     if (!require(vkCreateInstance(&ic, nullptr, &instance), "instance"))) return nullptr;
+warning: helios-gpu@0.1.0:       |                                                                         ^
+warning: helios-gpu@0.1.0: vulkan.mm:76:84: error: extraneous ')' after condition, expected a statement
+warning: helios-gpu@0.1.0:    76 |     if (!require(vkEnumeratePhysicalDevices(instance, &count, nullptr), "devices"))) return nullptr;
+warning: helios-gpu@0.1.0:       |                                                                                    ^
+warning: helios-gpu@0.1.0: vulkan.mm:79:24: error: extraneous ')' after condition, expected a statement
+warning: helios-gpu@0.1.0:    79 |             "devices"))) return nullptr;
+warning: helios-gpu@0.1.0:       |                        ^
+warning: helios-gpu@0.1.0: vulkan.mm:93:27: error: extraneous ')' after condition, expected a statement
+warning: helios-gpu@0.1.0:    93 |             "extensions"))) return nullptr;
+warning: helios-gpu@0.1.0:       |                           ^
+warning: helios-gpu@0.1.0: vulkan.mm:97:27: error: extraneous ')' after condition, expected a statement
+warning: helios-gpu@0.1.0:    97 |             "extensions"))) return nullptr;
+warning: helios-gpu@0.1.0:       |                           ^
+warning: helios-gpu@0.1.0: vulkan.mm:115:74: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:   115 |     VkDeviceQueueCreateInfo qc{VK_STRUCTURE_TYPE_DEVICE_QUEUE_CREATE_INFO};
+warning: helios-gpu@0.1.0:       |                                                                          ^
+warning: helios-gpu@0.1.0: vulkan.mm:123:63: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:   123 |     VkDeviceCreateInfo dc{VK_STRUCTURE_TYPE_DEVICE_CREATE_INFO};
+warning: helios-gpu@0.1.0:       |                                                               ^
+warning: helios-gpu@0.1.0: vulkan.mm:129:77: error: extraneous ')' after condition, expected a statement
+warning: helios-gpu@0.1.0:   129 |     if (!require(vkCreateDevice(physical, &dc, nullptr, &device), "device"))) return nullptr;
+warning: helios-gpu@0.1.0:       |                                                                             ^
+warning: helios-gpu@0.1.0: vulkan.mm:134:62: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:   134 |         VK_STRUCTURE_TYPE_EXPORT_METAL_OBJECT_CREATE_INFO_EXT};
+warning: helios-gpu@0.1.0:       |                                                              ^
+warning: helios-gpu@0.1.0: vulkan.mm:138:56: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:   138 |         VK_STRUCTURE_TYPE_IMPORT_METAL_TEXTURE_INFO_EXT};
+warning: helios-gpu@0.1.0:       |                                                        ^
+warning: helios-gpu@0.1.0: vulkan.mm:142:62: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:   142 |     VkImageCreateInfo img{VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO};
+warning: helios-gpu@0.1.0:       |                                                              ^
+warning: helios-gpu@0.1.0: vulkan.mm:157:39: error: extraneous ')' after condition, expected a statement
+warning: helios-gpu@0.1.0:   157 |             "import private texture"))) return nullptr;
+warning: helios-gpu@0.1.0:       |                                       ^
+warning: helios-gpu@0.1.0: vulkan.mm:163:56: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:   163 |         VK_STRUCTURE_TYPE_EXPORT_METAL_TEXTURE_INFO_EXT};
+warning: helios-gpu@0.1.0:       |                                                        ^
+warning: helios-gpu@0.1.0: vulkan.mm:167:56: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:   167 |         VK_STRUCTURE_TYPE_EXPORT_METAL_OBJECTS_INFO_EXT};
+warning: helios-gpu@0.1.0:       |                                                        ^
+warning: helios-gpu@0.1.0: vulkan.mm:174:55: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:   174 |         VK_STRUCTURE_TYPE_EXPORT_METAL_DEVICE_INFO_EXT};
+warning: helios-gpu@0.1.0:       |                                                       ^
+warning: helios-gpu@0.1.0: vulkan.mm:193:61: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+warning: helios-gpu@0.1.0:   193 |     VkFenceCreateInfo fc{VK_STRUCTURE_TYPE_FENCE_CREATE_INFO};
+warning: helios-gpu@0.1.0:       |                                                             ^
+warning: helios-gpu@0.1.0: vulkan.mm:194:79: error: extraneous ')' after condition, expected a statement
+warning: helios-gpu@0.1.0:   194 |     if (!require(vkCreateFence(device, &fc, nullptr, &owner->fence), "fence"))) return nullptr;
+warning: helios-gpu@0.1.0:       |                                                                               ^
+warning: helios-gpu@0.1.0: 12 warnings and 8 errors generated.
+error: failed to run custom build command for `helios-gpu v0.1.0 (/Users/gavinbintz/.codex/worktrees/gpu-vulkan-interop/helios/packages/portable/native)`
+
+Caused by:
+  process didn't exit successfully: `/private/tmp/helios-gpu-next-target-01a101cb/release/build/helios-gpu-be194375c99c2731/build-script-build` (exit status: 1)
+  --- stdout
+  cargo:rerun-if-changed=metal.mm
+  cargo:rerun-if-changed=encoder-flight.hpp
+  cargo:rerun-if-env-changed=CC_FORCE_DISABLE
+  CC_FORCE_DISABLE = None
+  cargo:rerun-if-env-changed=CXX_aarch64-apple-darwin
+  CXX_aarch64-apple-darwin = None
+  cargo:rerun-if-env-changed=CXX_aarch64_apple_darwin
+  CXX_aarch64_apple_darwin = None
+  cargo:rerun-if-env-changed=HOST_CXX
+  HOST_CXX = None
+  cargo:rerun-if-env-changed=CXX
+  CXX = None
+  cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+  cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+  CRATE_CC_NO_DEFAULTS = None
+  cargo:rerun-if-env-changed=MACOSX_DEPLOYMENT_TARGET
+  MACOSX_DEPLOYMENT_TARGET = Some(12.0)
+  cargo:rerun-if-env-changed=CXXFLAGS
+  CXXFLAGS = None
+  cargo:rerun-if-env-changed=HOST_CXXFLAGS
+  HOST_CXXFLAGS = None
+  cargo:rerun-if-env-changed=CXXFLAGS_aarch64_apple_darwin
+  CXXFLAGS_aarch64_apple_darwin = None
+  cargo:rerun-if-env-changed=CXXFLAGS_aarch64-apple-darwin
+  CXXFLAGS_aarch64-apple-darwin = None
+  cargo:rerun-if-env-changed=CC_FORCE_DISABLE
+  CC_FORCE_DISABLE = None
+  cargo:rerun-if-env-changed=AR_aarch64-apple-darwin
+  AR_aarch64-apple-darwin = None
+  cargo:rerun-if-env-changed=AR_aarch64_apple_darwin
+  AR_aarch64_apple_darwin = None
+  cargo:rerun-if-env-changed=HOST_AR
+  HOST_AR = None
+  cargo:rerun-if-env-changed=AR
+  AR = None
+  cargo:rerun-if-env-changed=ARFLAGS
+  ARFLAGS = None
+  cargo:rerun-if-env-changed=HOST_ARFLAGS
+  HOST_ARFLAGS = None
+  cargo:rerun-if-env-changed=ARFLAGS_aarch64_apple_darwin
+  ARFLAGS_aarch64_apple_darwin = None
+  cargo:rerun-if-env-changed=ARFLAGS_aarch64-apple-darwin
+  ARFLAGS_aarch64-apple-darwin = None
+  cargo:rerun-if-env-changed=AR_aarch64-apple-darwin
+  AR_aarch64-apple-darwin = None
+  cargo:rerun-if-env-changed=AR_aarch64_apple_darwin
+  AR_aarch64_apple_darwin = None
+  cargo:rerun-if-env-changed=HOST_AR
+  HOST_AR = None
+  cargo:rerun-if-env-changed=AR
+  AR = None
+  cargo:rerun-if-env-changed=ARFLAGS
+  ARFLAGS = None
+  cargo:rerun-if-env-changed=HOST_ARFLAGS
+  HOST_ARFLAGS = None
+  cargo:rerun-if-env-changed=ARFLAGS_aarch64_apple_darwin
+  ARFLAGS_aarch64_apple_darwin = None
+  cargo:rerun-if-env-changed=ARFLAGS_aarch64-apple-darwin
+  ARFLAGS_aarch64-apple-darwin = None
+  cargo:rerun-if-env-changed=AR_aarch64-apple-darwin
+  AR_aarch64-apple-darwin = None
+  cargo:rerun-if-env-changed=AR_aarch64_apple_darwin
+  AR_aarch64_apple_darwin = None
+  cargo:rerun-if-env-changed=HOST_AR
+  HOST_AR = None
+  cargo:rerun-if-env-changed=AR
+  AR = None
+  cargo:rerun-if-env-changed=ARFLAGS
+  ARFLAGS = None
+  cargo:rerun-if-env-changed=HOST_ARFLAGS
+  HOST_ARFLAGS = None
+  cargo:rerun-if-env-changed=ARFLAGS_aarch64_apple_darwin
+  ARFLAGS_aarch64_apple_darwin = None
+  cargo:rerun-if-env-changed=ARFLAGS_aarch64-apple-darwin
+  ARFLAGS_aarch64-apple-darwin = None
+  cargo:rustc-link-lib=static=helios_metal
+  cargo:rustc-link-search=native=/private/tmp/helios-gpu-next-target-01a101cb/release/build/helios-gpu-22449989448ba309/out
+  cargo:rerun-if-env-changed=CXXSTDLIB_aarch64-apple-darwin
+  CXXSTDLIB_aarch64-apple-darwin = None
+  cargo:rerun-if-env-changed=CXXSTDLIB_aarch64_apple_darwin
+  CXXSTDLIB_aarch64_apple_darwin = None
+  cargo:rerun-if-env-changed=HOST_CXXSTDLIB
+  HOST_CXXSTDLIB = None
+  cargo:rerun-if-env-changed=CXXSTDLIB
+  CXXSTDLIB = None
+  cargo:rerun-if-env-changed=CXXSTDLIB_STATIC_aarch64-apple-darwin
+  CXXSTDLIB_STATIC_aarch64-apple-darwin = None
+  cargo:rerun-if-env-changed=CXXSTDLIB_STATIC_aarch64_apple_darwin
+  CXXSTDLIB_STATIC_aarch64_apple_darwin = None
+  cargo:rerun-if-env-changed=HOST_CXXSTDLIB_STATIC
+  HOST_CXXSTDLIB_STATIC = None
+  cargo:rerun-if-env-changed=CXXSTDLIB_STATIC
+  CXXSTDLIB_STATIC = None
+  cargo:rustc-link-lib=c++
+  cargo:rustc-link-lib=framework=Foundation
+  cargo:rustc-link-lib=framework=Metal
+  cargo:rustc-link-lib=framework=CoreVideo
+  cargo:rustc-link-lib=framework=CoreMedia
+  cargo:rustc-link-lib=framework=VideoToolbox
+  cargo:rustc-link-lib=framework=IOSurface
+  cargo:rerun-if-changed=vulkan.mm
+  cargo:rerun-if-env-changed=CC_FORCE_DISABLE
+  CC_FORCE_DISABLE = None
+  cargo:rerun-if-env-changed=CXX_aarch64-apple-darwin
+  CXX_aarch64-apple-darwin = None
+  cargo:rerun-if-env-changed=CXX_aarch64_apple_darwin
+  CXX_aarch64_apple_darwin = None
+  cargo:rerun-if-env-changed=HOST_CXX
+  HOST_CXX = None
+  cargo:rerun-if-env-changed=CXX
+  CXX = None
+  cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+  cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+  CRATE_CC_NO_DEFAULTS = None
+  cargo:rerun-if-env-changed=MACOSX_DEPLOYMENT_TARGET
+  MACOSX_DEPLOYMENT_TARGET = Some(12.0)
+  cargo:rerun-if-env-changed=CXXFLAGS
+  CXXFLAGS = None
+  cargo:rerun-if-env-changed=HOST_CXXFLAGS
+  HOST_CXXFLAGS = None
+  cargo:rerun-if-env-changed=CXXFLAGS_aarch64_apple_darwin
+  CXXFLAGS_aarch64_apple_darwin = None
+  cargo:rerun-if-env-changed=CXXFLAGS_aarch64-apple-darwin
+  CXXFLAGS_aarch64-apple-darwin = None
+  cargo:warning=vulkan.mm:63:62: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+  cargo:warning=   63 |         VK_STRUCTURE_TYPE_EXPORT_METAL_OBJECT_CREATE_INFO_EXT};
+  cargo:warning=      |                                                              ^
+  cargo:warning=vulkan.mm:66:61: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+  cargo:warning=   66 |     VkApplicationInfo app{VK_STRUCTURE_TYPE_APPLICATION_INFO};
+  cargo:warning=      |                                                             ^
+  cargo:warning=vulkan.mm:69:67: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+  cargo:warning=   69 |     VkInstanceCreateInfo ic{VK_STRUCTURE_TYPE_INSTANCE_CREATE_INFO};
+  cargo:warning=      |                                                                   ^
+  cargo:warning=vulkan.mm:74:73: error: extraneous ')' after condition, expected a statement
+  cargo:warning=   74 |     if (!require(vkCreateInstance(&ic, nullptr, &instance), "instance"))) return nullptr;
+  cargo:warning=      |                                                                         ^
+  cargo:warning=vulkan.mm:76:84: error: extraneous ')' after condition, expected a statement
+  cargo:warning=   76 |     if (!require(vkEnumeratePhysicalDevices(instance, &count, nullptr), "devices"))) return nullptr;
+  cargo:warning=      |                                                                                    ^
+  cargo:warning=vulkan.mm:79:24: error: extraneous ')' after condition, expected a statement
+  cargo:warning=   79 |             "devices"))) return nullptr;
+  cargo:warning=      |                        ^
+  cargo:warning=vulkan.mm:93:27: error: extraneous ')' after condition, expected a statement
+  cargo:warning=   93 |             "extensions"))) return nullptr;
+  cargo:warning=      |                           ^
+  cargo:warning=vulkan.mm:97:27: error: extraneous ')' after condition, expected a statement
+  cargo:warning=   97 |             "extensions"))) return nullptr;
+  cargo:warning=      |                           ^
+  cargo:warning=vulkan.mm:115:74: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+  cargo:warning=  115 |     VkDeviceQueueCreateInfo qc{VK_STRUCTURE_TYPE_DEVICE_QUEUE_CREATE_INFO};
+  cargo:warning=      |                                                                          ^
+  cargo:warning=vulkan.mm:123:63: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+  cargo:warning=  123 |     VkDeviceCreateInfo dc{VK_STRUCTURE_TYPE_DEVICE_CREATE_INFO};
+  cargo:warning=      |                                                               ^
+  cargo:warning=vulkan.mm:129:77: error: extraneous ')' after condition, expected a statement
+  cargo:warning=  129 |     if (!require(vkCreateDevice(physical, &dc, nullptr, &device), "device"))) return nullptr;
+  cargo:warning=      |                                                                             ^
+  cargo:warning=vulkan.mm:134:62: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+  cargo:warning=  134 |         VK_STRUCTURE_TYPE_EXPORT_METAL_OBJECT_CREATE_INFO_EXT};
+  cargo:warning=      |                                                              ^
+  cargo:warning=vulkan.mm:138:56: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+  cargo:warning=  138 |         VK_STRUCTURE_TYPE_IMPORT_METAL_TEXTURE_INFO_EXT};
+  cargo:warning=      |                                                        ^
+  cargo:warning=vulkan.mm:142:62: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+  cargo:warning=  142 |     VkImageCreateInfo img{VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO};
+  cargo:warning=      |                                                              ^
+  cargo:warning=vulkan.mm:157:39: error: extraneous ')' after condition, expected a statement
+  cargo:warning=  157 |             "import private texture"))) return nullptr;
+  cargo:warning=      |                                       ^
+  cargo:warning=vulkan.mm:163:56: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+  cargo:warning=  163 |         VK_STRUCTURE_TYPE_EXPORT_METAL_TEXTURE_INFO_EXT};
+  cargo:warning=      |                                                        ^
+  cargo:warning=vulkan.mm:167:56: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+  cargo:warning=  167 |         VK_STRUCTURE_TYPE_EXPORT_METAL_OBJECTS_INFO_EXT};
+  cargo:warning=      |                                                        ^
+  cargo:warning=vulkan.mm:174:55: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+  cargo:warning=  174 |         VK_STRUCTURE_TYPE_EXPORT_METAL_DEVICE_INFO_EXT};
+  cargo:warning=      |                                                       ^
+  cargo:warning=vulkan.mm:193:61: warning: missing field 'pNext' initializer [-Wmissing-field-initializers]
+  cargo:warning=  193 |     VkFenceCreateInfo fc{VK_STRUCTURE_TYPE_FENCE_CREATE_INFO};
+  cargo:warning=      |                                                             ^
+  cargo:warning=vulkan.mm:194:79: error: extraneous ')' after condition, expected a statement
+  cargo:warning=  194 |     if (!require(vkCreateFence(device, &fc, nullptr, &owner->fence), "fence"))) return nullptr;
+  cargo:warning=      |                                                                               ^
+  cargo:warning=12 warnings and 8 errors generated.
+
+  --- stderr
+
+
+  error occurred in cc-rs: command did not execute successfully (status code exit status: 1): "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "--target=arm64-apple-macosx" "-mmacosx-version-min=12.0" "-I" "/private/tmp/helios-vulkan-runtime-01a101cb/MoltenVK/MoltenVK/include" "-Wall" "-Wextra" "-std=c++17" "-fobjc-arc" "-o" "/private/tmp/helios-gpu-next-target-01a101cb/release/build/helios-gpu-22449989448ba309/out/a038b291f736c35e-vulkan.o" "-c" "vulkan.mm"
+
+

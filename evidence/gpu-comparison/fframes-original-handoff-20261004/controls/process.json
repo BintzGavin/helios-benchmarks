@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "lane": "controls",
+  "argv": [
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/handoff-color-controls",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/video.mp4",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/capture"
+  ],
+  "resourceCommand": [
+    "/usr/bin/time",
+    "-l",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/handoff-color-controls",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/video.mp4",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/capture"
+  ],
+  "binarySha256": "4f42f00b9174d6bbae74d32fdcc98f4215173f46be6be36874d02e2a60ac312e",
+  "buildPinsSha256": "bdd7beaeb847831673923a3a3cd21fc042cedfb097b626f9cfd5c471722eda1e",
+  "captureDirectory": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-original-handoff-20261004/controls/capture",
+  "benchmarkTiming": false,
+  "timingWindowOpen": false,
+  "startedUnix": 1791137548.6817741,
+  "pid": 82346,
+  "returncode": 0,
+  "finishedUnix": 1791137549.689802,
+  "videoSha256": "6d91d7586bf2e170682f29a44f48d00c644fdf62d2e50c0777ac908c1f95020f"
+}

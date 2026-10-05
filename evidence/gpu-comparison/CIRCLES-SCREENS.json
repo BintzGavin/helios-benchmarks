@@ -1,0 +1,106 @@
+{
+  "status": "not-qualified-no-timed-summary",
+  "scene": {
+    "width": 3840,
+    "height": 2160,
+    "frames": 300,
+    "fps": 30,
+    "sourceFrames": [
+      3,
+      302
+    ],
+    "circles": 99000,
+    "digits": 1000
+  },
+  "floors": {
+    "ssimY": 0.995,
+    "psnrY": 40,
+    "psnrU": 35,
+    "psnrV": 35
+  },
+  "screens": [
+    {
+      "name": "h-8",
+      "engine": "H",
+      "bitrate": 8000000,
+      "passed": false,
+      "minimumSsimY": 0.935572,
+      "minimumPsnr": {
+        "psnr_y": 28.38,
+        "psnr_u": 31.08,
+        "psnr_v": 30.81
+      },
+      "adapter": "comparison/circles-screen-h-8/adapter.json",
+      "quality": "comparison/circles-screen-h-8/quality.json",
+      "clockExcluded": true
+    },
+    {
+      "name": "f-8",
+      "engine": "F",
+      "bitrate": 8000000,
+      "passed": false,
+      "minimumSsimY": 0.931165,
+      "minimumPsnr": {
+        "psnr_y": 28.68,
+        "psnr_u": 30.29,
+        "psnr_v": 30.13
+      },
+      "adapter": "comparison/circles-screen-f-8/adapter.json",
+      "quality": "comparison/circles-screen-f-8/quality.json",
+      "clockExcluded": true
+    },
+    {
+      "name": "h-200",
+      "engine": "H",
+      "bitrate": 200000000,
+      "passed": false,
+      "minimumSsimY": 0.990992,
+      "minimumPsnr": {
+        "psnr_y": 36.66,
+        "psnr_u": 37.21,
+        "psnr_v": 37.02
+      },
+      "adapter": "comparison/circles-screen-h-200/adapter.json",
+      "quality": "comparison/circles-screen-h-200/quality.json",
+      "clockExcluded": true
+    },
+    {
+      "name": "f-200",
+      "engine": "F",
+      "bitrate": 200000000,
+      "passed": false,
+      "minimumSsimY": 0.988999,
+      "minimumPsnr": {
+        "psnr_y": 36.7,
+        "psnr_u": 32.95,
+        "psnr_v": 32.74
+      },
+      "adapter": "comparison/circles-screen-f-200/adapter.json",
+      "quality": "comparison/circles-screen-f-200/quality.json",
+      "clockExcluded": true
+    },
+    {
+      "name": "f-500",
+      "engine": "F",
+      "bitrate": 500000000,
+      "passed": false,
+      "minimumSsimY": 0.999168,
+      "minimumPsnr": {
+        "psnr_y": 49.0,
+        "psnr_u": 33.36,
+        "psnr_v": 33.1
+      },
+      "adapter": "circles-screen-f-500/adapter.json",
+      "quality": "comparison/circles-screen-f-500/quality.json",
+      "clockExcluded": true
+    }
+  ],
+  "nativeReferenceDirectBinding": {
+    "status": "passed",
+    "frames": 300,
+    "mismatches": 0,
+    "rawNv12Bytes": 3732480000,
+    "receipt": "circles-reference-h/direct-byte-binding.json"
+  },
+  "gop": "allfour8/200Mbps outputs decoded300frames with observed maximumkeyframegap30"
+}

@@ -1,0 +1,25 @@
+{
+  "sourceCommit": "f89cbd572524b70a709ba3569fa23b0bbc8a0d9c",
+  "argv": [
+    "/opt/homebrew/bin/cargo",
+    "build",
+    "--release",
+    "--locked",
+    "-p",
+    "vs-remotion-bench",
+    "--bin",
+    "circles-high-quality-adapter",
+    "--target-dir",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current"
+  ],
+  "cwd": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/sources/fframes-circles-claim",
+  "optimizedUsvgr": "1c2a088217eb3365e965fd8dbd62acf265a07d33",
+  "exactOriginalClaimSource": false,
+  "benchmarkTiming": false,
+  "status": "completed",
+  "startedUnix": 1791047303.182268,
+  "pid": 98525,
+  "returncode": 0,
+  "finishedUnix": 1791047314.0434802,
+  "wallSeconds": 10.861212253570557
+}

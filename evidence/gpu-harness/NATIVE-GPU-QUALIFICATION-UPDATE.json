@@ -1,0 +1,54 @@
+{
+  "status": "implementation_report_received_final_receipts_pending",
+  "implementation_thread_id": "01a101cb-eaad-7290-9c09-0640b9deae94",
+  "reported_frozen_helper_sha256": "87aec3f3d39db8956490942429e6a865741c04515ad6b98753aaf6599c197a90",
+  "reported_pipeline": "Metal Skia raster -> GPU BT.709/NV12 conversion -> encoder-pool IOSurface -> required VideoToolbox H.264",
+  "reported_tests": "Final portable suite202 passed; subsequent reference correction targeted18 passed",
+  "reported_profile": "Real Metal capture and independent DYLD interposer plus two positive controls find no application-level raw-frame download in measured hardware lane",
+  "zeroCopyProved": false,
+  "zero_copy_limit": "System IOSurface pointer queries and opaque encoder/driver transfers prevent total end-to-end zero-copy proof",
+  "reported_quality": {
+    "frames": 300,
+    "software": "x264 medium CRF11 two threads qualifies against own reference",
+    "hardware": "VideoToolbox H.264 180Mbps target qualifies against own reference",
+    "retained_failure": "40Mbps failed quality and was excluded from matched-quality timing"
+  },
+  "unsupported": [
+    "Vulkan encoder interoperability",
+    "No reachable Vulkan hardware host"
+  ],
+  "reported_timing_status": "Four balanced software pairs and four hardware exports completed; no timed engine active. Preserved original videos/clocks are being requalified against corrected direct GPU byte oracle.",
+  "pr_url": "https://github.com/BintzGavin/helios/pull/5009",
+  "raw_receipts_independently_verified": "Hardware direct-binding arrays andfrozenhelper/source pins inspected; per-attempt finalreport validation continuing",
+  "comparison_owner_action": "Prepare current fframes comparator; inspect final source/build/profiling/quality receipts before results. Never report initial invalid hardware qualification as passed.",
+  "fframes_build_status": "Terminal failure; independently inspected saved Skia dependency DNS errors; stale running receipt corrected while retaining prior PID/argv",
+  "existing_library_checkpoint": "libfile_cd84375e4648819195364136245484c6",
+  "observed_pr_state": {
+    "state": "closed",
+    "merged": true,
+    "merge_sha": "5299bf7f9ad69f54c25b26b0b0774fbcc7d5f723",
+    "merged_at": "2026-10-03T14:32:12Z",
+    "observer_did_not_merge": true
+  },
+  "reference_correction": {
+    "old_hardware_qualification": "invalidated, retained",
+    "changed_pixels": true,
+    "frame0_changed_bytes": 2195950,
+    "frame0_max_delta": 28,
+    "direct_repacked_planar_frame0_md5": "6d06a2c0ee192fcf93afe31f4cdafe4f",
+    "all_300_direct_frame_verification": "Passed independently inspected receipt:300 direct hashes match all300 decoded reference hashes,zero mismatches",
+    "reason": "Implicit FFmpeg raw-NV12 conversion with unspecified input metadata changed reference pixels; corrected reference must match direct-byte GPU converter oracle."
+  },
+  "native_report_path": "/private/tmp/helios-gpu-evidence/final-report.json",
+  "oracleFollowup": {
+    "pr": "https://github.com/BintzGavin/helios/pull/5010",
+    "mergedExternallyAt": "2026-10-03T15:13:19Z",
+    "mergeSHA": "2d9bc89453214d8d659cbe81d6cc97d01100ac7f",
+    "head": "478035260fb5c0ae5a391e9b66bacee19a7a9ffa"
+  },
+  "nativeFinalTests": {
+    "suite": 202,
+    "files": 35,
+    "focusedFollowup": 14
+  }
+}

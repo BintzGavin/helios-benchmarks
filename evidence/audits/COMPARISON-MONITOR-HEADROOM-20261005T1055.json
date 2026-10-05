@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-10-05T10:55:24.696Z",
+  "freeBytesAtWake": 11187716096,
+  "serialGateBytes": 9663676416,
+  "serialSurplusBytes": 1524039680,
+  "balancedGateBytes": 16106127360,
+  "balancedShortfallBytes": 4918411264,
+  "streaming6GiBGateEnabled": false,
+  "pinsChecked": 207,
+  "pinMismatches": [],
+  "pinSet": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/EXACT-SOURCE-RUNTIME-PINS.json",
+    "sha256": "d209db2ec63e3c406d80653af4dfc31376c536f88d5de5133e9eebf134d0ef68"
+  },
+  "ownerMessageSent": true,
+  "ownerRetainsHarnessAndConformance": true,
+  "localGPUJobsLaunched": false,
+  "localDeletion": false,
+  "timingWindowOpened": false,
+  "pushAttempted": false,
+  "LibraryAttempted": false,
+  "broaderObjectiveComplete": false,
+  "nextAction": "owner fresh headroom/pins then bounded real-device acceptance before full4K; active gates unchanged",
+  "ownerCursor": "d0c051ad-a3b2-4641-b3cb-7583ae2a6e2e:45",
+  "ownerStatus": "active after one bounded45s wait; no terminal response yet"
+}

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-vulkan-02.py", line 17, in <module>
+    run(lane,['/usr/bin/env','DYLD_INSERT_LIBRARIES='+str(lib),*args],data,output if lane!='hardware' else None)
+  File "/Users/gavinbintz/.codex/visualizations/2026/10/03/01a101cb-eaad-7290-9c09-0640b9deae94/vulkan-evidence/profile-vulkan-02.py", line 9, in run
+    assert p.returncode==0,(name,p.returncode)
+AssertionError: ('hardware', -6)

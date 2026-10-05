@@ -1,0 +1,251 @@
+use super::{
+    FrameRenderer, FrameScheduler, SegmentWriter, get_thread_count,
+    render_backend::FFramesRenderBackend, renderer_error::RenderEncodingError,
+};
+use crate::{
+    AbortSignal, AudioTimelineSamples, Frame, RenderOptions, ResolvedRenderingTimeline, TextCache,
+    Video, VideoDecodersWorker, usvgr,
+};
+use std::{
+    path::Path,
+    sync::{
+        Arc,
+        atomic::{AtomicBool, Ordering},
+    },
+};
+use svgr::{PixmapPool, SvgrCache, tiny_skia::Color};
+use usvgr::fontdb;
+use uuid::Uuid;
+
+use super::{
+    concatenator,
+    fframes_logger::FFramesLogger,
+    renderer_error::{FFramesRendererError, FFramesRendererResult},
+};
+
+/// Default rendering backend for fframes that uses pure rust SVG rendering engine and extremely
+/// portable. It does not use GPU acceleration at all but still very competitive because of
+/// layer caching and SIMD optimizations.
+#[derive(Debug, Clone, Copy)]
+pub struct CpuRenderingBackend {
+    /// The number of **individual svg elements or groups** to cache. Pure CPU rendering is very slow
+    /// for mostly any filter, shadows, or gradients so it is important to cache unchanged elements.
+    /// At the same time do not set this to the unreasonably large values as it will consume a lot
+    /// of memory and will decrease cache efficiently.
+    ///
+    /// The optimal size = general number of static (not animating) elements in your video.
+    ///
+    /// @default `20`
+    pub cache_capacity: usize,
+    /// The number of threads to use for rendering. By default it will use the number of logical cores on your machine.
+    /// There is no reason to set this to a value greater than the number of logical cores because each thread will render its own video which after will be concatenated.
+    ///
+    /// @default `rayon::current_num_threads()`
+    pub concurrency: usize,
+    /// The number of `frame.text_break_lines` results to be cached.
+    /// Text rendering and wrapping is very expensive especially on CPU as it involves a lot of text shaping and layout along with font resolution.
+    pub text_cache_capacity: usize,
+}
+
+impl Default for CpuRenderingBackend {
+    fn default() -> Self {
+        Self {
+            cache_capacity: 20,
+            text_cache_capacity: 10,
+            concurrency: get_thread_count(),
+        }
+    }
+}
+
+impl FFramesRenderBackend for CpuRenderingBackend {
+    fn frame_renderer(&self) -> Option<Box<dyn FrameRenderer + '_>> {
+        Some(Box::new(super::CpuFrameRenderer::new(self.cache_capacity)))
+    }
+
+    fn render<'a, 'media: 'a, TVideo: Video + Sync + Sized>(
+        self,
+        output: impl AsRef<Path>,
+        video: &'a TVideo,
+        logger: Arc<dyn FFramesLogger>,
+        usvg_options: &'a usvgr::Options,
+        render_options: &RenderOptions<'a, 'media>,
+        font_db: &'a fontdb::Database,
+        timeline: &'a ResolvedRenderingTimeline<AudioTimelineSamples>,
+        ctx: &'a crate::FFramesContext<'a, 'media>,
+    ) -> FFramesRendererResult<()> {
+        let output = output.as_ref();
+        let extension = output
+            .extension()
+            .ok_or(FFramesRendererError::InvalidOutput)?;
+
+        let session = Uuid::new_v4();
+        let tmp_path = std::env::temp_dir().join(format!("fframes-{session}"));
+        let directory = render_options.tmp_files_directory.unwrap_or(&tmp_path);
+        if !directory.exists() {
+            std::fs::create_dir(directory)?;
+        }
+
+        let background_color = Color::from_rgba8(
+            TVideo::BACKGROUND_COLOR.r,
+            TVideo::BACKGROUND_COLOR.g,
+            TVideo::BACKGROUND_COLOR.b,
+            TVideo::BACKGROUND_COLOR.a,
+        );
+
+        // The scheduler and segments work in output frames; `frame_offset` maps them back to
+        // video frames when only a range is rendered.
+        let frame_range = render_options.output_frame_range(ctx.duration_in_frames);
+        let frame_offset = frame_range.start;
+
+        let video_size = &ctx.current_video_size;
+        let scheduler = FrameScheduler::new(
+            frame_range.len(),
+            self.concurrency,
+            render_options
+                .video_encoder_options
+                .min_segment_frames(ctx.time_base.fps),
+        );
+        let writer = SegmentWriter::new(
+            directory,
+            extension.to_string_lossy().as_ref(),
+            (
+                video_size.width as i32,
+                video_size.height as i32,
+                ctx.time_base.fps as i32,
+            ),
+            render_options,
+            &logger,
+        );
+        let failed = AtomicBool::new(false);
+
+        let render_worker = |worker: usize| -> FFramesRendererResult<()> {
+            let pixmap_pool = PixmapPool::new();
+            let worker_local_decoders = VideoDecodersWorker::new(1);
+            let mut svgr_cache = SvgrCache::new(self.cache_capacity);
+            let break_lines_cache = TextCache::new(self.text_cache_capacity);
+            let mut converter_cache = usvgr::Cache::new_with_text_cache(self.text_cache_capacity);
+
+            let mut pixmap =
+                svgr::tiny_skia::Pixmap::new(video_size.width as u32, video_size.height as u32)
+                    .ok_or_else(|| {
+                        FFramesRendererError::RenderChunkError(
+                            worker,
+                            RenderEncodingError::CantAllocate("pixmap".to_owned()),
+                        )
+                    })?;
+            let svgr_ctx = svgr::Context::new_from_pixmap_unsafe(&pixmap);
+
+            let mut rendered_frames = 0;
+            while let Some(claim) = scheduler.claim(worker) {
+                if failed.load(Ordering::Relaxed) {
+                    return Ok(());
+                }
+                if ctx.abort_signal.is_some_and(AbortSignal::is_aborted) {
+                    return Err(FFramesRendererError::Aborted);
+                }
+
+                pixmap.fill(background_color);
+                let video_frame = claim.frame + frame_offset;
+                let svg = super::render_frame_guarded(
+                    video,
+                    Frame::__internal_make_for_renderer(
+                        video_frame,
+                        video_frame,
+                        ctx.time_base.fps,
+                        break_lines_cache.clone(),
+                        worker_local_decoders.clone(),
+                    ),
+                    ctx,
+                )?;
+
+                let rtree = svg.into_svg_tree(usvg_options, &mut converter_cache, font_db)?;
+
+                svgr::render(
+                    &rtree,
+                    super::fit_transform(&rtree, pixmap.width(), pixmap.height()),
+                    &mut pixmap.as_mut(),
+                    &mut svgr_cache,
+                    &pixmap_pool,
+                    &svgr_ctx,
+                );
+
+                writer
+                    .submit(claim, pixmap.data())
+                    .map_err(|err| FFramesRendererError::RenderChunkError(worker, err))?;
+                logger.log_frame(rendered_frames, worker);
+                rendered_frames += 1;
+            }
+
+            Ok(())
+        };
+
+        std::thread::scope(|scope| {
+            let workers: Vec<_> = (0..scheduler.workers())
+                .map(|worker| {
+                    let render_worker = &render_worker;
+                    let failed = &failed;
+                    scope.spawn(move || {
+                        let result = render_worker(worker);
+                        if result.is_err() {
+                            failed.store(true, Ordering::Relaxed);
+                        }
+                        result
+                    })
+                })
+                .collect();
+
+            workers
+                .into_iter()
+                .map(|worker| {
+                    worker.join().map_err(|_| {
+                        FFramesRendererError::Internal("Rendering thread panicked".to_owned())
+                    })?
+                })
+                .collect::<FFramesRendererResult<Vec<_>>>()
+        })?;
+
+        let files = writer
+            .finish()
+            .map_err(|err| FFramesRendererError::RenderChunkError(0, err))?;
+
+        unsafe {
+            concatenator::concat_video_files_with_audio(
+                files.as_slice(),
+                output,
+                timeline.audio_map.as_ref(),
+                render_options,
+                ctx,
+                &logger,
+            )
+            .map_err(FFramesRendererError::ConcatChunkError)?;
+        }
+
+        logger.success(output, Some(directory));
+        Ok(())
+    }
+
+    fn render_frame<'a, 'media: 'a, TVideo: Video + Sync + Sized>(
+        self,
+        frame: crate::Frame,
+        video: &'a TVideo,
+        usvg_options: &usvgr::Options,
+        font_db: &usvgr::fontdb::Database,
+        ctx: crate::FFramesContext<'a, 'media>,
+    ) -> FFramesRendererResult<Vec<u8>> {
+        let mut converter_cache = usvgr::Cache::default();
+        let rtree = super::render_frame_guarded(video, frame, &ctx)?.into_svg_tree(
+            usvg_options,
+            &mut converter_cache,
+            font_db,
+        )?;
+
+        let frame = super::CpuFrameRenderer::new(0).render_tree(
+            &rtree,
+            TVideo::BACKGROUND_COLOR,
+            ctx.current_video_size.width as u32,
+            ctx.current_video_size.height as u32,
+        )?;
+
+        Ok(frame.pixels)
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "case": "producer-source-hash",
+  "passed": true,
+  "expectedRefusal": "PRODUCER_SOURCE_ORDER",
+  "observedError": "Refusal: PRODUCER_SOURCE_ORDER",
+  "secondsExcludedFromBenchmarks": 0.05179266701452434,
+  "sourceUnchanged": true,
+  "GPUExecuted": false,
+  "atomicFinalExists": false
+}

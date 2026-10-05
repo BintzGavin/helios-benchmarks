@@ -1,0 +1,10 @@
+{
+  "test": "reverse-driver-ledger",
+  "passed": true,
+  "expectedRefusal": "PRODUCER_SOURCE_ORDER",
+  "observedError": "Refusal:PRODUCER_SOURCE_ORDER",
+  "secondsExcludedFromBenchmark": 0.2090130420110654,
+  "GPUExecuted": false,
+  "sourceUnchanged": true,
+  "publishedFixtureBinding": false
+}

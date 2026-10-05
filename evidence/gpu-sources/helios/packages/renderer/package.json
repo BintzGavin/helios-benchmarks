@@ -1,0 +1,55 @@
+{
+  "name": "@helios-project/renderer",
+  "version": "1.79.0",
+  "description": "Renderer for Helios video engine.",
+  "author": "Gavin Bintz <me@gavinbintz.com>",
+  "license": "ELv2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BintzGavin/helios.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BintzGavin/helios/issues"
+  },
+  "homepage": "https://github.com/BintzGavin/helios#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "verify:error": "tsx scripts/verify-error-handling.ts",
+    "test": "npx tsx tests/run-all.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "video",
+    "animation",
+    "programmatic-video",
+    "video-rendering",
+    "ffmpeg",
+    "playwright",
+    "headless-browser",
+    "helios"
+  ],
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@helios-project/core": "^5.5.0",
+    "playwright": "^1.60.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

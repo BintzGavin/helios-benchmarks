@@ -1,0 +1,31 @@
+{
+  "id": "H-ultrafast-w2-t1",
+  "engine": "H",
+  "workers": 2,
+  "encoderThreads": 1,
+  "preset": "ultrafast",
+  "jpegQuality": null,
+  "output": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-1-H-ultrafast-w2-t1/output.mp4",
+  "details": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-1-H-ultrafast-w2-t1/details.json",
+  "poolModule": "/home/user/benchmark-work/helios/packages/portable/dist/canvas-pool.js",
+  "composition": "/home/user/evidence/helios-cpu-linux-2026-10-02/outputs/holdout-v1/timed-1-H-ultrafast-w2-t1/composition.mjs",
+  "options": {
+    "ffmpeg": "/usr/bin/ffmpeg",
+    "ffprobe": "/usr/bin/ffprobe",
+    "concurrency": 2,
+    "chunkFrames": 150,
+    "encoder": {
+      "preset": "ultrafast",
+      "crf": 11,
+      "threads": 1,
+      "gop": 24,
+      "bframes": 0,
+      "sceneCut": false,
+      "qmin": 15,
+      "qmax": 60,
+      "qcompress": 0.6,
+      "maxQdiff": 4,
+      "colorConversion": "rgb-bt601"
+    }
+  }
+}

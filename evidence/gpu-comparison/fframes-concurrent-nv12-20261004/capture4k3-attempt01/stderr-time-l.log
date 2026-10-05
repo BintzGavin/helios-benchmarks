@@ -1,0 +1,30 @@
+[h264_videotoolbox @ 0x962ea8000] This device does not support the qmax option. Value ignored.
+[h264_videotoolbox @ 0x962ea8000] This device does not support the qmax option. Value ignored.
+COMPARISON_ACTUAL_EXPORT_PATH=HardwareFrames
+[h264_videotoolbox @ 0x962ea8000] This device does not support the qmax option. Value ignored.
+[h264_videotoolbox @ 0x962ea8000] This device does not support the qmax option. Value ignored.
+COMPARISON_ACTUAL_EXPORT_PATH=HardwareFrames
+COMPARISON_ACTUAL_EXPORT_PATH=HardwareFrames
+COMPARISON_ACTUAL_EXPORT_PATH=HardwareFrames
+Error: 
+Failure
+Rendering chunk 0 failed.
+Reason: duplicate/live frame identity
+        4.56 real         2.17 user         2.47 sys
+          1504591872  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              227468  page reclaims
+                 299  page faults
+                   0  swaps
+                   0  block input operations
+                  75  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                1504  voluntary context switches
+               45167  involuntary context switches
+         43648033111  instructions retired
+         16645467555  cycles elapsed
+          2027636632  peak memory footprint

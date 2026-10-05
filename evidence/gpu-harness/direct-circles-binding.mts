@@ -1,0 +1,23 @@
+import {spawn} from 'node:child_process';
+import {once} from 'node:events';
+import {createHash} from 'node:crypto';
+import {readFile,writeFile} from 'node:fs/promises';
+import {createCircles} from './circles-scene.mts';
+import {recordGpuCanvas} from '/Users/gavinbintz/.codex/worktrees/gpu-circles-gop/helios/packages/portable/src/gpu.ts';
+const ref='comparison/circles-reference-h/reference.mkv', helper='/Users/gavinbintz/.codex/worktrees/gpu-circles-gop/helios/packages/portable/native/target/release/helios-gpu';
+const sha=(b:Buffer)=>createHash('sha256').update(b).digest('hex');
+function run(command:string,args:string[]) {const p=spawn(command,args,{stdio:['pipe','pipe','pipe']});let stderr='';p.stderr.on('data',b=>stderr+=b); const done=new Promise<void>((ok,fail)=>{p.on('error',fail);p.on('close',code=>code===0?ok():fail(Error(`${command}:${code}:${stderr}`)))}); return {p,done,stderr:()=>stderr};}
+const md5Args=['-v','error','-i',ref,'-pix_fmt','yuv420p','-f','framemd5','-'];
+const decoded=run('/opt/homebrew/bin/ffmpeg',md5Args);decoded.p.stdin.end();let md5='';decoded.p.stdout.on('data',b=>md5+=b);await decoded.done;
+await writeFile('comparison/circles-reference-h/frames.md5',md5);
+const expected=md5.split('\n').filter(l=>l&&!l.startsWith('#')).map(l=>l.split(',').at(-1)!.trim());
+if(expected.length!==300)throw Error('reference count');
+const args=['reference','3840','2160','30','1','8000000','/unused','','','30'];const native=run(helper,args);
+const font=await readFile('preparation/unpacked/helios-gpu-comparison-prep/DM-Sans.ttf'),scene=createCircles(font);
+const feed=(async()=>{const send=async(x:unknown)=>{if(!native.p.stdin.write(JSON.stringify(x)+'\n'))await Promise.race([once(native.p.stdin,'drain'),native.done.then(()=>{throw Error('premature exit')})]);}; await send({fonts:{dm:font.toString('base64')}}); for(let i=3;i<303;i++)await send(await recordGpuCanvas(scene,i));native.p.stdin.end();})();
+const hashes:string[]=[],ySize=3840*2160,frameBytes=ySize*3/2;let pending:Buffer[]=[],bytes=0;
+const consume=(async()=>{for await(const chunk of native.p.stdout){pending.push(chunk);bytes+=chunk.length;if(bytes>=frameBytes){let data=Buffer.concat(pending,bytes);while(data.length>=frameBytes){const frame=data.subarray(0,frameBytes),uv=frame.subarray(ySize),u=Buffer.allocUnsafe(ySize/4),v=Buffer.allocUnsafe(ySize/4);for(let i=0;i<u.length;i++){u[i]=uv[i*2];v[i]=uv[i*2+1];}hashes.push(createHash('md5').update(frame.subarray(0,ySize)).update(u).update(v).digest('hex'));data=data.subarray(frameBytes);}pending=data.length?[Buffer.from(data)]:[];bytes=data.length;}}if(bytes)throw Error('partial raw frame');})();
+await Promise.all([feed,consume,native.done]);
+const mismatch=hashes.flatMap((h,i)=>h===expected[i]?[]:[{frame:i,sourceFrame:i+3,direct:h,reference:expected[i]}]);
+const receipt={status:hashes.length===300&&!mismatch.length?'passed':'failed',reference:ref,referenceSha256:sha(await readFile(ref)),helper,helperSha256:sha(await readFile(helper)),sourceStart:3,frames:hashes.length,rawNv12Bytes:hashes.length*frameBytes,algorithm:'direct NV12 Y bytes then split even/odd UV bytes to planar U/V; MD5 of Y+U+V; no color arithmetic',commands:[{command:'/opt/homebrew/bin/ffmpeg',args:md5Args},{command:helper,args}],mismatches:mismatch,directFrameMd5:hashes,referenceFrameMd5:expected,nativeStderr:native.stderr(),referenceOnlyRawDownload:true};
+await writeFile('comparison/circles-reference-h/direct-byte-binding.json',JSON.stringify(receipt,null,2));console.log(JSON.stringify({status:receipt.status,frames:hashes.length,mismatches:mismatch.length}));if(receipt.status!=='passed')process.exitCode=1;

@@ -1,0 +1,43 @@
+test_bad_scene_rejected (test_runner.RunnerTests.test_bad_scene_rejected) ... ok
+test_empty_command_rejected (test_runner.RunnerTests.test_empty_command_rejected) ... ok
+test_rotation (test_runner.RunnerTests.test_rotation) ... ok
+test_cli_exit_codes_and_output_protection (test_validate_video.FFmpegSmokeTests.test_cli_exit_codes_and_output_protection) ... usage: python3.14 -m unittest [-h] [--reference REFERENCE] [--engine ENGINE]
+                              [--reference-engine REFERENCE_ENGINE]
+                              [--reference-lossless-attested] [--scene SCENE]
+                              [--width WIDTH] [--height HEIGHT]
+                              [--frames FRAMES] [--fps FPS] [--ssim-y SSIM_Y]
+                              [--psnr-y PSNR_Y] [--psnr-uv PSNR_UV]
+                              [--metric-pixel-format {yuv420p,yuv422p,yuv444p}]
+                              [--output OUTPUT] [--ffmpeg FFMPEG]
+                              [--ffprobe FFPROBE] [--timeout TIMEOUT]
+                              candidate
+python3.14 -m unittest: error: output must not overwrite an input
+ok
+test_corrupt_input_fails_and_retains_errors (test_validate_video.FFmpegSmokeTests.test_corrupt_input_fails_and_retains_errors) ... ok
+test_cross_engine_references_rejected (test_validate_video.FFmpegSmokeTests.test_cross_engine_references_rejected) ... ok
+test_lossless_mp4_against_own_reference (test_validate_video.FFmpegSmokeTests.test_lossless_mp4_against_own_reference) ... ok
+test_millisecond_rounded_timestamps_fail (test_validate_video.FFmpegSmokeTests.test_millisecond_rounded_timestamps_fail) ... ok
+test_missing_binary_fails_and_retains_json (test_validate_video.FFmpegSmokeTests.test_missing_binary_fails_and_retains_json) ... ok
+test_quality_degradation_fails (test_validate_video.FFmpegSmokeTests.test_quality_degradation_fails) ... ok
+test_reference_wrong_count_blocks_metrics (test_validate_video.FFmpegSmokeTests.test_reference_wrong_count_blocks_metrics) ... ok
+test_structure_only_is_not_quality_pass (test_validate_video.FFmpegSmokeTests.test_structure_only_is_not_quality_pass) ... ok
+test_unknown_lossless_provenance_requires_attestation (test_validate_video.FFmpegSmokeTests.test_unknown_lossless_provenance_requires_attestation) ... ok
+test_all_psnr_channels_and_infinity (test_validate_video.MetricTests.test_all_psnr_channels_and_infinity) ... ok
+test_every_frame_ssim_not_average (test_validate_video.MetricTests.test_every_frame_ssim_not_average) ... ok
+test_invalid_metric_values_fail_and_serialize (test_validate_video.MetricTests.test_invalid_metric_values_fail_and_serialize) ... ok
+test_missing_duplicate_out_of_order_or_extra_frames_fail (test_validate_video.MetricTests.test_missing_duplicate_out_of_order_or_extra_frames_fail) ... ok
+test_psnr_header_allowed_other_garbage_rejected (test_validate_video.MetricTests.test_psnr_header_allowed_other_garbage_rejected) ... ok
+test_dimensions_count_and_rates (test_validate_video.ProbeTests.test_dimensions_count_and_rates) ... ok
+test_exact_common_time_bases (test_validate_video.ProbeTests.test_exact_common_time_bases) ... ok
+test_invalid_rationals_are_argument_errors (test_validate_video.ProbeTests.test_invalid_rationals_are_argument_errors) ... ok
+test_pts_noninteger_and_offset_and_duplicate_and_gap (test_validate_video.ProbeTests.test_pts_noninteger_and_offset_and_duplicate_and_gap) ... ok
+test_rational_fractional_rate (test_validate_video.ProbeTests.test_rational_fractional_rate) ... ok
+test_reference_ordinal_pairing_not_reference_timestamps (test_validate_video.ProbeTests.test_reference_ordinal_pairing_not_reference_timestamps) ... ok
+test_rounded_decimal_timestamps_do_not_substitute_for_pts (test_validate_video.ProbeTests.test_rounded_decimal_timestamps_do_not_substitute_for_pts) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 2.676s
+
+OK
+{"verdict": "structure_only_pass", "passed": true, "quality_status": "not_evaluated", "result": "/private/tmp/video-gate-tests-8zisqq8f/cli.json"}
+{"verdict": "fail", "passed": false, "quality_status": "not_evaluated", "result": "/private/tmp/video-gate-tests-8zisqq8f/cli-fail.json"}

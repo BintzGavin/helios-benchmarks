@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "readOnlyVerification": true,
+  "roots": [
+    {
+      "root": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005",
+      "manifest": {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-conformance-prep-20261005/RECEIPT-MANIFEST.json",
+        "bytes": 80626,
+        "sha256": "351293f76777cc35b114ffa7e31c4de55fca600adefde431d2a37ff810b90633"
+      },
+      "entriesVerified": 446,
+      "bytesVerified": 50753953,
+      "mismatches": []
+    },
+    {
+      "root": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/serial-4k-qualification-plan-20261005",
+      "manifest": {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/serial-4k-qualification-plan-20261005/RECEIPT-MANIFEST.json",
+        "bytes": 2151,
+        "sha256": "011d2cedc03ad5a7a8a473351da500a06935ad76ae3f5d6d22c439c8b8526253"
+      },
+      "entriesVerified": 13,
+      "bytesVerified": 550058,
+      "mismatches": []
+    }
+  ],
+  "newGPUExports": 0
+}

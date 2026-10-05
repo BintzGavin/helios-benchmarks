@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/opt/homebrew/bin/ffprobe",
+    "-v",
+    "error",
+    "-threads",
+    "8",
+    "-count_frames",
+    "-show_streams",
+    "-show_format",
+    "-of",
+    "json",
+    "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/three-engine-v1/results/full-v1/medium-warmup-1-R/output.mp4"
+  ],
+  "exitCode": 0,
+  "wallNs": 1689364833
+}

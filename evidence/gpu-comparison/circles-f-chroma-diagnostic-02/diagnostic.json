@@ -1,0 +1,607 @@
+{
+  "scope": "excluded3-frame conversion diagnostic; not a replacement oracle and not a qualification; BGR channels retained, opaque alpha discarded",
+  "sourceFrames": [
+    3,
+    5
+  ],
+  "producer": [
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-circles-claim/release/circles-adapter",
+    "raw-hardware",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-f-chroma-diagnostic-02/unused.mp4",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/font",
+    "3",
+    "8000000"
+  ],
+  "referenceCommand": [
+    "/opt/homebrew/bin/ffmpeg",
+    "-v",
+    "error",
+    "-y",
+    "-f",
+    "rawvideo",
+    "-pix_fmt",
+    "bgra",
+    "-s",
+    "3840x2160",
+    "-r",
+    "30",
+    "-i",
+    "pipe:0",
+    "-c:v",
+    "ffv1",
+    "-level",
+    "3",
+    "-pix_fmt",
+    "bgr0",
+    "-frames:v",
+    "3",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-f-chroma-diagnostic-02/raster-bgr0.mkv"
+  ],
+  "variants": [
+    {
+      "flags": "bicubic",
+      "location": "auto",
+      "command": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-v",
+        "error",
+        "-xerror",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-f-500/video.mp4",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-f-chroma-diagnostic-02/raster-bgr0.mkv",
+        "-filter_complex_threads",
+        "1",
+        "-filter_complex",
+        "[0:v]trim=end_frame=3,setpts=N/30/TB,format=yuv420p[c];[1:v]scale=out_color_matrix=bt601:out_range=tv:flags=bicubic:out_chroma_loc=auto,format=yuv420p,setpts=N/30/TB[r];[c][r]psnr=stats_file=bicubic-auto.psnr:stats_version=2",
+        "-frames:v",
+        "3",
+        "-an",
+        "-f",
+        "null",
+        "-"
+      ],
+      "returncode": 0,
+      "frames": [
+        {
+          "psnr_y": 61.12,
+          "psnr_u": 33.82,
+          "psnr_v": 33.86
+        },
+        {
+          "psnr_y": 62.89,
+          "psnr_u": 34.4,
+          "psnr_v": 33.28
+        },
+        {
+          "psnr_y": 61.03,
+          "psnr_u": 34.49,
+          "psnr_v": 34.13
+        }
+      ],
+      "minimum": {
+        "psnr_y": 61.03,
+        "psnr_u": 33.82,
+        "psnr_v": 33.28
+      }
+    },
+    {
+      "flags": "bicubic",
+      "location": "left",
+      "command": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-v",
+        "error",
+        "-xerror",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-f-500/video.mp4",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-f-chroma-diagnostic-02/raster-bgr0.mkv",
+        "-filter_complex_threads",
+        "1",
+        "-filter_complex",
+        "[0:v]trim=end_frame=3,setpts=N/30/TB,format=yuv420p[c];[1:v]scale=out_color_matrix=bt601:out_range=tv:flags=bicubic:out_chroma_loc=left,format=yuv420p,setpts=N/30/TB[r];[c][r]psnr=stats_file=bicubic-left.psnr:stats_version=2",
+        "-frames:v",
+        "3",
+        "-an",
+        "-f",
+        "null",
+        "-"
+      ],
+      "returncode": 0,
+      "frames": [
+        {
+          "psnr_y": 61.12,
+          "psnr_u": 34.41,
+          "psnr_v": 34.4
+        },
+        {
+          "psnr_y": 62.89,
+          "psnr_u": 34.79,
+          "psnr_v": 33.72
+        },
+        {
+          "psnr_y": 61.03,
+          "psnr_u": 34.84,
+          "psnr_v": 34.45
+        }
+      ],
+      "minimum": {
+        "psnr_y": 61.03,
+        "psnr_u": 34.41,
+        "psnr_v": 33.72
+      }
+    },
+    {
+      "flags": "bicubic",
+      "location": "center",
+      "command": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-v",
+        "error",
+        "-xerror",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-f-500/video.mp4",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-f-chroma-diagnostic-02/raster-bgr0.mkv",
+        "-filter_complex_threads",
+        "1",
+        "-filter_complex",
+        "[0:v]trim=end_frame=3,setpts=N/30/TB,format=yuv420p[c];[1:v]scale=out_color_matrix=bt601:out_range=tv:flags=bicubic:out_chroma_loc=center,format=yuv420p,setpts=N/30/TB[r];[c][r]psnr=stats_file=bicubic-center.psnr:stats_version=2",
+        "-frames:v",
+        "3",
+        "-an",
+        "-f",
+        "null",
+        "-"
+      ],
+      "returncode": 0,
+      "frames": [
+        {
+          "psnr_y": 61.12,
+          "psnr_u": 33.82,
+          "psnr_v": 33.86
+        },
+        {
+          "psnr_y": 62.89,
+          "psnr_u": 34.4,
+          "psnr_v": 33.28
+        },
+        {
+          "psnr_y": 61.03,
+          "psnr_u": 34.49,
+          "psnr_v": 34.13
+        }
+      ],
+      "minimum": {
+        "psnr_y": 61.03,
+        "psnr_u": 33.82,
+        "psnr_v": 33.28
+      }
+    },
+    {
+      "flags": "bilinear",
+      "location": "auto",
+      "command": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-v",
+        "error",
+        "-xerror",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-f-500/video.mp4",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-f-chroma-diagnostic-02/raster-bgr0.mkv",
+        "-filter_complex_threads",
+        "1",
+        "-filter_complex",
+        "[0:v]trim=end_frame=3,setpts=N/30/TB,format=yuv420p[c];[1:v]scale=out_color_matrix=bt601:out_range=tv:flags=bilinear:out_chroma_loc=auto,format=yuv420p,setpts=N/30/TB[r];[c][r]psnr=stats_file=bilinear-auto.psnr:stats_version=2",
+        "-frames:v",
+        "3",
+        "-an",
+        "-f",
+        "null",
+        "-"
+      ],
+      "returncode": 0,
+      "frames": [
+        {
+          "psnr_y": 61.12,
+          "psnr_u": 33.57,
+          "psnr_v": 33.6
+        },
+        {
+          "psnr_y": 62.89,
+          "psnr_u": 34.11,
+          "psnr_v": 32.99
+        },
+        {
+          "psnr_y": 61.03,
+          "psnr_u": 34.2,
+          "psnr_v": 33.83
+        }
+      ],
+      "minimum": {
+        "psnr_y": 61.03,
+        "psnr_u": 33.57,
+        "psnr_v": 32.99
+      }
+    },
+    {
+      "flags": "bilinear",
+      "location": "left",
+      "command": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-v",
+        "error",
+        "-xerror",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-f-500/video.mp4",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-f-chroma-diagnostic-02/raster-bgr0.mkv",
+        "-filter_complex_threads",
+        "1",
+        "-filter_complex",
+        "[0:v]trim=end_frame=3,setpts=N/30/TB,format=yuv420p[c];[1:v]scale=out_color_matrix=bt601:out_range=tv:flags=bilinear:out_chroma_loc=left,format=yuv420p,setpts=N/30/TB[r];[c][r]psnr=stats_file=bilinear-left.psnr:stats_version=2",
+        "-frames:v",
+        "3",
+        "-an",
+        "-f",
+        "null",
+        "-"
+      ],
+      "returncode": 0,
+      "frames": [
+        {
+          "psnr_y": 61.12,
+          "psnr_u": 33.74,
+          "psnr_v": 33.73
+        },
+        {
+          "psnr_y": 62.89,
+          "psnr_u": 34.17,
+          "psnr_v": 33.06
+        },
+        {
+          "psnr_y": 61.03,
+          "psnr_u": 34.2,
+          "psnr_v": 33.8
+        }
+      ],
+      "minimum": {
+        "psnr_y": 61.03,
+        "psnr_u": 33.74,
+        "psnr_v": 33.06
+      }
+    },
+    {
+      "flags": "bilinear",
+      "location": "center",
+      "command": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-v",
+        "error",
+        "-xerror",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-f-500/video.mp4",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-f-chroma-diagnostic-02/raster-bgr0.mkv",
+        "-filter_complex_threads",
+        "1",
+        "-filter_complex",
+        "[0:v]trim=end_frame=3,setpts=N/30/TB,format=yuv420p[c];[1:v]scale=out_color_matrix=bt601:out_range=tv:flags=bilinear:out_chroma_loc=center,format=yuv420p,setpts=N/30/TB[r];[c][r]psnr=stats_file=bilinear-center.psnr:stats_version=2",
+        "-frames:v",
+        "3",
+        "-an",
+        "-f",
+        "null",
+        "-"
+      ],
+      "returncode": 0,
+      "frames": [
+        {
+          "psnr_y": 61.12,
+          "psnr_u": 33.57,
+          "psnr_v": 33.6
+        },
+        {
+          "psnr_y": 62.89,
+          "psnr_u": 34.11,
+          "psnr_v": 32.99
+        },
+        {
+          "psnr_y": 61.03,
+          "psnr_u": 34.2,
+          "psnr_v": 33.83
+        }
+      ],
+      "minimum": {
+        "psnr_y": 61.03,
+        "psnr_u": 33.57,
+        "psnr_v": 32.99
+      }
+    },
+    {
+      "flags": "area",
+      "location": "auto",
+      "command": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-v",
+        "error",
+        "-xerror",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-f-500/video.mp4",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-f-chroma-diagnostic-02/raster-bgr0.mkv",
+        "-filter_complex_threads",
+        "1",
+        "-filter_complex",
+        "[0:v]trim=end_frame=3,setpts=N/30/TB,format=yuv420p[c];[1:v]scale=out_color_matrix=bt601:out_range=tv:flags=area:out_chroma_loc=auto,format=yuv420p,setpts=N/30/TB[r];[c][r]psnr=stats_file=area-auto.psnr:stats_version=2",
+        "-frames:v",
+        "3",
+        "-an",
+        "-f",
+        "null",
+        "-"
+      ],
+      "returncode": 0,
+      "frames": [
+        {
+          "psnr_y": 61.12,
+          "psnr_u": 33.97,
+          "psnr_v": 34.01
+        },
+        {
+          "psnr_y": 62.89,
+          "psnr_u": 34.56,
+          "psnr_v": 33.44
+        },
+        {
+          "psnr_y": 61.03,
+          "psnr_u": 34.63,
+          "psnr_v": 34.29
+        }
+      ],
+      "minimum": {
+        "psnr_y": 61.03,
+        "psnr_u": 33.97,
+        "psnr_v": 33.44
+      }
+    },
+    {
+      "flags": "area",
+      "location": "left",
+      "command": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-v",
+        "error",
+        "-xerror",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-f-500/video.mp4",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-f-chroma-diagnostic-02/raster-bgr0.mkv",
+        "-filter_complex_threads",
+        "1",
+        "-filter_complex",
+        "[0:v]trim=end_frame=3,setpts=N/30/TB,format=yuv420p[c];[1:v]scale=out_color_matrix=bt601:out_range=tv:flags=area:out_chroma_loc=left,format=yuv420p,setpts=N/30/TB[r];[c][r]psnr=stats_file=area-left.psnr:stats_version=2",
+        "-frames:v",
+        "3",
+        "-an",
+        "-f",
+        "null",
+        "-"
+      ],
+      "returncode": 0,
+      "frames": [
+        {
+          "psnr_y": 61.12,
+          "psnr_u": 34.28,
+          "psnr_v": 34.27
+        },
+        {
+          "psnr_y": 62.89,
+          "psnr_u": 34.73,
+          "psnr_v": 33.62
+        },
+        {
+          "psnr_y": 61.03,
+          "psnr_u": 34.71,
+          "psnr_v": 34.33
+        }
+      ],
+      "minimum": {
+        "psnr_y": 61.03,
+        "psnr_u": 34.28,
+        "psnr_v": 33.62
+      }
+    },
+    {
+      "flags": "area",
+      "location": "center",
+      "command": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-v",
+        "error",
+        "-xerror",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-f-500/video.mp4",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-f-chroma-diagnostic-02/raster-bgr0.mkv",
+        "-filter_complex_threads",
+        "1",
+        "-filter_complex",
+        "[0:v]trim=end_frame=3,setpts=N/30/TB,format=yuv420p[c];[1:v]scale=out_color_matrix=bt601:out_range=tv:flags=area:out_chroma_loc=center,format=yuv420p,setpts=N/30/TB[r];[c][r]psnr=stats_file=area-center.psnr:stats_version=2",
+        "-frames:v",
+        "3",
+        "-an",
+        "-f",
+        "null",
+        "-"
+      ],
+      "returncode": 0,
+      "frames": [
+        {
+          "psnr_y": 61.12,
+          "psnr_u": 33.97,
+          "psnr_v": 34.01
+        },
+        {
+          "psnr_y": 62.89,
+          "psnr_u": 34.56,
+          "psnr_v": 33.44
+        },
+        {
+          "psnr_y": 61.03,
+          "psnr_u": 34.63,
+          "psnr_v": 34.29
+        }
+      ],
+      "minimum": {
+        "psnr_y": 61.03,
+        "psnr_u": 33.97,
+        "psnr_v": 33.44
+      }
+    },
+    {
+      "flags": "neighbor",
+      "location": "auto",
+      "command": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-v",
+        "error",
+        "-xerror",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-f-500/video.mp4",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-f-chroma-diagnostic-02/raster-bgr0.mkv",
+        "-filter_complex_threads",
+        "1",
+        "-filter_complex",
+        "[0:v]trim=end_frame=3,setpts=N/30/TB,format=yuv420p[c];[1:v]scale=out_color_matrix=bt601:out_range=tv:flags=neighbor:out_chroma_loc=auto,format=yuv420p,setpts=N/30/TB[r];[c][r]psnr=stats_file=neighbor-auto.psnr:stats_version=2",
+        "-frames:v",
+        "3",
+        "-an",
+        "-f",
+        "null",
+        "-"
+      ],
+      "returncode": 0,
+      "frames": [
+        {
+          "psnr_y": 61.12,
+          "psnr_u": 29.46,
+          "psnr_v": 29.41
+        },
+        {
+          "psnr_y": 62.89,
+          "psnr_u": 29.72,
+          "psnr_v": 28.71
+        },
+        {
+          "psnr_y": 61.03,
+          "psnr_u": 29.97,
+          "psnr_v": 29.6
+        }
+      ],
+      "minimum": {
+        "psnr_y": 61.03,
+        "psnr_u": 29.46,
+        "psnr_v": 28.71
+      }
+    },
+    {
+      "flags": "neighbor",
+      "location": "left",
+      "command": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-v",
+        "error",
+        "-xerror",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-f-500/video.mp4",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-f-chroma-diagnostic-02/raster-bgr0.mkv",
+        "-filter_complex_threads",
+        "1",
+        "-filter_complex",
+        "[0:v]trim=end_frame=3,setpts=N/30/TB,format=yuv420p[c];[1:v]scale=out_color_matrix=bt601:out_range=tv:flags=neighbor:out_chroma_loc=left,format=yuv420p,setpts=N/30/TB[r];[c][r]psnr=stats_file=neighbor-left.psnr:stats_version=2",
+        "-frames:v",
+        "3",
+        "-an",
+        "-f",
+        "null",
+        "-"
+      ],
+      "returncode": 0,
+      "frames": [
+        {
+          "psnr_y": 61.12,
+          "psnr_u": 29.46,
+          "psnr_v": 29.41
+        },
+        {
+          "psnr_y": 62.89,
+          "psnr_u": 29.72,
+          "psnr_v": 28.71
+        },
+        {
+          "psnr_y": 61.03,
+          "psnr_u": 29.97,
+          "psnr_v": 29.6
+        }
+      ],
+      "minimum": {
+        "psnr_y": 61.03,
+        "psnr_u": 29.46,
+        "psnr_v": 28.71
+      }
+    },
+    {
+      "flags": "neighbor",
+      "location": "center",
+      "command": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-v",
+        "error",
+        "-xerror",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-f-500/video.mp4",
+        "-i",
+        "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-f-chroma-diagnostic-02/raster-bgr0.mkv",
+        "-filter_complex_threads",
+        "1",
+        "-filter_complex",
+        "[0:v]trim=end_frame=3,setpts=N/30/TB,format=yuv420p[c];[1:v]scale=out_color_matrix=bt601:out_range=tv:flags=neighbor:out_chroma_loc=center,format=yuv420p,setpts=N/30/TB[r];[c][r]psnr=stats_file=neighbor-center.psnr:stats_version=2",
+        "-frames:v",
+        "3",
+        "-an",
+        "-f",
+        "null",
+        "-"
+      ],
+      "returncode": 0,
+      "frames": [
+        {
+          "psnr_y": 61.12,
+          "psnr_u": 29.46,
+          "psnr_v": 29.41
+        },
+        {
+          "psnr_y": 62.89,
+          "psnr_u": 29.72,
+          "psnr_v": 28.71
+        },
+        {
+          "psnr_y": 61.03,
+          "psnr_u": 29.97,
+          "psnr_v": 29.6
+        }
+      ],
+      "minimum": {
+        "psnr_y": 61.03,
+        "psnr_u": 29.46,
+        "psnr_v": 28.71
+      }
+    }
+  ],
+  "original500MbpsCandidateUnchanged": true
+}

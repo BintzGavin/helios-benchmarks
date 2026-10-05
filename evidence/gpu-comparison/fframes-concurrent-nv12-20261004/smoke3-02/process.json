@@ -1,0 +1,28 @@
+{
+  "lane": "smoke3-02",
+  "benchmarkTiming": false,
+  "timingWindowOpen": false,
+  "modifiedPipeline": true,
+  "originalProduct": false,
+  "argv": [
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/build/fframes-current/release/nv12-color-controls",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/smoke3-02/video.mp4",
+    "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/smoke3-02/capture",
+    "3"
+  ],
+  "taskSettings": {
+    "FFRAMES_EXPLICIT_NV12": "1",
+    "FFRAMES_HANDOFF_CAPTURE": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/smoke3-02/capture",
+    "FFRAMES_NV12_TRACE": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/fframes-concurrent-nv12-20261004/smoke3-02/gpu-transfer.jsonl",
+    "COMPARISON_REQUIRE_HARDWARE_FRAMES": "1",
+    "FFRAMES_NV12_POOL_TEST": "1"
+  },
+  "binarySha256": "ea36969d384cfb1de3fe5b02da832cab97003301ab3a7818133c82b942f363f3",
+  "converterSha256": "11522ab92e119b84f9af86b9abf5864263c774a21ac7505b82a6556b6e9e132d",
+  "startedUnix": 1791141517.475024,
+  "pid": 85711,
+  "returncode": 0,
+  "status": "completed",
+  "finishedUnix": 1791141518.077384,
+  "videoSha256": "863625878f8542dfde65653f5bbd4f630c5fa5253ab0e43ff045132b46b94391"
+}

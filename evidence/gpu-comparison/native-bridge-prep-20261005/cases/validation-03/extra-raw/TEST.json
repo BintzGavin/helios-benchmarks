@@ -1,0 +1,14 @@
+{
+  "test": "extra-raw",
+  "passed": true,
+  "expectedRefusal": [
+    "RAW_EXTRA_BYTES",
+    "RAW_SHORT_FRAME",
+    "DRIVER_EXIT"
+  ],
+  "observedError": "Refusal:RAW_SHORT_FRAME:2:32764",
+  "secondsExcludedFromBenchmark": 1.7368907920026686,
+  "GPUExecuted": false,
+  "sourceUnchanged": true,
+  "publishedFixtureBinding": false
+}

@@ -1,0 +1,85 @@
+{
+  "status": "completed bounded native bridge/codec/profile preparation; CPU subprocess fixtures only",
+  "testCount": 63,
+  "mainTests": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/validation-final-07/TEST-REPORT.json",
+    "bytes": 18109,
+    "sha256": "f3107fd3784afc72db1b730df723a721c6d3bbd8e52478079ee2bfe79a83e4f1"
+  },
+  "additionalTests": {
+    "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/validation-extra-final-08/TEST-REPORT.json",
+    "bytes": 12089,
+    "sha256": "37b7cc0a3fb34a63c660a4a574e042c953201477bbbacec2a58ced5a00d32e06"
+  },
+  "independentRawPlanarInverseBindings": {
+    "frames": 900,
+    "streams": 3,
+    "receipts": [
+      {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-final-07/reference-metal-hevc-300/INDEPENDENT-BINDING.json",
+        "bytes": 112721,
+        "sha256": "7595f172cb044bdcfbf9c70312850a93e1cdeae841ab1dc48326ce4933ed5391"
+      },
+      {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-final-07/reference-vulkan-h264-300/INDEPENDENT-BINDING.json",
+        "bytes": 112723,
+        "sha256": "59825f03d8671b66d7b8080b61606dcd8ea0534c1e994c448f045647be1af10d"
+      },
+      {
+        "path": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/native-bridge-prep-20261005/cases/validation-final-07/reference-slow-300/INDEPENDENT-BINDING.json",
+        "bytes": 112709,
+        "sha256": "c50f3de21d668784d7c2745a8c52bf8da8d95e1ead7ba7a05b78c907a7d7bcda"
+      }
+    ],
+    "commandSourceIndices": [
+      3,
+      302
+    ],
+    "retainedPayloadFixtureOrdinals": [
+      0,
+      299
+    ],
+    "renderedPixelCorrespondenceClaimed": false
+  },
+  "copiedCodecPayloadDecodedInvariance": {
+    "H264Frames": 300,
+    "HEVCFrames": 300,
+    "CPUProfileHEVCFrames": 300,
+    "SPSConformanceAndCopyMuxIncludedInFixtureAttempt": true,
+    "clockExcludedFromBenchmark": true
+  },
+  "explicitDirectProcessWaitsChecked": 68,
+  "successfulHelperWaitsChecked": 11,
+  "failedHelperWaitsChecked": 11,
+  "independentAllOSDescendantCessationProof": false,
+  "signal0GroupQuerySandboxBlocked": true,
+  "descendantControls": "two CPU heartbeat controls plus owned group TERM/KILL; no OS-wide process/environment inspection",
+  "realDeviceAccepted": false,
+  "nativeExecutionDisabled": true,
+  "hardwareQualified": false,
+  "GPUExports": 0,
+  "actualGPUProfileLibrariesLoaded": false,
+  "actualGPUProducerBridgeAcceptance": false,
+  "actual4KMemoryAcceptance": false,
+  "zeroCopyProved": false,
+  "newCargoBuild": false,
+  "timingWindowOpen": false,
+  "benchmarkTiming": false,
+  "activeSerialGateBytes": 9663676416,
+  "activeBalancedGateBytes": 16106127360,
+  "streaming6GiBGateDisabled": true,
+  "comparisonOwnership": "retained; F concurrency/capture/helper and all historical helpers/oracles/clocks remain unchanged",
+  "sourceLibraryPreparationId": "libfile_19c903c1d7508191ac4881f0e96e4229",
+  "historicalCheckpointLibraryId": "libfile_cd84375e4648819195364136245484c6",
+  "newLibraryDeliverableIds": [],
+  "LibraryUploadAttemptThisSlice": false,
+  "fullComparisonObjective": "ACTIVE, incomplete; no fully enabled production/M5/performance win asserted",
+  "remainingRequiredWork": [
+    "Resource headroom9GiB serial/15GiB balanced; pending unrelated-cache approval is not assumed",
+    "Separately scoped live-device acceptance of frozen stdout bridge and fresh per-attempt native profile library; disabled branch must remain off until authorized gates",
+    "Fresh all300 4K Metal H264/HEVC and MoltenVK H264/HEVC direct reference/centered color/quality/cadence/GOP/GPU/lifetime/positive controls; do not reuse CPU fixture receipts",
+    "Fresh shared-conformance modified concurrent F acceptance, preserving3contexts/5+5workers/queue10/64allocations percontext versus nativepool3",
+    "Only after all gates, sequential balanced matched settings timings including mandatory conformance/mux and separate delivered decode clocks",
+    "Native Vulkan publication destination approval and supported Library preparation/upload route remain pending"
+  ]
+}

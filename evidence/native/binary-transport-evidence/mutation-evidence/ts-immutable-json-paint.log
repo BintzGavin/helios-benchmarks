@@ -1,0 +1,44 @@
+
+ RUN  v4.1.8 /private/tmp/helios-gpu-transport-mutants/portable
+
+ ❯ tests/gpu-transport.test.ts (5 tests | 1 failed) 1506ms
+   × keeps earlier paint immutable when a cached color is reused with another alpha 4ms
+
+ Test Files  1 failed | 2 passed (3)
+      Tests  1 failed | 16 passed (17)
+   Start at  20:05:31
+   Duration  2.34s (transform 91ms, setup 0ms, import 344ms, tests 1.72s, environment 0ms)
+
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/gpu-transport.test.ts > keeps earlier paint immutable when a cached color is reused with another alpha
+AssertionError: expected [ [ 1, +0, +0, 1 ], [ 1, +0, +0, 1 ] ] to deeply equal [ [ 1, +0, +0, 0.25 ], …(1) ]
+
+- Expected
++ Received
+
+@@ -1,11 +1,11 @@
+  [
+    [
+      1,
+      0,
+      0,
+-     0.25,
++     1,
+    ],
+    [
+      1,
+      0,
+      0,
+
+ ❯ tests/gpu-transport.test.ts:39:56
+     37|     ctx.globalAlpha = 1; ctx.fillRect(5, 6, 7, 8);
+     38|   } }, 0);
+     39|   expect(frame.commands.map(command => command.color)).toEqual([[1, 0,…
+       |                                                        ^
+     40| });
+     41|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+

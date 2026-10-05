@@ -1,0 +1,205 @@
+{
+  "id": "H-medium-w8-t2",
+  "engine": "H",
+  "workers": 8,
+  "encoderThreads": 2,
+  "preset": "medium",
+  "jpegQuality": null,
+  "phase": "timed",
+  "index": 1,
+  "directory": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/final-cpu-studies-v1/results/medium-screen/full-v1/timed-1-H-medium-w8-t2",
+  "status": "complete",
+  "components": {
+    "engine": {
+      "command": [
+        "/Users/gavinbintz/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/three-engine-v1/worker.mjs",
+        "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/final-cpu-studies-v1/results/medium-screen/full-v1/timed-1-H-medium-w8-t2/config.json"
+      ],
+      "exitCode": 0,
+      "wallNs": 14394309041
+    }
+  },
+  "encoderThreadScope": "per segment/worker encoder",
+  "initialAggregateEncoderThreads": 16,
+  "compositionSha256": "e106f60729fa290c2a030f3c7ad1509205ddcf69f2a6c16503f94126b486529a",
+  "details": {
+    "engine": "H",
+    "node": "v24.19.0",
+    "ffmpegArgv": [],
+    "stats": {
+      "frames": 300,
+      "chunks": 8,
+      "workers": 8,
+      "ranges": [
+        {
+          "frames": 34,
+          "preparationMs": 210.083708,
+          "rasterizeMs": 1981.0656239999998,
+          "pixelExtractionMs": 412.0209989999991,
+          "drawMs": 2393.559456,
+          "encoderWaitMs": 373.75887600000067,
+          "encodeMs": 9988.16225,
+          "verifyMs": 85.08958300000086
+        },
+        {
+          "frames": 38,
+          "preparationMs": 165.530375,
+          "rasterizeMs": 2591.4467499999996,
+          "pixelExtractionMs": 352.01049499999897,
+          "drawMs": 2943.959625,
+          "encoderWaitMs": 353.71654499999903,
+          "encodeMs": 11190.159584,
+          "verifyMs": 102.21891599999981
+        },
+        {
+          "frames": 38,
+          "preparationMs": 187.773792,
+          "rasterizeMs": 2217.819205,
+          "pixelExtractionMs": 340.25454099999945,
+          "drawMs": 2558.660126,
+          "encoderWaitMs": 432.96375300000136,
+          "encodeMs": 11166.56725,
+          "verifyMs": 101.4897920000003
+        },
+        {
+          "frames": 38,
+          "preparationMs": 187.557417,
+          "rasterizeMs": 2295.0325829999997,
+          "pixelExtractionMs": 381.29208300000033,
+          "drawMs": 2676.8704990000006,
+          "encoderWaitMs": 476.80853699999983,
+          "encodeMs": 11169.085583,
+          "verifyMs": 120.29170800000065
+        },
+        {
+          "frames": 38,
+          "preparationMs": 162.04620799999998,
+          "rasterizeMs": 2568.2708340000004,
+          "pixelExtractionMs": 402.15688000000154,
+          "drawMs": 2971.412169000001,
+          "encoderWaitMs": 459.2539579999985,
+          "encodeMs": 11283.021666999999,
+          "verifyMs": 117.5135420000006
+        },
+        {
+          "frames": 38,
+          "preparationMs": 189.932625,
+          "rasterizeMs": 2605.995958,
+          "pixelExtractionMs": 395.9977079999993,
+          "drawMs": 3003.210628,
+          "encoderWaitMs": 370.2433750000003,
+          "encodeMs": 11287.717167,
+          "verifyMs": 107.8908330000013
+        },
+        {
+          "frames": 38,
+          "preparationMs": 181.60766599999997,
+          "rasterizeMs": 2752.1443349999995,
+          "pixelExtractionMs": 482.86304599999954,
+          "drawMs": 3235.5846259999994,
+          "encoderWaitMs": 391.45812599999846,
+          "encodeMs": 11260.523083,
+          "verifyMs": 129.1028750000005
+        },
+        {
+          "frames": 38,
+          "preparationMs": 190.169709,
+          "rasterizeMs": 2598.4536230000003,
+          "pixelExtractionMs": 529.4503740000005,
+          "drawMs": 3128.5431249999997,
+          "encoderWaitMs": 374.0422930000001,
+          "encodeMs": 11257.705209,
+          "verifyMs": 109.10716700000012
+        }
+      ],
+      "renderMs": 11806.80025,
+      "finalizeMs": 2379.3803750000006,
+      "finalVerifyMs": 1679.4971659999992
+    },
+    "apiWallNs": 14296821791
+  },
+  "deliveredWallNs": 14395195750,
+  "encoding": {
+    "rawUserSei": "x264 - core 165 r3222 b35605a - H.264/MPEG-4 AVC codec - Copyleft 2003-2025 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=2 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=24 keyint_min=2 scenecut=40 intra_refresh=0 rc_lookahead=24 rc=crf mbtree=1 crf=11.0 qcomp=0.60 qpmin=15 qpmax=60 qpstep=4 ip_ratio=1.40 aq=1:1.00",
+    "parameters": {
+      "cabac": "1",
+      "ref": "3",
+      "deblock": "1:0:0",
+      "analyse": "0x3:0x113",
+      "me": "hex",
+      "subme": "7",
+      "psy": "1",
+      "psy_rd": "1.00:0.00",
+      "mixed_ref": "1",
+      "me_range": "16",
+      "chroma_me": "1",
+      "trellis": "1",
+      "x8dct": "1",
+      "cqm": "0",
+      "deadzone": "21,11",
+      "fast_pskip": "1",
+      "chroma_qp_offset": "-2",
+      "threads": "2",
+      "lookahead_threads": "1",
+      "sliced_threads": "0",
+      "nr": "0",
+      "decimate": "1",
+      "interlaced": "0",
+      "bluray_compat": "0",
+      "constrained_intra": "0",
+      "bframes": "3",
+      "b_pyramid": "2",
+      "b_adapt": "1",
+      "b_bias": "0",
+      "direct": "1",
+      "weightb": "1",
+      "open_gop": "0",
+      "weightp": "2",
+      "keyint": "24",
+      "keyint_min": "2",
+      "scenecut": "40",
+      "intra_refresh": "0",
+      "rc_lookahead": "24",
+      "rc": "crf",
+      "mbtree": "1",
+      "crf": "11.0",
+      "qcomp": "0.60",
+      "qpmin": "15",
+      "qpmax": "60",
+      "qpstep": "4",
+      "ip_ratio": "1.40",
+      "aq": "1:1.00"
+    },
+    "expected": {
+      "threads": 2,
+      "bframes": 3,
+      "keyint": 24,
+      "crf": 11,
+      "qpmin": 15,
+      "qpmax": 60,
+      "qcomp": 0.6,
+      "qpstep": 4,
+      "scenecut": 40,
+      "cabac": 1,
+      "ref": 3,
+      "subme": 7,
+      "trellis": 1
+    },
+    "presetLiteralAvailable": false
+  },
+  "outputs": [
+    {
+      "path": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/final-cpu-studies-v1/results/medium-screen/full-v1/timed-1-H-medium-w8-t2/output.mp4",
+      "bytes": 142131318,
+      "sha256": "ad3d5d77d78068da779953cee13abfd00a623aac87b5900caae42449f3988114"
+    }
+  ],
+  "retainedLogicalMp4Bytes": 1001190220,
+  "physicalMp4Storage": {
+    "uniqueInodeBytes": 572398528,
+    "reportedAllocatedBytes": 572411904
+  },
+  "qualityArtifact": "/Users/gavinbintz/.codex/visualizations/2026/09/28/01a0e813-a2b5-78e0-978e-6a278c8e331e/cpu-benchmarks-20261001/final-cpu-studies-v1/results/medium-screen/full-v1/quality/H-ad3d5d77d78068da779953cee13abfd00a623aac87b5900caae42449f3988114/measurement.json",
+  "eligible": true
+}

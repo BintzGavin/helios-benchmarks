@@ -1,0 +1,127 @@
+{
+  "scope": "only task-owned duplicate elementary streams; complete exact-reconstruction metadata retained; candidate MP4 and original clocks unchanged",
+  "checks": [
+    {
+      "intermediate": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-500/video.h264",
+      "retainedVideo": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-500/video.mp4",
+      "bytes": 629003125,
+      "intermediateSha256": "2bb5d4e41cc39629b7ed668540afcbc16c0f50a0b32e8173fe75ffa499f4bf92",
+      "metadata": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-f-500/video.h264-reconstruction.json",
+      "metadataSha256": "c2e03a2151136100aecf70280c176da3234978eb912ac10008a98fa9c509b9d9",
+      "nals": 910,
+      "byteExactReconstruction": true,
+      "removed": true
+    },
+    {
+      "intermediate": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-h-500/elementary.h264",
+      "retainedVideo": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-h-500/video.mp4",
+      "bytes": 625360526,
+      "intermediateSha256": "d389af489de36c79f65ff1082984ef17efcaa04081ea04f7bc0c78d5e2e8d614",
+      "metadata": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-screen-h-500/elementary.h264-reconstruction.json",
+      "metadataSha256": "ccae23f214ce8b7771cce968a16162561d40888a416e7b1b466b1713055bee95",
+      "nals": 910,
+      "byteExactReconstruction": true,
+      "removed": true
+    },
+    {
+      "intermediate": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-smoke-f/video.h264",
+      "retainedVideo": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-smoke-f/video.mp4",
+      "bytes": 10816258,
+      "intermediateSha256": "36e0c129517d8f34936be66c821c5bbb6e41687df819a3733e234a1761acda4d",
+      "metadata": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-common-smoke-f/video.h264-reconstruction.json",
+      "metadataSha256": "d3de05f2b3bcd8d933780e7fbed826d7e0dccd16987719dd3d549fe741eff9cd",
+      "nals": 10,
+      "byteExactReconstruction": true,
+      "removed": true
+    },
+    {
+      "intermediate": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-h-200/elementary.h264",
+      "retainedVideo": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-h-200/video.mp4",
+      "bytes": 251818980,
+      "intermediateSha256": "fe671a333852d2c5bdb30413efb3be2b0caf85cbb4a05fa06280598f67cfff64",
+      "metadata": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-h-200/elementary.h264-reconstruction.json",
+      "metadataSha256": "e06cab9993ab4c7be7e71ea4c83d66a8ae437850b6140a89ed987ceefbefe788",
+      "nals": 910,
+      "byteExactReconstruction": true,
+      "removed": true
+    },
+    {
+      "intermediate": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-h-8/elementary.h264",
+      "retainedVideo": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-h-8/video.mp4",
+      "bytes": 68937341,
+      "intermediateSha256": "77031dcc274f2733b59b407cbba9315b29f7daea99795a711d9f7eb832757dee",
+      "metadata": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/circles-screen-h-8/elementary.h264-reconstruction.json",
+      "metadataSha256": "b6571bc78b94b8ca194d4a9283a9eca1e1a87626ccda78d982ffbbc9b88f9469",
+      "nals": 910,
+      "byteExactReconstruction": true,
+      "removed": true
+    },
+    {
+      "intermediate": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/hardware-balanced/timed-1-H/elementary.h264",
+      "retainedVideo": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/hardware-balanced/timed-1-H/output.mp4",
+      "bytes": 125536924,
+      "intermediateSha256": "582bc5577250bbfe275e3a1140a0a6d6f79b6f6a78491a87e351073bf09b7838",
+      "metadata": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/hardware-balanced/timed-1-H/elementary.h264-reconstruction.json",
+      "metadataSha256": "213379d3cbb134ca27f93c882151a152a480db532cdca4e2b346f6261698a7e1",
+      "nals": 904,
+      "byteExactReconstruction": true,
+      "removed": true
+    },
+    {
+      "intermediate": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/hardware-balanced/timed-2-H/elementary.h264",
+      "retainedVideo": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/hardware-balanced/timed-2-H/output.mp4",
+      "bytes": 125536924,
+      "intermediateSha256": "a02a4469250b0665506de8169462dbee4b6ac0d93c07512fd4f73a1dac477038",
+      "metadata": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/hardware-balanced/timed-2-H/elementary.h264-reconstruction.json",
+      "metadataSha256": "ec79b92fd3814dc90cacd933ed5ddede61b722c6b1f09ab3aa87b674ad9ba1d6",
+      "nals": 904,
+      "byteExactReconstruction": true,
+      "removed": true
+    },
+    {
+      "intermediate": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/hardware-balanced/timed-3-H/elementary.h264",
+      "retainedVideo": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/hardware-balanced/timed-3-H/output.mp4",
+      "bytes": 125536924,
+      "intermediateSha256": "ca877bf09d42ff33dbc7db9100944edfb37423e7b42cc26c8a5ad831a2eed026",
+      "metadata": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/hardware-balanced/timed-3-H/elementary.h264-reconstruction.json",
+      "metadataSha256": "ad5592ab597ba936bbfdcd77de27c3f92e610b41efee9ebb990ce69418d2e36e",
+      "nals": 904,
+      "byteExactReconstruction": true,
+      "removed": true
+    },
+    {
+      "intermediate": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/hardware-balanced/timed-4-H/elementary.h264",
+      "retainedVideo": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/hardware-balanced/timed-4-H/output.mp4",
+      "bytes": 125536924,
+      "intermediateSha256": "ae102345d34d303b6006cafa799b7ae62b85c9a96359ad346382fee1a553049d",
+      "metadata": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/hardware-balanced/timed-4-H/elementary.h264-reconstruction.json",
+      "metadataSha256": "c30cd5dff052e056bdfc2655d2f6ee899c1eee58ae1ce4446685c220cc04369a",
+      "nals": 904,
+      "byteExactReconstruction": true,
+      "removed": true
+    },
+    {
+      "intermediate": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/hardware-balanced/warmup-0-H/elementary.h264",
+      "retainedVideo": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/hardware-balanced/warmup-0-H/output.mp4",
+      "bytes": 125536924,
+      "intermediateSha256": "24bea17893a7e95bbc91a0fb16bed391774932249547458eac82ce1d17c98272",
+      "metadata": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/hardware-balanced/warmup-0-H/elementary.h264-reconstruction.json",
+      "metadataSha256": "89607aa9d4c88d6f900ced10a9f3d1d2412e679c74ba1a9a6351d176c088b2b0",
+      "nals": 904,
+      "byteExactReconstruction": true,
+      "removed": true
+    },
+    {
+      "intermediate": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/screen-h-hardware-100/elementary.h264",
+      "retainedVideo": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/screen-h-hardware-100/video.mp4",
+      "bytes": 125536924,
+      "intermediateSha256": "acd4352db3bb0e17b73e297ce7d1801f4a35691226eb5ac1f3ac22fc3ba3534d",
+      "metadata": "/Users/gavinbintz/Documents/Codex/2026-10-02/task/comparison/screen-h-hardware-100/elementary.h264-reconstruction.json",
+      "metadataSha256": "4eaff7dfffaa528ea081a0d236b21d7eec27fade740dee4e5af478a39c59d9ac",
+      "nals": 904,
+      "byteExactReconstruction": true,
+      "removed": true
+    }
+  ],
+  "removedBytes": 2339157774
+}

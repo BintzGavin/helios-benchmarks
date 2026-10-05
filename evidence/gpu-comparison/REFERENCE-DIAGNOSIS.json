@@ -1,0 +1,15 @@
+{
+  "remotionOriginalReference": {
+    "path": "comparison/reference-r-software/reference.mkv",
+    "invalidated": true,
+    "reason": "Frame ordinal138 is a full black GPU screenshot; visually inspected against intact candidate and candidate/reference metrics fail only that ordinal. Retained unchanged.",
+    "followup": "New single-tab reference with explicit blank-screenshot admission check; saved candidate is requalified without rerendering."
+  },
+  "fframesHardwareProvisional": {
+    "screenBitrate": 100000000,
+    "qualityPassed": false,
+    "minimumSSIMY": 0.989932,
+    "minimumPSNRY": 40.39,
+    "followup": "Actual hardware-target BGRA download reference plus180Mbps screen. ProvisionalRGBApreview reference and100Mbps screen retained; no qualification claimed yet."
+  }
+}

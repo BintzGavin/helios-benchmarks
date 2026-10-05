@@ -1,0 +1,174 @@
+import os from 'os';
+import fs from 'fs';
+import { CanvasStrategy } from '../strategies/CanvasStrategy.js';
+import { DomStrategy } from '../strategies/DomStrategy.js';
+import { CdpTimeDriver } from '../drivers/CdpTimeDriver.js';
+import { SeekTimeDriver } from '../drivers/SeekTimeDriver.js';
+import { launchChromium } from './launchBrowser.js';
+const DEFAULT_BROWSER_ARGS = [
+    '--disable-extensions',
+    '--disable-default-apps',
+    '--disable-sync',
+    '--no-first-run',
+    '--mute-audio',
+    '--disable-background-networking',
+    '--disable-background-timer-throttling',
+    '--disable-breakpad',
+    '--disable-web-security',
+    '--allow-file-access-from-files',
+    '--enable-begin-frame-control',
+    '--run-all-compositor-stages-before-draw',
+    '--single-process',
+    '--disable-features=PaintHolding,Translate,OptimizationHints,OptimizationGuideModelDownloading,CalculateNativeWinOcclusion',
+    '--disable-lcd-text',
+    '--disable-threaded-animation',
+    '--disable-threaded-scrolling',
+    '--disable-checker-imaging',
+    '--disable-image-animation-resync',
+    '--disable-smooth-scrolling'
+];
+const GPU_DISABLED_ARGS = [
+    '--disable-gpu',
+    '--disable-software-rasterizer',
+    '--disable-gpu-compositing',
+    '--disable-gpu-memory-buffer-video-frames',
+    '--disable-gpu-memory-buffer-compositor-resources'
+];
+export class BrowserPool {
+    options;
+    workers = [];
+    capturedErrors = [];
+    constructor(options) {
+        this.options = options;
+    }
+    getLaunchOptions() {
+        const config = this.options.browserConfig || {};
+        const userArgs = config.args || [];
+        // GPU stays available unless explicitly disabled: without it (and with the software
+        // rasterizer disabled too) pages get no WebGL context at all.
+        const gpuArgs = config.gpu === false ? GPU_DISABLED_ARGS : [];
+        const defaultArgs = this.options.mode === 'dom'
+            ? DEFAULT_BROWSER_ARGS.filter(arg => arg !== '--enable-begin-frame-control' &&
+                arg !== '--run-all-compositor-stages-before-draw')
+            : DEFAULT_BROWSER_ARGS;
+        let executablePath = config.executablePath;
+        if (!executablePath) {
+            // Try to find chrome-headless-shell in common Playwright installation paths dynamically
+            const commonPaths = [
+                process.env.PLAYWRIGHT_BROWSERS_PATH,
+                `${os.homedir()}/.cache/ms-playwright`,
+                '/opt/jules/pipx/venvs/playwright/lib/python3.12/site-packages/playwright/driver/package/.local-browsers',
+                '/usr/local/lib/node_modules/playwright/node_modules/playwright-core/.local-browsers',
+                '/usr/lib/node_modules/playwright/node_modules/playwright-core/.local-browsers'
+            ].filter(Boolean);
+            for (const basePath of commonPaths) {
+                if (!fs.existsSync(basePath))
+                    continue;
+                try {
+                    const dirs = fs.readdirSync(basePath);
+                    const shellDir = dirs.find(dir => dir.startsWith('chromium_headless_shell-'));
+                    if (shellDir) {
+                        const binaryPath = `${basePath}/${shellDir}/chrome-headless-shell-linux64/chrome-headless-shell`;
+                        if (fs.existsSync(binaryPath)) {
+                            executablePath = binaryPath;
+                            break;
+                        }
+                    }
+                }
+                catch (err) {
+                }
+            }
+        }
+        return {
+            headless: config.headless ?? true,
+            executablePath: executablePath,
+            args: [...defaultArgs, ...gpuArgs, ...userArgs],
+            pipe: true,
+        };
+    }
+    async init(compositionUrl, jobOptions) {
+        this.capturedErrors = [];
+        const envPoolRaw = process.env.HELIOS_BROWSER_POOL_SIZE;
+        const envPool = envPoolRaw !== undefined ? parseInt(envPoolRaw, 10) : NaN;
+        const concurrency = Number.isFinite(envPool) ? Math.max(1, envPool) : 1;
+        console.log(`Initializing pool of ${concurrency} browsers/pages...`);
+        const createPage = async (index) => {
+            const browser = await launchChromium(this.getLaunchOptions());
+            try {
+                const context = await browser.newContext({
+                    viewport: {
+                        width: this.options.width,
+                        height: this.options.height,
+                    },
+                });
+                if (index === 0 && jobOptions?.tracePath) {
+                    console.log(`Enabling Playwright tracing for worker 0 context...`);
+                    await context.tracing.start({ screenshots: true, snapshots: true });
+                }
+                const page = await context.newPage();
+                const strategy = this.options.mode === 'dom' ? new DomStrategy(this.options) : new CanvasStrategy(this.options);
+                // Both modes seek the page to each frame's time (Helios, seek hooks, WAAPI, virtual
+                // clocks). Canvas mode also flushes rAF callbacks on each seek, since capturing the
+                // canvas does not produce a browser frame. CdpTimeDriver (CDP virtual time) follows the
+                // wall clock for rAF-driven and Helios-bound pages; HELIOS_CANVAS_SEEK_CLOCK=0 keeps it
+                // available for comparison.
+                const legacyCdpClock = this.options.mode !== 'dom' && process.env.HELIOS_CANVAS_SEEK_CLOCK === '0';
+                const timeDriver = legacyCdpClock
+                    ? new CdpTimeDriver(this.options.stabilityTimeout, 'canvas')
+                    : new SeekTimeDriver(this.options.stabilityTimeout, { flushAnimationFrames: this.options.mode !== 'dom' });
+                page.on('console', (msg) => console.log(`PAGE LOG [${index}]: ${msg.text()}`));
+                page.on('pageerror', (err) => {
+                    console.error(`PAGE ERROR [${index}]: ${err.message}`);
+                    this.capturedErrors.push(err);
+                });
+                page.on('crash', () => {
+                    const err = new Error(`Page ${index} crashed!`);
+                    console.error(err.message);
+                    this.capturedErrors.push(err);
+                });
+                if (this.options.inputProps) {
+                    const serializedProps = JSON.stringify(this.options.inputProps);
+                    await page.addInitScript(`window.__HELIOS_PROPS__ = ${serializedProps};`);
+                }
+                if (strategy.init)
+                    await strategy.init(page);
+                await timeDriver.init(page, this.options.randomSeed);
+                await page.goto(compositionUrl, { waitUntil: 'commit' });
+                await strategy.prepare(page);
+                await timeDriver.prepare(page);
+                return { browser, context, page, strategy, timeDriver };
+            }
+            catch (error) {
+                await browser.close().catch(() => { });
+                throw error;
+            }
+        };
+        const poolPromises = [];
+        for (let i = 0; i < concurrency; i++) {
+            poolPromises.push(createPage(i));
+        }
+        this.workers = await Promise.all(poolPromises);
+        console.log('All pages loaded and prepared.');
+    }
+    async close(jobOptions) {
+        if (this.workers.length > 0) {
+            if (jobOptions?.tracePath) {
+                console.log('Stopping tracing...');
+                await this.workers[0].context.tracing.stop({ path: jobOptions.tracePath });
+            }
+            for (const worker of this.workers) {
+                await worker.context.close();
+                await worker.browser.close();
+            }
+            console.log('Browsers closed.');
+        }
+    }
+    async cleanupStrategies() {
+        console.log('Cleaning up strategy resources...');
+        for (const worker of this.workers) {
+            if (worker.strategy.cleanup) {
+                await worker.strategy.cleanup();
+            }
+        }
+    }
+}

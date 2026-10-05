@@ -9,7 +9,7 @@
 | R CPU/JPEG screens | eligibility/tuning; JPEG80 excluded | `cpu-macos/remotion-cpu-jpeg-study-v1` |
 | All-frame metrics and clock correction | quality-only evidence | `cpu-macos/quality-measurement-v1`, `quality-clock-revision-v1` |
 | Final local resource screens | select settings, not holdout statistics | `cpu-macos/final-cpu-studies-v1/results/medium-screen`, `ul-screen` |
-| Fresh CPU holdout | 18 timed +6 warmups | `cpu-macos/final-cpu-studies-v1/results/holdout` |
+| Fresh CPU holdout | 18 timed + 6 warmups | `cpu-macos/final-cpu-studies-v1/results/holdout` |
 | Scheduler checks | correctness/merge evidence, no remote speedup claim | `cpu-macos/scheduler-*` |
 | Linux Amp Orb | independent host CPU holdout | `cpu-orb`, `cpu-orb-delivery` |
 | GPU TextGrid software/hardware | separate four-round comparisons | `gpu-comparison/software-balanced-01tab`, `hardware-balanced` |
@@ -17,9 +17,9 @@
 | 4K original F product screens | failed-quality/excluded | `gpu-comparison/circles-screen-f-*` |
 | Common-converter4K | separately labeled serial adapter comparison | `gpu-comparison/circles-common-binary-300-balanced` |
 | Original F same-stream handoff | ambiguity diagnostic, still chroma failures | `gpu-comparison/fframes-original-handoff-20261004` |
-| Modified F concurrent NV12 | H.2644K quality qualification, untimed | `gpu-comparison/fframes-concurrent-nv12-20261004` |
+| Modified F concurrent NV12 | H.264 4K quality qualification, untimed | `gpu-comparison/fframes-concurrent-nv12-20261004` |
 | Native centered signaling | separately qualified small-scene conformance | `gpu-comparison/native-conformance-prep-20261005` |
-| Serial4K plan | frozen plan/resource ledger; not execution | `gpu-comparison/serial-4k-qualification-plan-20261005` |
+| Serial 4K plan | frozen plan/resource ledger; not execution | `gpu-comparison/serial-4k-qualification-plan-20261005` |
 | Streaming/codec/bridge preparation | bounded CPU fixtures; hardware not qualified | `gpu-comparison/*prep-20261005` |
 | Independent monitor audits | cross-checks and honest scope | `audits` |
 

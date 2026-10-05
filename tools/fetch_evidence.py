@@ -59,7 +59,10 @@ def main():
             p = destination(output, row['path'])
             storage = row['storage']
             if storage['kind'] == 'git':
-                source = (ROOT / storage['path']).open('rb')
+                git_source = (ROOT / storage['path']).resolve()
+                if not git_source.is_relative_to(ROOT.resolve()):
+                    raise ValueError('unsafe Git evidence source')
+                source = git_source.open('rb')
             elif storage['kind'] == 'release-asset':
                 source = (cache / storage['name']).open('rb')
             else:
